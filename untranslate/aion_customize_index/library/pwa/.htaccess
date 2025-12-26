@@ -1,0 +1,33 @@
+# HANDLERS
+RewriteEngine On
+Options +FollowSymlinks
+RewriteBase /
+
+# REWRITE PWA
+# Must end with "/" to masquerade each PWA into its own folder allowing multiple-installs
+RewriteCond %{QUERY_STRING} !PWA
+RewriteCond %{REQUEST_URI} ^(\/Holy\-Bible\-\-\-[^/.]+)$ [NC,OR]
+RewriteCond %{REQUEST_URI} ^(\/Holy\-Bible\-\-\-[^/.]+)\.htm$ [NC]
+RewriteRule ^ %1/ [L,R=301]
+# Once masqueraded must point to the actual PWA HTM file
+RewriteCond %{REQUEST_URI} ^(\/Holy\-Bible\-\-\-[^/.]+)\/$ [NC]
+RewriteCond %{DOCUMENT_ROOT}%1\.htm -f
+RewriteRule ^ %1.htm?PWA [L]
+# Likewise point to actual PWA resource files
+RewriteCond %{REQUEST_URI} ^\/Holy\-Bible\-\-\-[^/.]+\/(.+)$ [NC]
+RewriteCond %{DOCUMENT_ROOT}\/%1 -f
+RewriteRule ^ /%1 [L]
+# If not an actual file then a dynamic resource
+RewriteCond %{DOCUMENT_ROOT}%{REQUEST_URI} !-f
+RewriteRule ^ index.php [L]
+
+# REWRITE INFINITE LOOP
+RewriteCond %{ENV:REDIRECT_STATUS} 200
+RewriteRule .* - [L]
+
+# php -- BEGIN cPanel-generated handler, do not edit
+# Set the “ea-php80” package as the default “PHP” programming language.
+<IfModule mime_module>
+  AddHandler application/x-httpd-ea-php80 .php .php8 .phtml
+</IfModule>
+# php -- END cPanel-generated handler, do not edit
