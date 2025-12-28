@@ -1,6 +1,6 @@
 # File Name: UNTRANSLATECOUNT.txt
 # File Size: 53448       
-# File Date: 12/13/2025 03:56:30
+# File Date: 12/28/2025 12:18:02
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution 4.0 International, 2018-2025
@@ -142,8 +142,8 @@ Holy-Bible---English---New-Heart-Standard	167	0	64	12	1	11	9	1	5	94	63	10	2	0	0	
 Holy-Bible---English---New-Heart-YHWH	167	0	64	12	1	11	9	1	5	94	63	10	2	0	0	0	272	264	264	0	0	0	0
 Holy-Bible---English---Noyes	82	0	53	12	1	11	9	1	5	94	63	10	2	0	0	0	261	253	253	0	11	0	0
 Holy-Bible---English---One-Unity-Resource-Bible	115	0	41	11	0	4	1	0	0	26	24	10	0	0	0	0	117	112	112	0	152	0	0
-Holy-Bible---English---Open-English-Bible-Commonwealth	76	0	19	12	1	11	9	1	5	94	63	10	2	0	0	0	227	219	219	0	45	0	0
-Holy-Bible---English---Open-English-Bible-US	76	0	19	12	1	11	9	1	5	94	63	10	2	0	0	0	227	219	219	0	45	0	0
+Holy-Bible---English---Open-English-Bible-Commonwealth	81	0	23	12	1	11	9	1	5	94	63	10	2	0	0	0	231	223	223	0	41	0	0
+Holy-Bible---English---Open-English-Bible-US	81	0	23	12	1	11	9	1	5	94	63	10	2	0	0	0	231	223	223	0	41	0	0
 Holy-Bible---English---Orthodox-Jewish-Bible	0	0	64	12	1	11	9	1	5	94	63	10	2	0	0	0	272	264	264	0	0	0	0
 Holy-Bible---English---Revised-Version	146	0	64	12	1	11	9	1	5	94	63	10	2	0	0	0	272	264	264	0	0	0	0
 Holy-Bible---English---Rotherham-Bible	168	0	64	12	1	11	9	1	5	94	63	10	2	0	0	0	272	264	264	0	0	0	0

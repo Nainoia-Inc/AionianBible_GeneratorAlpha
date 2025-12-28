@@ -1,6 +1,6 @@
 # File Name: IVERSE.txt
-# File Size: 1232539     
-# File Date: 12/13/2025 04:52:36
+# File Size: 1232841     
+# File Date: 12/28/2025 12:49:53
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution 4.0 International, 2018-2025
@@ -1176,7 +1176,7 @@ Holy-Bible---English---One-Unity-Resource-Bible	MAR-010-045	Mark 10:45	For the S
 Holy-Bible---English---One-Unity-Resource-Bible	ROM-001-001		
 Holy-Bible---English---One-Unity-Resource-Bible	MAT-028-019	Matthew 28:19	Go, and make disciples of all nations, baptizing them in the name of the Abba ·Father· and of the Son and of Ruach haKodesh [Spirit, Breath of the Holiness],
 Holy-Bible---English---Open-English-Bible-Commonwealth	JOH-003-016	John 3:16	For God so loved the world, that he gave his only Son, so that everyone who believes in him may not be lost, but have eternal life.
-Holy-Bible---English---Open-English-Bible-Commonwealth	GEN-003-024		
+Holy-Bible---English---Open-English-Bible-Commonwealth	GEN-003-024	Genesis 3:24	He drove out Adam and he placed at the east of the garden of Eden the cherubim, and the blazing whirling sword, to bar the way to the tree of life.
 Holy-Bible---English---Open-English-Bible-Commonwealth	LUK-023-034	Luke 23:34	Then Jesus said, ‘Father, forgive them; they do not know what they are doing.’ His clothes they divided among them by casting lots.
 Holy-Bible---English---Open-English-Bible-Commonwealth	REV-021-002	Revelation 21:2-3	And I saw the Holy City, Jerusalem, descending new out of heaven from God, like a bride adorned in readiness for her husband. And I heard a loud voice from the throne, which said – “See! The tent of God is set up among people. God will live among them, and they will be his Peoples, and God himself will be among them,
 Holy-Bible---English---Open-English-Bible-Commonwealth	HEB-011-008	Hebrews 11:8	It was faith that enabled Abraham to obey the call that he received, and to set out for the place which he was afterwards to obtain as his own; and he set out not knowing where he was going.
@@ -1185,7 +1185,7 @@ Holy-Bible---English---Open-English-Bible-Commonwealth	MAR-010-045	Mark 10:45	fo
 Holy-Bible---English---Open-English-Bible-Commonwealth	ROM-001-001	Romans 1:1	From Paul, a servant of Jesus Christ, who has been called to become an apostle, and has been set apart to tell God’s good news.
 Holy-Bible---English---Open-English-Bible-Commonwealth	MAT-028-019	Matthew 28:19	Therefore go and make disciples of all the nations, baptising them in the name of the Father, the Son, and the Holy Spirit,
 Holy-Bible---English---Open-English-Bible-US	JOH-003-016	John 3:16	For God so loved the world, that he gave his only Son, so that everyone who believes in him may not be lost, but have eternal life.
-Holy-Bible---English---Open-English-Bible-US	GEN-003-024		
+Holy-Bible---English---Open-English-Bible-US	GEN-003-024	Genesis 3:24	He drove out Adam and he placed at the east of the garden of Eden the cherubim, and the blazing whirling sword, to bar the way to the tree of life.
 Holy-Bible---English---Open-English-Bible-US	LUK-023-034	Luke 23:34	Then Jesus said, “Father, forgive them; they do not know what they are doing.” His clothes they divided among them by casting lots.
 Holy-Bible---English---Open-English-Bible-US	REV-021-002	Revelation 21:2-3	And I saw the Holy City, Jerusalem, descending new out of heaven from God, like a bride adorned in readiness for her husband. And I heard a loud voice from the throne, which said – ‘See! The tent of God is set up among people. God will live among them, and they will be his Peoples, and God himself will be among them,
 Holy-Bible---English---Open-English-Bible-US	HEB-011-008	Hebrews 11:8	It was faith that enabled Abraham to obey the call that he received, and to set out for the place which he was afterward to obtain as his own; and he set out not knowing where he was going.
@@ -1632,7 +1632,7 @@ Holy-Bible---French---Geneva-Bible	REV-021-002	Apocalypse 21:2-3	Et moi Jean vis
 Holy-Bible---French---Geneva-Bible	HEB-011-008	Hébreux 11:8	Par la foi Abraham eſtant appellé, obeït, pour venir au lieu qu’il devoit recevoir en heritage, partit, ne ſçachant où il alloit.
 Holy-Bible---French---Geneva-Bible	EXO-013-017		
 Holy-Bible---French---Geneva-Bible	MAR-010-045	Marc 10:45	Car auſſi le Fils de l’homme n’eſt point venu pour eſtre ſervi: mais pour ſervir, donner ſa vie en rançon pour pluſieurs.
-Holy-Bible---French---Geneva-Bible	ROM-001-001	Romains 1:1	PAUL ſerviteur de Jeſus Chriſt, appellé à eſtre apoſtre, mis à part, pour annoncer l’Evangile de Dieu.
+Holy-Bible---French---Geneva-Bible	ROM-001-001	Romains 1:1	PAUL ſerviteur de Jeſus Chriſt, appellé à eſtre Apoſtre, mis à part, pour annoncer l’Evangile de Dieu.
 Holy-Bible---French---Geneva-Bible	MAT-028-019	Matthieu 28:19	Allez donc, endoctrinez toutes nations, les baptiſans au nom du Pere, du Fils, du ſaint Eſprit.
 Holy-Bible---French---Vulgate-Glaire	JOH-003-016	Jean 3:16	Car Dieu a tellement aimé le monde, qu’il a donné son Fils unique, afin que quiconque croit en lui ne périsse point, mais qu’il ait la vie éternelle.
 Holy-Bible---French---Vulgate-Glaire	GEN-003-024	Genèse 3:24	Il renvoya donc Adam, et il plaça à l’entrée du jardin de délices les Chérubins avec un glaive flamboyant qu’ils brandissaient, pour garder la voie de l’arbre de la vie.
@@ -2012,15 +2012,15 @@ Holy-Bible---Greek---Greek-Scrivener	EXO-013-017
 Holy-Bible---Greek---Greek-Scrivener	MAR-010-045	Κατα Μαρκον 10:45	και γαρ ο υιος του ανθρωπου ουκ ηλθεν διακονηθηναι αλλα διακονησαι και δουναι την ψυχην αυτου λυτρον αντι πολλων
 Holy-Bible---Greek---Greek-Scrivener	ROM-001-001	Προς Ρωμαιους 1:1	παυλος δουλος ιησου χριστου κλητος αποστολος αφωρισμενος εις ευαγγελιον θεου
 Holy-Bible---Greek---Greek-Scrivener	MAT-028-019	Κατα Ματθαιον 28:19	πορευθεντες ουν μαθητευσατε παντα τα εθνη βαπτιζοντες αυτους εις το ονομα του πατρος και του υιου και του αγιου πνευματος
-Holy-Bible---Greek---Greek-Statistical-Restoration	JOH-003-016	Κατα Ιωαννην 3:16	Οὕτως γὰρ ἠγάπησεν ὁ ˚Θεὸς τὸν κόσμον, ὥστε τὸν Υἱὸν τὸν μονογενῆ ἔδωκεν, ἵνα πᾶς ὁ πιστεύων εἰς αὐτὸν μὴ ἀπόληται, ἀλλʼ ἔχῃ ζωὴν αἰώνιον.
+Holy-Bible---Greek---Greek-Statistical-Restoration	JOH-003-016	Κατα Ιωαννην 3:16	Οὕτως γὰρ ἠγάπησεν ὁ Θεὸς τὸν κόσμον, ὥστε τὸν Υἱὸν τὸν μονογενῆ ἔδωκεν, ἵνα πᾶς ὁ πιστεύων εἰς αὐτὸν μὴ ἀπόληται, ἀλλʼ ἔχῃ ζωὴν αἰώνιον.
 Holy-Bible---Greek---Greek-Statistical-Restoration	GEN-003-024		
 Holy-Bible---Greek---Greek-Statistical-Restoration	LUK-023-034	Κατα Λουκαν 23:34	Διαμεριζόμενοι δὲ τὰ ἱμάτια αὐτοῦ, ἔβαλον κλῆρον.
-Holy-Bible---Greek---Greek-Statistical-Restoration	REV-021-002	Αποκαλυψις Ιωαννου 21:2-3	Καὶ τὴν πόλιν τὴν ἁγίαν, Ἰερουσαλὴμ καινὴν, εἶδον καταβαίνουσαν ἐκ τοῦ οὐρανοῦ ἀπὸ τοῦ ˚Θεοῦ, ἡτοιμασμένην ὡς νύμφην, κεκοσμημένην τῷ ἀνδρὶ αὐτῆς. Καὶ ἤκουσα φωνῆς μεγάλης ἐκ τοῦ θρόνου λεγούσης, “Ἰδοὺ, ἡ σκηνὴ τοῦ ˚Θεοῦ μετὰ τῶν ἀνθρώπων, καὶ σκηνώσει μετʼ αὐτῶν, καὶ αὐτοὶ λαοὶ αὐτοῦ ἔσονται, καὶ αὐτὸς ὁ ˚Θεὸς ἔσται μετʼ αὐτῶν,
+Holy-Bible---Greek---Greek-Statistical-Restoration	REV-021-002	Αποκαλυψις Ιωαννου 21:2-3	Καὶ τὴν πόλιν τὴν ἁγίαν, Ἰερουσαλὴμ καινὴν, εἶδον καταβαίνουσαν ἐκ τοῦ οὐρανοῦ ἀπὸ τοῦ Θεοῦ, ἡτοιμασμένην ὡς νύμφην, κεκοσμημένην τῷ ἀνδρὶ αὐτῆς. Καὶ ἤκουσα φωνῆς μεγάλης ἐκ τοῦ θρόνου λεγούσης, “Ἰδοὺ, ἡ σκηνὴ τοῦ Θεοῦ μετὰ τῶν ἀνθρώπων, καὶ σκηνώσει μετʼ αὐτῶν, καὶ αὐτοὶ λαοὶ αὐτοῦ ἔσονται, καὶ αὐτὸς ὁ Θεὸς ἔσται μετʼ αὐτῶν,
 Holy-Bible---Greek---Greek-Statistical-Restoration	HEB-011-008	Προς Εβραιους 11:8	Πίστει καλούμενος, Ἀβραὰμ, ὑπήκουσεν ἐξελθεῖν εἰς τόπον ὃν ἤμελλεν λαμβάνειν εἰς κληρονομίαν, καὶ ἐξῆλθεν μὴ ἐπιστάμενος ποῦ ἔρχεται.
 Holy-Bible---Greek---Greek-Statistical-Restoration	EXO-013-017		
 Holy-Bible---Greek---Greek-Statistical-Restoration	MAR-010-045	Κατα Μαρκον 10:45	Καὶ γὰρ ὁ Υἱὸς τοῦ Ἀνθρώπου οὐκ ἦλθεν διακονηθῆναι, ἀλλὰ διακονῆσαι, καὶ δοῦναι τὴν ψυχὴν αὐτοῦ λύτρον ἀντὶ πολλῶν.”
-Holy-Bible---Greek---Greek-Statistical-Restoration	ROM-001-001	Προς Ρωμαιους 1:1	Παῦλος, δοῦλος ˚Χριστοῦ ˚Ἰησοῦ, κλητὸς ἀπόστολος, ἀφωρισμένος εἰς εὐαγγέλιον ˚Θεοῦ,
-Holy-Bible---Greek---Greek-Statistical-Restoration	MAT-028-019	Κατα Ματθαιον 28:19	Πορευθέντες οὖν, μαθητεύσατε πάντα τὰ ἔθνη, βαπτίζοντες αὐτοὺς εἰς τὸ ὄνομα τοῦ Πατρὸς, καὶ τοῦ Υἱοῦ, καὶ τοῦ Ἁγίου ˚Πνεύματος,
+Holy-Bible---Greek---Greek-Statistical-Restoration	ROM-001-001	Προς Ρωμαιους 1:1	Παῦλος, δοῦλος Χριστοῦ Ἰησοῦ, κλητὸς ἀπόστολος, ἀφωρισμένος εἰς εὐαγγέλιον Θεοῦ,
+Holy-Bible---Greek---Greek-Statistical-Restoration	MAT-028-019	Κατα Ματθαιον 28:19	Πορευθέντες οὖν, μαθητεύσατε πάντα τὰ ἔθνη, βαπτίζοντες αὐτοὺς εἰς τὸ ὄνομα τοῦ Πατρὸς, καὶ τοῦ Υἱοῦ, καὶ τοῦ Ἁγίου Πνεύματος,
 Holy-Bible---Greek---Greek-Stephanus	JOH-003-016	Κατα Ιωαννην 3:16	ουτως γαρ ηγαπησεν ο θεος τον κοσμον ωστε τον υιον αυτου τον μονογενη εδωκεν ινα πας ο πιστευων εις αυτον μη αποληται αλλ εχη ζωην αιωνιον
 Holy-Bible---Greek---Greek-Stephanus	GEN-003-024		
 Holy-Bible---Greek---Greek-Stephanus	LUK-023-034	Κατα Λουκαν 23:34	ο δε ιησους ελεγεν πατερ αφες αυτοις ου γαρ οιδασιν τι ποιουσιν διαμεριζομενοι δε τα ιματια αυτου εβαλον κληρον

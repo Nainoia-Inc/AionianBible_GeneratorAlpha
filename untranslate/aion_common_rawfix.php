@@ -9751,8 +9751,8 @@ EOF;
 if (!($bfile = preg_replace("/Acts 19:40 (.+?)Acts 20:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $textfix = <<<EOF
 II Corinthians 13:12 Ἀσπάσασθε ἀλλήλους ἐν ἁγίῳ φιλήματι.
-II Corinthians 13:13 Ἀσπάζονται ὑμᾶς οἱ ἅγιοι πάντες. 
-II Corinthians 13:14 Ἡ χάρις τοῦ ˚Κυρίου ˚Ἰησοῦ ˚Χριστοῦ, καὶ ἡ ἀγάπη τοῦ ˚Θεοῦ, καὶ ἡ κοινωνία τοῦ Ἁγίου ˚Πνεύματος, μετὰ πάντων ὑμῶν. 
+II Corinthians 13:13 Ἀσπάζονται ὑμᾶς οἱ ἅγιοι πάντες.
+II Corinthians 13:14 Ἡ χάρις τοῦ Κυρίου Ἰησοῦ Χριστοῦ, καὶ ἡ ἀγάπη τοῦ Θεοῦ, καὶ ἡ κοινωνία τοῦ Ἁγίου Πνεύματος, μετὰ πάντων ὑμῶν.
 Galatians 1:1 
 EOF;
 if (!($bfile = preg_replace("/II Corinthians 13:12 (.+?)Galatians 1:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
