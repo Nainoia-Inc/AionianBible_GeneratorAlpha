@@ -1,9 +1,9 @@
 # File Name: TESTWORDS.txt
 # File Size: 289282      
-# File Date: 12/28/2025 12:47:48
+# File Date: 01/01/2026 19:36:17
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
-# File Copyright: Creative Commons Attribution 4.0 International, 2018-2025
+# File Copyright: Creative Commons Attribution 4.0 International, 2018-2026
 # File Generator: ABCMS (alpha)
 # File Accuracy: Contact publisher with corrections to file format or content
 # Publisher Name: Nainoia Inc
@@ -458,7 +458,7 @@ Holy-Bible---Sanskrit---Velthuis-Script	0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GR
 Holy-Bible---Sari---Sari-Bible	0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	NULL=0/0/0, GROUP=0/0/0
 Holy-Bible---Satawalese---Satawalese-Bible	0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	NULL=0/0/0, GROUP=0/0/0
 Holy-Bible---Scots-Gaelic---Scots-Gaelic-Gospel-Mark	0	GROUP=0/0/0	GROUP=0/0/0	iutharna=3/3/0, GROUP=3/3/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	NULL=1/0/1, GROUP=1/0/1
-Holy-Bible---Serbian---Karadzic-Danicic-Latin-Script	0	GROUP=0/0/0	GROUP=0/0/0	paklenoga=1/1/0, pakla=11/11/0, pakao=20/20/0, paklu=7/7/0, paklene=1/1/0, paklenih=1/1/0, paklenijeh=2/2/0, pakleni=3/3/0, paklena=1/1/0, paklenijem=1/1/0, pakle=1/1/0, GROUP=49/49/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	NULL=0/0/0, GROUP=0/0/0
+Holy-Bible---Serbian---Karadzic-Danicic-Latin-Script	0	GROUP=0/0/0	GROUP=0/0/0	paklenoga=0/0/0, pakla=11/11/0, pakao=20/20/0, paklu=7/7/0, paklene=1/1/0, paklenih=3/3/0, paklenijeh=0/0/0, pakleni=3/3/0, paklena=1/1/0, paklenijem=0/0/0, pakle=1/1/0, GROUP=47/47/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	NULL=0/0/0, GROUP=0/0/0
 Holy-Bible---Serbian---Serbian-Ekavski-Bible	0	GROUP=0/0/0	GROUP=0/0/0	пакао=20/20/0, паклу=7/7/0, пакленим=1/1/0, пакла=11/11/0, паклена=1/1/0, пакле=1/1/0, GROUP=41/41/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	NULL=0/0/0, GROUP=0/0/0
 Holy-Bible---Serbian---Serbian-ONSP-Cyrillic	0	GROUP=0/0/0	GROUP=0/0/0	пакао=9/9/0, паклу=1/1/0, пакленим=1/1/0, пакла=0/0/0, паклена=0/0/0, пакле=0/0/0, GROUP=11/11/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	NULL=0/0/0, GROUP=0/0/0
 Holy-Bible---Serbian---Serbian-ONST-Latin	0	GROUP=0/0/0	GROUP=0/0/0	paklenoga=0/0/0, pakla=0/0/0, pakao=9/9/0, paklu=1/1/0, paklene=0/0/0, paklenih=0/0/0, paklenijeh=0/0/0, pakleni=0/0/0, paklena=0/0/0, paklenijem=0/0/0, pakle=0/0/0, GROUP=10/10/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	NULL=0/0/0, GROUP=0/0/0

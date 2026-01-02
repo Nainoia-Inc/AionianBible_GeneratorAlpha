@@ -1,9 +1,9 @@
 # File Name: SKIPPED.txt
-# File Size: 1878046     
-# File Date: 12/28/2025 10:21:19
+# File Size: 1878030     
+# File Date: 01/01/2026 17:08:30
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
-# File Copyright: Creative Commons Attribution 4.0 International, 2018-2025
+# File Copyright: Creative Commons Attribution 4.0 International, 2018-2026
 # File Generator: ABCMS (alpha)
 # File Accuracy: Contact publisher with corrections to file format or content
 # Publisher Name: Nainoia Inc
@@ -12472,9 +12472,9 @@ Holy-Bible---Sanskrit---Velthuis-Script	066	REV	012	018
 Holy-Bible---Sari---Sari-Bible	044	ACT	015	034	
 Holy-Bible---Sari---Sari-Bible	064	3JO	001	014	Ŋiŋgɔɔ le shɛɔ niiŋ mbɛ ŋɛŋ wɛ, tɛ wɛ se ni tɛ yeti wi ŋiŋgi wi li lii.
 Holy-Bible---Sari---Sari-Bible	066	REV	012	018	Yi se gɛɛŋ yi lemi li ŋgemɛ yi dzɔɔ yi nyɔŋa-a.
-Holy-Bible---Serbian---Karadzic-Danicic-Latin-Script	009	1SA	020	042	I reèe Jonatan Davidu: idi s mirom, kao što smo se zakleli obojica imenom Gospodnjim rekavši: Gospod da je svjedok izmeðu mene i tebe i izmeðu mojega sjemena i tvojega sjemena dovijeka.
-Holy-Bible---Serbian---Karadzic-Danicic-Latin-Script	011	1KI	022	043	I hoðaše putem Ase oca svojega sasvijem, i ne otstupi od njega èineæi sve što je pravo pred Gospodom.
-Holy-Bible---Serbian---Karadzic-Danicic-Latin-Script	064	3JO	001	014	Nego se nadam da æu te skoro vidjeti, i iz usta govoriti.
+Holy-Bible---Serbian---Karadzic-Danicic-Latin-Script	009	1SA	020	042	I reče Jonatan Davidu: Idi s mirom, kao što smo se zakleli obojica imenom Gospodnjim rekavši: Gospod da je svedok između mene i tebe i između mog semena i tvog semena doveka.
+Holy-Bible---Serbian---Karadzic-Danicic-Latin-Script	011	1KI	022	043	I hođaše putem Ase, oca svog sasvim, i ne odstupi od njega čineći sve što je pravo pred Gospodom.
+Holy-Bible---Serbian---Karadzic-Danicic-Latin-Script	064	3JO	001	014	nego se nadam da ću te skoro videti; i iz usta govoriti.
 Holy-Bible---Serbian---Serbian-Ekavski-Bible	064	3JO	001	014	Него се надам да ћу те скоро видети; и из уста говорити.
 Holy-Bible---Serbian---Serbian-ONSP-Cyrillic	064	3JO	001	014	но се надам да ћу те ускоро видети, па ћемо усмено разговарати.
 Holy-Bible---Serbian---Serbian-ONSP-Cyrillic	066	REV	012	018	Аждаја стаде на обалу мора.

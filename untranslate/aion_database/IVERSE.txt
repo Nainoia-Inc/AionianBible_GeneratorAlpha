@@ -1,9 +1,9 @@
 # File Name: IVERSE.txt
-# File Size: 1232841     
-# File Date: 12/28/2025 12:49:53
+# File Size: 1232807     
+# File Date: 01/01/2026 19:38:22
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
-# File Copyright: Creative Commons Attribution 4.0 International, 2018-2025
+# File Copyright: Creative Commons Attribution 4.0 International, 2018-2026
 # File Generator: ABCMS (alpha)
 # File Accuracy: Contact publisher with corrections to file format or content
 # Publisher Name: Nainoia Inc
@@ -4019,15 +4019,15 @@ Holy-Bible---Scots-Gaelic---Scots-Gaelic-Gospel-Mark	EXO-013-017
 Holy-Bible---Scots-Gaelic---Scots-Gaelic-Gospel-Mark	MAR-010-045	Marcus 10:45	Oir cha tainig Mac an duine e fhein los gun diante frithealadh dha, ach gu frithealadh, 's gus a bheatha leigeil sios 'na h-eirig air son mhorain.
 Holy-Bible---Scots-Gaelic---Scots-Gaelic-Gospel-Mark	ROM-001-001		
 Holy-Bible---Scots-Gaelic---Scots-Gaelic-Gospel-Mark	MAT-028-019		
-Holy-Bible---Serbian---Karadzic-Danicic-Latin-Script	JOH-003-016	Jovanu 3:16	Jer Bogu tako omilje svijet da je i sina svojega jedinorodnoga dao, da nijedan koji ga vjeruje ne pogine, nego da ima život vjeèni.
-Holy-Bible---Serbian---Karadzic-Danicic-Latin-Script	GEN-003-024	Postanak 3:24	I izagnav èovjeka postavi pred vrtom Edemskim heruvima s plamenijem maèem, koji se vijaše i tamo i amo, da èuva put ka drvetu od života.
-Holy-Bible---Serbian---Karadzic-Danicic-Latin-Script	LUK-023-034	Luki 23:34	A Isus govoraše: oèe! oprosti im; jer ne znadu šta èine. A dijeleæi njegove haljine bacahu kocke.
-Holy-Bible---Serbian---Karadzic-Danicic-Latin-Script	REV-021-002	Apokalipsa 21:2-3	I ja Jovan vidjeh grad sveti, Jerusalim nov, gdje silazi od Boga s neba, pripravljen kao nevjesta ukrašena mužu svojemu. I èuh glas veliki s neba gdje govori: evo skinije Božije meðu ljudima, i življeæe s njima, i oni æe biti narod njegov, i sam Bog biæe s njima Bog njihov.
-Holy-Bible---Serbian---Karadzic-Danicic-Latin-Script	HEB-011-008	Jevrejima 11:8	Vjerom posluša Avraam kad bi pozvan da iziðe u zemlju koju šæaše da primi u našljedstvo, i iziðe ne znajuæi kuda ide.
-Holy-Bible---Serbian---Karadzic-Danicic-Latin-Script	EXO-013-017	Izlazak 13:17	A kad Faraon pusti narod, ne odvede ih Bog putem k zemlji Filistejskoj, ako i bješe kraæi, jer Bog reèe: da se ne pokaje narod kad vidi rat, i ne vrati se u Misir.
-Holy-Bible---Serbian---Karadzic-Danicic-Latin-Script	MAR-010-045	Marku 10:45	Jer sin èovjeèij nije došao da mu služe nego da služi, i da da dušu svoju u otkup za mnoge.
-Holy-Bible---Serbian---Karadzic-Danicic-Latin-Script	ROM-001-001	Rimljanima 1:1	Od Pavla, sluge Isusa Hrista, pozvanoga apostola izabranoga za jevanðelje Božije,
-Holy-Bible---Serbian---Karadzic-Danicic-Latin-Script	MAT-028-019	Mateju 28:19	Idite dakle i nauèite sve narode krsteæi ih va ime oca i sina i svetoga Duha,
+Holy-Bible---Serbian---Karadzic-Danicic-Latin-Script	JOH-003-016	Jovanu 3:16	Jer Bogu tako omile svet da je i Sina svog Jedinorodnog dao, da nijedan koji Ga veruje ne pogine, nego da ima život večni.
+Holy-Bible---Serbian---Karadzic-Danicic-Latin-Script	GEN-003-024	Postanak 3:24	i izagnav čoveka postavi pred vrtom edemskim heruvima s plamenim mačem, koji se vijaše i tamo i amo, da čuva put ka drvetu od života.
+Holy-Bible---Serbian---Karadzic-Danicic-Latin-Script	LUK-023-034	Luki 23:34	A Isus govoraše: Oče! Oprosti im; jer ne znadu šta čine. A deleći Njegove haljine bacahu kocke.
+Holy-Bible---Serbian---Karadzic-Danicic-Latin-Script	REV-021-002	Apokalipsa 21:2-3	I ja Jovan videh grad sveti, Jerusalim nov, gde silazi od Boga s neba, pripravljen kao nevesta ukrašena mužu svom. I čuh glas veliki s neba gde govori: Evo skinije Božije među ljudima, i živeće s njima, i oni će biti narod Njegov, i sam Bog biće s njima Bog njihov.
+Holy-Bible---Serbian---Karadzic-Danicic-Latin-Script	HEB-011-008	Jevrejima 11:8	Verom posluša Avraam kad bi pozvan da iziđe u zemlju koju htede da primi u nasledstvo, i iziđe ne znajući kuda ide.
+Holy-Bible---Serbian---Karadzic-Danicic-Latin-Script	EXO-013-017	Izlazak 13:17	A kad Faraon pusti narod, ne odvede ih Bog putem k zemlji filistejskoj, ako i beše kraći, jer Bog reče: Da se ne pokaje narod kad vidi rat, i ne vrati se u Misir.
+Holy-Bible---Serbian---Karadzic-Danicic-Latin-Script	MAR-010-045	Marku 10:45	Jer Sin čovečji nije došao da Mu služe nego da služi, i da da dušu svoju u otkup za mnoge.
+Holy-Bible---Serbian---Karadzic-Danicic-Latin-Script	ROM-001-001	Rimljanima 1:1	Od Pavla, sluge Isusa Hrista, pozvanog apostola izabranog za jevanđelje Božije,
+Holy-Bible---Serbian---Karadzic-Danicic-Latin-Script	MAT-028-019	Mateju 28:19	Idite dakle i naučite sve narode krsteći ih va ime Oca i Sina i Svetog Duha,
 Holy-Bible---Serbian---Serbian-Ekavski-Bible	JOH-003-016	Јован 3:16	Јер Богу тако омиле свет да је и Сина свог Јединородног дао, да ниједан који Га верује не погине, него да има живот вечни.
 Holy-Bible---Serbian---Serbian-Ekavski-Bible	GEN-003-024	1 Мојсијева 3:24	И изагнав човека постави пред вртом едемским херувима с пламеним мачем, који се вијаше и тамо и амо, да чува пут ка дрвету од живота.
 Holy-Bible---Serbian---Serbian-Ekavski-Bible	LUK-023-034	Лука 23:34	А Исус говораше: Оче! Опрости им; јер не знаду шта чине. А делећи Његове хаљине бацаху коцке.

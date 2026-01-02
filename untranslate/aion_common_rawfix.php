@@ -18709,40 +18709,8 @@ goto RAWHIDE;
 // RAWFIX BIBLE ********************
 case "Holy-Bible---Serbian---Karadzic-Danicic-Latin-Script" :
 $jobfix = <<<EOF
-MAT 12:49 I pruživši ruku svoju na uèenike svoje reèe: eto mati moja i braæa moja.
-MAT 12:50 Jer ko izvršuje volju oca mojega koji je na nebesima, onaj je brat moj i sestra i mati.
-MAT 13:1 
-EOF;
-if (!($bfile = preg_replace("/MAT 12:49 (.+?)MAT 13:1 /us",$jobfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
-$jobfix = <<<EOF
-ACT 19:40 Jer se bojimo da ne budemo tuženi za današnju bunu; a nijednoga uzroka nema kojijem bismo se mogli opravdati za ovu bunu.
-ACT 19:41 I ovo rekavši raspusti narod koji se bješe sabrao.
-ACT 20:1 
-EOF;
-if (!($bfile = preg_replace("/ACT 19:40 (.+?)ACT 20:1 /us",$jobfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
-$jobfix = <<<EOF
-2CO 11:32 U Damasku neznabožaèki knez cara Arete èuvaše grad Damask i šæaše da me uhvati;
-2CO 11:33 i kroz prozor spustiše me u kotarici preko zida, i izbjegoh iz njegovijeh ruku.
-2CO 12:1 
-EOF;
-if (!($bfile = preg_replace("/2CO 11:32 (.+?)2CO 12:1 /us",$jobfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
-$jobfix = <<<EOF
-2CO 13:12 Pozdravite jedan drugoga cjelivom svetijem.
-2CO 13:13 Pozdravljaju vas svi sveti.
-2CO 13:14 Blagodat Gospoda našega Isusa Hrista i ljubav Boga i oca i zajednica svetoga Duha sa svima vama. Amin.
-GAL 1:1 
-EOF;
-if (!($bfile = preg_replace("/2CO 13:12 (.+?)GAL 1:1 /us",$jobfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
-$jobfix = <<<EOF
-PHM 1:23 Pozdravlja te Epafras koji je sa mnom sužanj u Hristu Isusu,
-PHM 1:24 Marko, Aristarh, Dimas, Luka, pomagaèi moji.
-PHM 1:25 Blagodat Gospoda našega Isusa Hrista sa duhom vašijem. Amin.
-HEB 1:1 
-EOF;
-if (!($bfile = preg_replace("/PHM 1:23 (.+?)HEB 1:1 /us",$jobfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
-$jobfix = <<<EOF
-HEB 1:1 Bog koji je negda mnogo puta i razliènijem naèinom govorio ocevima preko proroka,
-HEB 1:2 govori i nama u pošljedak dana ovijeh preko sina, Kojega postavi našljednika svemu, kroz kojega i svijet stvori.
+HEB 1:1 Bog koji je nekada mnogo puta i različitim načinom govorio očevima preko proroka,
+HEB 1:2 govori i nama u posledak dana ovih preko sina, kog postavi naslednika svemu, kroz kog i svet stvori.
 HEB 1:3 
 EOF;
 if (!($bfile = preg_replace("/HEB 1:1 (.+?)HEB 1:3 /us",$jobfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
