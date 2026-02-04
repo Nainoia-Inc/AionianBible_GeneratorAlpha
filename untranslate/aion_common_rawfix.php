@@ -7163,6 +7163,12 @@ Psalms 56:1
 EOF;
 if (!($bfile = preg_replace("/Psalms 55:11 (.+?)Psalms 56:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $textfix = <<<EOF
+Psalms 91:1 Il est bon de louer le Seigneur,
+Psalms 91:2 et de chanter votre nom, ô Très-Haut,
+Psalms 91:3 
+EOF;
+if (!($bfile = preg_replace("/Psalms 91:1 (.+?)Psalms 91:3 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
 Ecclesiastes 7:30 J’ai trouvé cela seulement, que Dieu a fait l’homme droit, et que celui-ci s’est embarrassé lui-même dans des questions infinies.
 Ecclesiastes 8:1 Qui est tel que le sage ? et qui connaît la solution de la parole ? La sagesse de l’homme luit sur son visage, et le tout-puissant changera sa face.
 Ecclesiastes 8:2 

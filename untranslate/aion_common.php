@@ -3490,15 +3490,15 @@ function AION_LOOP_HTMS($source, $destiny, $destiny2) {
 	$grandmarker['CHAP_NO']		= $grandtotal['CHAP_NO']-178;
 	$grandmarker['VERS_NO']		= $grandtotal['VERS_NO']-7013;
 	$grandmarker['VERS_EX']		= $grandtotal['VERS_EX']-1096;
-	$grandmarker['FIXED']		= $grandtotal['FIXED']-14696;
+	$grandmarker['FIXED']		= $grandtotal['FIXED']-14698;
 	$grandmarker['NOTFIXED']	= $grandtotal['NOTFIXED']-57763;
 	$grandmarker['CHAP_RE']		= $grandtotal['CHAP_RE']-11707;
 	$grandmarker['REVE_NO']		= $grandtotal['REVE_NO']-712;
 	$grandmarker['REVE_EX']		= $grandtotal['REVE_EX']-715;
 	$grandmarker['CUSTO']		= $grandtotal['CUSTO']-1598;
-	$grandmarker['PDFPA']		= $grandtotal['PDFPA']-261194;
-	$grandmarker['PDFPN']		= $grandtotal['PDFPN']-60252;
-	$grandmarker['PDFPI']		= (float)$grandtotal['PDFPI']-5970.46;
+	$grandmarker['PDFPA']		= $grandtotal['PDFPA']-261296;
+	$grandmarker['PDFPN']		= $grandtotal['PDFPN']-60248;
+	$grandmarker['PDFPI']		= (float)$grandtotal['PDFPI']-5972.50;
 	$grandmarker['PDF_PKDP']	= $grandtotal['PDF_PKDP']-165;
 	$grandmarker['PDF_PKNT']	= $grandtotal['PDF_PKNT']-92;
 	$grandmarker['PDF_PKJO']	= $grandtotal['PDF_PKJO']-16;
@@ -3717,9 +3717,9 @@ function AION_LOOP_HTMS_DOIT($args) {
 	$noderive  = (stripos($args['database']['T_VERSIONS'][$bible]['COPYRIGHT'],'Derivative')!==FALSE ? "" : " Apocryphal text is removed and verses renumbered to the English standard.");
 	$blurbpdox = (empty($args['database']['T_FORPRINT'][$bible]['PDOEXTENSION']) ? "" : " ".trim($args['database']['T_FORPRINT'][$bible]['PDOEXTENSION']));
 	$blurbdesc = (empty($args['database']['T_VERSIONS'][$bible]['DESCRIPTION']) ? "" : " ".trim($args['database']['T_VERSIONS'][$bible]['DESCRIPTION']).".");
-	$blurb = "<b>The <i>Holy Bible Aionian Edition</i> is the world's first Bible <i>un-translation</i>!</b> This Bible helps us understand God's love for everyone and after-life destinies. What is an <i>un-translation</i>? This Bible shows the locations of eleven key Greek and Hebrew words. The primary word shown is <i>aionios</i>, typically translated <i>eternal</i>, yet <i>aionios</i> means something more wonderful than infinite time! Greeks used <i>aionios</i> to mean <i>entirety</i>, even <i>consummate</i>, but never merely <i>infinite</i> time. So the <i>aionios</i> life promised in John 3:16 is not simply a ticket to future <i>eternal</i> life, but the invitation to <i>consummate</i> life now! <i>Aionios</i> life with Christ is better than forever. This Bible is in the ".trim($args['database']['T_VERSIONS'][$bible]['LANGUAGEENGLISH'])." language, with source: <i>".trim($args['database']['T_VERSIONS'][$bible]['SOURCE'])."</i>$blurbyear, from ".trim($args['database']['T_VERSIONS'][$bible]['SOURCEDOMAIN']).", free at AionianBible.org, and also known as <i>The Purple Bible</i>.  $noderive$blurbpdox All profits are given to CoolCup.org.<BR>";
+	$blurb = "<b>The <i>Holy Bible Aionian Edition</i> is the world's first Bible <i>un-translation</i>!</b> What is an <i>un-translation</i>? This Bible helps us understand God's love for all mankind and after-life destinies, and shows the locations of eleven key Greek and Hebrew words. The primary word shown is <i>aionios</i>, typically translated <i>eternal</i>, yet <i>aionios</i> means something more wonderful than infinite time! Greeks used <i>aionios</i> to mean <i>entirety</i>, even <i>consummate</i>, but never merely <i>infinite</i> time. So the <i>aionios</i> life promised in John 3:16 is not simply a ticket to future <i>eternal</i> life, but the invitation to <i>consummate</i> life now! <i>Aionios</i> life with Christ is better than forever. This Bible is in the ".trim($args['database']['T_VERSIONS'][$bible]['LANGUAGEENGLISH'])." language, with source: <i>".trim($args['database']['T_VERSIONS'][$bible]['SOURCE'])."</i>$blurbyear, from ".trim($args['database']['T_VERSIONS'][$bible]['SOURCEDOMAIN']).", free at AionianBible.org, and also known as <i>The Purple Bible</i>. $noderive$blurbpdox All profits are given to CoolCup.org.<BR>";
 	if (AION_LOOP_HTMS_DOIT_OTONLY($database['T_BIBLE'])) {
-	$blurb = "<b>The <i>Holy Bible Aionian Edition</i> is the world's first Bible <i>un-translation</i>!</b> This Bible helps us understand God's love for everyone and after-life destinies. What is an <i>un-translation</i>? This Bible shows the location of the Hebrew word <i>Sheol</i>, typically translated as <i>Hell</i>. However, Hell is ill-defined when compared with the underlying Hebrew meaning. Instead, Sheol is the abode of deceased believers and unbelievers and should never be translated as Hell. The implications are more than noteworthy. This Bible is in the ".trim($args['database']['T_VERSIONS'][$bible]['LANGUAGEENGLISH'])." language, with source: <i>".trim($args['database']['T_VERSIONS'][$bible]['SOURCE'])."</i>$blurbyear, from ".trim($args['database']['T_VERSIONS'][$bible]['SOURCEDOMAIN']).", free at AionianBible.org, and also known as <i>The Purple Bible</i>.  $noderive$blurbpdox All profits are given to CoolCup.org.<BR>";
+	$blurb = "<b>The <i>Holy Bible Aionian Edition</i> is the world's first Bible <i>un-translation</i>!</b> What is an <i>un-translation</i>? This Bible helps us understand God's love for all mankind and after-life destinies, and shows the location of the Hebrew word <i>Sheol</i>, typically translated as <i>Hell</i>. However, Hell is ill-defined when compared with the underlying Hebrew meaning. Instead, Sheol is the abode of deceased believers and unbelievers and should never be translated as Hell. The implications are more than noteworthy. This Bible is in the ".trim($args['database']['T_VERSIONS'][$bible]['LANGUAGEENGLISH'])." language, with source: <i>".trim($args['database']['T_VERSIONS'][$bible]['SOURCE'])."</i>$blurbyear, from ".trim($args['database']['T_VERSIONS'][$bible]['SOURCEDOMAIN']).", free at AionianBible.org, and also known as <i>The Purple Bible</i>.  $noderive$blurbpdox All profits are given to CoolCup.org.<BR>";
 	}
 	$PDFPA = AION_PDF_PAGECOUNT("../www-stageresources/$bible---POD_KDP_ALL_BODY.pdf");
 	$PDFPN = AION_PDF_PAGECOUNT("../www-stageresources/$bible---POD_KDP_NEW_BODY.pdf");
