@@ -1377,7 +1377,7 @@ Usage: 71 times in 19 books, 44 chapters, and 69 verses<br>
 Language: Koine Greek<br>
 Speech: verb<br>
 Strongs: g1653<br>
-Meaning:<br><div style='margin-left: 15px;'>To have pity on, to show mercy. Typically, the subjunctive mood indicates possiblity, not certainty. However, a subjunctive in a purpose clause is a resulting action as certain as the causal action. The subjunctive in a purpose clause functions as an indicative, not an optative. Thus, the grand conclusion of grace theology in Romans 11:32 must be clarified. God's mercy on all is not a possibility, but a certainty. See <a href='https://www.ntgreek.org' target='_blank'>www.ntgreek.org</a>.</div>
+Meaning:<br><div style='margin-left: 15px;'>To have pity on, to show mercy. Typically, the subjunctive mood indicates possibility, not certainty. However, a subjunctive in a purpose clause is a resulting action as certain as the causal action. The subjunctive in a purpose clause functions as an indicative, not an optative. Thus, the grand conclusion of grace theology in Romans 11:32 must be clarified. God's mercy on all is not a possibility, but a certainty. See <a href='https://www.ntgreek.org' target='_blank'>www.ntgreek.org</a>.</div>
 Usage: 1 time in this conjugation, {$G_LINKS->X_ROM_11}<br>
 {$G_PWA->g1653}<br>
 

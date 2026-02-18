@@ -1,6 +1,6 @@
 # File Name: SKIPPED.txt
-# File Size: 1877882     
-# File Date: 02/06/2026 21:39:20
+# File Size: 1878029     
+# File Date: 02/17/2026 08:12:30
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution 4.0 International, 2018-2026
@@ -4807,7 +4807,7 @@ Holy-Bible---French---Vulgate-Glaire	019	PSA	052	001	Pour la fin. Intelligence �
 Holy-Bible---French---Vulgate-Glaire	019	PSA	052	002	Lorsque Doëg l’Iduméen vint annoncer à Saül que David était venu dans la maison d’Achimélech.
 Holy-Bible---French---Vulgate-Glaire	019	PSA	053	001	Pour la fin, pour Maheleth. Intelligence à David.  L’insensé a dit dans son cœur : Il n’y a point de Dieu.
 Holy-Bible---French---Vulgate-Glaire	019	PSA	054	001	Pour la fin dans les cantiques, intelligence à David.
-Holy-Bible---French---Vulgate-Glaire	019	PSA	054	002	Est-ce que David n’est pas chez nous ?
+Holy-Bible---French---Vulgate-Glaire	019	PSA	054	002	Lorsque les habitants de Ziph furent venus et eurent dit a Saül :Est-ce que David n’est pas chez nous ?
 Holy-Bible---French---Vulgate-Glaire	019	PSA	055	001	Pour la fin, dans les cantiques, intelligence à David.
 Holy-Bible---French---Vulgate-Glaire	019	PSA	056	001	Pour le peuple qui a été éloigné des saints (ou des choses saintes) ; par David, pour une inscription de titre, lorsque les Allophylles (étrangers) le retinrent dans Geth.
 Holy-Bible---French---Vulgate-Glaire	019	PSA	057	001	Ne perdez pas entièrement ; par David, pour une inscription de titre, lorsqu’il s’enfuit de devant la face de Saül dans la caverne.
@@ -4834,8 +4834,8 @@ Holy-Bible---French---Vulgate-Glaire	019	PSA	084	001	Pour les pressoirs, aux fil
 Holy-Bible---French---Vulgate-Glaire	019	PSA	085	001	Pour la fin, aux fils de Coré, psaume.
 Holy-Bible---French---Vulgate-Glaire	019	PSA	088	001	Des fils de Coré, pour la fin, pour Maheleth, pour répondre, intelligence d’Eman l’Ezrahite.
 Holy-Bible---French---Vulgate-Glaire	019	PSA	089	001	Intelligence d’Ethan l’Ezrahite.
-Holy-Bible---French---Vulgate-Glaire	019	PSA	092	001	Il est bon de louer le Seigneur,
-Holy-Bible---French---Vulgate-Glaire	019	PSA	102	001	Oraison du pauvre.
+Holy-Bible---French---Vulgate-Glaire	019	PSA	092	001	Au jour du sabbat.
+Holy-Bible---French---Vulgate-Glaire	019	PSA	102	001	Oraison du pauvre.   Lorsqu’il est dans l’anxiété, et qu’en présence du Seigneur il répand sa prière.
 Holy-Bible---French---Vulgate-Glaire	019	PSA	108	001	Cantique de psaume, de David lui-même.
 Holy-Bible---French---Vulgate-Glaire	019	PSA	126	006	Allant, ils allaient et pleuraient, jetant leurs semences :
 Holy-Bible---French---Vulgate-Glaire	019	PSA	136	026	Glorifiez le Dieu du ciel, parce qu’éternelle est sa miséricorde.

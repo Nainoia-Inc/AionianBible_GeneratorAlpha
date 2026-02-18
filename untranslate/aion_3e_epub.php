@@ -1382,7 +1382,7 @@ $g166<br />
 Language: Koine Greek<br />
 Speech: verb<br />
 Strongs: g1653<br />
-Meaning:<br /><div style='margin-left: 15px;'>To have pity on, to show mercy. Typically, the subjunctive mood indicates possiblity, not certainty. However, a subjunctive in a purpose clause is a resulting action as certain as the causal action. The subjunctive in a purpose clause functions as an indicative, not an optative. Thus, the grand conclusion of grace theology in {$links->X_ROM_11} must be clarified. God's mercy on all is not a possibility, but a certainty. See <a href='https://www.ntgreek.org' target='_blank'>www.ntgreek.org</a>.</div>
+Meaning:<br /><div style='margin-left: 15px;'>To have pity on, to show mercy. Typically, the subjunctive mood indicates possibility, not certainty. However, a subjunctive in a purpose clause is a resulting action as certain as the causal action. The subjunctive in a purpose clause functions as an indicative, not an optative. Thus, the grand conclusion of grace theology in {$links->X_ROM_11} must be clarified. God's mercy on all is not a possibility, but a certainty. See <a href='https://www.ntgreek.org' target='_blank'>www.ntgreek.org</a>.</div>
 Usage: 1 time in this conjugation, {$links->X_ROM_11}<br />
 $g1653<br />
 
