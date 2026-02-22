@@ -2,12 +2,12 @@
 BIBLE	INDEX	BOOK	CHAPTER	VERSE	MAP	FLAG
 # File Accuracy: Contact publisher with corrections to file format or content
 # File Copyright: Creative Commons Attribution 4.0 International, 2018-2026
-# File Date: 02/17/2026 10:34:08
+# File Date: 02/19/2026 23:11:38
 # File Generator: ABCMS (alpha)
 # File Location: https://resources.AionianBible.org
 # File Name: BOOKSCHAPTERS.txt
 # File Purpose: Supporting resource for the Aionian Bible project
-# File Size: 3955797     
+# File Size: 3956605     
 Holy-Bible---Abureni---Abureni-Bible	041	MAR	009	044	MISSING	MID
 Holy-Bible---Abureni---Abureni-Bible	041	MAR	009	046	MISSING	MID
 Holy-Bible---Ahirani---Ahirani-Bible	047	2CO	001	014	MISSING	MID
@@ -44313,6 +44313,17 @@ Holy-Bible---Spanish---Free-Bible	044	ACT	015	034	MISSING	MID
 Holy-Bible---Spanish---Free-Bible	044	ACT	024	007	MISSING	MID
 Holy-Bible---Spanish---Free-Bible	044	ACT	028	029	MISSING	MID
 Holy-Bible---Spanish---Free-Bible	045	ROM	016	024	MISSING	MID
+Holy-Bible---Spanish---Free-for-the-World	026	EZE	005	017	MISSING	END*
+Holy-Bible---Spanish---Free-for-the-World	026	EZE	010	013	MISSING	MID
+Holy-Bible---Spanish---Free-for-the-World	026	EZE	010	014	MISSING	MID-SEQ
+Holy-Bible---Spanish---Free-for-the-World	026	EZE	010	015	MISSING	MID-SEQ
+Holy-Bible---Spanish---Free-for-the-World	026	EZE	010	016	MISSING	MID-SEQ
+Holy-Bible---Spanish---Free-for-the-World	026	EZE	010	017	MISSING	MID-SEQ
+Holy-Bible---Spanish---Free-for-the-World	026	EZE	010	018	MISSING	MID-SEQ
+Holy-Bible---Spanish---Free-for-the-World	026	EZE	010	019	MISSING	MID-SEQ
+Holy-Bible---Spanish---Free-for-the-World	026	EZE	010	020	MISSING	MID-SEQ
+Holy-Bible---Spanish---Free-for-the-World	026	EZE	010	021	MISSING	MID-SEQ
+Holy-Bible---Spanish---Free-for-the-World	026	EZE	010	022	MISSING	END-SEQ*
 Holy-Bible---Spanish---Free-for-the-World	042	LUK	017	036	MISSING	MID
 Holy-Bible---Spanish---Free-for-the-World	044	ACT	008	037	MISSING	MID
 Holy-Bible---Spanish---Free-for-the-World	044	ACT	015	034	MISSING	MID

@@ -1,6 +1,6 @@
 # File Name: TALLY.txt
 # File Size: 31204       
-# File Date: 02/17/2026 08:12:30
+# File Date: 02/19/2026 20:51:01
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution 4.0 International, 2018-2026
@@ -477,7 +477,7 @@ Holy-Bible---Somali---Somali-Bible	31102	31102	31103
 Holy-Bible---Somau-Karia---Somau-Karia-Bible	2931	2931	2932
 Holy-Bible---Spanish---Biblia-Platense-Straubinger	31070	31070	31426
 Holy-Bible---Spanish---Free-Bible	31086	31086	31102
-Holy-Bible---Spanish---Free-for-the-World	31098	31098	31102
+Holy-Bible---Spanish---Free-for-the-World	31087	31087	31091
 Holy-Bible---Spanish---Gods-Word-for-You	31057	31057	31082
 Holy-Bible---Spanish---Reina-Valera-1865	31102	31102	31102
 Holy-Bible---Spanish---Reina-Valera-1909	31102	31102	31115

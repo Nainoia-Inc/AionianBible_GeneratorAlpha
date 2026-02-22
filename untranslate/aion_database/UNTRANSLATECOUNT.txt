@@ -1,6 +1,6 @@
 # File Name: UNTRANSLATECOUNT.txt
 # File Size: 53448       
-# File Date: 02/17/2026 10:14:05
+# File Date: 02/19/2026 22:51:15
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution 4.0 International, 2018-2026
@@ -477,7 +477,7 @@ Holy-Bible---Somali---Somali-Bible	0	0	64	12	1	11	9	1	5	94	63	10	2	0	0	0	272	264
 Holy-Bible---Somau-Karia---Somau-Karia-Bible	0	0	0	1	0	4	1	0	0	21	15	2	0	0	1	0	44	43	42	1	221	0	1
 Holy-Bible---Spanish---Biblia-Platense-Straubinger	70	0	64	12	1	11	9	1	5	94	63	10	2	0	0	0	272	264	264	0	0	0	0
 Holy-Bible---Spanish---Free-Bible	17	0	64	12	1	11	9	1	5	94	63	10	2	0	1	0	272	265	264	0	0	0	1
-Holy-Bible---Spanish---Free-for-the-World	27	0	64	12	1	11	9	1	5	94	63	10	2	0	1	0	272	265	264	0	0	0	1
+Holy-Bible---Spanish---Free-for-the-World	26	0	64	12	1	11	9	1	5	94	63	10	2	0	1	0	272	265	264	0	0	0	1
 Holy-Bible---Spanish---Gods-Word-for-You	44	0	64	12	1	11	9	1	5	94	63	10	2	0	1	0	272	265	264	0	0	0	1
 Holy-Bible---Spanish---Reina-Valera-1865	74	0	64	12	1	11	9	1	5	94	63	10	2	0	1	0	272	265	264	0	0	0	1
 Holy-Bible---Spanish---Reina-Valera-1909	73	1	64	12	1	11	9	1	5	94	63	10	2	0	1	1	272	265	264	0	0	0	1
