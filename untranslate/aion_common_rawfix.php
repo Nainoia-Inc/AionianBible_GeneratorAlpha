@@ -1174,6 +1174,14 @@ goto RAWHIDE;
 
 
 // RAWFIX BIBLE ********************
+case "Holy-Bible---Chin-Thado---Chongthu-Bible" :
+if (!($bfile = preg_replace('/_+/ui'," ",$bfile,-1,$rnum)) || $rnum!=10) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$bfile_saved = $bfile;
+goto RAWHIDE;
+
+
+
+// RAWFIX BIBLE ********************
 case "Holy-Bible---Chin-Thaiphum---Thai-Phum-Bible" :
 if (!($bfile = preg_replace('/\x{0081}/ui',"",$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 if (!($bfile = preg_replace('/\x{05ea} /ui',"",$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
@@ -7107,6 +7115,8 @@ goto RAWHIDE;
 
 // RAWFIX BIBLE ********************
 case "Holy-Bible---French---Geneva-Bible" :
+if (!($bfile = preg_replace("/_/us","",$bfile,-1,$rnum)) || $rnum!=4) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$bfile_saved = $bfile;
 $textfix = <<<EOF
 Acts 19:40 Car nous ſommes en danger d’eſtre accuſez de ſedition pour ce jourd’hui : veu qu’il n’y a cauſe aucune pour laquelle nous puiſſions rendre raiſon de cette eſmeute.
 Acts 19:41 Et quand il eut dit ces choſes , il bailla congé à l’aſſemblée.
@@ -19423,6 +19433,27 @@ goto RAWHIDE;
 
 // RAWFIX BIBLE ********************
 case "Holy-Bible---Spanish---Free-for-the-World" :
+$textfix = <<<EOF
+EZE 5:16 cuando envíe sobre ellos las flechas malignas del hambre que son para la destrucción, las cuales enviaré para destruirte. Aumentaré el hambre sobre ustedes y romperé su bastón de pan.
+EZE 5:17 Enviaré sobre ustedes el hambre y los animales malignos, y los despojarán. La peste y la sangre pasarán por ti. Traeré sobre ti la espada. Yo, Yahvé, lo he dicho”.
+EZE 6:1 
+EOF;
+if (!($bfile = preg_replace("/EZE 5:16 (.+?)EZE 6:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+EZE 10:12 Todo su cuerpo, incluyendo sus espaldas, sus manos, sus alas y las ruedas, estaban llenos de ojos por todas partes, incluso las ruedas que tenían los cuatro.
+EZE 10:13 En cuanto a las ruedas, fueron llamadas a mis oídos “las ruedas giratorias”.
+EZE 10:14 Cada una de ellas tenía cuatro caras. La primera cara era la del querubín. La segunda cara era la cara de un hombre. El tercer rostro era el de un león. La cuarta era la cara de un águila.
+EZE 10:15 Los querubines se levantaron. Esta es la criatura viviente que vi junto al río Chebar.
+EZE 10:16 Cuando los querubines iban, las ruedas iban junto a ellos; y cuando los querubines levantaban sus alas para subir de la tierra, las ruedas tampoco giraban junto a ellos.
+EZE 10:17 Cuando se paraban, éstos se paraban. Cuando se levantaban, éstos se levantaban con ellos; porque el espíritu del ser viviente estaba en ellos.
+EZE 10:18 La gloria del Señor salió del umbral de la casa y se paró sobre los querubines.
+EZE 10:19 Los querubines levantaron sus alas y se elevaron de la tierra a mi vista cuando salieron, con las ruedas a su lado. Entonces se pararon a la entrada de la puerta oriental de la casa de Yahvé, y la gloria del Dios de Israel estaba por encima de ellos.
+EZE 10:20 Este es el ser viviente que vi bajo el Dios de Israel junto al río Chebar; y supe que eran querubines.
+EZE 10:21 Cada uno tenía cuatro rostros, y cada uno cuatro alas. La semejanza de las manos de un hombre estaba debajo de sus alas.
+EZE 10:22 En cuanto a la semejanza de sus rostros, eran los rostros que vi junto al río Chebar, sus apariencias y ellos mismos. Cada uno de ellos iba de frente.
+EZE 11:1 
+EOF;
+if (!($bfile = preg_replace("/EZE 10:12 (.+?)EZE 11:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $textfix = <<<EOF
 1CO 1:1 
 EOF;
