@@ -675,6 +675,23 @@ Holy-Bible---English---One-Unity-Resource-Bible								NULL
 Holy-Bible---English---Open-English-Bible-Commonwealth								NULL
 Holy-Bible---English---Open-English-Bible-US								NULL
 Holy-Bible---English---Orthodox-Jewish-Bible								NULL
+Holy-Bible---English---Plain-English-Version	041	MAR	010	029	AIONS,AIONIAN	g165,g166		NULL
+Holy-Bible---English---Plain-English-Version	041	MAR	010	030	SKIP			NULL
+Holy-Bible---English---Plain-English-Version	042	LUK	001	032	AIONS	g165		NULL
+Holy-Bible---English---Plain-English-Version	042	LUK	001	033	SKIP			NULL
+Holy-Bible---English---Plain-English-Version	043	JOH	011	025	AIONS	g165		NULL
+Holy-Bible---English---Plain-English-Version	043	JOH	011	026	SKIP			NULL
+Holy-Bible---English---Plain-English-Version	044	ACT	003	020	AIONS	g165		NULL
+Holy-Bible---English---Plain-English-Version	044	ACT	003	021	SKIP			NULL
+Holy-Bible---English---Plain-English-Version	044	ACT	015	017	AIONS	g165		NULL
+Holy-Bible---English---Plain-English-Version	044	ACT	015	018	SKIP			NULL
+Holy-Bible---English---Plain-English-Version	045	ROM	016	025	AIONS,AIONIAN	g165,g166		NULL
+Holy-Bible---English---Plain-English-Version	045	ROM	016	026	SKIP			NULL
+Holy-Bible---English---Plain-English-Version	045	ROM	016	027	SKIP			NULL
+Holy-Bible---English---Plain-English-Version	046	1CO	015	054	HADES	g86		NULL
+Holy-Bible---English---Plain-English-Version	046	1CO	015	055	SKIP			NULL
+Holy-Bible---English---Plain-English-Version	049	EPH	003	020	AIONS	g165		NULL
+Holy-Bible---English---Plain-English-Version	049	EPH	003	021	SKIP			NULL
 Holy-Bible---English---Plain-English-Version								NULL
 Holy-Bible---English---Revised-Version								NULL
 Holy-Bible---English---Rotherham-Bible-1902								NULL
