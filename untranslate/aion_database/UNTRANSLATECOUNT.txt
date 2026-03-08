@@ -1,6 +1,6 @@
 # File Name: UNTRANSLATECOUNT.txt
-# File Size: 53448       
-# File Date: 02/28/2026 12:47:55
+# File Size: 53650       
+# File Date: 03/08/2026 01:06:50
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution 4.0 International, 2018-2026
@@ -144,7 +144,8 @@ Holy-Bible---English---Noyes	82	0	53	12	1	11	9	1	5	94	63	10	2	0	0	0	261	253	253	
 Holy-Bible---English---One-Unity-Resource-Bible	115	0	41	11	0	4	1	0	0	26	24	10	0	0	0	0	117	112	112	0	152	0	0
 Holy-Bible---English---Open-English-Bible-Commonwealth	81	0	23	12	1	11	9	1	5	94	63	10	2	0	0	0	231	223	223	0	41	0	0
 Holy-Bible---English---Open-English-Bible-US	81	0	23	12	1	11	9	1	5	94	63	10	2	0	0	0	231	223	223	0	41	0	0
-Holy-Bible---English---Orthodox-Jewish-Bible	0	0	64	12	1	11	9	1	5	94	63	10	2	0	0	0	272	264	264	0	0	0	0
+Holy-Bible---English---Orthodox-Jewish-Bible	172	1	64	12	1	11	9	1	5	94	63	10	2	0	0	1	272	264	264	0	0	0	0
+Holy-Bible---English---Plain-English-Version	16	1	4	8	0	4	1	1	0	49	42	6	2	0	0	1	117	114	114	0	120	30	0
 Holy-Bible---English---Revised-Version	146	0	64	12	1	11	9	1	5	94	63	10	2	0	0	0	272	264	264	0	0	0	0
 Holy-Bible---English---Rotherham-Bible	168	0	64	12	1	11	9	1	5	94	63	10	2	0	0	0	272	264	264	0	0	0	0
 Holy-Bible---English---STEPBible-Amalgamant	168	0	64	12	1	11	9	1	5	94	63	10	2	0	1	0	272	265	264	0	0	0	1
@@ -355,6 +356,7 @@ Holy-Bible---Matumbi---Matumbi-Bible	0	0	0	11	0	7	1	0	0	40	36	10	0	0	0	0	105	100
 Holy-Bible---Mbe---Mbe-Bible	0	0	9	0	0	0	0	0	0	0	0	0	0	0	0	0	9	9	9	0	255	0	0
 Holy-Bible---Mbula-Bwazza---Mbula-Bwazza-Bible	0	0	9	12	1	11	9	1	5	92	56	12	2	0	1	0	210	201	201	1	62	0	0
 Holy-Bible---Melo---Melo-Bible	0	0	0	12	1	11	9	1	5	94	63	10	2	0	1	0	208	200	199	1	64	0	1
+Holy-Bible---Miniafia---Miniafia-Bible	0	0	0	12	1	11	9	1	5	94	63	10	2	0	0	0	208	200	200	0	64	0	0
 Holy-Bible---Mori-Atas---Mori-Atas-Bible	0	0	0	1	0	2	1	0	0	6	3	2	0	0	0	0	15	14	14	0	250	0	0
 Holy-Bible---Mpoto---Mpoto-Bible	0	0	0	12	1	11	9	1	5	94	63	10	2	0	0	0	208	200	200	0	64	0	0
 Holy-Bible---Mum---Mum-Bible	0	0	0	7	0	2	0	0	0	8	5	0	0	0	0	0	22	22	22	0	242	0	0

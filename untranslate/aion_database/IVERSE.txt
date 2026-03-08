@@ -1,6 +1,6 @@
 # File Name: IVERSE.txt
-# File Size: 1232807     
-# File Date: 02/28/2026 13:19:58
+# File Size: 1236585     
+# File Date: 03/08/2026 01:38:49
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution 4.0 International, 2018-2026
@@ -1202,6 +1202,15 @@ Holy-Bible---English---Orthodox-Jewish-Bible	EXO-013-017	Shemot 13:17	And it cam
 Holy-Bible---English---Orthodox-Jewish-Bible	MAR-010-045	Markos 10:45	For even the Bar Enosh did not come to be served but to serve and to give his NEFESH as a kofer [ransom, pedut] LARABBIM [for many, for the Geulah [Redemption] of many].
 Holy-Bible---English---Orthodox-Jewish-Bible	ROM-001-001	Romans 1:1	From Sha'ul, an eved of Rebbe, Melech HaMoshiach Yehoshua, summoned to be a Shliach, set apart for the Besuras HaGeulah of Hashem,
 Holy-Bible---English---Orthodox-Jewish-Bible	MAT-028-019	Mattityahu 28:19	Go, therefore, make talmidim for Rebbe, Melech HaMoshiach of all the nations, giving them a tevilah in a mikveh mayim in Hashem, in the Name of HaAv, and HaBen, and HaRuach Hakodesh,
+Holy-Bible---English---Plain-English-Version	JOH-003-016	John 3:16	You see, God loved all of the people in the world. He loved everyone so much that he sent them his only son, his special son. God sent him to die instead of them, so that if anyone trusts him, God will not finish them up, but they will live with him for ever.
+Holy-Bible---English---Plain-English-Version	GEN-003-024	Genesis 3:24	After God hunted them out of the garden, he made sure that they couldn’t get back. He put some of his angel workers as guards just outside the east side of the garden in Eden. And he put a long knife there with them. That knife kept on moving around all the time, and it looked like it was on fire. Those angel workers and that long knife, they kept everyone away from that tree that makes people stay alive.
+Holy-Bible---English---Plain-English-Version	LUK-023-034		
+Holy-Bible---English---Plain-English-Version	REV-021-002		 
+Holy-Bible---English---Plain-English-Version	HEB-011-008		
+Holy-Bible---English---Plain-English-Version	EXO-013-017		
+Holy-Bible---English---Plain-English-Version	MAR-010-045	Mark 10:45	You see, all the leaders of my people have to be like that. They have to be just like me. I’m God’s special man from heaven, but I didn’t come here to be bossy and get people to work for me. I came here to work for other people. And I came here to die for a lot of people. I will let God punish me instead of them. He will punish me for the bad things that they did.”
+Holy-Bible---English---Plain-English-Version	ROM-001-001	Romans 1:1	I am Paul, and this letter is from me. I work for Jesus Christ, and God picked me to be Jesus’s special worker, to go and tell people the good news that he will save them.
+Holy-Bible---English---Plain-English-Version	MAT-028-019	Matthew 28:19	So go out to all the people in the world, and tell them about me. Teach those people to follow my way, and baptise them with water to show that they belong to the father, and the son, and the Holy Spirit.
 Holy-Bible---English---Revised-Version	JOH-003-016	John 3:16	For God so loved the world, that he gave his only begotten Son, that whosoever believeth on him should not perish, but have eternal life.
 Holy-Bible---English---Revised-Version	GEN-003-024	Genesis 3:24	So he drove out the man; and he placed at the east of the garden of Eden the Cherubim, and the flame of a sword which turned every way, to keep the way of the tree of life.
 Holy-Bible---English---Revised-Version	LUK-023-034	Luke 23:34	And Jesus said, Father, forgive them; for they know not what they do. And parting his garments among them, they cast lots.
@@ -3092,6 +3101,15 @@ Holy-Bible---Melo---Melo-Bible	EXO-013-017
 Holy-Bible---Melo---Melo-Bible	MAR-010-045	ማርቆሳ 10:45	ሀራ አቶዝን፥ አስ ናአይካ፥ አስስ ኦꬆዳይስኔ ጋምታ ዎዞዳይስ ፋ ሸምፖ ኣꬂ እማዳይስ የኤዛፕ አትን አሲ ኤዝስ ኦꬆድ ጋርክ የኤካያ» ዬጌዛ።
 Holy-Bible---Melo---Melo-Bible	ROM-001-001	ኦሮመ 1:1	የሱስ ክርስቶሳ አይለ ማቄዝ፥ ሀዋረ ማቃዳይስ ጼግንቴዛይፐኔ ጾሳ ዎንግለ ሳባኮዳይ ጋርክ ሻክንቴዝ ጳዉሎሳ ኪቴዝ ኪታ።
 Holy-Bible---Melo---Melo-Bible	MAT-028-019	ማቶሳ 28:19	ይኬ፥ ይንቲ ኡባ አቆ Ꮊንጊ፥ ዎንግላ ሳባኪ ታና ካልዝታ ማሆይታ፥ ኣዳ፥ ናአ፥ ጌሻ አያና ሱንꬃር ዎያ ኡባ ጻማቆይታ።
+Holy-Bible---Miniafia---Miniafia-Bible	JOH-003-016	John 3:16	God tafaram iyabuw kwanekwan imih i Natun ta’imonamo iyafar na, saise yait i ebitumitum boro men namorob, baise boro yawas wanatowan nab.
+Holy-Bible---Miniafia---Miniafia-Bible	GEN-003-024		
+Holy-Bible---Miniafia---Miniafia-Bible	LUK-023-034	Luke 23:34	Imaibo Jesu eo, “Tamai hai bowabow kakafih kunotawiyen men hiso’ob abisa tisisinaf.” Naatu ana faifuw hibosairen arowamaim hifaram hibow.
+Holy-Bible---Miniafia---Miniafia-Bible	REV-021-002	Revelation 21:2-3	Ayu bar merar kakafiyin, Jerusalem boubun mar God biyanane tit re’er aitin, babitai tabin isan ti’abur aawan biyan baitubarin isan enan na’atube. Naatu urama’amamaim fanan aumetawat anowar eo, ‘Boun God ana sabuw biyah i ana bar matar, naatu boro bairi hinama. I boro ana sabuw hinamatar naatu God taiyuwin boro hai God namatar bairi hinama.
+Holy-Bible---Miniafia---Miniafia-Bible	HEB-011-008	Hebrews 11:8	Baitumatumamaim Abraham tafaram ta boro uf i nowanamih tamamatar isan God eo’omatan ana veya’amaim, God fanan bai ana tafaram itumar misir asir remor kwaneyan in.
+Holy-Bible---Miniafia---Miniafia-Bible	EXO-013-017		
+Holy-Bible---Miniafia---Miniafia-Bible	MAR-010-045	Mark 10:45	Anayabin Orot Natun i men sabuw isan bowamih na; baise sabuw isah nabow ana yawas isah ni’inuw, saise sabuw moumurih natubunih.”
+Holy-Bible---Miniafia---Miniafia-Bible	ROM-001-001	Romans 1:1	Ayu Paul, Jesu Keriso ana akir wairafin, tur abarin isan rubinu, naatu Tur Gewasin binan isan God eafu atit.
+Holy-Bible---Miniafia---Miniafia-Bible	MAT-028-019	Matthew 28:19	Isan imih kwanatit kwanan tafaram wanawananamaim sabuw kwanabow au bai’ufununayah hinamatar, naatu God Tamah, God Natun, God Anunin Kakafiyin wabihimaim babataito kwanitih.
 Holy-Bible---Mori-Atas---Mori-Atas-Bible	JOH-003-016		
 Holy-Bible---Mori-Atas---Mori-Atas-Bible	GEN-003-024		
 Holy-Bible---Mori-Atas---Mori-Atas-Bible	LUK-023-034	Lukasi 23:34	Umari raaꞌa Iesu mekakai, “Uma, ampuniꞌiro, akono karo mentoꞌorio pio henu winowauro.” Kanoamba sorodadu raꞌiroa melotreiꞌo karo patantuꞌo isia henu nggale humaweꞌo parewaro Iesu.

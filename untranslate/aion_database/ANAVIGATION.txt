@@ -1,6 +1,6 @@
 # File Name: ANAVIGATION.txt
-# File Size: 41172       
-# File Date: 02/28/2026 13:21:41
+# File Size: 43500       
+# File Date: 03/08/2026 01:40:31
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution 4.0 International, 2018-2026
@@ -220,6 +220,39 @@ Holy-Bible---English---One-Unity-Resource-Bible
 Holy-Bible---English---Open-English-Bible-Commonwealth		
 Holy-Bible---English---Open-English-Bible-US		
 Holy-Bible---English---Orthodox-Jewish-Bible		
+Holy-Bible---English---Plain-English-Version		
+Holy-Bible---English---Plain-English-Version	VERSMISS	001-GEN-044-031
+Holy-Bible---English---Plain-English-Version	CHAPMISS	009-1SA-002-006
+Holy-Bible---English---Plain-English-Version	VERSMISS	040-MAT-011-023
+Holy-Bible---English---Plain-English-Version	CHAPMISS	040-MAT-012-032
+Holy-Bible---English---Plain-English-Version	CHAPMISS	040-MAT-013-022
+Holy-Bible---English---Plain-English-Version	CHAPMISS	040-MAT-016-018
+Holy-Bible---English---Plain-English-Version	CHAPMISS	040-MAT-018-008
+Holy-Bible---English---Plain-English-Version	CHAPMISS	040-MAT-018-009
+Holy-Bible---English---Plain-English-Version	CHAPMISS	040-MAT-019-016
+Holy-Bible---English---Plain-English-Version	CHAPMISS	040-MAT-019-029
+Holy-Bible---English---Plain-English-Version	CHAPMISS	040-MAT-021-019
+Holy-Bible---English---Plain-English-Version	CHAPMISS	040-MAT-023-015
+Holy-Bible---English---Plain-English-Version	CHAPMISS	040-MAT-023-033
+Holy-Bible---English---Plain-English-Version	CHAPMISS	040-MAT-024-003
+Holy-Bible---English---Plain-English-Version	VERSMISS	041-MAR-010-030
+Holy-Bible---English---Plain-English-Version	VERSMISS	042-LUK-001-033
+Holy-Bible---English---Plain-English-Version	VERSMISS	042-LUK-008-031
+Holy-Bible---English---Plain-English-Version	CHAPMISS	042-LUK-012-005
+Holy-Bible---English---Plain-English-Version	VERSMISS	042-LUK-018-018
+Holy-Bible---English---Plain-English-Version	VERSMISS	042-LUK-018-030
+Holy-Bible---English---Plain-English-Version	CHAPMISS	042-LUK-020-034
+Holy-Bible---English---Plain-English-Version	CHAPMISS	042-LUK-020-035
+Holy-Bible---English---Plain-English-Version	VERSMISS	043-JOH-011-026
+Holy-Bible---English---Plain-English-Version	VERSMISS	044-ACT-003-021
+Holy-Bible---English---Plain-English-Version	VERSMISS	044-ACT-015-018
+Holy-Bible---English---Plain-English-Version	CHAPMISS	045-ROM-009-005
+Holy-Bible---English---Plain-English-Version	CHAPMISS	045-ROM-011-032
+Holy-Bible---English---Plain-English-Version	CHAPMISS	045-ROM-011-036
+Holy-Bible---English---Plain-English-Version	CHAPMISS	045-ROM-016-026
+Holy-Bible---English---Plain-English-Version	CHAPMISS	045-ROM-016-027
+Holy-Bible---English---Plain-English-Version	VERSMISS	046-1CO-015-055
+Holy-Bible---English---Plain-English-Version	VERSMISS	049-EPH-003-021
 Holy-Bible---English---Revised-Version		
 Holy-Bible---English---Rotherham-Bible		
 Holy-Bible---English---STEPBible-Amalgamant		
@@ -573,6 +606,7 @@ Holy-Bible---Mbula-Bwazza---Mbula-Bwazza-Bible
 Holy-Bible---Mbula-Bwazza---Mbula-Bwazza-Bible	VERSMISS	058-HEB-013-021
 Holy-Bible---Melo---Melo-Bible		
 Holy-Bible---Melo---Melo-Bible	VERSMISS	043-JOH-003-015
+Holy-Bible---Miniafia---Miniafia-Bible		
 Holy-Bible---Mori-Atas---Mori-Atas-Bible		
 Holy-Bible---Mpoto---Mpoto-Bible		
 Holy-Bible---Mum---Mum-Bible		

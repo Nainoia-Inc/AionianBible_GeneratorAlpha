@@ -1,6 +1,6 @@
 # File Name: TALLY_HO.txt
-# File Size: 31207       
-# File Date: 02/28/2026 13:02:37
+# File Size: 31321       
+# File Date: 03/08/2026 01:21:28
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution 4.0 International, 2018-2026
@@ -145,6 +145,7 @@ Holy-Bible---English---One-Unity-Resource-Bible	14299	14299	14299
 Holy-Bible---English---Open-English-Bible-Commonwealth	13892	13892	13913
 Holy-Bible---English---Open-English-Bible-US	13892	13892	13913
 Holy-Bible---English---Orthodox-Jewish-Bible	31093	31093	31165
+Holy-Bible---English---Plain-English-Version	6947	6947	6947
 Holy-Bible---English---Revised-Version	31086	31086	31102
 Holy-Bible---English---Rotherham-Bible	31086	31086	31090
 Holy-Bible---English---STEPBible-Amalgamant	31102	31102	31102
@@ -355,6 +356,7 @@ Holy-Bible---Matumbi---Matumbi-Bible	5616	5616	5616
 Holy-Bible---Mbe---Mbe-Bible	8106	8106	8106
 Holy-Bible---Mbula-Bwazza---Mbula-Bwazza-Bible	16538	16538	16540
 Holy-Bible---Melo---Melo-Bible	7936	7936	7938
+Holy-Bible---Miniafia---Miniafia-Bible	7953	7953	7955
 Holy-Bible---Mori-Atas---Mori-Atas-Bible	1151	1151	1151
 Holy-Bible---Mpoto---Mpoto-Bible	7957	7957	7959
 Holy-Bible---Mum---Mum-Bible	1046	1046	1046

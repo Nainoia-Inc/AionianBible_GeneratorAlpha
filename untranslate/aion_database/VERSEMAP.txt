@@ -385,6 +385,7 @@ Holy-Bible---English---Orthodox-Jewish-Bible	MIC4-5
 Holy-Bible---English---Orthodox-Jewish-Bible	NAH1-2
 Holy-Bible---English---Orthodox-Jewish-Bible	ZEC1-2
 Holy-Bible---English---Orthodox-Jewish-Bible	MAL3-4
+Holy-Bible---English---Plain-English-Version	NONE
 Holy-Bible---English---Revised-Version	NONE
 Holy-Bible---English---Rotherham-Bible	NONE
 Holy-Bible---English---STEPBible-Amalgamant	NONE
@@ -1557,6 +1558,7 @@ Holy-Bible---Matumbi---Matumbi-Bible	NONE
 Holy-Bible---Mbe---Mbe-Bible	NONE
 Holy-Bible---Mbula-Bwazza---Mbula-Bwazza-Bible	NONE
 Holy-Bible---Melo---Melo-Bible	NONE
+Holy-Bible---Miniafia---Miniafia-Bible	NONE
 Holy-Bible---Mori-Atas---Mori-Atas-Bible	NONE
 Holy-Bible---Mpoto---Mpoto-Bible	NONE
 Holy-Bible---Mum---Mum-Bible	NONE

@@ -675,6 +675,7 @@ Holy-Bible---English---One-Unity-Resource-Bible								NULL
 Holy-Bible---English---Open-English-Bible-Commonwealth								NULL
 Holy-Bible---English---Open-English-Bible-US								NULL
 Holy-Bible---English---Orthodox-Jewish-Bible								NULL
+Holy-Bible---English---Plain-English-Version								NULL
 Holy-Bible---English---Revised-Version								NULL
 Holy-Bible---English---Rotherham-Bible-1902								NULL
 Holy-Bible---English---STEPBible-Amalgamant	061	2PE	002	017	NOTE			questioned
@@ -1199,6 +1200,7 @@ Holy-Bible---Mbula-Bwazza---Mbula-Bwazza-Bible								NULL
 Holy-Bible---Melo---Melo-Bible	043	JOH	003	014	AIONIAN	g166		NULL
 Holy-Bible---Melo---Melo-Bible	043	JOH	003	015	SKIP			NULL
 Holy-Bible---Melo---Melo-Bible								NULL
+Holy-Bible---Miniafia---Miniafia-Bible								NULL
 Holy-Bible---Mori-Atas---Mori-Atas-Bible								NULL
 Holy-Bible---Mpoto---Mpoto-Bible								NULL
 Holy-Bible---Mum---Mum-Bible								NULL
