@@ -538,4 +538,3 @@ Holy-Bible---English---Majority-Standard-Bible	536
 Holy-Bible---Hona---Hwana-Bible	537
 Holy-Bible---Hre---Hre-Bible	538
 Holy-Bible---English---Plain-English-Version	539
-Holy-Bible---Miniafia---Miniafia-Bible	540

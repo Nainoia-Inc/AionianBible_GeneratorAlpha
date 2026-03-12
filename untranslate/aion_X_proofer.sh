@@ -7,18 +7,7 @@ if (!chdir("../www-stageresources")) { AION_ECHO("ERROR! chdir()"); }
 system("cat Holy-Bible*.messages > BIBLE-PROOF.messages");
 
 $NEWBIBLES = array(
-"Holy-Bible---Dutch---Leuvense-Bible",
-"Holy-Bible---French---Bonnet-Bovet-Bible",
-"Holy-Bible---French---Geneva-Bible",
-"Holy-Bible---German---Open-Bible",
-"Holy-Bible---German---Zurich-Bible",
-"Holy-Bible---Portuguese---New-Open-Access",
-"Holy-Bible---Potawatomi---Potawatomi-Bible",
-"Holy-Bible---Sgaw-Karen---Mason-Bible",
-"Holy-Bible---Swedish---Swedish-Bible-1703",
-"Holy-Bible---English---Majority-Standard-Bible",
-"Holy-Bible---Hona---Hwana-Bible",
-"Holy-Bible---Hre---Hre-Bible",
+"Holy-Bible---asdadsa---asdasdsad-Bible",
 );
 
 // BUILD PROOFER
@@ -75,7 +64,7 @@ function build_pdftk_flex($proofer, $filename, $pagename) {
 		// skip
 		if (stripos($proof['FILE'],$filename)===FALSE){ continue; }
 		if (stripos($proof['PAGE'],$pagename)===FALSE){ continue; }
-		//if (!in_array($proof['BIBLE'], $NEWBIBLES)) { continue; } // checking the new guys only or not new guys
+		//if (in_array($proof['BIBLE'], $NEWBIBLES)) { continue; } // checking the new guys only or not new guys
 		//setup
 		$file = (0==(int)$proof['NUMB'] ? "BIBLE-PROOF-ABLANK.pdf" : $proof['FILE']);
 		$numb = (0==(int)$proof['NUMB'] ? "1" : $proof['NUMB']);

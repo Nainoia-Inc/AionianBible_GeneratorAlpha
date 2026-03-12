@@ -1,6 +1,6 @@
 # File Name: TALLY.txt
-# File Size: 31318       
-# File Date: 03/08/2026 15:46:58
+# File Size: 31264       
+# File Date: 03/11/2026 21:08:33
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution 4.0 International, 2018-2026
@@ -356,7 +356,6 @@ Holy-Bible---Matumbi---Matumbi-Bible	5616	5616	5616
 Holy-Bible---Mbe---Mbe-Bible	8106	8106	8106
 Holy-Bible---Mbula-Bwazza---Mbula-Bwazza-Bible	16538	16538	16540
 Holy-Bible---Melo---Melo-Bible	7936	7936	7938
-Holy-Bible---Miniafia---Miniafia-Bible	7953	7953	7955
 Holy-Bible---Mori-Atas---Mori-Atas-Bible	1151	1151	1151
 Holy-Bible---Mpoto---Mpoto-Bible	7957	7957	7959
 Holy-Bible---Mum---Mum-Bible	1046	1046	1046

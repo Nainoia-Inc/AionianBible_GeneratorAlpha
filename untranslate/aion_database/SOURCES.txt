@@ -1052,10 +1052,6 @@ Holy-Bible---Melo---Melo-Bible				https://ebible.org/epub/mfxe.epub	Holy-Bible--
 Holy-Bible---Melo---Melo-Bible				https://ebible.org/pdf/mfxe/mfxe_prt.pdf	Holy-Bible---Melo---Melo-Bible---Source-Edition.pdf
 Holy-Bible---Melo---Melo-Bible				https://ebible.org/sword/zip/mfxeeb.zip	Holy-Bible---Melo---Melo-Bible---Source-Edition.SWORD.zip
 Holy-Bible---Melo---Melo-Bible				https://ebible.org/Scriptures/mfxe_vpl.zip	Holy-Bible---Melo---Melo-Bible---Source-Edition.VPL.zip
-Holy-Bible---Miniafia---Miniafia-Bible				https://ebible.org/epub/aai.epub	Holy-Bible---Miniafia---Miniafia-Bible---Source-Edition.epub
-Holy-Bible---Miniafia---Miniafia-Bible				https://ebible.org/pdf/aai/aai_all.pdf	Holy-Bible---Miniafia---Miniafia-Bible---Source-Edition.pdf
-Holy-Bible---Miniafia---Miniafia-Bible				https://ebible.org/sword/zip/aai2009eb.zip	Holy-Bible---Miniafia---Miniafia-Bible---Source-Edition.SWORD.zip
-Holy-Bible---Miniafia---Miniafia-Bible				https://ebible.org/Scriptures/aai_vpl.zip	Holy-Bible---Miniafia---Miniafia-Bible---Source-Edition.VPL.zip
 Holy-Bible---Mori-Atas---Mori-Atas-Bible				https://ebible.org/epub/mzq.epub	Holy-Bible---Mori-Atas---Mori-Atas-Bible---Source-Edition.epub
 Holy-Bible---Mori-Atas---Mori-Atas-Bible				https://ebible.org/pdf/mzq/mzq_prt.pdf	Holy-Bible---Mori-Atas---Mori-Atas-Bible---Source-Edition.pdf
 Holy-Bible---Mori-Atas---Mori-Atas-Bible				https://ebible.org/sword/zip/mzq2025eb.zip	Holy-Bible---Mori-Atas---Mori-Atas-Bible---Source-Edition.SWORD.zip

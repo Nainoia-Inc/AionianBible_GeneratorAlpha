@@ -1217,7 +1217,6 @@ Holy-Bible---Mbula-Bwazza---Mbula-Bwazza-Bible								NULL
 Holy-Bible---Melo---Melo-Bible	043	JOH	003	014	AIONIAN	g166		NULL
 Holy-Bible---Melo---Melo-Bible	043	JOH	003	015	SKIP			NULL
 Holy-Bible---Melo---Melo-Bible								NULL
-Holy-Bible---Miniafia---Miniafia-Bible								NULL
 Holy-Bible---Mori-Atas---Mori-Atas-Bible								NULL
 Holy-Bible---Mpoto---Mpoto-Bible								NULL
 Holy-Bible---Mum---Mum-Bible								NULL

@@ -3665,9 +3665,6 @@ Holy-Bible---Mbula-Bwazza---Mbula-Bwazza-Bible							end
 Holy-Bible---Melo---Melo-Bible	064	3JO	001	014	14	1	end
 Holy-Bible---Melo---Melo-Bible	066	REV	012	018	1	-1	end
 Holy-Bible---Melo---Melo-Bible							end
-Holy-Bible---Miniafia---Miniafia-Bible	064	3JO	001	014	14	1	end
-Holy-Bible---Miniafia---Miniafia-Bible	066	REV	012	018	1	-1	end
-Holy-Bible---Miniafia---Miniafia-Bible							end
 Holy-Bible---Mori-Atas---Mori-Atas-Bible							end
 Holy-Bible---Mpoto---Mpoto-Bible	064	3JO	001	014	14	1	end
 Holy-Bible---Mpoto---Mpoto-Bible	066	REV	012	018	1	-1	end

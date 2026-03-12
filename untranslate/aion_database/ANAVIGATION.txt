@@ -1,6 +1,6 @@
 # File Name: ANAVIGATION.txt
-# File Size: 43500       
-# File Date: 03/08/2026 18:20:35
+# File Size: 43459       
+# File Date: 03/11/2026 23:41:57
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution 4.0 International, 2018-2026
@@ -606,7 +606,6 @@ Holy-Bible---Mbula-Bwazza---Mbula-Bwazza-Bible
 Holy-Bible---Mbula-Bwazza---Mbula-Bwazza-Bible	VERSMISS	058-HEB-013-021
 Holy-Bible---Melo---Melo-Bible		
 Holy-Bible---Melo---Melo-Bible	VERSMISS	043-JOH-003-015
-Holy-Bible---Miniafia---Miniafia-Bible		
 Holy-Bible---Mori-Atas---Mori-Atas-Bible		
 Holy-Bible---Mpoto---Mpoto-Bible		
 Holy-Bible---Mum---Mum-Bible		

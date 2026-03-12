@@ -2,12 +2,12 @@
 BIBLE	INDEX	BOOK	CHAPTER	VERSE	MAP	FLAG
 # File Accuracy: Contact publisher with corrections to file format or content
 # File Copyright: Creative Commons Attribution 4.0 International, 2018-2026
-# File Date: 03/08/2026 18:06:59
+# File Date: 03/11/2026 23:28:21
 # File Generator: ABCMS (alpha)
 # File Location: https://resources.AionianBible.org
 # File Name: BOOKSCHAPTERS.txt
 # File Purpose: Supporting resource for the Aionian Bible project
-# File Size: 4131689     
+# File Size: 4131421     
 Holy-Bible---Abureni---Abureni-Bible	041	MAR	009	044	MISSING	MID
 Holy-Bible---Abureni---Abureni-Bible	041	MAR	009	046	MISSING	MID
 Holy-Bible---Ahirani---Ahirani-Bible	047	2CO	001	014	MISSING	MID
@@ -41502,10 +41502,6 @@ Holy-Bible---Melo---Melo-Bible	057	PHM	001	011	MISSING	MID
 Holy-Bible---Melo---Melo-Bible	059	JAM	001	008	MISSING	MID
 Holy-Bible---Melo---Melo-Bible	060	1PE	002	003	MISSING	MID
 Holy-Bible---Melo---Melo-Bible	066	REV	001	005	MISSING	MID
-Holy-Bible---Miniafia---Miniafia-Bible	040	MAT	012	004	MISSING	MID
-Holy-Bible---Miniafia---Miniafia-Bible	042	LUK	007	019	MISSING	MID
-Holy-Bible---Miniafia---Miniafia-Bible	042	LUK	022	044	MISSING	MID
-Holy-Bible---Miniafia---Miniafia-Bible	042	LUK	023	051	MISSING	MID
 Holy-Bible---Mum---Mum-Bible	040	MAT	001	023	MISSING	MID
 Holy-Bible---Mum---Mum-Bible	040	MAT	002	002	MISSING	MID
 Holy-Bible---Mum---Mum-Bible	040	MAT	002	010	MISSING	MID

@@ -1,6 +1,6 @@
 # File Name: IVERSE.txt
-# File Size: 1236585     
-# File Date: 03/08/2026 18:18:51
+# File Size: 1234814     
+# File Date: 03/11/2026 23:40:15
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution 4.0 International, 2018-2026
@@ -3101,15 +3101,6 @@ Holy-Bible---Melo---Melo-Bible	EXO-013-017
 Holy-Bible---Melo---Melo-Bible	MAR-010-045	ማርቆሳ 10:45	ሀራ አቶዝን፥ አስ ናአይካ፥ አስስ ኦꬆዳይስኔ ጋምታ ዎዞዳይስ ፋ ሸምፖ ኣꬂ እማዳይስ የኤዛፕ አትን አሲ ኤዝስ ኦꬆድ ጋርክ የኤካያ» ዬጌዛ።
 Holy-Bible---Melo---Melo-Bible	ROM-001-001	ኦሮመ 1:1	የሱስ ክርስቶሳ አይለ ማቄዝ፥ ሀዋረ ማቃዳይስ ጼግንቴዛይፐኔ ጾሳ ዎንግለ ሳባኮዳይ ጋርክ ሻክንቴዝ ጳዉሎሳ ኪቴዝ ኪታ።
 Holy-Bible---Melo---Melo-Bible	MAT-028-019	ማቶሳ 28:19	ይኬ፥ ይንቲ ኡባ አቆ Ꮊንጊ፥ ዎንግላ ሳባኪ ታና ካልዝታ ማሆይታ፥ ኣዳ፥ ናአ፥ ጌሻ አያና ሱንꬃር ዎያ ኡባ ጻማቆይታ።
-Holy-Bible---Miniafia---Miniafia-Bible	JOH-003-016	John 3:16	God tafaram iyabuw kwanekwan imih i Natun ta’imonamo iyafar na, saise yait i ebitumitum boro men namorob, baise boro yawas wanatowan nab.
-Holy-Bible---Miniafia---Miniafia-Bible	GEN-003-024		
-Holy-Bible---Miniafia---Miniafia-Bible	LUK-023-034	Luke 23:34	Imaibo Jesu eo, “Tamai hai bowabow kakafih kunotawiyen men hiso’ob abisa tisisinaf.” Naatu ana faifuw hibosairen arowamaim hifaram hibow.
-Holy-Bible---Miniafia---Miniafia-Bible	REV-021-002	Revelation 21:2-3	Ayu bar merar kakafiyin, Jerusalem boubun mar God biyanane tit re’er aitin, babitai tabin isan ti’abur aawan biyan baitubarin isan enan na’atube. Naatu urama’amamaim fanan aumetawat anowar eo, ‘Boun God ana sabuw biyah i ana bar matar, naatu boro bairi hinama. I boro ana sabuw hinamatar naatu God taiyuwin boro hai God namatar bairi hinama.
-Holy-Bible---Miniafia---Miniafia-Bible	HEB-011-008	Hebrews 11:8	Baitumatumamaim Abraham tafaram ta boro uf i nowanamih tamamatar isan God eo’omatan ana veya’amaim, God fanan bai ana tafaram itumar misir asir remor kwaneyan in.
-Holy-Bible---Miniafia---Miniafia-Bible	EXO-013-017		
-Holy-Bible---Miniafia---Miniafia-Bible	MAR-010-045	Mark 10:45	Anayabin Orot Natun i men sabuw isan bowamih na; baise sabuw isah nabow ana yawas isah ni’inuw, saise sabuw moumurih natubunih.”
-Holy-Bible---Miniafia---Miniafia-Bible	ROM-001-001	Romans 1:1	Ayu Paul, Jesu Keriso ana akir wairafin, tur abarin isan rubinu, naatu Tur Gewasin binan isan God eafu atit.
-Holy-Bible---Miniafia---Miniafia-Bible	MAT-028-019	Matthew 28:19	Isan imih kwanatit kwanan tafaram wanawananamaim sabuw kwanabow au bai’ufununayah hinamatar, naatu God Tamah, God Natun, God Anunin Kakafiyin wabihimaim babataito kwanitih.
 Holy-Bible---Mori-Atas---Mori-Atas-Bible	JOH-003-016		
 Holy-Bible---Mori-Atas---Mori-Atas-Bible	GEN-003-024		
 Holy-Bible---Mori-Atas---Mori-Atas-Bible	LUK-023-034	Lukasi 23:34	Umari raaꞌa Iesu mekakai, “Uma, ampuniꞌiro, akono karo mentoꞌorio pio henu winowauro.” Kanoamba sorodadu raꞌiroa melotreiꞌo karo patantuꞌo isia henu nggale humaweꞌo parewaro Iesu.

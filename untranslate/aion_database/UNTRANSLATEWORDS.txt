@@ -342,7 +342,6 @@ Holy-Bible---Matumbi---Matumbi-Bible	0											NULL
 Holy-Bible---Mbe---Mbe-Bible	0											NULL
 Holy-Bible---Mbula-Bwazza---Mbula-Bwazza-Bible	0											NULL
 Holy-Bible---Melo---Melo-Bible	0											NULL
-Holy-Bible---Miniafia---Miniafia-Bible	0											NULL
 Holy-Bible---Mori-Atas---Mori-Atas-Bible	0											NULL
 Holy-Bible---Mpoto---Mpoto-Bible	0											NULL
 Holy-Bible---Mum---Mum-Bible	0											NULL
