@@ -6,10 +6,6 @@ static $speedata_version = NULL;
 
 /*** aion rtfs make loop ***/
 function AION_LOOP_PDF_POD($source, $destiny) {
-	//system("zip -r - ../www-stageresources/AB-Fonts	> ../www-stageresources/AB-Fonts.zip");
-	//system("zip -r - ../www-stageresources/AB-Images	> ../www-stageresources/AB-Images.zip");
-	//system("zip -r - ../www-stageresources/AB-ISBN	> ../www-stageresources/AB-ISBN.zip");
-	//exit;
 	$database = array();
 	AION_FILE_DATA_GET( './aion_database/UNTRANSLATE.txt', 'T_UNTRANSLATE', $database, array('INDEX','BOOK','CHAPTER','VERSE'), FALSE );
 	AION_FILE_DATA_GET( './aion_database/BOOKS.txt', 'T_BOOKS', $database, 'BIBLE', FALSE );

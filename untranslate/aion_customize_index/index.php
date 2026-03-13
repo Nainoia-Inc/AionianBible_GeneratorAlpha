@@ -96,8 +96,8 @@ The world's first Holy Bible <u>untranslation</u><br>
 Two hundred ninety-one languages<br>
 Five hundred thirty-nine versions<br>
 9,606,183 Scripture verses<br>
-Anonymous on TOR web<br>
 100% free to copy &amp; print<br>
+Anonymous on TOR<br>
 Updated <? echo $modified; ?><br>
 <br>
 Also known as 'The Purple Bible'
