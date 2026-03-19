@@ -7165,6 +7165,11 @@ Psalms 56:1
 EOF;
 if (!($bfile = preg_replace("/Psalms 55:11 (.+?)Psalms 56:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $textfix = <<<EOF
+Psalms 60:1 Dans les hymnes de David.
+Psalms 60:2 
+EOF;
+if (!($bfile = preg_replace("/Psalms 60:0 (.+?)Psalms 60:2 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
 Ecclesiastes 7:30 J’ai trouvé cela seulement, que Dieu a fait l’homme droit, et que celui-ci s’est embarrassé lui-même dans des questions infinies.
 Ecclesiastes 8:1 Qui est tel que le sage ? et qui connaît la solution de la parole ? La sagesse de l’homme luit sur son visage, et le tout-puissant changera sa face.
 Ecclesiastes 8:2 
@@ -19425,6 +19430,12 @@ goto RAWHIDE;
 
 // RAWFIX BIBLE ********************
 case "Holy-Bible---Spanish---Free-for-the-World" :
+$textfix = <<<EOF
+GEN 18:32 Y volvió a decir: “No se enoje ahora mi Señor, y hablaré solamente una vez más: quizá se hallarán allí diez”. Y respondió: “No la destruiré por amor a los diez”.
+GEN 18:33 El Señor se fue en cuanto terminó de hablar con Abraham, y éste volvió a su lugar.
+GEN 19:1 
+EOF;
+if (!($bfile = preg_replace("/GEN 18:32 (.+?)GEN 19:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $textfix = <<<EOF
 EZE 5:16 cuando envíe sobre ellos las flechas malignas del hambre que son para la destrucción, las cuales enviaré para destruirte. Aumentaré el hambre sobre ustedes y romperé su bastón de pan.
 EZE 5:17 Enviaré sobre ustedes el hambre y los animales malignos, y los despojarán. La peste y la sangre pasarán por ti. Traeré sobre ti la espada. Yo, Yahvé, lo he dicho”.

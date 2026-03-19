@@ -109,6 +109,11 @@ RewriteCond %{REQUEST_URI} ^\/Readium\/(Holy\-Bible\-\-\-.*)$
 RewriteCond %{DOCUMENT_ROOT}\/library\/epub\/%1 -d
 RewriteRule ^ /Readium?epub=../library/epub/%1 [L,R=301]
 
+# REWRITE DEARFLIP
+RewriteCond %{REQUEST_URI} ^\/DearFlip\/(Holy\-Bible\-\-\-.*\.pdf)$
+RewriteCond %{DOCUMENT_ROOT}\/resources\/%1 -f
+RewriteRule ^ /?f=%1 [L,R=301]
+
 # REWRITE PWA
 # Must end with "/" to masquerade each PWA into its own folder allowing multiple-installs
 RewriteCond %{REQUEST_URI} ^(\/pwa\/Holy\-Bible\-\-\-[^/.]+)$ [NC,OR]

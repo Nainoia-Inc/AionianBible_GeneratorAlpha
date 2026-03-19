@@ -1,6 +1,6 @@
 # File Name: IVERSE.txt
-# File Size: 1234814     
-# File Date: 03/13/2026 21:58:06
+# File Size: 1234817     
+# File Date: 03/18/2026 10:46:39
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution 4.0 International, 2018-2026
@@ -4200,7 +4200,7 @@ Holy-Bible---Spanish---Free-Bible	MAR-010-045	Marcos 10:45	Porque incluso el Hij
 Holy-Bible---Spanish---Free-Bible	ROM-001-001	Romanos 1:1	Esta carta viene de Pablo, siervo de Jesucristo. Fui llamado por Dios para ser apóstol. Él me designó para anunciar la buena noticia
 Holy-Bible---Spanish---Free-Bible	MAT-028-019	San Mateo 28:19	Así que vayan y hagan discípulos entre la gente de todas las naciones, bautizándolos en el nombre del Padre, del Hijo y del Espíritu Santo.
 Holy-Bible---Spanish---Free-for-the-World	JOH-003-016	Juan 3:16	Porque tanto amó Dios al mundo, que dio a su Hijo unigénito, para que todo el que crea en él no perezca, sino que tenga vida eterna.
-Holy-Bible---Spanish---Free-for-the-World	GEN-003-024	Génesis 3:24	Y expulsó al hombre; y puso querubines al oriente del jardín del Edén, y una espada flamígera que se volvía hacia todos lados, para guardar el camino del árbol de la vida.
+Holy-Bible---Spanish---Free-for-the-World	GEN-003-024	Génesis 3:24	Echó, pues, fuera al hombre, y puso al oriente del huerto de Edén querubines y una espada encendida que se revolvía a todas partes, para guardar el camino del árbol de la vida.
 Holy-Bible---Spanish---Free-for-the-World	LUK-023-034	San Lucas 23:34	Jesús dijo: “Padre, perdónalos, porque no saben lo que hacen”. Repartiendo sus vestidos entre ellos, echaron suertes.
 Holy-Bible---Spanish---Free-for-the-World	REV-021-002	Apocalipsis 21:2-3	Vi la ciudad santa, la Nueva Jerusalén, bajando del cielo desde Dios, preparada como una novia adornada para su esposo. Oí una fuerte voz del cielo que decía: “He aquí que la morada de Dios está con el pueblo; y él habitará con ellos, y ellos serán su pueblo, y Dios mismo estará con ellos como su Dios.
 Holy-Bible---Spanish---Free-for-the-World	HEB-011-008	Hebreos 11:8	Por la fe, Abraham, cuando fue llamado, obedeció para salir al lugar que iba a recibir como herencia. Salió sin saber a dónde iba.
