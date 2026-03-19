@@ -51,7 +51,6 @@ AION_SITEMAP(				'../www-production');
 
 /*** remove Turkish ***/
 system('rm -rf ../www-resources/Holy-Bible---Turkish---Turkish-Bible---*' );
-system('chmod 640 ../www-stageresources/Holy-Bible---Turkish---Turkish-Bible---*' );
 
 /*** done ***/
 AION_ECHO("DONE!");

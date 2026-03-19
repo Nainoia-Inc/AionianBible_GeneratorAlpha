@@ -23,23 +23,43 @@ $return = '/Bibles/'.preg_replace('/^Holy-Bible---/u','',preg_replace('/---(Sour
 body {
 	font-family: 'Arial', 'sans-serif';
 	background-color: #E0D6EB;
-}
-div.welcome {
-	font-size: 1.25em;
-	line-height: 1.4em;	
+	margin: 0;
 }
 div.df-ui-btn.df-ui-fullscreen {
-	background-color: red;
+	background-color: #663399;
 }
+#page { width: 100%; }
+#head { width: 100%; max-width: 1280px; min-width: 360px; background-color: #E0D6EB; margin: 0 auto; }
+#head-hi { max-height: 42px; margin-top: 10px; padding: 2px 15px; border: 1px solid #663399; border-radius: 7px; background-color: #663399; overflow: hidden; }
+#logo1 { display: inline-block !important; float: left; }
+#menu { display: block; float: right; white-space: nowrap; margin-top: 7px; }
+#menu a { color: #FFFFFF; margin: 0px 0px 0px 15px; display: inline-block; font-size: 175%; text-decoration: none; }
+#menu a:hover { color: #E0D6EB; }
+@media screen and (max-width: 1279px) {
+	#head-hi { margin-top: 0; }
+	#head-hi { border: none; border-bottom: 1px solid #9966CC; border-radius: 0; }
+}
+#welcome { width: 100%;	text-align: center;	font-size: 1.25em; line-height: 1.4em; }
+#welcome h3 { margin-bottom: 10px; }
 	</style>
 </head>
 
 <body>
-<div class='welcome'>
-Welcome to DearFlip!<br>
-<span style='color: red;'>Red button</span> for full screen.<br>
-Return to <a href='<? echo $return; ?>'>Table of Contents</a>.
+
+<div id="page">
+<div id="head">
+<div id="head-hi">
+<div id="logo1"><a href="/" title="Aionian Bible homepage"><img src="/images/Holy-Bible-Aionian-Edition-PURPLE-LOGO.png" alt="Aionian Bible"></a></div>
+<div id="menu"><a href="<? echo $return; ?>" title="Return to Table of Contents">Table of Contents</a></div>
 </div>
+</div>
+<div id='welcome'>
+<h3>DearFlip Flipbook Viewer</h3>
+Click <span style='color: #663399;'>purple button</span> below for full screen.<br>
+</div>
+</div>
+
+
 <div class="container">
 <div class="row">
 	<div class="col-xs-12">

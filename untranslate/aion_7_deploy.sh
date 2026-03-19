@@ -94,7 +94,6 @@ AION_LOOP_DIFF(	'../www-stageresources', 	'../www-resources',				'../diff-www-st
 
 /*** remove Turkish ***/
 system('rm -rf ../www-resources/Holy-Bible---Turkish---Turkish-Bible---*' );
-system('chmod 640 ../www-stageresources/Holy-Bible---Turkish---Turkish-Bible---*' );
 
 /*** done ***/
 AION_ECHO("DONE! DEPLOYMENT SUCCESS!!");
