@@ -50,7 +50,10 @@ div.df-ui-btn.df-ui-fullscreen {
 <div id="head">
 <div id="head-hi">
 <div id="logo1"><a href="/" title="Aionian Bible homepage"><img src="/images/Holy-Bible-Aionian-Edition-PURPLE-LOGO.png" alt="Aionian Bible"></a></div>
-<div id="menu"><a href="<? echo $return; ?>" title="Return to Table of Contents">Table of Contents</a></div>
+<div id="menu">
+<a href="<? echo $return; ?>" title="Previous Bible Table of Contents">Previous</a>
+<a href="/Read" title="Read and Study Bible">Bibles</a>
+</div>
 </div>
 </div>
 <div id='welcome'>
