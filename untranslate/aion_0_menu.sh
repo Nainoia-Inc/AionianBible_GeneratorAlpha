@@ -31,7 +31,6 @@ $commands = array(
 	'7q' => 'aion_7q_deploy.sh',
 	'7qe'=> 'aion_7qe_deploy-epub.sh',
 	'8'  => 'aion_8_speedata.sh',
-	'9'  => 'aion_9_backup_production.sh',
 );
 
 
