@@ -1177,7 +1177,21 @@ goto RAWHIDE;
 case "Holy-Bible---Chin-Thado---Chongthu-Bible" :
 if (!($bfile = preg_replace('/_+/ui'," ",$bfile,-1,$rnum)) || $rnum!=10) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $bfile_saved = $bfile;
+$blockfix = <<<EOF
+LUK 6:11 Hiche a hin Jesu galmi ho chu alunghang un ama chu ilo ding ham ti akihou khom tauve. Jesun Seijui Ding Som Le Ni Alhendoh
+LUK 6:12 Nikhat hitiho jou sotlou laiyin Jesu molchung khat ah taona mang din ache touvin, chule jan khovah in Pathen hengah ataove.
+LUK 6:13 Ajing khovah in aseijui te jouse akoukhom sohkeiyin amaho lah achun solchah dingin som le ni alhengdoh in ahi. Amin hou chu hiche ahi:
+LUK 6:14 Simon (Peter asah), Andrew (Peter sopipa), James, John, Philip, Bartholomew
+LUK 6:15 Matthew, Thomas, James (Alphaeus chapa), Simon (Zealot tia kikou),
+LUK 6:16 Judas (James chapa), chule Judas Iscariot (khonunga ajohdohpa) ahiuve. Jesun Mi Tamtah Na Atoh Peh
+LUK 6:17 Molchunga pat amaho ahungsuh uchun aseijui ho Jesu toh, mun beh achamlai len khat ah adingun, anungjui tamtah chule mihonpi chun aumkimvel uve. Hichea chun mipi Judea gam pumpi le Jerusalem a kon chule sahlam Tyre le Sidon gam twipang langa pat a hung jong aumun ahi.
+LUK 6:18 Amaho chu ama thusei ngai ding le anatna hou kijendam sah dinga hungu ahi; chule lhagao boh in asuh genthei ho jong jendam in aum uve.
+LUK 6:19 Mijousen ama chu tohkhah agocheh un ahi ajeh chu suhdamna thaneina chu ama a konna potdoh ahi, chule mijouse asudam in ahi.
+LUK 6:20 
+EOF;
+if (!($bfile = preg_replace("/LUK 6:11 (.+?)LUK 6:20 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 goto RAWHIDE;
+
 
 
 

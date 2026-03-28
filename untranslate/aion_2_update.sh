@@ -17,6 +17,7 @@ system("rm -rf ../STEPBible-Data-master");
 system("unzip -q ../www-stageresources/AB-STEPBibleData.zip -d ../");
 system("mv '../STEPBible-Data-master/Lexicons/'* ../STEPBible-Data-master");
 system("mv '../STEPBible-Data-master/Translators Amalgamated OT+NT/'* ../STEPBible-Data-master");
+system("mv '../STEPBible-Data-master/Morphology codes/'* ../STEPBible-Data-master");
 AION_LOOP_DIFF('../STEPBible-Data-master', '../STEPBible-Data-master-production', '../STEPBible-Data-master-diff-raw', '', '', '', '', '--strip-trailing-cr');
 
 /*** remove Turkish ***/
