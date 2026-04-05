@@ -309,6 +309,7 @@ function AION_FILE_DATABASE_PUT( $database, $source, $destiny, $allbibles ) {
         (is_dir(  $bpub.'---Aionian-Edition')					?(", <a href='/epub/"		.$version[C_BIBLE]	."---Aionian-Edition'  target='_blank' title='Aionian Bible ePub Futurepress'>Futurepress</a>") :'').
         (is_dir(  $bpub.'---Aionian-Edition')					?(", <a href='/Readium/"	.$version[C_BIBLE]	."---Aionian-Edition'  target='_blank' title='Aionian Bible ePub Readium'>Readium</a>") :'').
         (AION_filesize($base.'---Aionian-Edition.pdf')			?(", <a href='/DearFlip/"	.$version[C_BIBLE]	."---Aionian-Edition.pdf' target='_blank' title='Aionian Bible DearFlip flipbook'>DearFlip</a>") :'').
+        (AION_filesize($base.'---Aionian-Edition.pdf')			?(", <a href='/paginis.php?pdf=/resources/".$version[C_BIBLE]	."---Aionian-Edition.pdf' target='_blank' title='Aionian Bible Paginis flipbook'>Paginis</a>") :'').
 		"</div></div>".
 
  		"\n<div class='field-header'><img src='/images/Aionian-Bible-Download.png' title='Aionian Bible Download'> Download:</div><div class='field-field'><div class='field-links decorated'>".
@@ -351,6 +352,7 @@ function AION_FILE_DATABASE_PUT( $database, $source, $destiny, $allbibles ) {
 		 (is_dir(  $bpub.'---Source-Edition')				?("<a href='/epub/"		.$version[C_BIBLE]."---Source-Edition' target='_blank' title='Source Bible ePub Futurepress'>Futurepress</a>, ")					:'').
 		 (is_dir(  $bpub.'---Source-Edition')				?("<a href='/Readium/"	.$version[C_BIBLE]."---Source-Edition' target='_blank' title='Source Bible ePub Readium'>Readium</a>, ")							:'').
          (AION_filesize($base.'---Source-Edition.pdf')		?("<a href='/DearFlip/"	.$version[C_BIBLE]."---Source-Edition.pdf' target='_blank' title='Source Bible DearFlip flipbook'>DearFlip</a>, ")					:'').
+         (AION_filesize($base.'---Source-Edition.pdf')		?("<a href='/paginis.php?pdf=/resources/".$version[C_BIBLE]."---Source-Edition.pdf' target='_blank' title='Source Bible Paginis flipbook'>Paginis</a>, ")	:'').
 		 (AION_filesize($base.'---Source-Edition.epub')		?("<a href='/resources/".$version[C_BIBLE]."---Source-Edition.epub' download title='Source Bible ePub format download'>ePub</a>, ")							:'').
 		 (AION_filesize($base.'---Source-Edition.pdf')		?("<a href='/resources/".$version[C_BIBLE]."---Source-Edition.pdf' title='Source Bible PDF format'  target='_blank'>PDF</a>, ")								:'').
 		 (AION_filesize($base.'---Source-Edition.SWORD.zip')?("<a href='/resources/".$version[C_BIBLE]."---Source-Edition.SWORD.zip' download title='Source Bible Crosswire Sword download'>Crosswire module</a>, ")	:'').
@@ -3488,11 +3490,11 @@ function AION_LOOP_HTMS($source, $destiny, $destiny2) {
 	$grandmarker['VERS_TOTAL']	= $grandtotal['VERS_TOTAL']-9606183;
 	$grandmarker['VERS_AION']	= $grandtotal['VERS_AION']-108465;
 	$grandmarker['VERS_QUES']	= $grandtotal['VERS_QUES']-487;
-	$grandmarker['LONG']		= $grandtotal['LONG']-2541;
+	$grandmarker['LONG']		= $grandtotal['LONG']-2544;
 	$grandmarker['CHAP_NO']		= $grandtotal['CHAP_NO']-192;
 	$grandmarker['VERS_NO']		= $grandtotal['VERS_NO']-7374;
 	$grandmarker['VERS_EX']		= $grandtotal['VERS_EX']-1096;
-	$grandmarker['FIXED']		= $grandtotal['FIXED']-14703;
+	$grandmarker['FIXED']		= $grandtotal['FIXED']-14721;
 	$grandmarker['NOTFIXED']	= $grandtotal['NOTFIXED']-60067;
 	$grandmarker['CHAP_RE']		= $grandtotal['CHAP_RE']-11707;
 	$grandmarker['REVE_NO']		= $grandtotal['REVE_NO']-712;

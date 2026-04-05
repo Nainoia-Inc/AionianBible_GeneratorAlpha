@@ -1,6 +1,6 @@
 # File Name: IVERSE.txt
-# File Size: 1234824     
-# File Date: 03/28/2026 15:28:48
+# File Size: 1234842     
+# File Date: 04/04/2026 20:15:53
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution 4.0 International, 2018-2026
@@ -3560,15 +3560,15 @@ Holy-Bible---Portuguese---Portuguese-Trans-Trans	EXO-013-017
 Holy-Bible---Portuguese---Portuguese-Trans-Trans	MAR-010-045	Marcos 10:45	Vocês devem fazer assim porque, apesar de ser eu aquele que veio do céu, não vim somente para ser servido dos outros; vim para servir os outros e deixar que eles me matassem, para que Deus possa livrar muitas pessoas ao invés de condená-las por causa dos seus pecados.
 Holy-Bible---Portuguese---Portuguese-Trans-Trans	ROM-001-001	Romanos 1:1	[Eu] Paulo que sirvo a Cristo Jesus [estou escrevendo esta carta.] Deus me escolheu para apóstolo e me nomeou para que [eu proclamasse] a boa mensagem que [vem dele.]
 Holy-Bible---Portuguese---Portuguese-Trans-Trans	MAT-028-019	Mateus 28:19	Portanto vão [e, usando essa autoridade, ensinem a minha mensagem] às pessoas de todas as etnias/grupos étnicos para que possam ser meus discípulos. Batizem elas [para estarem debaixo da autoridade do] meu Pai, de mim, o Filho dele, e do Espírito Santo.
-Holy-Bible---Portuguese---World-Portuguese-Bible	JOH-003-016	João 3:16	Pois Deus amou tanto o mundo, que deu seu único Filho nascido, para que todo aquele que nele crê não pereça, mas tenha a vida eterna.
-Holy-Bible---Portuguese---World-Portuguese-Bible	GEN-003-024	Gênesis 3:24	Então ele expulsou o homem; e colocou querubins ao leste do jardim do Éden, e uma espada flamejante que se virou para todos os lados, para guardar o caminho para a árvore da vida.
-Holy-Bible---Portuguese---World-Portuguese-Bible	LUK-023-034	Lucas 23:34	Jesus disse: “Pai, perdoa-lhes, pois eles não sabem o que estão fazendo”. Dividindo suas peças de vestuário entre eles, eles lançam à sorte.
-Holy-Bible---Portuguese---World-Portuguese-Bible	REV-021-002	Apocalipse 21:2-3	Vi a cidade santa, Nova Jerusalém, descendo do céu vindo de Deus, preparada como uma noiva adornada para seu marido. Ouvi uma voz alta do céu dizendo: “Eis que a morada de Deus está com as pessoas; e ele habitará com elas, e elas serão seu povo, e o próprio Deus estará com elas como seu Deus”.
-Holy-Bible---Portuguese---World-Portuguese-Bible	HEB-011-008	Hebreus 11:8	Pela fé Abraão, quando foi chamado, obedeceu para ir ao lugar que deveria receber em troca de uma herança. Saiu, sem saber para onde ia.
-Holy-Bible---Portuguese---World-Portuguese-Bible	EXO-013-017	Êxodo 13:17	Quando o Faraó deixou o povo ir, Deus não o conduziu pelo caminho da terra dos filisteus, embora isso estivesse próximo; pois Deus disse: “Para que o povo não mude de idéia quando vir a guerra, e volte ao Egito”;
-Holy-Bible---Portuguese---World-Portuguese-Bible	MAR-010-045	Marcos 10:45	Pois o Filho do Homem também não veio para ser servido, mas para servir, e para dar sua vida em resgate por muitos”.
-Holy-Bible---Portuguese---World-Portuguese-Bible	ROM-001-001	Romanos 1:1	Paulo, um servo de Jesus Cristo, chamado a ser apóstolo, separado para a Boa Nova de Deus,
-Holy-Bible---Portuguese---World-Portuguese-Bible	MAT-028-019	Mateus 28:19	Ide e fazei discípulos de todas as nações, batizando-os em nome do Pai e do Filho e do Espírito Santo,
+Holy-Bible---Portuguese---World-Portuguese-Bible	JOH-003-016	João 3:16	Porque Deus amou o mundo de tal maneira que deu o seu Filho unigênito, para que todo aquele que nele crê não pereça, mas tenha a vida eterna.
+Holy-Bible---Portuguese---World-Portuguese-Bible	GEN-003-024	Gênesis 3:24	Assim ele expulsou o homem; e colocou querubins ao oriente do jardim do Éden, e uma espada flamejante que se movia em todas as direções, para guardar o caminho para a árvore da vida.
+Holy-Bible---Portuguese---World-Portuguese-Bible	LUK-023-034	Lucas 23:34	Jesus disse: “Pai, perdoa-lhes, pois eles não sabem o que estão fazendo.” Dividindo as suas vestes entre si, lançaram sortes.
+Holy-Bible---Portuguese---World-Portuguese-Bible	REV-021-002	Apocalipse 21:2-3	Vi a cidade santa, a Nova Jerusalém, que descia do céu da parte de Deus, preparada como uma noiva adornada para o seu marido. Ouvi uma forte voz vinda do céu, dizendo: “Eis que o tabernáculo de Deus está com os homens; e ele habitará com eles, e eles serão o seu povo, e o próprio Deus estará com eles e será o seu Deus.
+Holy-Bible---Portuguese---World-Portuguese-Bible	HEB-011-008	Hebreus 11:8	Pela fé Abraão, quando foi chamado, obedeceu e saiu para o lugar que haveria de receber como herança. Ele saiu, sem saber para onde ia.
+Holy-Bible---Portuguese---World-Portuguese-Bible	EXO-013-017	Êxodo 13:17	Quando o Faraó deixou o povo ir, Deus não os guiou pelo caminho da terra dos filisteus, embora fosse mais perto; pois Deus disse: “Para que talvez o povo não mude de ideia ao ver a guerra, e volte para o Egito”;
+Holy-Bible---Portuguese---World-Portuguese-Bible	MAR-010-045	Marcos 10:45	Pois o próprio Filho do Homem não veio para ser servido, mas para servir e dar a sua vida em resgate por muitos.”
+Holy-Bible---Portuguese---World-Portuguese-Bible	ROM-001-001	Romanos 1:1	Paulo, servo de Jesus Cristo, chamado para ser apóstolo, separado para o Evangelho de Deus,
+Holy-Bible---Portuguese---World-Portuguese-Bible	MAT-028-019	Mateus 28:19	Vão e façam discípulos de todas as nações, batizando-os em nome do Pai e do Filho e do Espírito Santo,
 Holy-Bible---Potawatomi---Potawatomi-Bible	JOH-003-016		
 Holy-Bible---Potawatomi---Potawatomi-Bible	GEN-003-024		
 Holy-Bible---Potawatomi---Potawatomi-Bible	LUK-023-034		
@@ -4203,8 +4203,8 @@ Holy-Bible---Spanish---Free-for-the-World	JOH-003-016	Juan 3:16	Porque tanto am�
 Holy-Bible---Spanish---Free-for-the-World	GEN-003-024	Génesis 3:24	Echó, pues, fuera al hombre, y puso al oriente del huerto de Edén querubines y una espada encendida que se revolvía a todas partes, para guardar el camino del árbol de la vida.
 Holy-Bible---Spanish---Free-for-the-World	LUK-023-034	San Lucas 23:34	Y Jesús decía: “Padre, perdónalos, porque no saben lo que hacen”. Y repartieron entre sí sus vestidos, echando suertes.
 Holy-Bible---Spanish---Free-for-the-World	REV-021-002	Apocalipsis 21:2-3	Vi la ciudad santa, la Nueva Jerusalén, bajando del cielo desde Dios, preparada como una novia adornada para su esposo. Oí una fuerte voz del cielo que decía: “He aquí que la morada de Dios está con el pueblo; y él habitará con ellos, y ellos serán su pueblo, y Dios mismo estará con ellos como su Dios.
-Holy-Bible---Spanish---Free-for-the-World	HEB-011-008	Hebreos 11:8	Por la fe, Abraham, cuando fue llamado, obedeció para salir al lugar que iba a recibir como herencia. Salió sin saber a dónde iba.
-Holy-Bible---Spanish---Free-for-the-World	EXO-013-017	Éxodo 13:17	Cuando el faraón dejó ir al pueblo, Dios no lo condujo por el camino de la tierra de los filisteos, aunque estaba cerca; porque Dios dijo: “No sea que el pueblo cambie de opinión al ver la guerra, y vuelva a Egipto”;
+Holy-Bible---Spanish---Free-for-the-World	HEB-011-008	Hebreos 11:8	Por la fe Abraham, siendo llamado, obedeció para salir al lugar que había de recibir como herencia; y salió sin saber a dónde iba.
+Holy-Bible---Spanish---Free-for-the-World	EXO-013-017	Éxodo 13:17	Cuando el faraón dejó ir al pueblo, Dios no los condujo por el camino de la tierra de los filisteos, aunque estaba cerca; porque Dios dijo: “No sea que el pueblo cambie de opinión al ver la guerra, y vuelva a Egipto”;
 Holy-Bible---Spanish---Free-for-the-World	MAR-010-045	Marcos 10:45	Porque también el Hijo del Hombre no ha venido a ser servido, sino a servir, y a dar su vida en rescate por muchos.”
 Holy-Bible---Spanish---Free-for-the-World	ROM-001-001	Romanos 1:1	Pablo, siervo de Jesucristo, llamado a ser apóstol, apartado para la Buena Nueva de Dios,
 Holy-Bible---Spanish---Free-for-the-World	MAT-028-019	San Mateo 28:19	Id, y haced discípulos a todas las naciones, bautizándolos en el nombre del Padre, y del Hijo, y del Espíritu Santo;

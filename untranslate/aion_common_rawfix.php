@@ -18325,6 +18325,31 @@ goto RAWHIDE;
 
 
 // RAWFIX BIBLE ********************
+case "Holy-Bible---Portuguese---World-Portuguese-Bible" :
+if (!($bfile = preg_replace("/`/ui", "", $bfile,-1,$rnum)) || $rnum!=24) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+if (!($bfile = preg_replace("/Aqui está a tradução[^\n]+\n/ui", "\n", $bfile,-1,$rnum)) || $rnum!=4) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+if (!($bfile = preg_replace("/usfm/ui", "", $bfile,-1,$rnum)) || $rnum!=4) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$bfile_saved = $bfile;
+$bigfix = <<<EOF
+PRO 10:12 O ódio agita a luta, mas o amor cobre todos os males.
+PRO 10:13 A sabedoria é encontrada nos lábios daquele que tem discernimento, mas uma vara é para a parte de trás daquele que não tem entendimento.
+PRO 10:14 Os sábios colocam o conhecimento, mas a boca do tolo está perto da ruína.
+PRO 10:15 A riqueza do homem rico é sua cidade forte. A destruição dos pobres é sua pobreza.
+PRO 10:16 O trabalho dos justos leva à vida. O aumento dos ímpios leva ao pecado.
+PRO 10:17 He está no caminho da vida quem presta atenção à correção, mas aquele que abandona a repreensão, desvia os outros.
+PRO 10:18 Aquele que esconde o ódio tem lábios mentirosos. Aquele que profere uma calúnia é um tolo.
+PRO 10:19 Na multidão de palavras não falta desobediência, mas aquele que refreia seus lábios faz sabiamente.
+PRO 10:20 A língua dos justos é como a prata escolhida. O coração dos ímpios tem pouco valor.
+PRO 10:21 Os lábios dos justos alimentam muitos, mas os tolos morrem por falta de compreensão.
+PRO 10:22 
+EOF;
+if (!($bfile = preg_replace("/PRO 10:12 (.+?)PRO 10:22 /us",$bigfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+goto RAWHIDE;
+
+
+
+
+// RAWFIX BIBLE ********************
 case "Holy-Bible---Rakhine---Rakhine-Bible" :
 if (!($bfile = preg_replace("/MAR 16:21 (.+?)LUK 1:1 /us","LUK 1:1 ",$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 goto RAWHIDE;
