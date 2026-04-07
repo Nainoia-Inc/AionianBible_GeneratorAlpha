@@ -3,9 +3,11 @@
 // https://github.com/ibra-kdbra/Zaya
 if (empty($_GET['pdf']) ||
 	!is_file('.'.$_GET['pdf']) ||
-	!preg_match('#^/resources/Holy-Bible---.*\.pdf$#', $_GET['pdf'])) {
+	!preg_match('#^/resources/Holy-Bible---(.+)---(Aionian|Source)-Edition\.pdf$#', $_GET['pdf'], $match)) {
 	exit(header('Location: /zaya-not-found/',true,302));
 }
+$ab_icon = '/images/Aionian-Bible-Online.png';
+$ab_link = '/Bibles/'.$match[1];
 
 /* Zaya */
 ?>
@@ -14,7 +16,7 @@ if (empty($_GET['pdf']) ||
 
 <head>
   <meta charset="utf-8">
-  <title>Zaya Flipbook</title>
+  <title>Zaya Flipbook at AionianBible.org</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/svg+xml" href="/assets/zaya.svg" alt="icon svg">
 
@@ -32,11 +34,18 @@ if (empty($_GET['pdf']) ||
 
 <body class="bg-gray-900 text-white">
 
-    <!-- GitHub Link -->
+    <!-- GitHub Link 
     <div class="fixed top-4 right-4 z-50">
         <a href="https://github.com/ibra-kdbra/Zaya" target="_blank" class="flex items-center px-3 py-3 bg-[var(--bg-tertiary)]
     text-[var(--text-primary)] border border-[var(--border-primary)] rounded-lg shadow-md transition duration-300 hover:bg-[var(--bg-accent-hover)] hover:text-[var(--text-accent)]" title="GitHub Repository">
             <i class="fab fa-github text-lg"></i>
+        </a>
+    </div> -->
+
+    <!-- AB Link instead -->
+    <div class="fixed top-4 right-4 z-50">
+        <a href="<? echo $ab_link; ?>" title="Return to Aionian Bible" style="padding: 0.25rem">
+            <img src="<? echo $ab_icon; ?>" alt="AB">
         </a>
     </div>
 

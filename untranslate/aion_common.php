@@ -5366,14 +5366,16 @@ function AION_SITEMAP($root) {
 			$sitemap_file .= "<url><loc>https://www.AionianBible.org/Readium/"	.$holybible ."---Aionian-Edition</loc><lastmod>$UPDATED</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>\n";
 		}
         if (is_file("$root/resources/$holybible---Aionian-Edition.pdf")) {
-			$sitemap_file .= "<url><loc>https://www.AionianBible.org/DearFlip/"	.$holybible ."---Aionian-Edition.pdf</loc><lastmod>$UPDATED</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>\n";
+			$sitemap_file .= "<url><loc>https://www.AionianBible.org/DearFlip/"	.$holybible ."---Aionian-Edition</loc><lastmod>$UPDATED</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>\n";
+			$sitemap_file .= "<url><loc>https://www.AionianBible.org/Zaya/"		.$holybible ."---Aionian-Edition</loc><lastmod>$UPDATED</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>\n";
 		}
 		if (is_dir("$root/library/epub/$holybible---Source-Edition")) {
 			$sitemap_file .= "<url><loc>https://www.AionianBible.org/epub/"		.$holybible ."---Source-Edition</loc><lastmod>$UPDATED</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>\n";
 			$sitemap_file .= "<url><loc>https://www.AionianBible.org/Readium/"	.$holybible ."---Source-Edition</loc><lastmod>$UPDATED</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>\n";
 		}
         if (is_file("$root/resources/$holybible---Source-Edition.pdf")) {
-			$sitemap_file .= "<url><loc>https://www.AionianBible.org/DearFlip/"	.$holybible ."---Source-Edition.pdf</loc><lastmod>$UPDATED</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>\n";
+			$sitemap_file .= "<url><loc>https://www.AionianBible.org/DearFlip/"	.$holybible ."---Source-Edition</loc><lastmod>$UPDATED</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>\n";
+			$sitemap_file .= "<url><loc>https://www.AionianBible.org/Zaya/"		.$holybible ."---Source-Edition</loc><lastmod>$UPDATED</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>\n";
 		}
 		// books
 		foreach($_BibleONE['T_BOOKS'] as $bookkey => $bookname) {

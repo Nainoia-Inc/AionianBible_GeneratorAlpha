@@ -15,7 +15,7 @@ $return = '/Bibles/'.$match[1];
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	<title>Dearflip Flipbook</title>
+	<title>Dearflip Flipbook at AionianBible.org</title>
 	<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
 	<!-- Flipbook StyleSheet -->
 	<link href="./dflip/css/dflip.min.css" rel="stylesheet" type="text/css">
