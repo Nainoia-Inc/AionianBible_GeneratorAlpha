@@ -5,21 +5,10 @@
 // This is accomplished by using the webpage path/URL to carry the Parallel Bible and StrongsID flags
 // This is also accomplished using javascript functions and onclick events
 // See the javascript functions, onclick events, and the abcms_href() function and usage.
+
+// DISPATCH
 $_Path = $_Orig = trim(strtok($_SERVER['REQUEST_URI'],'?'),'/');
 $_pathl = strtolower($_Path);
-// EPUB
-if (!empty($_GET['e'])) {
-	if(!empty($_Path)) { abcms_notf(); }
-	require 'epub.php';
-	exit;
-}
-// FLIP
-if (!empty($_GET['f'])) {
-	if(!empty($_Path)) { abcms_notf(); }
-	require 'dflip.php';
-	exit;
-}
-// DISPATCH
 $_para = $_stid = $_paraC = $_stidC = $_stidN = $_stidX = $_meta = $_SwipePREV = $_SwipeNEXT = $_BibleSTRONGS = NULL;
 $_Part = array(NULL);
 if ($_Path=='' || $_Path=='index.php') {				$_meta = " ~ Homepage";										abcms_home(); }

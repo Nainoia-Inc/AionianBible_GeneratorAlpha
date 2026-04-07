@@ -1,11 +1,13 @@
 <?php
 // Aionian Bible Flipbook with Dearflip
 // https://github.com/dearhive/dearflip-js-flipbook
-if (empty($_GET['f'])) { exit(header('Location: /dearflip-not-found',true,302)); }
-$flip = $_GET['f'];
-$flipbook = 'resources/'.trim(str_ireplace('/xcdn','',$flip),'/');
-if (!is_file($flipbook)) { exit(header('Location: /dearflip-not-found',true,302)); }
-$return = '/Bibles/'.preg_replace('/^Holy-Bible---/u','',preg_replace('/---(Source|Aionian)-Edition.pdf/u','',$flip));
+if (empty($_GET['pdf']) ||
+	!is_file('.'.$_GET['pdf']) ||
+	!preg_match('#^/resources/Holy-Bible---(.*)---(Aionian|Source)-Edition\.pdf$#', $_GET['pdf'], $match)) {
+	exit(header('Location: /dearflip-not-found/',true,302));
+}
+$flipbook = trim($_GET['pdf'],'/');
+$return = '/Bibles/'.$match[1];
 
 /* Dearflip */
 ?>
@@ -13,7 +15,7 @@ $return = '/Bibles/'.preg_replace('/^Holy-Bible---/u','',preg_replace('/---(Sour
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	<title>Dearflip flipbook ~ <? echo $flip; ?></title>
+	<title>Dearflip Flipbook</title>
 	<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
 	<!-- Flipbook StyleSheet -->
 	<link href="./dflip/css/dflip.min.css" rel="stylesheet" type="text/css">

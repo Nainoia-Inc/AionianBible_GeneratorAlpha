@@ -102,7 +102,7 @@ RewriteRule ^ /Read [L,R=301]
 # REWRITE EPUB
 RewriteCond %{REQUEST_URI} ^\/epub\/ [NC]
 RewriteCond %{DOCUMENT_ROOT}\/library%{REQUEST_URI} -d
-RewriteRule ^ /?e=%{REQUEST_URI} [L,R=301]
+RewriteRule ^ /epub.php?e=%{REQUEST_URI} [L,R=301]
 
 # REWRITE READIUM
 RewriteCond %{REQUEST_URI} ^\/Readium\/(Holy\-Bible\-\-\-.*)$
@@ -110,9 +110,14 @@ RewriteCond %{DOCUMENT_ROOT}\/library\/epub\/%1 -d
 RewriteRule ^ /Readium?epub=../library/epub/%1 [L,R=301]
 
 # REWRITE DEARFLIP
-RewriteCond %{REQUEST_URI} ^\/DearFlip\/(Holy\-Bible\-\-\-.*\.pdf)$
-RewriteCond %{DOCUMENT_ROOT}\/resources\/%1 -f
-RewriteRule ^ /?f=%1 [L,R=301]
+RewriteCond %{REQUEST_URI} ^\/DearFlip\/(Holy\-Bible\-\-\-.*)$
+RewriteCond %{DOCUMENT_ROOT}\/resources\/%1.pdf -f
+RewriteRule ^ /dflip.php?pdf=/resources/%1.pdf [L,R=301]
+
+# REWRITE ZAYA
+RewriteCond %{REQUEST_URI} ^\/Zaya\/(Holy\-Bible\-\-\-.*)$
+RewriteCond %{DOCUMENT_ROOT}\/resources\/%1.pdf -f
+RewriteRule ^ /zaya.php?pdf=/resources/%1.pdf [L,R=301]
 
 # REWRITE PWA
 # Must end with "/" to masquerade each PWA into its own folder allowing multiple-installs

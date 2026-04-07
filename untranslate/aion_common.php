@@ -306,10 +306,10 @@ function AION_FILE_DATABASE_PUT( $database, $source, $destiny, $allbibles ) {
  		"\n<div class='field-header'><img src='/images/Aionian-Bible-Internet.png' title='Aionian Bible Online'> Online:</div><div class='field-field'><div class='field-links decorated'>".
 		(AION_filesize($pwa1)									?("<a href='https://pwa.aionianbible.org/" .$version[C_BIBLE] ."---Aionian-Edition/' target='_blank' title='Aionian Bible Progressive Web Application'>PWA App</a>, ") :'').
 		"<a href='https://play.google.com/store/apps/details?id=net.signedon.aionianbible.aionianbible' target='_blank' title='Aionian Bible free at Google Play Store'>Android App</a>".
-        (is_dir(  $bpub.'---Aionian-Edition')					?(", <a href='/epub/"		.$version[C_BIBLE]	."---Aionian-Edition'  target='_blank' title='Aionian Bible ePub Futurepress'>Futurepress</a>") :'').
-        (is_dir(  $bpub.'---Aionian-Edition')					?(", <a href='/Readium/"	.$version[C_BIBLE]	."---Aionian-Edition'  target='_blank' title='Aionian Bible ePub Readium'>Readium</a>") :'').
-        (AION_filesize($base.'---Aionian-Edition.pdf')			?(", <a href='/DearFlip/"	.$version[C_BIBLE]	."---Aionian-Edition.pdf' target='_blank' title='Aionian Bible DearFlip flipbook'>DearFlip</a>") :'').
-        (AION_filesize($base.'---Aionian-Edition.pdf')			?(", <a href='/paginis.php?pdf=/resources/".$version[C_BIBLE]	."---Aionian-Edition.pdf' target='_blank' title='Aionian Bible Paginis flipbook'>Paginis</a>") :'').
+        (is_dir(  $bpub.'---Aionian-Edition')					?(", <a href='/epub/"		.$version[C_BIBLE]	."---Aionian-Edition' target='_blank' title='Aionian Bible ePub Futurepress'>Futurepress</a>") :'').
+        (is_dir(  $bpub.'---Aionian-Edition')					?(", <a href='/Readium/"	.$version[C_BIBLE]	."---Aionian-Edition' target='_blank' title='Aionian Bible ePub Readium'>Readium</a>") :'').
+        (AION_filesize($base.'---Aionian-Edition.pdf')			?(", <a href='/DearFlip/"	.$version[C_BIBLE]	."---Aionian-Edition' target='_blank' title='Aionian Bible DearFlip flipbook'>DearFlip</a>") :'').
+        (AION_filesize($base.'---Aionian-Edition.pdf')			?(", <a href='/Zaya/"		.$version[C_BIBLE]	."---Aionian-Edition' target='_blank' title='Aionian Bible Zaya flipbook'>Zaya</a>") :'').
 		"</div></div>".
 
  		"\n<div class='field-header'><img src='/images/Aionian-Bible-Download.png' title='Aionian Bible Download'> Download:</div><div class='field-field'><div class='field-links decorated'>".
@@ -351,8 +351,8 @@ function AION_FILE_DATABASE_PUT( $database, $source, $destiny, $allbibles ) {
         ("\n<div class='field-header'><img src='/images/Aionian-Bible-Source.png' title='Aionian Bible Source'> Source:</div><div class='field-field'><div class='field-links decorated'>".
 		 (is_dir(  $bpub.'---Source-Edition')				?("<a href='/epub/"		.$version[C_BIBLE]."---Source-Edition' target='_blank' title='Source Bible ePub Futurepress'>Futurepress</a>, ")					:'').
 		 (is_dir(  $bpub.'---Source-Edition')				?("<a href='/Readium/"	.$version[C_BIBLE]."---Source-Edition' target='_blank' title='Source Bible ePub Readium'>Readium</a>, ")							:'').
-         (AION_filesize($base.'---Source-Edition.pdf')		?("<a href='/DearFlip/"	.$version[C_BIBLE]."---Source-Edition.pdf' target='_blank' title='Source Bible DearFlip flipbook'>DearFlip</a>, ")					:'').
-         (AION_filesize($base.'---Source-Edition.pdf')		?("<a href='/paginis.php?pdf=/resources/".$version[C_BIBLE]."---Source-Edition.pdf' target='_blank' title='Source Bible Paginis flipbook'>Paginis</a>, ")	:'').
+         (AION_filesize($base.'---Source-Edition.pdf')		?("<a href='/DearFlip/"	.$version[C_BIBLE]."---Source-Edition' target='_blank' title='Source Bible DearFlip flipbook'>DearFlip</a>, ")						:'').
+         (AION_filesize($base.'---Source-Edition.pdf')		?("<a href='/Zaya/"		.$version[C_BIBLE]."---Source-Edition' target='_blank' title='Source Bible Zaya flipbook'>Zaya</a>, ")								:'').
 		 (AION_filesize($base.'---Source-Edition.epub')		?("<a href='/resources/".$version[C_BIBLE]."---Source-Edition.epub' download title='Source Bible ePub format download'>ePub</a>, ")							:'').
 		 (AION_filesize($base.'---Source-Edition.pdf')		?("<a href='/resources/".$version[C_BIBLE]."---Source-Edition.pdf' title='Source Bible PDF format'  target='_blank'>PDF</a>, ")								:'').
 		 (AION_filesize($base.'---Source-Edition.SWORD.zip')?("<a href='/resources/".$version[C_BIBLE]."---Source-Edition.SWORD.zip' download title='Source Bible Crosswire Sword download'>Crosswire module</a>, ")	:'').

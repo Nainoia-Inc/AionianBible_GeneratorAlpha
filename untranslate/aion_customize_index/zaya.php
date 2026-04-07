@@ -1,36 +1,40 @@
 <?php
 // Aionian Bible Flipbook with Dearflip
-// https://github.com/ibra-kdbra/Paginis
+// https://github.com/ibra-kdbra/Zaya
 if (empty($_GET['pdf']) ||
 	!is_file('.'.$_GET['pdf']) ||
-	!preg_match('#^/resources/Holy-Bible---.+\.pdf$#', $_GET['pdf'])) {
-	exit(header('Location: /paginis-not-found/',true,302));
+	!preg_match('#^/resources/Holy-Bible---.*\.pdf$#', $_GET['pdf'])) {
+	exit(header('Location: /zaya-not-found/',true,302));
 }
 
-/* Paginis */
+/* Zaya */
 ?>
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
   <meta charset="utf-8">
-  <title>Paginis</title>
+  <title>Zaya Flipbook</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" type="image/svg+xml" href="/assets/paginis.svg" alt="icon svg">
+  <link rel="icon" type="image/svg+xml" href="/assets/zaya.svg" alt="icon svg">
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
   <link rel="stylesheet" href="lib/css/style.css">
   <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
 
   <script src="https://cdn.tailwindcss.com"></script>
-  <!-- <script>window.dFlipLocation = "lib/";</script> -->
+
+  <!-- Custom PDF Configuration -->
+  <!-- Uncomment and set your own PDF URL to change the default document: -->
+  <!-- <script>window.ZAYA_DEFAULT_PDF = "./path/to/your.pdf";</script> -->
+
 </head>
 
 <body class="bg-gray-900 text-white">
 
     <!-- GitHub Link -->
     <div class="fixed top-4 right-4 z-50">
-        <a href="https://github.com/ibra-kdbra/Paginis" target="_blank" class="flex items-center px-3 py-3 bg-[var(--bg-tertiary)]
+        <a href="https://github.com/ibra-kdbra/Zaya" target="_blank" class="flex items-center px-3 py-3 bg-[var(--bg-tertiary)]
     text-[var(--text-primary)] border border-[var(--border-primary)] rounded-lg shadow-md transition duration-300 hover:bg-[var(--bg-accent-hover)] hover:text-[var(--text-accent)]" title="GitHub Repository">
             <i class="fab fa-github text-lg"></i>
         </a>
@@ -138,7 +142,7 @@ if (empty($_GET['pdf']) ||
       </div>
       <div class="pdf-inputs">
         <div class="input-field">
-          <input id="pdfUrl" type="url" placeholder="../../www-resources/Holy-Bible---English---Aionian-Bible---Aionian-Edition.pdf" class="panel-input" autocomplete="off">
+          <input id="pdfUrl" type="url" placeholder="Paste PDF URL here..." class="panel-input" autocomplete="off">
           <button id="loadPdfUrlBtn" class="panel-button load-btn" title="Load PDF from URL">
             <i class="fas fa-globe"></i>
           </button>
@@ -205,7 +209,6 @@ if (empty($_GET['pdf']) ||
         <div class="media-player-youtube" id="youtubePlayerContainer">
           <iframe id="youtubePlayer" src="" frameborder="0" allowfullscreen></iframe>
         </div>
-        
         <!-- Custom Local Audio Player UI -->
         <div id="customAudioPlayer" class="hidden flex flex-col gap-3 mt-4 p-4 bg-gray-800/40 rounded-xl border border-gray-700/50 backdrop-blur-sm">
           <div class="flex items-center gap-4">
@@ -220,22 +223,39 @@ if (empty($_GET['pdf']) ||
               </div>
             </div>
           </div>
-          
-          <!-- Integrated Volume Slider (Smaller/Minimalist) -->
-          <div class="flex items-center gap-3 px-1 pt-1 border-t border-gray-700/30">
-            <i class="fas fa-volume-down text-[10px] text-gray-500"></i>
-            <input type="range" id="volumeSlider" min="0" max="100" value="50" class="flex-1 h-0.5 bg-gray-700 rounded-lg appearance-none cursor-pointer accent-gray-400 hover:accent-blue-400 transition-all">
-            <i class="fas fa-volume-up text-[10px] text-gray-500"></i>
+
+          <!-- Integrated Volume Slider & Loop Toggle -->
+          <div class="flex flex-col gap-2 mt-1 pt-2 border-t border-gray-700/30">
+            <div class="flex items-center gap-3 px-1">
+              <i class="fas fa-volume-down text-[10px] text-gray-500"></i>
+              <input type="range" id="volumeSlider" min="0" max="100" value="50" class="flex-1 h-0.5 bg-gray-700 rounded-lg appearance-none cursor-pointer accent-gray-400 hover:accent-blue-400 transition-all">
+              <i class="fas fa-volume-up text-[10px] text-gray-500"></i>
+            </div>
+
+            <div class="flex items-center justify-between px-1 mt-1">
+              <span class="text-[10px] text-gray-500 uppercase tracking-wider font-semibold">Auto Repeat Audio</span>
+              <label class="toggle-switch-modern scale-75 origin-right">
+                <input type="checkbox" id="mediaLoopToggle">
+                <span class="slider-modern"></span>
+              </label>
+            </div>
           </div>
 
           <audio id="localAudioPlayer" class="hidden"></audio>
         </div>
 
-        <!-- Volume for Video mode only (hidden when audio player is showing) -->
-        <div id="videoVolumeControl" class="media-buttons mt-2 hidden">
-          <div class="volume-control flex items-center gap-2 bg-gray-800/30 p-2 rounded-lg border border-gray-700/30">
+        <!-- Volume & Loop for Video mode -->
+        <div id="videoVolumeControl" class="media-buttons mt-2 hidden flex-col gap-2 p-2 bg-gray-800/40 rounded-xl border border-gray-700/50">
+          <div class="volume-control flex items-center gap-3 px-1">
             <i class="fas fa-volume-up text-xs text-gray-500"></i>
             <input type="range" id="videoVolumeSlider" min="0" max="100" value="50" class="volume-slider flex-1">
+          </div>
+          <div class="flex items-center justify-between px-1 mt-1 border-t border-gray-700/30 pt-2">
+            <span class="text-[10px] text-gray-500 uppercase tracking-wider font-semibold">Auto Repeat Video</span>
+            <label class="toggle-switch-modern scale-75 origin-right">
+              <input type="checkbox" id="videoMediaLoopToggle">
+              <span class="slider-modern"></span>
+            </label>
           </div>
         </div>
       </div>
