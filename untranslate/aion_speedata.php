@@ -247,7 +247,7 @@ function AION_LOOP_PDF_POD($source, $destiny) {
 		//'include'	=> "/Holy-Bible---.*(Korean).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Plain-English|Miniafia).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---Indonesian---Simple---Aionian-Edition\.noia$/",
-		//'include'	=> "/Holy-Bible---Malayalam---Malayalam-Bible---Aionian-Edition\.noia$/",
+		//'include'	=> "/Holy-Bible---Spanish---Free-for-the-World---Aionian-Edition\.noia$/",
 		'include'	=> "/---Aionian-Edition\.noia$/",
 		'database'	=> $database,
 		'destiny'	=> $destiny,

@@ -1,0 +1,17 @@
+RewriteEngine on
+RewriteBase /gallery/
+
+# Deny direct access to the next directories
+RewriteRule ^config/.*$ - [R=404,L]
+RewriteRule ^core/.*$ - [R=404,L]
+RewriteRule ^languages/.*$ - [R=404,L]
+
+# Disable Directory Listing
+<IfModule mod_autoindex.c>  
+    Options -Indexes  
+</IfModule>
+
+# All URL process by index.php
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*) index.php [PT,L]
