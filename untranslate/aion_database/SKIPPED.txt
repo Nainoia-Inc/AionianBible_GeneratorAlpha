@@ -1,6 +1,6 @@
 # File Name: SKIPPED.txt
-# File Size: 1877977     
-# File Date: 04/18/2026 15:03:15
+# File Size: 1877979     
+# File Date: 04/22/2026 22:02:02
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution 4.0 International, 2018-2026
@@ -6884,8 +6884,8 @@ Holy-Bible---Greek---Greek-Majority-Text	044	ACT	015	034
 Holy-Bible---Greek---Greek-Majority-Text	044	ACT	024	007	
 Holy-Bible---Greek---Greek-Nestle	064	3JO	001	014	ἐλπίζω δὲ εὐθέως σε ἰδεῖν, καὶ στόμα πρὸς στόμα λαλήσομεν.
 Holy-Bible---Greek---Greek-Nestle	066	REV	012	018	καὶ ἐστάθη ἐπὶ τὴν ἄμμον τῆς θαλάσσης.
-Holy-Bible---Greek---Greek-SBL	064	3JO	001	014	ἐλπίζω δὲ εὐθέως ⸂σε ἰδεῖν, καὶ στόμα πρὸς στόμα λαλήσομεν.
-Holy-Bible---Greek---Greek-SBL	066	REV	012	018	καὶ ⸀ἐστάθηἐπὶ τὴν ἄμμον τῆς θαλάσσης.
+Holy-Bible---Greek---Greek-SBL	064	3JO	001	014	ἐλπίζω δὲ εὐθέως ⸂σε ἰδεῖν , καὶ στόμα πρὸς στόμα λαλήσομεν.
+Holy-Bible---Greek---Greek-SBL	066	REV	012	018	καὶ ⸀ἐστάθη ἐπὶ τὴν ἄμμον τῆς θαλάσσης.
 Holy-Bible---Greek---Greek-Stephanus	042	LUK	017	036	
 Holy-Bible---Greek---Greek-TR-Stephanus-Scrivener	042	LUK	017	036	
 Holy-Bible---Greek---Greek-Textus-Receptus	064	3JO	001	014	ελπιζω δε ευθεως ιδειν σε και στομα προς στομα λαλησομεν

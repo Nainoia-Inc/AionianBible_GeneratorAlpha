@@ -631,7 +631,7 @@ return;
 /*** WORD TOCS MENU ***/
 function abcms_word_tocs_menu($testament, &$tocmenu) {
 global $_Part, $_paraC, $_stidC;
-global $_BibleONE, $_BibleBOOKS, $_BibleTWO, $_BibleTWO_xLink, $_BibleTWO_Lang;
+global $_BibleONE, $_BibleONE_Lang, $_BibleBOOKS, $_BibleTWO, $_BibleTWO_xLink, $_BibleTWO_Lang;
 end($_BibleONE['T_BOOKS']);		$last  = $_BibleBOOKS[key($_BibleONE['T_BOOKS'])]['NUMBER'];	if ('New Testament'==$testament && $last <= 39) {	exit(header("Location: /Bibles/$_Part[1]",true,301)); }
 reset($_BibleONE['T_BOOKS']);	$first = $_BibleBOOKS[key($_BibleONE['T_BOOKS'])]['NUMBER'];	if ('Old Testament'==$testament && $first >= 40) {	exit(header("Location: /Bibles/$_Part[1]",true,301)); }
 if ($first >=40) {				$old = ""; }
@@ -646,8 +646,18 @@ if (!empty($_Part[2])) {
 	$name = "<a href='".abcms_href("/Bibles/$_Part[1]",FALSE,TRUE,TRUE)."' title='Description' class='word-tocs'>".$_BibleONE['T_VERSIONS']['SHORT']."</a>";
 }
 else {
-	$ol2 = (empty($old) ? "" : "<div class='field-field'><div class='field-links'><a href='$olk' title='Old Testament'>Old Testament</a></div></div>");
-	$ne2 = (empty($new) ? "" : "<div class='field-field'><div class='field-links'><a href='$nlk' title='New Testament'>New Testament</a></div></div>");
+	$otbooks = $ntbooks = NULL;
+	foreach( $_BibleONE['T_BOOKS'] as $bookkey => $bookname ) {
+		if (empty($bookname)) { continue; }
+		$path_chapter = abcms_href("/Bibles/$_Part[1]/$bookkey",FALSE,TRUE,TRUE);
+		$bookname_formatted = ( $bookname == $_BibleBOOKS[$bookkey]['ENGLISH'] ? $bookname : $_BibleONE_Lang."'>".$bookname.'</span>' );
+		if ((int)$_BibleBOOKS[$bookkey]['NUMBER']<=39) {	$otbooks .= "<a href='{$path_chapter}'>{$bookname_formatted}</a>, "; }
+		else {												$ntbooks .= "<a href='{$path_chapter}'>{$bookname_formatted}</a>, "; }
+	}
+	$otbooks = rtrim($otbooks, ', ');
+	$ntbooks = rtrim($ntbooks, ', ');
+	$ol2 = (empty($old) ? '' : "<div class='field-field'><div class='field-links'><a href='{$olk}' title='Old Testament'><b>Old Testament</b></a><br>{$otbooks}</div></div>");
+	$ne2 = (empty($new) ? '' : "<div class='field-field'><div class='field-links'><a href='{$nlk}' title='New Testament'><b>New Testament</b></a><br>{$ntbooks}</div></div>");
 	if (!empty($_BibleTWO)) {
 		$para = "<div class='field-field'><div class='field-links'>Parallel: "; 
 		$para .= "<a href='".abcms_href("/Bibles/$_paraC",FALSE,FALSE,TRUE)."' title='Parallel Bible description'>";
