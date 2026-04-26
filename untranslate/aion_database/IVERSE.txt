@@ -1,6 +1,6 @@
 # File Name: IVERSE.txt
-# File Size: 1234850     
-# File Date: 04/23/2026 00:32:15
+# File Size: 1234844     
+# File Date: 04/25/2026 02:53:39
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution 4.0 International, 2018-2026
@@ -4201,11 +4201,11 @@ Holy-Bible---Spanish---Free-Bible	ROM-001-001	Romanos 1:1	Esta carta viene de Pa
 Holy-Bible---Spanish---Free-Bible	MAT-028-019	San Mateo 28:19	Así que vayan y hagan discípulos entre la gente de todas las naciones, bautizándolos en el nombre del Padre, del Hijo y del Espíritu Santo.
 Holy-Bible---Spanish---Free-for-the-World	JOH-003-016	Juan 3:16	Porque tanto amó Dios al mundo, que dio a su Hijo unigénito, para que todo el que crea en él no perezca, sino que tenga vida eterna.
 Holy-Bible---Spanish---Free-for-the-World	GEN-003-024	Génesis 3:24	Echó, pues, fuera al hombre, y puso al oriente del huerto de Edén querubines y una espada encendida que se revolvía a todas partes, para guardar el camino del árbol de la vida.
-Holy-Bible---Spanish---Free-for-the-World	LUK-023-034	San Lucas 23:34	Y Jesús decía: “Padre, perdónalos, porque no saben lo que hacen”. Y repartieron entre sí sus vestidos, echando suertes.
-Holy-Bible---Spanish---Free-for-the-World	REV-021-002	Apocalipsis 21:2-3	Vi la ciudad santa, la Nueva Jerusalén, bajando del cielo desde Dios, preparada como una novia adornada para su esposo. Oí una fuerte voz del cielo que decía: “He aquí que la morada de Dios está con el pueblo; y él habitará con ellos, y ellos serán su pueblo, y Dios mismo estará con ellos como su Dios.
+Holy-Bible---Spanish---Free-for-the-World	LUK-023-034	San Lucas 23:34	Y Jesús decía: «Padre, perdónalos, porque no saben lo que hacen». Y repartieron entre sí sus vestidos, echando suertes.
+Holy-Bible---Spanish---Free-for-the-World	REV-021-002	Apocalipsis 21:2-3	Vi la ciudad santa, la Nueva Jerusalén, bajando del cielo desde Dios, preparada como una novia adornada para su esposo. Oí una fuerte voz del cielo que decía: «He aquí que la morada de Dios está con el pueblo; y él habitará con ellos, y ellos serán su pueblo, y Dios mismo estará con ellos como su Dios.
 Holy-Bible---Spanish---Free-for-the-World	HEB-011-008	Hebreos 11:8	Por la fe Abraham, siendo llamado, obedeció para salir al lugar que había de recibir como herencia; y salió sin saber a dónde iba.
-Holy-Bible---Spanish---Free-for-the-World	EXO-013-017	Éxodo 13:17	Cuando el faraón dejó ir al pueblo, Dios no los condujo por el camino de la tierra de los filisteos, aunque estaba cerca; porque Dios dijo: “No sea que el pueblo cambie de opinión al ver la guerra, y vuelva a Egipto”;
-Holy-Bible---Spanish---Free-for-the-World	MAR-010-045	Marcos 10:45	Porque también el Hijo del Hombre no ha venido a ser servido, sino a servir, y a dar su vida en rescate por muchos.”
+Holy-Bible---Spanish---Free-for-the-World	EXO-013-017	Éxodo 13:17	Cuando el faraón dejó ir al pueblo, Dios no los condujo por el camino de la tierra de los filisteos, aunque estaba cerca; porque Dios dijo: «No sea que el pueblo cambie de opinión al ver la guerra, y vuelva a Egipto»;
+Holy-Bible---Spanish---Free-for-the-World	MAR-010-045	Marcos 10:45	Porque también el Hijo del Hombre no ha venido a ser servido, sino a servir, y a dar su vida en rescate por muchos.»
 Holy-Bible---Spanish---Free-for-the-World	ROM-001-001	Romanos 1:1	Pablo, siervo de Jesucristo, llamado a ser apóstol, apartado para la Buena Nueva de Dios,
 Holy-Bible---Spanish---Free-for-the-World	MAT-028-019	San Mateo 28:19	Id, y haced discípulos a todas las naciones, bautizándolos en el nombre del Padre, y del Hijo, y del Espíritu Santo;
 Holy-Bible---Spanish---Gods-Word-for-You	JOH-003-016	Juan 3:16	Dios amó tanto al mundo que dio a su Hijo Unigénito, para que todo el que cree en Él no perezca, sino tenga vida eterna.
