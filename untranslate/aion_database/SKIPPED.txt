@@ -1,6 +1,6 @@
 # File Name: SKIPPED.txt
-# File Size: 1877979     
-# File Date: 04/25/2026 00:23:38
+# File Size: 1878094     
+# File Date: 05/04/2026 08:16:30
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution 4.0 International, 2018-2026
@@ -2834,6 +2834,7 @@ Holy-Bible---English---Orthodox-Jewish-Bible	019	PSA	140	001	(For the one direct
 Holy-Bible---English---Orthodox-Jewish-Bible	019	PSA	142	001	(Maskil of Dovid; A tefillah when he was in the me'arah)
 Holy-Bible---English---Orthodox-Jewish-Bible	064	3JO	001	014	But I have the tikvah [hope] to see you imminently, and we will speak panim el panim [directly, in person].
 Holy-Bible---English---Orthodox-Jewish-Bible	066	REV	012	018	And then the Dragon NACHASH took his stand on the seashore sand of the yam [sea].
+Holy-Bible---English---Plain-English-Version	064	3JO	001	014	I want to visit you soon. Then we will talk together.
 Holy-Bible---English---Revised-Version	040	MAT	017	021	
 Holy-Bible---English---Revised-Version	040	MAT	018	011	
 Holy-Bible---English---Revised-Version	040	MAT	023	014	
