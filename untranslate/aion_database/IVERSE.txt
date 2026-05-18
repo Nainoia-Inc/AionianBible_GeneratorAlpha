@@ -1,6 +1,6 @@
 # File Name: IVERSE.txt
-# File Size: 1234844     
-# File Date: 05/04/2026 10:47:12
+# File Size: 1234815     
+# File Date: 05/15/2026 10:54:50
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution 4.0 International, 2018-2026
@@ -1508,15 +1508,15 @@ Holy-Bible---French---Bonnet-Bovet-Bible	EXO-013-017	Exode 13:17	Or, quand Phara
 Holy-Bible---French---Bonnet-Bovet-Bible	MAR-010-045	Marc 10:45	Car aussi le fils de l’homme n’est pas venu pour être servi, mais pour servir et donner sa vie en rançon pour plusieurs.
 Holy-Bible---French---Bonnet-Bovet-Bible	ROM-001-001	Romains 1:1	Paul, serviteur de Jésus-Christ, apôtre en vertu d’un appel, mis à part pour l’Évangile de Dieu,
 Holy-Bible---French---Bonnet-Bovet-Bible	MAT-028-019	Matthieu 28:19	Allez, instruisez toutes les nations, les baptisant au nom du Père et du Fils et du Saint-Esprit,
-Holy-Bible---French---Free-for-the-World	JOH-003-016	Jean 3:16	Car Dieu a tant aimé le monde qu'il a donné son Fils unique, afin que quiconque croit en lui ne périsse pas, mais ait la vie éternelle.
-Holy-Bible---French---Free-for-the-World	GEN-003-024	Genèse 3:24	Il chassa l'homme, et il plaça des chérubins à l'est du jardin d'Eden, et une épée flamboyante qui se tournait de tous côtés, pour garder le chemin de l'arbre de vie.
-Holy-Bible---French---Free-for-the-World	LUK-023-034	Luc 23:34	Jésus dit: «Père, pardonne-leur, car ils ne savent pas ce qu'ils font.» Ils se partagèrent ses vêtements en tirant au sort.
-Holy-Bible---French---Free-for-the-World	REV-021-002	Apocalypse 21:2-3	Je vis descendre du ciel, d'auprès de Dieu, la ville sainte, la nouvelle Jérusalem, préparée comme une épouse qui s'est parée pour son mari. J'ai entendu du ciel une voix forte qui disait: «Voici la demeure de Dieu avec les hommes; il habitera avec eux, et ils seront son peuple, et Dieu lui-même sera avec eux comme leur Dieu.
-Holy-Bible---French---Free-for-the-World	HEB-011-008	Hébreux 11:8	C'est par la foi qu'Abraham, lorsqu'il fut appelé, obéit pour sortir vers le lieu qu'il devait recevoir en héritage. Il sortit, sans savoir où il allait.
-Holy-Bible---French---Free-for-the-World	EXO-013-017	Exode 13:17	Lorsque Pharaon eut laissé partir le peuple, Dieu ne le conduisit pas par le chemin du pays des Philistins, qui était pourtant tout proche, car Dieu dit: «De peur que le peuple ne change d'avis en voyant la guerre, et qu'il ne retourne en Égypte»;
-Holy-Bible---French---Free-for-the-World	MAR-010-045	Marc 10:45	Car le Fils de l'homme est venu, lui aussi, non pour être servi, mais pour servir, et donner sa vie en rançon pour la multitude.»
-Holy-Bible---French---Free-for-the-World	ROM-001-001	Romains 1:1	Paul, serviteur de Jésus-Christ, appelé à être apôtre, mis à part pour la Bonne Nouvelle de Dieu,
-Holy-Bible---French---Free-for-the-World	MAT-028-019	Matthieu 28:19	Allez, faites de toutes les nations des disciples, baptisez-les au nom du Père, du Fils et du Saint-Esprit,
+Holy-Bible---French---Free-for-the-World	JOH-003-016	Jean 3:16	Car Dieu a tant aimé le monde qu'il a donné son Fils unique, afin que quiconque croit en lui ne périsse point, mais qu'il ait la vie éternelle.
+Holy-Bible---French---Free-for-the-World	GEN-003-024	Genèse 3:24	Ainsi, il chassa l'homme; et il plaça des chérubins à l'orient du jardin d'Éden, avec l'épée flamboyante qui tournoyait en tous sens, pour garder le chemin de l'arbre de vie.
+Holy-Bible---French---Free-for-the-World	LUK-023-034	Luc 23:34	Jésus dit: «Père, pardonne-leur, car ils ne savent pas ce qu'ils font.» Puis, se partageant ses vêtements, ils tirèrent au sort.
+Holy-Bible---French---Free-for-the-World	REV-021-002	Apocalypse 21:2-3	Et je vis descendre du ciel, d’auprès de Dieu, la ville sainte, la nouvelle Jérusalem, préparée comme une épouse parée pour son époux. J’entendis du trône une voix forte qui disait: «Voici le tabernacle de Dieu avec les hommes! Il habitera avec eux, ils seront ses peuples, et Dieu lui-même sera avec eux.
+Holy-Bible---French---Free-for-the-World	HEB-011-008	Hébreux 11:8	Par la foi, Abraham, lors de son appel, obéit et partit pour un lieu qu'il devait recevoir en héritage; et il partit sans savoir où il allait.
+Holy-Bible---French---Free-for-the-World	EXO-013-017	Exode 13:17	Lorsque Pharaon eut laissé partir le peuple, Dieu ne les conduisit pas par le chemin du pays des Philistins, bien que ce fût le plus proche; car Dieu dit: «De peur que le peuple ne change d'avis en voyant la guerre, et qu'il ne retourne en Égypte.»
+Holy-Bible---French---Free-for-the-World	MAR-010-045	Marc 10:45	Car le Fils de l'Homme est venu, non pour être servi, mais pour servir et donner sa vie en rançon pour beaucoup.»
+Holy-Bible---French---Free-for-the-World	ROM-001-001	Romains 1:1	Paul, serviteur de Jésus-Christ, appelé comme apôtre, mis à part pour l’Évangile de Dieu,
+Holy-Bible---French---Free-for-the-World	MAT-028-019	Matthieu 28:19	Allez, faites de toutes les nations des disciples, les baptisant au nom du Père, du Fils et du Saint-Esprit,
 Holy-Bible---French---French-Crampon-Bible	JOH-003-016	Jean 3:16	En effet, Dieu a tellement aimé le monde, qu’il a donné son Fils unique, afin que quiconque croit en lui ne périsse point mais ait la vie éternelle.
 Holy-Bible---French---French-Crampon-Bible	GEN-003-024	Genèse 3:24	Et il chassa l’homme, et il mit à l’orient du jardin d’Eden les Chérubins et la flamme de l’épée tournoyante, pour garder le chemin de l’arbre de vie.
 Holy-Bible---French---French-Crampon-Bible	LUK-023-034	Luc 23:34	Mais Jésus disait: «Père, pardonnez-leur, car ils ne savent ce qu’ils font.» Se partageant ensuite ses vêtements, ils les tirèrent au sort.
@@ -2105,10 +2105,10 @@ Holy-Bible---Greek---Greek-Westcott-Hort	MAT-028-019	Κατα Ματθαιον 2
 Holy-Bible---Greek---Text-Critical	JOH-003-016	Κατα Ιωαννην 3:16	Οὕτω γὰρ ἠγάπησεν ὁ Θεὸς τὸν κόσμον, ὥστε τὸν υἱὸν αὐτοῦ τὸν μονογενῆ ἔδωκεν, ἵνα πᾶς ὁ πιστεύων εἰς αὐτὸν μὴ ἀπόληται, ἀλλ᾽ ἔχῃ ζωὴν αἰώνιον.
 Holy-Bible---Greek---Text-Critical	GEN-003-024		
 Holy-Bible---Greek---Text-Critical	LUK-023-034	Κατα Λουκαν 23:34	Ὁ δὲ Ἰησοῦς ἔλεγε, Πάτερ, ἄφες αὐτοῖς· οὐ γὰρ οἴδασι τί ποιοῦσι. Διαμεριζόμενοι δὲ τὰ ἱμάτια αὐτοῦ, ἔβαλον κλῆρον.
-Holy-Bible---Greek---Text-Critical	REV-021-002	Αποκαλυψις Ιωαννου 21:2-3	Καὶ τὴν πόλιν τὴν ἁγίαν, Ἱερουσαλὴμ καινήν, εἶδον καταβαίνουσαν ἐκ τοῦ οὐρανοῦ ἀπὸ τοῦ Θεοῦ, ἡτοιμασμένην ὡς νύμφην κεκοσμημένην τῷ ἀνδρὶ αὐτῆς. Καὶ ἤκουσα φωνῆς μεγάλης ἐκ τοῦ οὐρανοῦ λεγούσης, Ἰδού, ἡ σκηνὴ τοῦ Θεοῦ μετὰ τῶν ἀνθρώπων, καὶ σκηνώσει μετ᾽ αὐτῶν, καὶ αὐτοὶ λαὸς αὐτοῦ ἔσονται, καὶ αὐτὸς ὁ Θεὸς μετ᾽ αὐτῶν ἔσται.
+Holy-Bible---Greek---Text-Critical	REV-021-002	Αποκαλυψις Ιωαννου 21:2-3	καὶ τὴν πόλιν τὴν ἁγίαν, Ἱερουσαλὴμ καινήν, εἶδον καταβαίνουσαν ἐκ τοῦ οὐρανοῦ ἀπὸ τοῦ Θεοῦ, ἡτοιμασμένην ὡς νύμφην κεκοσμημένην τῷ ἀνδρὶ αὐτῆς. καὶ ἤκουσα φωνῆς μεγάλης ἐκ τοῦ οὐρανοῦ λεγούσης, Ἰδού, ἡ σκηνὴ τοῦ Θεοῦ μετὰ τῶν ἀνθρώπων, καὶ σκηνώσει μετ᾽ αὐτῶν, καὶ αὐτοὶ λαὸς αὐτοῦ ἔσονται, καὶ αὐτὸς ὁ Θεὸς μετ᾽ αὐτῶν ἔσται.
 Holy-Bible---Greek---Text-Critical	HEB-011-008	Προς Εβραιους 11:8	Πίστει καλούμενος Ἁβραὰμ ὑπήκουσεν ἐξελθεῖν εἰς τὸν τόπον ὃν ἤμελλε λαμβάνειν εἰς κληρονομίαν, καὶ ἐξῆλθε μὴ ἐπιστάμενος ποῦ ἔρχεται.
 Holy-Bible---Greek---Text-Critical	EXO-013-017		
-Holy-Bible---Greek---Text-Critical	MAR-010-045	Κατα Μαρκον 10:45	Καὶ γὰρ ὁ υἱὸς τοῦ ἀνθρώπου οὐκ ἦλθε διακονηθῆναι ἀλλὰ διακονῆσαι, καὶ δοῦναι τὴν ψυχὴν αὐτοῦ λύτρον ἀντὶ πολλῶν.
+Holy-Bible---Greek---Text-Critical	MAR-010-045	Κατα Μαρκον 10:45	καὶ γὰρ ὁ υἱὸς τοῦ ἀνθρώπου οὐκ ἦλθε διακονηθῆναι ἀλλὰ διακονῆσαι, καὶ δοῦναι τὴν ψυχὴν αὐτοῦ λύτρον ἀντὶ πολλῶν.
 Holy-Bible---Greek---Text-Critical	ROM-001-001	Προς Ρωμαιους 1:1	Παῦλος, δοῦλος Ἰησοῦ Χριστοῦ, κλητὸς ἀπόστολος, ἀφωρισμένος εἰς εὐαγγέλιον Θεοῦ,
 Holy-Bible---Greek---Text-Critical	MAT-028-019	Κατα Ματθαιον 28:19	Πορευθέντες μαθητεύσατε πάντα τὰ ἔθνη, βαπτίζοντες αὐτοὺς εἰς τὸ ὄνομα τοῦ Πατρὸς καὶ τοῦ Υἱοῦ καὶ τοῦ Ἁγίου Πνεύματος·
 Holy-Bible---Guduf-Gava---Guduf-Gava-Bible	JOH-003-016		
