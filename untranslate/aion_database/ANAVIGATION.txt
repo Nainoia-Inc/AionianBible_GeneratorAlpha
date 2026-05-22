@@ -1,6 +1,6 @@
 # File Name: ANAVIGATION.txt
 # File Size: 43529       
-# File Date: 05/15/2026 10:56:37
+# File Date: 05/22/2026 12:04:49
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution 4.0 International, 2018-2026
