@@ -1,6 +1,6 @@
 # File Name: TESTWORDS.txt
-# File Size: 293168      
-# File Date: 05/22/2026 12:00:59
+# File Size: 293170      
+# File Date: 05/29/2026 21:07:58
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution 4.0 International, 2018-2026
@@ -267,7 +267,7 @@ Holy-Bible---Hebrew---Living-Bible	0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0
 Holy-Bible---Hebrew---Modern-Hebrew-Bible	0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	NULL=0/0/0, GROUP=0/0/0
 Holy-Bible---Hebrew---Salkinson-Hebrew-Bible	0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	NULL=0/0/0, GROUP=0/0/0
 Holy-Bible---Hebrew---Westminster-Leningrad-Philadelphia	0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	NULL=0/0/0, GROUP=0/0/0
-Holy-Bible---Hindi---Contemporary	0	GROUP=0/0/0	सनातन=24/7/17, सदैव=65/0/65, GROUP=89/7/82	नरक=3/3/0, GROUP=3/3/0	नरक=3/3/0, GROUP=3/3/0	अधोलोक=58/50/8, नरक=3/3/0, GROUP=61/53/8	अधोलोक=58/50/8, नरक=3/3/0, GROUP=61/53/8	अधोलोक=58/50/8, नरक=3/3/0, GROUP=61/53/8	अधोलोक=58/50/8, नरक=3/3/0, GROUP=61/53/8	अथाह कुण्ड=0/0/0, GROUP=0/0/0	आग की झील=2/2/0, मिलेगा=44/1/43, जो आग=6/1/5, GROUP=52/4/48	NULL=0/0/0, GROUP=0/0/0
+Holy-Bible---Hindi---Contemporary	0	GROUP=0/0/0	सनातन=50/7/43, सदैव=65/0/65, GROUP=115/7/108	नरक=3/3/0, GROUP=3/3/0	नरक=3/3/0, GROUP=3/3/0	अधोलोक=58/50/8, नरक=3/3/0, GROUP=61/53/8	अधोलोक=58/50/8, नरक=3/3/0, GROUP=61/53/8	अधोलोक=58/50/8, नरक=3/3/0, GROUP=61/53/8	अधोलोक=58/50/8, नरक=3/3/0, GROUP=61/53/8	अथाह कुण्ड=0/0/0, GROUP=0/0/0	आग की झील=2/2/0, मिलेगा=44/1/43, जो आग=6/1/5, GROUP=52/4/48	NULL=0/0/0, GROUP=0/0/0
 Holy-Bible---Hindi---Hindi-Bible	0	GROUP=0/0/0	सनातन=24/12/12, सदैव=49/1/48, GROUP=73/13/60	नरक=12/12/0, GROUP=12/12/0	नरक=12/12/0, GROUP=12/12/0	अधोलोक=74/70/4, नरक=12/12/0, GROUP=86/82/4	अधोलोक=74/70/4, नरक=12/12/0, GROUP=86/82/4	अधोलोक=74/70/4, नरक=12/12/0, GROUP=86/82/4	अधोलोक=74/70/4, नरक=12/12/0, GROUP=86/82/4	अथाह कुण्ड=7/7/0, GROUP=7/7/0	आग की झील=3/3/0, मिलेगा=84/5/79, जो आग=9/1/8, GROUP=96/9/87	NULL=0/0/0, GROUP=0/0/0
 Holy-Bible---Hona---Hwana-Bible	0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	NULL=0/0/0, GROUP=0/0/0
 Holy-Bible---Hre---Hre-Bible	0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	GROUP=0/0/0	NULL=0/0/0, GROUP=0/0/0

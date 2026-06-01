@@ -246,7 +246,7 @@ function AION_LOOP_PDF_POD($source, $destiny) {
 		//'include'	=> "/Holy-Bible---.*(Cebuano---Cebuano-Open-Bible).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Korean).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Khmer).*---Aionian-Edition\.noia$/",
-		//'include'	=> "/Holy-Bible---Indonesian---Simple---Aionian-Edition\.noia$/",
+		//'include'	=> "/Holy-Bible---Abureni---Abureni-Bible---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---Spanish---Free-for-the-World---Aionian-Edition\.noia$/",
 		'include'	=> "/---Aionian-Edition\.noia$/",
 		'database'	=> $database,
@@ -2277,50 +2277,50 @@ $fonts
 <Output area="area2colref"><Text fontfamily="FF-Refs" textformat="left"><Paragraph language="Other" $bidi_3col>
 
 <B><I><Fontface fontfamily='FF-Glos'><Value>Abyssos</Value></Fontface></I></B><Br />
-<ForAll select="ABYSS">		<Span language="{@LANG}"><Value select="@BOOK" /></Span><HSpace width="5pt"/><Value select="@CHAPTER" /><Value select="':'" /><Value select="@VERSE" /><Value select="@MARK" /><Br /></ForAll>
+<ForAll select="ABYSS">		<Span language="{@LANG}"><Value select="@BOOK" /></Span><HSpace width="2pt"/><Value select="@CHAPTER" /><Value select="':'" /><Value select="@VERSE" /><Value select="@MARK" /><Br /></ForAll>
 <Fontface fontfamily='FF-Tiny'><Br /></Fontface>
 
 <B><I><Fontface fontfamily='FF-Glos'><Value>aïdios</Value></Fontface></I></B><Br />
-<ForAll select="AIDIOS">	<Span language="{@LANG}"><Value select="@BOOK" /></Span><HSpace width="5pt"/><Value select="@CHAPTER" /><Value select="':'" /><Value select="@VERSE" /><Value select="@MARK" /><Br /></ForAll>
+<ForAll select="AIDIOS">	<Span language="{@LANG}"><Value select="@BOOK" /></Span><HSpace width="2pt"/><Value select="@CHAPTER" /><Value select="':'" /><Value select="@VERSE" /><Value select="@MARK" /><Br /></ForAll>
 <Fontface fontfamily='FF-Tiny'><Br /></Fontface>
 
 <B><I><Fontface fontfamily='FF-Glos'><Value>aiōn</Value></Fontface></I></B><Br />
-<ForAll select="AIONS">		<Span language="{@LANG}"><Value select="@BOOK" /></Span><HSpace width="5pt"/><Value select="@CHAPTER" /><Value select="':'" /><Value select="@VERSE" /><Value select="@MARK" /><Br /></ForAll>
+<ForAll select="AIONS">		<Span language="{@LANG}"><Value select="@BOOK" /></Span><HSpace width="2pt"/><Value select="@CHAPTER" /><Value select="':'" /><Value select="@VERSE" /><Value select="@MARK" /><Br /></ForAll>
 <Fontface fontfamily='FF-Tiny'><Br /></Fontface>
 
 <B><I><Fontface fontfamily='FF-Glos'><Value>aiōnios</Value></Fontface></I></B><Br />
-<ForAll select="AIONIAN">	<Span language="{@LANG}"><Value select="@BOOK" /></Span><HSpace width="5pt"/><Value select="@CHAPTER" /><Value select="':'" /><Value select="@VERSE" /><Value select="@MARK" /><Br /></ForAll>
+<ForAll select="AIONIAN">	<Span language="{@LANG}"><Value select="@BOOK" /></Span><HSpace width="2pt"/><Value select="@CHAPTER" /><Value select="':'" /><Value select="@VERSE" /><Value select="@MARK" /><Br /></ForAll>
 <Fontface fontfamily='FF-Tiny'><Br /></Fontface>
 
 <B><I><Fontface fontfamily='FF-Glos'><Value>eleēsē</Value></Fontface></I></B><Br />
-<ForAll select="ELEESE">	<Span language="{@LANG}"><Value select="@BOOK" /></Span><HSpace width="5pt"/><Value select="@CHAPTER" /><Value select="':'" /><Value select="@VERSE" /><Value select="@MARK" /><Br /></ForAll>
+<ForAll select="ELEESE">	<Span language="{@LANG}"><Value select="@BOOK" /></Span><HSpace width="2pt"/><Value select="@CHAPTER" /><Value select="':'" /><Value select="@VERSE" /><Value select="@MARK" /><Br /></ForAll>
 <Fontface fontfamily='FF-Tiny'><Br /></Fontface>
 
 <B><I><Fontface fontfamily='FF-Glos'><Value>Geenna</Value></Fontface></I></B><Br />
-<ForAll select="GEHENNA">	<Span language="{@LANG}"><Value select="@BOOK" /></Span><HSpace width="5pt"/><Value select="@CHAPTER" /><Value select="':'" /><Value select="@VERSE" /><Value select="@MARK" /><Br /></ForAll>
+<ForAll select="GEHENNA">	<Span language="{@LANG}"><Value select="@BOOK" /></Span><HSpace width="2pt"/><Value select="@CHAPTER" /><Value select="':'" /><Value select="@VERSE" /><Value select="@MARK" /><Br /></ForAll>
 <Fontface fontfamily='FF-Tiny'><Br /></Fontface>
 
 <B><I><Fontface fontfamily='FF-Glos'><Value>Hadēs</Value></Fontface></I></B><Br />
-<ForAll select="HADES">		<Span language="{@LANG}"><Value select="@BOOK" /></Span><HSpace width="5pt"/><Value select="@CHAPTER" /><Value select="':'" /><Value select="@VERSE" /><Value select="@MARK" /><Br /></ForAll>
+<ForAll select="HADES">		<Span language="{@LANG}"><Value select="@BOOK" /></Span><HSpace width="2pt"/><Value select="@CHAPTER" /><Value select="':'" /><Value select="@VERSE" /><Value select="@MARK" /><Br /></ForAll>
 <Fontface fontfamily='FF-Tiny'><Br /></Fontface>
 
 <B><I><Fontface fontfamily='FF-Glos'><Value>Limnē Pyr</Value></Fontface></I></B><Br />
-<ForAll select="LOF">		<Span language="{@LANG}"><Value select="@BOOK" /></Span><HSpace width="5pt"/><Value select="@CHAPTER" /><Value select="':'" /><Value select="@VERSE" /><Value select="@MARK" /><Br /></ForAll>
+<ForAll select="LOF">		<Span language="{@LANG}"><Value select="@BOOK" /></Span><HSpace width="2pt"/><Value select="@CHAPTER" /><Value select="':'" /><Value select="@VERSE" /><Value select="@MARK" /><Br /></ForAll>
 <Fontface fontfamily='FF-Tiny'><Br /></Fontface>
 
 <B><I><Fontface fontfamily='FF-Glos'><Value>Sheol</Value></Fontface></I></B><Br />
-<ForAll select="SHEOL">		<Span language="{@LANG}"><Value select="@BOOK" /></Span><HSpace width="5pt"/><Value select="@CHAPTER" /><Value select="':'" /><Value select="@VERSE" /><Value select="@MARK" /><Br /></ForAll>
+<ForAll select="SHEOL">		<Span language="{@LANG}"><Value select="@BOOK" /></Span><HSpace width="2pt"/><Value select="@CHAPTER" /><Value select="':'" /><Value select="@VERSE" /><Value select="@MARK" /><Br /></ForAll>
 <Fontface fontfamily='FF-Tiny'><Br /></Fontface>
 
 <B><I><Fontface fontfamily='FF-Glos'><Value>Tartaroō</Value></Fontface></I></B><Br />
-<ForAll select="TARTARUS">	<Span language="{@LANG}"><Value select="@BOOK" /></Span><HSpace width="5pt"/><Value select="@CHAPTER" /><Value select="':'" /><Value select="@VERSE" /><Value select="@MARK" /><Br /></ForAll>
+<ForAll select="TARTARUS">	<Span language="{@LANG}"><Value select="@BOOK" /></Span><HSpace width="2pt"/><Value select="@CHAPTER" /><Value select="':'" /><Value select="@VERSE" /><Value select="@MARK" /><Br /></ForAll>
 <Fontface fontfamily='FF-Tiny'><Br /></Fontface>
 
 <ForAll select="QUESTIONED"><SetVariable variable="QuestionedCount" select="(\$QuestionedCount+1)"/></ForAll>
 <B><I><Fontface fontfamily='FF-Glos'><Value>Questioned</Value></Fontface></I></B><Br />
 <Switch><Case test="(\$QuestionedCount>0)">
 <Message select="concat('ABPROOFER $outpdf QUESTIONED ',\$QuestionedCount)" />
-<ForAll select="QUESTIONED"><Span language="{@LANG}"><Value select="@BOOK" /></Span><HSpace width="5pt"/><Value select="@CHAPTER" /><Value select="':'" /><Value select="@VERSE" /><Value select="@MARK" /><Br /></ForAll>
+<ForAll select="QUESTIONED"><Span language="{@LANG}"><Value select="@BOOK" /></Span><HSpace width="2pt"/><Value select="@CHAPTER" /><Value select="':'" /><Value select="@VERSE" /><Value select="@MARK" /><Br /></ForAll>
 </Case>
 <Otherwise><Fontface fontfamily='FF-Pmap'><Value>None yet noted</Value></Fontface></Otherwise>
 </Switch>
