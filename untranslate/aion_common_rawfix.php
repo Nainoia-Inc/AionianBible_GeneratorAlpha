@@ -1175,7 +1175,7 @@ goto RAWHIDE;
 
 // RAWFIX BIBLE ********************
 case "Holy-Bible---Chin-Thado---Chongthu-Bible" :
-if (!($bfile = preg_replace('/_+/ui'," ",$bfile,-1,$rnum)) || $rnum!=10) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+if (!($bfile = preg_replace('/_+/ui'," ",$bfile,-1,$rnum)) || $rnum!=11) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $bfile_saved = $bfile;
 $blockfix = <<<EOF
 LUK 6:11 Hiche a hin Jesu galmi ho chu alunghang un ama chu ilo ding ham ti akihou khom tauve. Jesun Seijui Ding Som Le Ni Alhendoh
