@@ -1,6 +1,6 @@
 # File Name: UNTRANSLATECOUNT.txt
 # File Size: 53554       
-# File Date: 06/26/2026 09:27:48
+# File Date: 07/02/2026 01:53:13
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution 4.0 International, 2018-2026
@@ -484,7 +484,7 @@ Holy-Bible---Spanish---Reina-Valera-1865	74	0	64	12	1	11	9	1	5	94	63	10	2	0	1	0	
 Holy-Bible---Spanish---Reina-Valera-1909	73	1	64	12	1	11	9	1	5	94	63	10	2	0	1	1	272	265	264	0	0	0	1
 Holy-Bible---Spanish---Reina-Valera-NT-1858	36	0	0	12	1	11	9	1	5	94	63	10	2	0	1	0	208	201	200	0	64	0	1
 Holy-Bible---Spanish---Sagradas-Escrituras-1569	69	1	64	12	1	11	9	1	5	94	63	10	2	0	1	1	272	265	264	0	0	0	1
-Holy-Bible---Spanish---Sencillo-Bible	50	1	64	12	1	11	9	1	5	94	63	10	2	0	1	1	272	265	264	0	0	0	1
+Holy-Bible---Spanish---Sencillo-Bible	46	1	64	12	1	11	9	1	5	94	63	10	2	0	1	1	272	265	264	0	0	0	1
 Holy-Bible---Spanish---Spanish-New-Open-Bible	58	4	64	12	1	11	9	1	5	94	62	10	2	0	4	4	271	263	259	5	0	0	4
 Holy-Bible---Swahili---Contemporary	41	3	64	12	1	11	9	1	5	94	63	10	2	0	0	3	272	264	264	0	0	0	0
 Holy-Bible---Swahili---New-Swahili-Bible	59	0	64	12	1	11	9	1	5	94	63	10	2	0	0	0	272	264	264	0	0	0	0

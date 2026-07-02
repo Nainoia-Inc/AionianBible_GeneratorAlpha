@@ -19654,22 +19654,6 @@ goto RAWHIDE;
 
 
 
-
-// RAWFIX BIBLE ********************
-case "Holy-Bible---Spanish---Sencillo-Bible" :
-if (!($bfile = preg_replace("/\x{200d}/us","",$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); } // https://unicodelookup.com/#0x200d/1
-$bfile_saved = $bfile;
-$textfix = <<<EOF
-ECC 7:6 Al igual que el crujir de espinas debajo de una olla, también lo es la risa de un hombre necio; y esto de nuevo no tiene ningún propósito.
-ECC 7:7 Los sabios están preocupados por la opresión de los crueles, y dar dinero es la destrucción del corazón.
-ECC 7:8 
-EOF;
-if (!($bfile = preg_replace("/ECC 7:6 (.+?)ECC 7:8 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
-goto RAWHIDE;
-
-
-
-
 // RAWFIX BIBLE ********************
 case "Holy-Bible---Spanish---Spanish-New-Open-Bible" :
 if (!($bfile = preg_replace("/»/us","» ",$bfile,-1,$rnum)) || $rnum!=4113) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); } // https://unicodelookup.com/#0x200d/1
