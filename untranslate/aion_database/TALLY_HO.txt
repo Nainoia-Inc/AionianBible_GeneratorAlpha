@@ -1,6 +1,6 @@
 # File Name: TALLY_HO.txt
-# File Size: 31267       
-# File Date: 07/09/2026 21:37:54
+# File Size: 31270       
+# File Date: 07/18/2026 18:10:58
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution 4.0 International, 2018-2026
@@ -270,7 +270,7 @@ Holy-Bible---Hebrew---Westminster-Leningrad-Philadelphia	23143	23143	23213
 Holy-Bible---Hindi---Contemporary	31086	31086	31087
 Holy-Bible---Hindi---Hindi-Bible	31102	31102	31104
 Holy-Bible---Hona---Hwana-Bible	7951	7951	7955
-Holy-Bible---Hre---Hre-Bible	7951	7951	7955
+Holy-Bible---Hre---Hre-Bible	11529	11529	11534
 Holy-Bible---Hruso---Hrusso-Angka-Bible	1176	1176	1176
 Holy-Bible---Hungarian---Hungarian-Jewish-Bible	23135	23135	23204
 Holy-Bible---Hungarian---Hungarian-Karoli	31102	31102	31173

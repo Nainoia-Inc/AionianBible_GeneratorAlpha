@@ -2,12 +2,12 @@
 BIBLE	INDEX	BOOK	CHAPTER	VERSE	MAP	FLAG
 # File Accuracy: Contact publisher with corrections to file format or content
 # File Copyright: Creative Commons Attribution 4.0 International, 2018-2026
-# File Date: 07/09/2026 21:43:20
+# File Date: 07/18/2026 18:16:24
 # File Generator: ABCMS (alpha)
 # File Location: https://resources.AionianBible.org
 # File Name: BOOKSCHAPTERS.txt
 # File Purpose: Supporting resource for the Aionian Bible project
-# File Size: 4131786     
+# File Size: 4133344     
 Holy-Bible---Abureni---Abureni-Bible	041	MAR	009	044	MISSING	MID
 Holy-Bible---Abureni---Abureni-Bible	041	MAR	009	046	MISSING	MID
 Holy-Bible---Ahirani---Ahirani-Bible	047	2CO	001	014	MISSING	MID
@@ -36018,6 +36018,33 @@ Holy-Bible---Hona---Hwana-Bible	042	LUK	017	036	MISSING	MID
 Holy-Bible---Hona---Hwana-Bible	042	LUK	023	017	MISSING	MID
 Holy-Bible---Hona---Hwana-Bible	044	ACT	015	034	MISSING	MID
 Holy-Bible---Hona---Hwana-Bible	044	ACT	024	007	MISSING	MID
+Holy-Bible---Hre---Hre-Bible	001	GEN	005	019	MISSING	MID
+Holy-Bible---Hre---Hre-Bible	001	GEN	008	019	MISSING	MID
+Holy-Bible---Hre---Hre-Bible	001	GEN	011	011	MISSING	MID
+Holy-Bible---Hre---Hre-Bible	001	GEN	011	012	MISSING	MID-SEQ
+Holy-Bible---Hre---Hre-Bible	001	GEN	011	013	MISSING	MID-SEQ
+Holy-Bible---Hre---Hre-Bible	001	GEN	011	014	MISSING	MID-SEQ
+Holy-Bible---Hre---Hre-Bible	001	GEN	012	005	MISSING	MID
+Holy-Bible---Hre---Hre-Bible	001	GEN	015	011	MISSING	MID
+Holy-Bible---Hre---Hre-Bible	001	GEN	018	008	MISSING	MID
+Holy-Bible---Hre---Hre-Bible	001	GEN	023	004	MISSING	MID
+Holy-Bible---Hre---Hre-Bible	001	GEN	023	006	MISSING	MID
+Holy-Bible---Hre---Hre-Bible	001	GEN	023	014	MISSING	MID
+Holy-Bible---Hre---Hre-Bible	001	GEN	024	065	MISSING	MID
+Holy-Bible---Hre---Hre-Bible	001	GEN	036	016	MISSING	MID
+Holy-Bible---Hre---Hre-Bible	001	GEN	041	054	MISSING	MID
+Holy-Bible---Hre---Hre-Bible	001	GEN	045	006	MISSING	MID
+Holy-Bible---Hre---Hre-Bible	002	EXO	007	010	MISSING	MID
+Holy-Bible---Hre---Hre-Bible	002	EXO	008	032	MISSING	END*
+Holy-Bible---Hre---Hre-Bible	002	EXO	011	010	MISSING	END*
+Holy-Bible---Hre---Hre-Bible	002	EXO	012	051	MISSING	END*
+Holy-Bible---Hre---Hre-Bible	003	LEV	014	050	MISSING	MID
+Holy-Bible---Hre---Hre-Bible	003	LEV	024	011	MISSING	MID
+Holy-Bible---Hre---Hre-Bible	003	LEV	026	003	MISSING	MID
+Holy-Bible---Hre---Hre-Bible	003	LEV	026	004	MISSING	MID-SEQ
+Holy-Bible---Hre---Hre-Bible	003	LEV	027	005	MISSING	MID
+Holy-Bible---Hre---Hre-Bible	003	LEV	027	020	MISSING	MID
+Holy-Bible---Hre---Hre-Bible	003	LEV	027	030	MISSING	MID
 Holy-Bible---Hre---Hre-Bible	040	MAT	018	011	MISSING	MID
 Holy-Bible---Hre---Hre-Bible	040	MAT	023	014	MISSING	MID
 Holy-Bible---Hre---Hre-Bible	041	MAR	009	044	MISSING	MID

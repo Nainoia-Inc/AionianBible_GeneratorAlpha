@@ -1,6 +1,6 @@
 # File Name: SKIPPED.txt
-# File Size: 1878093     
-# File Date: 07/09/2026 19:22:58
+# File Size: 1878140     
+# File Date: 07/18/2026 15:53:45
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution 4.0 International, 2018-2026
@@ -7353,6 +7353,7 @@ Holy-Bible---Hona---Hwana-Bible	044	ACT	015	034
 Holy-Bible---Hona---Hwana-Bible	044	ACT	024	007	
 Holy-Bible---Hona---Hwana-Bible	064	3JO	001	014	Tsǝɓaku na minna sǝ a na sa ni, ndǝn nǝm a tsǝ laɓaara nda yirha tǝ yirha.
 Holy-Bible---Hona---Hwana-Bible	066	REV	012	018	Tǝrgha sheetan ishgha a ten chehwedɗi na mii wuri aamɗi. Tǝrgha ǝnkaheedɗi ishgha a mii ƙǝƙǝshɓang nda wuri aamɗi.
+Holy-Bible---Hre---Hre-Bible	003	LEV	024	011	-
 Holy-Bible---Hre---Hre-Bible	041	MAR	009	050	Boh aih ngè lem, mahaq tàng boh aih pi xang, aih èh yŏc cleq hu broq haq xang hlài.
 Holy-Bible---Hre---Hre-Bible	044	ACT	015	034	-
 Holy-Bible---Hre---Hre-Bible	064	3JO	001	014	au toq ngèh ka rênh jah trùh hmàih ka ìh dôq ba jah tangèa hu hatuàng ti dabau.

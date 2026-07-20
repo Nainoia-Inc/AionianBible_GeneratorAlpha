@@ -1645,6 +1645,16 @@ function AION_BIBLES_REMAPPER($bible,&$index,&$book,&$chapter,&$verse,&$text) {
 			goto YO;
 		}
 	}
+	/* LEV22-23 */
+	if (isset($database[T_VERSEMAP][$bible.'-LEV22-23'])!==FALSE) {
+		/* leviticus */
+		if ($book=='LEV' && (($chapter==22 && $verse>=34) || ($chapter==23))) {
+			AION_BIBLES_SLIDE_FORE($bible, 22, 33, 11, $chapter, $verse);
+			$current="WARNING REMAPPED = $bible: SINGLE Leviticus 22-23";
+			if ($previous!=$current) { AION_ECHO($current); $previous=$current; }
+			goto YO;
+		}
+	}
 	/* DEU12-13 */
 	if (isset($database[T_VERSEMAP][$bible.'-DEU12-13'])!==FALSE) {	
 		/* deuteronomy */
@@ -3484,25 +3494,25 @@ function AION_LOOP_HTMS($source, $destiny, $destiny2) {
 	$grandmarker = array();
 	$grandmarker['BIBLE_COUNT']	= $grandtotal['BIBLE_COUNT']-539;
 	$grandmarker['LANG_COUNT']	= $grandtotal['LANG_COUNT']-279;
-	$grandmarker['BOOK_OT']		= $grandtotal['BOOK_OT']-9950;
+	$grandmarker['BOOK_OT']		= $grandtotal['BOOK_OT']-9953;
 	$grandmarker['BOOK_NT']		= $grandtotal['BOOK_NT']-12377;
-	$grandmarker['CHAP_TOTAL']	= $grandtotal['CHAP_TOTAL']-358253;
-	$grandmarker['VERS_TOTAL']	= $grandtotal['VERS_TOTAL']-9606310;
-	$grandmarker['VERS_AION']	= $grandtotal['VERS_AION']-108472;
+	$grandmarker['CHAP_TOTAL']	= $grandtotal['CHAP_TOTAL']-358370;
+	$grandmarker['VERS_TOTAL']	= $grandtotal['VERS_TOTAL']-9609888;
+	$grandmarker['VERS_AION']	= $grandtotal['VERS_AION']-108476;
 	$grandmarker['VERS_QUES']	= $grandtotal['VERS_QUES']-487;
 	$grandmarker['LONG']		= $grandtotal['LONG']-2549;
 	$grandmarker['CHAP_NO']		= $grandtotal['CHAP_NO']-192;
-	$grandmarker['VERS_NO']		= $grandtotal['VERS_NO']-7374;
-	$grandmarker['VERS_EX']		= $grandtotal['VERS_EX']-1096;
-	$grandmarker['FIXED']		= $grandtotal['FIXED']-14698;
-	$grandmarker['NOTFIXED']	= $grandtotal['NOTFIXED']-60072;
+	$grandmarker['VERS_NO']		= $grandtotal['VERS_NO']-7388;
+	$grandmarker['VERS_EX']		= $grandtotal['VERS_EX']-1107;
+	$grandmarker['FIXED']		= $grandtotal['FIXED']-14696;
+	$grandmarker['NOTFIXED']	= $grandtotal['NOTFIXED']-60121;
 	$grandmarker['CHAP_RE']		= $grandtotal['CHAP_RE']-11708;
 	$grandmarker['REVE_NO']		= $grandtotal['REVE_NO']-712;
 	$grandmarker['REVE_EX']		= $grandtotal['REVE_EX']-715;
 	$grandmarker['CUSTO']		= $grandtotal['CUSTO']-1615;
-	$grandmarker['PDFPA']		= $grandtotal['PDFPA']-261672;
-	$grandmarker['PDFPN']		= $grandtotal['PDFPN']-60258;
-	$grandmarker['PDFPI']		= (float)$grandtotal['PDFPI']-5981.44;
+	$grandmarker['PDFPA']		= $grandtotal['PDFPA']-261660;
+	$grandmarker['PDFPN']		= $grandtotal['PDFPN']-60240;
+	$grandmarker['PDFPI']		= (float)$grandtotal['PDFPI']-5981.20;
 	$grandmarker['PDF_PKDP']	= $grandtotal['PDF_PKDP']-166;
 	$grandmarker['PDF_PKNT']	= $grandtotal['PDF_PKNT']-92;
 	$grandmarker['PDF_PKJO']	= $grandtotal['PDF_PKJO']-16;

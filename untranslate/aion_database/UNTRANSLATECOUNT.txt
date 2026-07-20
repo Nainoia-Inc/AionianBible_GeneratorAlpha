@@ -1,6 +1,6 @@
 # File Name: UNTRANSLATECOUNT.txt
 # File Size: 53554       
-# File Date: 07/09/2026 21:23:23
+# File Date: 07/18/2026 17:56:27
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution 4.0 International, 2018-2026
@@ -270,7 +270,7 @@ Holy-Bible---Hebrew---Westminster-Leningrad-Philadelphia	0	0	64	0	0	0	0	0	0	0	0	
 Holy-Bible---Hindi---Contemporary	3	0	64	12	1	11	9	1	5	94	63	10	2	0	1	0	272	265	264	0	0	0	1
 Holy-Bible---Hindi---Hindi-Bible	12	0	64	12	1	11	9	1	5	94	63	10	2	0	1	0	272	265	264	0	0	0	1
 Holy-Bible---Hona---Hwana-Bible	0	0	0	12	1	11	9	1	5	94	63	10	2	0	0	0	208	200	200	0	64	0	0
-Holy-Bible---Hre---Hre-Bible	0	0	0	12	1	11	9	1	5	94	63	10	2	0	0	0	208	200	200	0	64	0	0
+Holy-Bible---Hre---Hre-Bible	0	0	4	12	1	11	9	1	5	94	63	10	2	0	0	0	212	204	204	0	60	0	0
 Holy-Bible---Hruso---Hrusso-Angka-Bible	0	0	0	1	0	2	1	0	0	6	4	2	0	0	0	0	16	15	15	0	249	0	0
 Holy-Bible---Hungarian---Hungarian-Jewish-Bible	0	0	64	0	0	0	0	0	0	0	0	0	0	0	0	0	64	64	64	0	200	0	0
 Holy-Bible---Hungarian---Hungarian-Karoli	14	2	64	12	1	11	9	1	5	94	63	10	2	0	1	2	272	265	264	0	0	0	1

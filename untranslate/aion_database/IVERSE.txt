@@ -1,6 +1,6 @@
 # File Name: IVERSE.txt
-# File Size: 1234697     
-# File Date: 07/09/2026 21:55:23
+# File Size: 1235185     
+# File Date: 07/18/2026 18:28:22
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution 4.0 International, 2018-2026
@@ -488,7 +488,7 @@ Holy-Bible---Chin-Matu---Matupi-Chin-2019	LUK-023-034	Luka 23:34	Te vaengah Jesu
 Holy-Bible---Chin-Matu---Matupi-Chin-2019	REV-021-002	Olphong 21:2-3	A cim kho thai Jerusalem te khaw a va ham aka rhuengphong tih aka thoeihcam vasakung bangla vaan Pathen taeng lamkah ha suntla te ka hmuh. Te vaengah ngolkhoel lamkah ol ue ka yaak. “Pathen kah dap tah hlang rhoek taengah om coeng ke. Te dongah amih taengah rhaeh vetih amih khaw a pilnam la om uh ni. Pathen amah khaw amih taengah om vetih amih kah Pathen la om ni.
 Holy-Bible---Chin-Matu---Matupi-Chin-2019	HEB-011-008	Hebru 11:8	Tangnah neh a khue vaengah rho la pang aka cai hmuen te paan ham Abraham loh a ngai. Te vaengah mela a caeh khaw a ming mueh lam ni a caeh.
 Holy-Bible---Chin-Matu---Matupi-Chin-2019	EXO-013-017	Sunglatnah 13:17	Pharaoh loh pilnam te a hlah coeng dae Pathen loh, “Pilnam he caemtloeknah a hmuh vaengah hal vetih Egypt la mael ve,” a ti. Te dongah amih te Pathen loh Philisti kho kah longpuei longah pat mawt pawh.
-Holy-Bible---Chin-Matu---Matupi-Chin-2019	MAR-010-045	Marku 10:45	Hlang capa tah hlang thotat sak ham pawt tih sak ham pah ham neh a hinglu te ping kah tlansum la paek ham ni halo,” a ti nah.
+Holy-Bible---Chin-Matu---Matupi-Chin-2019	MAR-010-045	Marku 10:45	Hlang capa tah hlang thotat sak ham pawt tih thotat pah ham neh a hinglu te ping kah tlansum la paek ham ni halo,” a ti nah.
 Holy-Bible---Chin-Matu---Matupi-Chin-2019	ROM-001-001	Rom 1:1	Jesuh Khrih kah sal, caeltueih la a khue tih Pathen kah olthangthen ham a coelh kai Paul,
 Holy-Bible---Chin-Matu---Matupi-Chin-2019	MAT-028-019	Matthai 28:19	Te dongah cet uh lamtah namtom boeih te ham bang sak uh. Amih te Pa, Capa, Cim Mueihla kah ming neh nuem uh.
 Holy-Bible---Chin-Matu---Matupi-Chin-Bible	JOH-003-016	Johan 3:16	Pathen loh Diklai a lungnah tangloeng tih khueh duen capa te a paek. Amah aka tangnah boeih tah poci pawt vetih dungyan hingnah a dang ni.
@@ -497,7 +497,7 @@ Holy-Bible---Chin-Matu---Matupi-Chin-Bible	LUK-023-034	Luka 23:34	Te vaengah Jes
 Holy-Bible---Chin-Matu---Matupi-Chin-Bible	REV-021-002	Olphong 21:2-3	A cim kho thai Jerusalem te khaw a va ham aka rhuengphong tih aka thoeihcam vasakung bangla vaan Pathen taeng lamkah ha suntla te ka hmuh. Te vaengah ngolkhoel lamkah ol ue ka yaak. “Pathen kah dap tah hlang rhoek taengah om coeng ke. Te dongah amih taengah rhaeh vetih amih khaw a pilnam la om uh ni. Pathen amah khaw amih taengah om vetih amih kah Pathen la om ni.
 Holy-Bible---Chin-Matu---Matupi-Chin-Bible	HEB-011-008	Hebru 11:8	Tangnah neh a khue vaengah rho la pang aka cai hmuen te paan ham Abraham loh a ngai. Te vaengah mela a caeh khaw a ming mueh lam ni a caeh.
 Holy-Bible---Chin-Matu---Matupi-Chin-Bible	EXO-013-017	Sunglatnah 13:17	Pharaoh loh pilnam te a hlah coeng dae Pathen loh, “Pilnam he caemtloeknah a hmuh vaengah hal vetih Egypt la mael ve,” a ti. Te dongah amih te Pathen loh Philisti kho kah longpuei longah pat mawt pawh.
-Holy-Bible---Chin-Matu---Matupi-Chin-Bible	MAR-010-045	Marku 10:45	Hlang capa tah hlang thotat sak ham pawt tih sak ham pah ham neh a hinglu te ping kah tlansum la paek ham ni halo,” a ti nah.
+Holy-Bible---Chin-Matu---Matupi-Chin-Bible	MAR-010-045	Marku 10:45	Hlang capa tah hlang thotat sak ham pawt tih thotat pah ham neh a hinglu te ping kah tlansum la paek ham ni halo,” a ti nah.
 Holy-Bible---Chin-Matu---Matupi-Chin-Bible	ROM-001-001	Rom 1:1	Jesuh Khrih kah sal, caeltueih la a khue tih Pathen kah olthangthen ham a coelh kai Paul,
 Holy-Bible---Chin-Matu---Matupi-Chin-Bible	MAT-028-019	Matthai 28:19	Te dongah cet uh lamtah namtom boeih te ham bang sak uh. Amih te Pa, Capa, Cim Mueihla kah ming neh nuem uh.
 Holy-Bible---Chin-Matu---Tuivang-Matu-Chin-Bible	JOH-003-016	Johan 3:16	U awm amah ak cangnaak boeih am qeeng kawmsaw kumqui hqingnaak a taaknaak thai aham, Khawsa ing khawmdek a lungnaak awh a Capa a taak dyyn ce pehy.
@@ -2328,11 +2328,11 @@ Holy-Bible---Hona---Hwana-Bible	MAR-010-045	Markus 10:45	Ko nggini na Wan Niifa,
 Holy-Bible---Hona---Hwana-Bible	ROM-001-001	Romaya 1:1	Nggi na Mbulus, mafad Yeeso Ƙǝrǝsti, aah na nda nggi ka a tsawi tǝthlǝnda Yeeso, wuwura ka a pǝr laɓar Faara ni.
 Holy-Bible---Hona---Hwana-Bible	MAT-028-019	Matta 28:19	Tsaunǝn kee ɗaama ɗǝ, ɗun tsahang fiya ha heu, ǝnang mbaptisǝma nun kanda, hu thlǝm Pǝpa tǝ yi Wee, tǝ yi Sǝsǝna tǝ Peɗǝnda.
 Holy-Bible---Hre---Hre-Bible	JOH-003-016	JON 3:16	Pàng Boc plình loq waq ka crŏng taneh, loh qmòe ka khoe am dèh Kon moeq cla haq, đòeq cabô lùi Kon aih ùh hìaq raliang hnhung mahaq jah kan rìh halình mòeq đòe.
-Holy-Bible---Hre---Hre-Bible	GEN-003-024		
+Holy-Bible---Hre---Hre-Bible	GEN-003-024	JÒ BAXÈM 3:24	qmang aih, haq hnan qnoh kon mangai loh khoe ka wuàn, khoe èh enh pah mahì loh da wuàn Êđen haq đòeq ƀài chêrubim xam pla chang yôh chah ma tanhìa, đòeq hu tàt trong lam trùh ta long kan rìh.
 Holy-Bible---Hre---Hre-Bible	LUK-023-034	LUCA 23:34	Mahaq Chuaq Jesus waiq khàn: “Waiq Baq! Ìh caqnaih da wì yiniq lui, majah qmang aih wì ùh qnì rađeh broq cleq.” Khoe èh, wì pàih panàih hu ngan maleq majah eo haq.
 Holy-Bible---Hre---Hre-Bible	REV-021-002	MAHNO 21:2-3	Au hadai hnoq Plài Hadròeh, aih la Jerusalem maneo enh plình, loh enh Boc Plình, khoe padon qmòe qmang ka mai neo taqnèp anì dèh ka ŏng. Au tàng i bàu dêh loh enh nòe gèq doe rameh: “Hacô! Ranòh kùh waiq da Boc Plình oe qne kon mangai, Haq oe ti wì, wì jah broq mangai da Haq; cla Boc Plình jah oe ti wì.
 Holy-Bible---Hre---Hre-Bible	HEB-011-008	HÊBRU 11:8	Xi manoh lùi, Apraham iu bàu Chuaq creo lam tagùng haq hujah đòeq broq deh kùng hang: Haq lam mahaq ùh qnì đeh lam taleq.
-Holy-Bible---Hre---Hre-Bible	EXO-013-017		
+Holy-Bible---Hre---Hre-Bible	EXO-013-017	LOH ENH ÊDIP 13:17	Jò Phara-ôn caqnaih mangai Isorali loh lam, Boc Plình ùh qnung wì haq lam trong hlài tagùng Philitin, aih trong ma yeo haten dŏng, majah qmang aih haq doe: Yùq jò hnoq kan tajêh tablah, èh manoh wì kô loq tawìh hlài ta Êdip qmòh?
 Holy-Bible---Hre---Hre-Bible	MAR-010-045	MŎC 10:45	Majah qmang aih, Kon Mangai trùh ùh xài đòeq wì patìh ka haq, mahaq đòeq haq patìh glòq ka wì, rai cađac kan rìh rađeh đòeq hu dèch bàc ngai”.
 Holy-Bible---Hre---Hre-Bible	ROM-001-001	RÔMA 1:1	Phaulô hapŏng da Jesus Christ, khoe jah creo broq mangai Tiaq cla, khoe jah lah đòeq crài hu anoe Bàu lem da Boc Plình,
 Holy-Bible---Hre---Hre-Bible	MAT-028-019	MATHIƠ 28:19	Qmang aih, drah lam jàp crŏng taneh đòeq broq ka mangai oe rìm diac wìa dŏng mangai tiaq hŏc au, canòm ka hiniq Baq, hiniq Kon, hiniq Yiang Hadròeh đòeq broq ƀaptem ka wì,
