@@ -1,6 +1,6 @@
 # File Name: SKIPPED.txt
-# File Size: 1878140     
-# File Date: 07/18/2026 15:53:45
+# File Size: 1878198     
+# File Date: 07/24/2026 13:35:01
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution 4.0 International, 2018-2026
@@ -3361,6 +3361,7 @@ Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	142	001	Méditation de David, q
 Holy-Bible---French---Bonnet-Bovet-Bible	041	MAR	010	052	Et Jésus lui dit : Va, ta foi t’a sauvé.
 Holy-Bible---French---Bonnet-Bovet-Bible	064	3JO	001	014	j’espère te voir bientôt, et nous parlerons bouche à bouche.
 Holy-Bible---French---Bonnet-Bovet-Bible	066	REV	012	018	Et il se tint sur le sable de la mer.
+Holy-Bible---French---Free-for-the-World	016	NEH	008	000	
 Holy-Bible---French---Free-for-the-World	042	LUK	017	036	
 Holy-Bible---French---Free-for-the-World	044	ACT	008	037	
 Holy-Bible---French---Free-for-the-World	044	ACT	015	034	
