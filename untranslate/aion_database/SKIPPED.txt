@@ -1,6 +1,6 @@
 # File Name: SKIPPED.txt
-# File Size: 1878198     
-# File Date: 07/24/2026 13:35:01
+# File Size: 1878201     
+# File Date: 08/11/2026 21:46:03
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution 4.0 International, 2018-2026
@@ -3361,7 +3361,6 @@ Holy-Bible---French---Bonnet-Bovet-Bible	019	PSA	142	001	Méditation de David, q
 Holy-Bible---French---Bonnet-Bovet-Bible	041	MAR	010	052	Et Jésus lui dit : Va, ta foi t’a sauvé.
 Holy-Bible---French---Bonnet-Bovet-Bible	064	3JO	001	014	j’espère te voir bientôt, et nous parlerons bouche à bouche.
 Holy-Bible---French---Bonnet-Bovet-Bible	066	REV	012	018	Et il se tint sur le sable de la mer.
-Holy-Bible---French---Free-for-the-World	016	NEH	008	000	
 Holy-Bible---French---Free-for-the-World	042	LUK	017	036	
 Holy-Bible---French---Free-for-the-World	044	ACT	008	037	
 Holy-Bible---French---Free-for-the-World	044	ACT	015	034	
@@ -4689,8 +4688,8 @@ Holy-Bible---French---Vulgate-Glaire	017	EST	012	002	Et ayant compris leurs pens
 Holy-Bible---French---Vulgate-Glaire	017	EST	012	003	Le roi, après qu’ils eurent été mis l’un et l’autre à la question, et qu’ils eurent confessé leur crime, commanda qu’ils fussent conduits à la mort.
 Holy-Bible---French---Vulgate-Glaire	017	EST	012	004	Or le roi écrivit dans des mémoires ce qui s’était passé, et Mardochée en transmit le souvenir dans sa lettre.
 Holy-Bible---French---Vulgate-Glaire	017	EST	012	005	Le roi lui ordonna de demeurer en son palais, en lui donnant des présents pour sa délation.
-Holy-Bible---French---Vulgate-Glaire	017	EST	012	006	Mais Aman, fils d’Amadath, Bugée, était en grand honneur auprès du roi, et il voulut nuire à Mardochée et à son peuple, à cause des deux eunuques du roi qui avaient été tués.
-Holy-Bible---French---Vulgate-Glaire	017	EST	013	001	Le roi très grand Artaxerxès, qui règne depuis l’Inde jusqu’à l’Ethiopie sur cent vingt-sept provinces, aux princes et aux chefs qui sont soumis à son empire, salut.
+Holy-Bible---French---Vulgate-Glaire	017	EST	012	006	Mais Aman, fils d’Amadath, Bugée, était en grand honneur auprès du roi, et il voulut nuire à Mardochée et à son peuple, à cause des deux eunuques du roi qui avaient été tués. Ce que nous avons trouvé dans la seule édition Vulgate.
+Holy-Bible---French---Vulgate-Glaire	017	EST	013	001	Le roi très grand Artaxerxès, qui règne depuis l’Inde jusqu’à l’Éthiopie sur cent vingt-sept provinces, aux princes et aux chefs qui sont soumis à son empire, salut.
 Holy-Bible---French---Vulgate-Glaire	017	EST	013	002	Quoique je commandasse à un très grand nombre de nations, et que j’eusse soumis tout l’univers à ma domination, je n’ai voulu en aucune manière abuser de la grandeur de ma puissance ; mais j’ai gouverné mes sujets avec clémence et avec douceur, afin que, passant leur vie en silence et sans aucune crainte, ils jouissent de la paix souhaitée de tous les mortels.
 Holy-Bible---French---Vulgate-Glaire	017	EST	013	003	Et comme je demandai à mes conseillers de quelle manière cela pourrait être accompli, l’un d’entre eux, nommé Aman, qui par sa sagesse et par sa fidélité l’emportait sur tous les autres, et était le second après le roi,
 Holy-Bible---French---Vulgate-Glaire	017	EST	013	004	M’a fait connaître qu’il y a un peuple dispersé dans toute la terre, ayant de nouvelles lois, et qui, agissant contre la coutume de toutes les nations, méprise les commandements des rois, et détruit par son dissentiment la concorde de tous les peuples.
@@ -4704,8 +4703,8 @@ Holy-Bible---French---Vulgate-Glaire	017	EST	013	011	Vous êtes le Seigneur de t
 Holy-Bible---French---Vulgate-Glaire	017	EST	013	012	Vous connaissez toutes choses, et vous savez que ce n’est ni par orgueil, ni par insulte, ni par quelque désir de gloire, que j’ai fait en sorte de ne pas adorer Aman, le très superbe.
 Holy-Bible---French---Vulgate-Glaire	017	EST	013	013	(Car volontiers, pour le salut d’Israël, j’aurais été prêt à baiser les traces de ses pieds) :
 Holy-Bible---French---Vulgate-Glaire	017	EST	013	014	Mais j’ai craint de transporter l’honneur de mon Dieu à un homme, et d’adorer quelqu’un, excepté mon Dieu.
-Holy-Bible---French---Vulgate-Glaire	017	EST	013	015	Et maintenant. Seigneur roi. Dieu d’Abraham, ayez pitié de votre peuple, parce que nos ennemis veulent nous perdre, et détruire votre héritage.
-Holy-Bible---French---Vulgate-Glaire	017	EST	013	016	Ne méprisez pas votre portion que vous vous êtes rachetée de l’Egypte.
+Holy-Bible---French---Vulgate-Glaire	017	EST	013	015	Et maintenant, Seigneur roi. Dieu d’Abraham, ayez pitié de votre peuple, parce que nos ennemis veulent nous perdre, et détruire votre héritage.
+Holy-Bible---French---Vulgate-Glaire	017	EST	013	016	Ne méprisez pas votre portion que vous vous êtes rachetée de l’Égypte.
 Holy-Bible---French---Vulgate-Glaire	017	EST	013	017	Exaucez ma prière, et soyez propice à votre lot et à votre partage, et changez notre deuil en joie, afin que, vivant, nous célébrions votre nom, Seigneur, et ne fermez pas la bouche de ceux qui vous chantent.
 Holy-Bible---French---Vulgate-Glaire	017	EST	013	018	Tout Israël aussi, dans le même esprit, et avec les mêmes supplications, cria vers le Seigneur, parce qu’une mort certaine les menaçait.
 Holy-Bible---French---Vulgate-Glaire	017	EST	014	001	La reine Esther aussi eut recours au Seigneur, effrayée du péril qui était imminent.
@@ -4714,12 +4713,12 @@ Holy-Bible---French---Vulgate-Glaire	017	EST	014	003	Et elle priait le Seigneur 
 Holy-Bible---French---Vulgate-Glaire	017	EST	014	004	Mon péril est en mes mains.
 Holy-Bible---French---Vulgate-Glaire	017	EST	014	005	J’ai ouï de mon père que vous, Seigneur, aviez pris Israël d’entre toutes les nations, et, en remontant, nos pères d’entre tous leurs ancêtres, pour que vous possédiez un héritage éternel ; et vous avez fait pour eux comme vous avez dit.
 Holy-Bible---French---Vulgate-Glaire	017	EST	014	006	Nous avons péché en votre présence, et c’est pour cela que vous nous avez livrés aux mains de nos ennemis ;
-Holy-Bible---French---Vulgate-Glaire	017	EST	014	007	Car nous avons adoré leurs dieux. Vous êtes juste. Seigneur.
+Holy-Bible---French---Vulgate-Glaire	017	EST	014	007	Car nous avons adoré leurs dieux. Vous êtes juste, Seigneur.
 Holy-Bible---French---Vulgate-Glaire	017	EST	014	008	Et, maintenant, il ne leur suffit pas de nous opprimer par la plus dure servitude ; mais, attribuant la force de leurs bras au pouvoir des idoles,
 Holy-Bible---French---Vulgate-Glaire	017	EST	014	009	Ils veulent changer vos promesses, détruire votre héritage, fermer les bouches de ceux qui vous louent, et éteindre la gloire du temple et de votre autel,
 Holy-Bible---French---Vulgate-Glaire	017	EST	014	010	Afin d’ouvrir la bouche des nations, de louer la puissance des idoles, et de célébrer un roi de chair à jamais.
-Holy-Bible---French---Vulgate-Glaire	017	EST	014	011	Ne livrez pas. Seigneur, votre sceptre à ceux qui ne sont pas, de peur qu’ils ne rient de notre ruine ; mais tournez leurs conseils sur eux, et perdez celui qui a commencé à sévir contre nous.
-Holy-Bible---French---Vulgate-Glaire	017	EST	014	012	Souvenez-vous de nous, Seigneur, montrez-vous à nous dans le temps de notre tribulation, et donnez-moi l’assurance. Seigneur, roi des dieux et de toute puissance.
+Holy-Bible---French---Vulgate-Glaire	017	EST	014	011	Ne livrez pas, Seigneur, votre sceptre à ceux qui ne sont pas, de peur qu’ils ne rient de notre ruine ; mais tournez leurs conseils sur eux, et perdez celui qui a commencé à sévir contre nous.
+Holy-Bible---French---Vulgate-Glaire	017	EST	014	012	Souvenez-vous de nous, Seigneur, montrez-vous à nous dans le temps de notre tribulation, et donnez-moi l’assurance, Seigneur, roi des dieux et de toute puissance.
 Holy-Bible---French---Vulgate-Glaire	017	EST	014	013	Mettez des paroles convenables dans ma bouche en présence du lion, et transférez son cœur à la haine de notre ennemi, afin qu’il périsse lui-même et tous les autres qui conspirent avec lui.
 Holy-Bible---French---Vulgate-Glaire	017	EST	014	014	Mais nous, délivrez-nous par votre main, et secourez-moi ; car je n’ai d’autre secours que vous, Seigneur, qui avez la science de toutes choses,
 Holy-Bible---French---Vulgate-Glaire	017	EST	014	015	Et qui savez que je hais la gloire des hommes iniques, et que je déteste le lit des incirconcis et de tout étranger.
@@ -4746,7 +4745,7 @@ Holy-Bible---French---Vulgate-Glaire	017	EST	015	016	Elle répondit : Je vous a
 Holy-Bible---French---Vulgate-Glaire	017	EST	015	017	Car, seigneur, vous êtes admirable, et votre face est pleine de grâces.
 Holy-Bible---French---Vulgate-Glaire	017	EST	015	018	Et, comme elle parlait, elle tomba de nouveau, et elle était près de s’évanouir.
 Holy-Bible---French---Vulgate-Glaire	017	EST	015	019	Or le roi était troublé, et tous ses ministres la consolaient.
-Holy-Bible---French---Vulgate-Glaire	017	EST	016	001	Le grand roi Artaxerxès, qui règne depuis l’Inde jusqu’à l’Ethiopie, aux chefs et aux gouverneurs des cent vingt-sept provinces qui sont soumises à notre commandement, dit salut.
+Holy-Bible---French---Vulgate-Glaire	017	EST	016	001	Le grand roi Artaxerxès, qui règne depuis l’Inde jusqu’à l’Éthiopie, aux chefs et aux gouverneurs des cent vingt-sept provinces qui sont soumises à notre commandement, dit salut.
 Holy-Bible---French---Vulgate-Glaire	017	EST	016	002	Beaucoup ont abusé de la bonté des princes et de l’honneur qui leur a été conféré, jusqu’à l’insolence ;
 Holy-Bible---French---Vulgate-Glaire	017	EST	016	003	Et non seulement ils tâchent d’opprimer les sujets des rois, mais, ne pouvant supporter la gloire qui leur a été donnée, ils tendent des pièges à ceux mêmes qui la leur ont donnée.
 Holy-Bible---French---Vulgate-Glaire	017	EST	016	004	Ils ne se contentent pas de ne point rendre grâces pour les bienfaits, et de violer en eux-mêmes les droits de l’humanité ; mais ils s’imaginent aussi qu’ils pourront échapper à la sentence de Dieu, qui voit tout.
@@ -4756,9 +4755,9 @@ Holy-Bible---French---Vulgate-Glaire	017	EST	016	007	Ce qui est prouvé et par l
 Holy-Bible---French---Vulgate-Glaire	017	EST	016	008	C’est pourquoi il faut pourvoir à la paix de toutes les provinces.
 Holy-Bible---French---Vulgate-Glaire	017	EST	016	009	Et vous ne devez pas penser, si nous ordonnons des choses différentes, que cela vienne de la légèreté de notre esprit, mais juger que c’est selon la nature et la nécessité des temps, comme l’utilité de l’Etat l’exige.
 Holy-Bible---French---Vulgate-Glaire	017	EST	016	010	Et, afin que vous compreniez plus manifestement ce que nous disons, Aman, fils d’Amadath, Macédonien de cœur et d’origine, n’étant point du sang des Perses, déshonorant notre clémence par sa cruauté, a été accueilli par nous, comme étranger.
-Holy-Bible---French---Vulgate-Glaire	017	EST	016	011	Et, après avoir reçu des marques de bonté telles, qu’il était appelé notre père, et adoré par tous, comme le second après le roi,
+Holy-Bible---French---Vulgate-Glaire	017	EST	016	011	Et, après avoir reçu des marques de bonté telles, qu’il était appelé notre père, et ado ré par tous, comme le second après le roi,
 Holy-Bible---French---Vulgate-Glaire	017	EST	016	012	Il s’est élevé à un si grand excès d’arrogance, qu’il tâchait de nous priver du royaume et de la vie.
-Holy-Bible---French---Vulgate-Glaire	017	EST	016	013	Car, par des manœuvres nouvelles et inouïes, il a vivement désiré envoyer à la mort Mardochée. par la fidélité et les bons offices duquel nous vivons, et Esther, la compagne de notre royauté, avec toute sa nation,
+Holy-Bible---French---Vulgate-Glaire	017	EST	016	013	Car, par des manœuvres nouvelles et inouïes, il a vivement désiré envoyer à la mort Mardochée, par la fidélité et les bons offices duquel nous vivons, et Esther, la compagne de notre royauté, avec toute sa nation,
 Holy-Bible---French---Vulgate-Glaire	017	EST	016	014	Pensant qu’eux une fois tués, il surprendrait notre vigilance, et transférerait le royaume des Perses aux Macédoniens.
 Holy-Bible---French---Vulgate-Glaire	017	EST	016	015	Mais nous, nous n’avons trouvé coupables d’aucune faute que ce soit les Juifs, destinés à la mort par le plus méchant des mortels ; mais au contraire se conformant à de justes lois,
 Holy-Bible---French---Vulgate-Glaire	017	EST	016	016	Et enfants du Dieu très haut, très grand et toujours vivant, par le bienfait de qui ce royaume a été donné et à nos pères et à nous, et par qui il a été conservé jusqu’à aujourd’hui.
@@ -4809,7 +4808,7 @@ Holy-Bible---French---Vulgate-Glaire	019	PSA	052	001	Pour la fin. Intelligence �
 Holy-Bible---French---Vulgate-Glaire	019	PSA	052	002	Lorsque Doëg l’Iduméen vint annoncer à Saül que David était venu dans la maison d’Achimélech.
 Holy-Bible---French---Vulgate-Glaire	019	PSA	053	001	Pour la fin, pour Maheleth. Intelligence à David.  L’insensé a dit dans son cœur : Il n’y a point de Dieu.
 Holy-Bible---French---Vulgate-Glaire	019	PSA	054	001	Pour la fin dans les cantiques, intelligence à David.
-Holy-Bible---French---Vulgate-Glaire	019	PSA	054	002	Lorsque les habitants de Ziph furent venus et eurent dit a Saül : Est-ce que David n’est pas chez nous ?
+Holy-Bible---French---Vulgate-Glaire	019	PSA	054	002	Lorsque les habitants de Ziph furent venus et eurent dit a Saül :Est-ce que David n’est pas chez nous ?
 Holy-Bible---French---Vulgate-Glaire	019	PSA	055	001	Pour la fin, dans les cantiques, intelligence à David.
 Holy-Bible---French---Vulgate-Glaire	019	PSA	056	001	Pour le peuple qui a été éloigné des saints (ou des choses saintes) ; par David, pour une inscription de titre, lorsque les Allophylles (étrangers) le retinrent dans Geth.
 Holy-Bible---French---Vulgate-Glaire	019	PSA	057	001	Ne perdez pas entièrement ; par David, pour une inscription de titre, lorsqu’il s’enfuit de devant la face de Saül dans la caverne.

@@ -1,6 +1,6 @@
 # File Name: IVERSE.txt
-# File Size: 1235186     
-# File Date: 07/24/2026 16:08:11
+# File Size: 1235199     
+# File Date: 08/12/2026 00:16:54
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution 4.0 International, 2018-2026
@@ -1512,8 +1512,8 @@ Holy-Bible---French---Free-for-the-World	JOH-003-016	Jean 3:16	Car Dieu a tant a
 Holy-Bible---French---Free-for-the-World	GEN-003-024	Genèse 3:24	Ainsi, il chassa l'homme; et il plaça des chérubins à l'orient du jardin d'Éden, avec l'épée flamboyante qui tournoyait en tous sens, pour garder le chemin de l'arbre de vie.
 Holy-Bible---French---Free-for-the-World	LUK-023-034	Luc 23:34	Jésus dit: «Père, pardonne-leur, car ils ne savent pas ce qu'ils font.» Puis, se partageant ses vêtements, ils tirèrent au sort.
 Holy-Bible---French---Free-for-the-World	REV-021-002	Apocalypse 21:2-3	Et je vis descendre du ciel, d’auprès de Dieu, la ville sainte, la nouvelle Jérusalem, préparée comme une épouse parée pour son époux. J’entendis du trône une voix forte qui disait: «Voici le tabernacle de Dieu avec les hommes! Il habitera avec eux, ils seront ses peuples, et Dieu lui-même sera avec eux.
-Holy-Bible---French---Free-for-the-World	HEB-011-008	Hébreux 11:8	Par la foi, Abraham, lors de son appel, obéit et partit pour un lieu qu'il devait recevoir en héritage; et il partit sans savoir où il allait.
-Holy-Bible---French---Free-for-the-World	EXO-013-017	Exode 13:17	Lorsque Pharaon eut laissé partir le peuple, Dieu ne les conduisit pas par le chemin du pays des Philistins, bien que ce fût le plus proche; car Dieu dit: «De peur que le peuple ne change d'avis en voyant la guerre, et qu'il ne retourne en Égypte.»
+Holy-Bible---French---Free-for-the-World	HEB-011-008	Hébreux 11:8	Par la foi, Abraham a obéi lorsqu'il a été appelé à partir vers un lieu qu'il devait recevoir en héritage; il est parti sans savoir où il allait.
+Holy-Bible---French---Free-for-the-World	EXO-013-017	Exode 13:17	Lorsque Pharaon eut laissé partir le peuple, Dieu ne les conduisit pas par le chemin du pays des Philistins, bien que ce chemin soit le plus court; car Dieu dit: «De peur que le peuple ne change d'avis en voyant la guerre, et qu'il ne retourne en Égypte.»
 Holy-Bible---French---Free-for-the-World	MAR-010-045	Marc 10:45	Car le Fils de l'homme est venu, non pour être servi, mais pour servir et donner sa vie en rançon pour beaucoup.»
 Holy-Bible---French---Free-for-the-World	ROM-001-001	Romains 1:1	Paul, serviteur de Jésus-Christ, appelé à être apôtre, mis à part pour l’Évangile de Dieu,
 Holy-Bible---French---Free-for-the-World	MAT-028-019	Matthieu 28:19	Allez, faites de toutes les nations des disciples, les baptisant au nom du Père, du Fils et du Saint-Esprit,
