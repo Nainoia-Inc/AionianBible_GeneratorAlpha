@@ -1,6 +1,6 @@
 # File Name: IVERSE.txt
-# File Size: 1235199     
-# File Date: 08/12/2026 00:16:54
+# File Size: 1235196     
+# File Date: 08/22/2026 17:40:58
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution 4.0 International, 2018-2026
@@ -521,7 +521,7 @@ Holy-Bible---Chin-Siyin---Siyin-Chin-Bible	MAT-028-019	Matthew 28:19	Tua a hicia
 Holy-Bible---Chin-Thado---Chongthu-Bible	JOH-003-016	John 3:16	“Ajeh chu Pathen'in hibanga hi vannoi angailut ahin: Koi hijongleh Ama tahsan chan chu mangthah louva tonsot hinna aneina dingin, aneisun achapa changkhat chu apetan ahi.
 Holy-Bible---Chin-Thado---Chongthu-Bible	GEN-003-024	Semtilbu 3:24	Hiti chun Pathen'in Adam anodoh jouvin, Eden hon nisolam'a hinna thingphung ngah dingin vantil Cherub chu achen sah in, chule chemjam kou jeju chu akipei kimvel le sahtan ahi.
 Holy-Bible---Chin-Thado---Chongthu-Bible	LUK-023-034	Luke 23:34	Jesun aseitai, “Hepa, ngaidam in, ajeh chu ipi abol'u ahepouve,” ati. Chule sepai hon aponsil chu vang asang'un achang ding akive lhauve.
-Holy-Bible---Chin-Thado---Chongthu-Bible	REV-021-002	Revelation 21:2-3	Chule keiman khopi theng Jerusalem thah chu van Pathen a kon'a mou aji dingpa hoitah a akivon'a ahung kumlhah kamun ahi. Keiman laltouna a kon'a aw hung kisam gin kajan, aseiyin, “Ven, Pathen chenna in chu mihem lah ahung hitai! Ama amaho toh chengkhom intin, chule amaho chu Ama mite hi ding ahiuve. Pathen Ama tah chun amaho aumpi diu ahi.
+Holy-Bible---Chin-Thado---Chongthu-Bible	REV-021-002	Revelation 21:2-3	Chule keiman khopi theng Jerusalem thah chu van Pathen a kon'a mou aji dingpa hoitah a akivon'a ahung kumlhah kamun ahi. Keiman laltouna a kon'a aw hung kisam gin kajan, aseijin, “Ven, Pathen chenna in chu mihem lah ahung hitai! Ama amaho toh chengkhom intin, chule amaho chu Ama mite hi ding ahiuve. Pathen Ama tah chun amaho aumpi diu ahi.
 Holy-Bible---Chin-Thado---Chongthu-Bible	HEB-011-008	Hebrew 11:8	Tahsan jal'in Abraham chu Pathen'in a'in dalha dinga akouva chule gouva alo dinga ateppehna gam'a che dinga akou chun thun ana nung'e. Aman hoilama ache ding jong kihet louvin ana potdoh jenge.
 Holy-Bible---Chin-Thado---Chongthu-Bible	EXO-013-017	Potdohbu 13:17	Ajonan Pharaoh in Israel mite ahin soldoh tan ahile, gamtepna lam lhunna naicha ahi vang chun, Pathen'in Philistine galbol ho jeh chun lampia ahinpui pouvin ahi. Pathen'in aseiye, “Kamite hon gal tohkha ta le alung heikhao vintin Egypt lam'a kile ding ahiuve,” ati.
 Holy-Bible---Chin-Thado---Chongthu-Bible	MAR-010-045	Mark 10:45	Ijeh inem iti leh Mihem Chapa tah jong chu jen dinga hung hilouvin mijenle ding le mitampi lhatdohna dinga ahinna tohdoh ding joh a hung ahi bouve,” ati.
@@ -2106,7 +2106,7 @@ Holy-Bible---Greek---Text-Critical	JOH-003-016	Κατα Ιωαννην 3:16	Ο�
 Holy-Bible---Greek---Text-Critical	GEN-003-024		
 Holy-Bible---Greek---Text-Critical	LUK-023-034	Κατα Λουκαν 23:34	ὁ δὲ Ἰησοῦς ἔλεγε, Πάτερ, ἄφες αὐτοῖς· οὐ γὰρ οἴδασι τί ποιοῦσι. διαμεριζόμενοι δὲ τὰ ἱμάτια αὐτοῦ, ἔβαλον κλῆρον.
 Holy-Bible---Greek---Text-Critical	REV-021-002	Αποκαλυψις Ιωαννου 21:2-3	καὶ τὴν πόλιν τὴν ἁγίαν, Ἱερουσαλὴμ καινήν, εἶδον καταβαίνουσαν ἐκ τοῦ οὐρανοῦ ἀπὸ τοῦ Θεοῦ, ἡτοιμασμένην ὡς νύμφην κεκοσμημένην τῷ ἀνδρὶ αὐτῆς. καὶ ἤκουσα φωνῆς μεγάλης ἐκ τοῦ οὐρανοῦ λεγούσης, Ἰδού, ἡ σκηνὴ τοῦ Θεοῦ μετὰ τῶν ἀνθρώπων, καὶ σκηνώσει μετ᾽ αὐτῶν, καὶ αὐτοὶ λαὸς αὐτοῦ ἔσονται, καὶ αὐτὸς ὁ Θεὸς μετ᾽ αὐτῶν ἔσται.
-Holy-Bible---Greek---Text-Critical	HEB-011-008	Προς Εβραιους 11:8	Πίστει καλούμενος Ἁβραὰμ ὑπήκουσεν ἐξελθεῖν εἰς τὸν τόπον ὃν ἔμελλε λαμβάνειν εἰς κληρονομίαν, καὶ ἐξῆλθε μὴ ἐπιστάμενος ποῦ ἔρχεται.
+Holy-Bible---Greek---Text-Critical	HEB-011-008	Προς Εβραιους 11:8	Πίστει καλούμενος Ἀβραὰμ ὑπήκουσεν ἐξελθεῖν εἰς τὸν τόπον ὃν ἔμελλε λαμβάνειν εἰς κληρονομίαν, καὶ ἐξῆλθε μὴ ἐπιστάμενος ποῦ ἔρχεται.
 Holy-Bible---Greek---Text-Critical	EXO-013-017		
 Holy-Bible---Greek---Text-Critical	MAR-010-045	Κατα Μαρκον 10:45	καὶ γὰρ ὁ υἱὸς τοῦ ἀνθρώπου οὐκ ἦλθε διακονηθῆναι ἀλλὰ διακονῆσαι καὶ δοῦναι τὴν ψυχὴν αὐτοῦ λύτρον ἀντὶ πολλῶν.
 Holy-Bible---Greek---Text-Critical	ROM-001-001	Προς Ρωμαιους 1:1	Παῦλος, δοῦλος Ἰησοῦ Χριστοῦ, κλητὸς ἀπόστολος, ἀφωρισμένος εἰς εὐαγγέλιον Θεοῦ,
@@ -3563,10 +3563,10 @@ Holy-Bible---Portuguese---Portuguese-Trans-Trans	MAT-028-019	Mateus 28:19	Portan
 Holy-Bible---Portuguese---World-Portuguese-Bible	JOH-003-016	João 3:16	Porque Deus amou o mundo de tal maneira que deu o seu Filho unigênito, para que todo aquele que nele crê não pereça, mas tenha a vida eterna.
 Holy-Bible---Portuguese---World-Portuguese-Bible	GEN-003-024	Gênesis 3:24	Assim ele expulsou o homem; e colocou querubins ao oriente do jardim do Éden, e uma espada flamejante que se movia em todas as direções, para guardar o caminho para a árvore da vida.
 Holy-Bible---Portuguese---World-Portuguese-Bible	LUK-023-034	Lucas 23:34	Jesus disse: “Pai, perdoa-lhes, pois eles não sabem o que estão fazendo.” Dividindo as suas vestes entre si, lançaram sortes.
-Holy-Bible---Portuguese---World-Portuguese-Bible	REV-021-002	Apocalipse 21:2-3	Vi a cidade santa, a Nova Jerusalém, que descia do céu da parte de Deus, preparada como uma noiva adornada para o seu marido. Ouvi uma forte voz vinda do céu, dizendo: “Eis que o tabernáculo de Deus está com os homens; e ele habitará com eles, e eles serão o seu povo, e o próprio Deus estará com eles e será o seu Deus.
+Holy-Bible---Portuguese---World-Portuguese-Bible	REV-021-002	Apocalipse 21:2-3	Vi a cidade santa, a Nova Jerusalém, que descia do céu da parte de Deus, preparada como uma noiva adornada para o seu marido. Ouvi uma voz forte vinda do céu, dizendo: “Eis que a morada de Deus está com as pessoas; e ele habitará com eles, e eles serão o seu povo, e o próprio Deus estará com eles e será o seu Deus.
 Holy-Bible---Portuguese---World-Portuguese-Bible	HEB-011-008	Hebreus 11:8	Pela fé Abraão, quando foi chamado, obedeceu e saiu para o lugar que haveria de receber como herança. Ele saiu, sem saber para onde ia.
 Holy-Bible---Portuguese---World-Portuguese-Bible	EXO-013-017	Êxodo 13:17	Quando o Faraó deixou o povo ir, Deus não os guiou pelo caminho da terra dos filisteus, embora fosse mais perto; pois Deus disse: “Para que talvez o povo não mude de ideia ao ver a guerra, e volte para o Egito”;
-Holy-Bible---Portuguese---World-Portuguese-Bible	MAR-010-045	Marcos 10:45	Pois o próprio Filho do Homem não veio para ser servido, mas para servir e dar a sua vida em resgate por muitos.”
+Holy-Bible---Portuguese---World-Portuguese-Bible	MAR-010-045	Marcos 10:45	Pois o próprio Filho do Homem não veio para ser servido, mas para servir e dar a sua vida como resgate por muitos.”
 Holy-Bible---Portuguese---World-Portuguese-Bible	ROM-001-001	Romanos 1:1	Paulo, servo de Jesus Cristo, chamado para ser apóstolo, separado para o Evangelho de Deus,
 Holy-Bible---Portuguese---World-Portuguese-Bible	MAT-028-019	Mateus 28:19	Vão e façam discípulos de todas as nações, batizando-os em nome do Pai e do Filho e do Espírito Santo,
 Holy-Bible---Potawatomi---Potawatomi-Bible	JOH-003-016		

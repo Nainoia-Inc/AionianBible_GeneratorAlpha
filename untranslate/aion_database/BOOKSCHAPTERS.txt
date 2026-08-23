@@ -2,12 +2,12 @@
 BIBLE	INDEX	BOOK	CHAPTER	VERSE	MAP	FLAG
 # File Accuracy: Contact publisher with corrections to file format or content
 # File Copyright: Creative Commons Attribution 4.0 International, 2018-2026
-# File Date: 08/12/2026 00:04:13
+# File Date: 08/22/2026 17:29:04
 # File Generator: ABCMS (alpha)
 # File Location: https://resources.AionianBible.org
 # File Name: BOOKSCHAPTERS.txt
 # File Purpose: Supporting resource for the Aionian Bible project
-# File Size: 4133344     
+# File Size: 4132564     
 Holy-Bible---Abureni---Abureni-Bible	041	MAR	009	044	MISSING	MID
 Holy-Bible---Abureni---Abureni-Bible	041	MAR	009	046	MISSING	MID
 Holy-Bible---Ahirani---Ahirani-Bible	047	2CO	001	014	MISSING	MID
@@ -4485,8 +4485,8 @@ Holy-Bible---Chin-Thado---Chongthu-Bible	004	NUM	001	043	MISSING	MID
 Holy-Bible---Chin-Thado---Chongthu-Bible	004	NUM	002	004	MISSING	MID
 Holy-Bible---Chin-Thado---Chongthu-Bible	004	NUM	002	006	MISSING	MID
 Holy-Bible---Chin-Thado---Chongthu-Bible	004	NUM	002	008	MISSING	MID
-Holy-Bible---Chin-Thado---Chongthu-Bible	004	NUM	002	012	MISSING	MID
-Holy-Bible---Chin-Thado---Chongthu-Bible	004	NUM	002	013	MISSING	MID-SEQ
+Holy-Bible---Chin-Thado---Chongthu-Bible	004	NUM	002	011	MISSING	MID
+Holy-Bible---Chin-Thado---Chongthu-Bible	004	NUM	002	013	MISSING	MID
 Holy-Bible---Chin-Thado---Chongthu-Bible	004	NUM	002	015	MISSING	MID
 Holy-Bible---Chin-Thado---Chongthu-Bible	004	NUM	002	019	MISSING	MID
 Holy-Bible---Chin-Thado---Chongthu-Bible	004	NUM	002	021	MISSING	MID
@@ -4494,7 +4494,6 @@ Holy-Bible---Chin-Thado---Chongthu-Bible	004	NUM	002	023	MISSING	MID
 Holy-Bible---Chin-Thado---Chongthu-Bible	004	NUM	002	026	MISSING	MID
 Holy-Bible---Chin-Thado---Chongthu-Bible	004	NUM	002	028	MISSING	MID
 Holy-Bible---Chin-Thado---Chongthu-Bible	004	NUM	002	030	MISSING	MID
-Holy-Bible---Chin-Thado---Chongthu-Bible	005	DEU	025	004	MISSING	MID
 Holy-Bible---Chin-Thado---Chongthu-Bible	009	1SA	026	018	MISSING	MID
 Holy-Bible---Chin-Thado---Chongthu-Bible	013	1CH	010	014	MISSING	END*
 Holy-Bible---Chin-Thado---Chongthu-Bible	014	2CH	003	017	MISSING	END*
@@ -11102,15 +11101,6 @@ Holy-Bible---French---Free-for-the-World	044	ACT	015	034	MISSING	MID
 Holy-Bible---French---Free-for-the-World	044	ACT	024	007	MISSING	MID
 Holy-Bible---French---French-Crampon-Bible-New	006	JOS	021	038	MISSING	MID
 Holy-Bible---French---French-Crampon-Bible-New	006	JOS	021	039	MISSING	MID-SEQ
-Holy-Bible---French---French-Crampon-Bible-New	040	MAT	011	007	MISSING	MID
-Holy-Bible---French---French-Crampon-Bible-New	040	MAT	011	008	MISSING	MID-SEQ
-Holy-Bible---French---French-Crampon-Bible-New	040	MAT	011	009	MISSING	MID-SEQ
-Holy-Bible---French---French-Crampon-Bible-New	040	MAT	011	010	MISSING	MID-SEQ
-Holy-Bible---French---French-Crampon-Bible-New	040	MAT	011	011	MISSING	MID-SEQ
-Holy-Bible---French---French-Crampon-Bible-New	040	MAT	011	012	MISSING	MID-SEQ
-Holy-Bible---French---French-Crampon-Bible-New	040	MAT	011	013	MISSING	MID-SEQ
-Holy-Bible---French---French-Crampon-Bible-New	040	MAT	011	014	MISSING	MID-SEQ
-Holy-Bible---French---French-Crampon-Bible-New	040	MAT	011	015	MISSING	MID-SEQ
 Holy-Bible---French---French-Crampon-Bible-New	040	MAT	024	036	MISSING	MID
 Holy-Bible---French---French-Darby-Bible	040	MAT	023	014	MISSING	MID
 Holy-Bible---French---French-Darby-Bible	044	ACT	008	037	MISSING	MID

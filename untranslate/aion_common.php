@@ -3497,7 +3497,7 @@ function AION_LOOP_HTMS($source, $destiny, $destiny2) {
 	$grandmarker['BOOK_OT']		= $grandtotal['BOOK_OT']-9953;
 	$grandmarker['BOOK_NT']		= $grandtotal['BOOK_NT']-12377;
 	$grandmarker['CHAP_TOTAL']	= $grandtotal['CHAP_TOTAL']-358370;
-	$grandmarker['VERS_TOTAL']	= $grandtotal['VERS_TOTAL']-9609888;
+	$grandmarker['VERS_TOTAL']	= $grandtotal['VERS_TOTAL']-9609898;
 	$grandmarker['VERS_AION']	= $grandtotal['VERS_AION']-108476;
 	$grandmarker['VERS_QUES']	= $grandtotal['VERS_QUES']-487;
 	$grandmarker['LONG']		= $grandtotal['LONG']-2549;

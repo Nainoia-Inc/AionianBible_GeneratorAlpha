@@ -6300,12 +6300,6 @@ MAT 19:30
 EOF;
 if (!($bfile = preg_replace("/MAT 19:29 (.+?)MAT 19:30 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $textfix = <<<EOF
-MAR 4:40 Et il leur dit : « Pourquoi êtes-vous effrayés  ? N’avez-vous pas encore la foi ?
-MAR 4:41  » Et ils furent saisis d’une grande crainte, et ils se disaient l’un à l’autre : « Qui donc est celui-ci, que le vent et la mer lui obéissent ? »
-MAR 5:1 
-EOF;
-if (!($bfile = preg_replace("/MAR 4:40 (.+?)MAR 5:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
-$textfix = <<<EOF
 MAR 9:1 
 EOF;
 if (!($bfile = preg_replace("/MAR 8:39 (.+?)MAR 9:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
@@ -18326,9 +18320,9 @@ goto RAWHIDE;
 
 // RAWFIX BIBLE ********************
 case "Holy-Bible---Portuguese---World-Portuguese-Bible" :
-if (!($bfile = preg_replace("/`/ui", "", $bfile,-1,$rnum)) || $rnum!=24) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+if (!($bfile = preg_replace("/`/ui", "", $bfile,-1,$rnum)) || $rnum!=18) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 if (!($bfile = preg_replace("/Aqui está a tradução[^\n]+\n/ui", "\n", $bfile,-1,$rnum)) || $rnum!=4) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
-if (!($bfile = preg_replace("/usfm/ui", "", $bfile,-1,$rnum)) || $rnum!=4) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+if (!($bfile = preg_replace("/usfm/ui", "", $bfile,-1,$rnum)) || $rnum!=3) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $bfile_saved = $bfile;
 goto RAWHIDE;
 

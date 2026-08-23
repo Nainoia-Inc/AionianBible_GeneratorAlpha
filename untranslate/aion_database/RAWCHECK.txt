@@ -1,6 +1,6 @@
 # File Name: RAWCHECK.txt
-# File Size: 4696731     
-# File Date: 08/11/2026 21:46:03
+# File Size: 4696076     
+# File Date: 08/22/2026 15:09:21
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution 4.0 International, 2018-2026
@@ -6328,8 +6328,6 @@ Holy-Bible---French---French-Crampon-Bible-New	040	MAT	017	025	MODIFY	« Oui 
 Holy-Bible---French---French-Crampon-Bible-New	040	MAT	017	026	MODIFY	Pierre répondit : « Des étrangers, — Les fils, lui dit Jésus, en sont donc exempts.	Mais pour ne pas les scandaliser, va à la mer, jette l’hameçon, tire le premier poisson qui montera ; puis, ouvrant sa bouche, tu y trouveras un statère.
 Holy-Bible---French---French-Crampon-Bible-New	040	MAT	017	027	MODIFY	Mais pour ne pas les scandaliser, va à la mer, jette l’hameçon, tire le premier poisson qui montera ; puis, ouvrant sa bouche, tu y trouveras un statère. Prends-le et donne-le-leur pour moi et pour toi. »	Prends-le et donne-le-leur pour moi et pour toi. »
 Holy-Bible---French---French-Crampon-Bible-New	040	MAT	019	029	MODIFY	Et quiconque aura quitté des maisons, ou des frères, ou des sœurs, ou un père, ou une mère, ou une femme, ou des enfants, ou des champs à cause de mon nom, il recevra le centuple et possédera la vie éternelle.	Et quiconque aura quitté des maisons, ou des frères, ou des sœurs, ou un père, ou une mère, ou une femme, ou des enfants, ou des champs à cause de mon nom, il recevra le centuple et possédera la vie éternelle. » 2. Chap, 19, 30 — 20, 34. [Parabole des ouvriers : Les derniers devenus premiers. Passion prédite. Demande des fils de Zébédée. Les deux aveugles de Jéricho.]
-Holy-Bible---French---French-Crampon-Bible-New	041	MAR	004	040	MODIFY	Et il leur dit : « Pourquoi êtes-vous effrayés  ? N’avez-vous pas encore la foi ?	Et il leur dit : « Pourquoi êtes-vous effrayés ? N’avez-vous pas encore la foi ? » Et ils furent saisis d’une grande crainte, et ils se disaient l’un à l’autre : « Qui donc est celui-ci, que le vent et la mer lui obéissent ? »
-Holy-Bible---French---French-Crampon-Bible-New	041	MAR	004	041	MODIFY	 » Et ils furent saisis d’une grande crainte, et ils se disaient l’un à l’autre : « Qui donc est celui-ci, que le vent et la mer lui obéissent ? »	
 Holy-Bible---French---French-Crampon-Bible-New	041	MAR	008	039	DELETE	Il ajouta : « Je vous le dis, en vérité, parmi ceux qui sont ici, quelques-uns ne goûteront pas la mort, qu’ils n’aient vu le royaume de Dieu venir avec puissance. »	
 Holy-Bible---French---French-Crampon-Bible-New	042	LUK	001	032	MODIFY	Il sera grand, on l’appellera le Fils du Très-Haut ; le Seigneur Dieu lui donnera le trône de David son père ;	Il sera grand, on l’appellera le Fils du Très-Haut ; le Seigneur Dieu lui donnera le trône de David son père ; il régnera éternellement sur la maison de Jacob,
 Holy-Bible---French---French-Crampon-Bible-New	042	LUK	001	033	MODIFY	il régnera éternellement sur la maison de Jacob, et son règne n’aura pas de fin. »	et son règne n’aura pas de fin. »
