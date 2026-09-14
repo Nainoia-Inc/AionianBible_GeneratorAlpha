@@ -655,7 +655,7 @@ function AION_LOOP_CONV($source, $destiny, $raw_orig, $raw_fixed, $reverse, $ski
 		//'include'	=> '/Holy-Bible---German---(Open|Zurich).*---Source-Edition\.(STEP\.txt|NHEB\.txt|VPL\.txt|UNBOUND\.txt|B4U\.txt|SWORD\.txt)$/',
 		//'include'	=> '/(Holy-Bible---Urdu---Urdu-Free-Contemporary)---Source-Edition\.(STEP\.txt|NHEB\.txt|VPL\.txt|UNBOUND\.txt|B4U\.txt|SWORD\.txt)$/',	
 		//'include'	=> '/Holy-Bible---([S-Z]{1}).+---Source-Edition\.(STEP\.txt|NHEB\.txt|VPL\.txt|UNBOUND\.txt|B4U\.txt|SWORD\.txt)$/',
-		//'include'	=> '/Holy-Bible---French---French-Ostervald-Bible---Source-Edition\.(STEP\.txt|NHEB\.txt|VPL\.txt|UNBOUND\.txt|B4U\.txt|SWORD\.txt)$/',	
+		//'include'	=> '/Holy-Bible---French---French-Crampon-Bible---Source-Edition\.(STEP\.txt|NHEB\.txt|VPL\.txt|UNBOUND\.txt|B4U\.txt|SWORD\.txt)$/',	
 		//'include'	=> '/Holy-Bible---Chin-Matu---Matupi-Chin-2019---Source-Edition\.(STEP\.txt|NHEB\.txt|VPL\.txt|UNBOUND\.txt|B4U\.txt|SWORD\.txt)$/',	
 		'destiny'	=> $destiny,
 		'raw_orig'	=> $raw_orig,
@@ -3499,14 +3499,14 @@ function AION_LOOP_HTMS($source, $destiny, $destiny2) {
 	$grandmarker['CHAP_TOTAL']	= $grandtotal['CHAP_TOTAL']-358370;
 	$grandmarker['VERS_TOTAL']	= $grandtotal['VERS_TOTAL']-9609899;
 	$grandmarker['VERS_AION']	= $grandtotal['VERS_AION']-108476;
-	$grandmarker['VERS_QUES']	= $grandtotal['VERS_QUES']-487;
+	$grandmarker['VERS_QUES']	= $grandtotal['VERS_QUES']-488;
 	$grandmarker['LONG']		= $grandtotal['LONG']-2549;
 	$grandmarker['CHAP_NO']		= $grandtotal['CHAP_NO']-192;
 	$grandmarker['VERS_NO']		= $grandtotal['VERS_NO']-7377;
 	$grandmarker['VERS_EX']		= $grandtotal['VERS_EX']-1096;
-	$grandmarker['FIXED']		= $grandtotal['FIXED']-14693;
+	$grandmarker['FIXED']		= $grandtotal['FIXED']-15383;
 	$grandmarker['NOTFIXED']	= $grandtotal['NOTFIXED']-60088;
-	$grandmarker['CHAP_RE']		= $grandtotal['CHAP_RE']-11710;
+	$grandmarker['CHAP_RE']		= $grandtotal['CHAP_RE']-11709;
 	$grandmarker['REVE_NO']		= $grandtotal['REVE_NO']-712;
 	$grandmarker['REVE_EX']		= $grandtotal['REVE_EX']-715;
 	$grandmarker['CUSTO']		= $grandtotal['CUSTO']-1615;

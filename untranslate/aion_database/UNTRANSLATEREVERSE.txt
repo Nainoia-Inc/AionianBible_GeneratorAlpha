@@ -1,6 +1,6 @@
 # File Name: UNTRANSLATEREVERSE.txt
-# File Size: 11866416    
-# File Date: 09/02/2026 01:41:34
+# File Size: 11866256    
+# File Date: 09/13/2026 09:20:21
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution 4.0 International, 2018-2026
@@ -40127,8 +40127,6 @@ Holy-Bible---French---French-Crampon-Bible	041	MAR	009	047	041	MAR	009	046
 Holy-Bible---French---French-Crampon-Bible	041	MAR	009	048	041	MAR	009	047
 Holy-Bible---French---French-Crampon-Bible	041	MAR	009	049	041	MAR	009	048
 Holy-Bible---French---French-Crampon-Bible	041	MAR	009	050	041	MAR	009	049
-Holy-Bible---French---French-Crampon-Bible	064	3JO	001	014-SKIP	064	3JO	001	014-SKIP
-Holy-Bible---French---French-Crampon-Bible	064	3JO	001	014	064	3JO	001	015
 Holy-Bible---French---French-Crampon-Bible	066	REV	012	018-SKIP	066	REV	012	018-SKIP
 Holy-Bible---French---French-Crampon-Bible-New	001	GEN	031	055	001	GEN	032	001
 Holy-Bible---French---French-Crampon-Bible-New	001	GEN	032	001	001	GEN	032	002

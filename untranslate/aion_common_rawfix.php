@@ -6036,12 +6036,363 @@ Numbers 26:2
 EOF;
 if (!($bfile = preg_replace("/Numbers 25:19 (.+?)Numbers 26:2 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $textfix = <<<EOF
+Deuteronomy 5:20 Tu ne porteras point de faux témoignage contre ton prochain.
+Deuteronomy 5:21 Tu ne convoiteras point la femme de ton prochain. Tu ne désireras point la maison de ton prochain, ni son champ, ni son serviteur, ni sa servante, ni son bœuf, ni son âne, ni rien de ce qui appartient à ton prochain. »
+Deuteronomy 5:22 Telles sont les paroles que Yahweh adressa à toute votre assemblée, sur la montagne, du milieu du feu, de la nuée et de l’obscurité, d’une voix forte ; et il n’ajouta rien. Il les écrivit sur deux tables de pierre, qu’il me donna.
+Deuteronomy 5:23 Lorsque vous eûtes entendu la voix du milieu des ténèbres, la montagne étant toute en feu, vous vous approchâtes de moi, tous vos chefs de tribus et vos anciens,
+Deuteronomy 5:24 et vous dîtes : « Voici que Yahweh, notre Dieu, nous a montré sa gloire et sa grandeur, et nous avons entendu sa voix du milieu du feu ; aujourd’hui nous avons vu Dieu parler à l’homme et l’homme rester vivant.
+Deuteronomy 5:25 Et maintenant pourquoi mourrions-nous ? Car ce grand feu nous dévorera ; si nous entendons encore la voix de Yahweh, notre Dieu, nous mourrons.
+Deuteronomy 5:26 Car parmi toute chair, quel est celui qui a entendu, comme nous, la voix du Dieu vivant parlant du milieu du feu, et qui soit demeuré en vie ?
+Deuteronomy 5:27 Toi, approche-toi, et écoute tout ce que dira Yahweh, notre Dieu, et tu nous rapporteras tout ce que t’aura dit Yahweh, notre Dieu : nous l’écouterons et nous le ferons. »
+Deuteronomy 5:28 Yahweh entendit vos paroles tandis que vous me parliez, et Yahweh me dit : « J’ai entendu les paroles que ce peuple t’a adressées : tout ce qu’ils ont dit est bien.
+Deuteronomy 5:29 Oh ! S’ils avaient toujours ce même cœur pour me craindre et pour observer mes commandements, afin qu’ils soient heureux à jamais, eux et leurs enfants !
+Deuteronomy 5:30 Va, dis-leur : Retournez dans vos tentes.
+Deuteronomy 5:31 Mais toi, reste ici avec moi, et je te dirai tous les commandements, les lois et les ordonnances que tu leur enseigneras, pour qu’ils les mettent en pratique dans le pays que je leur donne en possession.
+Deuteronomy 5:32 Vous aurez soin de faire ce que Yahweh, votre Dieu, vous a commandé ; vous ne vous en détournerez ni à droite ni à gauche,
+Deuteronomy 5:33 mais vous suivrez en tout la voie que Yahweh, votre Dieu, vous a prescrite, afin que vous viviez et que vous soyez heureux, et que vous prolongiez vos jours dans le pays que vous posséderez. » 
+Deuteronomy 6:1 
+EOF;
+if (!($bfile = preg_replace("/Deuteronomy 5:20 (.+?)Deuteronomy 6:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+Joshua 21:37 Cédémoth et sa banlieue, Méphaath et sa banlieue : quatre villes.
+Joshua 21:38 Et de la tribu de Gad : la ville de refuge pour le meurtrier, Ramoth en Galaad et sa banlieue, ainsi que Manaïm et sa banlieue,
+Joshua 21:39 Hésebon et sa banlieue, Jaser et sa banlieue : en tout quatre villes.
+Joshua 21:40 Total des villes assignées par le sort aux fils de Mérari, selon leurs familles, formant le reste des familles des Lévites : douze villes.
+Joshua 21:41 Total des villes des Lévites au milieu des possessions des enfants d’Israël : quarante-huit villes et leurs banlieues.
+Joshua 21:42 Chacune de ces villes avait sa banlieue tout autour ; il en était ainsi pour toutes ces villes.
+Joshua 21:43 Yahweh donna à Israël tout le pays qu’il avait juré de donner à leurs pères ; ils en prirent possession et s’y établirent.
+Joshua 21:44 Yahweh leur accorda du repos tout autour d’eux, comme il l’avait juré à leurs pères ; aucun de leurs ennemis ne put leur résister, et Yahweh les livra tous entre leurs mains.
+Joshua 21:45 De toutes les bonnes paroles que Yahweh avait dites à la maison d’Israël, aucune ne resta sans effet ; toutes s’accomplirent. 
+Joshua 22:1 
+EOF;
+if (!($bfile = preg_replace("/Joshua 21:37 (.+?)Joshua 22:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+Judges 21:24 En ce temps-là, les enfants d’Israël s’en allèrent de là, chacun dans sa tribu et dans sa famille, et ils retournèrent de là, chacun dans son héritage.
+Judges 21:25 En ces jours-là, il n’y avait pas de roi en Israël ; chacun faisait ce qui était bon…
+Ruth 1:1 
+EOF;
+if (!($bfile = preg_replace("/Judges 21:24 (.+?)Ruth 1:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
 
 I Samuel 2:36 Et je me susciterai un prêtre fidèle, qui agira selon mon cœur et selon mon âme, je lui bâtirai une maison stable, et il marchera toujours devant mon oint.
 I Samuel 2:37 Et quiconque restera de ta maison viendra se prosterner devant lui, pour avoir une pièce d’argent et un morceau de pain, et il dira : Mets-moi, je te prie, à quelqu’une des fonctions du sacerdoce, afin que j’aie un morceau de pain à manger. » 
 I Samuel 3:1 
 EOF;
 if (!($bfile = preg_replace("/\nI Samuel 2:36 (.+?)\nI Samuel 3:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+
+I Chronicles 11:46 Eliel, de Mahum ; Jéribaï et Josaïa, fils d’Elnaëm ; Jethma, le Moabite ;
+I Chronicles 11:47 Eliel, Obed et Jasiel, de Masobia. 
+I Chronicles 12:1 
+EOF;
+if (!($bfile = preg_replace("/\nI Chronicles 11:46 (.+?)\nI Chronicles 12:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+
+I Chronicles 12:1 Voici ceux qui vinrent vers David à Siceleg, lorsqu’il devait encore se tenir éloigné de la face de Saül, fils de Cis ; ils étaient parmi les vaillants qui le secoururent pendant la guerre.
+I Chronicles 12:2 C’étaient des archers, exercés à lancer des pierres de la main droite et de la main gauche, et à tirer des flèches avec leur arc ; ils étaient d’entre les frères de Saül, de Benjamin.
+I Chronicles 12:3 À leur tête Ahiéser, puis Joas, tous deux fils de Samaa, de Gabaa ; Jaziel et Phallet, fils d’Azmoth ; Baracha ; Jéhu, d’Anatoth ;
+I Chronicles 12:4 Samaïas, de Gabaon, vaillant parmi les Trente et chef des Trente ;
+I Chronicles 12:5 Jérémie ; Jéhéziel ; Johanan ; Jézabad, de Gédéra ;
+I Chronicles 12:6 Eluzaï ; Jérimuth ; Baalia ; Samaria ; Saphatia, de Haruph ;
+I Chronicles 12:7 Elcana, Jésia, Azaréel, Joéser et Jesbaam, fils de Coré ;
+I Chronicles 12:8 Joéla et Zabadia, fils de Jéroham, de Gédor.
+I Chronicles 12:9 Parmi les Gadites, des hommes vaillants passèrent auprès de David, dans les lieux forts, au désert : guerriers exercés au combat, sachant manier le bouclier et la lance, ayant un aspect de lions, aussi agiles que des gazelles sur les montagnes.
+I Chronicles 12:10 Ezer était le chef ; Obdias, le second ; Eliab, le troisième ;
+I Chronicles 12:11 Masmana, le quatrième ; Jérémie, le cinquième ;
+I Chronicles 12:12 Ethi, le sixième ; Eliel, le septième ;
+I Chronicles 12:13 Johanan, le huitième ; Elzébad, le neuvième ;
+I Chronicles 12:14 Jérémie, le dixième ; Machbanaï, le onzième.
+I Chronicles 12:15 C’étaient des fils de Gad, chefs de l’armée ; un seul, le plus petit, pouvait l’emporter sur cent, et le plus grand sur mille.
+I Chronicles 12:16 Ce sont eux qui passèrent le Jourdain au premier mois, alors qu’il déborde sur toutes ses rives, et qui mirent en fuite tous les habitants des vallées, à l’orient et à l’occident.
+I Chronicles 12:17 Des fils de Benjamin et de Juda vinrent vers David, dans les lieux forts.
+I Chronicles 12:18 David sortit au-devant d’eux, prit la parole, et leur dit : « Si vous êtes venus à moi avec des sentiments pacifiques, pour me secourir, mon cœur se portera vers vous, en vue de nous unir ; mais si c’est pour me livrer perfidement à mes ennemis, lorsque aucune violence ne s’attache à mes mains, que le Dieu de nos pères le voie et qu’il fasse justice ! »
+I Chronicles 12:19 L’Esprit revêtit Amasaï, chef des Trente, et il dit : « À toi, David, et avec toi, fils d’Isaï ! Paix, paix à toi, et paix à celui qui te secourt, car ton Dieu t’a secouru ! » Et David les accueillit et les plaça parmi les chefs de la bande.
+I Chronicles 12:20 Des hommes de Manassé se joignirent à David, lorsqu’il alla avec les Philistins faire la guerre à Saül. Mais ils ne secoururent pas les Philistins ; car les princes des Philistins renvoyèrent à dessein David en disant : « Au péril de nos têtes, il joindrait son maître Saül. »
+I Chronicles 12:21 Comme il revenait à Siceleg, des hommes de Manassé se joignirent à lui : Ednas, Jozabad, Jédihel, Michaël, Jozabad, Eliu et Salathi, chefs des milliers de Manassé.
+I Chronicles 12:22 Ils secoururent David contre les bandes, car ils étaient tous des vaillants, et ils furent chefs dans l’armée.
+I Chronicles 12:23 Et de jour en jour des hommes arrivaient auprès de David pour le secourir, jusqu’à ce qu’il eût une grande armée, comme une armée de Dieu.
+I Chronicles 12:24 Voici le nombre des chefs des hommes armés pour la guerre qui vinrent auprès de David à Hébron, pour lui transférer la royauté de Saül, selon l’ordre de Yahweh.
+I Chronicles 12:25 Fils de Juda, portant le bouclier et la lance, six mille huit cents, armés pour la guerre. —
+I Chronicles 12:26 Des fils de Siméon, hommes vaillants à la guerre, sept mille cent. —
+I Chronicles 12:27 Des fils de Lévi, quatre mille six cents ;
+I Chronicles 12:28 et Joïada, chef de la famille d’Aaron, et avec lui trois mille sept cents ;
+I Chronicles 12:29 et Sadoc, jeune homme vaillant, et la maison de son père, vingt-deux chefs. —
+I Chronicles 12:30 Des fils de Benjamin, frères de Saül, trois mille ; car jusqu’alors la plus grande partie d’entre eux gardaient fidélité à la maison de Saül. —
+I Chronicles 12:31 Des fils d’Éphraïm, vingt mille huit cents, hommes vaillants et renommés dans les maisons de leurs pères. —
+I Chronicles 12:32 De la demi-tribu de Manassé, dix-huit mille, qui furent nominativement désignés pour aller établir David roi. —
+I Chronicles 12:33 Des fils d’Issachar, ayant l’intelligence des temps pour savoir ce que devait faire Israël, deux cents chefs, et tous leurs frères sous leurs ordres. —
+I Chronicles 12:34 De Zabulon, cinquante mille, en état d’aller à l’armée, prêts à la guerre et en parfait équipement de guerre, pour se ranger en bataille d’un cœur résolu. —
+I Chronicles 12:35 De Nephthali, mille chefs, et avec eux trente-sept mille, portant le bouclier et la lance. —
+I Chronicles 12:36 Des Danites prêts à la guerre, vingt-huit mille six cents. —
+I Chronicles 12:37 D’Aser, en état d’aller à l’armée et prêts à la guerre, quarante mille. —
+I Chronicles 12:38 Et de l’autre côté du Jourdain, des Rubenites, des Gadites et de la demi-tribu de Manassé, en parfait équipement d’armes de guerre, cent vingt mille.
+I Chronicles 12:39 Tous ces hommes de guerre, sachant se ranger en bataille, vinrent d’un cœur sincère à Hébron pour établir David roi sur tout Israël ; et tout le reste d’Israël n’avait également qu’un cœur pour établir David roi.
+I Chronicles 12:40 Ils furent là trois jours avec David, mangeant et buvant, car leurs frères leur avaient préparé des provisions.
+I Chronicles 12:41 Et même ceux qui habitaient près d’eux, jusqu’à Issachar, à Zabulon et à Nephthali, apportaient des vivres sur des ânes, sur des chameaux, sur des mulets et sur des bœufs, des provisions de farine, des masses de figues sèches et des raisins secs, du vin, de l’huile, des bœufs et des brebis en abondance ; car il y avait joie en Israël. 
+I Chronicles 13:1 
+EOF;
+if (!($bfile = preg_replace("/\nI Chronicles 12:1 (.+?)\nI Chronicles 13:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+Job 4:21 La corde de leur tente est coupée, ils meurent avant d’avoir connu la sagesse.
+Job 5:1 Appelle donc ! Y aura-t-il quelqu’un qui te réponde ? Vers lequel des saints te tourneras-tu ?
+Job 5:2 La colère tue l’insensé, et l’emportement fait mourir le fou.
+Job 5:3 J’ai vu l’insensé étendre ses racines, et soudain j’ai maudit sa demeure.
+Job 5:4 Plus de salut pour ses fils ; on les écrase à la porte, et personne ne les défend.
+Job 5:5 L’homme affamé dévore sa moisson, il franchit la haie d’épines et l’emporte ; l’homme altéré engloutit ses richesses.
+Job 5:6 Car le malheur ne sort pas de la poussière, et la souffrance ne germe pas du sol,
+Job 5:7 de telle sorte que l’homme naisse pour la peine, comme les fils de la foudre pour élever leur vol.
+Job 5:8 À ta place, je me tournerais vers Dieu, c’est vers lui que je dirigerais ma prière.
+Job 5:9 Il fait des choses grandes, qu’on ne peut sonder ; des prodiges qu’on ne saurait compter.
+Job 5:10 Il verse la pluie sur la terre, il envoie les eaux sur les campagnes,
+Job 5:11 il exalte ceux qui sont abaissés, et les affligés retrouvent le bonheur. 
+Job 5:12 
+EOF;
+if (!($bfile = preg_replace("/Job 4:21 (.+?)Job 5:12 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+Job 6:30 Y a-t-il de l’iniquité sur ma langue, ou bien mon palais ne sait-il pas discerner le mal ?
+Job 7:1 La vie de l’homme sur la terre est un temps de service, et ses jours sont comme ceux du mercenaire. 
+Job 7:2 
+EOF;
+if (!($bfile = preg_replace("/Job 6:30 (.+?)Job 7:2 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+Job 9:35 alors je parlerai sans le craindre ; autrement, je ne suis point à moi-même.
+Job 10:1 Mon âme est lasse de la vie ; je donnerai libre cours à ma plainte, je parlerai dans l’amertume de mon cœur.
+Job 10:2 Je dis à Dieu : Ne me condamne point ; apprends-moi sur quoi tu me prends à partie.
+Job 10:3 Trouves-tu du plaisir à opprimer, à repousser l’œuvre de tes mains, à faire luire ta faveur sur le conseil des méchants ?
+Job 10:4 As-tu des yeux de chair, ou bien vois-tu comme voient les hommes ?
+Job 10:5 Tes jours sont-ils comme les jours de l’homme, ou bien tes années comme les années d’un mortel,
+Job 10:6 pour que tu recherches mon iniquité, pour que tu poursuives mon péché,
+Job 10:7 quand tu sais que je ne suis pas coupable, et que nul ne peut me délivrer de ta main ?
+Job 10:8 Tes mains m’ont formé et façonné, tout entier, et tu voudrais me détruire !
+Job 10:9 Souviens-toi que tu m’as pétri comme l’argile : et tu me ramènerais à la poussière !
+Job 10:10 Ne m’as-tu pas coulé comme le lait, et coagulé comme le fromage ?
+Job 10:11 Tu m’as revêtu de peau et de chair, tu m’as tissé d’os et de nerfs.
+Job 10:12 Avec la vie, tu m’as accordé ta faveur, et ta providence a gardé mon âme.
+Job 10:13 Et pourtant, voilà ce que tu cachais dans ton cœur : Je vois bien ce que tu méditais.
+Job 10:14 Si je pèche, tu m’observes, tu ne me pardonnes pas mon iniquité.
+Job 10:15 Suis-je coupable, malheur à moi ! Suis-je innocent, je n’ose lever la tête, rassasié de honte, et voyant ma misère.
+Job 10:16 Si je me relève, tu me poursuis comme un lion, tu recommences à me tourmenter étrangement,
+Job 10:17 tu m’opposes de nouveaux témoins ; tu redoubles de fureur contre moi, des troupes de rechange viennent m’assaillir.
+Job 10:18 Pourquoi m’as-tu tiré du sein de ma mère ? Je serais mort, et aucun œil ne m’aurait vu.
+Job 10:19 Je serais comme si je n’eusse jamais été, du sein maternel j’aurais été porté au sépulcre.
+Job 10:20 Mes jours ne sont-ils pas bien courts ? Qu’il me laisse ! Qu’il se retire et que je respire un instant, 
+Job 10:21 
+EOF;
+if (!($bfile = preg_replace("/Job 9:35 (.+?)Job 10:21 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+Job 12:25 ils tâtonnent dans les ténèbres, loin de la lumière ; il les fait errer comme un homme ivre.
+Job 13:1 Voilà que mon œil a vu tout cela, mon oreille l’a entendu et compris.
+Job 13:2 Ce que vous savez, moi aussi je le sais, je ne vous suis en rien inférieur.
+Job 13:3 Mais je veux parler au Tout-Puissant, je veux plaider ma cause avec Dieu.
+Job 13:4 Car vous n’êtes que des charlatans, vous êtes tous des médecins inutiles.
+Job 13:5 Que ne gardiez-vous le silence ! Il vous eût tenu lieu de sagesse.
+Job 13:6 Écoutez, je vous prie, ma défense, soyez attentifs au plaidoyer de mes lèvres.
+Job 13:7 Parlerez-vous mensonge en faveur de Dieu, pour lui, parlerez-vous tromperie ?
+Job 13:8 Ferez-vous pour Dieu acception de personnes, vous constituerez-vous avocats ?
+Job 13:9 Vous en saura-t-il gré, s’il sonde vos cœurs ? Le tromperez-vous comme on trompe un homme ?
+Job 13:10 Certainement il vous condamnera, si vous faites en secret acception de personnes.
+Job 13:11 Oui, sa majesté vous épouvantera, ses terreurs tomberont sur vous.
+Job 13:12 Vos arguments sont des raisons de poussière, vos forteresses sont des forteresses d’argile.
+Job 13:13 Taisez-vous, laissez-moi, je veux parler ; il m’en arrivera ce qu’il pourra.
+Job 13:14 Je veux prendre ma chair entre les dents, je veux mettre mon âme dans ma main.
+Job 13:15 Quand il me tuerait, que je n’aurais rien à espérer, je défendrai devant lui ma conduite.
+Job 13:16 Mais il sera mon salut, car l’impie ne saurait paraître en sa présence.
+Job 13:17 Écoutez donc mes paroles, prêtez l’oreille à mon discours.
+Job 13:18 Voici que j’ai préparé ma cause, je sais que je serai justifié.
+Job 13:19 Est-il quelqu’un qui veuille plaider contre moi ? À l’instant même je veux me taire et mourir.
+Job 13:20 Seulement épargne-moi deux choses, ô Dieu, et je ne me cacherai pas devant ta face:
+Job 13:21 éloigne ta main de dessus moi, et que tes terreurs ne m’épouvantent plus.
+Job 13:22 Après cela, appelle, et je répondrai ; ou bien je parlerai d’abord, et tu me répondras. 
+Job 13:23 
+EOF;
+if (!($bfile = preg_replace("/Job 12:25 (.+?)Job 13:23 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+Job 13:28 alors que mon corps se consume comme un bois vermoulu, comme un vêtement que dévore la teigne.
+Job 14:1 L’homme né de la femme vit peu de jours, et il est rassasié de misères.
+Job 14:2 Comme la fleur, il naît, et on le coupe ; il fuit comme l’ombre, sans s’arrêter.
+Job 14:3 Et c’est sur lui que tu as l’œil ouvert, lui que tu amènes en justice avec toi !
+Job 14:4 Qui peut tirer le pur de l’impur ? Personne.
+Job 14:5 Si les jours de l’homme sont comptés, si tu as fixé le nombre de ses mois, si tu as posé un terme qu’il ne doit pas franchir,
+Job 14:6 détourne de lui tes yeux pour qu’il se repose, jusqu’à ce qu’il goûte, comme le mercenaire, la fin de sa journée.
+Job 14:7 Un arbre a de l’espérance : coupé, il peut verdir encore, il ne cesse pas d’avoir des rejetons.
+Job 14:8 Que sa racine ait vieilli dans la terre, que son tronc soit mort dans la poussière,
+Job 14:9 dès qu’il sent l’eau, il reverdit, il pousse des branches comme un jeune plant.
+Job 14:10 Mais l’homme meurt, et il reste étendu ; quand il a expiré, où est-il ?
+Job 14:11 Les eaux du lac disparaissent, le fleuve tarit et se dessèche:
+Job 14:12 ainsi l’homme se couche et ne se relève plus, il ne se réveillera pas tant que subsistera le ciel, on ne le fera pas sortir de son sommeil.
+Job 14:13 Oh ! Si tu voulais me cacher dans le séjour des morts, m’y tenir à couvert jusqu’à ce que ta colère ait passé, me fixer un terme où tu te souviendrais de moi !
+Job 14:14 Si l’homme une fois mort pouvait revivre ! Tout le temps de mon service j’attendrais qu’on vînt me relever.
+Job 14:15 Tu m’appellerais alors, et moi je te répondrais ; tu languirais après l’ouvrage de tes mains.
+Job 14:16 Mais hélas ! Maintenant, tu comptes mes pas, tu as l’œil ouvert sur mes péchés ;
+Job 14:17 mes transgressions sont scellées dans une bourse, et tu mets un enduit sur mes iniquités. 
+Job 14:18 
+EOF;
+if (!($bfile = preg_replace("/Job 13:28 (.+?)Job 14:18 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+Job 16:22 Car les années qui me sont comptés s’écoulent, et j’entre dans un sentier d’où je ne reviendrai pas.
+Job 17:1 Mon souffle s’épuise, mes jours s’éteignent, il ne me reste plus que le tombeau.
+Job 17:2 Je suis environné de moqueurs, mon œil veille au milieu de leurs outrages.
+Job 17:3 Ô Dieu, fais-toi auprès de toi-même ma caution : quel autre voudrait me frapper dans la main ?
+Job 17:4 Car tu as fermé leur cœur à la sagesse ; ne permets donc pas qu’ils s’élèvent.
+Job 17:5 Tel invite ses amis au partage, quand défaillent les yeux de ses enfants.
+Job 17:6 Il a fait de moi la risée des peuples ; je suis l’homme à qui l’on crache au visage.
+Job 17:7 Mon œil est voilé par le chagrin, et tous mes membres ne sont plus qu’une ombre.
+Job 17:8 Les hommes droits en sont stupéfaits, et l’innocent s’irrite contre l’impie.
+Job 17:9 Le juste néanmoins demeure ferme dans sa voie, et qui a les mains pures redouble de courage.
+Job 17:10 Mais vous tous, revenez, venez donc ; ne trouverai-je pas un sage parmi vous ?
+Job 17:11 Mes jours sont écoulés, mes projets anéantis, ces projets que caressait mon cœur.
+Job 17:12 De la nuit ils font le jour ; en face des ténèbres, ils disent que la lumière est proche ! 
+Job 17:13 
+EOF;
+if (!($bfile = preg_replace("/Job 16:22 (.+?)Job 17:13 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+Job 23:17 Car ce ne sont pas les ténèbres qui me consument, ni l’obscurité dont ma face est voilée.
+Job 24:1 Pourquoi n’y a-t-il pas de temps réservés par le Tout-Puissant, et ceux qui le servent ne voient-ils pas son jour ?
+Job 24:2 On voit des hommes qui déplacent les bornes, qui font paître le troupeau qu’ils ont volé.
+Job 24:3 Ils poussent devant eux l’âne de l’orphelin, et retiennent en gage le bœuf de la veuve.
+Job 24:4 Ils forcent les pauvres à se détourner du chemin ; tous les humbles du pays sont réduits à se cacher.
+Job 24:5 Comme l’onagre dans la solitude, ils sortent pour leur travail, dès le matin, cherchant leur nourriture. Le désert leur fournit la subsistance de leurs enfants ;
+Job 24:6 ils coupent les épis dans les champs, ils maraudent dans la vigne de leur oppresseur.
+Job 24:7 Nus, ils passent la nuit, faute de vêtements, sans couverture contre le froid.
+Job 24:8 La pluie des montagnes les pénètre ; à défaut d’abri, ils se blottissent contre le rocher.
+Job 24:9 Ils arrachent l’orphelin à la mamelle, ils prennent des gages sur les pauvres.
+Job 24:10 Ceux-ci, tout nus, sans vêtements, portent, affamés, les gerbes du maître ;
+Job 24:11 Ils expriment l’huile dans ses celliers ; ils foulent la vendange, et ils ont soif.
+Job 24:12 Du sein des villes s’élèvent les gémissements des hommes, et l’âme des blessés crie ; et Dieu ne prend pas garde à ces forfaits !
+Job 24:13 D’autres sont parmi les ennemis de la lumière, ils n’en connaissent pas les voies, ils ne se tiennent pas dans ses sentiers.
+Job 24:14 L’assassin se lève au point du jour ; il tue le pauvre et l’indigent, il rôde la nuit comme un voleur.
+Job 24:15 L’œil de l’adultère épie le crépuscule ; « Personne ne me voit, » dit-il, et il jette un voile sur son visage.
+Job 24:16 La nuit, d’autres forcent les maisons, le jour, ils se tiennent cachés  ils ne connaissent pas la lumière.
+Job 24:17 Pour eux, le matin est comme l’ombre de la mort, car les horreurs de la nuit leur sont familières.
+Job 24:18 Ah ! l’impie glisse comme un corps léger sur la face des eaux, il n’a sur la terre qu’une part maudite, il ne se dirige pas sur le chemin des vignes !
+Job 24:19 Comme la sécheresse et la chaleur absorbent l’eau des neiges, ainsi le schéol engloutit les pécheurs !
+Job 24:20 Ah ! Le sein maternel l’oublie, les vers en font leurs délices ; on ne se souvient plus de lui, et l’iniquité est brisée comme un arbre.
+Job 24:21 Il dévorait la femme stérile et sans enfants, il ne faisait pas de bien à la veuve !…
+Job 24:22 
+EOF;
+if (!($bfile = preg_replace("/Job 23:17 (.+?)Job 24:22 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+Job 27:23 on bat des mains à son sujet, de sa demeure on siffle sur lui.
+Job 28:1 Il y a pour l’argent un lieu d’où on l’extrait, pour l’or un lieu où on l’épure. 
+Job 28:2 
+EOF;
+if (!($bfile = preg_replace("/Job 27:23 (.+?)Job 28:2 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+Job 29:25 Quand j’allais vers eux, j’avais la première place, je siégeais comme un roi entouré de sa troupe, comme un consolateur au milieu des affligés.
+Job 30:1 Et maintenant, je suis la risée d’hommes plus jeunes que moi, dont je n’aurais pas daigné mettre les pères parmi les chiens de mon troupeau.
+Job 30:2 Qu’aurais-je fait de la force de leurs bras ? Ils sont privés de toute vigueur.
+Job 30:3 Desséchés par la misère et la faim, ils broutent le désert, un sol depuis longtemps aride et désolé.
+Job 30:4 Ils cueillent sur les buissons des bourgeons amers, ils n’ont pour pain que la racine des genêts.
+Job 30:5 On les écarte de la société des hommes, on crie après eux comme après le voleur.
+Job 30:6 Ils habitent dans d’affreuses vallées, dans les cavernes de la terre et les rochers.
+Job 30:7 On entend leurs cris sauvages parmi les broussailles, ils se couchent ensemble sous les ronces:
+Job 30:8 gens insensés, race sans nom, bannis avec mépris de la terre habitée !
+Job 30:9 Et maintenant je suis l’objet de leurs chansons, je suis en butte à leurs propos.
+Job 30:10 Ils ont horreur de moi, ils me fuient, ils ne détournent pas leur crachat de mon visage.
+Job 30:11 Ils se donnent libre carrière pour m’outrager, ils rejettent tout frein devant moi.
+Job 30:12 Des misérables se lèvent à ma droite, ils cherchent à ébranler mes pieds, ils frayent jusqu’à moi leurs routes meurtrières.
+Job 30:13 Ils ont bouleversé mes sentiers, ils travaillent à ma ruine, eux à qui personne ne porterait secours.
+Job 30:14 Ils fondent sur moi, comme par une large brèche, ils se précipitent parmi les décombres.
+Job 30:15 Les terreurs m’assiègent, ma prospérité est emportée comme un souffle, mon bonheur a passé comme un nuage.
+Job 30:16 Et maintenant, mon âme s’épanche en moi, les jours d’affliction m’ont saisi. 
+Job 30:17 
+EOF;
+if (!($bfile = preg_replace("/Job 29:25 (.+?)Job 30:17 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+Job 30:31 Ma cithare ne rend plus que des accords lugubres, mon chalumeau que des sons plaintifs.
+Job 31:1 J’avais fait un pacte avec mes yeux, et comment aurais-je arrêté mes regards sur une vierge. —
+Job 31:2 Quelle part, me disais-je, Dieu me réserverait-il d’en haut ? Quel sort le Tout-Puissant me ferait-il de son ciel ?
+Job 31:3 La ruine n’est-elle pas pour le méchant, et le malheur pour les artisans d’iniquité ?
+Job 31:4 Dieu ne connaît-il pas mes voies, ne compte-t-il pas tous mes pas ?
+Job 31:5 Si j’ai marché dans le sentier du mensonge, si mon pied a couru après la fraude, —
+Job 31:6 que Dieu me pèse dans de justes balances, et il reconnaîtra mon innocence !
+Job 31:7 Si mes pas se sont écartés du droit chemin, si mon cœur a suivi mes yeux, si quelque souillure s’est attachée à mes mains, —
+Job 31:8 que je sème, et qu’un autre mange, que mes rejetons soient déracinés !
+Job 31:9 Si mon cœur a été séduit par une femme, si j’ai fait le guet à la porte de mon prochain, —
+Job 31:10 que ma femme tourne la meule pour un autre, que des étrangers la déshonorent !
+Job 31:11 Car c’est là un crime horrible, un forfait que punissent les juges ;
+Job 31:12 un feu qui dévore jusqu’à la ruine, qui aurait détruit tous mes biens.
+Job 31:13 Si j’ai méconnu le droit de mon serviteur ou de ma servante, quand ils étaient en contestation avec moi : — 
+Job 31:14 
+EOF;
+if (!($bfile = preg_replace("/Job 30:31 (.+?)Job 31:14 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+Job 32:22 Car je ne sais pas flatter ; autrement mon Créateur m’enlèverait sur-le-champ.
+Job 33:1 Maintenant donc, Job, écoute mes paroles, prête l’oreille à tous mes discours.
+Job 33:2 Voilà que j’ouvre la bouche, ma langue forme des mots dans mon palais,
+Job 33:3 mes paroles partiront d’un cœur droit, c’est la vérité pure qu’exprimeront mes lèvres.
+Job 33:4 L’esprit de Dieu m’a créé, le souffle du Tout-Puissant me donne la vie.
+Job 33:5 Si tu le peux, réponds-moi ; dispose tes arguments devant moi, tiens-toi ferme.
+Job 33:6 Devant Dieu je suis ton égal, comme toi j’ai été formé du limon.
+Job 33:7 Ainsi ma crainte ne t’épouvantera pas, et le poids de ma majesté ne peut t’accabler.
+Job 33:8 Oui, tu as dit à mes oreilles, et j’ai bien entendu le son de tes paroles ;
+Job 33:9 « Je suis pur, exempt de tout péché ; je suis irréprochable, il n’y a point d’iniquité en moi.
+Job 33:10 Et Dieu invente contre moi des motifs de haine, il me traite comme son ennemi. 
+Job 33:11 
+EOF;
+if (!($bfile = preg_replace("/Job 32:22 (.+?)Job 33:11 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+Job 36:33 Son tonnerre l’annonce, l’effroi des troupeaux annonce son approche.
+Job 37:1 À ce spectacle, mon cœur est tout tremblant, il bondit hors de sa place.
+Job 37:2 Écoutez, écoutez le fracas de sa voix, le grondement qui sort de sa bouche !
+Job 37:3 Il lui donne libre carrière sous l’immensité des cieux, et son éclair brille jusqu’aux extrémités de la terre.
+Job 37:4 Puis éclate un rugissement, il tonne de sa voix majestueuse ; il ne retient plus les éclairs, quand on entend sa voix ;
+Job 37:5 Dieu tonne de sa voix, d’une manière merveilleuse. Il fait de grandes choses que nous ne comprenons pas.
+Job 37:6 Il dit à la neige : « Tombe sur la terre ; » il commande aux ondées et aux pluies torrentielles. 
+Job 37:7 
+EOF;
+if (!($bfile = preg_replace("/Job 36:33 (.+?)Job 37:7 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+Job 38:41 Qui prépare au corbeau sa pâture, quand ses petits crient vers Dieu, qu’ils errent çà et là, sans nourriture ?
+Job 39:1 Connais-tu le temps où les chèvres sauvages font leurs petits ? As-tu observé les biches quand elles mettent bas ?
+Job 39:2 As-tu compté les mois de leur portée , et connais-tu l’époque de leur délivrance ?
+Job 39:3 Elles se mettent à genoux, déposent leurs petits, et sont quittes de leurs douleurs.
+Job 39:4 Leurs faons se fortifient et grandissent dans les champs ; ils s’en vont, et ne reviennent plus.
+Job 39:5 Qui a lâché l’onagre en liberté, qui a brisé les liens de l’âne sauvage,
+Job 39:6 à qui j’ai donné le désert pour maison, pour demeure la plaine salée ?
+Job 39:7 Il méprise le tumulte des villes, il n’entend pas les cris d’un maître.
+Job 39:8 Il parcourt les montagnes pour trouver sa pâture, il y poursuit les moindres traces de verdure.
+Job 39:9 Le buffle voudra-t-il te servir, ou bien passera-t-il la nuit dans son étable ?
+Job 39:10 L’attacheras-tu avec une corde au sillon, ou bien hersera-t-il derrière toi dans les vallées ?
+Job 39:11 Te fieras-tu à lui parce qu’il est très fort, lui laisseras-tu faire tes travaux ?
+Job 39:12 Compteras-tu sur lui pour rentrer ta moisson, pour recueillir le blé dans ton aire ?
+Job 39:13 L’aile de l’autruche bat joyeusement ; elle n’a ni l’aile pieuse ni le plumage de la cigogne.
+Job 39:14 Elle abandonne ses œufs à la terre, et les laisse chauffer sur le sable.
+Job 39:15 Elle oublie que le pied peut les fouler, la bête des champs les écraser.
+Job 39:16 Elle est dure pour ses petits, comme s’ils n’étaient pas siens ; que son travail soit vain, elle ne s’en inquiète pas.
+Job 39:17 Car Dieu lui a refusé la sagesse, et ne lui a pas départi l’intelligence.
+Job 39:18 Mais quand elle se bat les flancs et prend son essor, elle se rit du cheval et du cavalier.
+Job 39:19 Est-ce toi qui donnes au cheval la vigueur, qui revêts son cou d’une crinière flottante,
+Job 39:20 qui le fais bondir comme la sauterelle ? Son fier hennissement répand la terreur.
+Job 39:21 Il creuse du pied la terre, il est fier de sa force, il s’élance au-devant du combat.
+Job 39:22 Il se rit de la peur ; rien ne l’effraie ; il ne recule pas devant l’épée.
+Job 39:23 Sur lui résonne le carquois, la lance étincelante et le javelot.
+Job 39:24 Il frémit, il s’agite, il dévore le sol ; il ne se contient plus quand la trompette sonne.
+Job 39:25 Au bruit de la trompette, il dit : « Allons ! » De loin il flaire la bataille, la voix tonnante des chefs et les cris des guerriers. 
+Job 39:26 
+EOF;
+if (!($bfile = preg_replace("/Job 38:41 (.+?)Job 39:26 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+Job 40:32 Essaie de mettre la main sur lui : souviens-toi du combat, et tu n’y reviendras plus.
+Job 41:1 Voici que le chasseur est trompé dans son attente ; la vue du monstre suffit à le terrasser.
+Job 41:2 Nul n’est assez hardi pour provoquer Léviathan : qui donc oserait me résister en face ?
+Job 41:3 Qui m’a obligé, pour que j’aie à lui rendre ? Tout ce qui est sous le ciel est à moi.
+Job 41:4 Je ne veux pas taire ses membres, sa force, l’harmonie de sa structure.
+Job 41:5 Qui jamais a soulevé le bord de sa cuirasse ? Qui a franchi la double ligne de son râtelier ?
+Job 41:6 Qui a ouvert les portes de sa gueule ? Autour de ses dents habite la terreur.
+Job 41:7 Superbes sont les lignes de ses écailles, comme des sceaux étroitement serrés.
+Job 41:8 Chacune touche sa voisine ; un souffle ne passerait pas entre elles.
+Job 41:9 Elles adhèrent l’une à l’autre, elles sont jointes et ne sauraient se séparer.
+Job 41:10 Ses éternuements font jaillir la lumière, ses yeux sont comme les paupières de l’aurore.
+Job 41:11 Des flammes jaillissent de sa gueule, il s’en échappe des étincelles de feu.
+Job 41:12 Une fumée sort de ses narines, comme d’une chaudière ardente et bouillante.
+Job 41:13 Son souffle allume les charbons, de sa bouche s’élance la flamme.
+Job 41:14 Dans son cou réside la force, devant lui bondit l’épouvante.
+Job 41:15 Les muscles de sa chair tiennent ensemble ; fondus sur lui, inébranlables.
+Job 41:16 Son cœur est dur comme la pierre, dur comme la meule inférieure. 
+Job 41:17 
+EOF;
+if (!($bfile = preg_replace("/Job 40:32 (.+?)Job 41:17 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $textfix = <<<EOF
 Psalms 9:17 Yahweh s’est montré, il a exercé le jugement, dans l’œuvre de ses mains il a enlacé l’impie. Séla.
 Psalms 9:18 
@@ -6058,27 +6409,597 @@ Psalms 14:1
 EOF;
 if (!($bfile = preg_replace("/Psalms 13:1 (.+?)Psalms 14:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $textfix = <<<EOF
+Psalms 41:14 Béni soit Yahweh, le Dieu d’Israël, dans les siècles des siècles ! Amen ! Amen ! Psaumes Livres.
+Psalms 42:1 
+EOF;
+if (!($bfile = preg_replace("/Psalms 41:14 (.+?)Psalms 42:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+Psalms 55:8 voici que je fuirais bien loin, et je demeurerais au désert ; — Séla.
+Psalms 55:9 je me hâterais de chercher un asile, loin du vent impétueux, loin de l’ouragan.
+Psalms 55:10 Réduis-les à néant, Seigneur, divise leurs langues ! car je vois dans la ville la violence et la discorde.
+Psalms 55:11 Jour et nuit ils font le tour de ses remparts ; l’iniquité et la vexation sont au milieu d’elle,
+Psalms 55:12 la perversité est dans son sein, l’oppression et l’astuce ne quittent point ses places.
+Psalms 55:13 Car ce n’est pas un ennemi qui m’outrage : je le supporterais ; ce n’est pas un adversaire qui s’élève contre moi : je me cacherais devant lui.
+Psalms 55:14 Mais toi, tu étais un autre moi-même, mon confident et mon ami.
+Psalms 55:15 Nous vivions ensemble dans une douce intimité, nous allions avec la foule à la maison de Dieu.
+Psalms 55:16 Que la mort les surprenne, qu’ils descendent vivants au schéol ! Car la méchanceté est dans leur demeure, au milieu d’eux.
+Psalms 55:17 Pour moi, je crie vers Dieu, et Yahweh me sauvera.
+Psalms 55:18 Le soir, le matin, au milieu du jour, je me plains, je gémis, et il entendra ma voix.
+Psalms 55:19 Il délivrera en paix mon âme du combat qui m’est livré, car ils sont nombreux ceux qui me font la guerre.
+Psalms 55:20 Dieu entendra, et il les humiliera, lui qui siège éternellement sur son trône. — Séla. Car il n’y a point en eux de changement, et ils n’ont pas la crainte de Dieu.
+Psalms 55:21 
+EOF;
+if (!($bfile = preg_replace("/Psalms 55:8 (.+?)Psalms 55:21 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+Psalms 58:1 Au maître de chant. Ne détruis pas. Hymne de David.
+Psalms 58:2 Est-ce donc en restant muets que vous rendez la justice ? Est-ce selon le droit que vous jugez, fils des hommes ?
+Psalms 58:3 
+EOF;
+if (!($bfile = preg_replace("/Psalms 58:1 (.+?)Psalms 58:3 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+Psalms 72:20 Fin des prières de David, fils d’Isaï. Psaumes Livres.
+Psalms 73:1 
+EOF;
+if (!($bfile = preg_replace("/Psalms 72:20 (.+?)Psalms 73:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+Psalms 89:53 Béni soit à jamais Yahweh ! Amen ! Amen ! Psaumes Livres.
+Psalms 90:1 
+EOF;
+if (!($bfile = preg_replace("/Psalms 89:53 (.+?)Psalms 90:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+Psalms 106:48 Béni soit Yahweh, Dieu d’Israël, d’éternité en éternité ! Et que tout le peuple dise : Amen ! Alleluia ! Psaumes Livres.
+Psalms 107:1 
+EOF;
+if (!($bfile = preg_replace("/Psalms 106:48 (.+?)Psalms 107:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
 Psalms 120:1 Cantique des montées. Vers Yahweh, dans ma détresse, j’ai crié, et il m’a exaucé :
 Psalms 120:2 
 EOF;
 if (!($bfile = preg_replace("/Psalms 120:1 (.+?)Psalms 120:2 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $textfix = <<<EOF
-Isaiah 9:19 On coupe à droite, et l’on a faim ; on dévore à gauche, et l’on n’est point rassasié ; chacun dévore la chair de son bras ;
-Isaiah 9:20 Manassé contre Éphraïm, Éphraïm contre Manassé, tous deux ensemble contre Juda ! Avec tout cela, sa colère ne s’est point détournée, et sa main reste étendue.
-Isaiah 10:1 
+Proverbs 10:32 Les lèvres du juste connaissent la grâce, et la bouche des méchants la perversité.
+Proverbs 11:1 La balance fausse est en horreur à Yahweh, mais le poids juste lui est agréable.
+Proverbs 11:2 Si l’orgueil vient, viendra aussi l’ignominie ; mais la sagesse est avec les humbles. 
+Proverbs 11:3 
 EOF;
-if (!($bfile = preg_replace("/Isaiah 9:19 (.+?)Isaiah 10:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+if (!($bfile = preg_replace("/Proverbs 10:32 (.+?)Proverbs 11:3 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+Proverbs 11:31 Si le juste reçoit sur la terre une rétribution de peines, combien plus le méchant et le pécheur !
+Proverbs 12:1 Celui qui aime l’instruction aime la science ; celui qui hait la réprimande est insensé. 
+Proverbs 12:2 
+EOF;
+if (!($bfile = preg_replace("/Proverbs 11:31 (.+?)Proverbs 12:2 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+Proverbs 12:28 Dans le sentier de la justice est la vie, et dans le chemin qu’elle trace l’immortalité.
+Proverbs 13:1 Le fils sage révèle l’instruction de son père, mais le moqueur n’écoute pas la réprimande.
+Proverbs 13:2 Du fruit de sa bouche l’homme goûte le bien, mais le désir des perfides, c’est la violence.
+Proverbs 13:3 Celui qui veille sur sa bouche garde son âme ; celui qui ouvre trop ses lèvres court à sa perte.
+Proverbs 13:4 Le paresseux à des désirs, et ils ne sont pas satisfaits, mais le désir des hommes diligents sera rassasié.
+Proverbs 13:5 Le juste déteste les paroles mensongères ; le méchant procure la honte et la confusion.
+Proverbs 13:6 La justice garde la voie de l’homme intègre, mais la méchanceté cause la ruine du pécheur.
+Proverbs 13:7 Tel fait le riche qui n’a rien, tel fait le pauvre qui a de grands biens.
+Proverbs 13:8 La richesse d’un homme est rançon de sa vie, mais le pauvre n’entend même pas la menace.
+Proverbs 13:9 La lumière du juste brille joyeusement, mais la lampe des méchants s’éteint.
+Proverbs 13:10 L’orgueil ne produit que des querelles ; mais la sagesse est avec ceux qui se laissent conseiller.
+Proverbs 13:11 La richesse mal acquise s’évanouit, mais celui qui l’amasse peu à peu l’augmente.
+Proverbs 13:12 L’espoir différé rend le cœur malade, mais le désir accompli est un arbre de vie. 
+Proverbs 13:13 
+EOF;
+if (!($bfile = preg_replace("/Proverbs 12:28 (.+?)Proverbs 13:13 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+Proverbs 13:25 Le juste mange et satisfait son appétit, mais le ventre des méchants éprouve la disette.
+Proverbs 14:1 La femme sage bâtit sa maison, et la femme insensée la renverse de ses propres mains.
+Proverbs 14:2 Celui-là marche dans sa droiture qui craint Yahweh, et celui qui le méprise est pervers dans sa voie.
+Proverbs 14:3 Dans la bouche de l’insensé est la verge de son orgueil, mais les lèvres des sages les gardent.
+Proverbs 14:4 Où il n’y a pas de bœufs, la crèche est vide, mais la vigueur des bœufs procure des revenus abondants.
+Proverbs 14:5 Le témoin fidèle ne ment pas, mais le faux témoin profère des mensonges.
+Proverbs 14:6 Le moqueur cherche la sagesse et ne la trouve pas, mais pour l’homme intelligent la science est facile. 
+Proverbs 14:7 
+EOF;
+if (!($bfile = preg_replace("/Proverbs 13:25 (.+?)Proverbs 14:7 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+Proverbs 14:35 La faveur du roi est pour le serviteur intelligent, et sa colère pour celui qui fait honte.
+Proverbs 15:1 Une réponse douce calme la fureur, mais une parole dure excite la colère.
+Proverbs 15:2 La langue des sages rend la science aimable ; de la bouche des insensés déborde la folie.
+Proverbs 15:3 Les yeux de Yahweh sont en tout lieu, observant les méchants et les bons.
+Proverbs 15:4 la parole douce est un arbre de vie, mais la langue perverse brise le cœur.
+Proverbs 15:5 L’insensé méprise l’instruction de son père, mais celui qui profite de la réprimande devient plus sage.
+Proverbs 15:6 Il y a grande richesse dans la maison du juste, mais il y a du trouble dans les gains du méchant.
+Proverbs 15:7 Les lèvres du sage répandent la science, mais non le cœur de l’insensé.
+Proverbs 15:8 Le sacrifice des méchants est en horreur à Yahweh, mais la prière des hommes droits lui plaît.
+Proverbs 15:9 La voie du méchant est en abomination à Yahweh, mais il aime celui qui poursuit la justice.
+Proverbs 15:10 Une correction sévère frappe celui qui abandonne le sentier ; celui qui hait la réprimande mourra.
+Proverbs 15:11 Le schéol et l’abîme sont à nu devant Yahweh : combien plus les cœurs des enfants des hommes !
+Proverbs 15:12 Le moqueur n’aime pas qu’on le reprenne, il ne va pas vers les sages.
+Proverbs 15:13 Un cœur joyeux rend le visage serein, mais, quand le cœur est triste, l’esprit est abattu.
+Proverbs 15:14 Le cœur intelligent cherche la science, mais la bouche des insensés se repaît de folie.
+Proverbs 15:15 Tous les jours de l’affligé sont mauvais, mais le cœur content est un festin perpétuel. 
+Proverbs 15:16 
+EOF;
+if (!($bfile = preg_replace("/Proverbs 14:35 (.+?)Proverbs 15:16 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+Proverbs 15:33 La crainte de Yahweh est l’école de la sagesse, et l’humilité précède la gloire.
+Proverbs 16:1 À l’homme de former des projets dans son cœur, mais la réponse de la langue vient de Yahweh.
+Proverbs 16:2 Toutes les voies de l’homme sont pures à ses yeux, mais Yahweh pèse les esprits. 
+Proverbs 16:3 
+EOF;
+if (!($bfile = preg_replace("/Proverbs 15:33 (.+?)Proverbs 16:3 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+Proverbs 16:33 On jette les sorts dans le pan de la robe, mais de Yahweh vient toute décision.
+Proverbs 17:1 Mieux vaut un morceau de pain sec avec la paix, qu’une maison pleine de viande avec la discorde.
+Proverbs 17:2 Un serviteur prudent l’emporte sur le fils qui fait honte, et il partagera l’héritage avec les frères.
+Proverbs 17:3 Le creuset éprouve l’argent et le fourneau l’or ; celui qui éprouve les cœurs, c’est le Seigneur.
+Proverbs 17:4 Le méchant écoute la lèvre inique, le menteur prête l’oreille à la mauvaise langue.
+Proverbs 17:5 Celui qui se moque du pauvre outrage celui qui l’a fait ; celui qui se réjouit d’un malheur ne restera pas impuni.
+Proverbs 17:6 Les enfants des enfants sont la couronne des vieillards, et les pères sont la gloire de leurs enfants.
+Proverbs 17:7 Des paroles distinguées ne conviennent pas à l’insensé ; mais bien moins à un noble les paroles mensongères !
+Proverbs 17:8 Un présent est une pierre précieuse aux yeux de qui le possède ; partout où il se tourne, il a du succès.
+Proverbs 17:9 Celui qui couvre une faute cherche l’amitié, et celui qui la rappelle en ses paroles divise les amis.
+Proverbs 17:10 Un blâme fait plus d’impression sur l’homme intelligent que cent coups sur l’insensé.
+Proverbs 17:11 Le méchant ne cherche que rébellion, mais un messager cruel sera envoyé contre lui.
+Proverbs 17:12 Mieux vaut rencontrer une ourse privée de ses petits qu’un insensé pendant sa folie. 
+Proverbs 17:13 
+EOF;
+if (!($bfile = preg_replace("/Proverbs 16:33 (.+?)Proverbs 17:13 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+Proverbs 17:28 L’insensé lui-même, quand il se tait, passe pour un sage, pour intelligent, quand il ferme ses lèvres.
+Proverbs 18:1 Celui qui se tient à l’écart ne cherche qu’à contenter sa passion, il s’irrite contre tout sage conseil.
+Proverbs 18:2 Ce n’est pas l’intelligence qui plaît à l’insensé, c’est la manifestation de ses pensées.
+Proverbs 18:3 Quand vient le méchant, vient aussi le mépris, et avec la honte vient l’opprobre.
+Proverbs 18:4 Les paroles de la bouche de l’homme sont des eaux profondes ; la source de la sagesse est un torrent qui déborde. 
+Proverbs 18:5 
+EOF;
+if (!($bfile = preg_replace("/Proverbs 17:28 (.+?)Proverbs 18:5 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+Proverbs 18:24 L’homme aux nombreux amis les a pour sa perte, mais il est tel ami plus attaché qu’un frère.
+Proverbs 19:1 Mieux vaut le pauvre qui marche dans son intégrité, que l’homme aux lèvres dédaigneuses et qui est insensé.
+Proverbs 19:2 L’ignorance de l’âme n’est pas bonne, et celui dont les pieds se hâtent tombe.
+Proverbs 19:3 La folie de l’homme pervertit sa voie, et c’est contre Yahweh que son cœur s’irrite.
+Proverbs 19:4 La richesse procure un grand nombre d’amis, mais le pauvre se voit séparé de son ami.
+Proverbs 19:5 Le faux témoin ne restera pas impuni, et celui qui dit des mensonges n’échappera pas.
+Proverbs 19:6 Nombreux sont les flatteurs de l’homme généreux, et tous sont les amis de celui qui fait des présents.
+Proverbs 19:7 Tous les frères du pauvre le haïssent ; combien plus ses amis s’éloignent-ils de lui ! Il cherche des paroles bienveillantes, et il n’en trouve pas.
+Proverbs 19:8 Celui qui acquiert de l’intelligence aime son âme ; et celui qui observe la prudence obtiendra le bonheur.
+Proverbs 19:9 Le faux témoin ne restera pas impuni, et celui qui dit des mensonges périra.
+Proverbs 19:10 Il ne sied pas à l’insensé de vivre dans les délices ; moins encore à l’esclave de dominer sur les princes !
+Proverbs 19:11 La sagesse d’un homme le rend patient, et il se fait une gloire d’oublier les offenses.
+Proverbs 19:12 La colère du roi est comme le rugissement d’un lion, et sa faveur est comme la rosée sur l’herbe.
+Proverbs 19:13 Un fils insensé est le malheur de son père, et les querelles d’une femme une gouttière sans fin.
+Proverbs 19:14 Une maison et des richesses sont un héritage paternel ; mais une femme intelligente est un don de Yahweh.
+Proverbs 19:15 La paresse fait tomber dans l’assoupissement, et l’âme nonchalante éprouvera la faim.
+Proverbs 19:16 Celui qui garde le commandement garde son âme ; celui qui n’est pas attentif à sa voie mourra.
+Proverbs 19:17 Celui qui a pitié du pauvre prête à Yahweh, qui récompensera sa bonne œuvre.
+Proverbs 19:18 Châtie ton fils, car il y a encore de l’espérance, mais ne va pas jusqu’à le faire mourir.
+Proverbs 19:19 L’homme à la colère violente en subira la peine ; si tu le sauves une fois, il te faudra recommencer.
+Proverbs 19:20 Écoute les conseils et reçois l’instruction, afin que tu sois sage dans la suite de ta vie.
+Proverbs 19:21 Beaucoup de projets s’agitent dans le cœur de l’homme, mais c’est le dessein de Yahweh qui s’accomplit.
+Proverbs 19:22 Ce qui recommande un homme, c’est sa bonté, et mieux vaut un pauvre qu’un menteur. 
+Proverbs 19:23 
+EOF;
+if (!($bfile = preg_replace("/Proverbs 18:24 (.+?)Proverbs 19:23 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+Proverbs 19:29 Les jugements sont prêts pour les railleurs, et les coups pour le dos des insensés.
+Proverbs 20:1 Le vin est moqueur, les boissons fermentées tumultueuses ; quiconque s’y adonne n’est pas sage.
+Proverbs 20:2 Semblable au rugissement du lion est la terreur qu’inspire le roi ; celui qui l’irrite pèche contre lui-même.
+Proverbs 20:3 C’est une gloire pour l’homme de s’abstenir des querelles, mais tout insensé s’abandonne à la colère.
+Proverbs 20:4 À cause du mauvais temps, le paresseux ne laboure pas ; à la moisson, il cherchera, et il n’y aura rien.
+Proverbs 20:5 La pensée dans le cœur de l’homme est une eau profonde, mais l’homme intelligent y puisera.
+Proverbs 20:6 Beaucoup d’hommes vantent leur bonté ; mais un homme fidèle, qui le trouvera ?
+Proverbs 20:7 Le juste marche dans son intégrité ; heureux ses enfants après lui !
+Proverbs 20:8 Le roi, assis sur le trône de la justice, dissipe tout mal par son regard.
+Proverbs 20:9 Qui dira : « J’ai purifié mon cœur, je suis net de mon péché ? »
+Proverbs 20:10 Poids et poids, épha et épha, sont l’un et l’autre en horreur à Yahweh.
+Proverbs 20:11 L’enfant montre déjà par ses actions si ses œuvres seront pures et droites.
+Proverbs 20:12 L’oreille qui entend et l’œil qui voit, c’est Yahweh qui les a faits l’un et l’autre.
+Proverbs 20:13 N’aime pas le sommeil, pour ne pas devenir pauvre ; ouvre les yeux, et rassasie-toi de pain.
+Proverbs 20:14 Mauvais ! Mauvais ! dit l’acheteur, et, en s’en allant, il se félicite.
+Proverbs 20:15 Il y a de l’or et beaucoup de perles, mais les lèvres sages sont un vase précieux.
+Proverbs 20:16 Prends son vêtement, car il a répondu pour autrui ; exige de lui des gages à cause des étrangers.
+Proverbs 20:17 Le pain de fourberie est doux à l’homme, mais à la fin sa bouche est remplie de gravier. 
+Proverbs 20:18 
+EOF;
+if (!($bfile = preg_replace("/Proverbs 19:29 (.+?)Proverbs 20:18 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+Proverbs 20:30 La meurtrissure qui déchire la chair guérit le mal ; de même les coups qui atteignent au fond des entrailles.
+Proverbs 21:1 Le cœur du roi est un cours d’eau dans la main de Yahweh, il l’incline partout où il veut.
+Proverbs 21:2 Toutes les voies de l’homme sont droites à ses yeux ; mais celui qui pèse les cœurs, c’est Yahweh.
+Proverbs 21:3 Pratiquer la justice et l’équité, est aux yeux de Yahweh préférable aux sacrifices.
+Proverbs 21:4 Des regards hautains et un cœur superbe : flambeau des méchants, ce n’est que péché.
+Proverbs 21:5 Les projets de l’homme diligent ne vont qu’à l’abondance ; mais quiconque précipite ses démarches n’arrive qu’à la disette.
+Proverbs 21:6 Des trésors acquis par une langue mensongère : vanité fugitive d’hommes qui courent à la mort.
+Proverbs 21:7 La violence des méchants les égare, parce qu’ils n’ont pas voulu pratiquer la justice.
+Proverbs 21:8 La voie du criminel est tortueuse, mais l’innocent agit avec droiture. 
+Proverbs 21:9 
+EOF;
+if (!($bfile = preg_replace("/Proverbs 20:30 (.+?)Proverbs 21:9 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+Proverbs 21:31 On équipe le cheval pour le jour du combat, mais de Yahweh dépend la victoire.
+Proverbs 22:1 La bonne renommée vaut mieux que de grandes richesses, et l’estime a plus de prix que l’argent et que l’or.
+Proverbs 22:2 Le riche et le pauvre se rencontrent ; Yahweh est leur auteur à tous deux.
+Proverbs 22:3 L’homme prudent voit le mal et se cache, mais les simples passent outre et en portent la peine.
+Proverbs 22:4 Le fruit de l’humilité, c’est la crainte de Yahweh ; c’est la richesse, la gloire et la vie.
+Proverbs 22:5 Des épines et des pièges sont sur la voie du pervers ; celui qui garde son âme s’en éloigne.
+Proverbs 22:6 Instruis l’enfant selon la voie qu’il doit suivre ; et, même lorsqu’il sera vieux, il ne s’en détournera pas.
+Proverbs 22:7 Le riche domine sur les pauvres, et celui qui emprunte est l’esclave de celui qui prête.
+Proverbs 22:8 Celui qui sème l’injustice moissonne le malheur, et la verge de sa colère disparaît.
+Proverbs 22:9 L’homme au regard bienveillant sera béni, parce qu’il donne de son pain au pauvre.
+Proverbs 22:10 Chasse le moqueur, et la querelle prendra fin ; la dispute et l’outrage cesseront.
+Proverbs 22:11 Celui qui aime la pureté du cœur, et qui a la grâce sur les lèvres, a le roi pour ami.
+Proverbs 22:12 Les yeux de Yahweh gardent la science, mais il confond les paroles du pervers.
+Proverbs 22:13 Le paresseux dit : « Il y a un lion dehors ! Je serai tué au milieu des places ! »
+Proverbs 22:14 La bouche des étrangères est une fosse profonde ; celui contre qui Yahweh est irrité y tombera.
+Proverbs 22:15 La folie est attachée au cœur de l’enfant ; la verge de la discipline l’éloignera de lui.
+Proverbs 22:16 Opprimer un pauvre, c’est l’enrichir ; donner à un riche, c’est l’appauvrir. 
+Proverbs 22:17 
+EOF;
+if (!($bfile = preg_replace("/Proverbs 21:31 (.+?)Proverbs 22:17 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+Proverbs 22:29 Vois-tu un homme habile dans son ouvrage ? Il demeurera auprès des rois, il ne demeurera pas auprès des gens obscurs.
+Proverbs 23:1 Si tu es à table avec un grand, fais attention à ce qui est devant toi.
+Proverbs 23:2 Mets un couteau à ta gorge, si tu as trop d’avidité.
+Proverbs 23:3 Ne convoite pas ses mets délicats, c’est un aliment trompeur. Ne pas se tourmenter pour s’enrichir.
+Proverbs 23:4 Ne te tourmente pas pour devenir riche, abstiens-toi d’y appliquer ton intelligence.
+Proverbs 23:5 Veux-tu poursuivre du regard ce qui va s’évanouir ? Car la richesse se fait des ailes, et, comme l’aigle, elle s’envole vers les cieux. Éviter la table de l’envieux.
+Proverbs 23:6 Ne mange pas le pain de l’homme envieux, et ne convoite pas ses mets délicats ;
+Proverbs 23:7 car il ne vaut pas plus que les pensées de son âme. « Mange et bois, » te dira-t-il ; mais son cœur n’est pas avec toi.
+Proverbs 23:8 Tu vomiras le morceau que tu as mangé, et tu en seras pour tes belles paroles. L’insensé méprise la sagesse.
+Proverbs 23:9 
+EOF;
+if (!($bfile = preg_replace("/Proverbs 22:29 (.+?)Proverbs 23:9 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+Proverbs 24:34 et ta pauvreté viendra comme un rôdeur, et ton indigence comme un homme armé. »
+Proverbs 25:1 Voici encore des Proverbes de Salomon, recueillis par les gens d’Ézéchias, roi de Juda.
+Proverbs 25:2 La gloire de Dieu, c’est de cacher les choses ; la gloire des rois, c’est de les examiner.
+Proverbs 25:3 Le ciel dans sa hauteur, la terre dans sa profondeur, et le cœur des rois sont impénétrables. Dangers causés par le méchant.
+Proverbs 25:4 Ôte les scories de l’argent, et il en sortira un vase pour le fondeur.
+Proverbs 25:5 Ôte le méchant de devant le roi, et son trône s’affermira dans la justice. Humilité devant les grands.
+Proverbs 25:6 Ne prends pas des airs superbes devant le roi, et ne te mets pas à la place des grands ;
+Proverbs 25:7 car il vaut mieux qu’on te dise : « Monte ici », que si l’on t’humilie devant le prince que tes yeux ont vu. Discrétion.
+Proverbs 25:8 Ne pars pas trop vite en contestation, de peur qu’à la fin tu ne saches que faire.
+Proverbs 25:9 Lorsque ton prochain t’aura outragé, défends ta cause contre ton prochain, mais ne révèle pas le secret d’un autre,
+Proverbs 25:10 de peur que celui qui l’apprendra ne te couvre de honte, et que ton ignominie ne s’efface pas. 
+Proverbs 25:11 
+EOF;
+if (!($bfile = preg_replace("/Proverbs 24:34 (.+?)Proverbs 25:11 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+Proverbs 25:28 Une ville forcée qui n’a plus de murailles, tel est l’homme qui ne peut se contenir.
+Proverbs 26:1 Comme la neige en été, et la pluie pendant la moisson, ainsi la gloire ne convient pas à un insensé.
+Proverbs 26:2 Comme le passereau qui s’échappe, comme l’hirondelle qui s’envole, ainsi la malédiction sans cause n’atteint pas. À propos des insensés.
+Proverbs 26:3 
+EOF;
+if (!($bfile = preg_replace("/Proverbs 25:28 (.+?)Proverbs 26:3 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+Proverbs 26:28 La langue fausse hait ceux qu’elle blesse, et la bouche flatteuse cause la ruine.
+Proverbs 27:1 Ne te glorifie pas du lendemain, car tu ne sais pas ce qu’enfantera le jour suivant.
+Proverbs 27:2 Qu’un autre te loue, et non ta bouche ; un étranger, et non tes lèvres.
+Proverbs 27:3 La pierre est lourde et le sable est pesant : plus que l’un et l’autre pèse la colère de l’insensé.
+Proverbs 27:4 La fureur est cruelle et la colère impétueuse ; mais qui pourra tenir devant la jalousie ?
+Proverbs 27:5 Mieux vaut une réprimande ouverte qu’une amitié cachée.
+Proverbs 27:6 Les blessures d’un ami sont inspirées par la fidélité, mais les baisers d’un ennemi sont trompeurs.
+Proverbs 27:7 Celui qui est rassasié foule aux pieds le rayon de miel, mais à celui qui a faim tout ce qui est amer paraît doux.
+Proverbs 27:8 Comme l’oiseau qui erre loin de son nid, ainsi l’homme qui erre loin de son lieu.
+Proverbs 27:9 L’huile et les parfums réjouissent le cœur ; telle la douceur d’un ami dont le conseil vient du cœur.
+Proverbs 27:10 N’abandonne pas ton ami et l’ami de ton père, et n’entre pas dans la maison de ton frère au jour de ta détresse ; mieux vaut un voisin proche qu’un frère éloigné.
+Proverbs 27:11 Mon fils, deviens sage et réjouis mon cœur, afin que je puisse répondre à celui qui m’outrage.
+Proverbs 27:12 L’homme prudent voit le mal et se cache ; les simples passent et en portent la peine.
+Proverbs 27:13 Prends son vêtement, car il a répondu pour autrui ; demande des gages à cause des étrangers.
+Proverbs 27:14 Bénir son prochain à haute voix et de grand matin est réputé comme une malédiction.
+Proverbs 27:15 Une gouttière continue dans un jour de pluie et une femme querelleuse se ressemblent.
+Proverbs 27:16 Celui qui la retient, retient le vent, et sa main saisit de l’huile.
+Proverbs 27:17 Le fer aiguise le fer ; ainsi un homme aiguise un autre homme.
+Proverbs 27:18 Celui qui garde son figuier en mangera les fruits, et celui qui garde son maître sera honoré.
+Proverbs 27:19 Comme dans l’eau le visage répond au visage, ainsi le cœur de l’homme répond à l’homme. 
+Proverbs 27:20 
+EOF;
+if (!($bfile = preg_replace("/Proverbs 26:28 (.+?)Proverbs 27:20 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+Proverbs 27:27 tu as en abondance le lait des chèvres, pour ta nourriture et celle de ta maison, et pour l’entretien de tes servantes.
+Proverbs 28:1 Les méchants fuient sans qu’on les poursuive, mais les justes ont de l’assurance comme un lion.
+Proverbs 28:2 Dans un pays en révolte, les chefs se multiplient ; mais avec un homme intelligent et sage l’ordre se prolonge.
+Proverbs 28:3 Un homme pauvre qui opprime les malheureux, c’est une pluie violente qui cause la disette.
+Proverbs 28:4 Ceux qui abandonnent la loi louent le méchant, ceux qui l’observent s’irritent contre lui.
+Proverbs 28:5 Les hommes pervers ne comprennent pas ce qui est juste, mais ceux qui cherchent Yahweh comprennent tout.
+Proverbs 28:6 Mieux vaut le pauvre dans son intégrité que l’homme aux voies tortueuses et qui est riche.
+Proverbs 28:7 Celui qui observe la loi est un fils intelligent, mais celui qui nourrit les débauchés fait honte à son père.
+Proverbs 28:8 Celui qui augmente ses biens par l’intérêt et l’usure les amasse pour celui qui a pitié des pauvres.
+Proverbs 28:9 Si quelqu’un détourne l’oreille pour ne pas écouter la loi, sa prière même est une abomination.
+Proverbs 28:10 Celui qui égare les hommes droits dans la voie mauvaise tombera lui-même dans la fosse qu’il a creusée ; mais les hommes intègres posséderont le bonheur.
+Proverbs 28:11 L’homme riche est sage à ses yeux ; mais le pauvre intelligent le connaît.
+Proverbs 28:12 Quand les justes triomphent, c’est une grande fête ; quand les méchants se lèvent, chacun se cache.
+Proverbs 28:13 Celui qui cache ses fautes ne prospérera point, mais celui qui les avoue et les quitte obtiendra miséricorde. 
+Proverbs 28:14 
+EOF;
+if (!($bfile = preg_replace("/Proverbs 27:27 (.+?)Proverbs 28:14 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+Proverbs 28:28 Quand les méchants s’élèvent, chacun se cache ; quand ils périssent, les justes se multiplient.
+Proverbs 29:1 L’homme digne de reproches et qui raidit le cou sera brisé subitement et sans remède.
+Proverbs 29:2 Quand les justes se multiplient, le peuple est dans la joie ; quand le méchant exerce le pouvoir, le peuple gémit.
+Proverbs 29:3 L’homme qui aime la sagesse réjouit son père, mais celui qui fréquente les courtisanes dissipe son bien.
+Proverbs 29:4 Un roi affermit le pays par la justice ; mais celui qui est avide de présents le ruine.
+Proverbs 29:5 L’homme qui flatte son prochain tend un filet sous ses pieds.
+Proverbs 29:6 Dans le péché de l’homme méchant il y a un piège, mais le juste est dans la jubilation et la joie.
+Proverbs 29:7 Le juste connaît la cause des pauvres, mais le méchant ne comprend pas la science.
+Proverbs 29:8 Les railleurs soufflent le feu dans la ville, mais les sages apaisent la colère. 
+Proverbs 29:9 
+EOF;
+if (!($bfile = preg_replace("/Proverbs 28:28 (.+?)Proverbs 29:9 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+Ecclesiastes 4:17 Prends garde à ton pied quand tu vas à la maison de Dieu ; s’approcher pour écouter vaut mieux que d’offrir des victimes à la manière des insensés ; car leur ignorance les conduit à faire mal.
+Ecclesiastes 5:1 Ne sois pas pressé d’ouvrir la bouche, et que ton cœur ne se hâte pas d’exprimer une parole devant Dieu ; car Dieu est au ciel, et toi sur la terre : que tes paroles soient donc peu nombreuses !
+Ecclesiastes 5:2 Car de la multitude des occupations naissent les songes, et de la multitude des paroles, des propos d’insensé.
+Ecclesiastes 5:3 Lorsque tu fais un vœu à Dieu, ne tarde pas à l’accomplir, car il n’y a pas de faveur pour les insensés : ce que tu voues, accomplis-le. 
+Ecclesiastes 5:4 Mieux vaut pour toi ne pas vouer, que vouer et ne pas accomplir.
+Ecclesiastes 5:5 
+EOF;
+if (!($bfile = preg_replace("/Ecclesiastes 4:17 (.+?)Ecclesiastes 5:5 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+Ecclesiastes 8:17 j’ai vu toute l’œuvre de Dieu ; j’ai vu que l’homme ne saurait trouver l’œuvre qui se fait sous le soleil ; l’homme se fatigue à chercher, et ne trouve pas ; même si le sage veut connaître, il ne peut trouver.
+Ecclesiastes 9:1 En effet, j’ai pris tout ceci à cœur, et j’ai observé tout ceci : Que les justes et les sages et leurs œuvres sont dans la main de Dieu ; l’homme ne connaît ni l’amour, ni la haine : tout est devant eux.
+Ecclesiastes 9:2 Tout arrive également à tous : même sort pour le juste et pour le méchant, pour celui qui est bon et pur, et pour celui qui est impur, pour celui qui sacrifie et pour celui qui ne sacrifie pas. Comme il arrive à l’homme bon, il arrive au pécheur ; il en est de celui qui jure comme de celui qui craint de jurer.
+Ecclesiastes 9:3 C’est un mal, parmi tout ce qui se fait sous le soleil, qu’il y ait pour tous un même sort ; c’est pourquoi le cœur des fils de l’homme est plein de malice, et la folie est dans leur cœur pendant leur vie ; après quoi ils vont chez les morts.
+Ecclesiastes 9:4 Car pour l’homme qui est parmi les vivants, il y a de l’espérance ; mieux vaut un chien vivant qu’un lion mort.
+Ecclesiastes 9:5 Les vivants, en effet, savent qu’ils mourront, mais les morts ne savent rien, et il n’y a plus pour eux de salaire ; car leur mémoire est oubliée.
+Ecclesiastes 9:6 Déjà leur amour, leur haine, leur envie ont péri, et ils n’auront plus jamais aucune part à ce qui se fait sous le soleil.
+Ecclesiastes 9:7 Va, mange avec joie ton pain et bois ton vin d’un cœur content, puisque déjà Dieu se montre favorable à tes œuvres.
+Ecclesiastes 9:8 Qu’en tout temps tes vêtements soient blancs, et que l’huile parfumée ne manque pas sur ta tête.
+Ecclesiastes 9:9 Jouis de la vie avec une femme que tu aimes, pendant tous les jours de ta vie de vanité que Dieu t’a donnée sous le soleil, pendant tous les jours de ta vanité ; car c’est ta part dans la vie et dans le travail que tu fais sous le soleil.
+Ecclesiastes 9:10 Tout ce que ta main peut faire, fais-le avec ta force ; car il n’y a plus ni œuvre, ni intelligence, ni science, ni sagesse, dans le schéol où tu vas. 
+Ecclesiastes 9:11 
+EOF;
+if (!($bfile = preg_replace("/Ecclesiastes 8:17 (.+?)Ecclesiastes 9:11 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+Ecclesiastes 11:10 Bannis de ton cœur le chagrin, et éloigne le mal de ta chair ; la jeunesse et l’adolescence sont vanité.
+Ecclesiastes 12:1 Et souviens-toi de ton Créateur aux jours de ta jeunesse, avant que viennent les jours mauvais et qu’approchent les années dont tu diras : « Je n’y ai point de plaisir » ;
+Ecclesiastes 12:2 avant que s’obscurcissent le soleil et la lumière, et la lune et les étoiles, et que les nuages reviennent après la pluie ;
+Ecclesiastes 12:3 au jour où tremblent les gardiens de la maison, où se courbent les hommes forts, où celles qui moulent s’arrêtent parce que leur nombre est diminué, où s’obscurcissent celles qui regardent par les fenêtres,
+Ecclesiastes 12:4 où les deux battants de la porte se ferment sur la rue, tandis que s’affaiblit le bruit de la meule ; où l’on se lève au chant de l’oiseau, où disparaissent toutes les filles du chant ; 
+Ecclesiastes 12:5 
+EOF;
+if (!($bfile = preg_replace("/Ecclesiastes 11:10 (.+?)Ecclesiastes 12:5 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+Isaiah 3:26 Les portes de Sion gémiront et seront dans le deuil, et, désolée, elle sera assise dans la poussière.
+Isaiah 4:1 Sept femmes saisiront un seul homme en ce jour, et diront : « Nous mangerons notre pain, et nous nous vêtirons de nos habits ; permets seulement que nous portions ton nom ; ôte notre opprobre. » 
+Isaiah 4:2 
+EOF;
+if (!($bfile = preg_replace("/Isaiah 3:26 (.+?)Isaiah 4:2 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+Isaiah 9:1 Le peuple qui marchait dans les ténèbres a vu une grande lumière, et sur ceux qui habitaient le pays de l’ombre de la mort, la lumière a resplendi.
+Isaiah 9:2 Vous avez multiplié votre peuple vous avez rendu grande la joie ; il se réjouit devant vous comme on se réjouit à la moisson, comme on pousse des cris au partage du butin.
+Isaiah 9:3 Car le joug qui pesait sur lui, la verge qui frappait son épaule, le bâton de son exacteur, vous les avez brisés comme au jour de Madian !
+Isaiah 9:4 Car toute sandale du guerrier dans la mêlée, et tout manteau roulé dans le sang sont livrés à l’incendie ; le feu les dévore.
+Isaiah 9:5 Car un enfant nous est né, un fils nous a été donné ; l’empire a été posé sur ses épaules, et on lui donne pour nom : Conseiller admirable, Dieu fort, Père éternel, Prince de la paix : 
+Isaiah 9:6 
+EOF;
+if (!($bfile = preg_replace("/Isaiah 8:24 (.+?)Isaiah 9:6 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+Isaiah 9:19 On coupe à droite, et l’on a faim ; on dévore à gauche, et l’on n’est point rassasié ; chacun dévore la chair de son bras ;
+Isaiah 9:20 Manassé contre Éphraïm, Éphraïm contre Manassé, tous deux ensemble contre Juda ! Avec tout cela, sa colère ne s’est point détournée, et sa main reste étendue.
+Isaiah 10:1 Malheur à ceux qui rendent des arrêts iniques, et aux scribes qui écrivent des sentences injustes,
+Isaiah 10:2 écartant du tribunal les faibles, et dépouillant de leur droit les affligés de mon peuple, faisant des veuves leur proie, et pillant les orphelins !
+Isaiah 10:3 Que ferez-vous au jour de la visite, et dans la catastrophe qui viendra de loin ? Vers qui fuirez-vous pour avoir du secours, et où déposerez-vous vos trésors ?
+Isaiah 10:4 Il ne reste qu’à se courber parmi les captifs, ou à tomber parmi les tués. Avec tout cela, sa colère ne s’est point détournée, et sa main reste étendue. 
+Isaiah 10:5 
+EOF;
+if (!($bfile = preg_replace("/Isaiah 9:19 (.+?)Isaiah 10:5 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+Isaiah 13:22 Les chacals hurleront dans ses palais déserts, et les chiens sauvages dans ses maisons de plaisir. Son temps est proche, et ses jours ne seront pas prolongés.
+Isaiah 14:1 Car Yahweh aura pitié de Jacob, et il choisira encore Israël ; il les rétablira dans leur pays ; les étrangers s’adjoindront à eux, et s’attacheront à la maison de Jacob. 
+Isaiah 14:2 
+EOF;
+if (!($bfile = preg_replace("/Isaiah 13:22 (.+?)Isaiah 14:2 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+Isaiah 15:9 car les eaux de Dimon sont pleines de sang. Car je ferai venir sur Dimon un surcroît de malheur, un lion aux réchappés de Moab, à ce qui sera resté dans le pays.
+Isaiah 16:1 « Envoyez l’agneau du dominateur du pays, de Pétra, à travers le désert, à la montagne de la fille de Sion. »
+Isaiah 16:2 Comme des oiseaux fugitifs, comme une nichée que l’on disperse, telles sont les filles de Moab, aux passages de l’Arnon :
+Isaiah 16:3 « Conseille-nous, sois notre arbitre ; donne-nous l’ombre, comme dans la nuit, au milieu du jour ; cache ceux que l’on poursuit, ne trahis point les fugitifs.
+Isaiah 16:4 « Que les fugitifs de Moab demeurent chez toi ; sois-leur une retraite contre le dévastateur ; car l’invasion a cessé, la dévastation a pris fin, les oppresseurs ont disparu du pays.
+Isaiah 16:5 Le trône est affermi par la miséricorde, et sur ce trône s’assiéra selon la vérité, dans la tente de David, un juge poursuivant le droit, et zélé pour la justice. » —
+Isaiah 16:6 « Nous connaissons l’orgueil de Moab, le très orgueilleux, sa fierté et son orgueil, son arrogance et ses discours mensongers. » 
+Isaiah 16:7 
+EOF;
+if (!($bfile = preg_replace("/Isaiah 15:9 (.+?)Isaiah 16:7 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+Isaiah 31:9 Son rocher fuira d’épouvante, et ses princes tremblants déserteront l’étendard. — oracle de Yahweh, qui a son feu dans Sion, et sa fournaise dans Jérusalem.
+Isaiah 32:1 Voici qu’un roi régnera selon la justice, et les princes gouverneront avec droiture.
+Isaiah 32:2 Et chacun d’eux sera un abri contre le vent et un refuge contre la tempête, comme des courants d’eau dans une terre aride, comme l’ombre d’un grand rocher dans un pays désolé.
+Isaiah 32:3 Les yeux de ceux qui voient ne seront plus aveuglés, et les oreilles de ceux qui entendent seront attentives.
+Isaiah 32:4 Le cœur des hommes légers sera habile à comprendre, et la langue des bègues adroite à parler nettement.
+Isaiah 32:5 L’insensé ne sera plus appelé noble, et on ne dira plus du fourbe qu’il est magnanime.
+Isaiah 32:6 Car l’insensé parle follement, et son cœur s’adonne à l’iniquité, pour faire des choses impies, et proférer des paroles fausses contre Yahweh, pour laisser avide l’âme de celui qui a faim, et ôter le breuvage à celui qui a soif.
+Isaiah 32:7 Les armes du fourbe sont déloyales ; il ourdit des intrigues, pour perdre les humbles par des mensonges, et le pauvre alors même qu’il parle justice.
+Isaiah 32:8 Mais le noble a de nobles desseins, et il se lèvera pour de nobles actions.
+Isaiah 32:9 
+EOF;
+if (!($bfile = preg_replace("/Isaiah 31:9 (.+?)Isaiah 32:9 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+Isaiah 42:25 Il a versé sur eux le feu de son courroux, et les fureurs de la guerre ; elle s’est allumée tout autour de lui, et il n’a pas compris ; elle l’a consumé, et il n’y a point pris garde !
+Isaiah 43:1 Et maintenant, ainsi parle Yahweh, celui qui t’a créé, ô Jacob, celui qui t’a formé, ô Israël : Ne crains point, car je t’ai racheté ; je t’ai appelé par ton nom, tu es à moi !
+Isaiah 43:2 Quand tu passeras par les eaux, je serai avec toi ; par les fleuves, ils ne t’engloutiront point ; quand tu marcheras au milieu du feu, tu ne seras point brûlé et la flamme ne t’embrasera point.
+Isaiah 43:3 Car moi, Yahweh, je suis ton Dieu ; le Saint d’Israël est ton sauveur. J’ai donné l’Égypte pour ta rançon ; l’Éthiopie et Saba en échange de toi.
+Isaiah 43:4 Parce que tu es précieux à mes yeux, honorable, et que, moi, je t’aime, je donnerai des hommes en échange de toi, et des peuples en échange de ta vie.
+Isaiah 43:5 Ne crains point, car je suis avec toi ; de l’orient je ramènerai ta postérité, et de l’occident je te rassemblerai.
+Isaiah 43:6 Je dirai au septentrion : « Donne-les ! » et au midi : « Ne les retiens pas ! Ramène mes fils des pays lointains et mes filles de l’extrémité de la terre,
+Isaiah 43:7 tous ceux qui portent mon nom, que j’ai créés pour ma gloire, que j’ai formés et que j’ai faits.
+Isaiah 43:8 Fais sortir le peuple aveugle, et qui a des yeux, et les sourds, qui ont des oreilles. » 
+Isaiah 43:9 
+EOF;
+if (!($bfile = preg_replace("/Isaiah 42:25 (.+?)Isaiah 43:9 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+Isaiah 43:28 C’est pourquoi j’ai dégradé les princes du sanctuaire, j’ai livré Jacob à l’anathème et Israël aux outrages.
+Isaiah 44:1 Et maintenant, écoute, Jacob, mon serviteur, et toi, Israël, que j’ai choisi.
+Isaiah 44:2 Ainsi parle Yahweh, qui t’a fait, qui t’a formé dès le sein de ta mère, et secouru : Ne crains point, Jacob, mon serviteur, mon Israël, que j’ai choisi !
+Isaiah 44:3 Car je répandrai des eaux sur le sol altéré, et des ruisseaux sur la terre desséchée. Je répandrai mon esprit sur ta postérité, et ma bénédiction sur tes rejetons.
+Isaiah 44:4 Et ils croîtront parmi la verdure, comme les saules le long des eaux courantes.
+Isaiah 44:5 Celui-ci dira : « Je suis à Yahweh ! » celui-ci se réclamera du nom de Jacob ; un autre écrira sur sa main : « À Yahweh ! » et il prendra pour surnom le nom d’Israël. 
+Isaiah 44:6 
+EOF;
+if (!($bfile = preg_replace("/Isaiah 43:28 (.+?)Isaiah 44:6 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+Isaiah 44:28 Je dis de Cyrus : « C’est mon berger ; il accomplira toute ma volonté, en disant à Jérusalem : Sois rebâtie ! et au temple : Sois fondé ! »
+Isaiah 45:1 Ainsi parle Yahweh à son oint, à Cyrus, que j’ai pris par la main droite pour terrasser devant lui les nations, et pour délier la ceinture des rois, pour ouvrir devant lui les portes, afin que les entrées ne lui soient pas fermées :
+Isaiah 45:2 Moi, je marcherai devant toi ; j’aplanirai les chemins montueux ; je romprai les portes d’airain, et je briserai les verrous de fer.
+Isaiah 45:3 Je te donnerai les trésors cachés, et les richesses enfouies, afin que tu saches que je suis Yahweh, le Dieu d’Israël, qui t’ai appelé par ton nom.
+Isaiah 45:4 À cause de Jacob, mon serviteur, et d’Israël, mon élu, je t’ai appelé par ton nom ; je t’ai désigné quand tu ne me connaissais pas.
+Isaiah 45:5 Je suis Yahweh, et il n’y en a point d’autre ; hors moi, il n’y a point de Dieu ! Je t’ai ceint quand tu ne me connaissais pas,
+Isaiah 45:6 afin que l’on sache, du levant au couchant, qu’il n’y a rien en dehors de moi ! Je suis Yahweh, et il n’y en a point d’autre ;
+Isaiah 45:7 je forme la lumière et crée les ténèbres, je fais la paix et je crée le malheur : c’est moi Yahweh qui fais tout cela. 
+Isaiah 45:8 
+EOF;
+if (!($bfile = preg_replace("/Isaiah 44:28 (.+?)Isaiah 45:8 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+Isaiah 49:26 Je ferai manger à tes oppresseurs leur propre chair, ils s’enivreront de leur sang comme d’un vin nouveau ; et toute chair saura que moi, Yahweh, je suis ton Sauveur, et que ton rédempteur est le Puissant de Jacob !
+Isaiah 50:1 Ainsi parle Yahweh : Où est la lettre de divorce de votre mère, par laquelle je l’ai répudiée ? Ou bien, quel est celui de mes créanciers auquel je vous ai vendus ? C’est à cause de vos iniquités que vous avez été vendus, à cause de vos péchés que votre mère a été renvoyée.
+Isaiah 50:2 Je suis venu : pourquoi n’y avait-il personne ? J’ai appelé : pourquoi personne n’a-t-il répondu ? Ma main est-elle donc trop courte pour délivrer, ou bien n’ai-je pas assez de force pour sauver ? Voici que, par ma menace, je dessèche la mer, je change les fleuves en désert ; leurs poissons pourrissent faute d’eau, et ils périssent de soif.
+Isaiah 50:3 Je revêts les cieux d’obscurité, et je les couvre d’un sac. 
+Isaiah 50:4 
+EOF;
+if (!($bfile = preg_replace("/Isaiah 49:26 (.+?)Isaiah 50:4 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+Isaiah 51:23 Je les mettrai dans la main de tes persécuteurs, de ceux qui te disaient : « Courbe-toi, que nous passions ! » Et tu faisais de ton dos comme un sol, comme une rue pour les passants !
+Isaiah 52:1 Réveille-toi, réveille-toi, revêts ta force, Sion ! Revêts tes habits de fête, Jérusalem, ville sainte ! Car l’incirconcis et l’impur n’entreront plus chez toi désormais.
+Isaiah 52:2 Secoue ta poussière, relève-toi, assieds-toi, Jérusalem ; détache les chaînes de ton cou, captive, fille de Sion !
+Isaiah 52:3 Car ainsi parle Yahweh : Vous avez été vendus pour rien, et sans argent vous serez rachetés !
+Isaiah 52:4 Car ainsi parle le Seigneur Yahweh : Mon peuple descendit jadis en Égypte pour y séjourner puis Assur l’opprima sans cause.
+Isaiah 52:5 Et maintenant qu’ai-je à faire ici ? — oracle de Yahweh, puisque mon peuple a été enlevé sans droit ? Ses tyrans poussent des hurlements, — oracle de Yahweh, et sans cesse, tout le jour, mon nom est outragé.
+Isaiah 52:6 C’est pourquoi mon peuple connaîtra mon nom ; oui, il saura en ce jour que c’est moi qui dis : « Me voici ! »
+Isaiah 52:7 Qu’ils sont beaux sur les montagnes les pieds du messager, qui publie la bonne nouvelle de la paix ; de celui qui annonce le bonheur, qui publie le salut ; de celui qui dit à Sion : « Ton Dieu règne ! » 
+Isaiah 52:8 
+EOF;
+if (!($bfile = preg_replace("/Isaiah 51:23 (.+?)Isaiah 52:8 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+Isaiah 52:15 ainsi il fera tressaillir des nations nombreuses. Devant lui les rois fermeront la bouche ; car ils verront ce qui ne leur avait pas été raconté, et ils apprendront ce qu’ils n’avaient pas entendu.
+Isaiah 53:1 Qui a cru ce que nous avons entendu, et à qui le bras de Yahweh a-t-il été révélé ?
+Isaiah 53:2 Il s’est élevé devant lui comme un frêle arbrisseau ; comme un rejeton qui sort d’une terre desséchée ; il n’avait ni forme ni beauté pour attirer nos regards, ni apparence pour exciter notre amour.
+Isaiah 53:3 Il était méprise et abandonné des hommes, homme de douleurs et familier de la souffrance, comme un objet devant lequel on se voile la face ; en butte au mépris, nous n’en faisions aucun cas. 
+Isaiah 53:4 
+EOF;
+if (!($bfile = preg_replace("/Isaiah 52:15 (.+?)Isaiah 53:4 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+Isaiah 56:12 « Venez, je vais chercher du vin, et nous nous remplirons de liqueurs fortes et demain sera comme aujourd’hui, grand, très grand jour de joie ! »
+Isaiah 57:1 Cependant, le juste disparaît, et personne ne le prend à cœur ; les hommes pieux sont enlevés, et nul ne prend garde que le juste a été retiré du malheur,
+Isaiah 57:2 et qu’il entre dans la paix ! Ils reposent sur leurs couches, ceux qui ont suivi le droit chemin !
+Isaiah 57:3 Mais vous, approchez ici, fils de la magicienne, race de l’adultère et de la prostituée !
+Isaiah 57:4 De qui vous moquez-vous ? Contre qui ouvrez-vous la bouche, et tirez-vous la langue ? N’êtes-vous pas des enfants de prévarication, une race de mensonge ?
+Isaiah 57:5 Vous vous échauffez près des térébinthes, sous tout arbre vert ! vous égorgez les enfants dans les vallées, sous les grottes des rochers ?
+Isaiah 57:6 Ta part est dans les pierres polies du torrent ; voilà, voilà ton lot ! Tu as été jusqu’à leur verser des libations, à leur présenter des offrandes ! Puis-je être satisfait de cela ? 
+Isaiah 57:7 
+EOF;
+if (!($bfile = preg_replace("/Isaiah 56:12 (.+?)Isaiah 57:7 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $textfix = <<<EOF
 Isaiah 63:19 Nous sommes depuis longtemps comme un peuple que vous ne gouvernez pas, sur lequel votre nom n’est pas invoqué.
-Isaiah 63:20 Ah ! si vous déchiriez les cieux, si vous descendiez, — les montagnes seraient ébranlées devant vous ! — 
-Isaiah 64:1 
+Isaiah 63:20 Ah ! si vous déchiriez les cieux, si vous descendiez, — les montagnes seraient ébranlées devant vous !
+Isaiah 64:1 comme un feu qui embrase le bois sec, comme un feu qui fait bouillonner l’eau, pour manifester votre nom à vos adversaires, de sorte que les nations tremblent devant vous,
+Isaiah 64:2 en faisant des choses terribles, inattendues, — vous descendriez, les montagnes seraient ébranlées devant vous ! —
+Isaiah 64:3 dont jamais on n’eût entendu parler ! Jamais on n’a entendu, nul œil n’a vu un Dieu autre que vous agir ainsi pour qui espère en lui.
+Isaiah 64:4 Vous venez au-devant de qui pratique avec joie la justice, de qui, marchant dans vos voies, se souvient de vous. Voici que vous étiez courroucé, et nous étions coupables ; — il en est ainsi depuis longtemps : serions-nous sauvés ? —
+Isaiah 64:5 Nous étions tous semblables à un homme impur, et toutes nos justices étaient pareilles à un vêtement souillé. Nous étions tous flétris comme la feuille, et nos iniquités nous emportaient comme le vent.
+Isaiah 64:6 Il n’y avait personne qui invoquât votre nom, qui se réveillât pour s’attacher à vous. Car vous nous aviez caché votre visage, et vous nous laissiez périr dans nos iniquités. 
+Isaiah 64:7 
 EOF;
-if (!($bfile = preg_replace("/Isaiah 63:19 (.+?)Isaiah 64:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+if (!($bfile = preg_replace("/Isaiah 63:19 (.+?)Isaiah 64:7 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $textfix = <<<EOF
 Jeremiah 2:25 Prends garde que ton pied ne se trouve à nu, et que ton gosier ne se dessèche ! Mais tu dis : « Inutile ! Non, car j’aime les étrangers et j’irai après eux ! »
 Jeremiah 2:26 
 EOF;
 if (!($bfile = preg_replace("/Jeremiah 2:25 (.+?)Jeremiah 2:26 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+Jeremiah 2:37 De là aussi tu reviendras, les mains sur la tête ; car Yahweh a rejeté ceux en qui tu mets ta confiance, et tu ne réussiras pas avec eux.
+Jeremiah 3:1 Il est dit : Lorsqu’un homme répudie sa femme, et qu’après l’avoir quittée, elle devient la femme d’un autre, cet homme retournera-t-il encore vers elle ? Cette terre ne serait-elle pas vraiment profanée ? Et toi, tu t’es prostituée à de nombreux amants ; et tu reviendras vers moi ! — oracle de Yahweh.
+Jeremiah 3:2 Lève les yeux vers les hauteurs et regarde : où n’as-tu pas été souillée ?… Tu t’asseyais pour eux sur les routes, pareille à l’Arabe dans le désert ! Et tu as profané le pays par tes prostitutions et par ta méchanceté ;
+Jeremiah 3:3 les ondées de l’automne ont été retenues, les pluies du printemps ont manqué. Mais tu as eu un front de courtisane, tu n’as pas voulu rougir.
+Jeremiah 3:4 Et maintenant, n’est-ce pas, tu me dis : « Mon père, ô vous, l’ami de ma jeunesse ! Sera-t-il toujours irrité,
+Jeremiah 3:5 gardera-t-il à jamais son courroux ? » Voilà ce que tu dis, et tu commets le crime et tu le consommes. 
+Jeremiah 3:6 
+EOF;
+if (!($bfile = preg_replace("/Jeremiah 2:37 (.+?)Jeremiah 3:6 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+Jeremiah 7:34 Et je ferai cesser, dans les villes de Juda et dans les rues de Jérusalem, les cris de réjouissance et les cris d’allégresse, le chant de l’époux et le chant de l’épouse, car le pays sera devenu un désert.
+Jeremiah 8:1 En ce temps-là, — oracle de Yahweh, on tirera de leurs sépulcres les os des rois de Juda, et les os de ses princes, et les os des prêtres, et les os des prophètes, et les os des habitants de Jérusalem.
+Jeremiah 8:2 On les étendra devant le soleil et devant la lune, et devant toute l’armée des cieux, qu’ils ont aimés et qu’ils ont servis, après lesquels ils ont marché, qu’ils ont consultés et qu’ils ont adorés ; ces os ne seront ni recueillis, ni enterrés, ils deviendront un engrais sur la face de la terre.
+Jeremiah 8:3 Et la mort sera préférée à la vie par tous ceux qui resteront de cette méchante race, dans tous les lieux où je les aurai chassés, — oracle de Yahweh des armées. 
+Jeremiah 8:4 
+EOF;
+if (!($bfile = preg_replace("/Jeremiah 7:34 (.+?)Jeremiah 8:4 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+Jeremiah 11:23 Aucun d’eux n’échappera ; car j’amènerai le malheur sur les hommes d’Anathoth, l’année où je les visiterai.
+Jeremiah 12:1 Vous êtes trop juste, ô Yahweh ; pour que je dispute contre vous ; je veux seulement parler justice avec vous : Pourquoi la voie des méchants est-elle prospère ; pourquoi tous les perfides vivent-ils en paix ?
+Jeremiah 12:2 Vous les plantez, et ils prennent racine ; ils croissent, et ils portent du fruit ; vous êtes près de leur bouche ; et loin de leur cœur.
+Jeremiah 12:3 Et vous, Yahweh, vous me connaissez, vous me voyez, et vous sondez ce que mon cœur est pour vous. Enlevez-les comme des brebis, pour la boucherie ; vouez-les pour le jour du massacre !
+Jeremiah 12:4 Jusques à quand le pays sera-t-il en deuil, et l’herbe de tous les champs sera-t-elle desséchée ? À cause de la méchanceté de ceux qui y habitent, bétail et oiseaux périssent ; car ils disent : « Il ne verra pas notre fin ! » 
+Jeremiah 12:5 
+EOF;
+if (!($bfile = preg_replace("/Jeremiah 11:23 (.+?)Jeremiah 12:5 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+Jeremiah 14:22 Parmi les vaines idoles des nations, en est-il qui fasse pleuvoir ? Est-ce le ciel qui donnera les ondées ? N’est-ce pas toi, Yahweh, notre Dieu ? Nous espérons en toi, car c’est toi qui fais toutes ces choses.
+Jeremiah 15:1 Yahweh me répondit : Quand Moïse et Samuel se tiendraient devant moi, mon âme ne se tournerait pas vers ce peuple ; chasse-les de devant ma face et qu’ils partent !
+Jeremiah 15:2 Et s’ils te disent : « Où irons-nous ? » tu leur diras : Ainsi parle Yahweh : Celui qui est pour la mort, à la mort ; celui qui est pour l’épée, à l’épée ; celui qui est pour la famine, à la famine ; et celui qui est pour la captivité, à la captivité.
+Jeremiah 15:3 Et je susciterai contre eux quatre familles de fléaux, — oracle de Yahweh : l’épée pour tuer, les chiens pour déchirer, les oiseaux du ciel et les bêtes de la terre pour dévorer et pour détruire.
+Jeremiah 15:4 J’en ferai un objet d’horreur pour tous les royaumes de la terre, à cause de Manassé, fils d’Ézéchias, roi de Juda, pour ce qu’il a fait dans Jérusalem.
+Jeremiah 15:5 Qui donc aura pitié de toi, Jérusalem, qui se lamentera sur toi ? Qui se détournera de sa route pour s’informer de ton état ?
+Jeremiah 15:6 Tu m’as repoussé, — oracle de Yahweh, pour te retirer en arrière ; et je vais étendre ma main sur toi pour te faire périr ; je suis las d’avoir pitié.
+Jeremiah 15:7 Je les vannerai avec le van, aux portes du pays ; je priverai d’enfants, je ferai périr mon peuple ; ils ne reviennent pas de leurs voies.
+Jeremiah 15:8 Ses veuves seront plus nombreuses que le sable de la mer. Je leur amènerai, sur la mère du jeune guerrier, le dévastateur en plein midi ; je ferai fondre soudain sur elle l’angoisse et l’épouvante.
+Jeremiah 15:9 La mère des sept fils se sent défaillir, elle va rendre l’âme ; son soleil se couche pendant qu’il est jour encore ; elle est confuse, couverte de honte. Ceux qui resteront, je les livrerai à l’épée devant leurs ennemis, oracle de Yahweh. 
+Jeremiah 15:10 
+EOF;
+if (!($bfile = preg_replace("/Jeremiah 14:22 (.+?)Jeremiah 15:10 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+Jeremiah 16:21 C’est pourquoi voici que je vais leur faire connaître, cette fois-ci, je vais leur faire connaître ma main et ma puissance, et ils sauront que mon nom est Yahweh.
+Jeremiah 17:1 Le péché de Juda est écrit avec un stylet de fer, avec une pointe de diamant, il est gravé sur la table de leurs cœurs, et aux cornes de vos autels.
+Jeremiah 17:2 Comme ils se souviennent de leurs enfants, ainsi se souviennent-ils de leurs autels et de leurs aschérahs, près des arbres verts, sur les collines élevées.
+Jeremiah 17:3 Ô ma montagne qui es dans la plaine, je livrerai au pillage tes biens, tous tes trésors, tes hauts lieux, à cause de tes péchés sur tout ton territoire.
+Jeremiah 17:4 Tu laisseras en friche, et par ta faute, ton héritage que je t’avais donné ; je te ferai servir tes ennemis, dans un pays que tu ne connais pas ; car vous avez allumé le feu de ma colère, et il brûle pour jamais.
+Jeremiah 17:5 Ainsi parle Yahweh : Maudit soit l’homme qui se confie en l’homme, qui fait de la chair son bras, et dont le cœur se retire de Yahweh !
+Jeremiah 17:6 Il est comme une bruyère dans la lande ; il ne jouit pas quand le bonheur arrive ; il occupera les lieux brûlés au désert, une terre salée où personne n’habite.
+Jeremiah 17:7 Béni soit l’homme qui se confie en Yahweh, et dont Yahweh est la confiance !
+Jeremiah 17:8 Il est comme un arbre planté au bord des eaux, qui pousse ses racines vers le courant ; il ne craint pas quand vient la chaleur, et son feuillage reste vert ; il ne s’inquiète point de l’année de la sécheresse, et ne cesse pas de porter du fruit.
+Jeremiah 17:9 Le cœur est rusé plus que toute chose et corrompu : qui le connaîtra ?
+Jeremiah 17:10 Moi, Yahweh, qui sonde les cœurs et qui éprouve les reins, et cela pour rendre à chacun selon ses voies, selon le fruit de ses œuvres.
+Jeremiah 17:11 Une perdrix couve des œufs qu’elle n’a pas pondus ; tel celui qui acquiert des richesses injustement ; au milieu de ses jours il doit les quitter, et à sa fin il n’est qu’un insensé. 
+Jeremiah 17:12 
+EOF;
+if (!($bfile = preg_replace("/Jeremiah 16:21 (.+?)Jeremiah 17:12 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+Jeremiah 22:30 Ainsi parle Yahweh : Inscrivez cet homme comme stérile, comme un homme qui ne réussit pas dans ses jours ! Car nul de sa race ne réussira à s’asseoir sur le trône de David pour régner encore sur Juda !
+Jeremiah 23:1 Malheur aux pasteurs qui perdent et dispersent les brebis de mon pâturage, — oracle de Yahweh !
+Jeremiah 23:2 C’est pourquoi ainsi parle Yahweh, Dieu d’Israël, touchant les pasteurs qui paissent mon peuple : Vous avez dispersé mes brebis, vous les avez chassées, vous n’en avez pas pris soin ; voici que je vais prendre soin, contre vous, de la méchanceté de vos actions, — oracle de Yahweh.
+Jeremiah 23:3 Et moi je rassemblerai le reste de mes brebis, de tous les pays où je les aurai chassées, et je les ramènerai dans leur pâturage ; elles croîtront et se multiplieront.
+Jeremiah 23:4 Et je susciterai sur elles des pasteurs qui les paîtront ; elles n’auront plus ni crainte ni terreur, et il n’en manquera plus aucune, — oracle de Yahweh !
+Jeremiah 23:5 Voici que des jours viennent, — oracle de Yahweh, où je susciterai à David un germe juste ; il régnera en roi et il sera sage, et il fera droit et justice dans le pays.
+Jeremiah 23:6 Dans ses jours, Juda sera sauvé, Israël habitera en assurance, et voici le nom dont on l’appellera : Yahweh-notre-justice. 
+Jeremiah 23:7 
+EOF;
+if (!($bfile = preg_replace("/Jeremiah 22:30 (.+?)Jeremiah 23:7 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+Jeremiah 50:46 Au bruit de la prise de Babel, la terre tremble, un cri se fait entendre chez les nations !
+Jeremiah 51:1 Ainsi parle Yahweh : Voici que je vais soulever contre Babel, et contre les habitants de la Chaldée l’esprit d’un destructeur.
+Jeremiah 51:2 Et j’enverrai à Babel des vanneurs qui la vanneront ; et ils videront son pays, car ils fondront de toutes parts sur elle, au jour du malheur.
+Jeremiah 51:3 Que l’archer tende son arc contre l’archer et contre celui qui se pavane dans sa cuirasse ! N’épargnez pas ses jeunes gens, exterminez toute son armée.
+Jeremiah 51:4 Que des blessés à mort tombent sur la terre des Chaldéens, et des transpercés dans les rues de Babel !
+Jeremiah 51:5 Car Israël et Juda ne sont pas veuves de leur Dieu, de Yahweh des armées, et le pays des Chaldéens est rempli d’iniquités contre le Saint d’Israël.
+Jeremiah 51:6 Fuyez du milieu de Babylone, et que chacun de vous sauve sa vie ! Ne périssez pas pour son crime ; car c’est le temps de la vengeance pour Yahweh ; il va lui rendre ce qu’elle a mérité.
+Jeremiah 51:7 Babel était une coupe d’or dans la main de Yahweh ; elle enivrait toute la terre ; les nations ont bu de son vin, c’est pourquoi les nations sont en délire.
+Jeremiah 51:8 Soudain Babel est tombée, et s’est brisée ; hurlez sur elle ; prenez du baume pour sa plaie ; peut-être guérira-t-elle !
+Jeremiah 51:9 « Nous avons voulu guérir Babel, mais elle n’a pas guéri ; laissez-la ! allons chacun dans notre pays ! Car son jugement atteint jusqu’aux cieux, et s’élève jusqu’aux nues. »
+Jeremiah 51:10 Yahweh a manifesté la justice de notre cause ; venez et racontons en Sion l’œuvre de Yahweh notre Dieu. 
+Jeremiah 51:11 
+EOF;
+if (!($bfile = preg_replace("/Jeremiah 50:46 (.+?)Jeremiah 51:11 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+Hosea 5:15 Je m’en irai, je retournerai dans ma demeure, jusqu’à ce qu’ils se reconnaissent coupables, et qu’ils cherchent ma face. Dans leur détresse, ils me rechercheront.
+Hosea 6:1 Venez et retournons à Yahweh ;
+Hosea 6:2 car c’est lui qui a déchiré, il nous guérira ; il frappe mais il bandera nos plaies.
+Hosea 6:3 Après deux jours, il nous fera revivre ; le troisième jour, il nous relèvera, et nous vivrons devant lui. Connaissons, appliquons-nous à connaître Yahweh ; son lever est certain comme celui de l’aurore ; et il viendra à nous comme l’ondée, comme la pluie tardive qui arrose la terre.
+Hosea 6:4 Que te ferai-je, Éphraïm ? Que te ferai-je, Juda ? Votre piété est comme une nuée du matin, comme la rosée matinale qui passe. 
+Hosea 6:5 
+EOF;
+if (!($bfile = preg_replace("/Hosea 5:15 (.+?)Hosea 6:5 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+Hosea 13:15 Car Éphraïm fructifiera au milieu de ses frères ; mais le vent d’orient viendra ; le souffle de Yahweh montera du désert ; sa source se desséchera, sa fontaine tarira ; il pillera les trésors de tous les objets précieux.
+Hosea 14:1 Samarie sera punie, car elle s’est révoltée contre son Dieu ; ils tomberont par l’épée ! Leurs petits enfants seront écrasés, et l’on fendra le ventre de leurs femmes enceintes. 
+Hosea 14:2 
+EOF;
+if (!($bfile = preg_replace("/Hosea 13:15 (.+?)Hosea 14:2 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $textfix = <<<EOF
 Joel 3:6 Car voici qu’en ces jours-là et en ce temps-là, où je ramènerai les captifs de Juda et de Jérusalem,
 Joel 3:7 j’assemblerai toutes les nations, et je les ferai descendre dans la vallée de Josaphat ; et là j’entrerai en jugement avec elles, au sujet de mon peuple et de mon héritage d’Israël, qu’elles ont dispersé parmi les nations, et de mon pays qu’elles ont partagé.
@@ -6104,6 +7025,52 @@ Joel 3:26 Et je laverai leur sang que je n’avais pas encore lavé. Et Yahweh h
 Amos 1:1 
 EOF;
 if (!($bfile = preg_replace("/Joel 4:0 (.+?)Amos 1:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+Amos 1:15 Et leur roi s’en ira en captivité, lui et ses princes avec lui, dit Yahweh.
+Amos 2:1 Ainsi parle Yahweh : À cause de trois crimes de Moab, et à cause de quatre, — je ne le révoquerai point. Parce qu’il a brûlé les os du roi d’Édom jusqu’à les calciner,
+Amos 2:2 j’enverrai le feu dans Moab, et il dévorera les palais de Carioth ; et Moab mourra au milieu du tumulte, des cris de guerre, du son de la trompette. 
+Amos 2:3 
+EOF;
+if (!($bfile = preg_replace("/Amos 1:15 (.+?)Amos 2:3 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+Amos 7:17 C’est pourquoi ainsi parle Yahweh : Ta femme sera prostituée dans la ville, tes fils et tes filles tomberont par l’épée, ta terre sera partagée au cordeau ; et toi, tu mourras sur une terre impure, et Israël sera emmené captif hors de sa terre. »
+Amos 8:1 Ainsi me fit voir le Seigneur Yahweh, et voici une corbeille de fruits mûrs.
+Amos 8:2 Et il dit : « Que vois-tu, Amos ? » Je répondis : « Une corbeille de fruits mûrs. » Et Yahweh me dit : « La fin est venue pour mon peuple d’Israël ; je ne lui pardonnerai pas plus longtemps. 
+Amos 8:3 
+EOF;
+if (!($bfile = preg_replace("/Amos 7:17 (.+?)Amos 8:3 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+Nahum 1:14 Quant à toi, voici ce qu’a ordonné Yahweh : Il n’y aura plus de postérité de ton nom ; je détruirai de la maison de ton Dieu les images taillées et celles de fonte ; je prépare ton sépulcre, parce que tu as été léger.
+Nahum 2:1 Voici sur les montagnes les pieds d’un messager de bonnes nouvelles, qui annonce la paix. Célèbre tes fêtes, ô Juda, accomplis tes vœux ! Car il ne passera plus chez toi ; le méchant est entièrement détruit. 
+Nahum 2:2 
+EOF;
+if (!($bfile = preg_replace("/Nahum 1:14 (.+?)Nahum 2:2 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+Habakkuk 1:17 Continuera-t-il donc de vider son filet, et toujours égorgera-t-il sans pitié les nations !
+Habakkuk 2:1 Je veux me tenir à mon poste, et me placer sur la tour de garde ; et j’observerai pour voir ce que me dira Yahweh, et ce que je répondrai à la remontrance qui me sera faite.
+Habakkuk 2:2 Et Yahweh me répondit et dit : Écris la vision et grave-la sur les tables, afin qu’on y lise couramment.
+Habakkuk 2:3 Car il y a encore une vision pour un temps fixé ; elle se hâte vers son terme et ne mentira pas ; si elle tarde, attends-là, car elle arrivera certainement, elle ne manquera pas :
+Habakkuk 2:4 Celui dont l’âme s’enfle au-dedans de lui n’est pas dans le droit chemin ; mais le juste vivra par sa foi. 
+Habakkuk 2:5 
+EOF;
+if (!($bfile = preg_replace("/Habakkuk 1:17 (.+?)Habakkuk 2:5 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+Zechariah 9:17 Quelle prospérité, quelle beauté que la leur ! Le froment fera croître les jeunes gens, et le vin nouveau les vierges.
+Zechariah 10:1 Demandez à Yahweh de la pluie au printemps. C’est Yahweh qui fait les éclairs ; il leur donnera une pluie abondante, à chacun de l’herbe dans son champ. 
+Zechariah 10:2 
+EOF;
+if (!($bfile = preg_replace("/Zechariah 9:17 (.+?)Zechariah 10:2 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+Zechariah 12:14 toutes les familles qui restent, chaque famille à part et ses femmes à part.
+Zechariah 13:1 En ce jour-là, il y aura une source ouverte à la maison de David et aux habitants de Jérusalem pour laver le péché et la souillure.
+Zechariah 13:2 Et il arrivera en ce jour-là, – oracle de Yahweh des armées : J’abolirai du pays les noms des idoles, et on n’en fera plus mention ; et j’ôterai aussi du pays les prophètes et l’esprit d’impureté.
+Zechariah 13:3 Et si quelqu’un prophétise encore, son père et sa mère, qui l’ont engendré, lui diront : « Tu ne vivras pas, car tu as dit des mensonges, au nom de Yahweh ! « Et son père et sa mère, qui l’ont engendré, le transperceront pendant qu’il prophétisera.
+Zechariah 13:4 Et il arrivera en ce jour-là : Les prophètes auront honte, chacun de sa vision quand il prophétisera, et ils ne revêtiront plus le manteau de poil, en vue de mentir.
+Zechariah 13:5 Tel dira : « Je ne suis pas prophète, moi ; moi, je suis un homme qui cultive la terre, car un homme m’a acheté dès ma jeunesse. »
+Zechariah 13:6 Et on lui dira : « Qu’est-ce que ces blessures à tes mains ? » et il répondra : « J’ai reçu ces coups dans la maison de mes amis. » 
+Zechariah 13:7 
+EOF;
+if (!($bfile = preg_replace("/Zechariah 12:14 (.+?)Zechariah 13:7 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $textfix = <<<EOF
 Matthew 17:14 Jésus étant retourné vers le peuple, un homme s’approcha, et, tombant à genoux devant lui, il lui dit:
 Matthew 17:15 « Seigneur, ayez pitié de mon fils qui est lunatique et qui souffre cruellement ; il tombe souvent dans le feu et souvent dans l’eau.
@@ -6180,11 +7147,45 @@ EOF;
 if (!($bfile = preg_replace("/\nJohn 10:21 (.+?)\nJohn 10:22 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $textfix = <<<EOF
 
+John 11:56 Ils cherchaient Jésus et ils se disaient les uns aux autres, se tenant dans le temple : « Que vous en semble ? Pensez-vous qu’il ne viendra pas à la fête ? »
+John 11:57 Or, les Pontifes et les Pharisiens avaient donné l’ordre que, si quelqu’un savait où il était, il le déclarât, afin qu’ils le fissent prendre. 
+John 12:1 
+EOF;
+if (!($bfile = preg_replace("/\nJohn 11:56 (.+?)\nJohn 12:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+
 John 12:24 En vérité, en vérité, je vous le dis, si le grain de blé tombé en terre ne meurt pas, il demeure seul ; mais s’il meurt, il porte beaucoup de fruit.
 John 12:25 Celui qui aime sa vie, la perdra ; et celui qui hait sa vie en ce monde, la conservera pour la vie éternelle.
 John 12:26 
 EOF;
 if (!($bfile = preg_replace("/\nJohn 12:24 (.+?)\nJohn 12:26 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+Acts 14:6 les Apôtres, l’ayant su, se réfugièrent dans les villes de Lycaonie, Lystres et Derbé, et le pays d’alentour,
+Acts 14:7 et ils y annoncèrent la bonne nouvelle.
+Acts 14:8 Il y avait à Lystres un homme perclus des jambes, qui se tenait assis, car il était boiteux de naissance et n’avait jamais marché.
+Acts 14:9 Il écoutait Paul parler ; et Paul, ayant arrêté les yeux sur lui et voyant qu’il avait la foi pour être guéri,
+Acts 14:10 dit d’une voix forte : « Lève-toi droit sur tes pieds. » Aussitôt il bondit et il marchait.
+Acts 14:11 À la vue de ce que Paul venait de faire, la foule éleva la voix et dit en lycaonien : « Les dieux sous une forme humaine sont descendus vers nous. »
+Acts 14:12 Et ils appelaient Barnabé Jupiter, et Paul Mercure, parce que c’était lui qui portait la parole.
+Acts 14:13 De plus, le prêtre du temple de Jupiter, qui était à l’entrée de la ville, amena devant les portes des taureaux avec des bandelettes, et voulait, ainsi que la foule, offrir un sacrifice.
+Acts 14:14 Les Apôtres Paul et Barnabé, l’ayant appris, déchirèrent leurs vêtements et se précipitèrent au milieu de la foule ;
+Acts 14:15 et, d’une voix retentissante, ils disaient : « Ô hommes, pourquoi faites-vous cela ? Nous aussi, nous sommes des hommes sujets aux mêmes faiblesses que vous ; nous vous annonçons qu’il faut quitter ces vanités pour vous tourner vers le Dieu vivant, qui a fait le ciel et la terre, la mer, et tout ce qu’ils renferment.
+Acts 14:16 Ce Dieu, dans les siècles passés, a laissé toutes les nations suivre leurs voies,
+Acts 14:17 sans que toutefois il ait cessé de se rendre témoignage à lui-même, faisant du bien, dispensant du ciel les pluies et les saisons favorables, nous donnant la nourriture avec abondance et remplissant nos cœurs de joie. »
+Acts 14:18 Malgré ces paroles, ils ne parvinrent qu’avec peine à empêcher le peuple de leur offrir un sacrifice.
+Acts 14:19 Alors survinrent d’Antioche et d’Iconium des Juifs qui, ayant gagné le peuple, lapidèrent Paul et le traînèrent hors de la ville, le croyant mort.
+Acts 14:20 Mais les disciples l’ayant entouré, il se releva et rentra dans la ville.Le lendemain, il partit pour Derbé avec Barnabé.
+Acts 14:21 Quand ils eurent évangélisé cette ville et fait un assez grand nombre de disciples, ils retournèrent à Lystres, à Iconium et à Antioche,
+Acts 14:22 fortifiant l’esprit des disciples, les exhortant à persévérer dans la foi, et disant que c’est par beaucoup de tribulations qu’il nous faut entrer dans le royaume de Dieu.
+Acts 14:23 Ils instituèrent des Anciens dans chaque Église, après avoir prié et jeûné, et les recommandèrent au Seigneur, en qui ils avaient cru.
+Acts 14:24 Traversant ensuite la Pisidie, ils vinrent en Pamphylie,
+Acts 14:25 et après avoir annoncé la parole de Dieu à Perge, ils descendirent à Attalie.
+Acts 14:26 De là ils firent voile pour Antioche, d’où ils étaient partis, après avoir été recommandés à la grâce de Dieu, pour l’œuvre qu’ils venaient d’accomplir.
+Acts 14:27 Dès qu’ils furent arrivés, ils assemblèrent l’Église, et racontèrent tout ce que Dieu avait fait pour eux, et comment il avait ouvert aux nations la porte de la foi.
+Acts 14:28 Et ils demeurèrent à Antioche assez longtemps avec les disciples. 
+Acts 15:1 
+EOF;
+if (!($bfile = preg_replace("/Acts 14:6 (.+?)Acts 15:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $textfix = <<<EOF
 Acts 19:40 Nous risquons, en effet, d’être accusés de sédition pour ce qui s’est passé aujourd’hui, car il n’existe aucun motif qui nous permette de justifier cet attroupement. »
 Acts 19:41 Ayant parlé ainsi, il congédia l’assemblée. 
@@ -6210,6 +7211,17 @@ II Timothy 4:10 car Démas, m’a quitté par amour pour le siècle présent, et
 II Timothy 4:11 
 EOF;
 if (!($bfile = preg_replace("/II Timothy 4:9 (.+?)II Timothy 4:11 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+Hebrews 13:24 Saluez tous ceux qui vous conduisent et tous les saints. Les frères d’Italie vous saluent.
+Hebrews 13:25 Que la grâce soit avec vous tous ! Amen ! 
+James 1:1 
+EOF;
+if (!($bfile = preg_replace("/Hebrews 13:24 (.+?)James 1:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+III John 1:14 j’espère te voir bientôt, et nous nous entretiendrons de vive voix. La paix soit avec toi !Nos amis te saluent. Salue nos amis, chacun en particulier.
+Jude 1:1 
+EOF;
+if (!($bfile = preg_replace("/III John 1:14 (.+?)Jude 1:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $textfix = <<<EOF
 Revelation of John 20:7 Quand les mille ans seront accomplis, Satan sera relâché de sa prison,
 Revelation of John 20:8 et il en sortira pour séduire les nations qui sont aux quatre extrémités de la terre, Gog et Magog, afin de les rassembler pour le combat : leur nombre est comme le sable de la mer.

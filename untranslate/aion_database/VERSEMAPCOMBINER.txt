@@ -1106,7 +1106,6 @@ Holy-Bible---French---French-Crampon-Bible	019	PSA	102	001	28	1	end
 Holy-Bible---French---French-Crampon-Bible	019	PSA	108	001	13	1	end
 Holy-Bible---French---French-Crampon-Bible	019	PSA	140	001	13	1	end
 Holy-Bible---French---French-Crampon-Bible	019	PSA	142	001	7	1	end
-Holy-Bible---French---French-Crampon-Bible	064	3JO	001	014	14	1	end
 Holy-Bible---French---French-Crampon-Bible	066	REV	012	018	1	-1	end
 Holy-Bible---French---French-Crampon-Bible							end
 Holy-Bible---French---French-Crampon-Bible-New	004	NUM	025	019	1	-1	end

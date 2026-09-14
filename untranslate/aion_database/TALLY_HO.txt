@@ -1,6 +1,6 @@
 # File Name: TALLY_HO.txt
 # File Size: 31270       
-# File Date: 09/02/2026 03:57:19
+# File Date: 09/13/2026 11:28:45
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution 4.0 International, 2018-2026
@@ -180,7 +180,7 @@ Holy-Bible---Finnish---Open-Living-News	7647	7647	7649
 Holy-Bible---Flemish---Flemish-De-Jonge-Bible	7957	7957	7960
 Holy-Bible---French---Bonnet-Bovet-Bible	31094	31094	31165
 Holy-Bible---French---Free-for-the-World	31098	31098	31102
-Holy-Bible---French---French-Crampon-Bible	31102	31102	31456
+Holy-Bible---French---French-Crampon-Bible	31102	31102	31455
 Holy-Bible---French---French-Crampon-Bible-New	31099	31099	31453
 Holy-Bible---French---French-Darby-Bible	31099	31099	31170
 Holy-Bible---French---French-Khan-Bible	23142	23142	23210

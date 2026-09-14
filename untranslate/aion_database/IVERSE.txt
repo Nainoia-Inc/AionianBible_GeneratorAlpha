@@ -1,6 +1,6 @@
 # File Name: IVERSE.txt
-# File Size: 1235196     
-# File Date: 09/02/2026 04:14:37
+# File Size: 1235195     
+# File Date: 09/13/2026 11:46:01
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution 4.0 International, 2018-2026
@@ -2110,7 +2110,7 @@ Holy-Bible---Greek---Text-Critical	HEB-011-008	Προς Εβραιους 11:8	Π
 Holy-Bible---Greek---Text-Critical	EXO-013-017		
 Holy-Bible---Greek---Text-Critical	MAR-010-045	Κατα Μαρκον 10:45	καὶ γὰρ ὁ υἱὸς τοῦ ἀνθρώπου οὐκ ἦλθε διακονηθῆναι ἀλλὰ διακονῆσαι καὶ δοῦναι τὴν ψυχὴν αὐτοῦ λύτρον ἀντὶ πολλῶν.
 Holy-Bible---Greek---Text-Critical	ROM-001-001	Προς Ρωμαιους 1:1	Παῦλος, δοῦλος Ἰησοῦ Χριστοῦ, κλητὸς ἀπόστολος, ἀφωρισμένος εἰς εὐαγγέλιον Θεοῦ,
-Holy-Bible---Greek---Text-Critical	MAT-028-019	Κατα Ματθαιον 28:19	πορευθέντες μαθητεύσατε πάντα τὰ ἔθνη, βαπτίζοντες αὐτοὺς εἰς τὸ ὄνομα τοῦ Πατρὸς καὶ τοῦ Υἱοῦ καὶ τοῦ Ἁγίου Πνεύματος·
+Holy-Bible---Greek---Text-Critical	MAT-028-019	Κατα Ματθαιον 28:19	πορευθέντες μαθητεύσατε πάντα τὰ ἔθνη, βαπτίζοντες αὐτοὺς εἰς τὸ ὄνομα τοῦ Πατρὸς καὶ τοῦ Υἱοῦ καὶ τοῦ Ἁγίου Πνεύματος,
 Holy-Bible---Guduf-Gava---Guduf-Gava-Bible	JOH-003-016		
 Holy-Bible---Guduf-Gava---Guduf-Gava-Bible	GEN-003-024		
 Holy-Bible---Guduf-Gava---Guduf-Gava-Bible	LUK-023-034		

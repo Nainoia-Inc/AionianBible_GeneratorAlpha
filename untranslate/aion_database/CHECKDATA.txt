@@ -1,6 +1,6 @@
 # File Name: CHECKDATA.txt
-# File Size: 10614721    
-# File Date: 09/02/2026 03:57:19
+# File Size: 10613692    
+# File Date: 09/13/2026 11:28:45
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution 4.0 International, 2018-2026
@@ -9804,8 +9804,8 @@ Holy-Bible---French---Free-for-the-World	Sour txt != Aio2	043-JOH-003-016	043	JO
 Holy-Bible---French---Free-for-the-World	Data checks: aionian=31098 standard=31098 source=31102						
 Holy-Bible---French---French-Crampon-Bible	Aion txt != Sour	007-JDG-005-032	007	JDG	005	031	Qu’ainsi périssent tous tes ennemis, ô Yahweh! Et que ceux qui l’aiment soient comme le soleil, quand il se lève dans sa force! Le pays fut en repos pendant quarante ans.
 Holy-Bible---French---French-Crampon-Bible	Aion txt != Sou2	007-JDG-005-032	007	JDG	005	031	Le pays fut en repos pendant quarante ans.
-Holy-Bible---French---French-Crampon-Bible	Aion txt != Sour	009-1SA-002-002	009	1SA	002	001	Anne pria et dit: Mon cœur tressaille de joie en Yahweh, ma corne a été élevée par Yahweh, ma bouche est ouverte sur mes ennemis, car je me suis réjouie de ton secours.
-Holy-Bible---French---French-Crampon-Bible	Aion txt != Sou2	009-1SA-002-002	009	1SA	002	001	Mon cœur tressaille de joie en Yahweh, ma corne a été élevée par Yahweh, ma bouche est ouverte sur mes ennemis, car je me suis réjouie de ton secours.
+Holy-Bible---French---French-Crampon-Bible	Aion txt != Sour	009-1SA-002-002	009	1SA	002	001	Anne pria et dit: Mon cœur tressaille de joie en Yahweh, ma corne a été élevée par Yahweh, ma bouche est ouverte sur mes ennemis, car je me suis réjouie de ton secours. Nul n’est saint comme Yahweh, car il n’y a pas d’autre Dieu que toi; il n’y a pas de rocher comme notre Dieu.
+Holy-Bible---French---French-Crampon-Bible	Aion txt != Sou2	009-1SA-002-002	009	1SA	002	001	Nul n’est saint comme Yahweh, car il n’y a pas d’autre Dieu que toi; il n’y a pas de rocher comme notre Dieu.
 Holy-Bible---French---French-Crampon-Bible	Aion txt != Sour	009-1SA-021-001	009	1SA	020	042	Et Jonathas dit à David: «Va en paix, après que nous avons juré l’un et l’autre, au nom de Yahweh, en disant: Que Yahweh soit entre moi et toi, entre ma postérité et ta postérité à jamais!» David se leva et s’en alla, et Jonathas rentra dans la ville.
 Holy-Bible---French---French-Crampon-Bible	Aion txt != Sou2	009-1SA-021-001	009	1SA	020	042	David se leva et s’en alla, et Jonathas rentra dans la ville.
 Holy-Bible---French---French-Crampon-Bible	Aion txt != Sour	011-1KI-022-044	011	1KI	022	043	Il marcha dans toute la voie d’Asa, son père, et ne s’en détourna point, faisant ce qui est droit aux yeux de Yahweh. Seulement les hauts lieux ne disparurent pas; le peuple continua d’offrir des sacrifices et des parfums sur les hauts lieux.
@@ -9946,18 +9946,16 @@ Holy-Bible---French---French-Crampon-Bible	Aion txt != Stan	043-JOH-003-016	043	
 Holy-Bible---French---French-Crampon-Bible	Aion txt != Sta2	043-JOH-003-016	043	JOH	003	016	En effet, Dieu a tellement aimé le monde, qu’il a donné son Fils unique, afin que quiconque croit en lui ne périsse point mais ait la vie éternelle.
 Holy-Bible---French---French-Crampon-Bible	Aion txt != Sour	043-JOH-003-016	043	JOH	003	016	En effet, Dieu a tellement aimé le monde, qu’il a donné son Fils unique, afin que quiconque croit en lui ne périsse point mais ait la vie éternelle. (aiōnios g166)
 Holy-Bible---French---French-Crampon-Bible	Aion txt != Sou2	043-JOH-003-016	043	JOH	003	016	En effet, Dieu a tellement aimé le monde, qu’il a donné son Fils unique, afin que quiconque croit en lui ne périsse point mais ait la vie éternelle.
-Holy-Bible---French---French-Crampon-Bible	Aion txt != Sour	064-3JO-001-015	064	3JO	001	014	j’espère te voir bientôt, et nous nous entretiendrons de vive voix. La paix soit avec toi! Nos amis te saluent. Salue nos amis, chacun en particulier.
-Holy-Bible---French---French-Crampon-Bible	Aion txt != Sou2	064-3JO-001-015	064	3JO	001	014	La paix soit avec toi! Nos amis te saluent. Salue nos amis, chacun en particulier.
 Holy-Bible---French---French-Crampon-Bible	Aion txt != Sour	066-REV-013-001	066	REV	013	001	Et il s’arrêta sur le sable de la mer. Puis je vis monter de la mer une bête qui avait sept têtes et dix cornes, et sur ses cornes dix diadèmes, et sur ses têtes des noms de blasphème.
 Holy-Bible---French---French-Crampon-Bible	Aion txt != Sou2	066-REV-013-001	066	REV	013	001	Puis je vis monter de la mer une bête qui avait sept têtes et dix cornes, et sur ses cornes dix diadèmes, et sur ses têtes des noms de blasphème.
 Holy-Bible---French---French-Crampon-Bible	Sour txt != Stan	007-JDG-005-031	007	JDG	005	032	Le pays fut en repos pendant quarante ans.
 Holy-Bible---French---French-Crampon-Bible	Sour txt != Sta2	007-JDG-005-031	007	JDG	005	032	Qu’ainsi périssent tous tes ennemis, ô Yahweh! Et que ceux qui l’aiment soient comme le soleil, quand il se lève dans sa force! Le pays fut en repos pendant quarante ans.
 Holy-Bible---French---French-Crampon-Bible	Sour txt != Aion	007-JDG-005-031	007	JDG	005	032	Le pays fut en repos pendant quarante ans.
 Holy-Bible---French---French-Crampon-Bible	Sour txt != Aio2	007-JDG-005-031	007	JDG	005	032	Qu’ainsi périssent tous tes ennemis, ô Yahweh! Et que ceux qui l’aiment soient comme le soleil, quand il se lève dans sa force! Le pays fut en repos pendant quarante ans.
-Holy-Bible---French---French-Crampon-Bible	Sour txt != Stan	009-1SA-002-001	009	1SA	002	002	Mon cœur tressaille de joie en Yahweh, ma corne a été élevée par Yahweh, ma bouche est ouverte sur mes ennemis, car je me suis réjouie de ton secours.
-Holy-Bible---French---French-Crampon-Bible	Sour txt != Sta2	009-1SA-002-001	009	1SA	002	002	Anne pria et dit: Mon cœur tressaille de joie en Yahweh, ma corne a été élevée par Yahweh, ma bouche est ouverte sur mes ennemis, car je me suis réjouie de ton secours.
-Holy-Bible---French---French-Crampon-Bible	Sour txt != Aion	009-1SA-002-001	009	1SA	002	002	Mon cœur tressaille de joie en Yahweh, ma corne a été élevée par Yahweh, ma bouche est ouverte sur mes ennemis, car je me suis réjouie de ton secours.
-Holy-Bible---French---French-Crampon-Bible	Sour txt != Aio2	009-1SA-002-001	009	1SA	002	002	Anne pria et dit: Mon cœur tressaille de joie en Yahweh, ma corne a été élevée par Yahweh, ma bouche est ouverte sur mes ennemis, car je me suis réjouie de ton secours.
+Holy-Bible---French---French-Crampon-Bible	Sour txt != Stan	009-1SA-002-001	009	1SA	002	002	Nul n’est saint comme Yahweh, car il n’y a pas d’autre Dieu que toi; il n’y a pas de rocher comme notre Dieu.
+Holy-Bible---French---French-Crampon-Bible	Sour txt != Sta2	009-1SA-002-001	009	1SA	002	002	Anne pria et dit: Mon cœur tressaille de joie en Yahweh, ma corne a été élevée par Yahweh, ma bouche est ouverte sur mes ennemis, car je me suis réjouie de ton secours. Nul n’est saint comme Yahweh, car il n’y a pas d’autre Dieu que toi; il n’y a pas de rocher comme notre Dieu.
+Holy-Bible---French---French-Crampon-Bible	Sour txt != Aion	009-1SA-002-001	009	1SA	002	002	Nul n’est saint comme Yahweh, car il n’y a pas d’autre Dieu que toi; il n’y a pas de rocher comme notre Dieu.
+Holy-Bible---French---French-Crampon-Bible	Sour txt != Aio2	009-1SA-002-001	009	1SA	002	002	Anne pria et dit: Mon cœur tressaille de joie en Yahweh, ma corne a été élevée par Yahweh, ma bouche est ouverte sur mes ennemis, car je me suis réjouie de ton secours. Nul n’est saint comme Yahweh, car il n’y a pas d’autre Dieu que toi; il n’y a pas de rocher comme notre Dieu.
 Holy-Bible---French---French-Crampon-Bible	Sour txt != Stan	009-1SA-020-042	009	1SA	021	001	David se leva et s’en alla, et Jonathas rentra dans la ville.
 Holy-Bible---French---French-Crampon-Bible	Sour txt != Sta2	009-1SA-020-042	009	1SA	021	001	Et Jonathas dit à David: «Va en paix, après que nous avons juré l’un et l’autre, au nom de Yahweh, en disant: Que Yahweh soit entre moi et toi, entre ma postérité et ta postérité à jamais!» David se leva et s’en alla, et Jonathas rentra dans la ville.
 Holy-Bible---French---French-Crampon-Bible	Sour txt != Aion	009-1SA-020-042	009	1SA	021	001	David se leva et s’en alla, et Jonathas rentra dans la ville.
@@ -10226,15 +10224,11 @@ Holy-Bible---French---French-Crampon-Bible	Sour txt != Aion	043-JOH-003-015	043	
 Holy-Bible---French---French-Crampon-Bible	Sour txt != Aio2	043-JOH-003-015	043	JOH	003	015	Afin que tout homme qui croit en lui [ne périsse point, mais qu’il] ait la vie éternelle. (aiōnios g166)
 Holy-Bible---French---French-Crampon-Bible	Sour txt != Aion	043-JOH-003-016	043	JOH	003	016	En effet, Dieu a tellement aimé le monde, qu’il a donné son Fils unique, afin que quiconque croit en lui ne périsse point mais ait la vie éternelle.
 Holy-Bible---French---French-Crampon-Bible	Sour txt != Aio2	043-JOH-003-016	043	JOH	003	016	En effet, Dieu a tellement aimé le monde, qu’il a donné son Fils unique, afin que quiconque croit en lui ne périsse point mais ait la vie éternelle. (aiōnios g166)
-Holy-Bible---French---French-Crampon-Bible	Sour txt != Stan	064-3JO-001-014	064	3JO	001	015	La paix soit avec toi! Nos amis te saluent. Salue nos amis, chacun en particulier.
-Holy-Bible---French---French-Crampon-Bible	Sour txt != Sta2	064-3JO-001-014	064	3JO	001	015	j’espère te voir bientôt, et nous nous entretiendrons de vive voix. La paix soit avec toi! Nos amis te saluent. Salue nos amis, chacun en particulier.
-Holy-Bible---French---French-Crampon-Bible	Sour txt != Aion	064-3JO-001-014	064	3JO	001	015	La paix soit avec toi! Nos amis te saluent. Salue nos amis, chacun en particulier.
-Holy-Bible---French---French-Crampon-Bible	Sour txt != Aio2	064-3JO-001-014	064	3JO	001	015	j’espère te voir bientôt, et nous nous entretiendrons de vive voix. La paix soit avec toi! Nos amis te saluent. Salue nos amis, chacun en particulier.
 Holy-Bible---French---French-Crampon-Bible	Sour txt != Stan	066-REV-013-001	066	REV	013	001	Puis je vis monter de la mer une bête qui avait sept têtes et dix cornes, et sur ses cornes dix diadèmes, et sur ses têtes des noms de blasphème.
 Holy-Bible---French---French-Crampon-Bible	Sour txt != Sta2	066-REV-013-001	066	REV	013	001	Et il s’arrêta sur le sable de la mer. Puis je vis monter de la mer une bête qui avait sept têtes et dix cornes, et sur ses cornes dix diadèmes, et sur ses têtes des noms de blasphème.
 Holy-Bible---French---French-Crampon-Bible	Sour txt != Aion	066-REV-013-001	066	REV	013	001	Puis je vis monter de la mer une bête qui avait sept têtes et dix cornes, et sur ses cornes dix diadèmes, et sur ses têtes des noms de blasphème.
 Holy-Bible---French---French-Crampon-Bible	Sour txt != Aio2	066-REV-013-001	066	REV	013	001	Et il s’arrêta sur le sable de la mer. Puis je vis monter de la mer une bête qui avait sept têtes et dix cornes, et sur ses cornes dix diadèmes, et sur ses têtes des noms de blasphème.
-Holy-Bible---French---French-Crampon-Bible	Data checks: aionian=31102 standard=31102 source=31456						
+Holy-Bible---French---French-Crampon-Bible	Data checks: aionian=31102 standard=31102 source=31455						
 Holy-Bible---French---French-Crampon-Bible-New	Aion txt != Sour	004-NUM-026-001	004	NUM	026	001	A la suite de cette plaie, Yahweh parla à Moïse et à Eléazar, fils d’Aaron, le prêtre, en disant:
 Holy-Bible---French---French-Crampon-Bible-New	Aion txt != Sou2	004-NUM-026-001	004	NUM	026	001	Yahweh parla à Moïse et à Eléazar, fils d’Aaron, le prêtre, en disant:
 Holy-Bible---French---French-Crampon-Bible-New	Aion txt != Sour	007-JDG-005-032	007	JDG	005	031	Qu’ainsi périssent tous tes ennemis, ô Yahweh! Et que ceux qui l’aiment soient comme le soleil, quand il se lève dans sa force! Le pays fut en repos pendant quarante ans.
