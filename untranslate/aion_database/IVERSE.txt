@@ -1,6 +1,6 @@
 # File Name: IVERSE.txt
 # File Size: 1235195     
-# File Date: 09/13/2026 11:46:01
+# File Date: 09/19/2026 19:30:40
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution 4.0 International, 2018-2026
@@ -526,7 +526,7 @@ Holy-Bible---Chin-Thado---Chongthu-Bible	HEB-011-008	Hebrew 11:8	Tahsan jal'in A
 Holy-Bible---Chin-Thado---Chongthu-Bible	EXO-013-017	Potdohbu 13:17	Ajonan Pharaoh in Israel mite ahin soldoh tan ahile, gamtepna lam lhunna naicha ahi vang chun, Pathen'in Philistine galbol ho jeh chun lampia ahinpui pouvin ahi. Pathen'in aseiye, “Kamite hon gal tohkha ta le alung heikhao vintin Egypt lam'a kile ding ahiuve,” ati.
 Holy-Bible---Chin-Thado---Chongthu-Bible	MAR-010-045	Mark 10:45	Ijeh inem iti leh Mihem Chapa tah jong chu jen dinga hung hilouvin mijenle ding le mitampi lhatdohna dinga ahinna tohdoh ding joh a hung ahi bouve,” ati.
 Holy-Bible---Chin-Thado---Chongthu-Bible	ROM-001-001	Rome 1:1	Hiche lekhathot hi Christa Jesu soh, solchah hi dinga Pathen lhendoh, Ama Kipana Thupha seiphong dinga kisoldoh, Paul'a kon ahi:
-Holy-Bible---Chin-Thado---Chongthu-Bible	MAT-028-019	Matthew 28:19	Hijeh chun, nangho cheuvin chule namtin jouse seijuiyin gasemun, amaho chu Pa le Chapa chule Lhagao Theng minin Twilutsah uvin.
+Holy-Bible---Chin-Thado---Chongthu-Bible	MAT-028-019	Matthew 28:19	Hijeh chun, nangho cheuvin chule namtin jouse seijuijin gasemun, amaho chu Pa le Chapa chule Lhagao Theng minin Twilutsah uvin.
 Holy-Bible---Chin-Thaiphum---Thai-Phum-Bible	JOH-003-016	Jawhan 3:16	Cathut ni a Capa tawntoe e pasoung ditouh talaivan a lungpataw. Capa ka yuem e tami pueng teh rawk laipalah a yungyoe hringnae a tawn awh nahane doeh.
 Holy-Bible---Chin-Thaiphum---Thai-Phum-Bible	GEN-003-024	Kamtawngnae 3:24	Hottelah, tami hah a pâlei hnukkhu, avoivang kamrit thai e tahloi hoi Cherubim hah, hringnae thingkung lamthung ka ring hanelah, Eden takha kanîtholah a hruek.
 Holy-Bible---Chin-Thaiphum---Thai-Phum-Bible	LUK-023-034	Luk 23:34	Jisuh ni, a Pa, ahnimae yon ngaithoum haw, bangmaw ka sak tie panuek awh hoeh, telah ati. Ahnimouh ni cungpam a rayu awh teh angki a kâravei awh.

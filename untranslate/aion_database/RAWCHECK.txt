@@ -1,6 +1,6 @@
 # File Name: RAWCHECK.txt
-# File Size: 4904852     
-# File Date: 09/13/2026 09:20:21
+# File Size: 4904918     
+# File Date: 09/19/2026 17:00:29
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution 4.0 International, 2018-2026
@@ -408,6 +408,7 @@ Holy-Bible---Cebuano---Cebuano-Open-Bible	047	2CO	013	013	MODIFY	Ang tanang kata
 Holy-Bible---Cebuano---Cebuano-Open-Bible	047	2CO	013	014	ADD	Hinaut nga ang grasya sa atong Ginoong Jesu-Cristo, ang gugma sa Dios, ug ang pagpakig-uban sa Espiritu Santo.	
 Holy-Bible---Chamorro---Chamorro-Gospels-Acts-and-Psalms	043	JOH	001	043	MODIFY	Y siguiente na jaane, malago si Jesus malag Galilea, ya jasoda si Felipe,	Y siguiente na jaane, malago si Jesus malag Galilea, ya jasoda si Felipe, taotao Betsaida, gui siudan Andres yan Pedro.
 Holy-Bible---Chamorro---Chamorro-Gospels-Acts-and-Psalms	043	JOH	001	044	ADD	taotao Betsaida, gui siudan Andres yan Pedro.	
+Holy-Bible---Chin-Thado---Chongthu-Bible	013	1CH	024	000	DELETE		
 Holy-Bible---Chin-Thado---Chongthu-Bible	042	LUK	006	011	MODIFY	Hiche a hin Jesu galmi ho chu alunghang un ama chu ilo ding ham ti akihou khom tauve. Jesun Seijui Ding Som Le Ni Alhendoh	Hiche a hin Jesu galmi ho chu alunghang un ama chu ilo ding ham ti akihou khom tauve.
 Holy-Bible---Chin-Thado---Chongthu-Bible	042	LUK	006	012	ADD	Nikhat hitiho jou sotlou laiyin Jesu molchung khat ah taona mang din ache touvin, chule jan khovah in Pathen hengah ataove.	
 Holy-Bible---Chin-Thado---Chongthu-Bible	042	LUK	006	013	ADD	Ajing khovah in aseijui te jouse akoukhom sohkeiyin amaho lah achun solchah dingin som le ni alhengdoh in ahi. Amin hou chu hiche ahi:	
