@@ -1,6 +1,6 @@
 # File Name: RAWCHECK.txt
-# File Size: 4904918     
-# File Date: 09/19/2026 17:00:29
+# File Size: 4904275     
+# File Date: 09/25/2026 17:09:12
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution 4.0 International, 2018-2026
@@ -408,13 +408,8 @@ Holy-Bible---Cebuano---Cebuano-Open-Bible	047	2CO	013	013	MODIFY	Ang tanang kata
 Holy-Bible---Cebuano---Cebuano-Open-Bible	047	2CO	013	014	ADD	Hinaut nga ang grasya sa atong Ginoong Jesu-Cristo, ang gugma sa Dios, ug ang pagpakig-uban sa Espiritu Santo.	
 Holy-Bible---Chamorro---Chamorro-Gospels-Acts-and-Psalms	043	JOH	001	043	MODIFY	Y siguiente na jaane, malago si Jesus malag Galilea, ya jasoda si Felipe,	Y siguiente na jaane, malago si Jesus malag Galilea, ya jasoda si Felipe, taotao Betsaida, gui siudan Andres yan Pedro.
 Holy-Bible---Chamorro---Chamorro-Gospels-Acts-and-Psalms	043	JOH	001	044	ADD	taotao Betsaida, gui siudan Andres yan Pedro.	
-Holy-Bible---Chin-Thado---Chongthu-Bible	013	1CH	024	000	DELETE		
 Holy-Bible---Chin-Thado---Chongthu-Bible	042	LUK	006	011	MODIFY	Hiche a hin Jesu galmi ho chu alunghang un ama chu ilo ding ham ti akihou khom tauve. Jesun Seijui Ding Som Le Ni Alhendoh	Hiche a hin Jesu galmi ho chu alunghang un ama chu ilo ding ham ti akihou khom tauve.
-Holy-Bible---Chin-Thado---Chongthu-Bible	042	LUK	006	012	ADD	Nikhat hitiho jou sotlou laiyin Jesu molchung khat ah taona mang din ache touvin, chule jan khovah in Pathen hengah ataove.	
-Holy-Bible---Chin-Thado---Chongthu-Bible	042	LUK	006	013	ADD	Ajing khovah in aseijui te jouse akoukhom sohkeiyin amaho lah achun solchah dingin som le ni alhengdoh in ahi. Amin hou chu hiche ahi:	
-Holy-Bible---Chin-Thado---Chongthu-Bible	042	LUK	006	014	ADD	Simon (Peter asah), Andrew (Peter sopipa), James, John, Philip, Bartholomew	
-Holy-Bible---Chin-Thado---Chongthu-Bible	042	LUK	006	015	ADD	Matthew, Thomas, James (Alphaeus chapa), Simon (Zealot tia kikou),	
-Holy-Bible---Chin-Thado---Chongthu-Bible	042	LUK	006	016	ADD	Judas (James chapa), chule Judas Iscariot (khonunga ajohdohpa) ahiuve. Jesun Mi Tamtah Na Atoh Peh	
+Holy-Bible---Chin-Thado---Chongthu-Bible	042	LUK	006	016	MODIFY	Judas (James chapa), chule Judas Iscariot (khonunga ajohdohpa) ahiuve. Jesun Mi Tamtah Na Atoh Peh	Judas (James chapa), chule Judas Iscariot (khonunga ajohdohpa) ahiuve.
 Holy-Bible---Chin-Thado---Chongthu-Bible	042	LUK	006	017	ADD	Molchunga pat amaho ahungsuh uchun aseijui ho Jesu toh, mun beh achamlai len khat ah adingun, anungjui tamtah chule mihonpi chun aumkimvel uve. Hichea chun mipi Judea gam pumpi le Jerusalem a kon chule sahlam Tyre le Sidon gam twipang langa pat a hung jong aumun ahi.	
 Holy-Bible---Chin-Thado---Chongthu-Bible	042	LUK	006	018	ADD	Amaho chu ama thusei ngai ding le anatna hou kijendam sah dinga hungu ahi; chule lhagao boh in asuh genthei ho jong jendam in aum uve.	
 Holy-Bible---Chin-Thado---Chongthu-Bible	042	LUK	006	019	ADD	Mijousen ama chu tohkhah agocheh un ahi ajeh chu suhdamna thaneina chu ama a konna potdoh ahi, chule mijouse asudam in ahi.	

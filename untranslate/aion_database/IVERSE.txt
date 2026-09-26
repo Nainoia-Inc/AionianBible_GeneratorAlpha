@@ -1,6 +1,6 @@
 # File Name: IVERSE.txt
-# File Size: 1235195     
-# File Date: 09/19/2026 19:30:40
+# File Size: 1235198     
+# File Date: 09/25/2026 19:41:54
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution 4.0 International, 2018-2026
@@ -4254,11 +4254,11 @@ Holy-Bible---Spanish---Sagradas-Escrituras-1569	MAR-010-045	Marcos 10:45	Porque 
 Holy-Bible---Spanish---Sagradas-Escrituras-1569	ROM-001-001	Romanos 1:1	Pablo, siervo de Jesús, el Cristo, llamado a ser apóstol, apartado para el Evangelio de Dios,
 Holy-Bible---Spanish---Sagradas-Escrituras-1569	MAT-028-019	San Mateo 28:19	Por tanto, id, y enseñad a todas las naciones, bautizándolos en el nombre del Padre, y del Hijo, y del Espíritu Santo;
 Holy-Bible---Spanish---Sencillo-Bible	JOH-003-016	Juan 3:16	Porque de tal manera amó Dios al mundo, que dio a su Hijo único, para que todo el que cree en él no se pierda, sino que tenga vida eterna.
-Holy-Bible---Spanish---Sencillo-Bible	GEN-003-024	Génesis 3:24	Entonces él envió al hombre fuera; y al este del jardín del Edén puso querubines y una espada encendida girando en todas direcciones para seguir el camino hacia el árbol de la vida.
+Holy-Bible---Spanish---Sencillo-Bible	GEN-003-024	Génesis 3:24	Expulsó al hombre y puso al oriente del jardín de Edén querubines y una espada de fuego que giraba en todas direcciones, para guardar el camino hacia el árbol de la vida.
 Holy-Bible---Spanish---Sencillo-Bible	LUK-023-034	San Lucas 23:34	Jesús decía: Padre, perdónalos, porque no saben lo que hacen. Y repartieron su ropa echando suertes.
 Holy-Bible---Spanish---Sencillo-Bible	REV-021-002	Apocalipsis 21:2-3	Yo, Juan, vi la ciudad santa, la nueva Jerusalén, que descendía del cielo, de parte de Dios, preparada como una novia adornada para su esposo. Oí una gran voz del cielo que decía: Mira, la morada de Dios está con los hombres. Él vivirá con ellos, y ellos serán su pueblo. Dios mismo estará con ellos y será su Dios.
 Holy-Bible---Spanish---Sencillo-Bible	HEB-011-008	Hebreos 11:8	Por la fe Abraham obedeció cuando fue llamado a salir hacia el lugar que recibiría como herencia. Salió sin saber a dónde iba.
-Holy-Bible---Spanish---Sencillo-Bible	EXO-013-017	Éxodo 13:17	Y después de que el Faraón había dejado ir al pueblo, Dios no los llevó por la tierra de los filisteos, aunque estaba cerca; porque Dios dijo: Si el pueblo ve guerra, tendrán un cambio de opinión y volverán a Egipto.
+Holy-Bible---Spanish---Sencillo-Bible	EXO-013-017	Éxodo 13:17	Cuando Faraón dejó salir al pueblo, Dios no los llevó por el camino que atraviesa la tierra de los filisteos, aunque era el más corto. Dios dijo: «Si el pueblo ve que tiene que luchar, puede cambiar de opinión y regresar a Egipto».
 Holy-Bible---Spanish---Sencillo-Bible	MAR-010-045	Marcos 10:45	Porque el Hijo del Hombre tampoco vino para ser servido, sino para servir y para dar su vida en rescate por muchos.
 Holy-Bible---Spanish---Sencillo-Bible	ROM-001-001	Romanos 1:1	Pablo, siervo de Jesucristo, llamado a ser apóstol y apartado para anunciar el evangelio de Dios,
 Holy-Bible---Spanish---Sencillo-Bible	MAT-028-019	San Mateo 28:19	Por tanto, vayan y hagan discípulos de todas las naciones, bautizándolos en el nombre del Padre, del Hijo y del Espíritu Santo,

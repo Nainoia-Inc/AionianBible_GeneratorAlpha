@@ -3294,7 +3294,7 @@ $replacements = array(
 	"#you’ve#us"	=>"you have",
 	"#You’ve#us"	=>"You have",
 	);
-if (!($bfile=preg_replace(array_keys($replacements), $replacements, $bfile, -1, $rnum)) || $rnum!=4646) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+if (!($bfile=preg_replace(array_keys($replacements), $replacements, $bfile, -1, $rnum)) || $rnum!=4645) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 goto RAWHIDE;
 
 
@@ -19356,15 +19356,6 @@ $bfile_saved = $bfile;
 goto RAWHIDE;
 
 
-
-
-// RAWFIX BIBLE ********************
-case "Holy-Bible---Romanian---BTF-Bible" :
-if (!($bfile = preg_replace("/\s+\]/us","]",$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
-if (!($bfile = preg_replace("/\[\s+/us"," [",$bfile,-1,$rnum)) || $rnum!=37) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
-if (!($bfile = preg_replace("/(א|ב|ג|ד|ה|ו|ז|ח|ט|י|כ|ל|מ|נ|ס|ע|פ|צ|ק|ר|ש|ת)/us"," ",$bfile,-1,$rnum)) || $rnum!=22) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
-$bfile_saved = $bfile;	
-goto RAWHIDE;
 
 
 // RAWFIX BIBLE ********************
