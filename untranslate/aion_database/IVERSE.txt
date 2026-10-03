@@ -1,6 +1,6 @@
 # File Name: IVERSE.txt
-# File Size: 1235198     
-# File Date: 09/25/2026 19:41:54
+# File Size: 1233040     
+# File Date: 10/02/2026 21:07:00
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution 4.0 International, 2018-2026
@@ -3695,15 +3695,6 @@ Holy-Bible---Romani-Vlax---Servi-Bible	EXO-013-017
 Holy-Bible---Romani-Vlax---Servi-Bible	MAR-010-045		
 Holy-Bible---Romani-Vlax---Servi-Bible	ROM-001-001		
 Holy-Bible---Romani-Vlax---Servi-Bible	MAT-028-019		
-Holy-Bible---Romanian---BTF-Bible	JOH-003-016	Ioan 3:16	Fiindcă atât de mult a iubit Dumnezeu lumea, că a dat pe singurul său Fiu născut, ca oricine crede în el, să nu piară, ci să aibă viață veșnică.
-Holy-Bible---Romanian---BTF-Bible	GEN-003-024	Geneză 3:24	Astfel l-a alungat afară pe om şi a aşezat la est de grădina Edenului nişte heruvimi şi o sabie arzând care se întorcea în fiecare parte, pentru a păzi calea pomului vieţii.
-Holy-Bible---Romanian---BTF-Bible	LUK-023-034	Luca 23:34	Atunci Isus a spus: Tată, iartă-i, fiindcă ei nu știu ce fac. Și i-au împărțit hainele și au aruncat sorți.
-Holy-Bible---Romanian---BTF-Bible	REV-021-002	Apocolipsa 21:2-3	Și eu, Ioan, am văzut cetatea sfântă, noul Ierusalim, coborând de la Dumnezeu din cer, pregătită ca o mireasă înfrumusețată pentru soțul ei. Și am auzit o voce tare din cer, spunând: Iată, tabernacolul lui Dumnezeu este cu oamenii, și el va locui cu ei și ei vor fi poporul lui, și Dumnezeu însuși va fi cu ei și va fi Dumnezeul lor.
-Holy-Bible---Romanian---BTF-Bible	HEB-011-008	Evrei 11:8	Prin credință, Avraam, după ce a fost chemat să meargă la locul pe care avea să îl primească mai apoi drept moștenire, a ascultat; și a mers, neștiind încotro mergea.
-Holy-Bible---Romanian---BTF-Bible	EXO-013-017	Exod 13:17	Și s-a întâmplat, când Faraon a lăsat poporul să plece, că Dumnezeu nu i-a condus pe calea țării filistenilor, deși aceea era aproape; fiindcă Dumnezeu a spus: Nu cumva să se întâmple ca poporul să se pocăiască văzând război și să se întoarcă în Egipt;
-Holy-Bible---Romanian---BTF-Bible	MAR-010-045	Marcu 10:45	Căci chiar Fiul omului a venit nu ca să fie servit, ci ca să servească și ca să-și dea viața, o răscumpărare pentru mulți.
-Holy-Bible---Romanian---BTF-Bible	ROM-001-001	Romani 1:1	Pavel, rob al lui Isus Cristos, chemat să fie apostol, pus deoparte pentru evanghelia lui Dumnezeu,
-Holy-Bible---Romanian---BTF-Bible	MAT-028-019	Matei 28:19	De aceea duceți-vă și învățați toate națiunile, botezându-i în numele Tatălui și al Fiului și al Sfântului Duh,
 Holy-Bible---Romanian---Bayash-Luke	JOH-003-016		
 Holy-Bible---Romanian---Bayash-Luke	GEN-003-024		
 Holy-Bible---Romanian---Bayash-Luke	LUK-023-034	Luka 23:34	Šă Isus u zăs: “Tata Dimizovu amnjov, jartălji kă jej nu šćijă šje fašji.” Šă vojnici ur skos kockă să să ămperci dăm coljilje aluj ăntri jej.

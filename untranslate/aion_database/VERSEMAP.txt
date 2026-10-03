@@ -1654,7 +1654,6 @@ Holy-Bible---Reli---Reli-Bible	NONE
 Holy-Bible---Rohingya---Kitabul-Mukaddos-Bible	NONE
 Holy-Bible---Rohingya---Rohingya-Bible	NONE
 Holy-Bible---Romanian---Bayash-Luke	NONE
-Holy-Bible---Romanian---BTF-Bible	NONE
 Holy-Bible---Romanian---Cyrillic	NONE
 Holy-Bible---Romanian---Free-Bible	ROM14-16
 Holy-Bible---Romanian---Ludari-Luke	NONE

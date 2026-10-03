@@ -1,6 +1,6 @@
 # File Name: ANAVIGATION.txt
-# File Size: 43529       
-# File Date: 09/25/2026 19:43:36
+# File Size: 43493       
+# File Date: 10/02/2026 21:08:46
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution 4.0 International, 2018-2026
@@ -688,7 +688,6 @@ Holy-Bible---Romani-Vlax---Chergash-Luke
 Holy-Bible---Romani-Vlax---Gurbet-Luke		
 Holy-Bible---Romani-Vlax---Lovaric-Bible		
 Holy-Bible---Romani-Vlax---Servi-Bible		
-Holy-Bible---Romanian---BTF-Bible		
 Holy-Bible---Romanian---Bayash-Luke		
 Holy-Bible---Romanian---Cyrillic		
 Holy-Bible---Romanian---Free-Bible		

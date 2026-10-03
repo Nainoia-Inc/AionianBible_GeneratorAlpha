@@ -1,6 +1,6 @@
 # File Name: CHECKDATA.txt
-# File Size: 10613692    
-# File Date: 09/25/2026 19:24:29
+# File Size: 10609547    
+# File Date: 10/02/2026 20:48:33
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution 4.0 International, 2018-2026
@@ -1327,7 +1327,7 @@ Holy-Bible---Chin-Thado---Chongthu-Bible	Sour txt != Stan	066-REV-013-001	066	RE
 Holy-Bible---Chin-Thado---Chongthu-Bible	Sour txt != Sta2	066-REV-013-001	066	REV	013	001	Chujouvin dragon chu twikhanglen pam'a chun adingin ahi. Chuphat in keiman sahem khat twikhanglen'a kon hung potdoh chu kamun ahi. Sahem chun lu sagi aneijin, chule aki som, chule lallukhuh som akikhuh cheh uvin ahi. Aluchang cheh chunga chun Pathen taitomna thucheng akijih in ahi.
 Holy-Bible---Chin-Thado---Chongthu-Bible	Sour txt != Aion	066-REV-013-001	066	REV	013	001	Chuphat in keiman sahem khat twikhanglen'a kon hung potdoh chu kamun ahi. Sahem chun lu sagi aneijin, chule aki som, chule lallukhuh som akikhuh cheh uvin ahi. Aluchang cheh chunga chun Pathen taitomna thucheng akijih in ahi.
 Holy-Bible---Chin-Thado---Chongthu-Bible	Sour txt != Aio2	066-REV-013-001	066	REV	013	001	Chujouvin dragon chu twikhanglen pam'a chun adingin ahi. Chuphat in keiman sahem khat twikhanglen'a kon hung potdoh chu kamun ahi. Sahem chun lu sagi aneijin, chule aki som, chule lallukhuh som akikhuh cheh uvin ahi. Aluchang cheh chunga chun Pathen taitomna thucheng akijih in ahi.
-Holy-Bible---Chin-Thado---Chongthu-Bible	Data checks: aionian=31059 standard=31059 source=31062						
+Holy-Bible---Chin-Thado---Chongthu-Bible	Data checks: aionian=31060 standard=31060 source=31063						
 Holy-Bible---Chin-Thaiphum---Thai-Phum-Bible	Aion txt != Sour	041-MAR-016-009	041	MAR	016	009	(note: The most reliable and earliest manuscripts do not include Mark 16:9-20.) Bawipa teh hnin sari touh dawk apasuek hnin amom a thaw hnukkhu, kahraituilinaw sari touh a pâlei pouh e Meri Magdalin koe a mei hmaloe a kâpatue.
 Holy-Bible---Chin-Thaiphum---Thai-Phum-Bible	Aion txt != Sou2	041-MAR-016-009	041	MAR	016	009	Bawipa teh hnin sari touh dawk apasuek hnin amom a thaw hnukkhu, kahraituilinaw sari touh a pâlei pouh e Meri Magdalin koe a mei hmaloe a kâpatue.
 Holy-Bible---Chin-Thaiphum---Thai-Phum-Bible	Aion txt != Stan	043-JOH-003-015	043	JOH	003	015	A Capa ka yuem e naw pueng teh rawk laipalah yungyoe hringnae a tawn nahane doeh. (aiōnios g166)
@@ -30892,25 +30892,6 @@ Holy-Bible---Romani-Vlax---Gurbet-Luke	Sour txt != Aio2	066-REV-013-001	066	REV	
 Holy-Bible---Romani-Vlax---Gurbet-Luke	Data checks: aionian=7957 standard=7957 source=7959						
 Holy-Bible---Romani-Vlax---Lovaric-Bible	Data checks: aionian=1666 standard=1666 source=1666						
 Holy-Bible---Romani-Vlax---Servi-Bible	Data checks: aionian=3817 standard=3817 source=3817						
-Holy-Bible---Romanian---BTF-Bible	Aion txt != Sour	041-MAR-016-009	041	MAR	016	009	(note: The most reliable and earliest manuscripts do not include Mark 16:9-20.) Și după ce Isus a înviat devreme în prima zi a săptămânii, s-a arătat întâi Mariei Magdalena, din care scosese șapte draci.
-Holy-Bible---Romanian---BTF-Bible	Aion txt != Sou2	041-MAR-016-009	041	MAR	016	009	Și după ce Isus a înviat devreme în prima zi a săptămânii, s-a arătat întâi Mariei Magdalena, din care scosese șapte draci.
-Holy-Bible---Romanian---BTF-Bible	Aion txt != Stan	043-JOH-003-015	043	JOH	003	015	Pentru ca oricine crede în el să nu piară, ci să aibă viață eternă. (aiōnios g166)
-Holy-Bible---Romanian---BTF-Bible	Aion txt != Sta2	043-JOH-003-015	043	JOH	003	015	Pentru ca oricine crede în el să nu piară, ci să aibă viață eternă.
-Holy-Bible---Romanian---BTF-Bible	Aion txt != Sour	043-JOH-003-015	043	JOH	003	015	Pentru ca oricine crede în el să nu piară, ci să aibă viață eternă. (aiōnios g166)
-Holy-Bible---Romanian---BTF-Bible	Aion txt != Sou2	043-JOH-003-015	043	JOH	003	015	Pentru ca oricine crede în el să nu piară, ci să aibă viață eternă.
-Holy-Bible---Romanian---BTF-Bible	Aion txt != Stan	043-JOH-003-016	043	JOH	003	016	Fiindcă atât de mult a iubit Dumnezeu lumea, că a dat pe singurul său Fiu născut, ca oricine crede în el, să nu piară, ci să aibă viață veșnică. (aiōnios g166)
-Holy-Bible---Romanian---BTF-Bible	Aion txt != Sta2	043-JOH-003-016	043	JOH	003	016	Fiindcă atât de mult a iubit Dumnezeu lumea, că a dat pe singurul său Fiu născut, ca oricine crede în el, să nu piară, ci să aibă viață veșnică.
-Holy-Bible---Romanian---BTF-Bible	Aion txt != Sour	043-JOH-003-016	043	JOH	003	016	Fiindcă atât de mult a iubit Dumnezeu lumea, că a dat pe singurul său Fiu născut, ca oricine crede în el, să nu piară, ci să aibă viață veșnică. (aiōnios g166)
-Holy-Bible---Romanian---BTF-Bible	Aion txt != Sou2	043-JOH-003-016	043	JOH	003	016	Fiindcă atât de mult a iubit Dumnezeu lumea, că a dat pe singurul său Fiu născut, ca oricine crede în el, să nu piară, ci să aibă viață veșnică.
-Holy-Bible---Romanian---BTF-Bible	Sour txt != Stan	041-MAR-016-009	041	MAR	016	009	Și după ce Isus a înviat devreme în prima zi a săptămânii, s-a arătat întâi Mariei Magdalena, din care scosese șapte draci.
-Holy-Bible---Romanian---BTF-Bible	Sour txt != Sta2	041-MAR-016-009	041	MAR	016	009	(note: The most reliable and earliest manuscripts do not include Mark 16:9-20.) Și după ce Isus a înviat devreme în prima zi a săptămânii, s-a arătat întâi Mariei Magdalena, din care scosese șapte draci.
-Holy-Bible---Romanian---BTF-Bible	Sour txt != Aion	041-MAR-016-009	041	MAR	016	009	Și după ce Isus a înviat devreme în prima zi a săptămânii, s-a arătat întâi Mariei Magdalena, din care scosese șapte draci.
-Holy-Bible---Romanian---BTF-Bible	Sour txt != Aio2	041-MAR-016-009	041	MAR	016	009	(note: The most reliable and earliest manuscripts do not include Mark 16:9-20.) Și după ce Isus a înviat devreme în prima zi a săptămânii, s-a arătat întâi Mariei Magdalena, din care scosese șapte draci.
-Holy-Bible---Romanian---BTF-Bible	Sour txt != Aion	043-JOH-003-015	043	JOH	003	015	Pentru ca oricine crede în el să nu piară, ci să aibă viață eternă.
-Holy-Bible---Romanian---BTF-Bible	Sour txt != Aio2	043-JOH-003-015	043	JOH	003	015	Pentru ca oricine crede în el să nu piară, ci să aibă viață eternă. (aiōnios g166)
-Holy-Bible---Romanian---BTF-Bible	Sour txt != Aion	043-JOH-003-016	043	JOH	003	016	Fiindcă atât de mult a iubit Dumnezeu lumea, că a dat pe singurul său Fiu născut, ca oricine crede în el, să nu piară, ci să aibă viață veșnică.
-Holy-Bible---Romanian---BTF-Bible	Sour txt != Aio2	043-JOH-003-016	043	JOH	003	016	Fiindcă atât de mult a iubit Dumnezeu lumea, că a dat pe singurul său Fiu născut, ca oricine crede în el, să nu piară, ci să aibă viață veșnică. (aiōnios g166)
-Holy-Bible---Romanian---BTF-Bible	Data checks: aionian=31102 standard=31102 source=31102						
 Holy-Bible---Romanian---Bayash-Luke	Data checks: aionian=1149 standard=1149 source=1151						
 Holy-Bible---Romanian---Cyrillic	Aion txt != Sour	041-MAR-016-009	041	MAR	016	009	(note: The most reliable and earliest manuscripts do not include Mark 16:9-20.) (Исус, дупэ че а ынвият, ын диминяца зилей динтый а сэптэмыний, С-а арэтат май ынтый Марией Магдалена, дин каре скосесе шапте драчь.
 Holy-Bible---Romanian---Cyrillic	Aion txt != Sou2	041-MAR-016-009	041	MAR	016	009	(Исус, дупэ че а ынвият, ын диминяца зилей динтый а сэптэмыний, С-а арэтат май ынтый Марией Магдалена, дин каре скосесе шапте драчь.
@@ -35374,7 +35355,7 @@ Holy-Bible---Spanish---Sencillo-Bible	Sour txt != Aion	043-JOH-003-015	043	JOH	0
 Holy-Bible---Spanish---Sencillo-Bible	Sour txt != Aio2	043-JOH-003-015	043	JOH	003	015	para que todo el que cree en él tenga vida eterna. (aiōnios g166)
 Holy-Bible---Spanish---Sencillo-Bible	Sour txt != Aion	043-JOH-003-016	043	JOH	003	016	Porque de tal manera amó Dios al mundo, que dio a su Hijo único, para que todo el que cree en él no se pierda, sino que tenga vida eterna.
 Holy-Bible---Spanish---Sencillo-Bible	Sour txt != Aio2	043-JOH-003-016	043	JOH	003	016	Porque de tal manera amó Dios al mundo, que dio a su Hijo único, para que todo el que cree en él no se pierda, sino que tenga vida eterna. (aiōnios g166)
-Holy-Bible---Spanish---Sencillo-Bible	Data checks: aionian=31102 standard=31102 source=31102						
+Holy-Bible---Spanish---Sencillo-Bible	Data checks: aionian=31101 standard=31101 source=31102						
 Holy-Bible---Spanish---Spanish-New-Open-Bible	Aion txt != Stan	040-MAT-018-008	040	MAT	018	008	Por lo tanto, si tu mano o tu pie te hace pecar, córtatelo y échalo de ti, porque es mejor entrar al reino de los cielos mutilado que ir a parar al infierno con las dos manos y los dos pies. (aiōnios g166, questioned)
 Holy-Bible---Spanish---Spanish-New-Open-Bible	Aion txt != Sta2	040-MAT-018-008	040	MAT	018	008	Por lo tanto, si tu mano o tu pie te hace pecar, córtatelo y échalo de ti, porque es mejor entrar al reino de los cielos mutilado que ir a parar al infierno con las dos manos y los dos pies.
 Holy-Bible---Spanish---Spanish-New-Open-Bible	Aion txt != Sour	040-MAT-018-008	040	MAT	018	008	Por lo tanto, si tu mano o tu pie te hace pecar, córtatelo y échalo de ti, porque es mejor entrar al reino de los cielos mutilado que ir a parar al infierno con las dos manos y los dos pies. (aiōnios g166, questioned)

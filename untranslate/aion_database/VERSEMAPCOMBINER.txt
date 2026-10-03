@@ -3986,7 +3986,6 @@ Holy-Bible---Rohingya---Kitabul-Mukaddos-Bible	064	3JO	001	014	14	1	end
 Holy-Bible---Rohingya---Kitabul-Mukaddos-Bible							end
 Holy-Bible---Rohingya---Rohingya-Bible							end
 Holy-Bible---Romanian---Bayash-Luke							end
-Holy-Bible---Romanian---BTF-Bible							end
 Holy-Bible---Romanian---Cyrillic							end
 Holy-Bible---Romanian---Free-Bible							end
 Holy-Bible---Romanian---Ludari-Luke							end

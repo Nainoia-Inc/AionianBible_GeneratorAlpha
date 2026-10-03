@@ -1,6 +1,6 @@
 # File Name: TALLY.txt
-# File Size: 31267       
-# File Date: 09/25/2026 17:09:11
+# File Size: 31215       
+# File Date: 10/02/2026 18:31:58
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution 4.0 International, 2018-2026
@@ -69,7 +69,7 @@ Holy-Bible---Chin-Matu---Matupi-Chin-2019	31102	31102	31104
 Holy-Bible---Chin-Matu---Matupi-Chin-Bible	31102	31102	31104
 Holy-Bible---Chin-Matu---Tuivang-Matu-Chin-Bible	11333	11333	11333
 Holy-Bible---Chin-Siyin---Siyin-Chin-Bible	7957	7957	7959
-Holy-Bible---Chin-Thado---Chongthu-Bible	31059	31059	31062
+Holy-Bible---Chin-Thado---Chongthu-Bible	31060	31060	31063
 Holy-Bible---Chin-Thaiphum---Thai-Phum-Bible	31102	31102	31104
 Holy-Bible---Chinese---Chinese-Easy-to-Read	7941	7941	7959
 Holy-Bible---Chinese---Chinese-Sigao-Bible	31101	31101	31348
@@ -422,7 +422,6 @@ Holy-Bible---Romani-Vlax---Chergash-Luke	7957	7957	7959
 Holy-Bible---Romani-Vlax---Gurbet-Luke	7957	7957	7959
 Holy-Bible---Romani-Vlax---Lovaric-Bible	1666	1666	1666
 Holy-Bible---Romani-Vlax---Servi-Bible	3817	3817	3817
-Holy-Bible---Romanian---BTF-Bible	31102	31102	31102
 Holy-Bible---Romanian---Bayash-Luke	1149	1149	1151
 Holy-Bible---Romanian---Cyrillic	31102	31102	31102
 Holy-Bible---Romanian---Free-Bible	7953	7953	7957
@@ -484,7 +483,7 @@ Holy-Bible---Spanish---Reina-Valera-1865	31102	31102	31102
 Holy-Bible---Spanish---Reina-Valera-1909	31102	31102	31115
 Holy-Bible---Spanish---Reina-Valera-NT-1858	7957	7957	7958
 Holy-Bible---Spanish---Sagradas-Escrituras-1569	31102	31102	31102
-Holy-Bible---Spanish---Sencillo-Bible	31102	31102	31102
+Holy-Bible---Spanish---Sencillo-Bible	31101	31101	31102
 Holy-Bible---Spanish---Spanish-New-Open-Bible	29101	29101	29102
 Holy-Bible---Swahili---Contemporary	31102	31102	31103
 Holy-Bible---Swahili---New-Swahili-Bible	31101	31101	31103

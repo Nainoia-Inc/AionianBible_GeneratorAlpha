@@ -2,12 +2,12 @@
 BIBLE	INDEX	BOOK	CHAPTER	VERSE	MAP	FLAG
 # File Accuracy: Contact publisher with corrections to file format or content
 # File Copyright: Creative Commons Attribution 4.0 International, 2018-2026
-# File Date: 09/25/2026 19:29:52
+# File Date: 10/02/2026 20:54:28
 # File Generator: ABCMS (alpha)
 # File Location: https://resources.AionianBible.org
 # File Name: BOOKSCHAPTERS.txt
 # File Purpose: Supporting resource for the Aionian Bible project
-# File Size: 4132495     
+# File Size: 4132491     
 Holy-Bible---Abureni---Abureni-Bible	041	MAR	009	044	MISSING	MID
 Holy-Bible---Abureni---Abureni-Bible	041	MAR	009	046	MISSING	MID
 Holy-Bible---Ahirani---Ahirani-Bible	047	2CO	001	014	MISSING	MID
@@ -4496,7 +4496,6 @@ Holy-Bible---Chin-Thado---Chongthu-Bible	004	NUM	002	028	MISSING	MID
 Holy-Bible---Chin-Thado---Chongthu-Bible	004	NUM	002	030	MISSING	MID
 Holy-Bible---Chin-Thado---Chongthu-Bible	013	1CH	010	014	MISSING	END*
 Holy-Bible---Chin-Thado---Chongthu-Bible	014	2CH	003	017	MISSING	END*
-Holy-Bible---Chin-Thado---Chongthu-Bible	014	2CH	011	023	MISSING	END*
 Holy-Bible---Chin-Thado---Chongthu-Bible	014	2CH	034	011	MISSING	MID
 Holy-Bible---Chin-Thado---Chongthu-Bible	021	ECC	006	005	MISSING	MID
 Holy-Bible---Chin-Thado---Chongthu-Bible	023	ISA	030	018	MISSING	MID
@@ -46687,6 +46686,7 @@ Holy-Bible---Spanish---Gods-Word-for-You	044	ACT	015	034	MISSING	MID
 Holy-Bible---Spanish---Gods-Word-for-You	044	ACT	024	007	MISSING	MID
 Holy-Bible---Spanish---Gods-Word-for-You	044	ACT	028	029	MISSING	MID
 Holy-Bible---Spanish---Gods-Word-for-You	045	ROM	016	024	MISSING	MID
+Holy-Bible---Spanish---Sencillo-Bible	009	1SA	013	001	MISSING	MID
 Holy-Bible---Spanish---Spanish-New-Open-Bible	001	GEN	001	012	MISSING	MID
 Holy-Bible---Spanish---Spanish-New-Open-Bible	001	GEN	001	015	MISSING	MID
 Holy-Bible---Spanish---Spanish-New-Open-Bible	001	GEN	001	018	MISSING	MID

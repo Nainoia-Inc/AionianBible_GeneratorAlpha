@@ -402,7 +402,6 @@ Holy-Bible---Reli---Reli-Bible	0											NULL
 Holy-Bible---Rohingya---Kitabul-Mukaddos-Bible	0											NULL
 Holy-Bible---Rohingya---Rohingya-Bible	0											NULL
 Holy-Bible---Romanian---Bayash-Luke	0			pakao								NULL
-Holy-Bible---Romanian---BTF-Bible	0											NULL
 Holy-Bible---Romanian---Cyrillic	0											NULL
 Holy-Bible---Romanian---Free-Bible	0											NULL
 Holy-Bible---Romanian---Ludari-Luke	0											NULL

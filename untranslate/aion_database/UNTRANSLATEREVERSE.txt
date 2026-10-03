@@ -1,6 +1,6 @@
 # File Name: UNTRANSLATEREVERSE.txt
-# File Size: 11866256    
-# File Date: 09/25/2026 17:09:11
+# File Size: 11866336    
+# File Date: 10/02/2026 18:31:58
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution 4.0 International, 2018-2026
@@ -139837,6 +139837,7 @@ Holy-Bible---Spanish---Reina-Valera-1909	032	JON	002	009	032	JON	002	010
 Holy-Bible---Spanish---Reina-Valera-1909	032	JON	002	010	032	JON	002	011
 Holy-Bible---Spanish---Reina-Valera-NT-1858	064	3JO	001	014-SKIP	064	3JO	001	014-SKIP
 Holy-Bible---Spanish---Reina-Valera-NT-1858	064	3JO	001	014	064	3JO	001	015
+Holy-Bible---Spanish---Sencillo-Bible	009	1SA	013	001-SKIP	009	1SA	013	001-SKIP
 Holy-Bible---Spanish---Spanish-New-Open-Bible	064	3JO	001	014-SKIP	064	3JO	001	014-SKIP
 Holy-Bible---Spanish---Spanish-New-Open-Bible	064	3JO	001	014	064	3JO	001	015
 Holy-Bible---Swahili---Contemporary	064	3JO	001	014-SKIP	064	3JO	001	014-SKIP

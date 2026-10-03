@@ -1345,7 +1345,6 @@ Holy-Bible---Reli---Reli-Bible								NULL
 Holy-Bible---Rohingya---Kitabul-Mukaddos-Bible								NULL
 Holy-Bible---Rohingya---Rohingya-Bible								NULL
 Holy-Bible---Romanian---Bayash-Luke								NULL
-Holy-Bible---Romanian---BTF-Bible								NULL
 Holy-Bible---Romanian---Cyrillic	061	2PE	002	017	NOTE			questioned
 Holy-Bible---Romanian---Cyrillic								NULL
 Holy-Bible---Romanian---Free-Bible	061	2PE	002	017	NOTE			questioned

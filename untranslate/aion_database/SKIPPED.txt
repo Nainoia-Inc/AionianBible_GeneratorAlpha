@@ -1,6 +1,6 @@
 # File Name: SKIPPED.txt
-# File Size: 1878314     
-# File Date: 09/25/2026 17:09:11
+# File Size: 1878369     
+# File Date: 10/02/2026 18:31:58
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution 4.0 International, 2018-2026
@@ -13473,6 +13473,7 @@ Holy-Bible---Spanish---Reina-Valera-1909	018	JOB	040	024
 Holy-Bible---Spanish---Reina-Valera-1909	028	HOS	011	012	
 Holy-Bible---Spanish---Reina-Valera-1909	032	JON	001	017	
 Holy-Bible---Spanish---Reina-Valera-NT-1858	064	3JO	001	014	Porque espero verte en breve, y hablarémos boca á boca.
+Holy-Bible---Spanish---Sencillo-Bible	009	1SA	013	001	
 Holy-Bible---Spanish---Spanish-New-Open-Bible	064	3JO	001	014	Espero verte pronto y entonces hablaremos en persona.
 Holy-Bible---Swahili---Contemporary	064	3JO	001	014	Badala yake, nataraji kukuona upesi, nasi tutaongea pamoja ana kwa ana.
 Holy-Bible---Swahili---New-Swahili-Bible	064	3JO	001	014	Bali ninatarajia kukuona hivi karibuni, na tutaongea nawe ana kwa ana.

@@ -13,7 +13,7 @@ $database = array();
 AION_FILE_DATA_GET( './aion_database/VERSIONS.txt',	'T_VERSIONS', $database, 'BIBLE', FALSE );
 if (400 <= ($ecode=aion_curl( 'https://ebible.org/Scriptures/copyright.php', $html)) || empty($html)) { AION_ECHO("ERROR! curl() ebible failed  ecode=$ecode"); }
 if (!preg_match_all(
-	"#<tr><td><a href='http:\/\/www.ethnologue.com\/language\/([[:alnum:]]+)' target='_blank'>([^<]+)<\/a><\/td><td><a href='https:\/\/eBible.org\/details.php\?id=([[:alnum:]]+)' target='_blank'>([^<]+)<\/a><\/td><td>([^<]+)<\/td><\/tr>#ui",
+	"#<tr><td><a href='http:\/\/www.ethnologue.com\/language\/([[:alnum:]]+)' target='_blank'>([^<]+)<\/a><\/td><td>.+?<a href='http:\/\/ebible.org\/([[:alnum:]]+)'>([^<]+)<\/a><\/td><td>([^<]+)#ui",
 	$html,
     $matches,
     PREG_SET_ORDER)) { AION_ECHO("ERROR! preg_match_all() failed"); }
@@ -52,7 +52,7 @@ foreach( $matches as $ebible ) {
 	
 	// Population
 	// https://en.wikipedia.org/wiki/ISO_639:als
-	if (400 <= ($ecode=aion_curl( 'https://en.wikipedia.org/wiki/ISO_639:'.$ebible[1], $html)) || empty($html)) { AION_ECHO("ERROR! aion_curl(lang) = {$ecode}, {$ebible[1]}"); }
+	if (400 <= ($ecode=aion_curl( 'https://en.wikipedia.org/wiki/ISO_639:'.$ebible[1], $html)) || empty($html)) { AION_ECHO("WARN! aion_curl(lang) = {$ecode}, {$ebible[1]}"); }
 	else if (!preg_match("#<table class=\"infobox vevent.+?</table>#us",$html,$match)) {	$pop = 'fail-parse1'; }
 	else if (preg_match_all("#[0-9]{1}[0-9.,]+(\&nbsp\;|[ ]+)[a-z]*#us",$match[0],$pops)) { $pop = implode(", ", array_slice($pops[0],0,3)); }
 	else { $pop = 'fail-parse2'; }
@@ -101,6 +101,7 @@ foreach( $matches as $ebible ) {
 	$mark_epub = (empty($font_epub) ? "" : "*BAD* " );
 
 	// result
+	//#	Priority	License	Code	Language	Population	Title	eBible	Year	Note	Extra	Link-Page	Link-VPL	Link-SWORD	Link-PDF	Link-EPUB
 	$rows[$priority.$ebible[2].$ebible[4]] = "
 	<td>{$priority}</td>
 	<td>{$group}</td>

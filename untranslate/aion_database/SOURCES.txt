@@ -1268,10 +1268,6 @@ Holy-Bible---Romanian---Bayash-Luke				https://harmony.cx/epub/ronBayash.epub	Ho
 Holy-Bible---Romanian---Bayash-Luke				https://harmony.cx/pdf/ronBayash/ronBayash_all.pdf	Holy-Bible---Romanian---Bayash-Luke---Source-Edition.pdf
 Holy-Bible---Romanian---Bayash-Luke				https://harmony.cx/sword/zip/ronBayash2023eb.zip	Holy-Bible---Romanian---Bayash-Luke---Source-Edition.SWORD.zip
 Holy-Bible---Romanian---Bayash-Luke				https://harmony.cx/Scriptures/ronBayash_vpl.zip	Holy-Bible---Romanian---Bayash-Luke---Source-Edition.VPL.zip
-Holy-Bible---Romanian---BTF-Bible				https://harmony.cx/epub/ronbtf.epub	Holy-Bible---Romanian---BTF-Bible---Source-Edition.epub
-Holy-Bible---Romanian---BTF-Bible				https://harmony.cx/pdf/ronbtf/ronbtf_all.pdf	Holy-Bible---Romanian---BTF-Bible---Source-Edition.pdf
-Holy-Bible---Romanian---BTF-Bible				https://harmony.cx/sword/zip/ronbtf2024eb.zip	Holy-Bible---Romanian---BTF-Bible---Source-Edition.SWORD.zip
-Holy-Bible---Romanian---BTF-Bible				https://harmony.cx/Scriptures/ronbtf_vpl.zip	Holy-Bible---Romanian---BTF-Bible---Source-Edition.VPL.zip
 Holy-Bible---Romanian---Cyrillic				https://harmony.cx/epub/ron1924.epub	Holy-Bible---Romanian---Cyrillic---Source-Edition.epub
 Holy-Bible---Romanian---Cyrillic				https://harmony.cx/pdf/ron1924/ron1924_all.pdf	Holy-Bible---Romanian---Cyrillic---Source-Edition.pdf
 Holy-Bible---Romanian---Cyrillic				https://harmony.cx/sword/zip/ron1924eb.zip	Holy-Bible---Romanian---Cyrillic---Source-Edition.SWORD.zip
