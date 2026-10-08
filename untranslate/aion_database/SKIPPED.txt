@@ -1,6 +1,6 @@
 # File Name: SKIPPED.txt
-# File Size: 1878369     
-# File Date: 10/02/2026 18:31:58
+# File Size: 1879976     
+# File Date: 10/08/2026 09:40:12
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution 4.0 International, 2018-2026
@@ -596,6 +596,11 @@ Holy-Bible---Chinese---Mandarin-Bible-Simplified	064	3JO	001	014	只希望很快
 Holy-Bible---Chinese---Mandarin-Bible-Simplified	066	REV	012	018	那时巨龙站在海边的沙地上。
 Holy-Bible---Chinese---Mandarin-Bible-Traditional	064	3JO	001	014	只希望很快見到你，跟你當面暢談。
 Holy-Bible---Chinese---Mandarin-Bible-Traditional	066	REV	012	018	那時巨龍站在海邊的沙地上。
+Holy-Bible---Chinese---World-Chinese-Bible	042	LUK	017	036	
+Holy-Bible---Chinese---World-Chinese-Bible	044	ACT	008	037	
+Holy-Bible---Chinese---World-Chinese-Bible	044	ACT	015	034	
+Holy-Bible---Chinese---World-Chinese-Bible	044	ACT	024	007	
+Holy-Bible---Chinese---World-Chinese-Bible	045	ROM	016	025	
 Holy-Bible---Chiyawo---Yao	064	3JO	001	014	Ngulolela kuti chituwonegane pangakaŵa ni kukunguluka ni ŵanyamwe tuchiloleganaga.
 Holy-Bible---Chiyawo---Yao	066	REV	012	018	Ni lijoka lila lyajimi mmbwani mwa bahali.
 Holy-Bible---Coptic---Coptic-Boharic-NT	041	MAR	009	044	
@@ -4632,7 +4637,7 @@ Holy-Bible---French---French-Louis-Segond-1910-Bible	019	PSA	108	001	Cantique. P
 Holy-Bible---French---French-Louis-Segond-1910-Bible	019	PSA	140	001	Au chef des chantres. Psaume de David.
 Holy-Bible---French---French-Louis-Segond-1910-Bible	019	PSA	142	001	Cantique de David. Lorsqu’il était dans la caverne. Prière.
 Holy-Bible---French---French-Louis-Segond-1910-Bible	041	MAR	009	050	Le sel est une bonne chose; mais si le sel devient sans saveur, avec quoi l’assaisonnerez-vous?
-Holy-Bible---French---French-Louis-Segond-1910-Bible	041	MAR	010	052	Et Jésus lui dit: Va,ta foi t’a sauvé.
+Holy-Bible---French---French-Louis-Segond-1910-Bible	041	MAR	010	052	Et Jésus lui dit: Va, ta foi t’a sauvé.
 Holy-Bible---French---French-Louis-Segond-1910-Bible	064	3JO	001	014	J’espère te voir bientôt, et nous parlerons de bouche à bouche.
 Holy-Bible---French---French-Louis-Segond-1910-Bible	066	REV	012	018	Et il se tint sur le sable de la mer.
 Holy-Bible---French---French-Martin	009	1SA	020	042	Et Jonathan dit à David : Va-t'en en paix; selon que nous avons juré tous deux au Nom de l'Eternel, en disant : L'Eternel soit entre moi et toi, et entre ma postérité et ta postérité à jamais.
@@ -6886,6 +6891,8 @@ Holy-Bible---Greek---Greek-Nestle	064	3JO	001	014	ἐλπίζω δὲ εὐθέ�
 Holy-Bible---Greek---Greek-Nestle	066	REV	012	018	καὶ ἐστάθη ἐπὶ τὴν ἄμμον τῆς θαλάσσης.
 Holy-Bible---Greek---Greek-SBL	064	3JO	001	014	ἐλπίζω δὲ εὐθέως ⸂σε ἰδεῖν, καὶ στόμα πρὸς στόμα λαλήσομεν.
 Holy-Bible---Greek---Greek-SBL	066	REV	012	018	καὶ ⸀ἐστάθη ἐπὶ τὴν ἄμμον τῆς θαλάσσης.
+Holy-Bible---Greek---Greek-Statistical-Koine	064	3JO	001	014	ελπιζω   δε   ευθεωσ   ⸢σε   ιδειν⸣   και   στομα   ⸢προσ⸣   στομα   λαλησομεν
+Holy-Bible---Greek---Greek-Statistical-Koine	066	REV	012	018	και   ⸢εσταθη⸣   επι   την   αμμον   τησ   θαλασσησ
 Holy-Bible---Greek---Greek-Stephanus	042	LUK	017	036	
 Holy-Bible---Greek---Greek-TR-Stephanus-Scrivener	042	LUK	017	036	
 Holy-Bible---Greek---Greek-Textus-Receptus	064	3JO	001	014	ελπιζω δε ευθεως ιδειν σε και στομα προς στομα λαλησομεν
@@ -9312,6 +9319,11 @@ Holy-Bible---Janji---Janji-Bible	055	2TI	002	023
 Holy-Bible---Janji---Janji-Bible	064	3JO	001	014	In zinu ubasa me tidi iri acece anyimo ati ye ti geme sarki ucara uganiya, abini me tidi buu tize aje unu hira aje.
 Holy-Bible---Janji---Janji-Bible	066	REV	012	018	Ba biwame bi tono ikiki, aje uraba udang.
 Holy-Bible---Japanese---Japanese-Electronic-Network-Bible	042	LUK	017	036	
+Holy-Bible---Japanese---Japanese-Freedom-Bible	042	LUK	017	036	
+Holy-Bible---Japanese---Japanese-Freedom-Bible	044	ACT	008	037	
+Holy-Bible---Japanese---Japanese-Freedom-Bible	044	ACT	015	034	
+Holy-Bible---Japanese---Japanese-Freedom-Bible	044	ACT	024	007	
+Holy-Bible---Japanese---Japanese-Freedom-Bible	045	ROM	016	025	
 Holy-Bible---Japanese---Japanese-Raguet-yaku	043	JOH	006	051	我は天より降りたる活ける麪なり。人若此わが麪を食せば永遠に活くべし。
 Holy-Bible---Japanese---New-Japanese-New-Testament	064	3JO	001	014	間もなくあなたに会いたいと思います。そして顔を合わせて話し合いましょう。
 Holy-Bible---Japanese---New-Japanese-New-Testament	066	REV	012	018	そして、彼は海べの砂の上に立った。
@@ -13058,6 +13070,11 @@ Holy-Bible---Soli---Soli-Bible	064	3JO	001	014	Ndayeyenga kwisa kwambeti tukaban
 Holy-Bible---Soli---Soli-Bible	066	REV	012	018	Nomba cinjoka calakemana mulombe lwa lwenje.
 Holy-Bible---Somali---Somali-Bible	064	3JO	001	014	Laakiin waxaan rajaynayaa inaan dhowaan ku arko, oo aynu afkeenna iskula hadli doonno.
 Holy-Bible---Somau-Karia---Somau-Karia-Bible	064	3JO	001	014	Xenene xuwena ye utune xekenitia xirini kunakunawaxauxi nanune.
+Holy-Bible---Spanish---Biblia-Libre-Latino	042	LUK	017	036	
+Holy-Bible---Spanish---Biblia-Libre-Latino	044	ACT	008	037	
+Holy-Bible---Spanish---Biblia-Libre-Latino	044	ACT	015	034	
+Holy-Bible---Spanish---Biblia-Libre-Latino	044	ACT	024	007	
+Holy-Bible---Spanish---Biblia-Libre-Latino	045	ROM	016	025	
 Holy-Bible---Spanish---Biblia-Platense-Straubinger	006	JOS	005	014	Él respondió: “No, sino que soy el príncipe del ejército de Yahvé, que acabo de llegar.”
 Holy-Bible---Spanish---Biblia-Platense-Straubinger	011	1KI	022	043	Anduvo en todos los caminos de su padre Asá, sin apartarse de ellos, haciendo lo que era recto a los ojos de Yahvé.
 Holy-Bible---Spanish---Biblia-Platense-Straubinger	017	EST	010	004	Entonces Mardoqueo dijo: “Esto es obra de Dios.
@@ -13414,6 +13431,7 @@ Holy-Bible---Spanish---Biblia-Platense-Straubinger	030	AMO	006	010	Llevará (al 
 Holy-Bible---Spanish---Biblia-Platense-Straubinger	041	MAR	009	044	].
 Holy-Bible---Spanish---Biblia-Platense-Straubinger	041	MAR	009	046	].
 Holy-Bible---Spanish---Biblia-Platense-Straubinger	066	REV	012	018	Y apostose sobre la arena del mar.
+Holy-Bible---Spanish---FelipeScioDeSanMiguel	044	ACT	014	028	-
 Holy-Bible---Spanish---Free-Bible	040	MAT	017	021	
 Holy-Bible---Spanish---Free-Bible	040	MAT	018	011	
 Holy-Bible---Spanish---Free-Bible	040	MAT	023	014	
@@ -13682,6 +13700,11 @@ Holy-Bible---Telugu---Telugu-Bible	040	MAT	004	014
 Holy-Bible---Telugu---Telugu-Bible	064	3JO	001	014	కానీ నేను నిన్ను త్వరలోనే చూడగలనని ఆశిస్తున్నాను. అప్పుడు మనం ముఖాముఖీ మాట్లాడుకుందాం.
 Holy-Bible---Telugu---Telugu-Bible	066	REV	012	018	దానికోసం ఆ మహా సర్పం సముద్ర తీరంలో ఇసుక తిన్నెలపై నిలబడింది.
 Holy-Bible---Telugu---Telugu-Open-Contemporary	064	3JO	001	014	త్వరలో నేను నీ దగ్గరకు వచ్చి ముఖాముఖిగా నీతో మాట్లాడాలని నిరీక్షిస్తున్నాను.
+Holy-Bible---Thai---Thai-Freedom-Bible	042	LUK	017	036	
+Holy-Bible---Thai---Thai-Freedom-Bible	044	ACT	008	037	
+Holy-Bible---Thai---Thai-Freedom-Bible	044	ACT	015	034	
+Holy-Bible---Thai---Thai-Freedom-Bible	044	ACT	024	007	
+Holy-Bible---Thai---Thai-Freedom-Bible	045	ROM	016	025	
 Holy-Bible---Tharu-Rana---Rana-Tharu-Bible	064	3JO	001	014	मोकै आसा है कि तोसे जल्दियै भेंटा होगो, और फिर हम आमने-सामने बातचीत करंगे।
 Holy-Bible---Tharu-Rana---Rana-Tharu-Bible	066	REV	012	018	और बौ अजगर समुंदर के किनारे ठाड़गौ।
 Holy-Bible---Tsakhur---Tsakhur-Bible	009	1SA	020	042	Yonatanee Davuduk'le eyhen: – Vas yugna yəq vuxhena. Zınay ğu Rəbbine doyule sana-sang'us k'ın g'assır, uvhuynniy: Rəbb yizdeyiy yiğne, yişde uşaxaaşine yı'q'neenar gırgıne gahbışisda Şahad vorna.

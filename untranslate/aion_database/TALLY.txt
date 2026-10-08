@@ -1,6 +1,6 @@
 # File Name: TALLY.txt
-# File Size: 31215       
-# File Date: 10/02/2026 18:31:58
+# File Size: 31579       
+# File Date: 10/08/2026 09:40:12
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution 4.0 International, 2018-2026
@@ -77,6 +77,7 @@ Holy-Bible---Chinese---Chinese-Union-Version-Simplified	31017	31017	31019
 Holy-Bible---Chinese---Chinese-Union-Version-Traditional	31017	31017	31019
 Holy-Bible---Chinese---Mandarin-Bible-Simplified	30959	30959	30961
 Holy-Bible---Chinese---Mandarin-Bible-Traditional	30959	30959	30961
+Holy-Bible---Chinese---World-Chinese-Bible	31091	31091	31096
 Holy-Bible---Chiyawo---Yao	7957	7957	7959
 Holy-Bible---Cishingini---Cishingini-Bible	19187	19187	19187
 Holy-Bible---Coptic---Coptic-Boharic-NT	7950	7950	7957
@@ -236,6 +237,7 @@ Holy-Bible---Greek---Greek-Pickering-Family-35	7953	7953	7953
 Holy-Bible---Greek---Greek-SBL	7939	7939	7941
 Holy-Bible---Greek---Greek-STEPBible	7957	7957	7957
 Holy-Bible---Greek---Greek-Scrivener	7957	7957	7957
+Holy-Bible---Greek---Greek-Statistical-Koine	7914	7914	7916
 Holy-Bible---Greek---Greek-Statistical-Restoration	7914	7914	7914
 Holy-Bible---Greek---Greek-Stephanus	7956	7956	7957
 Holy-Bible---Greek---Greek-TR-Stephanus-Scrivener	7956	7956	7957
@@ -292,6 +294,7 @@ Holy-Bible---Italian---Italian-Riveduta-Bible	31102	31102	31102
 Holy-Bible---Janji---Janji-Bible	7947	7947	7952
 Holy-Bible---Japanese---Japanese-Bungo-yaku	31099	31099	31099
 Holy-Bible---Japanese---Japanese-Electronic-Network-Bible	5516	5516	5517
+Holy-Bible---Japanese---Japanese-Freedom-Bible	31098	31098	31103
 Holy-Bible---Japanese---Japanese-Kougo-yaku	31086	31086	31086
 Holy-Bible---Japanese---Japanese-Meiji-yaku	10694	10694	10694
 Holy-Bible---Japanese---Japanese-Raguet-yaku	7952	7952	7953
@@ -475,7 +478,9 @@ Holy-Bible---Slovene---Slovene-Stritarja-NT	10413	10413	10481
 Holy-Bible---Soli---Soli-Bible	7957	7957	7959
 Holy-Bible---Somali---Somali-Bible	31102	31102	31103
 Holy-Bible---Somau-Karia---Somau-Karia-Bible	2931	2931	2932
+Holy-Bible---Spanish---Biblia-Libre-Latino	31098	31098	31103
 Holy-Bible---Spanish---Biblia-Platense-Straubinger	31070	31070	31426
+Holy-Bible---Spanish---FelipeScioDeSanMiguel	7956	7956	7957
 Holy-Bible---Spanish---Free-Bible	31086	31086	31102
 Holy-Bible---Spanish---Free-for-the-World	31098	31098	31102
 Holy-Bible---Spanish---Gods-Word-for-You	31057	31057	31082
@@ -505,6 +510,7 @@ Holy-Bible---Tavoyan---Tavoyan-Bible	7937	7937	7956
 Holy-Bible---Teke-Tyee---Teke-Tyee-Bible	7952	7952	7957
 Holy-Bible---Telugu---Telugu-Bible	31038	31038	31041
 Holy-Bible---Telugu---Telugu-Open-Contemporary	30935	30935	30936
+Holy-Bible---Thai---Thai-Freedom-Bible	28301	28301	28306
 Holy-Bible---Tharu-Rana---Rana-Tharu-Bible	7957	7957	7959
 Holy-Bible---Thur---Leb-Thur-Bible	9417	9417	9417
 Holy-Bible---Tichurong---Tichurong-Bible	1886	1886	1886

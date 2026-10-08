@@ -1,6 +1,6 @@
 # File Name: UNTRANSLATEREVERSE.txt
-# File Size: 11866336    
-# File Date: 10/02/2026 18:31:58
+# File Size: 11869274    
+# File Date: 10/08/2026 09:40:12
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution 4.0 International, 2018-2026
@@ -3235,6 +3235,14 @@ Holy-Bible---Chinese---Mandarin-Bible-Simplified	066	REV	012	018-SKIP	066	REV	01
 Holy-Bible---Chinese---Mandarin-Bible-Traditional	064	3JO	001	014-SKIP	064	3JO	001	014-SKIP
 Holy-Bible---Chinese---Mandarin-Bible-Traditional	064	3JO	001	014	064	3JO	001	015
 Holy-Bible---Chinese---Mandarin-Bible-Traditional	066	REV	012	018-SKIP	066	REV	012	018-SKIP
+Holy-Bible---Chinese---World-Chinese-Bible	042	LUK	017	036-SKIP	042	LUK	017	036-SKIP
+Holy-Bible---Chinese---World-Chinese-Bible	044	ACT	008	037-SKIP	044	ACT	008	037-SKIP
+Holy-Bible---Chinese---World-Chinese-Bible	044	ACT	015	034-SKIP	044	ACT	015	034-SKIP
+Holy-Bible---Chinese---World-Chinese-Bible	044	ACT	024	007-SKIP	044	ACT	024	007-SKIP
+Holy-Bible---Chinese---World-Chinese-Bible	045	ROM	016	025	045	ROM	014	024
+Holy-Bible---Chinese---World-Chinese-Bible	045	ROM	016	026	045	ROM	014	025
+Holy-Bible---Chinese---World-Chinese-Bible	045	ROM	016	027	045	ROM	014	026
+Holy-Bible---Chinese---World-Chinese-Bible	045	ROM	016	025-SKIP	045	ROM	016	025-SKIP
 Holy-Bible---Chiyawo---Yao	064	3JO	001	014-SKIP	064	3JO	001	014-SKIP
 Holy-Bible---Chiyawo---Yao	064	3JO	001	014	064	3JO	001	015
 Holy-Bible---Chiyawo---Yao	066	REV	012	018-SKIP	066	REV	012	018-SKIP
@@ -73458,6 +73466,9 @@ Holy-Bible---Greek---Greek-Pickering-Family-35	045	ROM	016	027	045	ROM	014	026
 Holy-Bible---Greek---Greek-SBL	064	3JO	001	014-SKIP	064	3JO	001	014-SKIP
 Holy-Bible---Greek---Greek-SBL	064	3JO	001	014	064	3JO	001	015
 Holy-Bible---Greek---Greek-SBL	066	REV	012	018-SKIP	066	REV	012	018-SKIP
+Holy-Bible---Greek---Greek-Statistical-Koine	064	3JO	001	014-SKIP	064	3JO	001	014-SKIP
+Holy-Bible---Greek---Greek-Statistical-Koine	064	3JO	001	014	064	3JO	001	015
+Holy-Bible---Greek---Greek-Statistical-Koine	066	REV	012	018-SKIP	066	REV	012	018-SKIP
 Holy-Bible---Greek---Greek-Stephanus	042	LUK	017	036-SKIP	042	LUK	017	036-SKIP
 Holy-Bible---Greek---Greek-TR-Stephanus-Scrivener	042	LUK	017	036-SKIP	042	LUK	017	036-SKIP
 Holy-Bible---Greek---Greek-Textus-Receptus	064	3JO	001	014-SKIP	064	3JO	001	014-SKIP
@@ -94395,6 +94406,14 @@ Holy-Bible---Janji---Janji-Bible	064	3JO	001	014-SKIP	064	3JO	001	014-SKIP
 Holy-Bible---Janji---Janji-Bible	064	3JO	001	014	064	3JO	001	015
 Holy-Bible---Janji---Janji-Bible	066	REV	012	018-SKIP	066	REV	012	018-SKIP
 Holy-Bible---Japanese---Japanese-Electronic-Network-Bible	042	LUK	017	036-SKIP	042	LUK	017	036-SKIP
+Holy-Bible---Japanese---Japanese-Freedom-Bible	042	LUK	017	036-SKIP	042	LUK	017	036-SKIP
+Holy-Bible---Japanese---Japanese-Freedom-Bible	044	ACT	008	037-SKIP	044	ACT	008	037-SKIP
+Holy-Bible---Japanese---Japanese-Freedom-Bible	044	ACT	015	034-SKIP	044	ACT	015	034-SKIP
+Holy-Bible---Japanese---Japanese-Freedom-Bible	044	ACT	024	007-SKIP	044	ACT	024	007-SKIP
+Holy-Bible---Japanese---Japanese-Freedom-Bible	045	ROM	016	025	045	ROM	014	024
+Holy-Bible---Japanese---Japanese-Freedom-Bible	045	ROM	016	026	045	ROM	014	025
+Holy-Bible---Japanese---Japanese-Freedom-Bible	045	ROM	016	027	045	ROM	014	026
+Holy-Bible---Japanese---Japanese-Freedom-Bible	045	ROM	016	025-SKIP	045	ROM	016	025-SKIP
 Holy-Bible---Japanese---Japanese-Raguet-yaku	043	JOH	006	051-SKIP	043	JOH	006	051-SKIP
 Holy-Bible---Japanese---Japanese-Raguet-yaku	043	JOH	006	051	043	JOH	006	052
 Holy-Bible---Japanese---Japanese-Raguet-yaku	043	JOH	006	052	043	JOH	006	053
@@ -136542,6 +136561,14 @@ Holy-Bible---Somali---Somali-Bible	064	3JO	001	014-SKIP	064	3JO	001	014-SKIP
 Holy-Bible---Somali---Somali-Bible	064	3JO	001	014	064	3JO	001	015
 Holy-Bible---Somau-Karia---Somau-Karia-Bible	064	3JO	001	014-SKIP	064	3JO	001	014-SKIP
 Holy-Bible---Somau-Karia---Somau-Karia-Bible	064	3JO	001	014	064	3JO	001	015
+Holy-Bible---Spanish---Biblia-Libre-Latino	042	LUK	017	036-SKIP	042	LUK	017	036-SKIP
+Holy-Bible---Spanish---Biblia-Libre-Latino	044	ACT	008	037-SKIP	044	ACT	008	037-SKIP
+Holy-Bible---Spanish---Biblia-Libre-Latino	044	ACT	015	034-SKIP	044	ACT	015	034-SKIP
+Holy-Bible---Spanish---Biblia-Libre-Latino	044	ACT	024	007-SKIP	044	ACT	024	007-SKIP
+Holy-Bible---Spanish---Biblia-Libre-Latino	045	ROM	016	025	045	ROM	014	024
+Holy-Bible---Spanish---Biblia-Libre-Latino	045	ROM	016	026	045	ROM	014	025
+Holy-Bible---Spanish---Biblia-Libre-Latino	045	ROM	016	027	045	ROM	014	026
+Holy-Bible---Spanish---Biblia-Libre-Latino	045	ROM	016	025-SKIP	045	ROM	016	025-SKIP
 Holy-Bible---Spanish---Biblia-Platense-Straubinger	004	NUM	029	040	004	NUM	030	001
 Holy-Bible---Spanish---Biblia-Platense-Straubinger	004	NUM	030	001	004	NUM	030	002
 Holy-Bible---Spanish---Biblia-Platense-Straubinger	004	NUM	030	002	004	NUM	030	003
@@ -139616,6 +139643,7 @@ Holy-Bible---Spanish---Biblia-Platense-Straubinger	037	HAG	002	023	037	HAG	002	0
 Holy-Bible---Spanish---Biblia-Platense-Straubinger	041	MAR	009	044-SKIP	041	MAR	009	044-SKIP
 Holy-Bible---Spanish---Biblia-Platense-Straubinger	041	MAR	009	046-SKIP	041	MAR	009	046-SKIP
 Holy-Bible---Spanish---Biblia-Platense-Straubinger	066	REV	012	018-SKIP	066	REV	012	018-SKIP
+Holy-Bible---Spanish---FelipeScioDeSanMiguel	044	ACT	014	028-SKIP	044	ACT	014	028-SKIP
 Holy-Bible---Spanish---Free-Bible	040	MAT	017	021-SKIP	040	MAT	017	021-SKIP
 Holy-Bible---Spanish---Free-Bible	040	MAT	018	011-SKIP	040	MAT	018	011-SKIP
 Holy-Bible---Spanish---Free-Bible	040	MAT	023	014-SKIP	040	MAT	023	014-SKIP
@@ -143208,6 +143236,14 @@ Holy-Bible---Telugu---Telugu-Bible	064	3JO	001	014	064	3JO	001	015
 Holy-Bible---Telugu---Telugu-Bible	066	REV	012	018-SKIP	066	REV	012	018-SKIP
 Holy-Bible---Telugu---Telugu-Open-Contemporary	064	3JO	001	014-SKIP	064	3JO	001	014-SKIP
 Holy-Bible---Telugu---Telugu-Open-Contemporary	064	3JO	001	014	064	3JO	001	015
+Holy-Bible---Thai---Thai-Freedom-Bible	042	LUK	017	036-SKIP	042	LUK	017	036-SKIP
+Holy-Bible---Thai---Thai-Freedom-Bible	044	ACT	008	037-SKIP	044	ACT	008	037-SKIP
+Holy-Bible---Thai---Thai-Freedom-Bible	044	ACT	015	034-SKIP	044	ACT	015	034-SKIP
+Holy-Bible---Thai---Thai-Freedom-Bible	044	ACT	024	007-SKIP	044	ACT	024	007-SKIP
+Holy-Bible---Thai---Thai-Freedom-Bible	045	ROM	016	025	045	ROM	014	024
+Holy-Bible---Thai---Thai-Freedom-Bible	045	ROM	016	026	045	ROM	014	025
+Holy-Bible---Thai---Thai-Freedom-Bible	045	ROM	016	027	045	ROM	014	026
+Holy-Bible---Thai---Thai-Freedom-Bible	045	ROM	016	025-SKIP	045	ROM	016	025-SKIP
 Holy-Bible---Tharu-Rana---Rana-Tharu-Bible	064	3JO	001	014-SKIP	064	3JO	001	014-SKIP
 Holy-Bible---Tharu-Rana---Rana-Tharu-Bible	064	3JO	001	014	064	3JO	001	015
 Holy-Bible---Tharu-Rana---Rana-Tharu-Bible	066	REV	012	018-SKIP	066	REV	012	018-SKIP

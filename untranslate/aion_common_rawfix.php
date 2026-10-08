@@ -1177,14 +1177,6 @@ goto RAWHIDE;
 case "Holy-Bible---Chin-Thado---Chongthu-Bible" :
 if (!($bfile = preg_replace('/_+/ui'," ",$bfile,-1,$rnum)) || $rnum!=11) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $bfile_saved = $bfile;
-$blockfix = <<<EOF
-LUK 6:16 Judas (James chapa), chule Judas Iscariot (khonunga ajohdohpa) ahiuve.
-LUK 6:17 Molchunga pat amaho ahungsuh uchun aseijui ho Jesu toh, mun beh achamlai len khat ah adingun, anungjui tamtah chule mihonpi chun aumkimvel uve. Hichea chun mipi Judea gam pumpi le Jerusalem a kon chule sahlam Tyre le Sidon gam twipang langa pat a hung jong aumun ahi.
-LUK 6:18 Amaho chu ama thusei ngai ding le anatna hou kijendam sah dinga hungu ahi; chule lhagao boh in asuh genthei ho jong jendam in aum uve.
-LUK 6:19 Mijousen ama chu tohkhah agocheh un ahi ajeh chu suhdamna thaneina chu ama a konna potdoh ahi, chule mijouse asudam in ahi.
-LUK 6:20 
-EOF;
-if (!($bfile = preg_replace("/LUK 6:16 (.+?)LUK 6:20 /us",$blockfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 goto RAWHIDE;
 
 
@@ -10764,6 +10756,25 @@ goto RAWHIDE;
 
 
 // RAWFIX BIBLE ********************
+case "Holy-Bible---Greek---Greek-Statistical-Koine" :
+$textfix = <<<EOF
+Acts 19:40 και γαρ κινδυνευομεν ⸢εγκαλεισθαι στασεωσ περι τησ σημερον⸣ μηδενοσ αιτιου ⸢υπαρχοντοσ⸣ περι ου ⸢ου⸣ δυνησομεθα ⸢αποδουναι⸣ λογον ⸢περι⸣ τησ ⸢συστροφησ⸣ ταυτησ
+Acts 19:41 και ταυτα ειπων ⸢απελυσε⸣ την εκκλησιαν 
+Acts 20:1 
+EOF;
+if (!($bfile = preg_replace("/Acts 19:40 (.+?)Acts 20:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+II Corinthians 13:12 ασπασασθε αλληλουσ εν ⸢αγιω φιληματι⸣
+II Corinthians 13:13 ασπαζονται υμασ οι αγιοι παντεσ
+II Corinthians 13:14 η χαρισ του κ̅υ̅ ι̅υ̅ ⸢χ̅υ̅⸣ και η αγαπη του θ̅υ̅ και η κοινωνια του ⸢αγιου⸣ π̅ν̅σ̅ μετα παντων υμων ⸢⸣ 
+Galatians 1:1 
+EOF;
+if (!($bfile = preg_replace("/II Corinthians 13:12 (.+?)Galatians 1:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+goto RAWHIDE;
+
+
+
+// RAWFIX BIBLE ********************
 case "Holy-Bible---Greek---Greek-Statistical-Restoration" :
 $textfix = <<<EOF
 Acts 19:40 Καὶ γὰρ κινδυνεύομεν ἐγκαλεῖσθαι στάσεως περὶ τῆς σήμερον, μηδενὸς αἰτίου ὑπάρχοντος, περὶ οὗ οὐ δυνησόμεθα ἀποδοῦναι λόγον περὶ τῆς συστροφῆς ταύτης.»
@@ -16609,7 +16620,7 @@ EOF;
 if (!($bfile = preg_replace("/MAT 13:38 (.+?)MAT 13:40 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $textfix = <<<EOF
 MAT 23:13 കപടഭക്തിക്കാരായ ശാസ്ത്രിമാരും പരീശരുമായുള്ളവരേ, നിങ്ങൾ മനുഷ്യർക്ക് സ്വർഗ്ഗരാജ്യം അടച്ചുകളയുന്നു; നിങ്ങൾതന്നെ കടക്കുന്നതുമില്ല, കടക്കുന്നവരെ കടക്കുവാൻ സമ്മതിക്കുന്നതുമില്ല.
-MAT 23:14 കപടഭക്തിക്കാരായ ശാസ്ത്രിമാരും പരീശന്മാരുമായുള്ളോരേ, നിങ്ങൾക്ക് ഹാ കഷ്ടം; നിങ്ങൾ വിധവമാരുടെ വീടുകളെ വിഴുങ്ങുകയുംഉപായരൂപേണ ദീർഘമായി പ്രാർത്ഥിക്കുകയും ചെയ്യുന്നു; ഇതു ഹേതുവായി നിങ്ങൾക്ക് ഏറ്റവും വലിയ ശിക്ഷാവിധി വരും.
+MAT 23:14 കപടഭക്തിക്കാരായ ശാസ്ത്രിമാരും പരീശന്മാരുമായുള്ളോരേ, നിങ്ങൾക്ക് ഹാ കഷ്ടം; നിങ്ങൾ വിധവമാരുടെ വീടുകളെ വിഴുങ്ങുകയും ഉപായരൂപേണ ദീർഘമായി പ്രാർത്ഥിക്കുകയും ചെയ്യുന്നു; ഇതു ഹേതുവായി നിങ്ങൾക്ക് ഏറ്റവും വലിയ ശിക്ഷാവിധി വരും.
 MAT 23:15 കപടഭക്തിക്കാരായ ശാസ്ത്രിമാരും പരീശരുമായുള്ളവരേ, നിങ്ങൾക്ക് ഹാ കഷ്ടം; നിങ്ങൾ ഒരുവനെ നിങ്ങളുടെ മതത്തിൽ ചേർക്കുവാൻ കടലും കരയും ചുറ്റി നടക്കുന്നു; നിങ്ങളുടെ മതത്തിൽ ചേർന്നശേഷം അവനെ നിങ്ങളേക്കാൾ ഇരട്ടി നരകയോഗ്യൻ ആക്കിത്തീർക്കുന്നു.
 MAT 23:16 
 EOF;
@@ -20442,6 +20453,27 @@ EOF;
 if (!($bfile = preg_replace("/II Corinthians 13:11 (.+?)Galatians 1:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 goto RAWHIDE;
 
+
+
+
+// RAWFIX BIBLE ********************
+case "Holy-Bible---Spanish---FelipeScioDeSanMiguel" :
+if (!($bfile = preg_replace("/¿ટ/us","¿Y",$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$bfile_saved = $bfile;
+$textfix = <<<EOF
+Acts 19:40 Porque hay peligro de que nos acusen de sediciosos por lo de hoy: no habiendo ninguna causa, por la qual podamos dar razón de éste concurso.
+Acts 19:41 Y habiendo dicho esto, despidió la junta.
+Acts 20:1 
+EOF;
+if (!($bfile = preg_replace("/Acts 19:40 (.+?)Acts 20:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
+II Corinthians 13:12 Saludáos unos á otros en ósculo santo.
+II Corinthians 13:13 Todos los Santos os saludan.
+II Corinthians 13:14 La gracia de nuestro Señor Jesu-Christo y la caridad de Dios y la comunicación del Espíritu Santo sea con todos vosotros. Amén.
+Galatians 1:1 
+EOF;
+if (!($bfile = preg_replace("/II Corinthians 13:12 (.+?)Galatians 1:1 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+goto RAWHIDE;
 
 
 

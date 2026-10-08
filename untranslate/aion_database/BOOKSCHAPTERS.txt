@@ -2,12 +2,12 @@
 BIBLE	INDEX	BOOK	CHAPTER	VERSE	MAP	FLAG
 # File Accuracy: Contact publisher with corrections to file format or content
 # File Copyright: Creative Commons Attribution 4.0 International, 2018-2026
-# File Date: 10/02/2026 20:54:28
+# File Date: 10/08/2026 12:01:53
 # File Generator: ABCMS (alpha)
 # File Location: https://resources.AionianBible.org
 # File Name: BOOKSCHAPTERS.txt
 # File Purpose: Supporting resource for the Aionian Bible project
-# File Size: 4132491     
+# File Size: 4137452     
 Holy-Bible---Abureni---Abureni-Bible	041	MAR	009	044	MISSING	MID
 Holy-Bible---Abureni---Abureni-Bible	041	MAR	009	046	MISSING	MID
 Holy-Bible---Ahirani---Ahirani-Bible	047	2CO	001	014	MISSING	MID
@@ -4465,6 +4465,17 @@ Holy-Bible---Chinese---Mandarin-Bible-Traditional	065	JUD	001	025	MISSING	END*
 Holy-Bible---Chinese---Mandarin-Bible-Traditional	066	REV	001	005	MISSING	MID
 Holy-Bible---Chinese---Mandarin-Bible-Traditional	066	REV	002	027	MISSING	MID
 Holy-Bible---Chinese---Mandarin-Bible-Traditional	066	REV	021	013	MISSING	MID
+Holy-Bible---Chinese---World-Chinese-Bible	041	MAR	004	035	MISSING	MID
+Holy-Bible---Chinese---World-Chinese-Bible	041	MAR	004	036	MISSING	MID-SEQ
+Holy-Bible---Chinese---World-Chinese-Bible	041	MAR	004	037	MISSING	MID-SEQ
+Holy-Bible---Chinese---World-Chinese-Bible	041	MAR	004	038	MISSING	MID-SEQ
+Holy-Bible---Chinese---World-Chinese-Bible	041	MAR	004	039	MISSING	MID-SEQ
+Holy-Bible---Chinese---World-Chinese-Bible	041	MAR	004	040	MISSING	MID-SEQ
+Holy-Bible---Chinese---World-Chinese-Bible	041	MAR	004	041	MISSING	END-SEQ*
+Holy-Bible---Chinese---World-Chinese-Bible	042	LUK	017	036	MISSING	MID
+Holy-Bible---Chinese---World-Chinese-Bible	044	ACT	008	037	MISSING	MID
+Holy-Bible---Chinese---World-Chinese-Bible	044	ACT	015	034	MISSING	MID
+Holy-Bible---Chinese---World-Chinese-Bible	044	ACT	024	007	MISSING	MID
 Holy-Bible---Chin-Thado---Chongthu-Bible	001	GEN	037	003	MISSING	MID
 Holy-Bible---Chin-Thado---Chongthu-Bible	002	EXO	015	016	MISSING	MID
 Holy-Bible---Chin-Thado---Chongthu-Bible	002	EXO	025	021	MISSING	MID
@@ -35522,6 +35533,49 @@ Holy-Bible---Greek---Greek-SBL	044	ACT	028	029	MISSING	MID
 Holy-Bible---Greek---Greek-SBL	045	ROM	016	025	MISSING	MID
 Holy-Bible---Greek---Greek-SBL	045	ROM	016	026	MISSING	MID-SEQ
 Holy-Bible---Greek---Greek-SBL	045	ROM	016	027	MISSING	END-SEQ*
+Holy-Bible---Greek---Greek-Statistical-Koine	040	MAT	016	003	MISSING	MID
+Holy-Bible---Greek---Greek-Statistical-Koine	040	MAT	017	021	MISSING	MID
+Holy-Bible---Greek---Greek-Statistical-Koine	040	MAT	018	011	MISSING	MID
+Holy-Bible---Greek---Greek-Statistical-Koine	040	MAT	023	014	MISSING	MID
+Holy-Bible---Greek---Greek-Statistical-Koine	041	MAR	007	016	MISSING	MID
+Holy-Bible---Greek---Greek-Statistical-Koine	041	MAR	009	044	MISSING	MID
+Holy-Bible---Greek---Greek-Statistical-Koine	041	MAR	009	046	MISSING	MID
+Holy-Bible---Greek---Greek-Statistical-Koine	041	MAR	011	026	MISSING	MID
+Holy-Bible---Greek---Greek-Statistical-Koine	041	MAR	015	028	MISSING	MID
+Holy-Bible---Greek---Greek-Statistical-Koine	041	MAR	016	009	MISSING	MID
+Holy-Bible---Greek---Greek-Statistical-Koine	041	MAR	016	010	MISSING	MID-SEQ
+Holy-Bible---Greek---Greek-Statistical-Koine	041	MAR	016	011	MISSING	MID-SEQ
+Holy-Bible---Greek---Greek-Statistical-Koine	041	MAR	016	012	MISSING	MID-SEQ
+Holy-Bible---Greek---Greek-Statistical-Koine	041	MAR	016	013	MISSING	MID-SEQ
+Holy-Bible---Greek---Greek-Statistical-Koine	041	MAR	016	014	MISSING	MID-SEQ
+Holy-Bible---Greek---Greek-Statistical-Koine	041	MAR	016	015	MISSING	MID-SEQ
+Holy-Bible---Greek---Greek-Statistical-Koine	041	MAR	016	016	MISSING	MID-SEQ
+Holy-Bible---Greek---Greek-Statistical-Koine	041	MAR	016	017	MISSING	MID-SEQ
+Holy-Bible---Greek---Greek-Statistical-Koine	041	MAR	016	018	MISSING	MID-SEQ
+Holy-Bible---Greek---Greek-Statistical-Koine	041	MAR	016	019	MISSING	MID-SEQ
+Holy-Bible---Greek---Greek-Statistical-Koine	041	MAR	016	020	MISSING	END-SEQ*
+Holy-Bible---Greek---Greek-Statistical-Koine	042	LUK	017	036	MISSING	MID
+Holy-Bible---Greek---Greek-Statistical-Koine	042	LUK	022	043	MISSING	MID
+Holy-Bible---Greek---Greek-Statistical-Koine	042	LUK	022	044	MISSING	MID-SEQ
+Holy-Bible---Greek---Greek-Statistical-Koine	042	LUK	023	017	MISSING	MID
+Holy-Bible---Greek---Greek-Statistical-Koine	043	JOH	005	004	MISSING	MID
+Holy-Bible---Greek---Greek-Statistical-Koine	043	JOH	007	053	MISSING	END*
+Holy-Bible---Greek---Greek-Statistical-Koine	043	JOH	008	001	MISSING	MID
+Holy-Bible---Greek---Greek-Statistical-Koine	043	JOH	008	002	MISSING	MID-SEQ
+Holy-Bible---Greek---Greek-Statistical-Koine	043	JOH	008	003	MISSING	MID-SEQ
+Holy-Bible---Greek---Greek-Statistical-Koine	043	JOH	008	004	MISSING	MID-SEQ
+Holy-Bible---Greek---Greek-Statistical-Koine	043	JOH	008	005	MISSING	MID-SEQ
+Holy-Bible---Greek---Greek-Statistical-Koine	043	JOH	008	006	MISSING	MID-SEQ
+Holy-Bible---Greek---Greek-Statistical-Koine	043	JOH	008	007	MISSING	MID-SEQ
+Holy-Bible---Greek---Greek-Statistical-Koine	043	JOH	008	008	MISSING	MID-SEQ
+Holy-Bible---Greek---Greek-Statistical-Koine	043	JOH	008	009	MISSING	MID-SEQ
+Holy-Bible---Greek---Greek-Statistical-Koine	043	JOH	008	010	MISSING	MID-SEQ
+Holy-Bible---Greek---Greek-Statistical-Koine	043	JOH	008	011	MISSING	MID-SEQ
+Holy-Bible---Greek---Greek-Statistical-Koine	044	ACT	008	037	MISSING	MID
+Holy-Bible---Greek---Greek-Statistical-Koine	044	ACT	015	034	MISSING	MID
+Holy-Bible---Greek---Greek-Statistical-Koine	044	ACT	024	007	MISSING	MID
+Holy-Bible---Greek---Greek-Statistical-Koine	044	ACT	028	029	MISSING	MID
+Holy-Bible---Greek---Greek-Statistical-Koine	045	ROM	016	024	MISSING	MID
 Holy-Bible---Greek---Greek-Statistical-Restoration	040	MAT	016	003	MISSING	MID
 Holy-Bible---Greek---Greek-Statistical-Restoration	040	MAT	017	021	MISSING	MID
 Holy-Bible---Greek---Greek-Statistical-Restoration	040	MAT	018	011	MISSING	MID
@@ -39824,6 +39878,10 @@ Holy-Bible---Japanese---Japanese-Electronic-Network-Bible	042	LUK	017	036	MISSIN
 Holy-Bible---Japanese---Japanese-Electronic-Network-Bible	044	ACT	008	037	MISSING	MID
 Holy-Bible---Japanese---Japanese-Electronic-Network-Bible	044	ACT	015	034	MISSING	MID
 Holy-Bible---Japanese---Japanese-Electronic-Network-Bible	044	ACT	024	007	MISSING	MID
+Holy-Bible---Japanese---Japanese-Freedom-Bible	042	LUK	017	036	MISSING	MID
+Holy-Bible---Japanese---Japanese-Freedom-Bible	044	ACT	008	037	MISSING	MID
+Holy-Bible---Japanese---Japanese-Freedom-Bible	044	ACT	015	034	MISSING	MID
+Holy-Bible---Japanese---Japanese-Freedom-Bible	044	ACT	024	007	MISSING	MID
 Holy-Bible---Japanese---Japanese-Kougo-yaku	004	NUM	015	004	MISSING	MID
 Holy-Bible---Japanese---Japanese-Kougo-yaku	013	1CH	016	012	MISSING	MID
 Holy-Bible---Japanese---Japanese-Kougo-yaku	019	PSA	049	008	MISSING	MID
@@ -46589,6 +46647,10 @@ Holy-Bible---Somau-Karia---Somau-Karia-Bible	050	PHI	002	016	MISSING	MID
 Holy-Bible---Somau-Karia---Somau-Karia-Bible	051	COL	001	005	MISSING	MID
 Holy-Bible---Somau-Karia---Somau-Karia-Bible	051	COL	001	006	MISSING	MID-SEQ
 Holy-Bible---Somau-Karia---Somau-Karia-Bible	062	1JO	003	020	MISSING	MID
+Holy-Bible---Spanish---Biblia-Libre-Latino	042	LUK	017	036	MISSING	MID
+Holy-Bible---Spanish---Biblia-Libre-Latino	044	ACT	008	037	MISSING	MID
+Holy-Bible---Spanish---Biblia-Libre-Latino	044	ACT	015	034	MISSING	MID
+Holy-Bible---Spanish---Biblia-Libre-Latino	044	ACT	024	007	MISSING	MID
 Holy-Bible---Spanish---Biblia-Platense-Straubinger	001	GEN	005	032	MISSING	END*
 Holy-Bible---Spanish---Biblia-Platense-Straubinger	001	GEN	049	033	MISSING	END*
 Holy-Bible---Spanish---Biblia-Platense-Straubinger	001	GEN	050	026	MISSING	END*
@@ -46621,6 +46683,7 @@ Holy-Bible---Spanish---Biblia-Platense-Straubinger	042	LUK	003	038	MISSING	END*
 Holy-Bible---Spanish---Biblia-Platense-Straubinger	044	ACT	007	060	MISSING	END*
 Holy-Bible---Spanish---Biblia-Platense-Straubinger	044	ACT	008	037	MISSING	MID
 Holy-Bible---Spanish---Biblia-Platense-Straubinger	044	ACT	014	028	MISSING	END*
+Holy-Bible---Spanish---FelipeScioDeSanMiguel	044	ACT	014	028	MISSING	END*
 Holy-Bible---Spanish---Free-Bible	040	MAT	017	021	MISSING	MID
 Holy-Bible---Spanish---Free-Bible	040	MAT	018	011	MISSING	MID
 Holy-Bible---Spanish---Free-Bible	040	MAT	023	014	MISSING	MID
@@ -51537,6 +51600,10 @@ Holy-Bible---Telugu---Telugu-Open-Contemporary	057	PHM	001	005	MISSING	MID
 Holy-Bible---Telugu---Telugu-Open-Contemporary	058	HEB	011	018	MISSING	MID
 Holy-Bible---Telugu---Telugu-Open-Contemporary	058	HEB	011	019	MISSING	MID-SEQ
 Holy-Bible---Telugu---Telugu-Open-Contemporary	059	JAM	002	016	MISSING	MID
+Holy-Bible---Thai---Thai-Freedom-Bible	042	LUK	017	036	MISSING	MID
+Holy-Bible---Thai---Thai-Freedom-Bible	044	ACT	008	037	MISSING	MID
+Holy-Bible---Thai---Thai-Freedom-Bible	044	ACT	015	034	MISSING	MID
+Holy-Bible---Thai---Thai-Freedom-Bible	044	ACT	024	007	MISSING	MID
 Holy-Bible---Thur---Leb-Thur-Bible	042	LUK	004	002	MISSING	MID
 Holy-Bible---Thur---Leb-Thur-Bible	042	LUK	023	051	MISSING	MID
 Holy-Bible---Tsakhur---Tsakhur-Bible	001	GEN	007	003	MISSING	MID

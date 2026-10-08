@@ -206,6 +206,10 @@ Holy-Bible---Chinese---Mandarin-Bible-Traditional				https://harmony.cx/epub/cmn
 Holy-Bible---Chinese---Mandarin-Bible-Traditional				https://harmony.cx/pdf/cmncbt/cmncbt_prt.pdf	Holy-Bible---Chinese---Mandarin-Bible-Traditional---Source-Edition.pdf
 Holy-Bible---Chinese---Mandarin-Bible-Traditional				https://harmony.cx/sword/zip/cmncbt2023eb.zip	Holy-Bible---Chinese---Mandarin-Bible-Traditional---Source-Edition.SWORD.zip
 Holy-Bible---Chinese---Mandarin-Bible-Traditional				https://harmony.cx/Scriptures/cmncbt_vpl.zip	Holy-Bible---Chinese---Mandarin-Bible-Traditional---Source-Edition.VPL.zip
+Holy-Bible---Chinese---World-Chinese-Bible				https://harmony.cx/epub/cmnswcb.epub	Holy-Bible---Chinese---World-Chinese-Bible---Source-Edition.epub
+Holy-Bible---Chinese---World-Chinese-Bible				https://harmony.cx/pdf/cmnswcb/cmnswcb_prt.pdf	Holy-Bible---Chinese---World-Chinese-Bible---Source-Edition.pdf
+Holy-Bible---Chinese---World-Chinese-Bible				https://harmony.cx/sword/zip/cmnswcb2026eb.zip	Holy-Bible---Chinese---World-Chinese-Bible---Source-Edition.SWORD.zip
+Holy-Bible---Chinese---World-Chinese-Bible				https://harmony.cx/Scriptures/cmnswcb_vpl.zip	Holy-Bible---Chinese---World-Chinese-Bible---Source-Edition.VPL.zip
 Holy-Bible---Chin-Matu---Matupi-Chin-2019				https://harmony.cx/epub/hltmcsb.epub	Holy-Bible---Chin-Matu---Matupi-Chin-2019---Source-Edition.epub
 Holy-Bible---Chin-Matu---Matupi-Chin-2019				https://harmony.cx/pdf/hltmcsb/hltmcsb_all.pdf	Holy-Bible---Chin-Matu---Matupi-Chin-2019---Source-Edition.pdf
 Holy-Bible---Chin-Matu---Matupi-Chin-2019				https://harmony.cx/sword/zip/hltmcsb2019eb.zip	Holy-Bible---Chin-Matu---Matupi-Chin-2019---Source-Edition.SWORD.zip
@@ -665,6 +669,7 @@ Holy-Bible---Greek---Greek-SBL				https://harmony.cx/sword/zip/grcsbl2010eb.zip	
 Holy-Bible---Greek---Greek-SBL				https://harmony.cx/Scriptures/grcsbl_vpl.zip	Holy-Bible---Greek---Greek-SBL---Source-Edition.VPL.zip
 Holy-Bible---Greek---Greek-Scrivener				https://bible4u.net/static/bible_files/txt/TR1894_txt.zip	Holy-Bible---Greek---Greek-Scrivener---Source-Edition.B4U.zip
 Holy-Bible---Greek---Greek-Scrivener				https://bible4u.net/static/bible_files/pdf/TR1894.pdf	Holy-Bible---Greek---Greek-Scrivener---Source-Edition.pdf
+Holy-Bible---Greek---Greek-Statistical-Koine	SWORD			https://crosswire.org/ftpmirror/pub/sword/packages/rawzip/SRKoine.zip	Holy-Bible---Greek---Greek-Statistical-Koine---Source-Edition.SWORD.zip
 Holy-Bible---Greek---Greek-Statistical-Restoration	SWORD			https://crosswire.org/ftpmirror/pub/sword/packages/rawzip/StatResGNT.zip	Holy-Bible---Greek---Greek-Statistical-Restoration---Source-Edition.SWORD.zip
 Holy-Bible---Greek---Greek-STEPBible				./aion_source/Holy-Bible---Greek---Greek-STEPBible---Source-Edition.STEP.txt	Holy-Bible---Greek---Greek-STEPBible---Source-Edition.STEP.txt
 Holy-Bible---Greek---Greek-Stephanus				https://bible4u.net/static/bible_files/txt/TR1550_txt.zip	Holy-Bible---Greek---Greek-Stephanus---Source-Edition.B4U.zip
@@ -837,6 +842,10 @@ Holy-Bible---Janji---Janji-Bible				https://harmony.cx/sword/zip/jni2020eb.zip	H
 Holy-Bible---Janji---Janji-Bible				https://harmony.cx/Scriptures/jni_vpl.zip	Holy-Bible---Janji---Janji-Bible---Source-Edition.VPL.zip
 Holy-Bible---Japanese---Japanese-Bungo-yaku	SWORD			https://crosswire.org/ftpmirror/pub/sword/packages/rawzip/JapBungo.zip	Holy-Bible---Japanese---Japanese-Bungo-yaku---Source-Edition.SWORD.zip
 Holy-Bible---Japanese---Japanese-Electronic-Network-Bible	SWORD			https://crosswire.org/ftpmirror/pub/sword/packages/rawzip/JapDenmo.zip	Holy-Bible---Japanese---Japanese-Electronic-Network-Bible---Source-Edition.SWORD.zip
+Holy-Bible---Japanese---Japanese-Freedom-Bible				https://harmony.cx/epub/jpnm.epub	Holy-Bible---Japanese---Japanese-Freedom-Bible---Source-Edition.epub
+Holy-Bible---Japanese---Japanese-Freedom-Bible				https://harmony.cx/pdf/jpnm/jpnm_all.pdf	Holy-Bible---Japanese---Japanese-Freedom-Bible---Source-Edition.pdf
+Holy-Bible---Japanese---Japanese-Freedom-Bible				https://harmony.cx/sword/zip/jpnmeb.zip	Holy-Bible---Japanese---Japanese-Freedom-Bible---Source-Edition.SWORD.zip
+Holy-Bible---Japanese---Japanese-Freedom-Bible				https://harmony.cx/Scriptures/jpnm_vpl.zip	Holy-Bible---Japanese---Japanese-Freedom-Bible---Source-Edition.VPL.zip
 Holy-Bible---Japanese---Japanese-Kougo-yaku	SWORD			https://crosswire.org/ftpmirror/pub/sword/packages/rawzip/JapKougo.zip	Holy-Bible---Japanese---Japanese-Kougo-yaku---Source-Edition.SWORD.zip
 Holy-Bible---Japanese---Japanese-Meiji-yaku	SWORD			./aion_source/JapMeiji.zip	Holy-Bible---Japanese---Japanese-Meiji-yaku---Source-Edition.SWORD.zip
 Holy-Bible---Japanese---Japanese-Raguet-yaku	SWORD			https://crosswire.org/ftpmirror/pub/sword/packages/rawzip/JapRaguet.zip	Holy-Bible---Japanese---Japanese-Raguet-yaku---Source-Edition.SWORD.zip
@@ -1483,7 +1492,12 @@ Holy-Bible---Somau-Karia---Somau-Karia-Bible				https://harmony.cx/epub/six.epub
 Holy-Bible---Somau-Karia---Somau-Karia-Bible				https://harmony.cx/pdf/six/six_prt.pdf	Holy-Bible---Somau-Karia---Somau-Karia-Bible---Source-Edition.pdf
 Holy-Bible---Somau-Karia---Somau-Karia-Bible				https://harmony.cx/sword/zip/six2024eb.zip	Holy-Bible---Somau-Karia---Somau-Karia-Bible---Source-Edition.SWORD.zip
 Holy-Bible---Somau-Karia---Somau-Karia-Bible				https://harmony.cx/Scriptures/six_vpl.zip	Holy-Bible---Somau-Karia---Somau-Karia-Bible---Source-Edition.VPL.zip
+Holy-Bible---Spanish---Biblia-Libre-Latino				https://harmony.cx/epub/spabll.epub	Holy-Bible---Spanish---Biblia-Libre-Latino---Source-Edition.epub
+Holy-Bible---Spanish---Biblia-Libre-Latino				https://harmony.cx/pdf/spabll/spabll_all.pdf	Holy-Bible---Spanish---Biblia-Libre-Latino---Source-Edition.pdf
+Holy-Bible---Spanish---Biblia-Libre-Latino				https://harmony.cx/sword/zip/spablleb.zip	Holy-Bible---Spanish---Biblia-Libre-Latino---Source-Edition.SWORD.zip
+Holy-Bible---Spanish---Biblia-Libre-Latino				https://harmony.cx/Scriptures/spabll_vpl.zip	Holy-Bible---Spanish---Biblia-Libre-Latino---Source-Edition.VPL.zip
 Holy-Bible---Spanish---Biblia-Platense-Straubinger	SWORD			https://crosswire.org/ftpmirror/pub/sword/packages/rawzip/SpaPlatense.zip	Holy-Bible---Spanish---Biblia-Platense-Straubinger---Source-Edition.SWORD.zip
+Holy-Bible---Spanish---FelipeScioDeSanMiguel	SWORD			https://crosswire.org/ftpmirror/pub/sword/packages/rawzip/SpaScioNT.zip	Holy-Bible---Spanish---FelipeScioDeSanMiguel---Source-Edition.SWORD.zip
 Holy-Bible---Spanish---Free-Bible				https://harmony.cx/epub/spavbl.epub	Holy-Bible---Spanish---Free-Bible---Source-Edition.epub
 Holy-Bible---Spanish---Free-Bible				https://harmony.cx/pdf/spavbl/spavbl_all.pdf	Holy-Bible---Spanish---Free-Bible---Source-Edition.pdf
 Holy-Bible---Spanish---Free-Bible				https://harmony.cx/sword/zip/spavbl2018eb.zip	Holy-Bible---Spanish---Free-Bible---Source-Edition.SWORD.zip
@@ -1577,6 +1591,10 @@ Holy-Bible---Telugu---Telugu-Open-Contemporary				https://harmony.cx/epub/telots
 Holy-Bible---Telugu---Telugu-Open-Contemporary				https://harmony.cx/pdf/telotsa/telotsa_prt.pdf	Holy-Bible---Telugu---Telugu-Open-Contemporary---Source-Edition.pdf
 Holy-Bible---Telugu---Telugu-Open-Contemporary				https://harmony.cx/sword/zip/telotsa2024eb.zip	Holy-Bible---Telugu---Telugu-Open-Contemporary---Source-Edition.SWORD.zip
 Holy-Bible---Telugu---Telugu-Open-Contemporary				https://harmony.cx/Scriptures/telotsa_vpl.zip	Holy-Bible---Telugu---Telugu-Open-Contemporary---Source-Edition.VPL.zip
+Holy-Bible---Thai---Thai-Freedom-Bible				https://harmony.cx/epub/thafb.epub	Holy-Bible---Thai---Thai-Freedom-Bible---Source-Edition.epub
+Holy-Bible---Thai---Thai-Freedom-Bible				https://harmony.cx/pdf/thafb/thafb_all.pdf	Holy-Bible---Thai---Thai-Freedom-Bible---Source-Edition.pdf
+Holy-Bible---Thai---Thai-Freedom-Bible				https://harmony.cx/sword/zip/thafb2026eb.zip	Holy-Bible---Thai---Thai-Freedom-Bible---Source-Edition.SWORD.zip
+Holy-Bible---Thai---Thai-Freedom-Bible				https://harmony.cx/Scriptures/thafb_vpl.zip	Holy-Bible---Thai---Thai-Freedom-Bible---Source-Edition.VPL.zip
 Holy-Bible---Tharu-Rana---Rana-Tharu-Bible				https://harmony.cx/epub/thr.epub	Holy-Bible---Tharu-Rana---Rana-Tharu-Bible---Source-Edition.epub
 Holy-Bible---Tharu-Rana---Rana-Tharu-Bible				https://harmony.cx/pdf/thr/thr_prt.pdf	Holy-Bible---Tharu-Rana---Rana-Tharu-Bible---Source-Edition.pdf
 Holy-Bible---Tharu-Rana---Rana-Tharu-Bible				https://harmony.cx/sword/zip/thr2024eb.zip	Holy-Bible---Tharu-Rana---Rana-Tharu-Bible---Source-Edition.SWORD.zip

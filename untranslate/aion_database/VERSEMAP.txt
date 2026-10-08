@@ -110,6 +110,7 @@ Holy-Bible---Chinese---Chinese-Union-Version-Simplified	NONE
 Holy-Bible---Chinese---Chinese-Union-Version-Traditional	NONE
 Holy-Bible---Chinese---Mandarin-Bible-Simplified	NONE
 Holy-Bible---Chinese---Mandarin-Bible-Traditional	NONE
+Holy-Bible---Chinese---World-Chinese-Bible	ROM14-16
 Holy-Bible---Chin-Matu---Matupi-Chin-2019	NONE
 Holy-Bible---Chin-Matu---Matupi-Chin-Bible	NONE
 Holy-Bible---Chin-Matu---Tuivang-Matu-Chin-Bible	NONE
@@ -948,6 +949,7 @@ Holy-Bible---Greek---Greek-Nestle	NONE
 Holy-Bible---Greek---Greek-Pickering-Family-35	ROM14-16
 Holy-Bible---Greek---Greek-SBL	NONE
 Holy-Bible---Greek---Greek-Scrivener	NONE
+Holy-Bible---Greek---Greek-Statistical-Koine	NONE
 Holy-Bible---Greek---Greek-Statistical-Restoration	NONE
 Holy-Bible---Greek---Greek-STEPBible	NONE
 Holy-Bible---Greek---Greek-Stephanus	NONE
@@ -1254,6 +1256,7 @@ Holy-Bible---Italian---Italian-Riveduta-Bible	NONE
 Holy-Bible---Janji---Janji-Bible	NONE
 Holy-Bible---Japanese---Japanese-Bungo-yaku	NONE
 Holy-Bible---Japanese---Japanese-Electronic-Network-Bible	NONE
+Holy-Bible---Japanese---Japanese-Freedom-Bible	ROM14-16
 Holy-Bible---Japanese---Japanese-Kougo-yaku	NONE
 Holy-Bible---Japanese---Japanese-Meiji-yaku	NONE
 Holy-Bible---Japanese---Japanese-Raguet-yaku	2TH2
@@ -1788,6 +1791,7 @@ Holy-Bible---Slovene---Slovene-Stritarja-NT	NONE
 Holy-Bible---Soli---Soli-Bible	NONE
 Holy-Bible---Somali---Somali-Bible	NONE
 Holy-Bible---Somau-Karia---Somau-Karia-Bible	NONE
+Holy-Bible---Spanish---Biblia-Libre-Latino	ROM14-16
 Holy-Bible---Spanish---Biblia-Platense-Straubinger	NUM29-30
 Holy-Bible---Spanish---Biblia-Platense-Straubinger	1SA23-24
 Holy-Bible---Spanish---Biblia-Platense-Straubinger	JOB39-40-41-42
@@ -1800,6 +1804,7 @@ Holy-Bible---Spanish---Biblia-Platense-Straubinger	DAN100
 Holy-Bible---Spanish---Biblia-Platense-Straubinger	HOS13-14
 Holy-Bible---Spanish---Biblia-Platense-Straubinger	JON1-2
 Holy-Bible---Spanish---Biblia-Platense-Straubinger	HAG1-2
+Holy-Bible---Spanish---FelipeScioDeSanMiguel	NONE
 Holy-Bible---Spanish---Free-Bible-NT	NONE
 Holy-Bible---Spanish---Free-for-the-World	ROM14-16
 Holy-Bible---Spanish---Gods-Word-for-You	NONE
@@ -1858,6 +1863,7 @@ Holy-Bible---Tavoyan---Tavoyan-Bible	NONE
 Holy-Bible---Teke-Tyee---Teke-Tyee-Bible	NONE
 Holy-Bible---Telugu---Telugu-Bible	NONE
 Holy-Bible---Telugu---Telugu-Open-Contemporary	NONE
+Holy-Bible---Thai---Thai-Freedom-Bible	ROM14-16
 Holy-Bible---Tharu-Rana---Rana-Tharu-Bible	NONE
 Holy-Bible---Thur---Leb-Thur-Bible	NONE
 Holy-Bible---Tichurong---Tichurong-Bible	NONE

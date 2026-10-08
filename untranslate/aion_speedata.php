@@ -237,18 +237,17 @@ function AION_LOOP_PDF_POD($source, $destiny) {
 		//'include'	=> "/Holy-Bible---(Kannada|Malayalam|Myanmar|Sanskrit|Tamil).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---(Coptic).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(One-Unity).*---Aionian-Edition\.noia$/",
-
-		//'include'	=> "/Holy-Bible---.*(Ewe---Word-of-Life|Greek-Modern-Kathareuousa|Oromo---New-World|Twi---Akuapem-Twi-Bible|Twi---Asante-Twi-WASNA|Bhadrawahi-Bible|Coptic---Sahidic-Bible|Haryanvi-Bible|Lodhi-Bible|Baghlayani-Bible|Nepali-Bible|Chinese-Union-Version-Traditional|Hausa---Contemporary|Bahasa-Indonesia-Sehari-hari|Yoruba).*---Aionian-Edition\.noia$/",
-
+		//'include'	=> "/Holy-Bible---.*(Greek-Statistical-Koine).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Uyghur-Bible-Arabic).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---Coptic---Coptic-Boharic-NT---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---English---(World-English-Bible-Updated|Aionian-Bible)---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Cebuano---Cebuano-Open-Bible).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Yiddish).*---Aionian-Edition\.noia$/",
-		//'include'	=> "/Holy-Bible---.*(Khmer).*---Aionian-Edition\.noia$/",
+		//'include'	=> "/Holy-Bible---.*(World-Chinese|Statistical-Koine|Japanese-Freedom|Felipe|Biblia-Libre-Latino|Thai-Freedom).*---Aionian-Edition\.noia$/",
+		'include'	=> "/Holy-Bible---.*(Thai-Freedom).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---Abureni---Abureni-Bible---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---Spanish---Free-for-the-World---Aionian-Edition\.noia$/",
-		'include'	=> "/---Aionian-Edition\.noia$/",
+		//'include'	=> "/---Aionian-Edition\.noia$/",
 		'database'	=> $database,
 		'destiny'	=> $destiny,
 		'verses66'	=> $verses66,
@@ -473,26 +472,6 @@ function AION_LOOP_PDF_POD_DOIT($args) {
 			$verse['TEXT'] = str_replace($replace_char, $replace_with, $verse['TEXT']);
 			if ($verse['TEXT'] != $verse_orig) { AION_ECHO("JEFF NOTICE! Replacement in $bible at ".$verse['INDEX']." ".$verse['BOOK']." ".$verse['CHAPTER']." ".$verse['VERSE']." ".$verse['TEXT']); }
 		}
-		// HYPHEN
-		// begin each word part with \p{Letter} hoping that \p{Mark} are connected to correct letter, do not separate Marks from Letters
-		//https://www.regular-expressions.info/unicode.html
-		// \p{L}\p{M}\p{Z}\p{S}\p{N}\p{P}\p{C}
-		// currently only used by Finnish
-		// this worked but using above explicit hyphenation above instead for greater control
-		/*
-		if (!empty($forprint['HYPHEN'])) {
-			$hyphen_count = 0;
-			$before = $verse['TEXT'];
-			if (!($verse['TEXT'] = preg_replace("/([\p{L}\p{M}\p{S}\p{N}\p{C}]{{$forprint['HYPHEN']}})(\p{L}[\p{L}\p{M}\p{S}\p{N}\p{C}]{{$forprint['HYPHEN']}})/ui", '$1-$2', $verse['TEXT'], -1, $hyphen_count))) {
-				AION_ECHO("ERROR! $bible preg_replace(hyphen) error: ".preg_last_error() . " $ref $before ".$verse['TEXT']);
-			}
-			if ($hyphen_count) {
-				AION_ECHO("HYPHEN VERSE\t$hyphen_count\t$bible\t$ref\t$before\t".$verse['TEXT']);
-				$hyphen_total += $hyphen_count;
-			}
-		}
-		*/
-
 		// VERSE FORMAT
 		$count_q = $count_g = 0;
 		// question span
@@ -526,6 +505,12 @@ function AION_LOOP_PDF_POD_DOIT($args) {
 	$langspeed	= trim(!empty($forprint['LANGSPEED']) ? $forprint['LANGSPEED'] : "English (USA)" );
 	AION_GLOSSARY_REFERENCES_PUT( $bible, $database, $args, !empty($forprint['ISBNLU22']), $langspeed);
 	AION_ECHO("SPEEDATA $bible: BIBLE CREATION SUCCESS! $DATA");
+
+	// Thai special attention
+	//~/thai-env/bin/python thai_zwsp.py input.xml output.xml	
+	if ('Thai'===$forprint['SPECIAL']) {
+		system("mv $DATA $DATA.ORIG; ~/thai-env/bin/python ~/public_html/domain.aionianbible.org/untranslate/aion_X_thai_zwsp.py $DATA.ORIG $DATA;");
+	}
 	
 	// UNSET
 	AION_unset($database['T_BIBLE']); unset($database['T_BIBLE']); $database['T_BIBLE']=NULL;

@@ -55,8 +55,9 @@ Holy-Bible---Chinese---Chinese-Easy-to-Read	1		永,世	地狱,阴间,塔耳塔�
 Holy-Bible---Chinese---Chinese-Sigao-Bible	1		永,世	地獄,陰間,塔耳塔洛斯 深淵,無底坑,火湖	地獄,陰間,欣嫩子穀,塔耳塔洛斯 深淵,無底坑,火湖	地獄,陰間	地獄,欣嫩子穀	地獄,陰間	地獄,塔耳塔洛斯 深淵	無底坑	火湖	NULL
 Holy-Bible---Chinese---Chinese-Union-Version-Simplified	1		永,世	地狱,阴间,塔耳塔洛斯 深渊,无底坑,火湖	地狱,阴间,欣嫩子谷,塔耳塔洛斯 深渊,无底坑,火湖	地狱,阴间	地狱,欣嫩子谷	地狱,阴间	地狱,塔耳塔洛斯 深渊	无底坑	火湖	NULL
 Holy-Bible---Chinese---Chinese-Union-Version-Traditional	1		永,世	地獄,陰間,塔耳塔洛斯 深淵,無底坑,火湖	地獄,陰間,欣嫩子穀,塔耳塔洛斯 深淵,無底坑,火湖	地獄,陰間	地獄,欣嫩子穀	地獄,陰間	地獄,塔耳塔洛斯 深淵	無底坑	火湖	NULL
-Holy-Bible---Chinese---Mandarin-Bible-Simplified	0											NULL
-Holy-Bible---Chinese---Mandarin-Bible-Traditional	0											NULL
+Holy-Bible---Chinese---Mandarin-Bible-Simplified	1		永,世	地獄,陰間,塔耳塔洛斯 深淵,無底坑,火湖	地獄,陰間,欣嫩子穀,塔耳塔洛斯 深淵,無底坑,火湖	地獄,陰間	地獄,欣嫩子穀	地獄,陰間	地獄,塔耳塔洛斯 深淵	無底坑	火湖	NULL
+Holy-Bible---Chinese---Mandarin-Bible-Traditional	1		永,世	地獄,陰間,塔耳塔洛斯 深淵,無底坑,火湖	地獄,陰間,欣嫩子穀,塔耳塔洛斯 深淵,無底坑,火湖	地獄,陰間	地獄,欣嫩子穀	地獄,陰間	地獄,塔耳塔洛斯 深淵	無底坑	火湖	NULL
+Holy-Bible---Chinese---World-Chinese-Bible	1		永,世	地獄,陰間,塔耳塔洛斯 深淵,無底坑,火湖	地獄,陰間,欣嫩子穀,塔耳塔洛斯 深淵,無底坑,火湖	地獄,陰間	地獄,欣嫩子穀	地獄,陰間	地獄,塔耳塔洛斯 深淵	無底坑	火湖	NULL
 Holy-Bible---Chin-Matu---Matupi-Chin-2019	0											NULL
 Holy-Bible---Chin-Matu---Matupi-Chin-Bible	0											NULL
 Holy-Bible---Chin-Matu---Tuivang-Matu-Chin-Bible	0											NULL
@@ -221,6 +222,7 @@ Holy-Bible---Greek---Greek-Nestle	0											NULL
 Holy-Bible---Greek---Greek-Pickering-Family-35	0											NULL
 Holy-Bible---Greek---Greek-SBL	0											NULL
 Holy-Bible---Greek---Greek-Scrivener	0											NULL
+Holy-Bible---Greek---Greek-Statistical-Koine	0											NULL
 Holy-Bible---Greek---Greek-Statistical-Restoration	0											NULL
 Holy-Bible---Greek---Greek-STEPBible	0											NULL
 Holy-Bible---Greek---Greek-Stephanus	0											NULL
@@ -278,6 +280,7 @@ Holy-Bible---Italian---Italian-Riveduta-Bible	0		sempiterno,eterno,eterna,l’et
 Holy-Bible---Janji---Janji-Bible	0											NULL
 Holy-Bible---Japanese---Japanese-Bungo-yaku	1			地獄								NULL
 Holy-Bible---Japanese---Japanese-Electronic-Network-Bible	1			地獄								NULL
+Holy-Bible---Japanese---Japanese-Freedom-Bible	1			地獄								NULL
 Holy-Bible---Japanese---Japanese-Kougo-yaku	1			地獄								NULL
 Holy-Bible---Japanese---Japanese-Meiji-yaku	1			地獄								NULL
 Holy-Bible---Japanese---Japanese-Raguet-yaku	1			地獄								NULL
@@ -461,7 +464,9 @@ Holy-Bible---Slovene---Slovene-Stritarja-NT	0			pekel,pekla,peklu,peklenski					
 Holy-Bible---Soli---Soli-Bible	0											NULL
 Holy-Bible---Somali---Somali-Bible	0			jahannamada								NULL
 Holy-Bible---Somau-Karia---Somau-Karia-Bible	0											NULL
+Holy-Bible---Spanish---Biblia-Libre-Latino	0		eterna,eternas,eternos,eterno,el venidero,siglo,mundo,siempre,eternamente,jamás,siglos,sempiterno,eternalmente,perpetuamente,eternidad	infierno,lago de fuego,los infiernos	infierno,gehenna,lago de fuego,abismo,,los infiernos	infierno,sepultura,sepulcro,abismo,el profundo,descenderán,los infiernos	infierno,gehenna	infierno,los infiernos,sepulcro	infierno	abismo	lago de fuego,lago ardiendo con fuego	NULL
 Holy-Bible---Spanish---Biblia-Platense-Straubinger	0		eterna,eternas,eternos,eterno,el venidero,siglo,mundo,siempre,eternamente,jamás,siglos,sempiterno,eternalmente,perpetuamente,eternidad	infierno,lago de fuego,los infiernos	infierno,gehenna,lago de fuego,abismo,,los infiernos	infierno,sepultura,sepulcro,abismo,el profundo,descenderán,los infiernos	infierno,gehenna	infierno,los infiernos,sepulcro	infierno	abismo	lago de fuego,lago ardiendo con fuego	NULL
+Holy-Bible---Spanish---FelipeScioDeSanMiguel	0		eterna,eternas,eternos,eterno,el venidero,siglo,mundo,siempre,eternamente,jamás,siglos,sempiterno,eternalmente,perpetuamente,eternidad	infierno,lago de fuego,los infiernos	infierno,gehenna,lago de fuego,abismo,,los infiernos	infierno,sepultura,sepulcro,abismo,el profundo,descenderán,los infiernos	infierno,gehenna	infierno,los infiernos,sepulcro	infierno	abismo	lago de fuego,lago ardiendo con fuego	NULL
 Holy-Bible---Spanish---Free-Bible	0		eterna,eternas,eternos,eterno,el venidero,siglo,mundo,siempre,eternamente,jamás,siglos,sempiterno,eternalmente,perpetuamente,eternidad	infierno,lago de fuego,los infiernos	infierno,gehenna,lago de fuego,abismo,,los infiernos	infierno,sepultura,sepulcro,abismo,el profundo,descenderán,los infiernos	infierno,gehenna	infierno,los infiernos,sepulcro	infierno	abismo	lago de fuego,lago ardiendo con fuego	NULL
 Holy-Bible---Spanish---Free-for-the-World	0		eterna,eternas,eternos,eterno,el venidero,siglo,mundo,siempre,eternamente,jamás,siglos,sempiterno,eternalmente,perpetuamente,eternidad	infierno,lago de fuego,los infiernos	infierno,gehenna,lago de fuego,abismo,,los infiernos	infierno,sepultura,sepulcro,abismo,el profundo,descenderán,los infiernos	infierno,gehenna	infierno,los infiernos,sepulcro	infierno	abismo	lago de fuego,lago ardiendo con fuego	NULL
 Holy-Bible---Spanish---Gods-Word-for-You	0		eterna,eternas,eternos,eterno,el venidero,siglo,mundo,siempre,eternamente,jamás,siglos,sempiterno,eternalmente,perpetuamente,eternidad	infierno,lago de fuego,los infiernos	infierno,gehenna,lago de fuego,abismo,,los infiernos	infierno,sepultura,sepulcro,abismo,el profundo,descenderán,los infiernos	infierno,gehenna	infierno,los infiernos,sepulcro	infierno	abismo	lago de fuego,lago ardiendo con fuego	NULL
@@ -491,6 +496,7 @@ Holy-Bible---Tavoyan---Tavoyan-Bible	0											NULL
 Holy-Bible---Teke-Tyee---Teke-Tyee-Bible	0											NULL
 Holy-Bible---Telugu---Telugu-Bible	0			నరకాగ్ని,నరకంలో,నరకాగ్నికి గురై								NULL
 Holy-Bible---Telugu---Telugu-Open-Contemporary	0			నరకాగ్ని,నరకంలో,నరకాగ్నికి గురై								NULL
+Holy-Bible---Thai---Thai-Freedom-Bible	0											NULL
 Holy-Bible---Tharu-Rana---Rana-Tharu-Bible	0											NULL
 Holy-Bible---Thur---Leb-Thur-Bible	0											NULL
 Holy-Bible---Tichurong---Tichurong-Bible	0											NULL

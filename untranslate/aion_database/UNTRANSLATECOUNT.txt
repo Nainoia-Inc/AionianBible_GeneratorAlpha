@@ -1,6 +1,6 @@
 # File Name: UNTRANSLATECOUNT.txt
-# File Size: 53462       
-# File Date: 10/02/2026 20:33:07
+# File Size: 54077       
+# File Date: 10/08/2026 11:42:01
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution 4.0 International, 2018-2026
@@ -75,8 +75,9 @@ Holy-Bible---Chinese---Chinese-Easy-to-Read	9	0	0	12	1	11	9	1	5	94	63	10	2	0	3	0
 Holy-Bible---Chinese---Chinese-Sigao-Bible	24	6	64	12	1	11	9	1	5	94	63	10	2	0	1	6	272	265	264	0	0	0	1
 Holy-Bible---Chinese---Chinese-Union-Version-Simplified	114	1	64	12	1	11	9	1	5	94	63	10	2	0	0	1	272	264	264	0	0	0	0
 Holy-Bible---Chinese---Chinese-Union-Version-Traditional	104	1	64	12	1	11	9	1	5	94	63	10	2	0	1	1	272	265	264	0	0	0	1
-Holy-Bible---Chinese---Mandarin-Bible-Simplified	0	0	64	12	1	11	9	1	5	94	63	10	2	0	1	0	272	264	263	1	0	0	1
-Holy-Bible---Chinese---Mandarin-Bible-Traditional	0	0	64	12	1	11	9	1	5	94	63	10	2	0	1	0	272	264	263	1	0	0	1
+Holy-Bible---Chinese---Mandarin-Bible-Simplified	6	0	64	12	1	11	9	1	5	94	63	10	2	0	1	0	272	264	263	1	0	0	1
+Holy-Bible---Chinese---Mandarin-Bible-Traditional	111	9	64	12	1	11	9	1	5	94	63	10	2	0	1	9	272	264	263	1	0	0	1
+Holy-Bible---Chinese---World-Chinese-Bible	4	0	64	12	1	11	9	1	5	94	63	10	2	0	0	0	272	264	264	0	0	0	0
 Holy-Bible---Chiyawo---Yao	0	0	0	12	1	11	9	1	5	94	63	10	2	0	1	0	208	201	200	0	64	0	1
 Holy-Bible---Cishingini---Cishingini-Bible	0	0	49	0	0	0	0	0	0	0	0	0	0	0	0	0	49	49	49	0	215	0	0
 Holy-Bible---Coptic---Coptic-Boharic-NT	0	0	0	12	1	11	9	1	5	94	63	10	2	0	1	0	208	201	200	0	64	0	1
@@ -236,6 +237,7 @@ Holy-Bible---Greek---Greek-Pickering-Family-35	0	0	0	12	1	11	9	1	5	94	63	10	2	0	
 Holy-Bible---Greek---Greek-SBL	0	0	0	12	1	11	9	1	5	93	61	10	2	0	1	0	205	198	197	0	64	3	1
 Holy-Bible---Greek---Greek-STEPBible	0	0	0	12	1	11	9	1	5	94	63	10	2	0	0	0	208	200	200	0	64	0	0
 Holy-Bible---Greek---Greek-Scrivener	0	0	0	12	1	11	9	1	5	94	63	10	2	0	1	0	208	201	200	0	64	0	1
+Holy-Bible---Greek---Greek-Statistical-Koine	0	0	0	12	1	11	9	1	5	94	63	10	2	0	0	0	208	200	200	0	64	0	0
 Holy-Bible---Greek---Greek-Statistical-Restoration	0	0	0	12	1	11	9	1	5	94	63	10	2	0	0	0	208	200	200	0	64	0	0
 Holy-Bible---Greek---Greek-Stephanus	0	0	0	12	1	11	9	1	5	94	63	10	2	0	1	0	208	201	200	0	64	0	1
 Holy-Bible---Greek---Greek-TR-Stephanus-Scrivener	0	0	0	12	1	11	9	1	5	94	63	10	2	0	1	0	208	201	200	0	64	0	1
@@ -292,6 +294,7 @@ Holy-Bible---Italian---Italian-Riveduta-Bible	0	0	64	12	1	11	9	1	5	94	63	10	2	0	
 Holy-Bible---Janji---Janji-Bible	0	0	0	12	1	11	9	1	5	94	63	10	2	0	2	0	208	201	199	1	64	0	2
 Holy-Bible---Japanese---Japanese-Bungo-yaku	0	0	64	12	1	11	9	1	5	94	63	10	2	0	0	0	272	264	264	0	0	0	0
 Holy-Bible---Japanese---Japanese-Electronic-Network-Bible	0	0	0	12	0	6	1	1	0	50	42	10	1	0	1	0	123	119	118	0	146	0	1
+Holy-Bible---Japanese---Japanese-Freedom-Bible	0	0	64	12	1	11	9	1	5	94	63	10	2	0	0	0	272	264	264	0	0	0	0
 Holy-Bible---Japanese---Japanese-Kougo-yaku	0	3	64	12	1	11	9	1	5	94	63	10	2	0	0	3	272	264	264	0	0	0	0
 Holy-Bible---Japanese---Japanese-Meiji-yaku	0	0	52	0	0	0	0	0	0	0	0	0	0	0	0	0	52	52	52	0	212	0	0
 Holy-Bible---Japanese---Japanese-Raguet-yaku	0	1	0	12	1	11	9	1	5	94	62	10	2	0	5	1	207	202	200	0	64	0	2
@@ -475,7 +478,9 @@ Holy-Bible---Slovene---Slovene-Stritarja-NT	0	0	15	12	1	11	9	1	5	94	63	10	2	0	1	
 Holy-Bible---Soli---Soli-Bible	0	0	0	12	1	11	9	1	5	94	63	10	2	0	1	0	208	201	200	0	64	0	1
 Holy-Bible---Somali---Somali-Bible	0	0	64	12	1	11	9	1	5	94	63	10	2	0	0	0	272	264	264	0	0	0	0
 Holy-Bible---Somau-Karia---Somau-Karia-Bible	0	0	0	1	0	4	1	0	0	21	15	2	0	0	1	0	44	43	42	1	221	0	1
+Holy-Bible---Spanish---Biblia-Libre-Latino	39	0	64	12	1	11	9	1	5	94	63	10	2	0	0	0	272	264	264	0	0	0	0
 Holy-Bible---Spanish---Biblia-Platense-Straubinger	70	0	64	12	1	11	9	1	5	94	63	10	2	0	0	0	272	264	264	0	0	0	0
+Holy-Bible---Spanish---FelipeScioDeSanMiguel	22	2	0	12	1	11	9	1	5	94	63	10	2	0	2	2	208	201	200	0	64	0	1
 Holy-Bible---Spanish---Free-Bible	17	0	64	12	1	11	9	1	5	94	63	10	2	0	1	0	272	265	264	0	0	0	1
 Holy-Bible---Spanish---Free-for-the-World	41	0	64	12	1	11	9	1	5	94	63	10	2	0	1	0	272	265	264	0	0	0	1
 Holy-Bible---Spanish---Gods-Word-for-You	44	0	64	12	1	11	9	1	5	94	63	10	2	0	1	0	272	265	264	0	0	0	1
@@ -483,7 +488,7 @@ Holy-Bible---Spanish---Reina-Valera-1865	74	0	64	12	1	11	9	1	5	94	63	10	2	0	1	0	
 Holy-Bible---Spanish---Reina-Valera-1909	73	1	64	12	1	11	9	1	5	94	63	10	2	0	1	1	272	265	264	0	0	0	1
 Holy-Bible---Spanish---Reina-Valera-NT-1858	36	0	0	12	1	11	9	1	5	94	63	10	2	0	1	0	208	201	200	0	64	0	1
 Holy-Bible---Spanish---Sagradas-Escrituras-1569	69	1	64	12	1	11	9	1	5	94	63	10	2	0	1	1	272	265	264	0	0	0	1
-Holy-Bible---Spanish---Sencillo-Bible	39	0	64	12	1	11	9	1	5	94	63	10	2	0	1	0	272	265	264	0	0	0	1
+Holy-Bible---Spanish---Sencillo-Bible	35	0	64	12	1	11	9	1	5	94	63	10	2	0	1	0	272	265	264	0	0	0	1
 Holy-Bible---Spanish---Spanish-New-Open-Bible	58	4	64	12	1	11	9	1	5	94	62	10	2	0	4	4	271	263	259	5	0	0	4
 Holy-Bible---Swahili---Contemporary	41	3	64	12	1	11	9	1	5	94	63	10	2	0	0	3	272	264	264	0	0	0	0
 Holy-Bible---Swahili---New-Swahili-Bible	59	0	64	12	1	11	9	1	5	94	63	10	2	0	0	0	272	264	264	0	0	0	0
@@ -505,6 +510,7 @@ Holy-Bible---Tavoyan---Tavoyan-Bible	0	0	0	12	1	11	9	1	5	94	63	10	2	0	0	0	208	20
 Holy-Bible---Teke-Tyee---Teke-Tyee-Bible	0	0	0	12	1	11	9	1	5	94	63	10	2	0	0	0	208	200	200	0	64	0	0
 Holy-Bible---Telugu---Telugu-Bible	0	1	64	12	1	11	9	1	5	94	62	10	2	0	4	1	271	266	264	0	0	0	2
 Holy-Bible---Telugu---Telugu-Open-Contemporary	0	4	64	12	1	11	9	1	5	93	61	12	2	0	8	4	271	263	257	7	0	0	6
+Holy-Bible---Thai---Thai-Freedom-Bible	0	0	54	12	1	11	9	1	5	94	63	10	2	0	0	0	262	254	254	0	10	0	0
 Holy-Bible---Tharu-Rana---Rana-Tharu-Bible	0	0	0	12	1	11	9	1	5	94	63	10	2	0	0	0	208	200	200	0	64	0	0
 Holy-Bible---Thur---Leb-Thur-Bible	0	0	5	12	1	7	2	0	0	59	46	10	1	0	0	0	143	138	138	0	126	0	0
 Holy-Bible---Tichurong---Tichurong-Bible	0	0	0	0	0	2	0	0	0	12	17	4	0	0	0	0	35	33	33	0	231	0	0

@@ -1,6 +1,6 @@
 # File Name: CHECKDATA.txt
-# File Size: 10609547    
-# File Date: 10/02/2026 20:48:33
+# File Size: 10645061    
+# File Date: 10/08/2026 11:56:25
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution 4.0 International, 2018-2026
@@ -1937,6 +1937,25 @@ Holy-Bible---Chinese---Mandarin-Bible-Traditional	Sour txt != Sta2	066-REV-013-0
 Holy-Bible---Chinese---Mandarin-Bible-Traditional	Sour txt != Aion	066-REV-013-001	066	REV	013	001	我又看見一隻怪獸從海中上來，有七頭十角，每隻角上都戴著一個冠冕，每個頭上都寫著褻瀆上帝的名號。
 Holy-Bible---Chinese---Mandarin-Bible-Traditional	Sour txt != Aio2	066-REV-013-001	066	REV	013	001	那時巨龍站在海邊的沙地上。 我又看見一隻怪獸從海中上來，有七頭十角，每隻角上都戴著一個冠冕，每個頭上都寫著褻瀆上帝的名號。
 Holy-Bible---Chinese---Mandarin-Bible-Traditional	Data checks: aionian=30959 standard=30959 source=30961						
+Holy-Bible---Chinese---World-Chinese-Bible	Aion txt != Sour	041-MAR-016-009	041	MAR	016	009	(note: The most reliable and earliest manuscripts do not include Mark 16:9-20.) 在一周的第一天清晨，耶稣复活后，首先向抹大拉的马利亚显现；祂曾从她身上赶出七个鬼。
+Holy-Bible---Chinese---World-Chinese-Bible	Aion txt != Sou2	041-MAR-016-009	041	MAR	016	009	在一周的第一天清晨，耶稣复活后，首先向抹大拉的马利亚显现；祂曾从她身上赶出七个鬼。
+Holy-Bible---Chinese---World-Chinese-Bible	Aion txt != Stan	043-JOH-003-015	043	JOH	003	015	叫一切信祂的，不致灭亡，反得永生。 (aiōnios g166)
+Holy-Bible---Chinese---World-Chinese-Bible	Aion txt != Sta2	043-JOH-003-015	043	JOH	003	015	叫一切信祂的，不致灭亡，反得永生。
+Holy-Bible---Chinese---World-Chinese-Bible	Aion txt != Sour	043-JOH-003-015	043	JOH	003	015	叫一切信祂的，不致灭亡，反得永生。 (aiōnios g166)
+Holy-Bible---Chinese---World-Chinese-Bible	Aion txt != Sou2	043-JOH-003-015	043	JOH	003	015	叫一切信祂的，不致灭亡，反得永生。
+Holy-Bible---Chinese---World-Chinese-Bible	Aion txt != Stan	043-JOH-003-016	043	JOH	003	016	上帝爱世人，甚至将祂的独生 子赐给他们，叫一切信祂的，不致灭亡，反得永生。 (aiōnios g166)
+Holy-Bible---Chinese---World-Chinese-Bible	Aion txt != Sta2	043-JOH-003-016	043	JOH	003	016	上帝爱世人，甚至将祂的独生 子赐给他们，叫一切信祂的，不致灭亡，反得永生。
+Holy-Bible---Chinese---World-Chinese-Bible	Aion txt != Sour	043-JOH-003-016	043	JOH	003	016	上帝爱世人，甚至将祂的独生 子赐给他们，叫一切信祂的，不致灭亡，反得永生。 (aiōnios g166)
+Holy-Bible---Chinese---World-Chinese-Bible	Aion txt != Sou2	043-JOH-003-016	043	JOH	003	016	上帝爱世人，甚至将祂的独生 子赐给他们，叫一切信祂的，不致灭亡，反得永生。
+Holy-Bible---Chinese---World-Chinese-Bible	Sour txt != Stan	041-MAR-016-009	041	MAR	016	009	在一周的第一天清晨，耶稣复活后，首先向抹大拉的马利亚显现；祂曾从她身上赶出七个鬼。
+Holy-Bible---Chinese---World-Chinese-Bible	Sour txt != Sta2	041-MAR-016-009	041	MAR	016	009	(note: The most reliable and earliest manuscripts do not include Mark 16:9-20.) 在一周的第一天清晨，耶稣复活后，首先向抹大拉的马利亚显现；祂曾从她身上赶出七个鬼。
+Holy-Bible---Chinese---World-Chinese-Bible	Sour txt != Aion	041-MAR-016-009	041	MAR	016	009	在一周的第一天清晨，耶稣复活后，首先向抹大拉的马利亚显现；祂曾从她身上赶出七个鬼。
+Holy-Bible---Chinese---World-Chinese-Bible	Sour txt != Aio2	041-MAR-016-009	041	MAR	016	009	(note: The most reliable and earliest manuscripts do not include Mark 16:9-20.) 在一周的第一天清晨，耶稣复活后，首先向抹大拉的马利亚显现；祂曾从她身上赶出七个鬼。
+Holy-Bible---Chinese---World-Chinese-Bible	Sour txt != Aion	043-JOH-003-015	043	JOH	003	015	叫一切信祂的，不致灭亡，反得永生。
+Holy-Bible---Chinese---World-Chinese-Bible	Sour txt != Aio2	043-JOH-003-015	043	JOH	003	015	叫一切信祂的，不致灭亡，反得永生。 (aiōnios g166)
+Holy-Bible---Chinese---World-Chinese-Bible	Sour txt != Aion	043-JOH-003-016	043	JOH	003	016	上帝爱世人，甚至将祂的独生 子赐给他们，叫一切信祂的，不致灭亡，反得永生。
+Holy-Bible---Chinese---World-Chinese-Bible	Sour txt != Aio2	043-JOH-003-016	043	JOH	003	016	上帝爱世人，甚至将祂的独生 子赐给他们，叫一切信祂的，不致灭亡，反得永生。 (aiōnios g166)
+Holy-Bible---Chinese---World-Chinese-Bible	Data checks: aionian=31091 standard=31091 source=31096						
 Holy-Bible---Chiyawo---Yao	Aion txt != Sour	041-MAR-016-009	041	MAR	016	009	(note: The most reliable and earliest manuscripts do not include Mark 16:9-20.) Che Yesu paŵasyuchile, kundaŵi pe, lyuŵa lyaandanda lya chijuma ŵankopochele kaje che Maliamu jwa musi wa ku Magidala, ajula jwaŵankopwesye masoka nsano ni gaŵili.
 Holy-Bible---Chiyawo---Yao	Aion txt != Sou2	041-MAR-016-009	041	MAR	016	009	Che Yesu paŵasyuchile, kundaŵi pe, lyuŵa lyaandanda lya chijuma ŵankopochele kaje che Maliamu jwa musi wa ku Magidala, ajula jwaŵankopwesye masoka nsano ni gaŵili.
 Holy-Bible---Chiyawo---Yao	Aion txt != Stan	043-JOH-003-015	043	JOH	003	015	kuti jwalijose juchankulupilile akole umi wa moŵa gose pangali mbesi. (aiōnios g166)
@@ -12664,14 +12683,14 @@ Holy-Bible---French---French-Louis-Segond-1910-Bible	Aion txt != Sour	041-MAR-01
 Holy-Bible---French---French-Louis-Segond-1910-Bible	Aion txt != Sou2	041-MAR-010-053	041	MAR	010	052	Aussitôt il recouvra la vue, et suivit Jésus dans le chemin.
 Holy-Bible---French---French-Louis-Segond-1910-Bible	Aion txt != Sour	041-MAR-016-009	041	MAR	016	009	(note: The most reliable and earliest manuscripts do not include Mark 16:9-20.) Jésus, étant ressuscité le matin du premier jour de la semaine, apparut d’abord à Marie de Magdala, de laquelle il avait chassé sept démons.
 Holy-Bible---French---French-Louis-Segond-1910-Bible	Aion txt != Sou2	041-MAR-016-009	041	MAR	016	009	Jésus, étant ressuscité le matin du premier jour de la semaine, apparut d’abord à Marie de Magdala, de laquelle il avait chassé sept démons.
-Holy-Bible---French---French-Louis-Segond-1910-Bible	Aion txt != Stan	043-JOH-003-015	043	JOH	003	015	afin que quiconque croit en luiait la vie éternelle. (aiōnios g166)
-Holy-Bible---French---French-Louis-Segond-1910-Bible	Aion txt != Sta2	043-JOH-003-015	043	JOH	003	015	afin que quiconque croit en luiait la vie éternelle.
-Holy-Bible---French---French-Louis-Segond-1910-Bible	Aion txt != Sour	043-JOH-003-015	043	JOH	003	015	afin que quiconque croit en luiait la vie éternelle. (aiōnios g166)
-Holy-Bible---French---French-Louis-Segond-1910-Bible	Aion txt != Sou2	043-JOH-003-015	043	JOH	003	015	afin que quiconque croit en luiait la vie éternelle.
+Holy-Bible---French---French-Louis-Segond-1910-Bible	Aion txt != Stan	043-JOH-003-015	043	JOH	003	015	afin que quiconque croit en lui ait la vie éternelle. (aiōnios g166)
+Holy-Bible---French---French-Louis-Segond-1910-Bible	Aion txt != Sta2	043-JOH-003-015	043	JOH	003	015	afin que quiconque croit en lui ait la vie éternelle.
+Holy-Bible---French---French-Louis-Segond-1910-Bible	Aion txt != Sour	043-JOH-003-015	043	JOH	003	015	afin que quiconque croit en lui ait la vie éternelle. (aiōnios g166)
+Holy-Bible---French---French-Louis-Segond-1910-Bible	Aion txt != Sou2	043-JOH-003-015	043	JOH	003	015	afin que quiconque croit en lui ait la vie éternelle.
 Holy-Bible---French---French-Louis-Segond-1910-Bible	Aion txt != Stan	043-JOH-003-016	043	JOH	003	016	Car Dieu a tant aimé le monde qu’il a donné son Fils unique, afin que quiconque croit en lui ne périsse point, mais qu’il ait la vie éternelle. (aiōnios g166)
 Holy-Bible---French---French-Louis-Segond-1910-Bible	Aion txt != Sta2	043-JOH-003-016	043	JOH	003	016	Car Dieu a tant aimé le monde qu’il a donné son Fils unique, afin que quiconque croit en lui ne périsse point, mais qu’il ait la vie éternelle.
 Holy-Bible---French---French-Louis-Segond-1910-Bible	Aion txt != Sour	043-JOH-003-016	043	JOH	003	016	Car Dieu a tant aimé le monde qu’il a donné son Fils unique, afin que quiconque croit en lui ne périsse point, mais qu’il ait la vie éternelle. (aiōnios g166)
-Holy-Bible---French---French-Louis-Segond-1910-Bible	Aion txt != Sou2	043-JOH-003-016	043	JOH	003	016	Car Dieu a tant aimé le monde qu’il a donné son Fils unique,afin que quiconque croit en lui ne périsse point, mais qu’il ait la vie éternelle.
+Holy-Bible---French---French-Louis-Segond-1910-Bible	Aion txt != Sou2	043-JOH-003-016	043	JOH	003	016	Car Dieu a tant aimé le monde qu’il a donné son Fils unique, afin que quiconque croit en lui ne périsse point, mais qu’il ait la vie éternelle.
 Holy-Bible---French---French-Louis-Segond-1910-Bible	Aion txt != Sour	064-3JO-001-015	064	3JO	001	014	J’espère te voir bientôt, et nous parlerons de bouche à bouche. Que la paix soit avec toi! Les amis te saluent. Salue les amis, chacun en particulier.
 Holy-Bible---French---French-Louis-Segond-1910-Bible	Aion txt != Sou2	064-3JO-001-015	064	3JO	001	014	Que la paix soit avec toi! Les amis te saluent. Salue les amis, chacun en particulier.
 Holy-Bible---French---French-Louis-Segond-1910-Bible	Aion txt != Sour	066-REV-013-001	066	REV	013	001	Et il se tint sur le sable de la mer. Puis je vis monter de la mer une bête qui avait dix cornes et sept têtes, et sur ses cornes dix diadèmes, et sur ses têtes des noms de blasphème.
@@ -12948,11 +12967,9 @@ Holy-Bible---French---French-Louis-Segond-1910-Bible	Sour txt != Stan	041-MAR-01
 Holy-Bible---French---French-Louis-Segond-1910-Bible	Sour txt != Sta2	041-MAR-016-009	041	MAR	016	009	(note: The most reliable and earliest manuscripts do not include Mark 16:9-20.) Jésus, étant ressuscité le matin du premier jour de la semaine, apparut d’abord à Marie de Magdala, de laquelle il avait chassé sept démons.
 Holy-Bible---French---French-Louis-Segond-1910-Bible	Sour txt != Aion	041-MAR-016-009	041	MAR	016	009	Jésus, étant ressuscité le matin du premier jour de la semaine, apparut d’abord à Marie de Magdala, de laquelle il avait chassé sept démons.
 Holy-Bible---French---French-Louis-Segond-1910-Bible	Sour txt != Aio2	041-MAR-016-009	041	MAR	016	009	(note: The most reliable and earliest manuscripts do not include Mark 16:9-20.) Jésus, étant ressuscité le matin du premier jour de la semaine, apparut d’abord à Marie de Magdala, de laquelle il avait chassé sept démons.
-Holy-Bible---French---French-Louis-Segond-1910-Bible	Sour txt != Aion	043-JOH-003-015	043	JOH	003	015	afin que quiconque croit en luiait la vie éternelle.
-Holy-Bible---French---French-Louis-Segond-1910-Bible	Sour txt != Aio2	043-JOH-003-015	043	JOH	003	015	afin que quiconque croit en luiait la vie éternelle. (aiōnios g166)
-Holy-Bible---French---French-Louis-Segond-1910-Bible	Sour txt != Stan	043-JOH-003-016	043	JOH	003	016	Car Dieu a tant aimé le monde qu’il a donné son Fils unique,afin que quiconque croit en lui ne périsse point, mais qu’il ait la vie éternelle.
-Holy-Bible---French---French-Louis-Segond-1910-Bible	Sour txt != Sta2	043-JOH-003-016	043	JOH	003	016	Car Dieu a tant aimé le monde qu’il a donné son Fils unique, afin que quiconque croit en lui ne périsse point, mais qu’il ait la vie éternelle.
-Holy-Bible---French---French-Louis-Segond-1910-Bible	Sour txt != Aion	043-JOH-003-016	043	JOH	003	016	Car Dieu a tant aimé le monde qu’il a donné son Fils unique,afin que quiconque croit en lui ne périsse point, mais qu’il ait la vie éternelle.
+Holy-Bible---French---French-Louis-Segond-1910-Bible	Sour txt != Aion	043-JOH-003-015	043	JOH	003	015	afin que quiconque croit en lui ait la vie éternelle.
+Holy-Bible---French---French-Louis-Segond-1910-Bible	Sour txt != Aio2	043-JOH-003-015	043	JOH	003	015	afin que quiconque croit en lui ait la vie éternelle. (aiōnios g166)
+Holy-Bible---French---French-Louis-Segond-1910-Bible	Sour txt != Aion	043-JOH-003-016	043	JOH	003	016	Car Dieu a tant aimé le monde qu’il a donné son Fils unique, afin que quiconque croit en lui ne périsse point, mais qu’il ait la vie éternelle.
 Holy-Bible---French---French-Louis-Segond-1910-Bible	Sour txt != Aio2	043-JOH-003-016	043	JOH	003	016	Car Dieu a tant aimé le monde qu’il a donné son Fils unique, afin que quiconque croit en lui ne périsse point, mais qu’il ait la vie éternelle. (aiōnios g166)
 Holy-Bible---French---French-Louis-Segond-1910-Bible	Sour txt != Stan	064-3JO-001-014	064	3JO	001	015	Que la paix soit avec toi! Les amis te saluent. Salue les amis, chacun en particulier.
 Holy-Bible---French---French-Louis-Segond-1910-Bible	Sour txt != Sta2	064-3JO-001-014	064	3JO	001	015	J’espère te voir bientôt, et nous parlerons de bouche à bouche. Que la paix soit avec toi! Les amis te saluent. Salue les amis, chacun en particulier.
@@ -17410,6 +17427,35 @@ Holy-Bible---Greek---Greek-Scrivener	Sour txt != Aio2	043-JOH-003-015	043	JOH	00
 Holy-Bible---Greek---Greek-Scrivener	Sour txt != Aion	043-JOH-003-016	043	JOH	003	016	ουτως γαρ ηγαπησεν ο θεος τον κοσμον ωστε τον υιον αυτου τον μονογενη εδωκεν ινα πας ο πιστευων εις αυτον μη αποληται αλλ εχη ζωην αιωνιον
 Holy-Bible---Greek---Greek-Scrivener	Sour txt != Aio2	043-JOH-003-016	043	JOH	003	016	ουτως γαρ ηγαπησεν ο θεος τον κοσμον ωστε τον υιον αυτου τον μονογενη εδωκεν ινα πας ο πιστευων εις αυτον μη αποληται αλλ εχη ζωην αιωνιον (aiōnios g166)
 Holy-Bible---Greek---Greek-Scrivener	Data checks: aionian=7957 standard=7957 source=7957						
+Holy-Bible---Greek---Greek-Statistical-Koine	Aion txt != Stan	043-JOH-003-015	043	JOH	003	015	ινα πασ ο πιστευων ⸢εν⸣ ⸢αυτω⸣ ⸢⸣ εχη ⸢ζωην⸣ αιωνιον (aiōnios g166)
+Holy-Bible---Greek---Greek-Statistical-Koine	Aion txt != Sta2	043-JOH-003-015	043	JOH	003	015	ινα πασ ο πιστευων ⸢εν⸣ ⸢αυτω⸣ ⸢⸣ εχη ⸢ζωην⸣ αιωνιον
+Holy-Bible---Greek---Greek-Statistical-Koine	Aion txt != Sour	043-JOH-003-015	043	JOH	003	015	ινα πασ ο πιστευων ⸢εν⸣ ⸢αυτω⸣ ⸢⸣ εχη ⸢ζωην⸣ αιωνιον (aiōnios g166)
+Holy-Bible---Greek---Greek-Statistical-Koine	Aion txt != Sou2	043-JOH-003-015	043	JOH	003	015	ινα   πασ   ο   πιστευων   ⸢εν⸣   ⸢αυτω⸣   ⸢⸣   εχη   ⸢ζωην⸣   αιωνιον
+Holy-Bible---Greek---Greek-Statistical-Koine	Aion txt != Stan	043-JOH-003-016	043	JOH	003	016	⸢ουτωσ⸣ γαρ ηγαπησεν ο θ̅σ̅ τον κοσμον ωστε τον υιον ⸢⸣ τον ⸢μονογενη⸣ ⸢εδωκεν⸣ ινα πασ ο πιστευων ⸢εισ⸣ αυτον μη ⸢αποληται⸣ ⸢αλλ⸣ εχη ζωην αιωνιον (aiōnios g166)
+Holy-Bible---Greek---Greek-Statistical-Koine	Aion txt != Sta2	043-JOH-003-016	043	JOH	003	016	⸢ουτωσ⸣ γαρ ηγαπησεν ο θ̅σ̅ τον κοσμον ωστε τον υιον ⸢⸣ τον ⸢μονογενη⸣ ⸢εδωκεν⸣ ινα πασ ο πιστευων ⸢εισ⸣ αυτον μη ⸢αποληται⸣ ⸢αλλ⸣ εχη ζωην αιωνιον
+Holy-Bible---Greek---Greek-Statistical-Koine	Aion txt != Sour	043-JOH-003-016	043	JOH	003	016	⸢ουτωσ⸣ γαρ ηγαπησεν ο θ̅σ̅ τον κοσμον ωστε τον υιον ⸢⸣ τον ⸢μονογενη⸣ ⸢εδωκεν⸣ ινα πασ ο πιστευων ⸢εισ⸣ αυτον μη ⸢αποληται⸣ ⸢αλλ⸣ εχη ζωην αιωνιον (aiōnios g166)
+Holy-Bible---Greek---Greek-Statistical-Koine	Aion txt != Sou2	043-JOH-003-016	043	JOH	003	016	⸢ουτωσ⸣   γαρ   ηγαπησεν   ο   θ̅σ̅   τον   κοσμον   ωστε   τον   υιον   ⸢⸣   τον   ⸢μονογενη⸣   ⸢εδωκεν⸣   ινα   πασ   ο   πιστευων   ⸢εισ⸣   αυτον   μη   ⸢αποληται⸣   ⸢αλλ⸣   εχη   ζωην   αιωνιον
+Holy-Bible---Greek---Greek-Statistical-Koine	Aion txt != Sour	064-3JO-001-015	064	3JO	001	014	ελπιζω δε ευθεωσ ⸢σε ιδειν⸣ και στομα ⸢προσ⸣ στομα λαλησομεν ειρηνη σοι ασπαζονται σε οι ⸢φιλοι⸣ ⸢ασπαζου⸣ τουσ φιλουσ κατ ονομα
+Holy-Bible---Greek---Greek-Statistical-Koine	Aion txt != Sou2	064-3JO-001-015	064	3JO	001	014	ειρηνη σοι ασπαζονται σε οι ⸢φιλοι⸣ ⸢ασπαζου⸣ τουσ φιλουσ κατ ονομα
+Holy-Bible---Greek---Greek-Statistical-Koine	Aion txt != Sour	066-REV-013-001	066	REV	013	001	και ⸢εσταθη⸣ επι την αμμον τησ θαλασσησ και ειδον εκ τησ θαλασσησ θηριον αναβαινον εχον ⸢κερατα δεκα και κεφαλασ επτα⸣ και επι των κερατων ⸢αυτου δεκα διαδηματα⸣ και επι τασ κεφαλασ αυτου ⸢ονομα⸣ βλασφημιασ
+Holy-Bible---Greek---Greek-Statistical-Koine	Aion txt != Sou2	066-REV-013-001	066	REV	013	001	και ειδον εκ τησ θαλασσησ θηριον αναβαινον εχον ⸢κερατα δεκα και κεφαλασ επτα⸣ και επι των κερατων ⸢αυτου δεκα διαδηματα⸣ και επι τασ κεφαλασ αυτου ⸢ονομα⸣ βλασφημιασ
+Holy-Bible---Greek---Greek-Statistical-Koine	Sour txt != Stan	043-JOH-003-015	043	JOH	003	015	ινα   πασ   ο   πιστευων   ⸢εν⸣   ⸢αυτω⸣   ⸢⸣   εχη   ⸢ζωην⸣   αιωνιον
+Holy-Bible---Greek---Greek-Statistical-Koine	Sour txt != Sta2	043-JOH-003-015	043	JOH	003	015	ινα πασ ο πιστευων ⸢εν⸣ ⸢αυτω⸣ ⸢⸣ εχη ⸢ζωην⸣ αιωνιον
+Holy-Bible---Greek---Greek-Statistical-Koine	Sour txt != Aion	043-JOH-003-015	043	JOH	003	015	ινα   πασ   ο   πιστευων   ⸢εν⸣   ⸢αυτω⸣   ⸢⸣   εχη   ⸢ζωην⸣   αιωνιον
+Holy-Bible---Greek---Greek-Statistical-Koine	Sour txt != Aio2	043-JOH-003-015	043	JOH	003	015	ινα πασ ο πιστευων ⸢εν⸣ ⸢αυτω⸣ ⸢⸣ εχη ⸢ζωην⸣ αιωνιον (aiōnios g166)
+Holy-Bible---Greek---Greek-Statistical-Koine	Sour txt != Stan	043-JOH-003-016	043	JOH	003	016	⸢ουτωσ⸣   γαρ   ηγαπησεν   ο   θ̅σ̅   τον   κοσμον   ωστε   τον   υιον   ⸢⸣   τον   ⸢μονογενη⸣   ⸢εδωκεν⸣   ινα   πασ   ο   πιστευων   ⸢εισ⸣   αυτον   μη   ⸢αποληται⸣   ⸢αλλ⸣   εχη   ζωην   αιωνιον
+Holy-Bible---Greek---Greek-Statistical-Koine	Sour txt != Sta2	043-JOH-003-016	043	JOH	003	016	⸢ουτωσ⸣ γαρ ηγαπησεν ο θ̅σ̅ τον κοσμον ωστε τον υιον ⸢⸣ τον ⸢μονογενη⸣ ⸢εδωκεν⸣ ινα πασ ο πιστευων ⸢εισ⸣ αυτον μη ⸢αποληται⸣ ⸢αλλ⸣ εχη ζωην αιωνιον
+Holy-Bible---Greek---Greek-Statistical-Koine	Sour txt != Aion	043-JOH-003-016	043	JOH	003	016	⸢ουτωσ⸣   γαρ   ηγαπησεν   ο   θ̅σ̅   τον   κοσμον   ωστε   τον   υιον   ⸢⸣   τον   ⸢μονογενη⸣   ⸢εδωκεν⸣   ινα   πασ   ο   πιστευων   ⸢εισ⸣   αυτον   μη   ⸢αποληται⸣   ⸢αλλ⸣   εχη   ζωην   αιωνιον
+Holy-Bible---Greek---Greek-Statistical-Koine	Sour txt != Aio2	043-JOH-003-016	043	JOH	003	016	⸢ουτωσ⸣ γαρ ηγαπησεν ο θ̅σ̅ τον κοσμον ωστε τον υιον ⸢⸣ τον ⸢μονογενη⸣ ⸢εδωκεν⸣ ινα πασ ο πιστευων ⸢εισ⸣ αυτον μη ⸢αποληται⸣ ⸢αλλ⸣ εχη ζωην αιωνιον (aiōnios g166)
+Holy-Bible---Greek---Greek-Statistical-Koine	Sour txt != Stan	064-3JO-001-014	064	3JO	001	015	ειρηνη σοι ασπαζονται σε οι ⸢φιλοι⸣ ⸢ασπαζου⸣ τουσ φιλουσ κατ ονομα
+Holy-Bible---Greek---Greek-Statistical-Koine	Sour txt != Sta2	064-3JO-001-014	064	3JO	001	015	ελπιζω δε ευθεωσ ⸢σε ιδειν⸣ και στομα ⸢προσ⸣ στομα λαλησομεν ειρηνη σοι ασπαζονται σε οι ⸢φιλοι⸣ ⸢ασπαζου⸣ τουσ φιλουσ κατ ονομα
+Holy-Bible---Greek---Greek-Statistical-Koine	Sour txt != Aion	064-3JO-001-014	064	3JO	001	015	ειρηνη σοι ασπαζονται σε οι ⸢φιλοι⸣ ⸢ασπαζου⸣ τουσ φιλουσ κατ ονομα
+Holy-Bible---Greek---Greek-Statistical-Koine	Sour txt != Aio2	064-3JO-001-014	064	3JO	001	015	ελπιζω δε ευθεωσ ⸢σε ιδειν⸣ και στομα ⸢προσ⸣ στομα λαλησομεν ειρηνη σοι ασπαζονται σε οι ⸢φιλοι⸣ ⸢ασπαζου⸣ τουσ φιλουσ κατ ονομα
+Holy-Bible---Greek---Greek-Statistical-Koine	Sour txt != Stan	066-REV-013-001	066	REV	013	001	και ειδον εκ τησ θαλασσησ θηριον αναβαινον εχον ⸢κερατα δεκα και κεφαλασ επτα⸣ και επι των κερατων ⸢αυτου δεκα διαδηματα⸣ και επι τασ κεφαλασ αυτου ⸢ονομα⸣ βλασφημιασ
+Holy-Bible---Greek---Greek-Statistical-Koine	Sour txt != Sta2	066-REV-013-001	066	REV	013	001	και ⸢εσταθη⸣ επι την αμμον τησ θαλασσησ και ειδον εκ τησ θαλασσησ θηριον αναβαινον εχον ⸢κερατα δεκα και κεφαλασ επτα⸣ και επι των κερατων ⸢αυτου δεκα διαδηματα⸣ και επι τασ κεφαλασ αυτου ⸢ονομα⸣ βλασφημιασ
+Holy-Bible---Greek---Greek-Statistical-Koine	Sour txt != Aion	066-REV-013-001	066	REV	013	001	και ειδον εκ τησ θαλασσησ θηριον αναβαινον εχον ⸢κερατα δεκα και κεφαλασ επτα⸣ και επι των κερατων ⸢αυτου δεκα διαδηματα⸣ και επι τασ κεφαλασ αυτου ⸢ονομα⸣ βλασφημιασ
+Holy-Bible---Greek---Greek-Statistical-Koine	Sour txt != Aio2	066-REV-013-001	066	REV	013	001	και ⸢εσταθη⸣ επι την αμμον τησ θαλασσησ και ειδον εκ τησ θαλασσησ θηριον αναβαινον εχον ⸢κερατα δεκα και κεφαλασ επτα⸣ και επι των κερατων ⸢αυτου δεκα διαδηματα⸣ και επι τασ κεφαλασ αυτου ⸢ονομα⸣ βλασφημιασ
+Holy-Bible---Greek---Greek-Statistical-Koine	Data checks: aionian=7914 standard=7914 source=7916						
 Holy-Bible---Greek---Greek-Statistical-Restoration	Aion txt != Stan	043-JOH-003-015	043	JOH	003	015	ἵνα πᾶς ὁ πιστεύων ἐν αὐτῷ ἔχῃ ζωὴν αἰώνιον. (aiōnios g166)
 Holy-Bible---Greek---Greek-Statistical-Restoration	Aion txt != Sta2	043-JOH-003-015	043	JOH	003	015	ἵνα πᾶς ὁ πιστεύων ἐν αὐτῷ ἔχῃ ζωὴν αἰώνιον.
 Holy-Bible---Greek---Greek-Statistical-Restoration	Aion txt != Sour	043-JOH-003-015	043	JOH	003	015	ἵνα πᾶς ὁ πιστεύων ἐν αὐτῷ ἔχῃ ζωὴν αἰώνιον. (aiōnios g166)
@@ -22572,6 +22618,25 @@ Holy-Bible---Japanese---Japanese-Electronic-Network-Bible	Sour txt != Aio2	043-J
 Holy-Bible---Japanese---Japanese-Electronic-Network-Bible	Sour txt != Aion	043-JOH-003-016	043	JOH	003	016	神はご自分のひとり子を与えるほどに世を愛されたからだ。それは，彼を信じる者がみな滅びることなく，永遠の命を持つためだ。
 Holy-Bible---Japanese---Japanese-Electronic-Network-Bible	Sour txt != Aio2	043-JOH-003-016	043	JOH	003	016	神はご自分のひとり子を与えるほどに世を愛されたからだ。それは，彼を信じる者がみな滅びることなく，永遠の命を持つためだ。 (aiōnios g166)
 Holy-Bible---Japanese---Japanese-Electronic-Network-Bible	Data checks: aionian=5516 standard=5516 source=5517						
+Holy-Bible---Japanese---Japanese-Freedom-Bible	Aion txt != Sour	041-MAR-016-009	041	MAR	016	009	(note: The most reliable and earliest manuscripts do not include Mark 16:9-20.) さて、週の初めの日の朝早く、イエスはよみがえり、まずマグダラのマリアに現れた。イエスは以前、彼女から七つの悪霊を追い出されたのである。
+Holy-Bible---Japanese---Japanese-Freedom-Bible	Aion txt != Sou2	041-MAR-016-009	041	MAR	016	009	さて、週の初めの日の朝早く、イエスはよみがえり、まずマグダラのマリアに現れた。イエスは以前、彼女から七つの悪霊を追い出されたのである。
+Holy-Bible---Japanese---Japanese-Freedom-Bible	Aion txt != Stan	043-JOH-003-015	043	JOH	003	015	それは、この方を信じる者がだれも滅びることなく、永遠の命を持つためです。 (aiōnios g166)
+Holy-Bible---Japanese---Japanese-Freedom-Bible	Aion txt != Sta2	043-JOH-003-015	043	JOH	003	015	それは、この方を信じる者がだれも滅びることなく、永遠の命を持つためです。
+Holy-Bible---Japanese---Japanese-Freedom-Bible	Aion txt != Sour	043-JOH-003-015	043	JOH	003	015	それは、この方を信じる者がだれも滅びることなく、永遠の命を持つためです。 (aiōnios g166)
+Holy-Bible---Japanese---Japanese-Freedom-Bible	Aion txt != Sou2	043-JOH-003-015	043	JOH	003	015	それは、この方を信じる者がだれも滅びることなく、永遠の命を持つためです。
+Holy-Bible---Japanese---Japanese-Freedom-Bible	Aion txt != Stan	043-JOH-003-016	043	JOH	003	016	神は世をこれほどまでに愛し、そのひとり子をお与えになりました。それは、この方を信じる者がだれも滅びることなく、永遠の命を持つためです。 (aiōnios g166)
+Holy-Bible---Japanese---Japanese-Freedom-Bible	Aion txt != Sta2	043-JOH-003-016	043	JOH	003	016	神は世をこれほどまでに愛し、そのひとり子をお与えになりました。それは、この方を信じる者がだれも滅びることなく、永遠の命を持つためです。
+Holy-Bible---Japanese---Japanese-Freedom-Bible	Aion txt != Sour	043-JOH-003-016	043	JOH	003	016	神は世をこれほどまでに愛し、そのひとり子をお与えになりました。それは、この方を信じる者がだれも滅びることなく、永遠の命を持つためです。 (aiōnios g166)
+Holy-Bible---Japanese---Japanese-Freedom-Bible	Aion txt != Sou2	043-JOH-003-016	043	JOH	003	016	神は世をこれほどまでに愛し、そのひとり子をお与えになりました。それは、この方を信じる者がだれも滅びることなく、永遠の命を持つためです。
+Holy-Bible---Japanese---Japanese-Freedom-Bible	Sour txt != Stan	041-MAR-016-009	041	MAR	016	009	さて、週の初めの日の朝早く、イエスはよみがえり、まずマグダラのマリアに現れた。イエスは以前、彼女から七つの悪霊を追い出されたのである。
+Holy-Bible---Japanese---Japanese-Freedom-Bible	Sour txt != Sta2	041-MAR-016-009	041	MAR	016	009	(note: The most reliable and earliest manuscripts do not include Mark 16:9-20.) さて、週の初めの日の朝早く、イエスはよみがえり、まずマグダラのマリアに現れた。イエスは以前、彼女から七つの悪霊を追い出されたのである。
+Holy-Bible---Japanese---Japanese-Freedom-Bible	Sour txt != Aion	041-MAR-016-009	041	MAR	016	009	さて、週の初めの日の朝早く、イエスはよみがえり、まずマグダラのマリアに現れた。イエスは以前、彼女から七つの悪霊を追い出されたのである。
+Holy-Bible---Japanese---Japanese-Freedom-Bible	Sour txt != Aio2	041-MAR-016-009	041	MAR	016	009	(note: The most reliable and earliest manuscripts do not include Mark 16:9-20.) さて、週の初めの日の朝早く、イエスはよみがえり、まずマグダラのマリアに現れた。イエスは以前、彼女から七つの悪霊を追い出されたのである。
+Holy-Bible---Japanese---Japanese-Freedom-Bible	Sour txt != Aion	043-JOH-003-015	043	JOH	003	015	それは、この方を信じる者がだれも滅びることなく、永遠の命を持つためです。
+Holy-Bible---Japanese---Japanese-Freedom-Bible	Sour txt != Aio2	043-JOH-003-015	043	JOH	003	015	それは、この方を信じる者がだれも滅びることなく、永遠の命を持つためです。 (aiōnios g166)
+Holy-Bible---Japanese---Japanese-Freedom-Bible	Sour txt != Aion	043-JOH-003-016	043	JOH	003	016	神は世をこれほどまでに愛し、そのひとり子をお与えになりました。それは、この方を信じる者がだれも滅びることなく、永遠の命を持つためです。
+Holy-Bible---Japanese---Japanese-Freedom-Bible	Sour txt != Aio2	043-JOH-003-016	043	JOH	003	016	神は世をこれほどまでに愛し、そのひとり子をお与えになりました。それは、この方を信じる者がだれも滅びることなく、永遠の命を持つためです。 (aiōnios g166)
+Holy-Bible---Japanese---Japanese-Freedom-Bible	Data checks: aionian=31098 standard=31098 source=31103						
 Holy-Bible---Japanese---Japanese-Kougo-yaku	Aion txt != Sour	041-MAR-016-009	041	MAR	016	009	(note: The most reliable and earliest manuscripts do not include Mark 16:9-20.) 週の初めの日の朝早く、イエスはよみがえって、まずマグダラのマリヤに御自身をあらわされた。イエスは以前に、この女から七つの悪霊を追い出されたことがある。
 Holy-Bible---Japanese---Japanese-Kougo-yaku	Aion txt != Sou2	041-MAR-016-009	041	MAR	016	009	週の初めの日の朝早く、イエスはよみがえって、まずマグダラのマリヤに御自身をあらわされた。イエスは以前に、この女から七つの悪霊を追い出されたことがある。
 Holy-Bible---Japanese---Japanese-Kougo-yaku	Aion txt != Stan	043-JOH-003-015	043	JOH	003	015	それは彼を信じる者が、すべて永遠の命を得るためである」。 (aiōnios g166)
@@ -34759,6 +34824,25 @@ Holy-Bible---Somau-Karia---Somau-Karia-Bible	Sour txt != Sta2	064-3JO-001-014	06
 Holy-Bible---Somau-Karia---Somau-Karia-Bible	Sour txt != Aion	064-3JO-001-014	064	3JO	001	015	Neu xonikemu yoro puropina. Xatasikimanae kuso kuna xesarininerina, nei xokupa xatanimana yeu kuso kuna tinike.
 Holy-Bible---Somau-Karia---Somau-Karia-Bible	Sour txt != Aio2	064-3JO-001-014	064	3JO	001	015	Xenene xuwena ye utune xekenitia xirini kunakunawaxauxi nanune. Neu xonikemu yoro puropina. Xatasikimanae kuso kuna xesarininerina, nei xokupa xatanimana yeu kuso kuna tinike.
 Holy-Bible---Somau-Karia---Somau-Karia-Bible	Data checks: aionian=2931 standard=2931 source=2932						
+Holy-Bible---Spanish---Biblia-Libre-Latino	Aion txt != Sour	041-MAR-016-009	041	MAR	016	009	(note: The most reliable and earliest manuscripts do not include Mark 16:9-20.) Habiendo pues resucitado Jesús por la mañana el primer día de la semana, se apareció primeramente a María Magdalena, de quien había echado siete demonios.
+Holy-Bible---Spanish---Biblia-Libre-Latino	Aion txt != Sou2	041-MAR-016-009	041	MAR	016	009	Habiendo pues resucitado Jesús por la mañana el primer día de la semana, se apareció primeramente a María Magdalena, de quien había echado siete demonios.
+Holy-Bible---Spanish---Biblia-Libre-Latino	Aion txt != Stan	043-JOH-003-015	043	JOH	003	015	para que todo el que crea en él no perezca, sino que tenga vida eterna. (aiōnios g166)
+Holy-Bible---Spanish---Biblia-Libre-Latino	Aion txt != Sta2	043-JOH-003-015	043	JOH	003	015	para que todo el que crea en él no perezca, sino que tenga vida eterna.
+Holy-Bible---Spanish---Biblia-Libre-Latino	Aion txt != Sour	043-JOH-003-015	043	JOH	003	015	para que todo el que crea en él no perezca, sino que tenga vida eterna. (aiōnios g166)
+Holy-Bible---Spanish---Biblia-Libre-Latino	Aion txt != Sou2	043-JOH-003-015	043	JOH	003	015	para que todo el que crea en él no perezca, sino que tenga vida eterna.
+Holy-Bible---Spanish---Biblia-Libre-Latino	Aion txt != Stan	043-JOH-003-016	043	JOH	003	016	Porque tanto amó Dios al mundo, que dio a su Hijo unigénito, para que todo el que crea en él no perezca, sino que tenga vida eterna. (aiōnios g166)
+Holy-Bible---Spanish---Biblia-Libre-Latino	Aion txt != Sta2	043-JOH-003-016	043	JOH	003	016	Porque tanto amó Dios al mundo, que dio a su Hijo unigénito, para que todo el que crea en él no perezca, sino que tenga vida eterna.
+Holy-Bible---Spanish---Biblia-Libre-Latino	Aion txt != Sour	043-JOH-003-016	043	JOH	003	016	Porque tanto amó Dios al mundo, que dio a su Hijo unigénito, para que todo el que crea en él no perezca, sino que tenga vida eterna. (aiōnios g166)
+Holy-Bible---Spanish---Biblia-Libre-Latino	Aion txt != Sou2	043-JOH-003-016	043	JOH	003	016	Porque tanto amó Dios al mundo, que dio a su Hijo unigénito, para que todo el que crea en él no perezca, sino que tenga vida eterna.
+Holy-Bible---Spanish---Biblia-Libre-Latino	Sour txt != Stan	041-MAR-016-009	041	MAR	016	009	Habiendo pues resucitado Jesús por la mañana el primer día de la semana, se apareció primeramente a María Magdalena, de quien había echado siete demonios.
+Holy-Bible---Spanish---Biblia-Libre-Latino	Sour txt != Sta2	041-MAR-016-009	041	MAR	016	009	(note: The most reliable and earliest manuscripts do not include Mark 16:9-20.) Habiendo pues resucitado Jesús por la mañana el primer día de la semana, se apareció primeramente a María Magdalena, de quien había echado siete demonios.
+Holy-Bible---Spanish---Biblia-Libre-Latino	Sour txt != Aion	041-MAR-016-009	041	MAR	016	009	Habiendo pues resucitado Jesús por la mañana el primer día de la semana, se apareció primeramente a María Magdalena, de quien había echado siete demonios.
+Holy-Bible---Spanish---Biblia-Libre-Latino	Sour txt != Aio2	041-MAR-016-009	041	MAR	016	009	(note: The most reliable and earliest manuscripts do not include Mark 16:9-20.) Habiendo pues resucitado Jesús por la mañana el primer día de la semana, se apareció primeramente a María Magdalena, de quien había echado siete demonios.
+Holy-Bible---Spanish---Biblia-Libre-Latino	Sour txt != Aion	043-JOH-003-015	043	JOH	003	015	para que todo el que crea en él no perezca, sino que tenga vida eterna.
+Holy-Bible---Spanish---Biblia-Libre-Latino	Sour txt != Aio2	043-JOH-003-015	043	JOH	003	015	para que todo el que crea en él no perezca, sino que tenga vida eterna. (aiōnios g166)
+Holy-Bible---Spanish---Biblia-Libre-Latino	Sour txt != Aion	043-JOH-003-016	043	JOH	003	016	Porque tanto amó Dios al mundo, que dio a su Hijo unigénito, para que todo el que crea en él no perezca, sino que tenga vida eterna.
+Holy-Bible---Spanish---Biblia-Libre-Latino	Sour txt != Aio2	043-JOH-003-016	043	JOH	003	016	Porque tanto amó Dios al mundo, que dio a su Hijo unigénito, para que todo el que crea en él no perezca, sino que tenga vida eterna. (aiōnios g166)
+Holy-Bible---Spanish---Biblia-Libre-Latino	Data checks: aionian=31098 standard=31098 source=31103						
 Holy-Bible---Spanish---Biblia-Platense-Straubinger	Aion txt != Sour	006-JOS-005-015	006	JOS	005	014	Él respondió: “No, sino que soy el príncipe del ejército de Yahvé, que acabo de llegar.” Entonces Josué cayó en tierra sobre su rostro, y adoró. Y le preguntó: “¿Qué dice mi Señor a su siervo?”
 Holy-Bible---Spanish---Biblia-Platense-Straubinger	Aion txt != Sou2	006-JOS-005-015	006	JOS	005	014	Entonces Josué cayó en tierra sobre su rostro, y adoró. Y le preguntó: “¿Qué dice mi Señor a su siervo?”
 Holy-Bible---Spanish---Biblia-Platense-Straubinger	Aion txt != Sour	011-1KI-022-044	011	1KI	022	043	Anduvo en todos los caminos de su padre Asá, sin apartarse de ellos, haciendo lo que era recto a los ojos de Yahvé. Sin embargo, no desaparecieron los lugares altos, y el pueblo siguió ofreciendo sacrificios y quemando incienso en los altos.
@@ -35192,6 +35276,25 @@ Holy-Bible---Spanish---Biblia-Platense-Straubinger	Sour txt != Sta2	066-REV-013-
 Holy-Bible---Spanish---Biblia-Platense-Straubinger	Sour txt != Aion	066-REV-013-001	066	REV	013	001	Y del mar vi subir una bestia con diez cuernos y siete cabezas, y en sus cuernos diez diademas, y en sus cabezas nombres de blasfemia.
 Holy-Bible---Spanish---Biblia-Platense-Straubinger	Sour txt != Aio2	066-REV-013-001	066	REV	013	001	Y apostose sobre la arena del mar. Y del mar vi subir una bestia con diez cuernos y siete cabezas, y en sus cuernos diez diademas, y en sus cabezas nombres de blasfemia.
 Holy-Bible---Spanish---Biblia-Platense-Straubinger	Data checks: aionian=31070 standard=31070 source=31426						
+Holy-Bible---Spanish---FelipeScioDeSanMiguel	Aion txt != Sour	041-MAR-016-009	041	MAR	016	009	(note: The most reliable and earliest manuscripts do not include Mark 16:9-20.) Mas habiendo resucitado por la mañana, el primer día de la semana, apareció primeramente á María Magdalena, de la qual había lanzado siete demonios.
+Holy-Bible---Spanish---FelipeScioDeSanMiguel	Aion txt != Sou2	041-MAR-016-009	041	MAR	016	009	Mas habiendo resucitado por la mañana, el primer día de la semana, apareció primeramente á María Magdalena, de la qual había lanzado siete demonios.
+Holy-Bible---Spanish---FelipeScioDeSanMiguel	Aion txt != Stan	043-JOH-003-015	043	JOH	003	015	Para que todo aquel que cree en él, no perezca, sino que tenga vida eterna. (aiōnios g166)
+Holy-Bible---Spanish---FelipeScioDeSanMiguel	Aion txt != Sta2	043-JOH-003-015	043	JOH	003	015	Para que todo aquel que cree en él, no perezca, sino que tenga vida eterna.
+Holy-Bible---Spanish---FelipeScioDeSanMiguel	Aion txt != Sour	043-JOH-003-015	043	JOH	003	015	Para que todo aquel que cree en él, no perezca, sino que tenga vida eterna. (aiōnios g166)
+Holy-Bible---Spanish---FelipeScioDeSanMiguel	Aion txt != Sou2	043-JOH-003-015	043	JOH	003	015	Para que todo aquel que cree en él, no perezca, sino que tenga vida eterna.
+Holy-Bible---Spanish---FelipeScioDeSanMiguel	Aion txt != Stan	043-JOH-003-016	043	JOH	003	016	Porque de tal manera amó Dios al mundo, que dió á su Hijo Unigénito: para que todo aquel que cree en él no perezca, sino que tenga vida eterna. (aiōnios g166)
+Holy-Bible---Spanish---FelipeScioDeSanMiguel	Aion txt != Sta2	043-JOH-003-016	043	JOH	003	016	Porque de tal manera amó Dios al mundo, que dió á su Hijo Unigénito: para que todo aquel que cree en él no perezca, sino que tenga vida eterna.
+Holy-Bible---Spanish---FelipeScioDeSanMiguel	Aion txt != Sour	043-JOH-003-016	043	JOH	003	016	Porque de tal manera amó Dios al mundo, que dió á su Hijo Unigénito: para que todo aquel que cree en él no perezca, sino que tenga vida eterna. (aiōnios g166)
+Holy-Bible---Spanish---FelipeScioDeSanMiguel	Aion txt != Sou2	043-JOH-003-016	043	JOH	003	016	Porque de tal manera amó Dios al mundo, que dió á su Hijo Unigénito: para que todo aquel que cree en él no perezca, sino que tenga vida eterna.
+Holy-Bible---Spanish---FelipeScioDeSanMiguel	Sour txt != Stan	041-MAR-016-009	041	MAR	016	009	Mas habiendo resucitado por la mañana, el primer día de la semana, apareció primeramente á María Magdalena, de la qual había lanzado siete demonios.
+Holy-Bible---Spanish---FelipeScioDeSanMiguel	Sour txt != Sta2	041-MAR-016-009	041	MAR	016	009	(note: The most reliable and earliest manuscripts do not include Mark 16:9-20.) Mas habiendo resucitado por la mañana, el primer día de la semana, apareció primeramente á María Magdalena, de la qual había lanzado siete demonios.
+Holy-Bible---Spanish---FelipeScioDeSanMiguel	Sour txt != Aion	041-MAR-016-009	041	MAR	016	009	Mas habiendo resucitado por la mañana, el primer día de la semana, apareció primeramente á María Magdalena, de la qual había lanzado siete demonios.
+Holy-Bible---Spanish---FelipeScioDeSanMiguel	Sour txt != Aio2	041-MAR-016-009	041	MAR	016	009	(note: The most reliable and earliest manuscripts do not include Mark 16:9-20.) Mas habiendo resucitado por la mañana, el primer día de la semana, apareció primeramente á María Magdalena, de la qual había lanzado siete demonios.
+Holy-Bible---Spanish---FelipeScioDeSanMiguel	Sour txt != Aion	043-JOH-003-015	043	JOH	003	015	Para que todo aquel que cree en él, no perezca, sino que tenga vida eterna.
+Holy-Bible---Spanish---FelipeScioDeSanMiguel	Sour txt != Aio2	043-JOH-003-015	043	JOH	003	015	Para que todo aquel que cree en él, no perezca, sino que tenga vida eterna. (aiōnios g166)
+Holy-Bible---Spanish---FelipeScioDeSanMiguel	Sour txt != Aion	043-JOH-003-016	043	JOH	003	016	Porque de tal manera amó Dios al mundo, que dió á su Hijo Unigénito: para que todo aquel que cree en él no perezca, sino que tenga vida eterna.
+Holy-Bible---Spanish---FelipeScioDeSanMiguel	Sour txt != Aio2	043-JOH-003-016	043	JOH	003	016	Porque de tal manera amó Dios al mundo, que dió á su Hijo Unigénito: para que todo aquel que cree en él no perezca, sino que tenga vida eterna. (aiōnios g166)
+Holy-Bible---Spanish---FelipeScioDeSanMiguel	Data checks: aionian=7956 standard=7956 source=7957						
 Holy-Bible---Spanish---Free-Bible	Aion txt != Sour	041-MAR-016-009	041	MAR	016	009	(note: The most reliable and earliest manuscripts do not include Mark 16:9-20.) Cuando Jesús se levantó de entre los muertos el domingo por la mañana, se le apareció primero a María Magdalena, de quien había expulsado siete demonios.
 Holy-Bible---Spanish---Free-Bible	Aion txt != Sou2	041-MAR-016-009	041	MAR	016	009	Cuando Jesús se levantó de entre los muertos el domingo por la mañana, se le apareció primero a María Magdalena, de quien había expulsado siete demonios.
 Holy-Bible---Spanish---Free-Bible	Aion txt != Stan	043-JOH-003-015	043	JOH	003	015	de modo que todos los que confíen en él, tendrán vida eterna. (aiōnios g166)
@@ -36697,6 +36800,25 @@ Holy-Bible---Telugu---Telugu-Open-Contemporary	Sour txt != Sta2	064-3JO-001-014	
 Holy-Bible---Telugu---Telugu-Open-Contemporary	Sour txt != Aion	064-3JO-001-014	064	3JO	001	015	నీకు సమాధానం కలుగును గాక. ఇక్కడ ఉన్న స్నేహితులు వారి శుభాలను పంపుతున్నారు. అక్కడ ఉన్న స్నేహితులందరికి పేరుపేరున శుభాలు తెలియజేయి.
 Holy-Bible---Telugu---Telugu-Open-Contemporary	Sour txt != Aio2	064-3JO-001-014	064	3JO	001	015	త్వరలో నేను నీ దగ్గరకు వచ్చి ముఖాముఖిగా నీతో మాట్లాడాలని నిరీక్షిస్తున్నాను. నీకు సమాధానం కలుగును గాక. ఇక్కడ ఉన్న స్నేహితులు వారి శుభాలను పంపుతున్నారు. అక్కడ ఉన్న స్నేహితులందరికి పేరుపేరున శుభాలు తెలియజేయి.
 Holy-Bible---Telugu---Telugu-Open-Contemporary	Data checks: aionian=30935 standard=30935 source=30936						
+Holy-Bible---Thai---Thai-Freedom-Bible	Aion txt != Sour	041-MAR-016-009	041	MAR	016	009	(note: The most reliable and earliest manuscripts do not include Mark 16:9-20.) เมื่อ​พระองค์​ฟื้นขึ้น​จาก​ความตาย​ใน​เวลา​เช้า​ตรู่​ของ​วัน​แรก​ของ​สัปดาห์ พระองค์​ปรากฏ​แก่​มารีย์​ชาวมักดาลา​ก่อน ซึ่ง​พระองค์​เคย​ขับ​ปีศาจ​เจ็ด​ตน​ออก​จาก​นาง
+Holy-Bible---Thai---Thai-Freedom-Bible	Aion txt != Sou2	041-MAR-016-009	041	MAR	016	009	เมื่อ​พระองค์​ฟื้นขึ้น​จาก​ความตาย​ใน​เวลา​เช้า​ตรู่​ของ​วัน​แรก​ของ​สัปดาห์ พระองค์​ปรากฏ​แก่​มารีย์​ชาวมักดาลา​ก่อน ซึ่ง​พระองค์​เคย​ขับ​ปีศาจ​เจ็ด​ตน​ออก​จาก​นาง
+Holy-Bible---Thai---Thai-Freedom-Bible	Aion txt != Stan	043-JOH-003-015	043	JOH	003	015	เพื่อ​ให้​ทุกคน​ที่​เชื่อ​ใน​พระองค์​ไม่​พินาศ แต่​มี​ชีวิต​นิรันดร์ (aiōnios g166)
+Holy-Bible---Thai---Thai-Freedom-Bible	Aion txt != Sta2	043-JOH-003-015	043	JOH	003	015	เพื่อ​ให้​ทุกคน​ที่​เชื่อ​ใน​พระองค์​ไม่​พินาศ แต่​มี​ชีวิต​นิรันดร์
+Holy-Bible---Thai---Thai-Freedom-Bible	Aion txt != Sour	043-JOH-003-015	043	JOH	003	015	เพื่อ​ให้​ทุกคน​ที่​เชื่อ​ใน​พระองค์​ไม่​พินาศ แต่​มี​ชีวิต​นิรันดร์ (aiōnios g166)
+Holy-Bible---Thai---Thai-Freedom-Bible	Aion txt != Sou2	043-JOH-003-015	043	JOH	003	015	เพื่อ​ให้​ทุกคน​ที่​เชื่อ​ใน​พระองค์​ไม่​พินาศ แต่​มี​ชีวิต​นิรันดร์
+Holy-Bible---Thai---Thai-Freedom-Bible	Aion txt != Stan	043-JOH-003-016	043	JOH	003	016	เพราะ​พระเจ้า​รัก​โลก​มาก​ถึง​ขนาด​ที่​ประทาน​พระบุตร​ผู้​บังเกิด​เพียง​องค์เดียว เพื่อ​ให้​ทุกคน​ที่​เชื่อ​ใน​พระองค์​ไม่​พินาศ แต่​มี​ชีวิต​นิรันดร์ (aiōnios g166)
+Holy-Bible---Thai---Thai-Freedom-Bible	Aion txt != Sta2	043-JOH-003-016	043	JOH	003	016	เพราะ​พระเจ้า​รัก​โลก​มาก​ถึง​ขนาด​ที่​ประทาน​พระบุตร​ผู้​บังเกิด​เพียง​องค์เดียว เพื่อ​ให้​ทุกคน​ที่​เชื่อ​ใน​พระองค์​ไม่​พินาศ แต่​มี​ชีวิต​นิรันดร์
+Holy-Bible---Thai---Thai-Freedom-Bible	Aion txt != Sour	043-JOH-003-016	043	JOH	003	016	เพราะ​พระเจ้า​รัก​โลก​มาก​ถึง​ขนาด​ที่​ประทาน​พระบุตร​ผู้​บังเกิด​เพียง​องค์เดียว เพื่อ​ให้​ทุกคน​ที่​เชื่อ​ใน​พระองค์​ไม่​พินาศ แต่​มี​ชีวิต​นิรันดร์ (aiōnios g166)
+Holy-Bible---Thai---Thai-Freedom-Bible	Aion txt != Sou2	043-JOH-003-016	043	JOH	003	016	เพราะ​พระเจ้า​รัก​โลก​มาก​ถึง​ขนาด​ที่​ประทาน​พระบุตร​ผู้​บังเกิด​เพียง​องค์เดียว เพื่อ​ให้​ทุกคน​ที่​เชื่อ​ใน​พระองค์​ไม่​พินาศ แต่​มี​ชีวิต​นิรันดร์
+Holy-Bible---Thai---Thai-Freedom-Bible	Sour txt != Stan	041-MAR-016-009	041	MAR	016	009	เมื่อ​พระองค์​ฟื้นขึ้น​จาก​ความตาย​ใน​เวลา​เช้า​ตรู่​ของ​วัน​แรก​ของ​สัปดาห์ พระองค์​ปรากฏ​แก่​มารีย์​ชาวมักดาลา​ก่อน ซึ่ง​พระองค์​เคย​ขับ​ปีศาจ​เจ็ด​ตน​ออก​จาก​นาง
+Holy-Bible---Thai---Thai-Freedom-Bible	Sour txt != Sta2	041-MAR-016-009	041	MAR	016	009	(note: The most reliable and earliest manuscripts do not include Mark 16:9-20.) เมื่อ​พระองค์​ฟื้นขึ้น​จาก​ความตาย​ใน​เวลา​เช้า​ตรู่​ของ​วัน​แรก​ของ​สัปดาห์ พระองค์​ปรากฏ​แก่​มารีย์​ชาวมักดาลา​ก่อน ซึ่ง​พระองค์​เคย​ขับ​ปีศาจ​เจ็ด​ตน​ออก​จาก​นาง
+Holy-Bible---Thai---Thai-Freedom-Bible	Sour txt != Aion	041-MAR-016-009	041	MAR	016	009	เมื่อ​พระองค์​ฟื้นขึ้น​จาก​ความตาย​ใน​เวลา​เช้า​ตรู่​ของ​วัน​แรก​ของ​สัปดาห์ พระองค์​ปรากฏ​แก่​มารีย์​ชาวมักดาลา​ก่อน ซึ่ง​พระองค์​เคย​ขับ​ปีศาจ​เจ็ด​ตน​ออก​จาก​นาง
+Holy-Bible---Thai---Thai-Freedom-Bible	Sour txt != Aio2	041-MAR-016-009	041	MAR	016	009	(note: The most reliable and earliest manuscripts do not include Mark 16:9-20.) เมื่อ​พระองค์​ฟื้นขึ้น​จาก​ความตาย​ใน​เวลา​เช้า​ตรู่​ของ​วัน​แรก​ของ​สัปดาห์ พระองค์​ปรากฏ​แก่​มารีย์​ชาวมักดาลา​ก่อน ซึ่ง​พระองค์​เคย​ขับ​ปีศาจ​เจ็ด​ตน​ออก​จาก​นาง
+Holy-Bible---Thai---Thai-Freedom-Bible	Sour txt != Aion	043-JOH-003-015	043	JOH	003	015	เพื่อ​ให้​ทุกคน​ที่​เชื่อ​ใน​พระองค์​ไม่​พินาศ แต่​มี​ชีวิต​นิรันดร์
+Holy-Bible---Thai---Thai-Freedom-Bible	Sour txt != Aio2	043-JOH-003-015	043	JOH	003	015	เพื่อ​ให้​ทุกคน​ที่​เชื่อ​ใน​พระองค์​ไม่​พินาศ แต่​มี​ชีวิต​นิรันดร์ (aiōnios g166)
+Holy-Bible---Thai---Thai-Freedom-Bible	Sour txt != Aion	043-JOH-003-016	043	JOH	003	016	เพราะ​พระเจ้า​รัก​โลก​มาก​ถึง​ขนาด​ที่​ประทาน​พระบุตร​ผู้​บังเกิด​เพียง​องค์เดียว เพื่อ​ให้​ทุกคน​ที่​เชื่อ​ใน​พระองค์​ไม่​พินาศ แต่​มี​ชีวิต​นิรันดร์
+Holy-Bible---Thai---Thai-Freedom-Bible	Sour txt != Aio2	043-JOH-003-016	043	JOH	003	016	เพราะ​พระเจ้า​รัก​โลก​มาก​ถึง​ขนาด​ที่​ประทาน​พระบุตร​ผู้​บังเกิด​เพียง​องค์เดียว เพื่อ​ให้​ทุกคน​ที่​เชื่อ​ใน​พระองค์​ไม่​พินาศ แต่​มี​ชีวิต​นิรันดร์ (aiōnios g166)
+Holy-Bible---Thai---Thai-Freedom-Bible	Data checks: aionian=28301 standard=28301 source=28306						
 Holy-Bible---Tharu-Rana---Rana-Tharu-Bible	Aion txt != Sour	041-MAR-016-009	041	MAR	016	009	(note: The most reliable and earliest manuscripts do not include Mark 16:9-20.) ईसु जिंदो होन के बाद इतवार बारे रोज भोर होत खिना, सबन से अग्गु मरियम मगदलीनी जोके भीतर से बौ सात प्रेत आत्मा कै निकारी रहै, बाकै दिखाई दई।
 Holy-Bible---Tharu-Rana---Rana-Tharu-Bible	Aion txt != Sou2	041-MAR-016-009	041	MAR	016	009	ईसु जिंदो होन के बाद इतवार बारे रोज भोर होत खिना, सबन से अग्गु मरियम मगदलीनी जोके भीतर से बौ सात प्रेत आत्मा कै निकारी रहै, बाकै दिखाई दई।
 Holy-Bible---Tharu-Rana---Rana-Tharu-Bible	Aion txt != Stan	043-JOH-003-015	043	JOH	003	015	ताकी जो कोई बाके ऊपर बिस्वास करै, बौ अनंत जिंदगी पाबै। (aiōnios g166)

@@ -1,6 +1,6 @@
 # File Name: ANAVIGATION.txt
-# File Size: 43493       
-# File Date: 10/02/2026 21:08:46
+# File Size: 43767       
+# File Date: 10/08/2026 12:15:28
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution 4.0 International, 2018-2026
@@ -132,6 +132,7 @@ Holy-Bible---Chinese---Mandarin-Bible-Simplified
 Holy-Bible---Chinese---Mandarin-Bible-Simplified	VERSMISS	065-JUD-001-025
 Holy-Bible---Chinese---Mandarin-Bible-Traditional		
 Holy-Bible---Chinese---Mandarin-Bible-Traditional	VERSMISS	065-JUD-001-025
+Holy-Bible---Chinese---World-Chinese-Bible		
 Holy-Bible---Chiyawo---Yao		
 Holy-Bible---Cishingini---Cishingini-Bible		
 Holy-Bible---Coptic---Coptic-Boharic-NT		
@@ -451,6 +452,7 @@ Holy-Bible---Greek---Greek-SBL	VERSMISS	045-ROM-016-026
 Holy-Bible---Greek---Greek-SBL	VERSMISS	045-ROM-016-027
 Holy-Bible---Greek---Greek-STEPBible		
 Holy-Bible---Greek---Greek-Scrivener		
+Holy-Bible---Greek---Greek-Statistical-Koine		
 Holy-Bible---Greek---Greek-Statistical-Restoration		
 Holy-Bible---Greek---Greek-Stephanus		
 Holy-Bible---Greek---Greek-TR-Stephanus-Scrivener		
@@ -519,6 +521,7 @@ Holy-Bible---Janji---Janji-Bible
 Holy-Bible---Janji---Janji-Bible	VERSMISS	040-MAT-025-046
 Holy-Bible---Japanese---Japanese-Bungo-yaku		
 Holy-Bible---Japanese---Japanese-Electronic-Network-Bible		
+Holy-Bible---Japanese---Japanese-Freedom-Bible		
 Holy-Bible---Japanese---Japanese-Kougo-yaku		
 Holy-Bible---Japanese---Japanese-Meiji-yaku		
 Holy-Bible---Japanese---Japanese-Raguet-yaku		
@@ -751,7 +754,9 @@ Holy-Bible---Soli---Soli-Bible
 Holy-Bible---Somali---Somali-Bible		
 Holy-Bible---Somau-Karia---Somau-Karia-Bible		
 Holy-Bible---Somau-Karia---Somau-Karia-Bible	VERSMISS	044-ACT-015-018
+Holy-Bible---Spanish---Biblia-Libre-Latino		
 Holy-Bible---Spanish---Biblia-Platense-Straubinger		
+Holy-Bible---Spanish---FelipeScioDeSanMiguel		
 Holy-Bible---Spanish---Free-Bible		
 Holy-Bible---Spanish---Free-for-the-World		
 Holy-Bible---Spanish---Gods-Word-for-You		
@@ -810,6 +815,7 @@ Holy-Bible---Telugu---Telugu-Open-Contemporary	VERSMISS	043-JOH-003-015
 Holy-Bible---Telugu---Telugu-Open-Contemporary	VERSMISS	045-ROM-016-026
 Holy-Bible---Telugu---Telugu-Open-Contemporary	VERSMISS	045-ROM-016-027
 Holy-Bible---Telugu---Telugu-Open-Contemporary	VERSMISS	049-EPH-001-021
+Holy-Bible---Thai---Thai-Freedom-Bible		
 Holy-Bible---Tharu-Rana---Rana-Tharu-Bible		
 Holy-Bible---Thur---Leb-Thur-Bible		
 Holy-Bible---Tichurong---Tichurong-Bible		

@@ -181,6 +181,7 @@ Holy-Bible---Chinese---Mandarin-Bible-Simplified							end
 Holy-Bible---Chinese---Mandarin-Bible-Traditional	064	3JO	001	014	14	1	end
 Holy-Bible---Chinese---Mandarin-Bible-Traditional	066	REV	012	018	1	-1	end
 Holy-Bible---Chinese---Mandarin-Bible-Traditional							end
+Holy-Bible---Chinese---World-Chinese-Bible							end
 Holy-Bible---Chin-Matu---Matupi-Chin-2019	064	3JO	001	014	14	1	end
 Holy-Bible---Chin-Matu---Matupi-Chin-2019	066	REV	012	018	1	-1	end
 Holy-Bible---Chin-Matu---Matupi-Chin-2019							end
@@ -2103,6 +2104,9 @@ Holy-Bible---Greek---Greek-SBL	064	3JO	001	014	14	1	end
 Holy-Bible---Greek---Greek-SBL	066	REV	012	018	1	-1	end
 Holy-Bible---Greek---Greek-SBL							end
 Holy-Bible---Greek---Greek-Scrivener							end
+Holy-Bible---Greek---Greek-Statistical-Koine	064	3JO	001	014	14	1	end
+Holy-Bible---Greek---Greek-Statistical-Koine	066	REV	012	018	1	-1	end
+Holy-Bible---Greek---Greek-Statistical-Koine							end
 Holy-Bible---Greek---Greek-Statistical-Restoration							end
 Holy-Bible---Greek---Greek-STEPBible							end
 Holy-Bible---Greek---Greek-Stephanus							end
@@ -2866,6 +2870,7 @@ Holy-Bible---Janji---Janji-Bible	066	REV	012	018	1	-1	end
 Holy-Bible---Janji---Janji-Bible							end
 Holy-Bible---Japanese---Japanese-Bungo-yaku							end
 Holy-Bible---Japanese---Japanese-Electronic-Network-Bible							end
+Holy-Bible---Japanese---Japanese-Freedom-Bible							end
 Holy-Bible---Japanese---Japanese-Kougo-yaku							end
 Holy-Bible---Japanese---Japanese-Meiji-yaku							end
 Holy-Bible---Japanese---Japanese-Raguet-yaku	043	JOH	006	051	70	1	end
@@ -4339,6 +4344,7 @@ Holy-Bible---Somali---Somali-Bible	064	3JO	001	014	14	1	end
 Holy-Bible---Somali---Somali-Bible							end
 Holy-Bible---Somau-Karia---Somau-Karia-Bible	064	3JO	001	014	14	1	end
 Holy-Bible---Somau-Karia---Somau-Karia-Bible							end
+Holy-Bible---Spanish---Biblia-Libre-Latino							end
 Holy-Bible---Spanish---Biblia-Platense-Straubinger	006	JOS	005	014	15	1	end
 Holy-Bible---Spanish---Biblia-Platense-Straubinger	011	1KI	022	043	53	1	end
 Holy-Bible---Spanish---Biblia-Platense-Straubinger	018	JOB	016	004	22	1	end
@@ -4408,6 +4414,7 @@ Holy-Bible---Spanish---Biblia-Platense-Straubinger	028	HOS	002	023	23	1	end
 Holy-Bible---Spanish---Biblia-Platense-Straubinger	030	AMO	006	010	14	1	end
 Holy-Bible---Spanish---Biblia-Platense-Straubinger	066	REV	012	018	1	-1	end
 Holy-Bible---Spanish---Biblia-Platense-Straubinger							end
+Holy-Bible---Spanish---FelipeScioDeSanMiguel							end
 Holy-Bible---Spanish---Free-Bible							end
 Holy-Bible---Spanish---Free-for-the-World							end
 Holy-Bible---Spanish---Gods-Word-for-You	064	3JO	001	014	14	1	end
@@ -4600,6 +4607,7 @@ Holy-Bible---Telugu---Telugu-Bible	064	3JO	001	014	14	1	end
 Holy-Bible---Telugu---Telugu-Bible	066	REV	012	018	1	-1	end
 Holy-Bible---Telugu---Telugu-Open-Contemporary	064	3JO	001	014	14	1	end
 Holy-Bible---Telugu---Telugu-Open-Contemporary							end
+Holy-Bible---Thai---Thai-Freedom-Bible							end
 Holy-Bible---Tharu-Rana---Rana-Tharu-Bible	064	3JO	001	014	14	1	end
 Holy-Bible---Tharu-Rana---Rana-Tharu-Bible	066	REV	012	018	1	-1	end
 Holy-Bible---Tharu-Rana---Rana-Tharu-Bible							end

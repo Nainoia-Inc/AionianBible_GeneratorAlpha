@@ -287,7 +287,7 @@ span.font-tamil { font-family: 'font-tamil', 'NotoSans', 'Arial', 'sans-serif', 
 	src:
 		url('../fonts/notoseriftelugu-regular.woff2')	format('woff2'),
 		url('../fonts/notoseriftelugu-regular.woff')	format('woff'),
-		url('../fonts/notoseriftelugu-regular.ttf')	format('truetype');
+		url('../fonts/notoseriftelugu-regular.ttf')		format('truetype');
 }
 span.font-telugu { font-family: 'font-telugu', 'NotoSans', 'Arial', 'sans-serif', 'GentiumPlus'; }
 
@@ -298,7 +298,7 @@ span.font-telugu { font-family: 'font-telugu', 'NotoSans', 'Arial', 'sans-serif'
 	src:
 		url('../fonts/notoserifthai_semicondensed.woff2')	format('woff2'),
 		url('../fonts/notoserifthai_semicondensed.woff')	format('woff'),
-		url('../fonts/notoserifthai_semicondensed.ttf')	format('truetype');
+		url('../fonts/notoserifthai_semicondensed.ttf')		format('truetype');
 }
 span.font-thai { font-family: 'font-thai', 'NotoSans', 'Arial', 'sans-serif', 'GentiumPlus'; }
 
@@ -307,8 +307,8 @@ span.font-thai { font-family: 'font-thai', 'NotoSans', 'Arial', 'sans-serif', 'G
 	font-family:
 		'font-tibetan';
 	src:
-		url('../fonts/notoserifthai_semicondensed.woff2')	format('woff2'),
-		url('../fonts/notoserifthai_semicondensed.woff')	format('woff'),
-		url('../fonts/notoserifthai_semicondensed.ttf')	format('truetype');
+		url('../fonts/notoseriftibetan.woff2')	format('woff2'),
+		url('../fonts/notoseriftibetan.woff')	format('woff'),
+		url('../fonts/notoseriftibetan.ttf')	format('truetype');
 }
 span.font-tibetan { font-family: 'font-tibetan', 'NotoSans', 'Arial', 'sans-serif', 'GentiumPlus'; }

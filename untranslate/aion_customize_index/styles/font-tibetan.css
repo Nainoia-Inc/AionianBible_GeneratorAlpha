@@ -19,8 +19,8 @@
 	font-family:
 		'font-tibetan';
 	src:
-		url('../fonts/notoserifthai_semicondensed.woff2')	format('woff2'),
-		url('../fonts/notoserifthai_semicondensed.woff')	format('woff'),
-		url('../fonts/notoserifthai_semicondensed.ttf')		format('truetype');
+		url('../fonts/notoseriftibetan.woff2')	format('woff2'),
+		url('../fonts/notoseriftibetan.woff')	format('woff'),
+		url('../fonts/notoseriftibetan.ttf')	format('truetype');
 }
 span.font-tibetan { font-family: 'font-tibetan', 'NotoSans', 'Arial', 'sans-serif', 'GentiumPlus'; }

@@ -1,6 +1,6 @@
 # File Name: IVERSE.txt
-# File Size: 1233040     
-# File Date: 10/02/2026 21:07:00
+# File Size: 1249314     
+# File Date: 10/08/2026 12:13:45
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution 4.0 International, 2018-2026
@@ -590,6 +590,15 @@ Holy-Bible---Chinese---Mandarin-Bible-Traditional	EXO-013-017	出埃及記 13:17
 Holy-Bible---Chinese---Mandarin-Bible-Traditional	MAR-010-045	馬可福音 10:45	因為就連人子也不是來受人服侍，而是來服侍人，並且犧牲性命，作許多人的贖價。」
 Holy-Bible---Chinese---Mandarin-Bible-Traditional	ROM-001-001	羅馬書 1:1	我是基督耶穌的奴僕保羅，蒙召作使徒，特為傳上帝的福音。
 Holy-Bible---Chinese---Mandarin-Bible-Traditional	MAT-028-019	馬太福音 28:19	所以，你們要去使萬民作我的門徒，奉父、子、聖靈的名給他們施洗，
+Holy-Bible---Chinese---World-Chinese-Bible	JOH-003-016	约翰福音 3:16	上帝爱世人，甚至将祂的独生 子赐给他们，叫一切信祂的，不致灭亡，反得永生。
+Holy-Bible---Chinese---World-Chinese-Bible	GEN-003-024	创世记 3:24	于是祂赶出那人；又在伊甸园的东边安设基路伯，以及四面转动、发火焰的剑，守卫通往生命树的道路。
+Holy-Bible---Chinese---World-Chinese-Bible	LUK-023-034	路加 23:34	耶稣说：“父啊，赦免他们，因为他们不知道自己在做什么。” 他们拈阄分了祂的衣服。
+Holy-Bible---Chinese---World-Chinese-Bible	REV-021-002	启示录 21:2-3	我看见圣城新耶路撒冷从天上由上帝那里降下，预备好了，就像新娘为丈夫妆饰整齐。 我听见有大声音从天上出来，说：“看哪，上帝的居所与人在一起；祂要与他们同住，他们要作祂的子民，上帝亲自要与他们同在，作他们的上帝。
+Holy-Bible---Chinese---World-Chinese-Bible	HEB-011-008	希伯来书 11:8	因着信，亚伯拉罕蒙召的时候，就顺从出去，往他将要领受为产业的地方去。他出去的时候，还不知道要往哪里去。
+Holy-Bible---Chinese---World-Chinese-Bible	EXO-013-017	出埃及记 13:17	法老放百姓走以后，上帝没有领他们走非利士人之地的路，虽然那条路较近；因为上帝说：“恐怕百姓看见战争就后悔，返回埃及。”
+Holy-Bible---Chinese---World-Chinese-Bible	MAR-010-045	马可福音 10:45	因为人子来，也不是要受人的服事，而是要服事人，并且要舍命，作多人的赎价。”
+Holy-Bible---Chinese---World-Chinese-Bible	ROM-001-001	罗马书 1:1	耶稣基督的仆人保罗，蒙召作使徒，被分别出来传上帝的福音。
+Holy-Bible---Chinese---World-Chinese-Bible	MAT-028-019	马太福音 28:19	所以，你们要去，使万民作我的门徒，奉父、子、圣灵的名给他们施洗，
 Holy-Bible---Chiyawo---Yao	JOH-003-016	Yohana 3:16	Pakuŵa Akunnungu ŵaanonyele nnope ŵandu ŵa pachilambo, nipele ŵantyosisye Mwanagwe jwajikape, kuti jwalijose jwakunkulupilila akajonasika, nambo akole umi wa moŵa gose pangali mbesi.
 Holy-Bible---Chiyawo---Yao	GEN-003-024		
 Holy-Bible---Chiyawo---Yao	LUK-023-034	Luka 23:34	Che Yesu ŵatite, “Atati, mwalechelesye pakuŵa ngakuimanyilila yakuitendayi.” Nipele, ŵagaŵene iwalo yao kwa kuitendela gudugudu.
@@ -1577,7 +1586,7 @@ Holy-Bible---French---French-Louis-Segond-1910-Bible	LUK-023-034	Luc 23:34	Jésu
 Holy-Bible---French---French-Louis-Segond-1910-Bible	REV-021-002	Apocalypse 21:2-3	Et je vis descendre du ciel, d’auprès de Dieu, la ville sainte, la nouvelle Jérusalem, préparée comme une épouse qui s’est parée pour son époux. Et j’entendis du trône une forte voix qui disait: Voici le tabernacle de Dieu avec les hommes! Il habitera avec eux, et ils seront son peuple, et Dieu lui-même sera avec eux.
 Holy-Bible---French---French-Louis-Segond-1910-Bible	HEB-011-008	Hébreux 11:8	C’est par la foi qu’Abraham, lors de sa vocation, obéit et partit pour un lieu qu’il devait recevoir en héritage, et qu’il partit sans savoir où il allait.
 Holy-Bible---French---French-Louis-Segond-1910-Bible	EXO-013-017	Exode 13:17	Lorsque Pharaon laissa aller le peuple, Dieu ne le conduisit point par le chemin du pays des Philistins, quoique le plus proche; car Dieu dit: Le peuple pourrait se repentir en voyant la guerre, et retourner en Égypte.
-Holy-Bible---French---French-Louis-Segond-1910-Bible	MAR-010-045	Marc 10:45	Car le Fils de l’homme est venu, non pour être servi, mais pour servir etdonner sa vie comme la rançon de plusieurs.
+Holy-Bible---French---French-Louis-Segond-1910-Bible	MAR-010-045	Marc 10:45	Car le Fils de l’homme est venu, non pour être servi, mais pour servir et donner sa vie comme la rançon de plusieurs.
 Holy-Bible---French---French-Louis-Segond-1910-Bible	ROM-001-001	Romains 1:1	Paul, serviteur de Jésus-Christ, appelé à être apôtre, mis à part pour annoncer l’Évangile de Dieu,
 Holy-Bible---French---French-Louis-Segond-1910-Bible	MAT-028-019	Matthieu 28:19	Allez, faites de toutes les nations des disciples, les baptisant au nom du Père, du Fils et du Saint-Esprit,
 Holy-Bible---French---French-Martin	JOH-003-016	Jean 3:16	Car Dieu a tant aimé le monde, qu'il a donné son Fils unique, afin que quiconque croit en lui ne périsse point, mais qu'il ait la vie éternelle.
@@ -2021,6 +2030,15 @@ Holy-Bible---Greek---Greek-Scrivener	EXO-013-017
 Holy-Bible---Greek---Greek-Scrivener	MAR-010-045	Κατα Μαρκον 10:45	και γαρ ο υιος του ανθρωπου ουκ ηλθεν διακονηθηναι αλλα διακονησαι και δουναι την ψυχην αυτου λυτρον αντι πολλων
 Holy-Bible---Greek---Greek-Scrivener	ROM-001-001	Προς Ρωμαιους 1:1	παυλος δουλος ιησου χριστου κλητος αποστολος αφωρισμενος εις ευαγγελιον θεου
 Holy-Bible---Greek---Greek-Scrivener	MAT-028-019	Κατα Ματθαιον 28:19	πορευθεντες ουν μαθητευσατε παντα τα εθνη βαπτιζοντες αυτους εις το ονομα του πατρος και του υιου και του αγιου πνευματος
+Holy-Bible---Greek---Greek-Statistical-Koine	JOH-003-016	Κατα Ιωαννην 3:16	⸢ουτωσ⸣ γαρ ηγαπησεν ο θ̅σ̅ τον κοσμον ωστε τον υιον ⸢⸣ τον ⸢μονογενη⸣ ⸢εδωκεν⸣ ινα πασ ο πιστευων ⸢εισ⸣ αυτον μη ⸢αποληται⸣ ⸢αλλ⸣ εχη ζωην αιωνιον
+Holy-Bible---Greek---Greek-Statistical-Koine	GEN-003-024		
+Holy-Bible---Greek---Greek-Statistical-Koine	LUK-023-034	Κατα Λουκαν 23:34	⸢⸣ ⸢διαμεριζομενοι⸣ δε τα ιματια αυτου ⸢εβαλον⸣ ⸢κληρον⸣
+Holy-Bible---Greek---Greek-Statistical-Koine	REV-021-002	Αποκαλυψις Ιωαννου 21:2-3	και ⸢την πολιν την αγιαν ιερουσαλημ κενην ειδον⸣ καταβαινουσαν ⸢εκ του ουρανου απο του θ̅υ̅⸣ ητοιμασμενην ωσ νυμφην κεκοσμημενην τω ανδρι αυτησ και ⸢ηκουσα φωνησ μεγαλησ⸣ εκ του ⸢θρονου⸣ ⸢λεγουσησ⸣ ιδου η σκηνη του θ̅υ̅ μετα των ανθρωπων και ⸢σκηνωσει⸣ μετ αυτων και αυτοι ⸢λαοι⸣ αυτου εσονται ⸢και⸣ αυτοσ ο θ̅σ̅ ⸢εσται μετ αυτων⸣ ⸢⸣
+Holy-Bible---Greek---Greek-Statistical-Koine	HEB-011-008	Προς Εβραιους 11:8	πιστι ⸢⸣ καλουμενοσ αβρααμ υπηκουσεν εξελθειν εισ ⸢⸣ τοπον ον ⸢ημελλεν⸣ ⸢λαμβανειν εισ κληρονομιαν⸣ και ⸢εξηλθεν⸣ μη επισταμενοσ που ερχεται
+Holy-Bible---Greek---Greek-Statistical-Koine	EXO-013-017		
+Holy-Bible---Greek---Greek-Statistical-Koine	MAR-010-045	Κατα Μαρκον 10:45	και γαρ ο υιοσ του ανθρωπου ουκ ⸢ηλθεν⸣ διακονηθηναι αλλα διακονησαι και δουναι την ψυχην αυτου ⸢λυτρον⸣ αντι πολλων
+Holy-Bible---Greek---Greek-Statistical-Koine	ROM-001-001	Προς Ρωμαιους 1:1	παυλοσ δουλοσ ⸢χ̅υ̅ ι̅υ̅⸣ κλητοσ αποστολοσ αφωρισμενοσ εισ ευαγγελιον θ̅υ̅
+Holy-Bible---Greek---Greek-Statistical-Koine	MAT-028-019	Κατα Ματθαιον 28:19	⸢πορευθεντεσ ουν⸣ μαθητευσατε παντα τα εθνη ⸢βαπτιζοντεσ⸣ αυτουσ εισ το ονομα του πατροσ και ⸢του⸣ υιου και του αγιου π̅ν̅σ̅
 Holy-Bible---Greek---Greek-Statistical-Restoration	JOH-003-016	Κατα Ιωαννην 3:16	Οὕτως γὰρ ἠγάπησεν ὁ Θεὸς τὸν κόσμον, ὥστε τὸν Υἱὸν τὸν μονογενῆ ἔδωκεν, ἵνα πᾶς ὁ πιστεύων εἰς αὐτὸν μὴ ἀπόληται, ἀλλʼ ἔχῃ ζωὴν αἰώνιον.
 Holy-Bible---Greek---Greek-Statistical-Restoration	GEN-003-024		
 Holy-Bible---Greek---Greek-Statistical-Restoration	LUK-023-034	Κατα Λουκαν 23:34	Διαμεριζόμενοι δὲ τὰ ἱμάτια αὐτοῦ, ἔβαλον κλῆρον.
@@ -2182,7 +2200,7 @@ Holy-Bible---Hausa---Contemporary	HEB-011-008	Ibraniyawa 11:8	Ta wurin bangaskiy
 Holy-Bible---Hausa---Contemporary	EXO-013-017	Fitowa 13:17	Sa’ad da Fir’auna ya bar mutane su tafi, Allah bai bi da su a hanyar da ta bi ta iyakar Filistiyawa ba, ko da yake wannan hanya ce ta fi kusa. Gama Allah ya ce, “In suka fuskanci yaƙi, wataƙila su canja ra’ayinsu su koma Masar.”
 Holy-Bible---Hausa---Contemporary	MAR-010-045	Markus 10:45	Gama ko Ɗan Mutum ma, bai zo domin a bauta masa ba, amma don yă yi bauta, yă kuma ba da ransa fansa saboda mutane da yawa.”
 Holy-Bible---Hausa---Contemporary	ROM-001-001	Romawa 1:1	Bulus, bawan Kiristi Yesu, kirayaye don yă zama manzo, keɓaɓɓe kuma domin bisharar Allah.
-Holy-Bible---Hausa---Contemporary	MAT-028-019	Mattiyu 28:19	Saboda haka ku tafi, ku mai da dukan al’umman duniya su zama almajiraina, kuna yi musu baftisma a cikinsunan Uba, da na Ɗa, da na Ruhu Mai Tsarki,
+Holy-Bible---Hausa---Contemporary	MAT-028-019	Mattiyu 28:19	Saboda haka ku tafi, ku mai da dukan al’umman duniya su zama almajiraina, kuna yi musu baftisma a cikin sunan Uba, da na Ɗa, da na Ruhu Mai Tsarki,
 Holy-Bible---Hausa---Hausa-Bible	JOH-003-016	Yohanna 3:16	Gama Allah ya kaunaci duniya sosai, har ya ba da makadaicin Dansa, domin duk wanda ya bada gaskiya gareshi, kada ya mutu, amma ya samu rai madawwami.
 Holy-Bible---Hausa---Hausa-Bible	GEN-003-024		
 Holy-Bible---Hausa---Hausa-Bible	LUK-023-034	Luka 23:34	Yesu yace, “Uba, ka yafe masu, gama basu san abin da suke yi ba.” Sai suka jefa kuri'a, suka rarraba tufafinsa.
@@ -2415,7 +2433,7 @@ Holy-Bible---Ilonggo---Hiligaynon-Free-Bible	REV-021-002	Pahayag 21:2-3	Kag naki
 Holy-Bible---Ilonggo---Hiligaynon-Free-Bible	HEB-011-008	Hebreo 11:8	Tungod sa pagtuo, gintuman ni Abraham ang ginsiling sang Dios nga magkadto siya sa lugar nga ginpromisa sa iya. Ginbayaan niya ang iya lugar bisan wala siya nakahibalo kon diin gid ang lugar nga kadtuan niya.
 Holy-Bible---Ilonggo---Hiligaynon-Free-Bible	EXO-013-017	Exodus 13:17	Sang ginpalakat sang hari ang mga Israelinhon, wala sila pagtuytuyi sang Dios sa dalan nga pakadto sa duta sang mga Filistinhon bisan amo ato ang laktod nga dalan. Kay nagsiling ang Dios, “Kon may inaway nga atubangon ang mga Israelinhon, basi magbaylo ang ila hunahuna kag magbalik sila sa Egypt.”
 Holy-Bible---Ilonggo---Hiligaynon-Free-Bible	MAR-010-045	Marcos 10:45	Kay bisan pa gani [ako nga] Anak sang Tawo wala nagkadto diri sa kalibutan para alagaran, kundi mag-alagad kag maghatag sang akon kabuhi para matubos ang madamo nga tawo.”
-Holy-Bible---Ilonggo---Hiligaynon-Free-Bible	ROM-001-001	Roma 1:1	[Ako] si Pablo nga ulipon ni Cristo Jesus. Gintawag[ako] sang Dios nga mangin apostol kag ginseparar agod magwali sang iya Maayong Balita.
+Holy-Bible---Ilonggo---Hiligaynon-Free-Bible	ROM-001-001	Roma 1:1	[Ako] si Pablo nga ulipon ni Cristo Jesus. Gintawag [ako] sang Dios nga mangin apostol kag ginseparar agod magwali sang iya Maayong Balita.
 Holy-Bible---Ilonggo---Hiligaynon-Free-Bible	MAT-028-019	Mateo 28:19	Gani kadtui ninyo ang tanan nga katawhan kag himuon ninyo sila nga akon mga sumulunod. Bautisohan ninyo sila sa ngalan sang Amay, sang Anak, kag sang Espiritu Santo.
 Holy-Bible---Indonesian---Bahasa-Indonesia-Sehari-hari	JOH-003-016	Yohanes 3:16	Karena Allah begitu mengasihi manusia di dunia ini, sehingga Ia memberikan Anak-Nya yang tunggal, supaya setiap orang yang percaya kepada-Nya tidak binasa, melainkan mendapat hidup sejati dan kekal.
 Holy-Bible---Indonesian---Bahasa-Indonesia-Sehari-hari	GEN-003-024	Kejadian 3:24	Kemudian, di sebelah timur taman itu di depan pintu masuk, TUHAN Allah menempatkan kerub-kerub, dan sebilah pedang berapi yang berputar ke segala arah, untuk menjaga jalan ke pohon yang memberi hidup itu. Dengan demikian tak seorang pun dapat masuk dan mendekati pohon itu.
@@ -2525,6 +2543,15 @@ Holy-Bible---Japanese---Japanese-Electronic-Network-Bible	EXO-013-017
 Holy-Bible---Japanese---Japanese-Electronic-Network-Bible	MAR-010-045	マルコの福音書 10:45	というのは，人の子も，仕えてもらうためではなく，むしろ仕え，自分の命を多くの人の身代金として与えるために来たからだ」 。
 Holy-Bible---Japanese---Japanese-Electronic-Network-Bible	ROM-001-001		
 Holy-Bible---Japanese---Japanese-Electronic-Network-Bible	MAT-028-019	マタイの福音書 28:19	だから，行って，あらゆる民族の人々を弟子とし，父と子と聖霊の名において彼らにバプテスマを施し，
+Holy-Bible---Japanese---Japanese-Freedom-Bible	JOH-003-016	ヨハネの福音書 3:16	神は世をこれほどまでに愛し、そのひとり子をお与えになりました。それは、この方を信じる者がだれも滅びることなく、永遠の命を持つためです。
+Holy-Bible---Japanese---Japanese-Freedom-Bible	GEN-003-024	創世記 3:24	こうして神は人を追放し、命の木への道を守るために、エデンの園の東にケルビムと、四方に向かって回転する炎の剣を置かれた。
+Holy-Bible---Japanese---Japanese-Freedom-Bible	LUK-023-034	ルカの福音書 23:34	イエスは言った。「父よ、彼らをお赦しください。自分たちが何をしているのか、分かっていないのです。」 人々はくじを引いて、イエスの衣を分け合った。
+Holy-Bible---Japanese---Japanese-Freedom-Bible	REV-021-002	ヨハネの黙示録 21:2-3	また、聖なる都、新しいエルサレムが、夫のために着飾った花嫁のように整えられ、神のもとから天より下って来るのを見た。 そして、天から大きな声がこう言うのを聞いた。「見よ、神の住まいは人々とともにある。神は彼らとともに住み、彼らは神の民となる。神ご自身が彼らとともにいて、彼らの神となられる。
+Holy-Bible---Japanese---Japanese-Freedom-Bible	HEB-011-008	ヘブル人への手紙 11:8	信仰によって、アブラハムは召しに従い、相続財産として受けることになる場所へ出て行きました。行き先を知らないまま出て行ったのです。
+Holy-Bible---Japanese---Japanese-Freedom-Bible	EXO-013-017	出エジプト記 13:17	ファラオが民を行かせた時、ペリシテ人の地を通る道は近かったが、神はその道に導かれなかった。神は「民は戦いを見れば心を変え、エジプトへ戻るかもしれない」と考えられた。
+Holy-Bible---Japanese---Japanese-Freedom-Bible	MAR-010-045	マルコの福音書 10:45	人の子も、仕えられるためではなく仕えるために、また多くの人のための贖いの代価として、自分のいのちを与えるために来たのである。」
+Holy-Bible---Japanese---Japanese-Freedom-Bible	ROM-001-001	ローマ人への手紙 1:1	イエス・キリストのしもべであり、使徒として召され、神の福音のために選び分けられたパウロから。
+Holy-Bible---Japanese---Japanese-Freedom-Bible	MAT-028-019	マタイの福音書 28:19	行って 、すべての国民を弟子とし、父と子と聖霊の名によって彼らにバプテスマを授けなさい。
 Holy-Bible---Japanese---Japanese-Kougo-yaku	JOH-003-016	ヨハネの福音書 3:16	神はそのひとり子を賜わったほどに、この世を愛して下さった。それは御子を信じる者がひとりも滅びないで、永遠の命を得るためである。
 Holy-Bible---Japanese---Japanese-Kougo-yaku	GEN-003-024	創世記 3:24	神は人を追い出し、エデンの園の東に、ケルビムと、回る炎のつるぎとを置いて、命の木の道を守らせられた。
 Holy-Bible---Japanese---Japanese-Kougo-yaku	LUK-023-034	ルカの福音書 23:34	そのとき、イエスは言われた、「父よ、彼らをおゆるしください。彼らは何をしているのか、わからずにいるのです」。人々はイエスの着物をくじ引きで分け合った。
@@ -2594,7 +2621,7 @@ Holy-Bible---Kannada---Indian-Revised-Version	LUK-023-034	ಲೂಕ 23:34	ಆಗ
 Holy-Bible---Kannada---Indian-Revised-Version	REV-021-002	ಪ್ರಕ 21:2-3	ಇದಲ್ಲದೆ ಪರಲೋಕದಿಂದ ಪರಿಶುದ್ಧ ಪಟ್ಟಣವಾದ ಹೊಸ ಯೆರೂಸಲೇಮ್ ದೇವರ ಬಳಿಯಿಂದ ಇಳಿದು ಬರುವುದನ್ನು ಕಂಡೆನು. ಅದು ತನ್ನ ಪತಿಗೋಸ್ಕರ ಸಿದ್ಧಳಾಗಿರುವ ಮದಲಗಿತ್ತಿಯಂತೆ ಶೃಂಗರಿಸಲ್ಪಟ್ಟಿತ್ತು. ಇದಲ್ಲದೆ ಸಿಂಹಾಸನದೊಳಗಿಂದ ಬಂದ ಮಹಾಧ್ವನಿಯು ನನಗೆ ಕೇಳಿಸಿತು. ಅದು, “ಇಗೋ ದೇವರ ನಿವಾಸವು ಮನುಷ್ಯರೊಂದಿಗೆ ಇದೆ. ಆತನು ಅವರೊಡನೆ ವಾಸಮಾಡುವನು. ಅವರು ಆತನಿಗೆ ಪ್ರಜೆಗಳಾಗಿರುವರು. ದೇವರು ತಾನೇ ಅವರ ಸಂಗಡ ಇರುವನು ಮತ್ತು ಅವರ ದೇವರಾಗಿರುವನು.
 Holy-Bible---Kannada---Indian-Revised-Version	HEB-011-008	ಇಬ್ರಿ 11:8	ನಂಬಿಕೆಯಿಂದಲೇ ಅಬ್ರಹಾಮನು ಕರೆಯಲ್ಪಟ್ಟಾಗ ವಿಧೇಯನಾಗಿ ತಾನು ಬಾಧ್ಯವಾಗಿ ಹೊಂದಬೇಕಾಗಿದ್ದ ಸ್ಥಳಕ್ಕೆ ಹೊರಟು ಹೋದನು. ತಾನು ಹೋಗುವುದು ಎಲ್ಲಿಗೆ ಎಂದು ತಿಳಿಯದೆ ಹೊರಟನು.
 Holy-Bible---Kannada---Indian-Revised-Version	EXO-013-017	ವಿಮೋ 13:17	ಫರೋಹನು ಇಸ್ರಾಯೇಲರಿಗೆ ಹೋಗುವುದಕ್ಕೆ ಅಪ್ಪಣೆ ಕೊಟ್ಟಾಗ, ಫಿಲಿಷ್ಟಿಯರ ದೇಶದ ಮಾರ್ಗವು ಸಮೀಪವಾಗಿದ್ದರೂ ದೇವರು ಆ ದಾರಿಯಲ್ಲಿ ಅವರನ್ನು ಹೋಗಗೊಡಿಸಲಿಲ್ಲ. ಏಕೆಂದರೆ, “ದೇವರು, ಜನರು ಯುದ್ಧವನ್ನು ನೋಡಿ ಗಾಬರಿಯಾಗಿ ಮನಸ್ಸನ್ನು ಬದಲಾಯಿಸಿಕೊಂಡು ಐಗುಪ್ತಕ್ಕೆ ಹಿಂದಿರುಗಿ ಹೋದಾರೂ” ಎಂದು ಹೇಳಿದನು.
-Holy-Bible---Kannada---Indian-Revised-Version	MAR-010-045	ಮಾರ್ಕ 10:45	ಮನುಷ್ಯಕುಮಾರನು ಸಹ ಸೇವೆಮಾಡಿಸಿಕೊಳ್ಳುವುದಕ್ಕೆ ಬರಲಿಲ್ಲ, ಸೇವೆಮಾಡುವುದಕ್ಕೂಅನೇಕರನ್ನು ಬಿಡಿಸಿಕೊಳ್ಳುವುದಕ್ಕಾಗಿ ತನ್ನ ಪ್ರಾಣವನ್ನು ಈಡುಕೊಡುವುದಕ್ಕಾಗಿ ಬಂದನು” ಎಂದು ಹೇಳಿದನು.
+Holy-Bible---Kannada---Indian-Revised-Version	MAR-010-045	ಮಾರ್ಕ 10:45	ಮನುಷ್ಯಕುಮಾರನು ಸಹ ಸೇವೆಮಾಡಿಸಿಕೊಳ್ಳುವುದಕ್ಕೆ ಬರಲಿಲ್ಲ, ಸೇವೆಮಾಡುವುದಕ್ಕೂ ಅನೇಕರನ್ನು ಬಿಡಿಸಿಕೊಳ್ಳುವುದಕ್ಕಾಗಿ ತನ್ನ ಪ್ರಾಣವನ್ನು ಈಡುಕೊಡುವುದಕ್ಕಾಗಿ ಬಂದನು” ಎಂದು ಹೇಳಿದನು.
 Holy-Bible---Kannada---Indian-Revised-Version	ROM-001-001	ರೋಮಾ 1:1	ಯೇಸು ಕ್ರಿಸ್ತನ ದಾಸನೂ, ಅಪೊಸ್ತಲನಾಗುವುದಕ್ಕೆ ಕರೆಯಲ್ಪಟ್ಟವನೂ, ದೇವರ ಸುವಾರ್ತೆಯನ್ನು ಸಾರುವುದಕ್ಕೆ ಪ್ರತ್ಯೇಕಿಸಲ್ಪಟ್ಟವನೂ ಆಗಿರುವ ಪೌಲನು,
 Holy-Bible---Kannada---Indian-Revised-Version	MAT-028-019	ಮತ್ತಾ 28:19	ಆದುದರಿಂದ ನೀವು ಹೊರಟುಹೋಗಿ ಎಲ್ಲಾ ಜನಾಂಗಗಳನ್ನು ಶಿಷ್ಯರನ್ನಾಗಿ ಮಾಡಿ; ಅವರಿಗೆ ತಂದೆ, ಮಗ, ಪವಿತ್ರಾತ್ಮನ ಹೆಸರಿನಲ್ಲಿ ದೀಕ್ಷಾಸ್ನಾನ ಮಾಡಿಸಿರಿ.
 Holy-Bible---Kannada---Open-Contemporary	JOH-003-016	ಯೋಹಾನನು 3:16	ದೇವರು ಲೋಕದ ಮೇಲೆ ಎಷ್ಟೋ ಪ್ರೀತಿಯನ್ನಿಟ್ಟು ತಮ್ಮ ಏಕೈಕ ಪುತ್ರ ಆಗಿರುವ ಕ್ರಿಸ್ತ ಯೇಸುವನ್ನು ಕೊಟ್ಟರು. ಅದಕ್ಕಾಗಿಯೇ ಅವರನ್ನು ನಂಬುವ ಪ್ರತಿಯೊಬ್ಬರೂ ನಾಶವಾಗದೆ ಎಲ್ಲರೂ ನಿತ್ಯಜೀವವನ್ನು ಪಡೆಯಬೇಕು.
@@ -3089,7 +3116,7 @@ Holy-Bible---Mbula-Bwazza---Mbula-Bwazza-Bible	LUK-023-034	Luka 23:34	Pǝlǝa Ye
 Holy-Bible---Mbula-Bwazza---Mbula-Bwazza-Bible	REV-021-002	Sǝna 21:2-3	Sǝ ǝn sǝn Nggea-là Mǝfele, yì bǝsa Urǝshalima. Ən sǝni puro a ban Ɓakuli a kùli, sǝ kǝ sulǝo aban yiu. À gilǝkini pepè kǝla māfela mǝnana à gilǝkì wi rǝì aɓa ɓoarnsari ace ká a ban burí ka. Ən ok ɓè giu mǝgule pur nǝban buno-murǝm mala Ɓakuli, nacau ama: Wu sǝni, ban-do mala Ɓakuli adyan ngga, nda a ban aɓwana male! Yì ka, nǝ̀ do andǝia, sǝ yia ka, à nǝ̀ duk aɓwana male. Ɓakuli nǝ nggearǝì nǝ̀ do ateà.
 Holy-Bible---Mbula-Bwazza---Mbula-Bwazza-Bible	HEB-011-008	Amǝ Ibǝru 11:8	Paɓamuru mala Ibǝrayim aban Ɓakuli na tsǝì sǝ okî Ɓakuli, yì mǝnana Ɓakuli tunǝi ɓǝ̀ purî nzali male, ɓǝ̀ o a ɓè nzali mǝnana bang ama nǝ̀ nggá pe wi, ɓǝ̀ duk girkuma male ka. Sǝ nying nzali-lá male aban o, kat andǝ amani ama súrǝ̀ ban mǝno kákiyi kam ngga raka.
 Holy-Bible---Mbula-Bwazza---Mbula-Bwazza-Bible	EXO-013-017	Puro 13:17	Lang Firona murǝm Masar nyingŋǝna amǝ Isǝrayila ɓǝà u ka, Ɓakuli pǝlǝ nǝia ɓǝà kǝa kàr nǝ njargula kún nggeamùr mǝnana kútí nǝ ɓá nzali mala amǝ Filisti ka ɗàng, kat andǝ amani ama mǝno ka nda njar mǝnana kasǝ tù aban ká a nzali Kan'ana ka. Ɓakuli ɗenyi ama, “Pà mǝ nǝ earce aɓwana mem nggaɗi ɓabumia ace nyar a Masar, ɓǝ̀ lwa kasǝ a kunia a njar ka ɗàng.”
-Holy-Bible---Mbula-Bwazza---Mbula-Bwazza-Bible	MAR-010-045	Markus 10:45	Ko nggearǝ Muna mala Ɓwa ka yiu ace mǝnana nǝ̀ do sǝ ɓǝ̀ aɓwana pakki wi túró ka ɗàng. Yì ka, yiu ace mǝnana nǝ̀ pakki aɓwana túró, sǝ ɓǝ̀ pà yilǝmi ace amsǝɓwabundǝa pas.”
+Holy-Bible---Mbula-Bwazza---Mbula-Bwazza-Bible	MAR-010-045	Markus 10:45	Ko nggearǝ Muna mala Ɓwa ka yiu ace mǝnana nǝ̀ do sǝ ɓǝ̀ aɓwana pakki wi túró ka ɗàng. Yì ka, yiu ace mǝnana nǝ̀ pakki aɓwana túró, sǝ ɓǝ̀ pà yilǝmi ace amsǝ ɓwabundǝa pas.”
 Holy-Bible---Mbula-Bwazza---Mbula-Bwazza-Bible	ROM-001-001	Amǝ Roma 1:1	Mǝnia yì cauterǝa ka pur nǝban Bulǝs, guro mala Kǝrǝsti Yesu, mǝnana Ɓakuli tunǝi ɓǝ̀ duk mǝ'mishan, sǝ tàrrì ace túró hamnǝ bǝsa Cau Mǝɓoarne mala Ɓakuli ka.
 Holy-Bible---Mbula-Bwazza---Mbula-Bwazza-Bible	MAT-028-019	Matiu 28:19	Ace mǝno ka, wu kyane a ban ɓwapǝndǝa arǝ anzali kat, wu yinǝia ɓǝà pǝlǝ amǝkpatam. Wu pakkia wia batisǝma aɓa lullǝ Ɓakuli Tárrû, andǝ mala Muni, andǝ mala Bangŋo Mǝfele.
 Holy-Bible---Melo---Melo-Bible	JOH-003-016	ዋንሳ 3:16	ጾሳይ Ꮊ አላመ ቃꬌዝ ግሾስ ፋ ናአ ፐታ ኣꬅ እንጎድ ሄሎዳይስ ጨር ዶሴዛይ ኤዛ አማንዛ ኡቢታይ መꬍና ደኦ ላቶዳይ ጋርከፕ አትን ꬋባማይ ጋርከ።
@@ -3603,7 +3630,7 @@ Holy-Bible---Rangi---Rangi-Bible	REV-021-002	Wiivariyuli 21:2-3	Nkoona Yerusalé
 Holy-Bible---Rangi---Rangi-Bible	HEB-011-008	Vaeburanía 11:8	Kuruma, kʉjáa kwabweeyya Aburaháamu ave matu kwa Mʉlʉʉngʉ, Mʉlʉʉngʉ ˆakamʉsee iinʉke fuma ɨsɨ yaachwe, atamanye na ɨsɨ ˆngʼeene Mʉlʉʉngʉ luu akamʉhɨɨre, ja ˆvyeene amʉlaha. Aburaháamu ajáa asaamɨra na ɨsɨ ɨyo kʉnʉ sɨ yootaanga kʉʉntʉ ˆyootamanya.
 Holy-Bible---Rangi---Rangi-Bible	EXO-013-017		
 Holy-Bible---Rangi---Rangi-Bible	MAR-010-045	Maáriki 10:45	Sa baa Mwaana wa Mʉʉntʉ, sɨ ʉʉja jo tʉmamɨrwa tʉkʉ. Kɨrɨ vyoova jeyyo, ʉʉja sa jɨ avatʉmamɨre vaantʉ, kei atoole nkaasʉ yaachwe kʉva ununuuli sa vaantʉ ˆvarɨ foo.”
-Holy-Bible---Rangi---Rangi-Bible	ROM-001-001	Varúumi 1:1	Barʉ́wa ɨhɨ, yafúmire kʉrɨ nɨɨnɨ Paúli mutumwi wa KirisitʉYéesu. Nɨɨnɨ naanɨrɨrwa, nɨve mutumwi na nakerwa sa nvariyʉle Masáare Maaja ya Mʉlʉʉngʉ.
+Holy-Bible---Rangi---Rangi-Bible	ROM-001-001	Varúumi 1:1	Barʉ́wa ɨhɨ, yafúmire kʉrɨ nɨɨnɨ Paúli mutumwi wa Kirisitʉ Yéesu. Nɨɨnɨ naanɨrɨrwa, nɨve mutumwi na nakerwa sa nvariyʉle Masáare Maaja ya Mʉlʉʉngʉ.
 Holy-Bible---Rangi---Rangi-Bible	MAT-028-019	Matáayo 28:19	Sa jeyyo, tamanyi mʉkavabweeyye vaantʉ va ɨsɨ joosi kʉva vapooji vaanɨ, mʉndoovabatisa, kwa irina ra Taáta, na ra Mwaana na ra Mʉtɨma Mʉʉja.
 Holy-Bible---Reli---Reli-Bible	JOH-003-016		
 Holy-Bible---Reli---Reli-Bible	GEN-003-024		
@@ -3756,7 +3783,7 @@ Holy-Bible---Saafi-Saafi---Saafi-Saafi-Bible	REV-021-002	Teeɓ ki 21:2-3	Ŋ hott
 Holy-Bible---Saafi-Saafi---Saafi-Saafi-Bible	HEB-011-008	Heber ci 11:8	A kos tah po, wa Ibrahiima ɓeeɗku, a teyɗukka kaɗ kur ka a joyee rahas lamaah lamu te a inahɗi ɗiska a kaɗe.
 Holy-Bible---Saafi-Saafi---Saafi-Saafi-Bible	EXO-013-017	Pula 13:17	Wa Firawna faɗis Israayel ca ne ɓa coot, Kooh woyee ne: «Israayel ci miniɗ raak hiñoh ŋ waasi, inwaaso amb ɓa nga, ɓa gurid Misra.» Weɗ tah a yurhiɗɗi ɓa ŋ waasa kaɗ ŋ kur kaŋ Filistiica ŋ ina wa uupe reɓ jen.
 Holy-Bible---Saafi-Saafi---Saafi-Saafi-Bible	MAR-010-045	Maarko 10:45	Kuɓkiŋ ɓoyi sah, hayɗi ne a raak surga, a hay ne a nik surga te a eɗoh kipes kiŋ ɗe ne a tos ɓo' laayiɗ.»
-Holy-Bible---Saafi-Saafi---Saafi-Saafi-Bible	ROM-001-001	Ɓi Rom 1:1	Mi yii kañiɗ ɗu, ɗu ɓi nik ŋ Rom, mi yi Pool, ñaamiŋKiristaani Yeesu. Ŋ ɓeeɗkuuɗ ne ŋ nik Apootar te ŋ kooɗuuɗ ne ŋ woo Yegɗohiŋ Kooh ŋ ini kaɗ ŋ muci.
+Holy-Bible---Saafi-Saafi---Saafi-Saafi-Bible	ROM-001-001	Ɓi Rom 1:1	Mi yii kañiɗ ɗu, ɗu ɓi nik ŋ Rom, mi yi Pool, ñaamiŋ Kiristaani Yeesu. Ŋ ɓeeɗkuuɗ ne ŋ nik Apootar te ŋ kooɗuuɗ ne ŋ woo Yegɗohiŋ Kooh ŋ ini kaɗ ŋ muci.
 Holy-Bible---Saafi-Saafi---Saafi-Saafi-Bible	MAT-028-019	Macce 28:19	Kaɗaat ŋ cuuɓ ciŋ adinaani jen, ɗu tum ɓooɓi taalube, ɗu ɓokit ɓa ŋ tiikiŋ Baabi na Kuɓki na Fuuɗsi Hoolohngaani,
 Holy-Bible---Safwa---Safwa-Bible	JOH-003-016	Yohana 3:16	Hunamna ene Ongolobhe aigene insi, paka afumizye omwana wakwe waje umuntu wowonti wai humweteha aganje teje mowomi we wila wila.
 Holy-Bible---Safwa---Safwa-Bible	GEN-003-024		
@@ -4172,6 +4199,15 @@ Holy-Bible---Somau-Karia---Somau-Karia-Bible	EXO-013-017
 Holy-Bible---Somau-Karia---Somau-Karia-Bible	MAR-010-045		
 Holy-Bible---Somau-Karia---Somau-Karia-Bible	ROM-001-001		
 Holy-Bible---Somau-Karia---Somau-Karia-Bible	MAT-028-019		
+Holy-Bible---Spanish---Biblia-Libre-Latino	JOH-003-016	Juan 3:16	Porque tanto amó Dios al mundo, que dio a su Hijo unigénito, para que todo el que crea en él no perezca, sino que tenga vida eterna.
+Holy-Bible---Spanish---Biblia-Libre-Latino	GEN-003-024	Génesis 3:24	Después de expulsar al hombre, puso al oriente del jardín del Edén querubines y una espada llameante que giraba en todas direcciones para vigilar el camino que conducía al árbol de la vida.
+Holy-Bible---Spanish---Biblia-Libre-Latino	LUK-023-034	San Lucas 23:34	Y Jesús decía: “Padre, perdónalos, porque no saben lo que hacen”. Y repartieron entre sí sus vestidos, echando suertes.
+Holy-Bible---Spanish---Biblia-Libre-Latino	REV-021-002	Apocalipsis 21:2-3	Vi la ciudad santa, la Nueva Jerusalén, bajando del cielo desde Dios, preparada como una novia adornada para su esposo. Oí una fuerte voz del cielo que decía: “He aquí que la morada de Dios está con el pueblo; y él habitará con ellos, y ellos serán su pueblo, y Dios mismo estará con ellos como su Dios.
+Holy-Bible---Spanish---Biblia-Libre-Latino	HEB-011-008	Hebreos 11:8	Por la fe Abraham, siendo llamado, obedeció para salir al lugar que iba a recibir como herencia; y salió sin saber a dónde iba.
+Holy-Bible---Spanish---Biblia-Libre-Latino	EXO-013-017	Éxodo 13:17	Cuando el faraón dejó ir al pueblo, Dios no los llevó por el camino de la tierra de los filisteos, aunque era el más corto, porque Dios pensó: “Si el pueblo se enfrenta a una guerra, podrían arrepentirse y regresarse a Egipto”.
+Holy-Bible---Spanish---Biblia-Libre-Latino	MAR-010-045	Marcos 10:45	Porque también el Hijo del Hombre no vino a ser servido, sino a servir, y a dar su vida en rescate por muchos.”
+Holy-Bible---Spanish---Biblia-Libre-Latino	ROM-001-001	Romanos 1:1	Pablo, siervo de Jesucristo, llamado a ser apóstol, apartado para las buenas noticias de Dios,
+Holy-Bible---Spanish---Biblia-Libre-Latino	MAT-028-019	San Mateo 28:19	Por lo tanto, vayan y hagan discípulos en todas las naciones, bautizándolos en el nombre del Padre, del Hijo y del Espíritu Santo,
 Holy-Bible---Spanish---Biblia-Platense-Straubinger	JOH-003-016	Juan 3:16	Porque así amó Dios al mundo: hasta dar su Hijo único, para que todo aquel que cree en Él no se pierda, sino que tenga vida eterna.
 Holy-Bible---Spanish---Biblia-Platense-Straubinger	GEN-003-024	Génesis 3:24	Y habiendo expulsado a Adán puso delante del jardín de Edén querubines, y la fulgurante espada que se agitaba, a fin de guardar el camino del árbol de la vida.
 Holy-Bible---Spanish---Biblia-Platense-Straubinger	LUK-023-034	San Lucas 23:34	Y Jesús decía: “Padre, perdónalos, porque no saben lo que hacen”. Entretanto, hacían porciones de sus ropas y echaron suertes.
@@ -4181,6 +4217,15 @@ Holy-Bible---Spanish---Biblia-Platense-Straubinger	EXO-013-017	Éxodo 13:17	Cuan
 Holy-Bible---Spanish---Biblia-Platense-Straubinger	MAR-010-045	Marcos 10:45	Porque también el Hijo del hombre no vino para ser servido, sino para servir y dar su vida en rescate por muchos”.
 Holy-Bible---Spanish---Biblia-Platense-Straubinger	ROM-001-001	Romanos 1:1	Pablo, siervo de Cristo Jesús, llamado a ser apóstol, separado para el Evangelio de Dios
 Holy-Bible---Spanish---Biblia-Platense-Straubinger	MAT-028-019	San Mateo 28:19	Id, pues, y haced discípulos a todos los pueblos bautizándolos en el nombre del Padre y del Hijo y del Espíritu Santo;
+Holy-Bible---Spanish---FelipeScioDeSanMiguel	JOH-003-016	Juan 3:16	Porque de tal manera amó Dios al mundo, que dió á su Hijo Unigénito: para que todo aquel que cree en él no perezca, sino que tenga vida eterna.
+Holy-Bible---Spanish---FelipeScioDeSanMiguel	GEN-003-024		
+Holy-Bible---Spanish---FelipeScioDeSanMiguel	LUK-023-034	San Lucas 23:34	Mas Jesús decía: Padre, perdónalos; porque no saben lo que hacen. Y dividiendo sus vestidos, echáron suertes.
+Holy-Bible---Spanish---FelipeScioDeSanMiguel	REV-021-002	Apocalipsis 21:2-3	Y yo Juan ví la ciudad Santa, la Jerusalém nueva, que de parte de Dios descendía del Cielo, y estaba aderezada, como una Esposa ataviada para su Esposo. Y oí una grande voz del throno, que decía: Ved aquí el tabernáculo de Dios con los hombres, y morará con ellos. Y ellos serán su pueblo y el mismo Dios en medio de ellos será su Dios:
+Holy-Bible---Spanish---FelipeScioDeSanMiguel	HEB-011-008	Hebreos 11:8	Por fé aquel que es llamado Abraham obedeció para salir á la tierra, que había de recibir por herencia: y salió, no sabiendo á dónde iba.
+Holy-Bible---Spanish---FelipeScioDeSanMiguel	EXO-013-017		
+Holy-Bible---Spanish---FelipeScioDeSanMiguel	MAR-010-045	Marcos 10:45	Porque el Hijo del hombre no vino para ser servido, sino para servir, y dar su vida en rescate por muchos.
+Holy-Bible---Spanish---FelipeScioDeSanMiguel	ROM-001-001	Romanos 1:1	Pablo, siervo de Jesu-Christo, llamado Apóstol, escogido para el Evangelio de Dios,
+Holy-Bible---Spanish---FelipeScioDeSanMiguel	MAT-028-019	San Mateo 28:19	Id pues, y enseñad á todas las gentes, Bautizándolas en el nombre del Padre, y del Hijo, y del Espíritu Santo:
 Holy-Bible---Spanish---Free-Bible	JOH-003-016	Juan 3:16	“Porque Dios amó al mundo, y lo hizo de esta manera: entregó a su único Hijo, a fin de que todos los que crean en él no mueran, sino que tengan vida eterna.
 Holy-Bible---Spanish---Free-Bible	GEN-003-024	Génesis 3:24	Después de sacarlos del jardín, el Señor puso al oriente del jardín ángeles y una espada que daba su resplandor en todas las direcciones. Esto con el fin de que no pudieran acceder al árbol de la vida.
 Holy-Bible---Spanish---Free-Bible	LUK-023-034	San Lucas 23:34	Luego Jesús dijo: “Padre, por favor, perdónalos porque no saben lo que hacen”. Y ellos dividieron su ropa, lanzando el dado sobre ella.
@@ -4442,6 +4487,15 @@ Holy-Bible---Telugu---Telugu-Open-Contemporary	EXO-013-017	నిర్గమక
 Holy-Bible---Telugu---Telugu-Open-Contemporary	MAR-010-045	మార్కు 10:45	ఎందుకంటే మనుష్యకుమారుడు సేవ చేయించుకోడానికి రాలేదు కాని సేవ చేయడానికి, తన ప్రాణాన్ని అనేకులకు విమోచన క్రయధనంగా చెల్లించడానికి వచ్చాడు” అని అన్నారు.
 Holy-Bible---Telugu---Telugu-Open-Contemporary	ROM-001-001	రోమీయులకు 1:1	అపొస్తలునిగా ఉండడానికి పిలువబడి దేవుని సువార్త కోసం ప్రత్యేకపరచబడిన పౌలు అనే నేను క్రీస్తు యేసు దాసుడను.
 Holy-Bible---Telugu---Telugu-Open-Contemporary	MAT-028-019	మత్తయి 28:19	కాబట్టి మీరు వెళ్లి, తండ్రి, కుమార, పరిశుద్ధాత్మ పేరున బాప్తిస్మమిస్తూ, అన్ని దేశాలను శిష్యులుగా చేసి,
+Holy-Bible---Thai---Thai-Freedom-Bible	JOH-003-016	ยอห์น 3:16	เพราะ​พระเจ้า​รัก​โลก​มาก​ถึง​ขนาด​ที่​ประทาน​พระบุตร​ผู้​บังเกิด​เพียง​องค์เดียว เพื่อ​ให้​ทุกคน​ที่​เชื่อ​ใน​พระองค์​ไม่​พินาศ แต่​มี​ชีวิต​นิรันดร์
+Holy-Bible---Thai---Thai-Freedom-Bible	GEN-003-024	ปฐมกาล 3:24	พระองค์​ขับ​มนุษย์​ออก​ไป แล้ว​ตั้ง​เครูบิม ไว้​ทาง​ตะวัน​ออก​ของ​สวน​เอเดน พร้อม​ดาบ​เพลิง​ที่​หมุน​ไป​ได้​ทุก​ทิศ เพื่อ​เฝ้า​ทาง​ไป​ยัง​ต้นไม้​แห่ง​ชีวิต
+Holy-Bible---Thai---Thai-Freedom-Bible	LUK-023-034	ลูกา 23:34	พระเยซู​กล่าว​ว่า “พระบิดา โปรด​ยกโทษ​ให้​พวกเขา เพราะ​พวกเขา​ไม่​รู้​ว่า​กำลัง​ทำ​อะไร” พวกเขา​จับสลาก​แบ่ง​เสื้อผ้า​ของ​พระองค์​กัน
+Holy-Bible---Thai---Thai-Freedom-Bible	REV-021-002	การเปิดเผย 21:2-3	ผม​เห็น​นครบริสุทธิ์ คือ​เยรูซาเล็มใหม่ ลงมา​จาก​สวรรค์​จาก​พระเจ้า เตรียมพร้อม​เหมือน​เจ้าสาว​ที่​แต่ง​ตัว​ไว้​สำหรับ​สามี​ของ​เธอ ผม​ได้ยิน​เสียง​ดัง​จาก​สวรรค์​กล่าวว่า “ดูสิ ที่พำนัก​ของ​พระเจ้า​อยู่​กับ​มนุษย์​แล้ว พระองค์​จะ​พำนัก​อยู่​กับ​พวกเขา และ​พวกเขา​จะ​เป็น​ประชาชน​ของ​พระองค์ พระเจ้า​เอง​จะ​อยู่​กับ​พวกเขา​ใน​ฐานะ​พระเจ้า​ของ​พวกเขา
+Holy-Bible---Thai---Thai-Freedom-Bible	HEB-011-008	ฮีบรู 11:8	โดย​ความเชื่อ​อับราฮัม​เมื่อ​ได้​รับ​การ​เรียก​ก็​เชื่อฟัง​และ​ออก​เดินทาง​ไป​ยัง​สถานที่​ที่​เขา​จะ​ได้​รับ​เป็น​มรดก เขา​ออก​ไป​โดย​ไม่​รู้​ว่า​กำลัง​ไป​ที่​ไหน
+Holy-Bible---Thai---Thai-Freedom-Bible	EXO-013-017	อพยพ 13:17	เมื่อฟาโรห์ปล่อย​ประชาชน​ไป พระเจ้า​ไม่​ได้​นำ​พวก​เขา​ไป​ตาม​ทาง​ผ่าน​แผ่น​ดิน​ของ​ชาวฟีลิสเตีย แม้​ทาง​นั้น​จะ​ใกล้​กว่า เพราะ​พระเจ้า​ตรัส​ว่า “เกรง​ว่า​เมื่อ​ประชาชน​เห็น​สงคราม​แล้ว​จะ​เปลี่ยน​ใจ​กลับ​ไปอียิปต์”
+Holy-Bible---Thai---Thai-Freedom-Bible	MAR-010-045	มาระโก 10:45	เพราะ​บุตรมนุษย์​ไม่​ได้​มา​เพื่อ​ให้​คน​รับใช้ แต่​มา​เพื่อ​รับใช้ และ​ให้​ชีวิต​ของ​พระองค์​เป็น​ค่าไถ่​เพื่อ​คน​จำนวน​มาก”
+Holy-Bible---Thai---Thai-Freedom-Bible	ROM-001-001	โรม 1:1	เปาโล ผู้รับใช้​ของ​พระเยซูคริสต์ ผู้​ถูก​เรียก​ให้​เป็น​อัครทูต และ​ถูก​แยก​ไว้​สำหรับ​ข่าวดี​ของ​พระเจ้า
+Holy-Bible---Thai---Thai-Freedom-Bible	MAT-028-019	มัทธิว 28:19	จง​ไป และ​ทำ​ให้​คน​จาก​ทุก​ชนชาติ​เป็น​สาวก โดย​ให้​พวกเขา​รับ​บัพติศมา​ใน​พระนาม​ของ​พระบิดา ของ​พระบุตร และ​ของ​พระวิญญาณบริสุทธิ์
 Holy-Bible---Tharu-Rana---Rana-Tharu-Bible	JOH-003-016	यूहन्ना 3:16	“काहैकि परमेस्वर जौ दुनिया से ऐसो प्यार करी कि बौ अपनो इकलौतो लौड़ा दै दई, ताकी जो कोई बाके ऊपर बिस्वास करै, बौ नास ना होबै, बल्किन अनंत जिंदगी पाबै।
 Holy-Bible---Tharu-Rana---Rana-Tharu-Bible	GEN-003-024		
 Holy-Bible---Tharu-Rana---Rana-Tharu-Bible	LUK-023-034	लूका 23:34	तौ ईसु कही, “दऊवा! इनकै माफ कर दे, काहैकि जे ना जानथैं कि जे का कर रै हैं।” बे पासा डारकै बाके लत्ता आपस मैं बाँट लईं।
@@ -4513,7 +4567,7 @@ Holy-Bible---Turkish---Open-Basic-Turkish	HEB-011-008	İbraniler 11:8	İman saye
 Holy-Bible---Turkish---Open-Basic-Turkish	EXO-013-017		
 Holy-Bible---Turkish---Open-Basic-Turkish	MAR-010-045	Markos 10:45	Çünkü, İnsan Oğlu Oʼna hizmet edilsin diye gelmedi. Hayır, O hizmet etmeye ve kendi canını feda ederek birçok kişiyi günaha esirlikten kurtarmaya geldi.”
 Holy-Bible---Turkish---Open-Basic-Turkish	ROM-001-001	Romalilar 1:1	Ben Pavlus, Mesih İsaʼnın kuluyum. Allah beni elçisi olmaya çağırdı ve Müjdesiʼni yaymak için seçti.
-Holy-Bible---Turkish---Open-Basic-Turkish	MAT-028-019	Matta 28:19	Bunun için gidin, bütün milletleri öğrencilerim olarak yetiştirin. Onları Baba, Oğul ve Kutsal Ruhadıylavaftiz edin.
+Holy-Bible---Turkish---Open-Basic-Turkish	MAT-028-019	Matta 28:19	Bunun için gidin, bütün milletleri öğrencilerim olarak yetiştirin. Onları Baba, Oğul ve Kutsal Ruh adıyla vaftiz edin.
 Holy-Bible---Turkish---Turkish-Bible	JOH-003-016	Yuhanna 3:16	“Çünkü Tanrı dünyayı o kadar çok sevdi ki, biricik Oğlu'nu verdi. Öyle ki, O'na iman edenlerin hiçbiri mahvolmasın, hepsi sonsuz yaşama kavuşsun.
 Holy-Bible---Turkish---Turkish-Bible	GEN-003-024	Yaratiliş 3:24	Onu kovdu. Yaşam ağacının yolunu denetlemek için de Aden bahçesinin doğusuna Keruvlar ve her yana dönen alevli bir kılıç yerleştirdi.
 Holy-Bible---Turkish---Turkish-Bible	LUK-023-034	Luka 23:34	İsa, “Baba, onları bağışla” dedi. “Çünkü ne yaptıklarını bilmiyorlar.” O'nun giysilerini aralarında paylaşmak için kura çektiler.
