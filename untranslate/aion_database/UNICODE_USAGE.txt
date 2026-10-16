@@ -32584,47 +32584,47 @@ Holy-Bible---English---Syriac-Peshitta-Murdock	93	]	5d	Basic Latin 	3	ROM	007	02
 Holy-Bible---English---Syriac-Peshitta-Murdock	48	0	30	Basic Latin 	1	COL	004	018	This salutation is by the hand of me Paul. Remember my bonds. Grace be with you. Amen.philemon1:01 PAUL, a prisoner of Jesus the Messiah, and Timothy a brother; to the beloved Philemon, a laborer with us,
 Holy-Bible---English---Syriac-Peshitta-Murdock	53	5	35	Basic Latin 	1	3JO	001	014	But I hope soon to see thee, and to converse mouth to mouth. [ (III John 1:15) Peace be with thee. The friends salute thee. Salute the friends, severally, by name. ]
 Holy-Bible---English---Syriac-Peshitta-Murdock	56	8	38	Basic Latin 	1	REV	012	017	And the dragon was enraged against the woman; and he went to make war upon the residue of her seed, who keep the commandments of God, and have the testimony of Jesus. [ (Revelation of John 12:18) And he stood on the sand of the sea. ]
-Holy-Bible---English---Text-Critical	65	A	41	Basic Latin 	1551	MAT	001	002	Abraham was the father of Isaac, Isaac was the father of Jacob, Jacob was the father of Judah and his brothers,
+Holy-Bible---English---Text-Critical	65	A	41	Basic Latin 	1552	MAT	001	002	Abraham was the father of Isaac, Isaac was the father of Jacob, Jacob was the father of Judah and his brothers,
 Holy-Bible---English---Text-Critical	98	b	62	Basic Latin 	10675	MAT	001	002	Abraham was the father of Isaac, Isaac was the father of Jacob, Jacob was the father of Judah and his brothers,
-Holy-Bible---English---Text-Critical	114	r	72	Basic Latin 	40187	MAT	001	002	Abraham was the father of Isaac, Isaac was the father of Jacob, Jacob was the father of Judah and his brothers,
+Holy-Bible---English---Text-Critical	114	r	72	Basic Latin 	40188	MAT	001	002	Abraham was the father of Isaac, Isaac was the father of Jacob, Jacob was the father of Judah and his brothers,
 Holy-Bible---English---Text-Critical	97	a	61	Basic Latin 	54129	MAT	001	002	Abraham was the father of Isaac, Isaac was the father of Jacob, Jacob was the father of Judah and his brothers,
-Holy-Bible---English---Text-Critical	104	h	68	Basic Latin 	52265	MAT	001	002	Abraham was the father of Isaac, Isaac was the father of Jacob, Jacob was the father of Judah and his brothers,
-Holy-Bible---English---Text-Critical	109	m	6d	Basic Latin 	18094	MAT	001	002	Abraham was the father of Isaac, Isaac was the father of Jacob, Jacob was the father of Judah and his brothers,
-Holy-Bible---English---Text-Critical	32	 	20	Basic Latin 	173504	MAT	001	002	Abraham was the father of Isaac, Isaac was the father of Jacob, Jacob was the father of Judah and his brothers,
-Holy-Bible---English---Text-Critical	119	w	77	Basic Latin 	19361	MAT	001	002	Abraham was the father of Isaac, Isaac was the father of Jacob, Jacob was the father of Judah and his brothers,
+Holy-Bible---English---Text-Critical	104	h	68	Basic Latin 	52263	MAT	001	002	Abraham was the father of Isaac, Isaac was the father of Jacob, Jacob was the father of Judah and his brothers,
+Holy-Bible---English---Text-Critical	109	m	6d	Basic Latin 	18097	MAT	001	002	Abraham was the father of Isaac, Isaac was the father of Jacob, Jacob was the father of Judah and his brothers,
+Holy-Bible---English---Text-Critical	32	 	20	Basic Latin 	173509	MAT	001	002	Abraham was the father of Isaac, Isaac was the father of Jacob, Jacob was the father of Judah and his brothers,
+Holy-Bible---English---Text-Critical	119	w	77	Basic Latin 	19363	MAT	001	002	Abraham was the father of Isaac, Isaac was the father of Jacob, Jacob was the father of Judah and his brothers,
 Holy-Bible---English---Text-Critical	115	s	73	Basic Latin 	46561	MAT	001	002	Abraham was the father of Isaac, Isaac was the father of Jacob, Jacob was the father of Judah and his brothers,
-Holy-Bible---English---Text-Critical	116	t	74	Basic Latin 	64173	MAT	001	002	Abraham was the father of Isaac, Isaac was the father of Jacob, Jacob was the father of Judah and his brothers,
-Holy-Bible---English---Text-Critical	101	e	65	Basic Latin 	94302	MAT	001	002	Abraham was the father of Isaac, Isaac was the father of Jacob, Jacob was the father of Judah and his brothers,
+Holy-Bible---English---Text-Critical	116	t	74	Basic Latin 	64169	MAT	001	002	Abraham was the father of Isaac, Isaac was the father of Jacob, Jacob was the father of Judah and his brothers,
+Holy-Bible---English---Text-Critical	101	e	65	Basic Latin 	94303	MAT	001	002	Abraham was the father of Isaac, Isaac was the father of Jacob, Jacob was the father of Judah and his brothers,
 Holy-Bible---English---Text-Critical	102	f	66	Basic Latin 	15821	MAT	001	002	Abraham was the father of Isaac, Isaac was the father of Jacob, Jacob was the father of Judah and his brothers,
-Holy-Bible---English---Text-Critical	111	o	6f	Basic Latin 	62875	MAT	001	002	Abraham was the father of Isaac, Isaac was the father of Jacob, Jacob was the father of Judah and his brothers,
+Holy-Bible---English---Text-Critical	111	o	6f	Basic Latin 	62876	MAT	001	002	Abraham was the father of Isaac, Isaac was the father of Jacob, Jacob was the father of Judah and his brothers,
 Holy-Bible---English---Text-Critical	73	I	49	Basic Latin 	3048	MAT	001	002	Abraham was the father of Isaac, Isaac was the father of Jacob, Jacob was the father of Judah and his brothers,
 Holy-Bible---English---Text-Critical	99	c	63	Basic Latin 	13035	MAT	001	002	Abraham was the father of Isaac, Isaac was the father of Jacob, Jacob was the father of Judah and his brothers,
-Holy-Bible---English---Text-Critical	44	,	2c	Basic Latin 	14368	MAT	001	002	Abraham was the father of Isaac, Isaac was the father of Jacob, Jacob was the father of Judah and his brothers,
+Holy-Bible---English---Text-Critical	44	,	2c	Basic Latin 	14367	MAT	001	002	Abraham was the father of Isaac, Isaac was the father of Jacob, Jacob was the father of Judah and his brothers,
 Holy-Bible---English---Text-Critical	74	J	4a	Basic Latin 	2193	MAT	001	002	Abraham was the father of Isaac, Isaac was the father of Jacob, Jacob was the father of Judah and his brothers,
-Holy-Bible---English---Text-Critical	117	u	75	Basic Latin 	20176	MAT	001	002	Abraham was the father of Isaac, Isaac was the father of Jacob, Jacob was the father of Judah and his brothers,
-Holy-Bible---English---Text-Critical	100	d	64	Basic Latin 	32216	MAT	001	002	Abraham was the father of Isaac, Isaac was the father of Jacob, Jacob was the father of Judah and his brothers,
-Holy-Bible---English---Text-Critical	110	n	6e	Basic Latin 	47468	MAT	001	002	Abraham was the father of Isaac, Isaac was the father of Jacob, Jacob was the father of Judah and his brothers,
-Holy-Bible---English---Text-Critical	105	i	69	Basic Latin 	44739	MAT	001	002	Abraham was the father of Isaac, Isaac was the father of Jacob, Jacob was the father of Judah and his brothers,
+Holy-Bible---English---Text-Critical	117	u	75	Basic Latin 	20177	MAT	001	002	Abraham was the father of Isaac, Isaac was the father of Jacob, Jacob was the father of Judah and his brothers,
+Holy-Bible---English---Text-Critical	100	d	64	Basic Latin 	32217	MAT	001	002	Abraham was the father of Isaac, Isaac was the father of Jacob, Jacob was the father of Judah and his brothers,
+Holy-Bible---English---Text-Critical	110	n	6e	Basic Latin 	47471	MAT	001	002	Abraham was the father of Isaac, Isaac was the father of Jacob, Jacob was the father of Judah and his brothers,
+Holy-Bible---English---Text-Critical	105	i	69	Basic Latin 	44742	MAT	001	002	Abraham was the father of Isaac, Isaac was the father of Jacob, Jacob was the father of Judah and his brothers,
 Holy-Bible---English---Text-Critical	80	P	50	Basic Latin 	825	MAT	001	003	Judah was the father of Perez and Zerah by Tamar, Perez was the father of Hezron, Hezron was the father of Ram,
 Holy-Bible---English---Text-Critical	122	z	7a	Basic Latin 	369	MAT	001	003	Judah was the father of Perez and Zerah by Tamar, Perez was the father of Hezron, Hezron was the father of Ram,
 Holy-Bible---English---Text-Critical	90	Z	5a	Basic Latin 	54	MAT	001	003	Judah was the father of Perez and Zerah by Tamar, Perez was the father of Hezron, Hezron was the father of Ram,
-Holy-Bible---English---Text-Critical	121	y	79	Basic Latin 	16246	MAT	001	003	Judah was the father of Perez and Zerah by Tamar, Perez was the father of Hezron, Hezron was the father of Ram,
+Holy-Bible---English---Text-Critical	121	y	79	Basic Latin 	16248	MAT	001	003	Judah was the father of Perez and Zerah by Tamar, Perez was the father of Hezron, Hezron was the father of Ram,
 Holy-Bible---English---Text-Critical	84	T	54	Basic Latin 	2284	MAT	001	003	Judah was the father of Perez and Zerah by Tamar, Perez was the father of Hezron, Hezron was the father of Ram,
 Holy-Bible---English---Text-Critical	72	H	48	Basic Latin 	837	MAT	001	003	Judah was the father of Perez and Zerah by Tamar, Perez was the father of Hezron, Hezron was the father of Ram,
 Holy-Bible---English---Text-Critical	82	R	52	Basic Latin 	160	MAT	001	003	Judah was the father of Perez and Zerah by Tamar, Perez was the father of Hezron, Hezron was the father of Ram,
 Holy-Bible---English---Text-Critical	78	N	4e	Basic Latin 	554	MAT	001	004	Ram was the father of Amminadab, Amminadab was the father of Nahshon, Nahshon was the father of Salmon,
 Holy-Bible---English---Text-Critical	83	S	53	Basic Latin 	1699	MAT	001	004	Ram was the father of Amminadab, Amminadab was the father of Nahshon, Nahshon was the father of Salmon,
-Holy-Bible---English---Text-Critical	108	l	6c	Basic Latin 	25536	MAT	001	004	Ram was the father of Amminadab, Amminadab was the father of Nahshon, Nahshon was the father of Salmon,
+Holy-Bible---English---Text-Critical	108	l	6c	Basic Latin 	25539	MAT	001	004	Ram was the father of Amminadab, Amminadab was the father of Nahshon, Nahshon was the father of Salmon,
 Holy-Bible---English---Text-Critical	66	B	42	Basic Latin 	1298	MAT	001	005	Salmon was the father of Boaz by Rahab, Boaz was the father of Obed by Ruth, Obed was the father of Jesse,
 Holy-Bible---English---Text-Critical	79	O	4f	Basic Latin 	283	MAT	001	005	Salmon was the father of Boaz by Rahab, Boaz was the father of Obed by Ruth, Obed was the father of Jesse,
 Holy-Bible---English---Text-Critical	68	D	44	Basic Latin 	361	MAT	001	006	and Jesse was the father of David the king. David the king was the father of Solomon by the wife of Uriah,
 Holy-Bible---English---Text-Critical	118	v	76	Basic Latin 	7785	MAT	001	006	and Jesse was the father of David the king. David the king was the father of Solomon by the wife of Uriah,
-Holy-Bible---English---Text-Critical	107	k	6b	Basic Latin 	4594	MAT	001	006	and Jesse was the father of David the king. David the king was the father of Solomon by the wife of Uriah,
+Holy-Bible---English---Text-Critical	107	k	6b	Basic Latin 	4596	MAT	001	006	and Jesse was the father of David the king. David the king was the father of Solomon by the wife of Uriah,
 Holy-Bible---English---Text-Critical	103	g	67	Basic Latin 	13076	MAT	001	006	and Jesse was the father of David the king. David the king was the father of Solomon by the wife of Uriah,
 Holy-Bible---English---Text-Critical	46	.	2e	Basic Latin 	7999	MAT	001	006	and Jesse was the father of David the king. David the king was the father of Solomon by the wife of Uriah,
 Holy-Bible---English---Text-Critical	85	U	55	Basic Latin 	20	MAT	001	006	and Jesse was the father of David the king. David the king was the father of Solomon by the wife of Uriah,
 Holy-Bible---English---Text-Critical	106	j	6a	Basic Latin 	779	MAT	001	007	Solomon was the father of Rehoboam, Rehoboam was the father of Abijah, Abijah was the father of Asa,
-Holy-Bible---English---Text-Critical	112	p	70	Basic Latin 	10099	MAT	001	008	Asa was the father of Jehoshaphat, Jehoshaphat was the father of Joram, Joram was the father of Uzziah,
+Holy-Bible---English---Text-Critical	112	p	70	Basic Latin 	10100	MAT	001	008	Asa was the father of Jehoshaphat, Jehoshaphat was the father of Joram, Joram was the father of Uzziah,
 Holy-Bible---English---Text-Critical	77	M	4d	Basic Latin 	547	MAT	001	010	Hezekiah was the father of Manasseh, Manasseh was the father of Amon, Amon was the father of Josiah,
 Holy-Bible---English---Text-Critical	69	E	45	Basic Latin 	238	MAT	001	013	Zerubbabel was the father of Abiud, Abiud was the father of Eliakim, Eliakim was the father of Azor,
 Holy-Bible---English---Text-Critical	67	C	43	Basic Latin 	884	MAT	001	016	and Jacob was the father of Joseph the husband of Mary, of whom was born Jesus, who is called Christ.
@@ -32634,16 +32634,16 @@ Holy-Bible---English---Text-Critical	76	L	4c	Basic Latin 	933	MAT	001	020	But as
 Holy-Bible---English---Text-Critical	8220	“	201c	General Punctuation 	2006	MAT	001	020	But as he thought about these things, behold, an angel of the Lord appeared to him in a dream and said, “Joseph, Son of David, do not be afraid to receive Mary as yoʋr wife, for the child that is conceived in her is from the Holy Spirit.
 Holy-Bible---English---Text-Critical	651	ʋ	28b	IPA Extensions 	1832	MAT	001	020	But as he thought about these things, behold, an angel of the Lord appeared to him in a dream and said, “Joseph, Son of David, do not be afraid to receive Mary as yoʋr wife, for the child that is conceived in her is from the Holy Spirit.
 Holy-Bible---English---Text-Critical	8221	”	201d	General Punctuation 	1855	MAT	001	021	She will give birth to a son, and yoʋ shall name him Jesus, for he will save his people from their sins.”
-Holy-Bible---English---Text-Critical	40	(	28	Basic Latin 	176	MAT	001	023	“Behold, the virgin will conceive and give birth to a son, and they will name him Immanuel” (which means, “God with us”).
+Holy-Bible---English---Text-Critical	40	(	28	Basic Latin 	177	MAT	001	023	“Behold, the virgin will conceive and give birth to a son, and they will name him Immanuel” (which means, “God with us”).
 Holy-Bible---English---Text-Critical	71	G	47	Basic Latin 	1801	MAT	001	023	“Behold, the virgin will conceive and give birth to a son, and they will name him Immanuel” (which means, “God with us”).
-Holy-Bible---English---Text-Critical	41	)	29	Basic Latin 	176	MAT	001	023	“Behold, the virgin will conceive and give birth to a son, and they will name him Immanuel” (which means, “God with us”).
+Holy-Bible---English---Text-Critical	41	)	29	Basic Latin 	177	MAT	001	023	“Behold, the virgin will conceive and give birth to a son, and they will name him Immanuel” (which means, “God with us”).
 Holy-Bible---English---Text-Critical	63	?	3f	Basic Latin 	998	MAT	002	002	saying, “Where is the child who has been born king of the Jews? For we saw his star in the east and have come to worship him.”
 Holy-Bible---English---Text-Critical	70	F	46	Basic Latin 	1164	MAT	002	002	saying, “Where is the child who has been born king of the Jews? For we saw his star in the east and have come to worship him.”
 Holy-Bible---English---Text-Critical	113	q	71	Basic Latin 	202	MAT	002	004	So he assembled all the chief priests and scribes of the people, and inquired of them where the Christ was to be born.
-Holy-Bible---English---Text-Critical	8216	‘	2018	General Punctuation 	415	MAT	002	006	‘But yoʋ Bethlehem, in the land of Judah, are by no means least among the rulers of Judah; for from yoʋ will come a ruler who will shepherd my people Israel.’ ”
+Holy-Bible---English---Text-Critical	8216	‘	2018	General Punctuation 	416	MAT	002	006	‘But yoʋ Bethlehem, in the land of Judah, are by no means least among the rulers of Judah; for from yoʋ will come a ruler who will shepherd my people Israel.’ ”
 Holy-Bible---English---Text-Critical	59	;	3b	Basic Latin 	543	MAT	002	006	‘But yoʋ Bethlehem, in the land of Judah, are by no means least among the rulers of Judah; for from yoʋ will come a ruler who will shepherd my people Israel.’ ”
-Holy-Bible---English---Text-Critical	8217	’	2019	General Punctuation 	415	MAT	002	006	‘But yoʋ Bethlehem, in the land of Judah, are by no means least among the rulers of Judah; for from yoʋ will come a ruler who will shepherd my people Israel.’ ”
-Holy-Bible---English---Text-Critical	8239	 	202f	General Punctuation 	75	MAT	002	006	‘But yoʋ Bethlehem, in the land of Judah, are by no means least among the rulers of Judah; for from yoʋ will come a ruler who will shepherd my people Israel.’ ”
+Holy-Bible---English---Text-Critical	8217	’	2019	General Punctuation 	416	MAT	002	006	‘But yoʋ Bethlehem, in the land of Judah, are by no means least among the rulers of Judah; for from yoʋ will come a ruler who will shepherd my people Israel.’ ”
+Holy-Bible---English---Text-Critical	8239	 	202f	General Punctuation 	76	MAT	002	006	‘But yoʋ Bethlehem, in the land of Judah, are by no means least among the rulers of Judah; for from yoʋ will come a ruler who will shepherd my people Israel.’ ”
 Holy-Bible---English---Text-Critical	120	x	78	Basic Latin 	465	MAT	002	010	When they saw the star, they rejoiced with exceedingly great joy.
 Holy-Bible---English---Text-Critical	39	'	27	Basic Latin 	348	MAT	002	020	saying, “Rise, take the child and his mother, and go to the land of Israel, for those who were seeking the child's life are dead.”
 Holy-Bible---English---Text-Critical	89	Y	59	Basic Latin 	402	MAT	003	007	But when John saw many of the Pharisees and Sadducees coming to his baptism, he said to them, “You brood of vipers, who warned you to flee from the coming wrath?
@@ -32652,7 +32652,7 @@ Holy-Bible---English---Text-Critical	45	-	2d	Basic Latin 	110	MAT	004	024	So the
 Holy-Bible---English---Text-Critical	75	K	4b	Basic Latin 	41	MAT	005	035	nor by the earth, for it is the footstool of his feet; nor by Jerusalem, for it is the city of the great King.
 Holy-Bible---English---Text-Critical	8212	—	2014	General Punctuation 	83	MAT	009	006	But so that you may know that the Son of Man has authority on earth to forgive sins”—then he said to the paralytic—“Rise, pick up yoʋr bed, and go to yoʋr house.”
 Holy-Bible---English---Text-Critical	86	V	56	Basic Latin 	4	MAR	016	002	Very early in the morning of the first day of the week, when the sun had risen, they went to the tomb.
-Holy-Bible---English---Text-Critical	81	Q	51	Basic Latin 	3	LUK	002	002	This was the first census, and it took place when Quirinius was governor of Syria.
+Holy-Bible---English---Text-Critical	81	Q	51	Basic Latin 	3	LUK	002	002	(This was the first census, and it took place when Quirinius was governor of Syria.)
 Holy-Bible---English---Trans-Trans	87	W	57	Basic Latin 	4865	GEN	001	002	When he began to create the earth, it was shapeless and completely desolate/chaotic. Darkness covered the deep water that surrounded the earth. And the Spirit of God was hovering over the water.
 Holy-Bible---English---Trans-Trans	104	h	68	Basic Latin 	301826	GEN	001	002	When he began to create the earth, it was shapeless and completely desolate/chaotic. Darkness covered the deep water that surrounded the earth. And the Spirit of God was hovering over the water.
 Holy-Bible---English---Trans-Trans	101	e	65	Basic Latin 	563644	GEN	001	002	When he began to create the earth, it was shapeless and completely desolate/chaotic. Darkness covered the deep water that surrounded the earth. And the Spirit of God was hovering over the water.
@@ -40768,33 +40768,33 @@ Holy-Bible---Greek---Text-Critical	7944	Ἀ	1f08	Greek Extended 	544	MAT	001	002
 Holy-Bible---Greek---Text-Critical	946	β	3b2	Greek and Coptic 	3418	MAT	001	002	Ἀβραὰμ ἐγέννησε τὸν Ἰσαάκ, Ἰσαὰκ δὲ ἐγέννησε τὸν Ἰακώβ, Ἰακὼβ δὲ ἐγέννησε τὸν Ἰούδαν καὶ τοὺς ἀδελφοὺς αὐτοῦ,
 Holy-Bible---Greek---Text-Critical	961	ρ	3c1	Greek and Coptic 	23217	MAT	001	002	Ἀβραὰμ ἐγέννησε τὸν Ἰσαάκ, Ἰσαὰκ δὲ ἐγέννησε τὸν Ἰακώβ, Ἰακὼβ δὲ ἐγέννησε τὸν Ἰούδαν καὶ τοὺς ἀδελφοὺς αὐτοῦ,
 Holy-Bible---Greek---Text-Critical	945	α	3b1	Greek and Coptic 	52638	MAT	001	002	Ἀβραὰμ ἐγέννησε τὸν Ἰσαάκ, Ἰσαὰκ δὲ ἐγέννησε τὸν Ἰακώβ, Ἰακὼβ δὲ ἐγέννησε τὸν Ἰούδαν καὶ τοὺς ἀδελφοὺς αὐτοῦ,
-Holy-Bible---Greek---Text-Critical	8048	ὰ	1f70	Greek Extended 	4830	MAT	001	002	Ἀβραὰμ ἐγέννησε τὸν Ἰσαάκ, Ἰσαὰκ δὲ ἐγέννησε τὸν Ἰακώβ, Ἰακὼβ δὲ ἐγέννησε τὸν Ἰούδαν καὶ τοὺς ἀδελφοὺς αὐτοῦ,
-Holy-Bible---Greek---Text-Critical	956	μ	3bc	Greek and Coptic 	19523	MAT	001	002	Ἀβραὰμ ἐγέννησε τὸν Ἰσαάκ, Ἰσαὰκ δὲ ἐγέννησε τὸν Ἰακώβ, Ἰακὼβ δὲ ἐγέννησε τὸν Ἰούδαν καὶ τοὺς ἀδελφοὺς αὐτοῦ,
-Holy-Bible---Greek---Text-Critical	32	 	20	Basic Latin 	132151	MAT	001	002	Ἀβραὰμ ἐγέννησε τὸν Ἰσαάκ, Ἰσαὰκ δὲ ἐγέννησε τὸν Ἰακώβ, Ἰακὼβ δὲ ἐγέννησε τὸν Ἰούδαν καὶ τοὺς ἀδελφοὺς αὐτοῦ,
+Holy-Bible---Greek---Text-Critical	8048	ὰ	1f70	Greek Extended 	4831	MAT	001	002	Ἀβραὰμ ἐγέννησε τὸν Ἰσαάκ, Ἰσαὰκ δὲ ἐγέννησε τὸν Ἰακώβ, Ἰακὼβ δὲ ἐγέννησε τὸν Ἰούδαν καὶ τοὺς ἀδελφοὺς αὐτοῦ,
+Holy-Bible---Greek---Text-Critical	956	μ	3bc	Greek and Coptic 	19525	MAT	001	002	Ἀβραὰμ ἐγέννησε τὸν Ἰσαάκ, Ἰσαὰκ δὲ ἐγέννησε τὸν Ἰακώβ, Ἰακὼβ δὲ ἐγέννησε τὸν Ἰούδαν καὶ τοὺς ἀδελφοὺς αὐτοῦ,
+Holy-Bible---Greek---Text-Critical	32	 	20	Basic Latin 	132153	MAT	001	002	Ἀβραὰμ ἐγέννησε τὸν Ἰσαάκ, Ἰσαὰκ δὲ ἐγέννησε τὸν Ἰακώβ, Ἰακὼβ δὲ ἐγέννησε τὸν Ἰούδαν καὶ τοὺς ἀδελφοὺς αὐτοῦ,
 Holy-Bible---Greek---Text-Critical	7952	ἐ	1f10	Greek Extended 	12315	MAT	001	002	Ἀβραὰμ ἐγέννησε τὸν Ἰσαάκ, Ἰσαὰκ δὲ ἐγέννησε τὸν Ἰακώβ, Ἰακὼβ δὲ ἐγέννησε τὸν Ἰούδαν καὶ τοὺς ἀδελφοὺς αὐτοῦ,
 Holy-Bible---Greek---Text-Critical	947	γ	3b3	Greek and Coptic 	11114	MAT	001	002	Ἀβραὰμ ἐγέννησε τὸν Ἰσαάκ, Ἰσαὰκ δὲ ἐγέννησε τὸν Ἰακώβ, Ἰακὼβ δὲ ἐγέννησε τὸν Ἰούδαν καὶ τοὺς ἀδελφοὺς αὐτοῦ,
-Holy-Bible---Greek---Text-Critical	941	έ	3ad	Greek and Coptic 	8668	MAT	001	002	Ἀβραὰμ ἐγέννησε τὸν Ἰσαάκ, Ἰσαὰκ δὲ ἐγέννησε τὸν Ἰακώβ, Ἰακὼβ δὲ ἐγέννησε τὸν Ἰούδαν καὶ τοὺς ἀδελφοὺς αὐτοῦ,
-Holy-Bible---Greek---Text-Critical	957	ν	3bd	Greek and Coptic 	54761	MAT	001	002	Ἀβραὰμ ἐγέννησε τὸν Ἰσαάκ, Ἰσαὰκ δὲ ἐγέννησε τὸν Ἰακώβ, Ἰακὼβ δὲ ἐγέννησε τὸν Ἰούδαν καὶ τοὺς ἀδελφοὺς αὐτοῦ,
+Holy-Bible---Greek---Text-Critical	941	έ	3ad	Greek and Coptic 	8667	MAT	001	002	Ἀβραὰμ ἐγέννησε τὸν Ἰσαάκ, Ἰσαὰκ δὲ ἐγέννησε τὸν Ἰακώβ, Ἰακὼβ δὲ ἐγέννησε τὸν Ἰούδαν καὶ τοὺς ἀδελφοὺς αὐτοῦ,
+Holy-Bible---Greek---Text-Critical	957	ν	3bd	Greek and Coptic 	54762	MAT	001	002	Ἀβραὰμ ἐγέννησε τὸν Ἰσαάκ, Ἰσαὰκ δὲ ἐγέννησε τὸν Ἰακώβ, Ἰακὼβ δὲ ἐγέννησε τὸν Ἰούδαν καὶ τοὺς ἀδελφοὺς αὐτοῦ,
 Holy-Bible---Greek---Text-Critical	951	η	3b7	Greek and Coptic 	9206	MAT	001	002	Ἀβραὰμ ἐγέννησε τὸν Ἰσαάκ, Ἰσαὰκ δὲ ἐγέννησε τὸν Ἰακώβ, Ἰακὼβ δὲ ἐγέννησε τὸν Ἰούδαν καὶ τοὺς ἀδελφοὺς αὐτοῦ,
-Holy-Bible---Greek---Text-Critical	963	σ	3c3	Greek and Coptic 	24486	MAT	001	002	Ἀβραὰμ ἐγέννησε τὸν Ἰσαάκ, Ἰσαὰκ δὲ ἐγέννησε τὸν Ἰακώβ, Ἰακὼβ δὲ ἐγέννησε τὸν Ἰούδαν καὶ τοὺς ἀδελφοὺς αὐτοῦ,
+Holy-Bible---Greek---Text-Critical	963	σ	3c3	Greek and Coptic 	24485	MAT	001	002	Ἀβραὰμ ἐγέννησε τὸν Ἰσαάκ, Ἰσαὰκ δὲ ἐγέννησε τὸν Ἰακώβ, Ἰακὼβ δὲ ἐγέννησε τὸν Ἰούδαν καὶ τοὺς ἀδελφοὺς αὐτοῦ,
 Holy-Bible---Greek---Text-Critical	949	ε	3b5	Greek and Coptic 	38918	MAT	001	002	Ἀβραὰμ ἐγέννησε τὸν Ἰσαάκ, Ἰσαὰκ δὲ ἐγέννησε τὸν Ἰακώβ, Ἰακὼβ δὲ ἐγέννησε τὸν Ἰούδαν καὶ τοὺς ἀδελφοὺς αὐτοῦ,
 Holy-Bible---Greek---Text-Critical	964	τ	3c4	Greek and Coptic 	51568	MAT	001	002	Ἀβραὰμ ἐγέννησε τὸν Ἰσαάκ, Ἰσαὰκ δὲ ἐγέννησε τὸν Ἰακώβ, Ἰακὼβ δὲ ἐγέννησε τὸν Ἰούδαν καὶ τοὺς ἀδελφοὺς αὐτοῦ,
-Holy-Bible---Greek---Text-Critical	8056	ὸ	1f78	Greek Extended 	7752	MAT	001	002	Ἀβραὰμ ἐγέννησε τὸν Ἰσαάκ, Ἰσαὰκ δὲ ἐγέννησε τὸν Ἰακώβ, Ἰακὼβ δὲ ἐγέννησε τὸν Ἰούδαν καὶ τοὺς ἀδελφοὺς αὐτοῦ,
+Holy-Bible---Greek---Text-Critical	8056	ὸ	1f78	Greek Extended 	7767	MAT	001	002	Ἀβραὰμ ἐγέννησε τὸν Ἰσαάκ, Ἰσαὰκ δὲ ἐγέννησε τὸν Ἰακώβ, Ἰακὼβ δὲ ἐγέννησε τὸν Ἰούδαν καὶ τοὺς ἀδελφοὺς αὐτοῦ,
 Holy-Bible---Greek---Text-Critical	7992	Ἰ	1f38	Greek Extended 	1774	MAT	001	002	Ἀβραὰμ ἐγέννησε τὸν Ἰσαάκ, Ἰσαὰκ δὲ ἐγέννησε τὸν Ἰακώβ, Ἰακὼβ δὲ ἐγέννησε τὸν Ἰούδαν καὶ τοὺς ἀδελφοὺς αὐτοῦ,
-Holy-Bible---Greek---Text-Critical	940	ά	3ac	Greek and Coptic 	6958	MAT	001	002	Ἀβραὰμ ἐγέννησε τὸν Ἰσαάκ, Ἰσαὰκ δὲ ἐγέννησε τὸν Ἰακώβ, Ἰακὼβ δὲ ἐγέννησε τὸν Ἰούδαν καὶ τοὺς ἀδελφοὺς αὐτοῦ,
+Holy-Bible---Greek---Text-Critical	940	ά	3ac	Greek and Coptic 	6957	MAT	001	002	Ἀβραὰμ ἐγέννησε τὸν Ἰσαάκ, Ἰσαὰκ δὲ ἐγέννησε τὸν Ἰακώβ, Ἰακὼβ δὲ ἐγέννησε τὸν Ἰούδαν καὶ τοὺς ἀδελφοὺς αὐτοῦ,
 Holy-Bible---Greek---Text-Critical	954	κ	3ba	Greek and Coptic 	23018	MAT	001	002	Ἀβραὰμ ἐγέννησε τὸν Ἰσαάκ, Ἰσαὰκ δὲ ἐγέννησε τὸν Ἰακώβ, Ἰακὼβ δὲ ἐγέννησε τὸν Ἰούδαν καὶ τοὺς ἀδελφοὺς αὐτοῦ,
-Holy-Bible---Greek---Text-Critical	44	,	2c	Basic Latin 	11877	MAT	001	002	Ἀβραὰμ ἐγέννησε τὸν Ἰσαάκ, Ἰσαὰκ δὲ ἐγέννησε τὸν Ἰακώβ, Ἰακὼβ δὲ ἐγέννησε τὸν Ἰούδαν καὶ τοὺς ἀδελφοὺς αὐτοῦ,
-Holy-Bible---Greek---Text-Critical	948	δ	3b4	Greek and Coptic 	12658	MAT	001	002	Ἀβραὰμ ἐγέννησε τὸν Ἰσαάκ, Ἰσαὰκ δὲ ἐγέννησε τὸν Ἰακώβ, Ἰακὼβ δὲ ἐγέννησε τὸν Ἰούδαν καὶ τοὺς ἀδελφοὺς αὐτοῦ,
+Holy-Bible---Greek---Text-Critical	44	,	2c	Basic Latin 	11780	MAT	001	002	Ἀβραὰμ ἐγέννησε τὸν Ἰσαάκ, Ἰσαὰκ δὲ ἐγέννησε τὸν Ἰακώβ, Ἰακὼβ δὲ ἐγέννησε τὸν Ἰούδαν καὶ τοὺς ἀδελφοὺς αὐτοῦ,
+Holy-Bible---Greek---Text-Critical	948	δ	3b4	Greek and Coptic 	12657	MAT	001	002	Ἀβραὰμ ἐγέννησε τὸν Ἰσαάκ, Ἰσαὰκ δὲ ἐγέννησε τὸν Ἰακώβ, Ἰακὼβ δὲ ἐγέννησε τὸν Ἰούδαν καὶ τοὺς ἀδελφοὺς αὐτοῦ,
 Holy-Bible---Greek---Text-Critical	8050	ὲ	1f72	Greek Extended 	3516	MAT	001	002	Ἀβραὰμ ἐγέννησε τὸν Ἰσαάκ, Ἰσαὰκ δὲ ἐγέννησε τὸν Ἰακώβ, Ἰακὼβ δὲ ἐγέννησε τὸν Ἰούδαν καὶ τοὺς ἀδελφοὺς αὐτοῦ,
 Holy-Bible---Greek---Text-Critical	974	ώ	3ce	Greek and Coptic 	2078	MAT	001	002	Ἀβραὰμ ἐγέννησε τὸν Ἰσαάκ, Ἰσαὰκ δὲ ἐγέννησε τὸν Ἰακώβ, Ἰακὼβ δὲ ἐγέννησε τὸν Ἰούδαν καὶ τοὺς ἀδελφοὺς αὐτοῦ,
 Holy-Bible---Greek---Text-Critical	8060	ὼ	1f7c	Greek Extended 	1007	MAT	001	002	Ἀβραὰμ ἐγέννησε τὸν Ἰσαάκ, Ἰσαὰκ δὲ ἐγέννησε τὸν Ἰακώβ, Ἰακὼβ δὲ ἐγέννησε τὸν Ἰούδαν καὶ τοὺς ἀδελφοὺς αὐτοῦ,
-Holy-Bible---Greek---Text-Critical	959	ο	3bf	Greek and Coptic 	46110	MAT	001	002	Ἀβραὰμ ἐγέννησε τὸν Ἰσαάκ, Ἰσαὰκ δὲ ἐγέννησε τὸν Ἰακώβ, Ἰακὼβ δὲ ἐγέννησε τὸν Ἰούδαν καὶ τοὺς ἀδελφοὺς αὐτοῦ,
-Holy-Bible---Greek---Text-Critical	973	ύ	3cd	Greek and Coptic 	5074	MAT	001	002	Ἀβραὰμ ἐγέννησε τὸν Ἰσαάκ, Ἰσαὰκ δὲ ἐγέννησε τὸν Ἰακώβ, Ἰακὼβ δὲ ἐγέννησε τὸν Ἰούδαν καὶ τοὺς ἀδελφοὺς αὐτοῦ,
-Holy-Bible---Greek---Text-Critical	8054	ὶ	1f76	Greek Extended 	11967	MAT	001	002	Ἀβραὰμ ἐγέννησε τὸν Ἰσαάκ, Ἰσαὰκ δὲ ἐγέννησε τὸν Ἰακώβ, Ἰακὼβ δὲ ἐγέννησε τὸν Ἰούδαν καὶ τοὺς ἀδελφοὺς αὐτοῦ,
-Holy-Bible---Greek---Text-Critical	8058	ὺ	1f7a	Greek Extended 	1797	MAT	001	002	Ἀβραὰμ ἐγέννησε τὸν Ἰσαάκ, Ἰσαὰκ δὲ ἐγέννησε τὸν Ἰακώβ, Ἰακὼβ δὲ ἐγέννησε τὸν Ἰούδαν καὶ τοὺς ἀδελφοὺς αὐτοῦ,
-Holy-Bible---Greek---Text-Critical	962	ς	3c2	Greek and Coptic 	27343	MAT	001	002	Ἀβραὰμ ἐγέννησε τὸν Ἰσαάκ, Ἰσαὰκ δὲ ἐγέννησε τὸν Ἰακώβ, Ἰακὼβ δὲ ἐγέννησε τὸν Ἰούδαν καὶ τοὺς ἀδελφοὺς αὐτοῦ,
+Holy-Bible---Greek---Text-Critical	959	ο	3bf	Greek and Coptic 	46111	MAT	001	002	Ἀβραὰμ ἐγέννησε τὸν Ἰσαάκ, Ἰσαὰκ δὲ ἐγέννησε τὸν Ἰακώβ, Ἰακὼβ δὲ ἐγέννησε τὸν Ἰούδαν καὶ τοὺς ἀδελφοὺς αὐτοῦ,
+Holy-Bible---Greek---Text-Critical	973	ύ	3cd	Greek and Coptic 	5072	MAT	001	002	Ἀβραὰμ ἐγέννησε τὸν Ἰσαάκ, Ἰσαὰκ δὲ ἐγέννησε τὸν Ἰακώβ, Ἰακὼβ δὲ ἐγέννησε τὸν Ἰούδαν καὶ τοὺς ἀδελφοὺς αὐτοῦ,
+Holy-Bible---Greek---Text-Critical	8054	ὶ	1f76	Greek Extended 	11969	MAT	001	002	Ἀβραὰμ ἐγέννησε τὸν Ἰσαάκ, Ἰσαὰκ δὲ ἐγέννησε τὸν Ἰακώβ, Ἰακὼβ δὲ ἐγέννησε τὸν Ἰούδαν καὶ τοὺς ἀδελφοὺς αὐτοῦ,
+Holy-Bible---Greek---Text-Critical	8058	ὺ	1f7a	Greek Extended 	1799	MAT	001	002	Ἀβραὰμ ἐγέννησε τὸν Ἰσαάκ, Ἰσαὰκ δὲ ἐγέννησε τὸν Ἰακώβ, Ἰακὼβ δὲ ἐγέννησε τὸν Ἰούδαν καὶ τοὺς ἀδελφοὺς αὐτοῦ,
+Holy-Bible---Greek---Text-Critical	962	ς	3c2	Greek and Coptic 	27344	MAT	001	002	Ἀβραὰμ ἐγέννησε τὸν Ἰσαάκ, Ἰσαὰκ δὲ ἐγέννησε τὸν Ἰακώβ, Ἰακὼβ δὲ ἐγέννησε τὸν Ἰούδαν καὶ τοὺς ἀδελφοὺς αὐτοῦ,
 Holy-Bible---Greek---Text-Critical	7936	ἀ	1f00	Greek Extended 	7375	MAT	001	002	Ἀβραὰμ ἐγέννησε τὸν Ἰσαάκ, Ἰσαὰκ δὲ ἐγέννησε τὸν Ἰακώβ, Ἰακὼβ δὲ ἐγέννησε τὸν Ἰούδαν καὶ τοὺς ἀδελφοὺς αὐτοῦ,
-Holy-Bible---Greek---Text-Critical	955	λ	3bb	Greek and Coptic 	18409	MAT	001	002	Ἀβραὰμ ἐγέννησε τὸν Ἰσαάκ, Ἰσαὰκ δὲ ἐγέννησε τὸν Ἰακώβ, Ἰακὼβ δὲ ἐγέννησε τὸν Ἰούδαν καὶ τοὺς ἀδελφοὺς αὐτοῦ,
+Holy-Bible---Greek---Text-Critical	955	λ	3bb	Greek and Coptic 	18410	MAT	001	002	Ἀβραὰμ ἐγέννησε τὸν Ἰσαάκ, Ἰσαὰκ δὲ ἐγέννησε τὸν Ἰακώβ, Ἰακὼβ δὲ ἐγέννησε τὸν Ἰούδαν καὶ τοὺς ἀδελφοὺς αὐτοῦ,
 Holy-Bible---Greek---Text-Critical	966	φ	3c6	Greek and Coptic 	3826	MAT	001	002	Ἀβραὰμ ἐγέννησε τὸν Ἰσαάκ, Ἰσαὰκ δὲ ἐγέννησε τὸν Ἰακώβ, Ἰακὼβ δὲ ἐγέννησε τὸν Ἰούδαν καὶ τοὺς ἀδελφοὺς αὐτοῦ,
 Holy-Bible---Greek---Text-Critical	8016	ὐ	1f50	Greek Extended 	8832	MAT	001	002	Ἀβραὰμ ἐγέννησε τὸν Ἰσαάκ, Ἰσαὰκ δὲ ἐγέννησε τὸν Ἰακώβ, Ἰακὼβ δὲ ἐγέννησε τὸν Ἰούδαν καὶ τοὺς ἀδελφοὺς αὐτοῦ,
 Holy-Bible---Greek---Text-Critical	8166	ῦ	1fe6	Greek Extended 	9037	MAT	001	002	Ἀβραὰμ ἐγέννησε τὸν Ἰσαάκ, Ἰσαὰκ δὲ ἐγέννησε τὸν Ἰακώβ, Ἰακὼβ δὲ ἐγέννησε τὸν Ἰούδαν καὶ τοὺς ἀδελφοὺς αὐτοῦ,
@@ -40811,25 +40811,25 @@ Holy-Bible---Greek---Text-Critical	950	ζ	3b6	Greek and Coptic 	1543	MAT	001	005
 Holy-Bible---Greek---Text-Critical	8172	Ῥ	1fec	Greek Extended 	56	MAT	001	005	Σαλμὼν δὲ ἐγέννησε τὸν Βοὸζ ἐκ τῆς Ῥαχάβ, Βοὸζ δὲ ἐγέννησε τὸν Ὠβὴδ ἐκ τῆς Ῥούθ, Ὠβὴδ δὲ ἐγέννησε τὸν Ἰεσσαί,
 Holy-Bible---Greek---Text-Critical	967	χ	3c7	Greek and Coptic 	4711	MAT	001	005	Σαλμὼν δὲ ἐγέννησε τὸν Βοὸζ ἐκ τῆς Ῥαχάβ, Βοὸζ δὲ ἐγέννησε τὸν Ὠβὴδ ἐκ τῆς Ῥούθ, Ὠβὴδ δὲ ἐγέννησε τὸν Ἰεσσαί,
 Holy-Bible---Greek---Text-Critical	8040	Ὠ	1f68	Greek Extended 	4	MAT	001	005	Σαλμὼν δὲ ἐγέννησε τὸν Βοὸζ ἐκ τῆς Ῥαχάβ, Βοὸζ δὲ ἐγέννησε τὸν Ὠβὴδ ἐκ τῆς Ῥούθ, Ὠβὴδ δὲ ἐγέννησε τὸν Ἰεσσαί,
-Holy-Bible---Greek---Text-Critical	8052	ὴ	1f74	Greek Extended 	3841	MAT	001	005	Σαλμὼν δὲ ἐγέννησε τὸν Βοὸζ ἐκ τῆς Ῥαχάβ, Βοὸζ δὲ ἐγέννησε τὸν Ὠβὴδ ἐκ τῆς Ῥούθ, Ὠβὴδ δὲ ἐγέννησε τὸν Ἰεσσαί,
+Holy-Bible---Greek---Text-Critical	8052	ὴ	1f74	Greek Extended 	3844	MAT	001	005	Σαλμὼν δὲ ἐγέννησε τὸν Βοὸζ ἐκ τῆς Ῥαχάβ, Βοὸζ δὲ ἐγέννησε τὸν Ὠβὴδ ἐκ τῆς Ῥούθ, Ὠβὴδ δὲ ἐγέννησε τὸν Ἰεσσαί,
 Holy-Bible---Greek---Text-Critical	952	θ	3b8	Greek and Coptic 	9488	MAT	001	005	Σαλμὼν δὲ ἐγέννησε τὸν Βοὸζ ἐκ τῆς Ῥαχάβ, Βοὸζ δὲ ἐγέννησε τὸν Ὠβὴδ ἐκ τῆς Ῥούθ, Ὠβὴδ δὲ ἐγέννησε τὸν Ἰεσσαί,
-Holy-Bible---Greek---Text-Critical	943	ί	3af	Greek and Coptic 	10254	MAT	001	005	Σαλμὼν δὲ ἐγέννησε τὸν Βοὸζ ἐκ τῆς Ῥαχάβ, Βοὸζ δὲ ἐγέννησε τὸν Ὠβὴδ ἐκ τῆς Ῥούθ, Ὠβὴδ δὲ ἐγέννησε τὸν Ἰεσσαί,
-Holy-Bible---Greek---Text-Critical	916	Δ	394	Greek and Coptic 	261	MAT	001	006	Ἰεσσαὶ δὲ ἐγέννησε τὸν Δαυὶδ τὸν βασιλέα. Δαυὶδ δὲ ὁ βασιλεὺς ἐγέννησε τὸν Σολομῶνα ἐκ τῆς τοῦ Οὐρίου,
+Holy-Bible---Greek---Text-Critical	943	ί	3af	Greek and Coptic 	10251	MAT	001	005	Σαλμὼν δὲ ἐγέννησε τὸν Βοὸζ ἐκ τῆς Ῥαχάβ, Βοὸζ δὲ ἐγέννησε τὸν Ὠβὴδ ἐκ τῆς Ῥούθ, Ὠβὴδ δὲ ἐγέννησε τὸν Ἰεσσαί,
+Holy-Bible---Greek---Text-Critical	916	Δ	394	Greek and Coptic 	262	MAT	001	006	Ἰεσσαὶ δὲ ἐγέννησε τὸν Δαυὶδ τὸν βασιλέα. Δαυὶδ δὲ ὁ βασιλεὺς ἐγέννησε τὸν Σολομῶνα ἐκ τῆς τοῦ Οὐρίου,
 Holy-Bible---Greek---Text-Critical	965	υ	3c5	Greek and Coptic 	10811	MAT	001	006	Ἰεσσαὶ δὲ ἐγέννησε τὸν Δαυὶδ τὸν βασιλέα. Δαυὶδ δὲ ὁ βασιλεὺς ἐγέννησε τὸν Σολομῶνα ἐκ τῆς τοῦ Οὐρίου,
-Holy-Bible---Greek---Text-Critical	46	.	2e	Basic Latin 	6153	MAT	001	006	Ἰεσσαὶ δὲ ἐγέννησε τὸν Δαυὶδ τὸν βασιλέα. Δαυὶδ δὲ ὁ βασιλεὺς ἐγέννησε τὸν Σολομῶνα ἐκ τῆς τοῦ Οὐρίου,
+Holy-Bible---Greek---Text-Critical	46	.	2e	Basic Latin 	6138	MAT	001	006	Ἰεσσαὶ δὲ ἐγέννησε τὸν Δαυὶδ τὸν βασιλέα. Δαυὶδ δὲ ὁ βασιλεὺς ἐγέννησε τὸν Σολομῶνα ἐκ τῆς τοῦ Οὐρίου,
 Holy-Bible---Greek---Text-Critical	8001	ὁ	1f41	Greek Extended 	3223	MAT	001	006	Ἰεσσαὶ δὲ ἐγέννησε τὸν Δαυὶδ τὸν βασιλέα. Δαυὶδ δὲ ὁ βασιλεὺς ἐγέννησε τὸν Σολομῶνα ἐκ τῆς τοῦ Οὐρίου,
-Holy-Bible---Greek---Text-Critical	8182	ῶ	1ff6	Greek Extended 	5382	MAT	001	006	Ἰεσσαὶ δὲ ἐγέννησε τὸν Δαυὶδ τὸν βασιλέα. Δαυὶδ δὲ ὁ βασιλεὺς ἐγέννησε τὸν Σολομῶνα ἐκ τῆς τοῦ Οὐρίου,
+Holy-Bible---Greek---Text-Critical	8182	ῶ	1ff6	Greek Extended 	5383	MAT	001	006	Ἰεσσαὶ δὲ ἐγέννησε τὸν Δαυὶδ τὸν βασιλέα. Δαυὶδ δὲ ὁ βασιλεὺς ἐγέννησε τὸν Σολομῶνα ἐκ τῆς τοῦ Οὐρίου,
 Holy-Bible---Greek---Text-Critical	927	Ο	39f	Greek and Coptic 	282	MAT	001	006	Ἰεσσαὶ δὲ ἐγέννησε τὸν Δαυὶδ τὸν βασιλέα. Δαυὶδ δὲ ὁ βασιλεὺς ἐγέννησε τὸν Σολομῶνα ἐκ τῆς τοῦ Οὐρίου,
 Holy-Bible---Greek---Text-Critical	969	ω	3c9	Greek and Coptic 	7991	MAT	001	008	Ἀσὰ δὲ ἐγέννησε τὸν Ἰωσαφάτ, Ἰωσαφὰτ δὲ ἐγέννησε τὸν Ἰωράμ, Ἰωρὰμ δὲ ἐγέννησε τὸν Ὀζίαν,
 Holy-Bible---Greek---Text-Critical	8008	Ὀ	1f48	Greek Extended 	20	MAT	001	008	Ἀσὰ δὲ ἐγέννησε τὸν Ἰωσαφάτ, Ἰωσαφὰτ δὲ ἐγέννησε τὸν Ἰωράμ, Ἰωρὰμ δὲ ἐγέννησε τὸν Ὀζίαν,
 Holy-Bible---Greek---Text-Critical	7948	Ἄ	1f0c	Greek Extended 	121	MAT	001	009	Ὀζίας δὲ ἐγέννησε τὸν Ἰωάθαμ, Ἰωάθαμ δὲ ἐγέννησε τὸν Ἄχαζ, Ἄχαζ δὲ ἐγέννησε τὸν Ἐζεκίαν,
 Holy-Bible---Greek---Text-Critical	924	Μ	39c	Greek and Coptic 	417	MAT	001	010	Ἐζεκίας δὲ ἐγέννησε τὸν Μανασσῆ, Μανασσῆς δὲ ἐγέννησε τὸν Ἀμών, Ἀμὼν δὲ ἐγέννησε τὸν Ἰωσίαν,
 Holy-Bible---Greek---Text-Critical	960	π	3c0	Greek and Coptic 	20900	MAT	001	011	Ἰωσίας δὲ ἐγέννησε τὸν Ἰεχονίαν καὶ τοὺς ἀδελφοὺς αὐτοῦ ἐπὶ τῆς μετοικεσίας Βαβυλῶνος.
-Holy-Bible---Greek---Text-Critical	942	ή	3ae	Greek and Coptic 	3733	MAT	001	012	Μετὰ δὲ τὴν μετοικεσίαν Βαβυλῶνος Ἰεχονίας ἐγέννησε τὸν Σαλαθιήλ, Σαλαθιὴλ δὲ ἐγέννησε τὸν Ζοροβάβελ,
+Holy-Bible---Greek---Text-Critical	942	ή	3ae	Greek and Coptic 	3730	MAT	001	012	Μετὰ δὲ τὴν μετοικεσίαν Βαβυλῶνος Ἰεχονίας ἐγέννησε τὸν Σαλαθιήλ, Σαλαθιὴλ δὲ ἐγέννησε τὸν Ζοροβάβελ,
 Holy-Bible---Greek---Text-Critical	7940	ἄ	1f04	Greek Extended 	1126	MAT	001	016	Ἰακὼβ δὲ ἐγέννησε τὸν Ἰωσὴφ τὸν ἄνδρα Μαρίας, ἐξ ἧς ἐγεννήθη Ἰησοῦς ὁ λεγόμενος Χριστός.
 Holy-Bible---Greek---Text-Critical	958	ξ	3be	Greek and Coptic 	2249	MAT	001	016	Ἰακὼβ δὲ ἐγέννησε τὸν Ἰωσὴφ τὸν ἄνδρα Μαρίας, ἐξ ἧς ἐγεννήθη Ἰησοῦς ὁ λεγόμενος Χριστός.
 Holy-Bible---Greek---Text-Critical	7975	ἧ	1f27	Greek Extended 	51	MAT	001	016	Ἰακὼβ δὲ ἐγέννησε τὸν Ἰωσὴφ τὸν ἄνδρα Μαρίας, ἐξ ἧς ἐγεννήθη Ἰησοῦς ὁ λεγόμενος Χριστός.
-Holy-Bible---Greek---Text-Critical	972	ό	3cc	Greek and Coptic 	6390	MAT	001	016	Ἰακὼβ δὲ ἐγέννησε τὸν Ἰωσὴφ τὸν ἄνδρα Μαρίας, ἐξ ἧς ἐγεννήθη Ἰησοῦς ὁ λεγόμενος Χριστός.
+Holy-Bible---Greek---Text-Critical	972	ό	3cc	Greek and Coptic 	6375	MAT	001	016	Ἰακὼβ δὲ ἐγέννησε τὸν Ἰωσὴφ τὸν ἄνδρα Μαρίας, ἐξ ἧς ἐγεννήθη Ἰησοῦς ὁ λεγόμενος Χριστός.
 Holy-Bible---Greek---Text-Critical	935	Χ	3a7	Greek and Coptic 	598	MAT	001	016	Ἰακὼβ δὲ ἐγέννησε τὸν Ἰωσὴφ τὸν ἄνδρα Μαρίας, ἐξ ἧς ἐγεννήθη Ἰησοῦς ὁ λεγόμενος Χριστός.
 Holy-Bible---Greek---Text-Critical	928	Π	3a0	Greek and Coptic 	955	MAT	001	017	Πᾶσαι οὖν αἱ γενεαὶ ἀπὸ Ἀβραὰμ ἕως Δαυὶδ γενεαὶ δεκατέσσαρες, καὶ ἀπὸ Δαυὶδ ἕως τῆς μετοικεσίας Βαβυλῶνος γενεαὶ δεκατέσσαρες, καὶ ἀπὸ τῆς μετοικεσίας Βαβυλῶνος ἕως τοῦ Χριστοῦ γενεαὶ δεκατέσσαρες.
 Holy-Bible---Greek---Text-Critical	8118	ᾶ	1fb6	Greek Extended 	1466	MAT	001	017	Πᾶσαι οὖν αἱ γενεαὶ ἀπὸ Ἀβραὰμ ἕως Δαυὶδ γενεαὶ δεκατέσσαρες, καὶ ἀπὸ Δαυὶδ ἕως τῆς μετοικεσίας Βαβυλῶνος γενεαὶ δεκατέσσαρες, καὶ ἀπὸ τῆς μετοικεσίας Βαβυλῶνος ἕως τοῦ Χριστοῦ γενεαὶ δεκατέσσαρες.
@@ -40837,13 +40837,13 @@ Holy-Bible---Greek---Text-Critical	8022	ὖ	1f56	Greek Extended 	568	MAT	001	017
 Holy-Bible---Greek---Text-Critical	7985	ἱ	1f31	Greek Extended 	1944	MAT	001	017	Πᾶσαι οὖν αἱ γενεαὶ ἀπὸ Ἀβραὰμ ἕως Δαυὶδ γενεαὶ δεκατέσσαρες, καὶ ἀπὸ Δαυὶδ ἕως τῆς μετοικεσίας Βαβυλῶνος γενεαὶ δεκατέσσαρες, καὶ ἀπὸ τῆς μετοικεσίας Βαβυλῶνος ἕως τοῦ Χριστοῦ γενεαὶ δεκατέσσαρες.
 Holy-Bible---Greek---Text-Critical	7957	ἕ	1f15	Greek Extended 	408	MAT	001	017	Πᾶσαι οὖν αἱ γενεαὶ ἀπὸ Ἀβραὰμ ἕως Δαυὶδ γενεαὶ δεκατέσσαρες, καὶ ἀπὸ Δαυὶδ ἕως τῆς μετοικεσίας Βαβυλῶνος γενεαὶ δεκατέσσαρες, καὶ ἀπὸ τῆς μετοικεσίας Βαβυλῶνος ἕως τοῦ Χριστοῦ γενεαὶ δεκατέσσαρες.
 Holy-Bible---Greek---Text-Critical	932	Τ	3a4	Greek and Coptic 	454	MAT	001	018	Τοῦ δὲ Ἰησοῦ Χριστοῦ ἡ γέννησις οὕτως ἦν· μνηστευθείσης γὰρ τῆς μητρὸς αὐτοῦ Μαρίας τῷ Ἰωσήφ, πρὶν ἢ συνελθεῖν αὐτοὺς εὑρέθη ἐν γαστρὶ ἔχουσα ἐκ Πνεύματος Ἁγίου.
-Holy-Bible---Greek---Text-Critical	7969	ἡ	1f21	Greek Extended 	2381	MAT	001	018	Τοῦ δὲ Ἰησοῦ Χριστοῦ ἡ γέννησις οὕτως ἦν· μνηστευθείσης γὰρ τῆς μητρὸς αὐτοῦ Μαρίας τῷ Ἰωσήφ, πρὶν ἢ συνελθεῖν αὐτοὺς εὑρέθη ἐν γαστρὶ ἔχουσα ἐκ Πνεύματος Ἁγίου.
+Holy-Bible---Greek---Text-Critical	7969	ἡ	1f21	Greek Extended 	2383	MAT	001	018	Τοῦ δὲ Ἰησοῦ Χριστοῦ ἡ γέννησις οὕτως ἦν· μνηστευθείσης γὰρ τῆς μητρὸς αὐτοῦ Μαρίας τῷ Ἰωσήφ, πρὶν ἢ συνελθεῖν αὐτοὺς εὑρέθη ἐν γαστρὶ ἔχουσα ἐκ Πνεύματος Ἁγίου.
 Holy-Bible---Greek---Text-Critical	8021	ὕ	1f55	Greek Extended 	435	MAT	001	018	Τοῦ δὲ Ἰησοῦ Χριστοῦ ἡ γέννησις οὕτως ἦν· μνηστευθείσης γὰρ τῆς μητρὸς αὐτοῦ Μαρίας τῷ Ἰωσήφ, πρὶν ἢ συνελθεῖν αὐτοὺς εὑρέθη ἐν γαστρὶ ἔχουσα ἐκ Πνεύματος Ἁγίου.
 Holy-Bible---Greek---Text-Critical	7974	ἦ	1f26	Greek Extended 	616	MAT	001	018	Τοῦ δὲ Ἰησοῦ Χριστοῦ ἡ γέννησις οὕτως ἦν· μνηστευθείσης γὰρ τῆς μητρὸς αὐτοῦ Μαρίας τῷ Ἰωσήφ, πρὶν ἢ συνελθεῖν αὐτοὺς εὑρέθη ἐν γαστρὶ ἔχουσα ἐκ Πνεύματος Ἁγίου.
-Holy-Bible---Greek---Text-Critical	183	·	b7	Latin-1 Supplement	2081	MAT	001	018	Τοῦ δὲ Ἰησοῦ Χριστοῦ ἡ γέννησις οὕτως ἦν· μνηστευθείσης γὰρ τῆς μητρὸς αὐτοῦ Μαρίας τῷ Ἰωσήφ, πρὶν ἢ συνελθεῖν αὐτοὺς εὑρέθη ἐν γαστρὶ ἔχουσα ἐκ Πνεύματος Ἁγίου.
+Holy-Bible---Greek---Text-Critical	183	·	b7	Latin-1 Supplement	2066	MAT	001	018	Τοῦ δὲ Ἰησοῦ Χριστοῦ ἡ γέννησις οὕτως ἦν· μνηστευθείσης γὰρ τῆς μητρὸς αὐτοῦ Μαρίας τῷ Ἰωσήφ, πρὶν ἢ συνελθεῖν αὐτοὺς εὑρέθη ἐν γαστρὶ ἔχουσα ἐκ Πνεύματος Ἁγίου.
 Holy-Bible---Greek---Text-Critical	8183	ῷ	1ff7	Greek Extended 	2841	MAT	001	018	Τοῦ δὲ Ἰησοῦ Χριστοῦ ἡ γέννησις οὕτως ἦν· μνηστευθείσης γὰρ τῆς μητρὸς αὐτοῦ Μαρίας τῷ Ἰωσήφ, πρὶν ἢ συνελθεῖν αὐτοὺς εὑρέθη ἐν γαστρὶ ἔχουσα ἐκ Πνεύματος Ἁγίου.
 Holy-Bible---Greek---Text-Critical	7970	ἢ	1f22	Greek Extended 	339	MAT	001	018	Τοῦ δὲ Ἰησοῦ Χριστοῦ ἡ γέννησις οὕτως ἦν· μνηστευθείσης γὰρ τῆς μητρὸς αὐτοῦ Μαρίας τῷ Ἰωσήφ, πρὶν ἢ συνελθεῖν αὐτοὺς εὑρέθη ἐν γαστρὶ ἔχουσα ἐκ Πνεύματος Ἁγίου.
-Holy-Bible---Greek---Text-Critical	8150	ῖ	1fd6	Greek Extended 	5722	MAT	001	018	Τοῦ δὲ Ἰησοῦ Χριστοῦ ἡ γέννησις οὕτως ἦν· μνηστευθείσης γὰρ τῆς μητρὸς αὐτοῦ Μαρίας τῷ Ἰωσήφ, πρὶν ἢ συνελθεῖν αὐτοὺς εὑρέθη ἐν γαστρὶ ἔχουσα ἐκ Πνεύματος Ἁγίου.
+Holy-Bible---Greek---Text-Critical	8150	ῖ	1fd6	Greek Extended 	5723	MAT	001	018	Τοῦ δὲ Ἰησοῦ Χριστοῦ ἡ γέννησις οὕτως ἦν· μνηστευθείσης γὰρ τῆς μητρὸς αὐτοῦ Μαρίας τῷ Ἰωσήφ, πρὶν ἢ συνελθεῖν αὐτοὺς εὑρέθη ἐν γαστρὶ ἔχουσα ἐκ Πνεύματος Ἁγίου.
 Holy-Bible---Greek---Text-Critical	8017	ὑ	1f51	Greek Extended 	2979	MAT	001	018	Τοῦ δὲ Ἰησοῦ Χριστοῦ ἡ γέννησις οὕτως ἦν· μνηστευθείσης γὰρ τῆς μητρὸς αὐτοῦ Μαρίας τῷ Ἰωσήφ, πρὶν ἢ συνελθεῖν αὐτοὺς εὑρέθη ἐν γαστρὶ ἔχουσα ἐκ Πνεύματος Ἁγίου.
 Holy-Bible---Greek---Text-Critical	7956	ἔ	1f14	Greek Extended 	2764	MAT	001	018	Τοῦ δὲ Ἰησοῦ Χριστοῦ ἡ γέννησις οὕτως ἦν· μνηστευθείσης γὰρ τῆς μητρὸς αὐτοῦ Μαρίας τῷ Ἰωσήφ, πρὶν ἢ συνελθεῖν αὐτοὺς εὑρέθη ἐν γαστρὶ ἔχουσα ἐκ Πνεύματος Ἁγίου.
 Holy-Bible---Greek---Text-Critical	7945	Ἁ	1f09	Greek Extended 	59	MAT	001	018	Τοῦ δὲ Ἰησοῦ Χριστοῦ ἡ γέννησις οὕτως ἦν· μνηστευθείσης γὰρ τῆς μητρὸς αὐτοῦ Μαρίας τῷ Ἰωσήφ, πρὶν ἢ συνελθεῖν αὐτοὺς εὑρέθη ἐν γαστρὶ ἔχουσα ἐκ Πνεύματος Ἁγίου.
@@ -40858,8 +40858,8 @@ Holy-Bible---Greek---Text-Critical	7937	ἁ	1f01	Greek Extended 	462	MAT	001	021
 Holy-Bible---Greek---Text-Critical	8005	ὅ	1f45	Greek Extended 	2011	MAT	001	022	τοῦτο δὲ ὅλον γέγονεν ἵνα πληρωθῇ τὸ ῥηθὲν ὑπὸ τοῦ Κυρίου διὰ τοῦ προφήτου λέγοντος,
 Holy-Bible---Greek---Text-Critical	7989	ἵ	1f35	Greek Extended 	832	MAT	001	022	τοῦτο δὲ ὅλον γέγονεν ἵνα πληρωθῇ τὸ ῥηθὲν ὑπὸ τοῦ Κυρίου διὰ τοῦ προφήτου λέγοντος,
 Holy-Bible---Greek---Text-Critical	8165	ῥ	1fe5	Greek Extended 	184	MAT	001	022	τοῦτο δὲ ὅλον γέγονεν ἵνα πληρωθῇ τὸ ῥηθὲν ὑπὸ τοῦ Κυρίου διὰ τοῦ προφήτου λέγοντος,
-Holy-Bible---Greek---Text-Critical	40	(	28	Basic Latin 	100	MAT	001	023	Ἰδού, ἡ παρθένος ἐν γαστρὶ ἕξει καὶ τέξεται υἱόν, καὶ καλέσουσι τὸ ὄνομα αὐτοῦ Ἐμμανουήλ (ὅ ἐστι μεθερμηνευόμενον, Μεθ᾽ ἡμῶν ὁ Θεός).
-Holy-Bible---Greek---Text-Critical	41	)	29	Basic Latin 	100	MAT	001	023	Ἰδού, ἡ παρθένος ἐν γαστρὶ ἕξει καὶ τέξεται υἱόν, καὶ καλέσουσι τὸ ὄνομα αὐτοῦ Ἐμμανουήλ (ὅ ἐστι μεθερμηνευόμενον, Μεθ᾽ ἡμῶν ὁ Θεός).
+Holy-Bible---Greek---Text-Critical	40	(	28	Basic Latin 	104	MAT	001	023	Ἰδού, ἡ παρθένος ἐν γαστρὶ ἕξει καὶ τέξεται υἱόν, καὶ καλέσουσι τὸ ὄνομα αὐτοῦ Ἐμμανουήλ (ὅ ἐστι μεθερμηνευόμενον, Μεθ᾽ ἡμῶν ὁ Θεός).
+Holy-Bible---Greek---Text-Critical	41	)	29	Basic Latin 	104	MAT	001	023	Ἰδού, ἡ παρθένος ἐν γαστρὶ ἕξει καὶ τέξεται υἱόν, καὶ καλέσουσι τὸ ὄνομα αὐτοῦ Ἐμμανουήλ (ὅ ἐστι μεθερμηνευόμενον, Μεθ᾽ ἡμῶν ὁ Θεός).
 Holy-Bible---Greek---Text-Critical	8033	ὡ	1f61	Greek Extended 	541	MAT	001	024	διεγερθεὶς δὲ ὁ Ἰωσὴφ ἀπὸ τοῦ ὕπνου ἐποίησεν ὡς προσέταξεν αὐτῷ ὁ ἄγγελος Κυρίου καὶ παρέλαβε τὴν γυναῖκα αὐτοῦ,
 Holy-Bible---Greek---Text-Critical	8023	ὗ	1f57	Greek Extended 	465	MAT	001	025	καὶ οὐκ ἐγίνωσκεν αὐτὴν ἕως οὗ ἔτεκε τὸν υἱὸν αὐτῆς τὸν πρωτότοκον· καὶ ἐκάλεσε τὸ ὄνομα αὐτοῦ Ἰησοῦν.
 Holy-Bible---Greek---Text-Critical	7977	Ἡ	1f29	Greek Extended 	119	MAT	002	001	Τοῦ δὲ Ἰησοῦ γεννηθέντος ἐν Βηθλεὲμ τῆς Ἰουδαίας ἐν ἡμέραις Ἡρῴδου τοῦ βασιλέως, ἰδού, μάγοι ἀπὸ ἀνατολῶν παρεγένοντο εἰς Ἱεροσόλυμα
@@ -40903,7 +40903,7 @@ Holy-Bible---Greek---Text-Critical	8096	ᾠ	1fa0	Greek Extended 	17	MAT	007	024	
 Holy-Bible---Greek---Text-Critical	7964	Ἔ	1f1c	Greek Extended 	110	MAT	008	009	καὶ γὰρ ἐγὼ ἄνθρωπός εἰμι ὑπὸ ἐξουσίαν, ἔχων ὑπ᾽ ἐμαυτὸν στρατιώτας, καὶ λέγω τούτῳ, Πορεύθητι, καὶ πορεύεται· καὶ ἄλλῳ, Ἔρχου, καὶ ἔρχεται· καὶ τῷ δούλῳ μου, Ποίησον τοῦτο, καὶ ποιεῖ.
 Holy-Bible---Greek---Text-Critical	7991	ἷ	1f37	Greek Extended 	215	MAT	008	019	καὶ προσελθὼν εἷς γραμματεὺς εἶπεν αὐτῷ, Διδάσκαλε, ἀκολουθήσω σοι ὅπου ἐὰν ἀπέρχῃ.
 Holy-Bible---Greek---Text-Critical	7997	Ἵ	1f3d	Greek Extended 	4	MAT	009	004	καὶ ἰδὼν ὁ Ἰησοῦς τὰς ἐνθυμήσεις αὐτῶν εἶπεν, Ἵνα τί ὑμεῖς ἐνθυμεῖσθε πονηρὰ ἐν ταῖς καρδίαις ὑμῶν;
-Holy-Bible---Greek---Text-Critical	8212	—	2014	General Punctuation 	105	MAT	009	006	ἵνα δὲ εἰδῆτε ὅτι ἐξουσίαν ἔχει ὁ υἱὸς τοῦ ἀνθρώπου ἐπὶ τῆς γῆς ἀφιέναι ἁμαρτίας—τότε λέγει τῷ παραλυτικῷ—Ἐγερθεὶς ἆρόν σου τὴν κλίνην καὶ ὕπαγε εἰς τὸν οἶκόν σου.
+Holy-Bible---Greek---Text-Critical	8212	—	2014	General Punctuation 	106	MAT	009	006	ἵνα δὲ εἰδῆτε ὅτι ἐξουσίαν ἔχει ὁ υἱὸς τοῦ ἀνθρώπου ἐπὶ τῆς γῆς ἀφιέναι ἁμαρτίας—τότε λέγει τῷ παραλυτικῷ—Ἐγερθεὶς ἆρόν σου τὴν κλίνην καὶ ὕπαγε εἰς τὸν οἶκόν σου.
 Holy-Bible---Greek---Text-Critical	7942	ἆ	1f06	Greek Extended 	16	MAT	009	006	ἵνα δὲ εἰδῆτε ὅτι ἐξουσίαν ἔχει ὁ υἱὸς τοῦ ἀνθρώπου ἐπὶ τῆς γῆς ἀφιέναι ἁμαρτίας—τότε λέγει τῷ παραλυτικῷ—Ἐγερθεὶς ἆρόν σου τὴν κλίνην καὶ ὕπαγε εἰς τὸν οἶκόν σου.
 Holy-Bible---Greek---Text-Critical	923	Λ	39b	Greek and Coptic 	120	MAT	010	003	Φίλιππος καὶ Βαρθολομαῖος, Θωμᾶς καὶ Ματθαῖος ὁ τελώνης, Ἰάκωβος ὁ τοῦ Ἀλφαίου καὶ Λεββαῖος ὁ ἐπικληθεὶς Θαδδαῖος,
 Holy-Bible---Greek---Text-Critical	7980	Ἤ	1f2c	Greek Extended 	14	MAT	010	007	πορευόμενοι δὲ κηρύσσετε λέγοντες ὅτι Ἤγγικεν ἡ βασιλεία τῶν οὐρανῶν.
@@ -73265,7 +73265,7 @@ Holy-Bible---Portuguese---World-Portuguese-Bible	97	a	61	Basic Latin 	352804	GEN
 Holy-Bible---Portuguese---World-Portuguese-Bible	115	s	73	Basic Latin 	273888	GEN	001	002	A terra era sem forma e vazia. As trevas estavam sobre a superfície do abismo e o Espírito de Deus pairava sobre a superfície das águas.
 Holy-Bible---Portuguese---World-Portuguese-Bible	109	m	6d	Basic Latin 	139933	GEN	001	002	A terra era sem forma e vazia. As trevas estavam sobre a superfície do abismo e o Espírito de Deus pairava sobre a superfície das águas.
 Holy-Bible---Portuguese---World-Portuguese-Bible	102	f	66	Basic Latin 	31983	GEN	001	002	A terra era sem forma e vazia. As trevas estavam sobre a superfície do abismo e o Espírito de Deus pairava sobre a superfície das águas.
-Holy-Bible---Portuguese---World-Portuguese-Bible	111	o	6f	Basic Latin 	334306	GEN	001	002	A terra era sem forma e vazia. As trevas estavam sobre a superfície do abismo e o Espírito de Deus pairava sobre a superfície das águas.
+Holy-Bible---Portuguese---World-Portuguese-Bible	111	o	6f	Basic Latin 	334305	GEN	001	002	A terra era sem forma e vazia. As trevas estavam sobre a superfície do abismo e o Espírito de Deus pairava sobre a superfície das águas.
 Holy-Bible---Portuguese---World-Portuguese-Bible	118	v	76	Basic Latin 	49191	GEN	001	002	A terra era sem forma e vazia. As trevas estavam sobre a superfície do abismo e o Espírito de Deus pairava sobre a superfície das águas.
 Holy-Bible---Portuguese---World-Portuguese-Bible	122	z	7a	Basic Latin 	12751	GEN	001	002	A terra era sem forma e vazia. As trevas estavam sobre a superfície do abismo e o Espírito de Deus pairava sobre a superfície das águas.
 Holy-Bible---Portuguese---World-Portuguese-Bible	105	i	69	Basic Latin 	155192	GEN	001	002	A terra era sem forma e vazia. As trevas estavam sobre a superfície do abismo e o Espírito de Deus pairava sobre a superfície das águas.
@@ -74029,11 +74029,11 @@ Holy-Bible---Romani-Vlax---Arli-Luke	79	O	4f	Basic Latin 	256	LUK	001	002	On pis
 Holy-Bible---Romani-Vlax---Arli-Luke	110	n	6e	Basic Latin 	7648	LUK	001	002	On pisinde ađahar sar so vaćerde amenđe okola kola taro anglunipe dikhle adala događaja hem kola inele sluge zako e Devlesoro lafi.
 Holy-Bible---Romani-Vlax---Arli-Luke	32	 	20	Basic Latin 	23041	LUK	001	002	On pisinde ađahar sar so vaćerde amenđe okola kola taro anglunipe dikhle adala događaja hem kola inele sluge zako e Devlesoro lafi.
 Holy-Bible---Romani-Vlax---Arli-Luke	112	p	70	Basic Latin 	2442	LUK	001	002	On pisinde ađahar sar so vaćerde amenđe okola kola taro anglunipe dikhle adala događaja hem kola inele sluge zako e Devlesoro lafi.
-Holy-Bible---Romani-Vlax---Arli-Luke	105	i	69	Basic Latin 	6728	LUK	001	002	On pisinde ađahar sar so vaćerde amenđe okola kola taro anglunipe dikhle adala događaja hem kola inele sluge zako e Devlesoro lafi.
+Holy-Bible---Romani-Vlax---Arli-Luke	105	i	69	Basic Latin 	6729	LUK	001	002	On pisinde ađahar sar so vaćerde amenđe okola kola taro anglunipe dikhle adala događaja hem kola inele sluge zako e Devlesoro lafi.
 Holy-Bible---Romani-Vlax---Arli-Luke	115	s	73	Basic Latin 	4493	LUK	001	002	On pisinde ađahar sar so vaćerde amenđe okola kola taro anglunipe dikhle adala događaja hem kola inele sluge zako e Devlesoro lafi.
 Holy-Bible---Romani-Vlax---Arli-Luke	100	d	64	Basic Latin 	3631	LUK	001	002	On pisinde ađahar sar so vaćerde amenđe okola kola taro anglunipe dikhle adala događaja hem kola inele sluge zako e Devlesoro lafi.
-Holy-Bible---Romani-Vlax---Arli-Luke	101	e	65	Basic Latin 	14374	LUK	001	002	On pisinde ađahar sar so vaćerde amenđe okola kola taro anglunipe dikhle adala događaja hem kola inele sluge zako e Devlesoro lafi.
-Holy-Bible---Romani-Vlax---Arli-Luke	97	a	61	Basic Latin 	14961	LUK	001	002	On pisinde ađahar sar so vaćerde amenđe okola kola taro anglunipe dikhle adala događaja hem kola inele sluge zako e Devlesoro lafi.
+Holy-Bible---Romani-Vlax---Arli-Luke	101	e	65	Basic Latin 	14372	LUK	001	002	On pisinde ađahar sar so vaćerde amenđe okola kola taro anglunipe dikhle adala događaja hem kola inele sluge zako e Devlesoro lafi.
+Holy-Bible---Romani-Vlax---Arli-Luke	97	a	61	Basic Latin 	14962	LUK	001	002	On pisinde ađahar sar so vaćerde amenđe okola kola taro anglunipe dikhle adala događaja hem kola inele sluge zako e Devlesoro lafi.
 Holy-Bible---Romani-Vlax---Arli-Luke	273	đ	111	Latin Extended-A 	1534	LUK	001	002	On pisinde ađahar sar so vaćerde amenđe okola kola taro anglunipe dikhle adala događaja hem kola inele sluge zako e Devlesoro lafi.
 Holy-Bible---Romani-Vlax---Arli-Luke	104	h	68	Basic Latin 	2772	LUK	001	002	On pisinde ađahar sar so vaćerde amenđe okola kola taro anglunipe dikhle adala događaja hem kola inele sluge zako e Devlesoro lafi.
 Holy-Bible---Romani-Vlax---Arli-Luke	114	r	72	Basic Latin 	5495	LUK	001	002	On pisinde ađahar sar so vaćerde amenđe okola kola taro anglunipe dikhle adala događaja hem kola inele sluge zako e Devlesoro lafi.
@@ -80693,70 +80693,70 @@ Holy-Bible---Telugu---Telugu-Open-Contemporary	8211	–	2013	General Punctuation
 Holy-Bible---Telugu---Telugu-Open-Contemporary	3140	ౄ	c44	Telugu 	2	PRO	012	010	నీతిమంతులు తన పశువులను జాగ్రత్తగా చూసుకుంటారు, కానీ దుష్టులు చేసే అత్యంత జాలిగల పనులు కౄరంగా ఉంటాయి.
 Holy-Bible---Telugu---Telugu-Open-Contemporary	3097	ఙ	c19	Telugu 	3	JOH	006	023	ప్రభువు కృతఙ్ఞతలు చెల్లించిన తర్వాత వారు రొట్టెలు తిన్న ప్రాంతానికి కొన్ని చిన్న పడవలు తిబెరియ నుండి వచ్చాయి.
 Holy-Bible---Telugu---Telugu-Open-Contemporary	3101	ఝ	c1d	Telugu 	1	EPH	004	002	ప్రేమలో ఒకరిని ఒకరు సహించుకుంటూ పూర్ణ వినయంతో సాత్వికంతో, దీర్ఝశాంతంతో ఉండండి.
-Holy-Bible---Thai---Thai-Freedom-Bible	3649	แ	e41	Thai 	44851	GEN	001	002	แผ่นดิน​ยัง​ไร้​รูปร่าง​และ​ว่างเปล่า ความ​มืด​ปกคลุม​ผิว​ห้วงน้ำ​ลึก และ​พระวิญญาณ​ของ​พระเจ้า​ลอย​อยู่​เหนือ​ผิว​น้ำ
-Holy-Bible---Thai---Thai-Freedom-Bible	3612	ผ	e1c	Thai 	16448	GEN	001	002	แผ่นดิน​ยัง​ไร้​รูปร่าง​และ​ว่างเปล่า ความ​มืด​ปกคลุม​ผิว​ห้วงน้ำ​ลึก และ​พระวิญญาณ​ของ​พระเจ้า​ลอย​อยู่​เหนือ​ผิว​น้ำ
-Holy-Bible---Thai---Thai-Freedom-Bible	3656	่	e48	Thai 	125518	GEN	001	002	แผ่นดิน​ยัง​ไร้​รูปร่าง​และ​ว่างเปล่า ความ​มืด​ปกคลุม​ผิว​ห้วงน้ำ​ลึก และ​พระวิญญาณ​ของ​พระเจ้า​ลอย​อยู่​เหนือ​ผิว​น้ำ
-Holy-Bible---Thai---Thai-Freedom-Bible	3609	น	e19	Thai 	147328	GEN	001	002	แผ่นดิน​ยัง​ไร้​รูปร่าง​และ​ว่างเปล่า ความ​มืด​ปกคลุม​ผิว​ห้วงน้ำ​ลึก และ​พระวิญญาณ​ของ​พระเจ้า​ลอย​อยู่​เหนือ​ผิว​น้ำ
-Holy-Bible---Thai---Thai-Freedom-Bible	3604	ด	e14	Thai 	55135	GEN	001	002	แผ่นดิน​ยัง​ไร้​รูปร่าง​และ​ว่างเปล่า ความ​มืด​ปกคลุม​ผิว​ห้วงน้ำ​ลึก และ​พระวิญญาณ​ของ​พระเจ้า​ลอย​อยู่​เหนือ​ผิว​น้ำ
-Holy-Bible---Thai---Thai-Freedom-Bible	3636	ิ	e34	Thai 	51225	GEN	001	002	แผ่นดิน​ยัง​ไร้​รูปร่าง​และ​ว่างเปล่า ความ​มืด​ปกคลุม​ผิว​ห้วงน้ำ​ลึก และ​พระวิญญาณ​ของ​พระเจ้า​ลอย​อยู่​เหนือ​ผิว​น้ำ
-Holy-Bible---Thai---Thai-Freedom-Bible	8203	​	200b	General Punctuation 	515868	GEN	001	002	แผ่นดิน​ยัง​ไร้​รูปร่าง​และ​ว่างเปล่า ความ​มืด​ปกคลุม​ผิว​ห้วงน้ำ​ลึก และ​พระวิญญาณ​ของ​พระเจ้า​ลอย​อยู่​เหนือ​ผิว​น้ำ
-Holy-Bible---Thai---Thai-Freedom-Bible	3618	ย	e22	Thai 	75167	GEN	001	002	แผ่นดิน​ยัง​ไร้​รูปร่าง​และ​ว่างเปล่า ความ​มืด​ปกคลุม​ผิว​ห้วงน้ำ​ลึก และ​พระวิญญาณ​ของ​พระเจ้า​ลอย​อยู่​เหนือ​ผิว​น้ำ
-Holy-Bible---Thai---Thai-Freedom-Bible	3633	ั	e31	Thai 	79952	GEN	001	002	แผ่นดิน​ยัง​ไร้​รูปร่าง​และ​ว่างเปล่า ความ​มืด​ปกคลุม​ผิว​ห้วงน้ำ​ลึก และ​พระวิญญาณ​ของ​พระเจ้า​ลอย​อยู่​เหนือ​ผิว​น้ำ
-Holy-Bible---Thai---Thai-Freedom-Bible	3591	ง	e07	Thai 	117502	GEN	001	002	แผ่นดิน​ยัง​ไร้​รูปร่าง​และ​ว่างเปล่า ความ​มืด​ปกคลุม​ผิว​ห้วงน้ำ​ลึก และ​พระวิญญาณ​ของ​พระเจ้า​ลอย​อยู่​เหนือ​ผิว​น้ำ
-Holy-Bible---Thai---Thai-Freedom-Bible	3652	ไ	e44	Thai 	32521	GEN	001	002	แผ่นดิน​ยัง​ไร้​รูปร่าง​และ​ว่างเปล่า ความ​มืด​ปกคลุม​ผิว​ห้วงน้ำ​ลึก และ​พระวิญญาณ​ของ​พระเจ้า​ลอย​อยู่​เหนือ​ผิว​น้ำ
-Holy-Bible---Thai---Thai-Freedom-Bible	3619	ร	e23	Thai 	124803	GEN	001	002	แผ่นดิน​ยัง​ไร้​รูปร่าง​และ​ว่างเปล่า ความ​มืด​ปกคลุม​ผิว​ห้วงน้ำ​ลึก และ​พระวิญญาณ​ของ​พระเจ้า​ลอย​อยู่​เหนือ​ผิว​น้ำ
-Holy-Bible---Thai---Thai-Freedom-Bible	3657	้	e49	Thai 	112425	GEN	001	002	แผ่นดิน​ยัง​ไร้​รูปร่าง​และ​ว่างเปล่า ความ​มืด​ปกคลุม​ผิว​ห้วงน้ำ​ลึก และ​พระวิญญาณ​ของ​พระเจ้า​ลอย​อยู่​เหนือ​ผิว​น้ำ
-Holy-Bible---Thai---Thai-Freedom-Bible	3641	ู	e39	Thai 	36609	GEN	001	002	แผ่นดิน​ยัง​ไร้​รูปร่าง​และ​ว่างเปล่า ความ​มืด​ปกคลุม​ผิว​ห้วงน้ำ​ลึก และ​พระวิญญาณ​ของ​พระเจ้า​ลอย​อยู่​เหนือ​ผิว​น้ำ
-Holy-Bible---Thai---Thai-Freedom-Bible	3611	ป	e1b	Thai 	34388	GEN	001	002	แผ่นดิน​ยัง​ไร้​รูปร่าง​และ​ว่างเปล่า ความ​มืด​ปกคลุม​ผิว​ห้วงน้ำ​ลึก และ​พระวิญญาณ​ของ​พระเจ้า​ลอย​อยู่​เหนือ​ผิว​น้ำ
-Holy-Bible---Thai---Thai-Freedom-Bible	3634	า	e32	Thai 	212604	GEN	001	002	แผ่นดิน​ยัง​ไร้​รูปร่าง​และ​ว่างเปล่า ความ​มืด​ปกคลุม​ผิว​ห้วงน้ำ​ลึก และ​พระวิญญาณ​ของ​พระเจ้า​ลอย​อยู่​เหนือ​ผิว​น้ำ
-Holy-Bible---Thai---Thai-Freedom-Bible	3621	ล	e25	Thai 	70490	GEN	001	002	แผ่นดิน​ยัง​ไร้​รูปร่าง​และ​ว่างเปล่า ความ​มืด​ปกคลุม​ผิว​ห้วงน้ำ​ลึก และ​พระวิญญาณ​ของ​พระเจ้า​ลอย​อยู่​เหนือ​ผิว​น้ำ
-Holy-Bible---Thai---Thai-Freedom-Bible	3632	ะ	e30	Thai 	71791	GEN	001	002	แผ่นดิน​ยัง​ไร้​รูปร่าง​และ​ว่างเปล่า ความ​มืด​ปกคลุม​ผิว​ห้วงน้ำ​ลึก และ​พระวิญญาณ​ของ​พระเจ้า​ลอย​อยู่​เหนือ​ผิว​น้ำ
-Holy-Bible---Thai---Thai-Freedom-Bible	3623	ว	e27	Thai 	90130	GEN	001	002	แผ่นดิน​ยัง​ไร้​รูปร่าง​และ​ว่างเปล่า ความ​มืด​ปกคลุม​ผิว​ห้วงน้ำ​ลึก และ​พระวิญญาณ​ของ​พระเจ้า​ลอย​อยู่​เหนือ​ผิว​น้ำ
-Holy-Bible---Thai---Thai-Freedom-Bible	3648	เ	e40	Thai 	134970	GEN	001	002	แผ่นดิน​ยัง​ไร้​รูปร่าง​และ​ว่างเปล่า ความ​มืด​ปกคลุม​ผิว​ห้วงน้ำ​ลึก และ​พระวิญญาณ​ของ​พระเจ้า​ลอย​อยู่​เหนือ​ผิว​น้ำ
-Holy-Bible---Thai---Thai-Freedom-Bible	32	 	20	Basic Latin 	75560	GEN	001	002	แผ่นดิน​ยัง​ไร้​รูปร่าง​และ​ว่างเปล่า ความ​มืด​ปกคลุม​ผิว​ห้วงน้ำ​ลึก และ​พระวิญญาณ​ของ​พระเจ้า​ลอย​อยู่​เหนือ​ผิว​น้ำ
-Holy-Bible---Thai---Thai-Freedom-Bible	3588	ค	e04	Thai 	55203	GEN	001	002	แผ่นดิน​ยัง​ไร้​รูปร่าง​และ​ว่างเปล่า ความ​มืด​ปกคลุม​ผิว​ห้วงน้ำ​ลึก และ​พระวิญญาณ​ของ​พระเจ้า​ลอย​อยู่​เหนือ​ผิว​น้ำ
-Holy-Bible---Thai---Thai-Freedom-Bible	3617	ม	e21	Thai 	83611	GEN	001	002	แผ่นดิน​ยัง​ไร้​รูปร่าง​และ​ว่างเปล่า ความ​มืด​ปกคลุม​ผิว​ห้วงน้ำ​ลึก และ​พระวิญญาณ​ของ​พระเจ้า​ลอย​อยู่​เหนือ​ผิว​น้ำ
-Holy-Bible---Thai---Thai-Freedom-Bible	3639	ื	e37	Thai 	29827	GEN	001	002	แผ่นดิน​ยัง​ไร้​รูปร่าง​และ​ว่างเปล่า ความ​มืด​ปกคลุม​ผิว​ห้วงน้ำ​ลึก และ​พระวิญญาณ​ของ​พระเจ้า​ลอย​อยู่​เหนือ​ผิว​น้ำ
-Holy-Bible---Thai---Thai-Freedom-Bible	3585	ก	e01	Thai 	100896	GEN	001	002	แผ่นดิน​ยัง​ไร้​รูปร่าง​และ​ว่างเปล่า ความ​มืด​ปกคลุม​ผิว​ห้วงน้ำ​ลึก และ​พระวิญญาณ​ของ​พระเจ้า​ลอย​อยู่​เหนือ​ผิว​น้ำ
-Holy-Bible---Thai---Thai-Freedom-Bible	3640	ุ	e38	Thai 	23633	GEN	001	002	แผ่นดิน​ยัง​ไร้​รูปร่าง​และ​ว่างเปล่า ความ​มืด​ปกคลุม​ผิว​ห้วงน้ำ​ลึก และ​พระวิญญาณ​ของ​พระเจ้า​ลอย​อยู่​เหนือ​ผิว​น้ำ
-Holy-Bible---Thai---Thai-Freedom-Bible	3627	ห	e2b	Thai 	69051	GEN	001	002	แผ่นดิน​ยัง​ไร้​รูปร่าง​และ​ว่างเปล่า ความ​มืด​ปกคลุม​ผิว​ห้วงน้ำ​ลึก และ​พระวิญญาณ​ของ​พระเจ้า​ลอย​อยู่​เหนือ​ผิว​น้ำ
-Holy-Bible---Thai---Thai-Freedom-Bible	3635	ำ	e33	Thai 	20237	GEN	001	002	แผ่นดิน​ยัง​ไร้​รูปร่าง​และ​ว่างเปล่า ความ​มืด​ปกคลุม​ผิว​ห้วงน้ำ​ลึก และ​พระวิญญาณ​ของ​พระเจ้า​ลอย​อยู่​เหนือ​ผิว​น้ำ
-Holy-Bible---Thai---Thai-Freedom-Bible	3638	ึ	e36	Thai 	13314	GEN	001	002	แผ่นดิน​ยัง​ไร้​รูปร่าง​และ​ว่างเปล่า ความ​มืด​ปกคลุม​ผิว​ห้วงน้ำ​ลึก และ​พระวิญญาณ​ของ​พระเจ้า​ลอย​อยู่​เหนือ​ผิว​น้ำ
-Holy-Bible---Thai---Thai-Freedom-Bible	3614	พ	e1e	Thai 	65916	GEN	001	002	แผ่นดิน​ยัง​ไร้​รูปร่าง​และ​ว่างเปล่า ความ​มืด​ปกคลุม​ผิว​ห้วงน้ำ​ลึก และ​พระวิญญาณ​ของ​พระเจ้า​ลอย​อยู่​เหนือ​ผิว​น้ำ
-Holy-Bible---Thai---Thai-Freedom-Bible	3597	ญ	e0d	Thai 	8028	GEN	001	002	แผ่นดิน​ยัง​ไร้​รูปร่าง​และ​ว่างเปล่า ความ​มืด​ปกคลุม​ผิว​ห้วงน้ำ​ลึก และ​พระวิญญาณ​ของ​พระเจ้า​ลอย​อยู่​เหนือ​ผิว​น้ำ
-Holy-Bible---Thai---Thai-Freedom-Bible	3603	ณ	e13	Thai 	7533	GEN	001	002	แผ่นดิน​ยัง​ไร้​รูปร่าง​และ​ว่างเปล่า ความ​มืด​ปกคลุม​ผิว​ห้วงน้ำ​ลึก และ​พระวิญญาณ​ของ​พระเจ้า​ลอย​อยู่​เหนือ​ผิว​น้ำ
-Holy-Bible---Thai---Thai-Freedom-Bible	3586	ข	e02	Thai 	56972	GEN	001	002	แผ่นดิน​ยัง​ไร้​รูปร่าง​และ​ว่างเปล่า ความ​มืด​ปกคลุม​ผิว​ห้วงน้ำ​ลึก และ​พระวิญญาณ​ของ​พระเจ้า​ลอย​อยู่​เหนือ​ผิว​น้ำ
-Holy-Bible---Thai---Thai-Freedom-Bible	3629	อ	e2d	Thai 	136734	GEN	001	002	แผ่นดิน​ยัง​ไร้​รูปร่าง​และ​ว่างเปล่า ความ​มืด​ปกคลุม​ผิว​ห้วงน้ำ​ลึก และ​พระวิญญาณ​ของ​พระเจ้า​ลอย​อยู่​เหนือ​ผิว​น้ำ
-Holy-Bible---Thai---Thai-Freedom-Bible	3592	จ	e08	Thai 	49339	GEN	001	002	แผ่นดิน​ยัง​ไร้​รูปร่าง​และ​ว่างเปล่า ความ​มืด​ปกคลุม​ผิว​ห้วงน้ำ​ลึก และ​พระวิญญาณ​ของ​พระเจ้า​ลอย​อยู่​เหนือ​ผิว​น้ำ
-Holy-Bible---Thai---Thai-Freedom-Bible	8220	“	201c	General Punctuation 	6802	GEN	001	003	พระเจ้า​กล่าว​ว่า “ให้​มี​ความ​สว่าง” แล้ว​ความ​สว่าง​ก็​เกิด​ขึ้น
-Holy-Bible---Thai---Thai-Freedom-Bible	3651	ใ	e43	Thai 	30648	GEN	001	003	พระเจ้า​กล่าว​ว่า “ให้​มี​ความ​สว่าง” แล้ว​ความ​สว่าง​ก็​เกิด​ขึ้น
-Holy-Bible---Thai---Thai-Freedom-Bible	3637	ี	e35	Thai 	57203	GEN	001	003	พระเจ้า​กล่าว​ว่า “ให้​มี​ความ​สว่าง” แล้ว​ความ​สว่าง​ก็​เกิด​ขึ้น
-Holy-Bible---Thai---Thai-Freedom-Bible	3626	ส	e2a	Thai 	41793	GEN	001	003	พระเจ้า​กล่าว​ว่า “ให้​มี​ความ​สว่าง” แล้ว​ความ​สว่าง​ก็​เกิด​ขึ้น
-Holy-Bible---Thai---Thai-Freedom-Bible	8221	”	201d	General Punctuation 	5764	GEN	001	003	พระเจ้า​กล่าว​ว่า “ให้​มี​ความ​สว่าง” แล้ว​ความ​สว่าง​ก็​เกิด​ขึ้น
-Holy-Bible---Thai---Thai-Freedom-Bible	3655	็	e47	Thai 	20269	GEN	001	003	พระเจ้า​กล่าว​ว่า “ให้​มี​ความ​สว่าง” แล้ว​ความ​สว่าง​ก็​เกิด​ขึ้น
-Holy-Bible---Thai---Thai-Freedom-Bible	3594	ช	e0a	Thai 	30112	GEN	001	005	พระเจ้า​เรียก​ความ​สว่าง​ว่า “กลางวัน” และ​เรียก​ความ​มืด​ว่า “กลางคืน” ค่ำ​ลง แล้ว​เช้า​ก็​มา​ถึง นับ​เป็น​วัน​แรก
-Holy-Bible---Thai---Thai-Freedom-Bible	3606	ถ	e16	Thai 	12507	GEN	001	005	พระเจ้า​เรียก​ความ​สว่าง​ว่า “กลางวัน” และ​เรียก​ความ​มืด​ว่า “กลางคืน” ค่ำ​ลง แล้ว​เช้า​ก็​มา​ถึง นับ​เป็น​วัน​แรก
-Holy-Bible---Thai---Thai-Freedom-Bible	3610	บ	e1a	Thai 	50285	GEN	001	005	พระเจ้า​เรียก​ความ​สว่าง​ว่า “กลางวัน” และ​เรียก​ความ​มืด​ว่า “กลางคืน” ค่ำ​ลง แล้ว​เช้า​ก็​มา​ถึง นับ​เป็น​วัน​แรก
-Holy-Bible---Thai---Thai-Freedom-Bible	3615	ฟ	e1f	Thai 	5011	GEN	001	006	พระเจ้า​กล่าว​ว่า “ให้​มี​ผืน​ฟ้า​อยู่​กลาง​น้ำ เพื่อ​แยก​น้ำ​ออก​จาก​กัน”
-Holy-Bible---Thai---Thai-Freedom-Bible	3607	ท	e17	Thai 	56763	GEN	001	007	พระเจ้า​ทำ​ผืน​ฟ้า​ขึ้น และ​แยก​น้ำ​ที่​อยู่​ใต้​ผืน​ฟ้า​ออก​จาก​น้ำ​ที่​อยู่​เหนือ​ผืน​ฟ้า แล้ว​ก็​เป็น​เช่น​นั้น
-Holy-Bible---Thai---Thai-Freedom-Bible	3605	ต	e15	Thai 	50999	GEN	001	007	พระเจ้า​ทำ​ผืน​ฟ้า​ขึ้น และ​แยก​น้ำ​ที่​อยู่​ใต้​ผืน​ฟ้า​ออก​จาก​น้ำ​ที่​อยู่​เหนือ​ผืน​ฟ้า แล้ว​ก็​เป็น​เช่น​นั้น
-Holy-Bible---Thai---Thai-Freedom-Bible	3599	ฏ	e0f	Thai 	707	GEN	001	009	พระเจ้า​กล่าว​ว่า “ให้​น้ำ​ที่​อยู่​ใต้​ท้องฟ้า​มา​รวม​กัน​ใน​ที่​เดียว และ​ให้​พื้น​ดิน​แห้ง​ปรากฏ​ขึ้น” แล้ว​ก็​เป็น​เช่น​นั้น
-Holy-Bible---Thai---Thai-Freedom-Bible	3620	ฤ	e24	Thai 	386	GEN	001	014	พระเจ้า​กล่าว​ว่า “ให้​มีด​วง​สว่าง​อยู่​บน​ผืน​ท้องฟ้า​เพื่อ​แยก​กลางวัน​ออก​จาก​กลางคืน ให้​ดวง​เหล่า​นั้น​เป็น​เครื่องหมาย​บอก​ฤดูกาล วัน และ​ปี
-Holy-Bible---Thai---Thai-Freedom-Bible	3660	์	e4c	Thai 	39677	GEN	001	021	พระเจ้า​สร้าง​สัตว์​ทะเล​ขนาด​ใหญ่ สัตว์​ที่​เคลื่อนไหว​อยู่​ใน​น้ำ​ทุก​ชนิด​ตาม​ชนิด​ของ​มัน และ​นก​มี​ปีก​ทุก​ชนิด​ตาม​ชนิด​ของ​มัน น้ำ​ก็​เต็ม​ไป​ด้วย​สิ่ง​มี​ชีวิต​เหล่า​นั้น พระเจ้า​เห็น​ว่า​ดี
-Holy-Bible---Thai---Thai-Freedom-Bible	3624	ศ	e28	Thai 	5629	GEN	001	024	พระเจ้า​กล่าว​ว่า “ให้​แผ่นดิน​ก่อ​เกิด​สิ่ง​มี​ชีวิต​ตาม​ชนิด​ของ​มัน ทั้ง​ปศุสัตว์ สัตว์​ที่​คลาน​ไป​ตาม​พื้น และ​สัตว์​ป่า​ตาม​ชนิด​ของ​มัน” แล้ว​ก็​เป็น​เช่น​นั้น
-Holy-Bible---Thai---Thai-Freedom-Bible	3625	ษ	e29	Thai 	5833	GEN	001	026	พระเจ้า​กล่าว​ว่า “ให้​เรา​สร้าง​มนุษย์​ตาม​ภาพ​ของ​เรา ให้​มี​ลักษณะ​คล้าย​เรา แล้ว​ให้​พวก​เขา​มี​อำนาจ​เหนือ​ปลา​ใน​ทะเล นก​บน​ท้องฟ้า ปศุสัตว์ แผ่นดิน​ทั้งหมด และ​สัตว์​ทุก​ชนิด​ที่​คลาน​ไป​บน​แผ่นดิน”
-Holy-Bible---Thai---Thai-Freedom-Bible	3616	ภ	e20	Thai 	2612	GEN	001	026	พระเจ้า​กล่าว​ว่า “ให้​เรา​สร้าง​มนุษย์​ตาม​ภาพ​ของ​เรา ให้​มี​ลักษณะ​คล้าย​เรา แล้ว​ให้​พวก​เขา​มี​อำนาจ​เหนือ​ปลา​ใน​ทะเล นก​บน​ท้องฟ้า ปศุสัตว์ แผ่นดิน​ทั้งหมด และ​สัตว์​ทุก​ชนิด​ที่​คลาน​ไป​บน​แผ่นดิน”
-Holy-Bible---Thai---Thai-Freedom-Bible	3595	ซ	e0b	Thai 	8040	GEN	001	029	พระเจ้า​กล่าว​ว่า “ดู​สิ เรา​มอบ​พืช​ทุก​ชนิด​ที่​ให้​เมล็ด​ทั่ว​ทั้ง​แผ่นดิน​แก่​พวก​เจ้า และ​ต้นไม้​ทุก​ต้น​ที่​ออก​ผล​ซึ่ง​มี​เมล็ด​อยู่​ใน​ผล สิ่ง​เหล่า​นี้​จะ​เป็น​อาหาร​ของ​พวก​เจ้า
-Holy-Bible---Thai---Thai-Freedom-Bible	3608	ธ	e18	Thai 	6914	GEN	002	003	พระเจ้า​อวยพร​วัน​ที่​เจ็ด​และ​ตั้ง​วัน​นั้น​ไว้​เป็น​วัน​ศักดิ์สิทธิ์ เพราะ​เป็น​วัน​ที่​พระองค์​หยุด​พัก​จาก​งาน​สร้าง​ทั้งหมด​ที่​ได้​ทำ​ไว้
-Holy-Bible---Thai---Thai-Freedom-Bible	3613	ฝ	e1d	Thai 	2204	GEN	002	005	เวลา​นั้น​ยัง​ไม่​มี​พืช​ใน​ทุ่ง​ชนิด​ใด​ขึ้น​บน​แผ่นดิน และ​ยัง​ไม่​มี​พืชพันธุ์​ใน​ทุ่ง​งอก​ขึ้น​มา เพราะ​พระเจ้ายาห์เวห์​ยัง​ไม่​ได้​ให้​ฝน​ตก​บน​แผ่นดิน และ​ยัง​ไม่​มี​มนุษย์​เพาะปลูก​ดิน
-Holy-Bible---Thai---Thai-Freedom-Bible	3650	โ	e42	Thai 	17416	GEN	002	011	แม่น้ำ​สาย​แรก​ชื่อ​พิโชน ไหล​ผ่าน​ทั่ว​ดินแดน​ฮาวิลาห์ ที่​นั่น​มี​ทองคำ
-Holy-Bible---Thai---Thai-Freedom-Bible	3630	ฮ	e2e	Thai 	2749	GEN	002	011	แม่น้ำ​สาย​แรก​ชื่อ​พิโชน ไหล​ผ่าน​ทั่ว​ดินแดน​ฮาวิลาห์ ที่​นั่น​มี​ทองคำ
-Holy-Bible---Thai---Thai-Freedom-Bible	3593	ฉ	e09	Thai 	3587	GEN	002	023	ชาย​คน​นั้น​กล่าว​ว่า “นี่แหละ กระดูก​จาก​กระดูก​ของ​ฉัน และ​เนื้อ​จาก​เนื้อ​ของ​ฉัน เธอ​จะ​ได้​ชื่อ​ว่า ‘หญิง’ เพราะ​เธอ​มา​จาก ‘ชาย’”
-Holy-Bible---Thai---Thai-Freedom-Bible	8216	‘	2018	General Punctuation 	1643	GEN	002	023	ชาย​คน​นั้น​กล่าว​ว่า “นี่แหละ กระดูก​จาก​กระดูก​ของ​ฉัน และ​เนื้อ​จาก​เนื้อ​ของ​ฉัน เธอ​จะ​ได้​ชื่อ​ว่า ‘หญิง’ เพราะ​เธอ​มา​จาก ‘ชาย’”
-Holy-Bible---Thai---Thai-Freedom-Bible	8217	’	2019	General Punctuation 	1397	GEN	002	023	ชาย​คน​นั้น​กล่าว​ว่า “นี่แหละ กระดูก​จาก​กระดูก​ของ​ฉัน และ​เนื้อ​จาก​เนื้อ​ของ​ฉัน เธอ​จะ​ได้​ชื่อ​ว่า ‘หญิง’ เพราะ​เธอ​มา​จาก ‘ชาย’”
-Holy-Bible---Thai---Thai-Freedom-Bible	63	?	3f	Basic Latin 	2613	GEN	003	001	งู​มี​เล่ห์เหลี่ยม​กว่า​สัตว์​ใน​ทุ่ง​ทุก​ชนิด​ที่​พระเจ้ายาห์เวห์​ทำ​ไว้ มัน​ถาม​หญิง​คน​นั้น​ว่า “พระเจ้า​พูด​จริง​หรือ​ว่า ‘ห้าม​พวก​เจ้า​กิน​ผล​จาก​ต้นไม้​ทุก​ต้น​ใน​สวน’?”
-Holy-Bible---Thai---Thai-Freedom-Bible	8212	—	2014	General Punctuation 	64	GEN	003	022	พระเจ้ายาห์เวห์​กล่าว​ว่า “ดู​สิ มนุษย์​กลาย​เป็น​เหมือน​หนึ่ง​ใน​พวก​เรา​แล้ว คือ​รู้จัก​ดี​และ​ชั่ว ทีนี้ ถ้า​เขา​ยื่น​มือ​ไป​เอา​ผล​จาก​ต้นไม้​แห่ง​ชีวิต​มากินด้วย แล้ว​มี​ชีวิต​ตลอด​ไป—”
-Holy-Bible---Thai---Thai-Freedom-Bible	3590	ฆ	e06	Thai 	958	GEN	004	008	คาอิน​พูด​กับ​อาเบล​น้อง​ชาย​ว่า “ไป​ที่​ทุ่ง​กัน​เถอะ” เมื่อ​ทั้ง​สอง​อยู่​ใน​ทุ่ง คาอิน​ก็​เข้า​ทำร้าย​อาเบล​น้อง​ชาย​และ​ฆ่า​เขา
+Holy-Bible---Thai---Thai-Freedom-Bible	3649	แ	e41	Thai 	50089	GEN	001	002	แผ่นดิน​ยัง​ไร้​รูปร่าง​และ​ว่างเปล่า ความ​มืด​ปกคลุม​ผิว​ห้วงน้ำ​ลึก และ​พระวิญญาณ​ของ​พระเจ้า​ลอย​อยู่​เหนือ​ผิว​น้ำ
+Holy-Bible---Thai---Thai-Freedom-Bible	3612	ผ	e1c	Thai 	18554	GEN	001	002	แผ่นดิน​ยัง​ไร้​รูปร่าง​และ​ว่างเปล่า ความ​มืด​ปกคลุม​ผิว​ห้วงน้ำ​ลึก และ​พระวิญญาณ​ของ​พระเจ้า​ลอย​อยู่​เหนือ​ผิว​น้ำ
+Holy-Bible---Thai---Thai-Freedom-Bible	3656	่	e48	Thai 	138780	GEN	001	002	แผ่นดิน​ยัง​ไร้​รูปร่าง​และ​ว่างเปล่า ความ​มืด​ปกคลุม​ผิว​ห้วงน้ำ​ลึก และ​พระวิญญาณ​ของ​พระเจ้า​ลอย​อยู่​เหนือ​ผิว​น้ำ
+Holy-Bible---Thai---Thai-Freedom-Bible	3609	น	e19	Thai 	164706	GEN	001	002	แผ่นดิน​ยัง​ไร้​รูปร่าง​และ​ว่างเปล่า ความ​มืด​ปกคลุม​ผิว​ห้วงน้ำ​ลึก และ​พระวิญญาณ​ของ​พระเจ้า​ลอย​อยู่​เหนือ​ผิว​น้ำ
+Holy-Bible---Thai---Thai-Freedom-Bible	3604	ด	e14	Thai 	61583	GEN	001	002	แผ่นดิน​ยัง​ไร้​รูปร่าง​และ​ว่างเปล่า ความ​มืด​ปกคลุม​ผิว​ห้วงน้ำ​ลึก และ​พระวิญญาณ​ของ​พระเจ้า​ลอย​อยู่​เหนือ​ผิว​น้ำ
+Holy-Bible---Thai---Thai-Freedom-Bible	3636	ิ	e34	Thai 	57157	GEN	001	002	แผ่นดิน​ยัง​ไร้​รูปร่าง​และ​ว่างเปล่า ความ​มืด​ปกคลุม​ผิว​ห้วงน้ำ​ลึก และ​พระวิญญาณ​ของ​พระเจ้า​ลอย​อยู่​เหนือ​ผิว​น้ำ
+Holy-Bible---Thai---Thai-Freedom-Bible	8203	​	200b	General Punctuation 	589472	GEN	001	002	แผ่นดิน​ยัง​ไร้​รูปร่าง​และ​ว่างเปล่า ความ​มืด​ปกคลุม​ผิว​ห้วงน้ำ​ลึก และ​พระวิญญาณ​ของ​พระเจ้า​ลอย​อยู่​เหนือ​ผิว​น้ำ
+Holy-Bible---Thai---Thai-Freedom-Bible	3618	ย	e22	Thai 	83471	GEN	001	002	แผ่นดิน​ยัง​ไร้​รูปร่าง​และ​ว่างเปล่า ความ​มืด​ปกคลุม​ผิว​ห้วงน้ำ​ลึก และ​พระวิญญาณ​ของ​พระเจ้า​ลอย​อยู่​เหนือ​ผิว​น้ำ
+Holy-Bible---Thai---Thai-Freedom-Bible	3633	ั	e31	Thai 	88897	GEN	001	002	แผ่นดิน​ยัง​ไร้​รูปร่าง​และ​ว่างเปล่า ความ​มืด​ปกคลุม​ผิว​ห้วงน้ำ​ลึก และ​พระวิญญาณ​ของ​พระเจ้า​ลอย​อยู่​เหนือ​ผิว​น้ำ
+Holy-Bible---Thai---Thai-Freedom-Bible	3591	ง	e07	Thai 	130493	GEN	001	002	แผ่นดิน​ยัง​ไร้​รูปร่าง​และ​ว่างเปล่า ความ​มืด​ปกคลุม​ผิว​ห้วงน้ำ​ลึก และ​พระวิญญาณ​ของ​พระเจ้า​ลอย​อยู่​เหนือ​ผิว​น้ำ
+Holy-Bible---Thai---Thai-Freedom-Bible	3652	ไ	e44	Thai 	35974	GEN	001	002	แผ่นดิน​ยัง​ไร้​รูปร่าง​และ​ว่างเปล่า ความ​มืด​ปกคลุม​ผิว​ห้วงน้ำ​ลึก และ​พระวิญญาณ​ของ​พระเจ้า​ลอย​อยู่​เหนือ​ผิว​น้ำ
+Holy-Bible---Thai---Thai-Freedom-Bible	3619	ร	e23	Thai 	138134	GEN	001	002	แผ่นดิน​ยัง​ไร้​รูปร่าง​และ​ว่างเปล่า ความ​มืด​ปกคลุม​ผิว​ห้วงน้ำ​ลึก และ​พระวิญญาณ​ของ​พระเจ้า​ลอย​อยู่​เหนือ​ผิว​น้ำ
+Holy-Bible---Thai---Thai-Freedom-Bible	3657	้	e49	Thai 	126846	GEN	001	002	แผ่นดิน​ยัง​ไร้​รูปร่าง​และ​ว่างเปล่า ความ​มืด​ปกคลุม​ผิว​ห้วงน้ำ​ลึก และ​พระวิญญาณ​ของ​พระเจ้า​ลอย​อยู่​เหนือ​ผิว​น้ำ
+Holy-Bible---Thai---Thai-Freedom-Bible	3641	ู	e39	Thai 	41125	GEN	001	002	แผ่นดิน​ยัง​ไร้​รูปร่าง​และ​ว่างเปล่า ความ​มืด​ปกคลุม​ผิว​ห้วงน้ำ​ลึก และ​พระวิญญาณ​ของ​พระเจ้า​ลอย​อยู่​เหนือ​ผิว​น้ำ
+Holy-Bible---Thai---Thai-Freedom-Bible	3611	ป	e1b	Thai 	38686	GEN	001	002	แผ่นดิน​ยัง​ไร้​รูปร่าง​และ​ว่างเปล่า ความ​มืด​ปกคลุม​ผิว​ห้วงน้ำ​ลึก และ​พระวิญญาณ​ของ​พระเจ้า​ลอย​อยู่​เหนือ​ผิว​น้ำ
+Holy-Bible---Thai---Thai-Freedom-Bible	3634	า	e32	Thai 	237181	GEN	001	002	แผ่นดิน​ยัง​ไร้​รูปร่าง​และ​ว่างเปล่า ความ​มืด​ปกคลุม​ผิว​ห้วงน้ำ​ลึก และ​พระวิญญาณ​ของ​พระเจ้า​ลอย​อยู่​เหนือ​ผิว​น้ำ
+Holy-Bible---Thai---Thai-Freedom-Bible	3621	ล	e25	Thai 	78893	GEN	001	002	แผ่นดิน​ยัง​ไร้​รูปร่าง​และ​ว่างเปล่า ความ​มืด​ปกคลุม​ผิว​ห้วงน้ำ​ลึก และ​พระวิญญาณ​ของ​พระเจ้า​ลอย​อยู่​เหนือ​ผิว​น้ำ
+Holy-Bible---Thai---Thai-Freedom-Bible	3632	ะ	e30	Thai 	81099	GEN	001	002	แผ่นดิน​ยัง​ไร้​รูปร่าง​และ​ว่างเปล่า ความ​มืด​ปกคลุม​ผิว​ห้วงน้ำ​ลึก และ​พระวิญญาณ​ของ​พระเจ้า​ลอย​อยู่​เหนือ​ผิว​น้ำ
+Holy-Bible---Thai---Thai-Freedom-Bible	3623	ว	e27	Thai 	100510	GEN	001	002	แผ่นดิน​ยัง​ไร้​รูปร่าง​และ​ว่างเปล่า ความ​มืด​ปกคลุม​ผิว​ห้วงน้ำ​ลึก และ​พระวิญญาณ​ของ​พระเจ้า​ลอย​อยู่​เหนือ​ผิว​น้ำ
+Holy-Bible---Thai---Thai-Freedom-Bible	3648	เ	e40	Thai 	152341	GEN	001	002	แผ่นดิน​ยัง​ไร้​รูปร่าง​และ​ว่างเปล่า ความ​มืด​ปกคลุม​ผิว​ห้วงน้ำ​ลึก และ​พระวิญญาณ​ของ​พระเจ้า​ลอย​อยู่​เหนือ​ผิว​น้ำ
+Holy-Bible---Thai---Thai-Freedom-Bible	32	 	20	Basic Latin 	85006	GEN	001	002	แผ่นดิน​ยัง​ไร้​รูปร่าง​และ​ว่างเปล่า ความ​มืด​ปกคลุม​ผิว​ห้วงน้ำ​ลึก และ​พระวิญญาณ​ของ​พระเจ้า​ลอย​อยู่​เหนือ​ผิว​น้ำ
+Holy-Bible---Thai---Thai-Freedom-Bible	3588	ค	e04	Thai 	60050	GEN	001	002	แผ่นดิน​ยัง​ไร้​รูปร่าง​และ​ว่างเปล่า ความ​มืด​ปกคลุม​ผิว​ห้วงน้ำ​ลึก และ​พระวิญญาณ​ของ​พระเจ้า​ลอย​อยู่​เหนือ​ผิว​น้ำ
+Holy-Bible---Thai---Thai-Freedom-Bible	3617	ม	e21	Thai 	93195	GEN	001	002	แผ่นดิน​ยัง​ไร้​รูปร่าง​และ​ว่างเปล่า ความ​มืด​ปกคลุม​ผิว​ห้วงน้ำ​ลึก และ​พระวิญญาณ​ของ​พระเจ้า​ลอย​อยู่​เหนือ​ผิว​น้ำ
+Holy-Bible---Thai---Thai-Freedom-Bible	3639	ื	e37	Thai 	33423	GEN	001	002	แผ่นดิน​ยัง​ไร้​รูปร่าง​และ​ว่างเปล่า ความ​มืด​ปกคลุม​ผิว​ห้วงน้ำ​ลึก และ​พระวิญญาณ​ของ​พระเจ้า​ลอย​อยู่​เหนือ​ผิว​น้ำ
+Holy-Bible---Thai---Thai-Freedom-Bible	3585	ก	e01	Thai 	112629	GEN	001	002	แผ่นดิน​ยัง​ไร้​รูปร่าง​และ​ว่างเปล่า ความ​มืด​ปกคลุม​ผิว​ห้วงน้ำ​ลึก และ​พระวิญญาณ​ของ​พระเจ้า​ลอย​อยู่​เหนือ​ผิว​น้ำ
+Holy-Bible---Thai---Thai-Freedom-Bible	3640	ุ	e38	Thai 	25943	GEN	001	002	แผ่นดิน​ยัง​ไร้​รูปร่าง​และ​ว่างเปล่า ความ​มืด​ปกคลุม​ผิว​ห้วงน้ำ​ลึก และ​พระวิญญาณ​ของ​พระเจ้า​ลอย​อยู่​เหนือ​ผิว​น้ำ
+Holy-Bible---Thai---Thai-Freedom-Bible	3627	ห	e2b	Thai 	77882	GEN	001	002	แผ่นดิน​ยัง​ไร้​รูปร่าง​และ​ว่างเปล่า ความ​มืด​ปกคลุม​ผิว​ห้วงน้ำ​ลึก และ​พระวิญญาณ​ของ​พระเจ้า​ลอย​อยู่​เหนือ​ผิว​น้ำ
+Holy-Bible---Thai---Thai-Freedom-Bible	3635	ำ	e33	Thai 	22786	GEN	001	002	แผ่นดิน​ยัง​ไร้​รูปร่าง​และ​ว่างเปล่า ความ​มืด​ปกคลุม​ผิว​ห้วงน้ำ​ลึก และ​พระวิญญาณ​ของ​พระเจ้า​ลอย​อยู่​เหนือ​ผิว​น้ำ
+Holy-Bible---Thai---Thai-Freedom-Bible	3638	ึ	e36	Thai 	14833	GEN	001	002	แผ่นดิน​ยัง​ไร้​รูปร่าง​และ​ว่างเปล่า ความ​มืด​ปกคลุม​ผิว​ห้วงน้ำ​ลึก และ​พระวิญญาณ​ของ​พระเจ้า​ลอย​อยู่​เหนือ​ผิว​น้ำ
+Holy-Bible---Thai---Thai-Freedom-Bible	3614	พ	e1e	Thai 	73294	GEN	001	002	แผ่นดิน​ยัง​ไร้​รูปร่าง​และ​ว่างเปล่า ความ​มืด​ปกคลุม​ผิว​ห้วงน้ำ​ลึก และ​พระวิญญาณ​ของ​พระเจ้า​ลอย​อยู่​เหนือ​ผิว​น้ำ
+Holy-Bible---Thai---Thai-Freedom-Bible	3597	ญ	e0d	Thai 	8751	GEN	001	002	แผ่นดิน​ยัง​ไร้​รูปร่าง​และ​ว่างเปล่า ความ​มืด​ปกคลุม​ผิว​ห้วงน้ำ​ลึก และ​พระวิญญาณ​ของ​พระเจ้า​ลอย​อยู่​เหนือ​ผิว​น้ำ
+Holy-Bible---Thai---Thai-Freedom-Bible	3603	ณ	e13	Thai 	8287	GEN	001	002	แผ่นดิน​ยัง​ไร้​รูปร่าง​และ​ว่างเปล่า ความ​มืด​ปกคลุม​ผิว​ห้วงน้ำ​ลึก และ​พระวิญญาณ​ของ​พระเจ้า​ลอย​อยู่​เหนือ​ผิว​น้ำ
+Holy-Bible---Thai---Thai-Freedom-Bible	3586	ข	e02	Thai 	63597	GEN	001	002	แผ่นดิน​ยัง​ไร้​รูปร่าง​และ​ว่างเปล่า ความ​มืด​ปกคลุม​ผิว​ห้วงน้ำ​ลึก และ​พระวิญญาณ​ของ​พระเจ้า​ลอย​อยู่​เหนือ​ผิว​น้ำ
+Holy-Bible---Thai---Thai-Freedom-Bible	3629	อ	e2d	Thai 	151130	GEN	001	002	แผ่นดิน​ยัง​ไร้​รูปร่าง​และ​ว่างเปล่า ความ​มืด​ปกคลุม​ผิว​ห้วงน้ำ​ลึก และ​พระวิญญาณ​ของ​พระเจ้า​ลอย​อยู่​เหนือ​ผิว​น้ำ
+Holy-Bible---Thai---Thai-Freedom-Bible	3592	จ	e08	Thai 	56853	GEN	001	002	แผ่นดิน​ยัง​ไร้​รูปร่าง​และ​ว่างเปล่า ความ​มืด​ปกคลุม​ผิว​ห้วงน้ำ​ลึก และ​พระวิญญาณ​ของ​พระเจ้า​ลอย​อยู่​เหนือ​ผิว​น้ำ
+Holy-Bible---Thai---Thai-Freedom-Bible	8220	“	201c	General Punctuation 	7713	GEN	001	003	พระเจ้า​กล่าว​ว่า “ให้​มี​ความ​สว่าง” แล้ว​ความ​สว่าง​ก็​เกิด​ขึ้น
+Holy-Bible---Thai---Thai-Freedom-Bible	3651	ใ	e43	Thai 	34083	GEN	001	003	พระเจ้า​กล่าว​ว่า “ให้​มี​ความ​สว่าง” แล้ว​ความ​สว่าง​ก็​เกิด​ขึ้น
+Holy-Bible---Thai---Thai-Freedom-Bible	3637	ี	e35	Thai 	63162	GEN	001	003	พระเจ้า​กล่าว​ว่า “ให้​มี​ความ​สว่าง” แล้ว​ความ​สว่าง​ก็​เกิด​ขึ้น
+Holy-Bible---Thai---Thai-Freedom-Bible	3626	ส	e2a	Thai 	46608	GEN	001	003	พระเจ้า​กล่าว​ว่า “ให้​มี​ความ​สว่าง” แล้ว​ความ​สว่าง​ก็​เกิด​ขึ้น
+Holy-Bible---Thai---Thai-Freedom-Bible	8221	”	201d	General Punctuation 	6331	GEN	001	003	พระเจ้า​กล่าว​ว่า “ให้​มี​ความ​สว่าง” แล้ว​ความ​สว่าง​ก็​เกิด​ขึ้น
+Holy-Bible---Thai---Thai-Freedom-Bible	3655	็	e47	Thai 	22532	GEN	001	003	พระเจ้า​กล่าว​ว่า “ให้​มี​ความ​สว่าง” แล้ว​ความ​สว่าง​ก็​เกิด​ขึ้น
+Holy-Bible---Thai---Thai-Freedom-Bible	3594	ช	e0a	Thai 	33074	GEN	001	005	พระเจ้า​เรียก​ความ​สว่าง​ว่า “กลางวัน” และ​เรียก​ความ​มืด​ว่า “กลางคืน” ค่ำ​ลง แล้ว​เช้า​ก็​มา​ถึง นับ​เป็น​วัน​แรก
+Holy-Bible---Thai---Thai-Freedom-Bible	3606	ถ	e16	Thai 	13930	GEN	001	005	พระเจ้า​เรียก​ความ​สว่าง​ว่า “กลางวัน” และ​เรียก​ความ​มืด​ว่า “กลางคืน” ค่ำ​ลง แล้ว​เช้า​ก็​มา​ถึง นับ​เป็น​วัน​แรก
+Holy-Bible---Thai---Thai-Freedom-Bible	3610	บ	e1a	Thai 	54607	GEN	001	005	พระเจ้า​เรียก​ความ​สว่าง​ว่า “กลางวัน” และ​เรียก​ความ​มืด​ว่า “กลางคืน” ค่ำ​ลง แล้ว​เช้า​ก็​มา​ถึง นับ​เป็น​วัน​แรก
+Holy-Bible---Thai---Thai-Freedom-Bible	3615	ฟ	e1f	Thai 	5531	GEN	001	006	พระเจ้า​กล่าว​ว่า “ให้​มี​ผืน​ฟ้า​อยู่​กลาง​น้ำ เพื่อ​แยก​น้ำ​ออก​จาก​กัน”
+Holy-Bible---Thai---Thai-Freedom-Bible	3607	ท	e17	Thai 	62961	GEN	001	007	พระเจ้า​ทำ​ผืน​ฟ้า​ขึ้น และ​แยก​น้ำ​ที่​อยู่​ใต้​ผืน​ฟ้า​ออก​จาก​น้ำ​ที่​อยู่​เหนือ​ผืน​ฟ้า แล้ว​ก็​เป็น​เช่น​นั้น
+Holy-Bible---Thai---Thai-Freedom-Bible	3605	ต	e15	Thai 	56763	GEN	001	007	พระเจ้า​ทำ​ผืน​ฟ้า​ขึ้น และ​แยก​น้ำ​ที่​อยู่​ใต้​ผืน​ฟ้า​ออก​จาก​น้ำ​ที่​อยู่​เหนือ​ผืน​ฟ้า แล้ว​ก็​เป็น​เช่น​นั้น
+Holy-Bible---Thai---Thai-Freedom-Bible	3599	ฏ	e0f	Thai 	803	GEN	001	009	พระเจ้า​กล่าว​ว่า “ให้​น้ำ​ที่​อยู่​ใต้​ท้องฟ้า​มา​รวม​กัน​ใน​ที่​เดียว และ​ให้​พื้น​ดิน​แห้ง​ปรากฏ​ขึ้น” แล้ว​ก็​เป็น​เช่น​นั้น
+Holy-Bible---Thai---Thai-Freedom-Bible	3620	ฤ	e24	Thai 	437	GEN	001	014	พระเจ้า​กล่าว​ว่า “ให้​มีด​วง​สว่าง​อยู่​บน​ผืน​ท้องฟ้า​เพื่อ​แยก​กลางวัน​ออก​จาก​กลางคืน ให้​ดวง​เหล่า​นั้น​เป็น​เครื่องหมาย​บอก​ฤดูกาล วัน และ​ปี
+Holy-Bible---Thai---Thai-Freedom-Bible	3660	์	e4c	Thai 	44020	GEN	001	021	พระเจ้า​สร้าง​สัตว์​ทะเล​ขนาด​ใหญ่ สัตว์​ที่​เคลื่อนไหว​อยู่​ใน​น้ำ​ทุก​ชนิด​ตาม​ชนิด​ของ​มัน และ​นก​มี​ปีก​ทุก​ชนิด​ตาม​ชนิด​ของ​มัน น้ำ​ก็​เต็ม​ไป​ด้วย​สิ่ง​มี​ชีวิต​เหล่า​นั้น พระเจ้า​เห็น​ว่า​ดี
+Holy-Bible---Thai---Thai-Freedom-Bible	3624	ศ	e28	Thai 	6442	GEN	001	024	พระเจ้า​กล่าว​ว่า “ให้​แผ่นดิน​ก่อ​เกิด​สิ่ง​มี​ชีวิต​ตาม​ชนิด​ของ​มัน ทั้ง​ปศุสัตว์ สัตว์​ที่​คลาน​ไป​ตาม​พื้น และ​สัตว์​ป่า​ตาม​ชนิด​ของ​มัน” แล้ว​ก็​เป็น​เช่น​นั้น
+Holy-Bible---Thai---Thai-Freedom-Bible	3625	ษ	e29	Thai 	6601	GEN	001	026	พระเจ้า​กล่าว​ว่า “ให้​เรา​สร้าง​มนุษย์​ตาม​ภาพ​ของ​เรา ให้​มี​ลักษณะ​คล้าย​เรา แล้ว​ให้​พวก​เขา​มี​อำนาจ​เหนือ​ปลา​ใน​ทะเล นก​บน​ท้องฟ้า ปศุสัตว์ แผ่นดิน​ทั้งหมด และ​สัตว์​ทุก​ชนิด​ที่​คลาน​ไป​บน​แผ่นดิน”
+Holy-Bible---Thai---Thai-Freedom-Bible	3616	ภ	e20	Thai 	2947	GEN	001	026	พระเจ้า​กล่าว​ว่า “ให้​เรา​สร้าง​มนุษย์​ตาม​ภาพ​ของ​เรา ให้​มี​ลักษณะ​คล้าย​เรา แล้ว​ให้​พวก​เขา​มี​อำนาจ​เหนือ​ปลา​ใน​ทะเล นก​บน​ท้องฟ้า ปศุสัตว์ แผ่นดิน​ทั้งหมด และ​สัตว์​ทุก​ชนิด​ที่​คลาน​ไป​บน​แผ่นดิน”
+Holy-Bible---Thai---Thai-Freedom-Bible	3595	ซ	e0b	Thai 	8578	GEN	001	029	พระเจ้า​กล่าว​ว่า “ดู​สิ เรา​มอบ​พืช​ทุก​ชนิด​ที่​ให้​เมล็ด​ทั่ว​ทั้ง​แผ่นดิน​แก่​พวก​เจ้า และ​ต้นไม้​ทุก​ต้น​ที่​ออก​ผล​ซึ่ง​มี​เมล็ด​อยู่​ใน​ผล สิ่ง​เหล่า​นี้​จะ​เป็น​อาหาร​ของ​พวก​เจ้า
+Holy-Bible---Thai---Thai-Freedom-Bible	3608	ธ	e18	Thai 	7832	GEN	002	003	พระเจ้า​อวยพร​วัน​ที่​เจ็ด​และ​ตั้ง​วัน​นั้น​ไว้​เป็น​วัน​ศักดิ์สิทธิ์ เพราะ​เป็น​วัน​ที่​พระองค์​หยุด​พัก​จาก​งาน​สร้าง​ทั้งหมด​ที่​ได้​ทำ​ไว้
+Holy-Bible---Thai---Thai-Freedom-Bible	3613	ฝ	e1d	Thai 	2498	GEN	002	005	เวลา​นั้น​ยัง​ไม่​มี​พืช​ใน​ทุ่ง​ชนิด​ใด​ขึ้น​บน​แผ่นดิน และ​ยัง​ไม่​มี​พืชพันธุ์​ใน​ทุ่ง​งอก​ขึ้น​มา เพราะ​พระเจ้ายาห์เวห์​ยัง​ไม่​ได้​ให้​ฝน​ตก​บน​แผ่นดิน และ​ยัง​ไม่​มี​มนุษย์​เพาะปลูก​ดิน
+Holy-Bible---Thai---Thai-Freedom-Bible	3650	โ	e42	Thai 	18761	GEN	002	011	แม่น้ำ​สาย​แรก​ชื่อ​พิโชน ไหล​ผ่าน​ทั่ว​ดินแดน​ฮาวิลาห์ ที่​นั่น​มี​ทองคำ
+Holy-Bible---Thai---Thai-Freedom-Bible	3630	ฮ	e2e	Thai 	2860	GEN	002	011	แม่น้ำ​สาย​แรก​ชื่อ​พิโชน ไหล​ผ่าน​ทั่ว​ดินแดน​ฮาวิลาห์ ที่​นั่น​มี​ทองคำ
+Holy-Bible---Thai---Thai-Freedom-Bible	3593	ฉ	e09	Thai 	3906	GEN	002	023	ชาย​คน​นั้น​กล่าว​ว่า “นี่แหละ กระดูก​จาก​กระดูก​ของ​ฉัน และ​เนื้อ​จาก​เนื้อ​ของ​ฉัน เธอ​จะ​ได้​ชื่อ​ว่า ‘หญิง’ เพราะ​เธอ​มา​จาก ‘ชาย’”
+Holy-Bible---Thai---Thai-Freedom-Bible	8216	‘	2018	General Punctuation 	2016	GEN	002	023	ชาย​คน​นั้น​กล่าว​ว่า “นี่แหละ กระดูก​จาก​กระดูก​ของ​ฉัน และ​เนื้อ​จาก​เนื้อ​ของ​ฉัน เธอ​จะ​ได้​ชื่อ​ว่า ‘หญิง’ เพราะ​เธอ​มา​จาก ‘ชาย’”
+Holy-Bible---Thai---Thai-Freedom-Bible	8217	’	2019	General Punctuation 	1648	GEN	002	023	ชาย​คน​นั้น​กล่าว​ว่า “นี่แหละ กระดูก​จาก​กระดูก​ของ​ฉัน และ​เนื้อ​จาก​เนื้อ​ของ​ฉัน เธอ​จะ​ได้​ชื่อ​ว่า ‘หญิง’ เพราะ​เธอ​มา​จาก ‘ชาย’”
+Holy-Bible---Thai---Thai-Freedom-Bible	63	?	3f	Basic Latin 	2905	GEN	003	001	งู​มี​เล่ห์เหลี่ยม​กว่า​สัตว์​ใน​ทุ่ง​ทุก​ชนิด​ที่​พระเจ้ายาห์เวห์​ทำ​ไว้ มัน​ถาม​หญิง​คน​นั้น​ว่า “พระเจ้า​พูด​จริง​หรือ​ว่า ‘ห้าม​พวก​เจ้า​กิน​ผล​จาก​ต้นไม้​ทุก​ต้น​ใน​สวน’?”
+Holy-Bible---Thai---Thai-Freedom-Bible	8212	—	2014	General Punctuation 	65	GEN	003	022	พระเจ้ายาห์เวห์​กล่าว​ว่า “ดู​สิ มนุษย์​กลาย​เป็น​เหมือน​หนึ่ง​ใน​พวก​เรา​แล้ว คือ​รู้จัก​ดี​และ​ชั่ว ทีนี้ ถ้า​เขา​ยื่น​มือ​ไป​เอา​ผล​จาก​ต้นไม้​แห่ง​ชีวิต​มากินด้วย แล้ว​มี​ชีวิต​ตลอด​ไป—”
+Holy-Bible---Thai---Thai-Freedom-Bible	3590	ฆ	e06	Thai 	1052	GEN	004	008	คาอิน​พูด​กับ​อาเบล​น้อง​ชาย​ว่า “ไป​ที่​ทุ่ง​กัน​เถอะ” เมื่อ​ทั้ง​สอง​อยู่​ใน​ทุ่ง คาอิน​ก็​เข้า​ทำร้าย​อาเบล​น้อง​ชาย​และ​ฆ่า​เขา
 Holy-Bible---Thai---Thai-Freedom-Bible	49	1	31	Basic Latin 	715	GEN	005	003	เมื่อ​อาดัม​อายุ 130 ปี เขา​มี​ลูกชาย​คน​หนึ่ง​ซึ่ง​มี​ลักษณะ​คล้าย​เขา​และ​เป็น​ภาพ​เหมือน​ของ​เขา แล้ว​ตั้ง​ชื่อ​ว่า​เสท
 Holy-Bible---Thai---Thai-Freedom-Bible	51	3	33	Basic Latin 	289	GEN	005	003	เมื่อ​อาดัม​อายุ 130 ปี เขา​มี​ลูกชาย​คน​หนึ่ง​ซึ่ง​มี​ลักษณะ​คล้าย​เขา​และ​เป็น​ภาพ​เหมือน​ของ​เขา แล้ว​ตั้ง​ชื่อ​ว่า​เสท
 Holy-Bible---Thai---Thai-Freedom-Bible	48	0	30	Basic Latin 	1149	GEN	005	003	เมื่อ​อาดัม​อายุ 130 ปี เขา​มี​ลูกชาย​คน​หนึ่ง​ซึ่ง​มี​ลักษณะ​คล้าย​เขา​และ​เป็น​ภาพ​เหมือน​ของ​เขา แล้ว​ตั้ง​ชื่อ​ว่า​เสท
@@ -80768,21 +80768,23 @@ Holy-Bible---Thai---Thai-Freedom-Bible	50	2	32	Basic Latin 	513	GEN	005	008	ร�
 Holy-Bible---Thai---Thai-Freedom-Bible	52	4	34	Basic Latin 	214	GEN	005	013	หลัง​จาก​มี​มา​หะ​ลา​เลลแล้ว​เคนัน​มี​ชีวิต​อยู่​อีก 840 ปี​และ​มี​ลูกชาย​ลูกสาว​อีก
 Holy-Bible---Thai---Thai-Freedom-Bible	54	6	36	Basic Latin 	162	GEN	005	015	เมื่อ​มา​หะ​ลา​เลลอายุ 65 ปี​เขา​มี​ลูกชาย​ชื่อ​ยาเรด
 Holy-Bible---Thai---Thai-Freedom-Bible	44	,	2c	Basic Latin 	297	GEN	005	032	เมื่อ​โนอาห์​อายุ 500 ปี​เขา​มี​ลูกชาย​คือ​เชม, ฮาม และ​ยาเฟท
-Holy-Bible---Thai---Thai-Freedom-Bible	3654	ๆ	e46	Thai 	1270	GEN	006	014	จง​สร้าง​เรือ​จาก​ไม้​โกเฟอร์ ทำ​ห้อง​ต่างๆ​ไว้​ใน​เรือ​และ​ทา​ชัน​ทั้ง​ด้าน​ใน​และ​ด้าน​นอก
+Holy-Bible---Thai---Thai-Freedom-Bible	3654	ๆ	e46	Thai 	1424	GEN	006	014	จง​สร้าง​เรือ​จาก​ไม้​โกเฟอร์ ทำ​ห้อง​ต่างๆ​ไว้​ใน​เรือ​และ​ทา​ชัน​ทั้ง​ด้าน​ใน​และ​ด้าน​นอก
 Holy-Bible---Thai---Thai-Freedom-Bible	40	(	28	Basic Latin 	58	GEN	010	014	ปัทรุสิม คัสลูฮิม (ซึ่ง​ชาว​ฟีลิสเตีย​สืบ​เชื้อสาย​มา​จาก​พวก​เขา) และ​คัฟโทริม
 Holy-Bible---Thai---Thai-Freedom-Bible	41	)	29	Basic Latin 	58	GEN	010	014	ปัทรุสิม คัสลูฮิม (ซึ่ง​ชาว​ฟีลิสเตีย​สืบ​เชื้อสาย​มา​จาก​พวก​เขา) และ​คัฟโทริม
-Holy-Bible---Thai---Thai-Freedom-Bible	3600	ฐ	e10	Thai 	771	GEN	011	002	เมื่อ​พวก​เขา​เดินทาง​ไป​ทาง​ตะวัน​ออกพวก​เขา​พบ​ที่ราบ​แห่ง​หนึ่ง​ใน​ดินแดน​ชินาร์​และ​ตั้ง​ถิ่น​ฐาน​อยู่​ที่​นั่น
-Holy-Bible---Thai---Thai-Freedom-Bible	3658	๊	e4a	Thai 	169	GEN	012	006	อับราม​เดิน​ผ่าน​ดินแดน​ไป​ถึง​เชเคม​ตรง​ต้น​โอ๊ก​แห่ง​โมเรห์ เวลา​นั้น​ชาว​คานาอัน​อาศัย​อยู่​ใน​ดินแดน​นั้น
-Holy-Bible---Thai---Thai-Freedom-Bible	33	!	21	Basic Latin 	1410	GEN	019	009	พวก​เขา​ตะโกน​ว่า“ถอย​ไป!”แล้ว​พูด​กัน​ว่า“คน​นี้​มา​อยู่​เป็น​คน​ต่าง​ถิ่น​แท้​ๆ​ยัง​จะ​ตั้ง​ตัว​เป็น​ผู้พิพากษา​อีก ตอน​นี้​พวก​เรา​จะ​ทำ​กับ​เจ้า​ให้​หนัก​กว่า​ที่​จะ​ทำ​กับ​พวก​นั้น!” พวก​เขา​เบียด​โลท​อย่าง​แรง​และ​เข้า​ไป​ใกล้​จะ​พัง​ประตู
-Holy-Bible---Thai---Thai-Freedom-Bible	3659	๋	e4b	Thai 	237	GEN	019	015	พอ​รุ่งเช้า​ทูต​สวรรค์​ก็​เร่ง​โลท​ว่า“ลุก​ขึ้น​พา​ภรรยา​กับ​ลูกสาว​สอง​คน​ที่​อยู่​ที่​นี่​ไป​เดี๋ยว​นี้​ไม่​อย่าง​นั้น​เจ้า​จะ​ถูก​กวาด​ไป​พร้อม​กับ​เมือง​นี้​เพราะ​ความ​ผิด​ของ​มัน”
-Holy-Bible---Thai---Thai-Freedom-Bible	3598	ฎ	e0e	Thai 	322	GEN	026	005	เพราะ​อับราฮัม​เชื่อฟัง​เสียง​ของ​เรา​และ​รักษา​ข้อกำหนด​คำสั่ง​กฎเกณฑ์​และ​กฎหมาย​ของ​เรา”
-Holy-Bible---Thai---Thai-Freedom-Bible	3601	ฑ	e11	Thai 	173	GEN	026	005	เพราะ​อับราฮัม​เชื่อฟัง​เสียง​ของ​เรา​และ​รักษา​ข้อกำหนด​คำสั่ง​กฎเกณฑ์​และ​กฎหมาย​ของ​เรา”
+Holy-Bible---Thai---Thai-Freedom-Bible	3600	ฐ	e10	Thai 	810	GEN	011	002	เมื่อ​พวก​เขา​เดินทาง​ไป​ทาง​ตะวัน​ออกพวก​เขา​พบ​ที่ราบ​แห่ง​หนึ่ง​ใน​ดินแดน​ชินาร์​และ​ตั้ง​ถิ่น​ฐาน​อยู่​ที่​นั่น
+Holy-Bible---Thai---Thai-Freedom-Bible	3658	๊	e4a	Thai 	207	GEN	012	006	อับราม​เดิน​ผ่าน​ดินแดน​ไป​ถึง​เชเคม​ตรง​ต้น​โอ๊ก​แห่ง​โมเรห์ เวลา​นั้น​ชาว​คานาอัน​อาศัย​อยู่​ใน​ดินแดน​นั้น
+Holy-Bible---Thai---Thai-Freedom-Bible	33	!	21	Basic Latin 	1602	GEN	019	009	พวก​เขา​ตะโกน​ว่า“ถอย​ไป!”แล้ว​พูด​กัน​ว่า“คน​นี้​มา​อยู่​เป็น​คน​ต่าง​ถิ่น​แท้​ๆ​ยัง​จะ​ตั้ง​ตัว​เป็น​ผู้พิพากษา​อีก ตอน​นี้​พวก​เรา​จะ​ทำ​กับ​เจ้า​ให้​หนัก​กว่า​ที่​จะ​ทำ​กับ​พวก​นั้น!” พวก​เขา​เบียด​โลท​อย่าง​แรง​และ​เข้า​ไป​ใกล้​จะ​พัง​ประตู
+Holy-Bible---Thai---Thai-Freedom-Bible	3659	๋	e4b	Thai 	393	GEN	019	015	พอ​รุ่งเช้า​ทูต​สวรรค์​ก็​เร่ง​โลท​ว่า“ลุก​ขึ้น​พา​ภรรยา​กับ​ลูกสาว​สอง​คน​ที่​อยู่​ที่​นี่​ไป​เดี๋ยว​นี้​ไม่​อย่าง​นั้น​เจ้า​จะ​ถูก​กวาด​ไป​พร้อม​กับ​เมือง​นี้​เพราะ​ความ​ผิด​ของ​มัน”
+Holy-Bible---Thai---Thai-Freedom-Bible	3598	ฎ	e0e	Thai 	352	GEN	026	005	เพราะ​อับราฮัม​เชื่อฟัง​เสียง​ของ​เรา​และ​รักษา​ข้อกำหนด​คำสั่ง​กฎเกณฑ์​และ​กฎหมาย​ของ​เรา”
+Holy-Bible---Thai---Thai-Freedom-Bible	3601	ฑ	e11	Thai 	185	GEN	026	005	เพราะ​อับราฮัม​เชื่อฟัง​เสียง​ของ​เรา​และ​รักษา​ข้อกำหนด​คำสั่ง​กฎเกณฑ์​และ​กฎหมาย​ของ​เรา”
 Holy-Bible---Thai---Thai-Freedom-Bible	45	-	2d	Basic Latin 	4	GEN	041	045	ฟาโรห์​ตั้ง​ชื่อ​โยเซฟ​ว่า​ศาเฟนาท-ปาเนอาห์ และ​ยก​อาเสนัท​บุตร​สาว​ของ​โปทิเฟรา นักบวช​แห่ง​โอน ให้​เป็น​ภรรยา​ของ​เขา โยเซฟ​จึง​ออก​ไป​ทั่ว​แผ่นดิน​อียิปต์
 Holy-Bible---Thai---Thai-Freedom-Bible	8230	…	2026	General Punctuation 	1	NUM	005	020	แต่​ถ้า​เจ้า​หลง​ผิด​ขณะ​อยู่​ใต้​อำนาจ​สามี มี​มลทิน และ​มี​ชาย​อื่น​นอกจาก​สามี​มา​ร่วม​หลับ​นอน​กับ​เจ้า…”
 Holy-Bible---Thai---Thai-Freedom-Bible	58	:	3a	Basic Latin 	41	DEU	007	005	แต่​จง​ทำ​กับ​พวก​เขา​อย่าง​นี้: รื้อ​แท่น​บูชา​ของ​พวก​เขา ทุบ​เสา​ศักดิ์สิทธิ์​ของ​พวก​เขา​ให้​แตก โค่น​เสา​อาเชราห์ และ​เผา​รูป​แกะ​สลัก​ของ​พวก​เขา​เสีย
 Holy-Bible---Thai---Thai-Freedom-Bible	3628	ฬ	e2c	Thai 	4	2KI	020	011	อิสยาห์ผู้เผยพระวจนะร้องทูล​ต่อพระยาห์เวห์ แล้วพระองค์​ทรงทำให้เงาย้อน​กลับสิบขั้นตามขั้น​ที่มันเคยเคลื่อน​ลงบนนาฬิกาแดด​ของอาหัส
-Holy-Bible---Thai---Thai-Freedom-Bible	46	.	2e	Basic Latin 	6	PSA	068	007	พระเจ้า เมื่อ​พระองค์​ออก​นำ​หน้า​ประชากร​ของ​พระองค์ เมื่อ​พระองค์​เดิน​ผ่าน​ถิ่น​กันดาร... เซ​ลาห์
+Holy-Bible---Thai---Thai-Freedom-Bible	46	.	2e	Basic Latin 	9	PSA	068	007	พระเจ้า เมื่อ​พระองค์​ออก​นำ​หน้า​ประชากร​ของ​พระองค์ เมื่อ​พระองค์​เดิน​ผ่าน​ถิ่น​กันดาร... เซ​ลาห์
 Holy-Bible---Thai---Thai-Freedom-Bible	3602	ฒ	e12	Thai 	2	PSA	071	009	อย่า​ทอดทิ้ง​ฉัน​เมื่อ​แก่​เฒ่า อย่า​ละ​ฉัน​เมื่อ​เรี่ยวแรง​หมด​ลง
+Holy-Bible---Thai---Thai-Freedom-Bible	171	«	ab	Latin-1 Supplement	2	ZEC	003	008	จง​ฟัง​เถิด โยชูวา​หัวหน้า​ปุโรหิต ทั้ง​คุณ​และ​สหาย​ที่​นั่ง​อยู่​ต่อหน้า​คุณ เพราะ​คน​เหล่านี้​เป็น​สัญลักษณ์ เพราะ​เรา​จะ​นำ​ผู้รับใช้​ของ​เรา คือ «หน่อ» ออก​มา
+Holy-Bible---Thai---Thai-Freedom-Bible	187	»	bb	Latin-1 Supplement	2	ZEC	003	008	จง​ฟัง​เถิด โยชูวา​หัวหน้า​ปุโรหิต ทั้ง​คุณ​และ​สหาย​ที่​นั่ง​อยู่​ต่อหน้า​คุณ เพราะ​คน​เหล่านี้​เป็น​สัญลักษณ์ เพราะ​เรา​จะ​นำ​ผู้รับใช้​ของ​เรา คือ «หน่อ» ออก​มา
 Holy-Bible---Thai---Thai-Freedom-Bible	160	 	a0	Latin-1 Supplement	2	ACT	020	035	ใน​ทุก​เรื่อง ข้าพเจ้า​ได้​แสดง​ให้​พวกคุณ​เห็น​เป็น​ตัวอย่าง​ว่า เมื่อ​ทำงานหนัก​เช่นนี้ พวกเรา​ควร​ช่วยเหลือ​คนอ่อนแอ และ​ระลึก​ถึง​ถ้อยคำ​ของ​องค์พระเยซู​ที่​พระองค์เอง​กล่าวว่า ‘การ​ให้​ย่อม​เป็นสุข​กว่า​การ​รับ’ ”
 Holy-Bible---Tharu-Rana---Rana-Tharu-Bible	2309	अ	905	Devanagari 	5739	MAT	001	002	अब्राहम इसहाक को दऊवा रहै, और इसहाक याकूब को दऊवा, और याकूब यहूदा और बाके भईय्यन को दऊवा,
 Holy-Bible---Tharu-Rana---Rana-Tharu-Bible	2348	ब	92c	Devanagari 	25431	MAT	001	002	अब्राहम इसहाक को दऊवा रहै, और इसहाक याकूब को दऊवा, और याकूब यहूदा और बाके भईय्यन को दऊवा,

@@ -3494,11 +3494,11 @@ function AION_LOOP_HTMS($source, $destiny, $destiny2) {
 	$grandmarker = array();
 	$grandmarker['BIBLE_COUNT']	= $grandtotal['BIBLE_COUNT']-544;
 	$grandmarker['LANG_COUNT']	= $grandtotal['LANG_COUNT']-280;
-	$grandmarker['BOOK_OT']		= $grandtotal['BOOK_OT']-10055;
+	$grandmarker['BOOK_OT']		= $grandtotal['BOOK_OT']-10070;
 	$grandmarker['BOOK_NT']		= $grandtotal['BOOK_NT']-12512;
-	$grandmarker['CHAP_TOTAL']	= $grandtotal['CHAP_TOTAL']-362322;
-	$grandmarker['VERS_TOTAL']	= $grandtotal['VERS_TOTAL']-9716255;
-	$grandmarker['VERS_AION']	= $grandtotal['VERS_AION']-109658;
+	$grandmarker['CHAP_TOTAL']	= $grandtotal['CHAP_TOTAL']-362457;
+	$grandmarker['VERS_TOTAL']	= $grandtotal['VERS_TOTAL']-9719052;
+	$grandmarker['VERS_AION']	= $grandtotal['VERS_AION']-109668;
 	$grandmarker['VERS_QUES']	= $grandtotal['VERS_QUES']-497;
 	$grandmarker['LONG']		= $grandtotal['LONG']-2545;
 	$grandmarker['CHAP_NO']		= $grandtotal['CHAP_NO']-192;
@@ -3510,9 +3510,9 @@ function AION_LOOP_HTMS($source, $destiny, $destiny2) {
 	$grandmarker['REVE_NO']		= $grandtotal['REVE_NO']-712;
 	$grandmarker['REVE_EX']		= $grandtotal['REVE_EX']-715;
 	$grandmarker['CUSTO']		= $grandtotal['CUSTO']-1617;
-	$grandmarker['PDFPA']		= $grandtotal['PDFPA']-264594;
-	$grandmarker['PDFPN']		= $grandtotal['PDFPN']-61072;
-	$grandmarker['PDFPI']		= (float)$grandtotal['PDFPI']-6046.96;
+	$grandmarker['PDFPA']		= $grandtotal['PDFPA']-264584;
+	$grandmarker['PDFPN']		= $grandtotal['PDFPN']-61068;
+	$grandmarker['PDFPI']		= (float)$grandtotal['PDFPI']-6046.76;
 	$grandmarker['PDF_PKDP']	= $grandtotal['PDF_PKDP']-169;
 	$grandmarker['PDF_PKNT']	= $grandtotal['PDF_PKNT']-94;
 	$grandmarker['PDF_PKJO']	= $grandtotal['PDF_PKJO']-16;
@@ -3731,9 +3731,9 @@ function AION_LOOP_HTMS_DOIT($args) {
 	$noderive  = (stripos($args['database']['T_VERSIONS'][$bible]['COPYRIGHT'],'Derivative')!==FALSE ? "" : " Apocryphal text is removed and verses renumbered to the English standard.");
 	$blurbpdox = (empty($args['database']['T_FORPRINT'][$bible]['PDOEXTENSION']) ? "" : " ".trim($args['database']['T_FORPRINT'][$bible]['PDOEXTENSION']));
 	$blurbdesc = (empty($args['database']['T_VERSIONS'][$bible]['DESCRIPTION']) ? "" : " ".trim($args['database']['T_VERSIONS'][$bible]['DESCRIPTION']).".");
-	$blurb = "<b>The <i>Holy Bible Aionian Edition</i> is the world's first Bible <i>un-translation</i>!</b> What is an <i>un-translation</i>? This Bible helps us understand God's love for all mankind and after-life destinies, and shows the locations of eleven key Greek and Hebrew words. The primary word shown is <i>aionios</i>, typically translated <i>eternal</i>, yet <i>aionios</i> means something more wonderful than infinite time! Greeks used <i>aionios</i> to mean <i>entirety</i>, even <i>consummate</i>, but never merely <i>infinite</i> time. So the <i>aionios</i> life promised in John 3:16 is not simply a ticket to future <i>eternal</i> life, but the invitation to <i>consummate</i> life now! <i>Aionios</i> life with Christ is better than forever. This Bible is in the ".trim($args['database']['T_VERSIONS'][$bible]['LANGUAGEENGLISH'])." language, with source: <i>".trim($args['database']['T_VERSIONS'][$bible]['SOURCE'])."</i>$blurbyear, from ".trim($args['database']['T_VERSIONS'][$bible]['SOURCEDOMAIN']).", free at AionianBible.org, and also known as <i>The Purple Bible</i>. $noderive$blurbpdox All profits are given to CoolCup.org.<BR>";
+	$blurb = "<b>The <i>Holy Bible Aionian Edition</i> is the world's first Bible <i>untranslation</i>!</b> What is an <i>untranslation</i>? This Bible helps us understand God's love for all mankind and afterlife destinies, and shows the locations of eleven key Greek and Hebrew words. The primary word shown is <i>aiōnios</i>, typically translated <i>eternal</i>, yet <i>aiōnios</i> means something more wonderful than infinite time! Greeks used <i>aiōnios</i> to mean <i>entirety</i>, even <i>consummate</i>, but never merely <i>infinite</i> time. So the <i>aiōnios</i> life promised in John 3:16 is not simply a ticket to future <i>eternal</i> life, but the invitation to <i>consummate</i> life now! <i>Aiōnios</i> life with Christ is better than forever. This Bible is in the ".trim($args['database']['T_VERSIONS'][$bible]['LANGUAGEENGLISH'])." language, with source: <i>".trim($args['database']['T_VERSIONS'][$bible]['SOURCE'])."</i>$blurbyear, from ".trim($args['database']['T_VERSIONS'][$bible]['SOURCEDOMAIN']).", free at AionianBible.org, and also known as <i>The Purple Bible</i>. $noderive$blurbpdox All profits are given to CoolCup.org.<BR>";
 	if (AION_LOOP_HTMS_DOIT_OTONLY($database['T_BIBLE'])) {
-	$blurb = "<b>The <i>Holy Bible Aionian Edition</i> is the world's first Bible <i>un-translation</i>!</b> What is an <i>un-translation</i>? This Bible helps us understand God's love for all mankind and after-life destinies, and shows the location of the Hebrew word <i>Sheol</i>, typically translated as <i>Hell</i>. However, Hell is ill-defined when compared with the underlying Hebrew meaning. Instead, Sheol is the abode of deceased believers and unbelievers and should never be translated as Hell. The implications are more than noteworthy. This Bible is in the ".trim($args['database']['T_VERSIONS'][$bible]['LANGUAGEENGLISH'])." language, with source: <i>".trim($args['database']['T_VERSIONS'][$bible]['SOURCE'])."</i>$blurbyear, from ".trim($args['database']['T_VERSIONS'][$bible]['SOURCEDOMAIN']).", free at AionianBible.org, and also known as <i>The Purple Bible</i>.  $noderive$blurbpdox All profits are given to CoolCup.org.<BR>";
+	$blurb = "<b>The <i>Holy Bible Aionian Edition</i> is the world's first Bible <i>untranslation</i>!</b> What is an <i>untranslation</i>? This Bible helps us understand God's love for all mankind and afterlife destinies, and shows the location of the Hebrew word <i>Sheol</i>, typically translated as <i>Hell</i>. However, Hell is ill-defined when compared with the underlying Hebrew meaning. Instead, Sheol is the abode of deceased believers and unbelievers and should never be translated as Hell. The implications are more than noteworthy. This Bible is in the ".trim($args['database']['T_VERSIONS'][$bible]['LANGUAGEENGLISH'])." language, with source: <i>".trim($args['database']['T_VERSIONS'][$bible]['SOURCE'])."</i>$blurbyear, from ".trim($args['database']['T_VERSIONS'][$bible]['SOURCEDOMAIN']).", free at AionianBible.org, and also known as <i>The Purple Bible</i>.  $noderive$blurbpdox All profits are given to CoolCup.org.<BR>";
 	}
 	$PDFPA = AION_PDF_PAGECOUNT("../www-stageresources/$bible---POD_KDP_ALL_BODY.pdf");
 	$PDFPN = AION_PDF_PAGECOUNT("../www-stageresources/$bible---POD_KDP_NEW_BODY.pdf");
@@ -3831,7 +3831,7 @@ function AION_LOOP_HTMS_DOIT($args) {
 	$htm .= "<tr><td>PAGES</td><td>Full=$PDFPA  New=$PDFPN</td></tr>\n";
 	$htm .= "<tr><td>TERRITORY</td><td>ALL</td></tr>\n";
 	$htm .= "<tr><td>PRICE</td><td>Approx $".sprintf("%.2f",$PDFPI)." + $1.67 = ".sprintf("%.2f",$PDFPI+1.67)." for $1 profit</td></tr>\n";
-	$htm .= "<tr><td>KEYWORDS</td><td>Christian, Salvation, Jesus, Aionios, Hades, Gehenna, Sheol</td></tr>\n";
+	$htm .= "<tr><td>KEYWORDS</td><td>Christian, Salvation, Jesus, Aiōnios, Hadēs, Gehenna, Sheol</td></tr>\n";
 	$htm .= "<tr><td>TRANSLATOR</td><td>".$args['database']['T_VERSIONS'][$bible]['TRANSLATOR']."</td></tr>\n";
 	$htm .= "<tr><td>KDP_DESC</td><td>".htmlentities($blurb)."</td></tr>\n";
 	$htm .= "<tr><td>LULU_DESC</td><td>$blurb</td></tr>\n";
@@ -3872,7 +3872,7 @@ function AION_LOOP_HTMS_DOIT($args) {
 	$htmFF .= "<tr><td class='notranslate' >also known as   &gt;   </td><td>".$args['database']['T_FORPRINT'][$bible]['W_AKA']."</td></tr>\n";
 	$htmFF .= "<tr><td class='notranslate' >The Purple Bible   &gt;   </td><td>".$args['database']['T_FORPRINT'][$bible]['W_PURP']."</td></tr>\n";
 	$htmFF .= "</table>\n";
-	$htmFF .= "<span class='notranslate'>** The word 'untranslation' is a made up to word to explain to the reader that we have un-translated certain words back to the underlying language of Hebrew or Greek to help the reader better understand in certain verses.  The word 'untranslation' is understood in English.  However, for other languages we have to consider what expression means 'un' or we could say instead 'reverse translation' or 'translated back'.  Also please note that I hope for these terms to be standard terms that you would find in a Bible or a book.  Thanks so much for your help.  Also 'Purple' is a color and the color used for the cover of these Bible translations.  So the name 'Purple Bible' is simply the friendly name of this Bible project.</span><br>";
+	$htmFF .= "<span class='notranslate'>** The word 'untranslation' is a made up to word to explain to the reader that we have untranslated certain words back to the underlying language of Hebrew or Greek to help the reader better understand in certain verses.  The word 'untranslation' is understood in English.  However, for other languages we have to consider what expression means 'un' or we could say instead 'reverse translation' or 'translated back'.  Also please note that I hope for these terms to be standard terms that you would find in a Bible or a book.  Thanks so much for your help.  Also 'Purple' is a color and the color used for the cover of these Bible translations.  So the name 'Purple Bible' is simply the friendly name of this Bible project.</span><br>";
 	$htmFF .= "** <b><a href='#top'>Return to top</a> -- or -- <a href='mailto:escribes@aionianbible.org?subject=".rawurlencode(htmlspecialchars_decode('Yes! I can help translate the 14 words and phrases in '.$args['database']['T_VERSIONS'][$bible]['LANGUAGEENGLISH']))."&body=".rawurlencode(htmlspecialchars_decode(strip_tags($htmFF)))."'>Click here to email corrections for the 14 words above in ".$args['database']['T_VERSIONS'][$bible]['LANGUAGEENGLISH'].". Thank you!</a></b><br><br><br><br><br>\n";
 	$htm .= $htmFF;
 	

@@ -1,6 +1,6 @@
 # File Name: UNTRANSLATECOUNT.txt
-# File Size: 54077       
-# File Date: 10/08/2026 11:42:01
+# File Size: 54076       
+# File Date: 10/14/2026 09:44:24
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution 4.0 International, 2018-2026
@@ -510,7 +510,7 @@ Holy-Bible---Tavoyan---Tavoyan-Bible	0	0	0	12	1	11	9	1	5	94	63	10	2	0	0	0	208	20
 Holy-Bible---Teke-Tyee---Teke-Tyee-Bible	0	0	0	12	1	11	9	1	5	94	63	10	2	0	0	0	208	200	200	0	64	0	0
 Holy-Bible---Telugu---Telugu-Bible	0	1	64	12	1	11	9	1	5	94	62	10	2	0	4	1	271	266	264	0	0	0	2
 Holy-Bible---Telugu---Telugu-Open-Contemporary	0	4	64	12	1	11	9	1	5	93	61	12	2	0	8	4	271	263	257	7	0	0	6
-Holy-Bible---Thai---Thai-Freedom-Bible	0	0	54	12	1	11	9	1	5	94	63	10	2	0	0	0	262	254	254	0	10	0	0
+Holy-Bible---Thai---Thai-Freedom-Bible	0	0	64	12	1	11	9	1	5	94	63	10	2	0	0	0	272	264	264	0	0	0	0
 Holy-Bible---Tharu-Rana---Rana-Tharu-Bible	0	0	0	12	1	11	9	1	5	94	63	10	2	0	0	0	208	200	200	0	64	0	0
 Holy-Bible---Thur---Leb-Thur-Bible	0	0	5	12	1	7	2	0	0	59	46	10	1	0	0	0	143	138	138	0	126	0	0
 Holy-Bible---Tichurong---Tichurong-Bible	0	0	0	0	0	2	0	0	0	12	17	4	0	0	0	0	35	33	33	0	231	0	0

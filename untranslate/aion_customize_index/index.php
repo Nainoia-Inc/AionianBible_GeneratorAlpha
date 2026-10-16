@@ -90,7 +90,7 @@ $modified = date("n/j/Y", filemtime("./index.php"));
 The world's first Holy Bible <u>untranslation</u><br>
 Two hundred ninety-two languages<br>
 Five hundred forty-four versions<br>
-9,716,255 Scripture verses<br>
+9,719,052 Scripture verses<br>
 100% free to copy &amp; print<br>
 Anonymous on TOR<br>
 Updated <? echo $modified; ?><br>
@@ -1355,7 +1355,7 @@ if (!is_array(($bible_ALL = json_decode(file_get_contents('./library/Holy-Bible-
 }
 $_Part[1] = 'English---King-James-Version';
 if (!is_array(($_BibleONE = @json_decode(file_get_contents('./library/Holy-Bible---'.$_Part[1].'---Aionian-Edition.json'),true))) || empty($_BibleONE['T_BOOKS'])) {
-	abcms_bomb("/Read","Common Bible navigation is unavailable",TRUE);
+	abcms_bomb("/Read","Standard Bible navigation is unavailable",TRUE);
 }
 if (!abcms_word_init_chap(TRUE) || 	$_Part[4]>$_BibleCHAP1_Last) {
 	abcms_bomb("/Read","The Bible chapter verse requested was not found");
@@ -1509,7 +1509,7 @@ abcms_head();
 <div id='word'>
 <div id='strong'>
 <h2>Strong's Enhanced Concordance</h2>
-The  <span class='notranslate'>Aionian</span>  Bible un-translates and instead transliterates eleven special words to help us better understand the extent of God’s love for individuals and all mankind, and the nature of afterlife destinies.  The original translation is unaltered and an inline note is appended to 64 Old Testament and 200 New Testament verses. Compare the definitions below to the <a href='/Glossary' title='Aionian Glossary' onclick='return AionianBible_Makemark("/Glossary");'><span class='notranslate'>Aionian</span> Glossary</a>. Follow the <span class='word-blue'>blue link</span> below to study the word's usage.  Search for any Strong's number: g1-21369 and h1-9049.<br>
+The  <span class='notranslate'>Aionian</span>  Bible untranslates and instead transliterates eleven special words to help us better understand the extent of God’s love for individuals and all mankind, and the nature of afterlife destinies.  The original translation is unaltered and an inline note is appended to 64 Old Testament and 200 New Testament verses. Compare the definitions below to the <a href='/Glossary' title='Aionian Glossary' onclick='return AionianBible_Makemark("/Glossary");'><span class='notranslate'>Aionian</span> Glossary</a>. Follow the <span class='word-blue'>blue link</span> below to study the word's usage.  Search for any Strong's number: g1-21369 and h1-9049.<br>
 <div class=center>
 <form action='<? echo abcms_href(TRUE,'',TRUE,FALSE); ?>' method='post'>
 <input type='text' name='sid' placeholder='Enter g1-21369 or h1-9049 for Greek and Hebrew Strongs numbers, for example g166' value=''>
@@ -2158,11 +2158,11 @@ if (isset($slink[$strongs])) { $SID = $slink[$strongs]; }
 static $adef = array(
 	'g12'	=> "Temporary prison for special fallen angels such as Apollyon, the Beast, and Satan.",
 	'g126'	=> "Lasting, enduring forever, eternal.",
-	'g165'	=> "A lifetime or time period with a beginning and end, an era, an age, the completion of which is beyond human perception, but known only to God the creator of the aiōns, Hebrews 1:2. Never meaning simple <i>endless or infinite chronological time</i> in Koine Greek usage. Read <a href='/Aionios-and-Aidios'>Dr. Heleen Keizer and Ramelli and Konstan</a> for proofs.",
+	'g165'	=> "A lifetime or time period with a beginning and end, an era, an age, the completion of which is beyond human perception, but known only to God the creator of the aiōns, Hebrews 1:2. Never meaning simply <i>endless or infinite chronological time</i> in Koine Greek usage. Read <a href='/Aionios-and-Aidios'>Dr. Heleen Keizer and Ramelli and Konstan</a> for proofs.",
 	'g1653'	=> "To have pity on, to show mercy. Typically, the subjunctive mood indicates possibility, not certainty. However, a subjunctive in a purpose clause is a resulting action as certain as the causal action. The subjunctive in a purpose clause functions as an indicative, not an optative. Thus, the grand conclusion of grace theology in <a href='/Bibles/English---Aionian-Bible/Romans/11' onclick='return ABMM(\"/Bibles\",\"/Romans/11\");'>Romans 11:32</a> must be clarified. God's mercy on all is not a possibility, but a certainty. See <a href='https://www.ntgreek.org' target='_blank'>www.ntgreek.org</a>.",
-	'g166'	=> "From start to finish, pertaining to the age, lifetime, entirety, complete, or even consummate. Never meaning simple <i>endless or infinite chronological time</i> in Koine Greek usage. Read <a href='/Aionios-and-Aidios'>Dr. Heleen Keizer and Ramelli and Konstan</a> for proofs.",
+	'g166'	=> "From start to finish, pertaining to the age, lifetime, entirety, complete, or even consummate. Never meaning simply <i>endless or infinite chronological time</i> in Koine Greek usage. Read <a href='/Aionios-and-Aidios'>Dr. Heleen Keizer and Ramelli and Konstan</a> for proofs.",
 	'g1067'	=> "Valley of Hinnom, Jerusalem's trash dump, a place of ruin, destruction, and judgment in this life or the next, though not eternal to Jesus' audience.",
-	'g86'	=> "Synonomous with <i>Sheol</i>, though in New Testament usage <i>Hades</i> is the temporal place of punishment for deceased unbelieving mankind, distinct from <i>Paradise</i> for deceased believers.",
+	'g86'	=> "Synonymous with <i>Sheol</i>, though in New Testament usage <i>Hadēs</i> is the temporal place of punishment for deceased unbelieving mankind, distinct from <i>Paradise</i> for deceased believers.",
 	'h7585'	=> "The grave or temporal afterlife world of both the righteous and unrighteous, believing and unbelieving, until the general resurrection.",
 	'g5020'	=> "Temporary prison for particular fallen angels awaiting final judgment.",
 	'g3041'	=> "Lake of Fire, final punishment for those not named in the Book of Life, prepared for the Devil and his angels, Matthew 25:41.",
@@ -2322,7 +2322,7 @@ $social .= "<a href='mailto:?subject=".preg_replace("/ /","%20","$title0&body=$u
 <div id='sticky-push'></div>
 </div>
 <div id='sticky-foot'> 	
-<div id='tail'><a href='/Publisher' title='Contact Nainoia, Inc'>The world's first Holy Bible un-translation!</a></div>
+<div id='tail'><a href='/Publisher' title='Contact Nainoia, Inc'>The world's first Holy Bible untranslation!</a></div>
 </div>
 </div>
 <?

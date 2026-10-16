@@ -205,44 +205,6 @@ function AION_LOOP_PDF_POD($source, $destiny) {
 		'q_pdfoo'	=> FALSE,	// TRUE = do One Online PDFs
 		'q_pdfjo'	=> FALSE,	// TRUE = do John PDFs
 		'q_epubc'	=> TRUE,	// TRUE = do ePub and covers
-		//'include'	=> "/Holy-Bible---Hebrew---.*---Aionian-Edition\.noia$/",
-		//'include'	=> "/Holy-Bible---.*(English---Trans-Trans).*---Aionian-Edition\.noia$/",
-		//'include'	=> "/Holy-Bible---.*(STEP).*---Aionian-Edition\.noia$/",
-		//'include'	=> "/Holy-Bible---.*(Traditional|Aionian-Bible|Oriya|Vietnamese).*---Aionian-Edition\.noia$/",
-		//'include'	=> "/Holy-Bible---.*(Syriac-Peshitta|Assamese-Bible|Palya-Bareli-Bible|Sorani-Bible|Marathi-Bible|Nepali-Bible|Urdu-Script|Tagalog-Bible-1905).*---Aionian-Edition\.noia$/",
-		//'include'	=> "/Holy-Bible---(Arabic---New-Arabic-Bible).*---Aionian-Edition\.noia$/",
-		//'include'	=> "/Holy-Bible---.*(Gujarati|Aionian-Bible).*---Aionian-Edition\.noia$/",
-		//'include'	=> "/Holy-Bible---.*(Aionian-Bible|Arabic|Burmese|Myanmar).*---Aionian-Edition\.noia$/",
-		//'include'	=> "/Holy-Bible---.*(King-James-Version-Updated).*---Aionian-Edition\.noia$/",
-		//'include'	=> "/Holy-Bible---.*(Arabic---New-Arabic-Bible).*---Aionian-Edition\.noia$/",
-		//'include'	=> "/Holy-Bible---.*(Arabic).*---Aionian-Edition\.noia$/",
-		//'include'	=> "/Holy-Bible---.*(New-Heart|Rote-Dela|French---Vulgate|Yombe|Hebrew---Living|Hebrew---Modern|Bangwinji|Bhadrawahi|Blackfoot|Borna|Chin-Daai|Chin--Thaiphum).*---Aionian-Edition\.noia$/",
-		//'include'	=> "/Holy-Bible---(Ch[i-z]+|C[i-z]+|[D-Z]+).*---Aionian-Edition\.noia$/",
-		//'include'	=> "/Holy-Bible---(English---King-James-Version-[R-Z]+|English---[L-Z]+|E[o-z]+|[F-Z]+).*---Aionian-Edition\.noia$/",
-		//'include'	=> "/Holy-Bible---(German---German-Luther-Bible-1545|Haitian---Haitian-Creole-Smith|Portuguese---World-Portuguese-Bible).*---Aionian-Edition\.noia$/",
-		//'include'	=> "/Holy-Bible---.*(Uyghur-Bible-Arabic).*---Aionian-Edition\.noia$/",
-		//'include'	=> "/Holy-Bible---.*(Basque|Breton).*---Aionian-Edition\.noia$/",
-		//'include'	=> "/Holy-Bible---.*(Chiyawo).*---Aionian-Edition\.noia$/",
-		//'include'	=> "/Holy-Bible---(Ahirani|Hebrew---Living-Bible).*---Aionian-Edition\.noia$/",
-		//'include'	=> "/Holy-Bible---.*(Burmese|Myanmar).*---Aionian-Edition\.noia$/",
-		//'include'	=> "/Holy-Bible---.*(Nepali-Bible|Oriya-Bible|Uyghur-Bible-Cyrillic|Uyghur-Bible-Pinyin).*---Aionian-Edition\.noia$/",
-		//'include'	=> "/Holy-Bible---.*(LXX|Khan).*---Aionian-Edition\.noia$/",
-		//'include'	=> "/(Holy-Bible---Latvian---Latvian-Gluck-Bible|Holy-Bible---Japanese---Japanese-Yougo-yaku)---Aionian-Edition\.noia$/",
-		//'include'	=> "/.*Arapaho.*---Aionian-Edition\.noia$/",
-		//'include'	=> "/Holy-Bible---.*(Irish|Living-Oracles).*---Aionian-Edition\.noia$/",
-		//'include'	=> "/Holy-Bible---.*(Rote-Dela).*---Aionian-Edition\.noia$/",
-		//'include'	=> "/Holy-Bible---(Coptic|Myanmar---Burmese-Common|Sanskrit---Burmese|Sanskrit---Cologne|Sanskrit---Harvard|Sanskrit---IAST|Sanskrit---ISO|Sanskrit---ITRANS|Sanskrit---Tamil|Sanskrit---Velthuis).*---Aionian-Edition\.noia$/",
-		//'include'	=> "/Holy-Bible---.*(Arapaho|Cherokee|Malayalam|Myanmar-Burmese-Judson|Sanskrit|Tamil).*---Aionian-Edition\.noia$/",
-		//'include'	=> "/Holy-Bible---.*(Tsakhur|Burmese-Common).*---Aionian-Edition\.noia$/",
-		//'include'	=> "/Holy-Bible---(Kannada|Malayalam|Myanmar|Sanskrit|Tamil).*---Aionian-Edition\.noia$/",
-		//'include'	=> "/Holy-Bible---(Coptic).*---Aionian-Edition\.noia$/",
-		//'include'	=> "/Holy-Bible---.*(One-Unity).*---Aionian-Edition\.noia$/",
-		//'include'	=> "/Holy-Bible---.*(Greek-Statistical-Koine).*---Aionian-Edition\.noia$/",
-		//'include'	=> "/Holy-Bible---.*(Uyghur-Bible-Arabic).*---Aionian-Edition\.noia$/",
-		//'include'	=> "/Holy-Bible---Coptic---Coptic-Boharic-NT---Aionian-Edition\.noia$/",
-		//'include'	=> "/Holy-Bible---English---(World-English-Bible-Updated|Aionian-Bible)---Aionian-Edition\.noia$/",
-		//'include'	=> "/Holy-Bible---.*(Cebuano---Cebuano-Open-Bible).*---Aionian-Edition\.noia$/",
-		//'include'	=> "/Holy-Bible---.*(Yiddish).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(World-Chinese|Statistical-Koine|Japanese-Freedom|Felipe|Biblia-Libre-Latino|Thai-Freedom).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Thai-Freedom).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---Abureni---Abureni-Bible---Aionian-Edition\.noia$/",
@@ -1324,7 +1286,7 @@ $fonts = AION_LOOP_PDF_POD_FONTS($font,$bsize,$bleading,$tsize,$tleading,$rsize,
 $versenumberlanguage = ($numarialfont ? "language='English (USA)'" : "" );
 // options
 $versionsMETA = "Holy Bible Aionian Edition, $versionE";
-$keywordsMETA = (empty($language) ? "English" : $language) . ", Holy Bible, Scriptures, Aionian, Aion, Aionios, eleese, Hades, Gehenna, Tartarus, Abyss, Lake of Fire, Aiōn, Aiōnios, Aïdios, Sheol, Hadēs, Geenna, Tartaroō, Abyssos, Limnē Pyr, Purple Bible, Untranslation";
+$keywordsMETA = (empty($language) ? "English" : $language) . ", Holy Bible, Scriptures, Aionian, Aion, Aionios, eleese, Hades, Gehenna, Tartarus, Abyss, Lake of Fire, Aiōn, Aiōnios, eleēsē, Aïdios, Sheol, Hadēs, Geenna, Tartaroō, Abyssos, Limnē Pyr, Purple Bible, Untranslation";
 // title page
 $versionFO_TI = "<Span $langspeed><Fontface fontfamily='$versionff'><Value>$version</Value></Fontface></Span>";
 $versionEN_TI = ($version == $versionE ? "" : "<Br /><Fontface fontfamily='FF-VerE'><Value>$versionE</Value></Fontface>" );
@@ -1556,7 +1518,7 @@ $helpneeded = "<Value>We pray for a modern Creative Commons translation in every
 return <<<EOT
 <?xml version="1.0" encoding="UTF-8"?>
 <Layout xmlns="urn:speedata.de:2009/publisher/en" xmlns:sd="urn:speedata:2009/publisher/functions/en">
-<PDFOptions author="https://NAINOIA-INC.signedon.net" title="$versionsMETA (CC BY-ND 4.0)" subject="The World's First Holy Bible Untranslation, the Gospel of Jesus Christ" keywords="$keywordsMETA" displaymode="bookmarks" />
+<PDFOptions author="Nainoia Inc" title="$versionsMETA (CC BY 4.0)" subject="The World's First Holy Bible Untranslation, the Gospel of Jesus Christ" keywords="$keywordsMETA" displaymode="bookmarks" />
 <Options reportmissingglyphs="warning" mainlanguage="English (USA)" />
 <Options html="off"/>
 $fonts
@@ -1786,7 +1748,7 @@ $fonts
 	$extension_top
 </Case></Switch>
 		<Paragraph language="English (USA)" textformat="center" $bidi_title><Fontface fontfamily='FF-Copy'>
-			<I><Value>Holy Bible Aionian Edition ®</Value></I><Br />
+			<I><Value>Holy Bible Aionian Edition®</Value></I><Br />
 			$versionFO_CP
 			$versionEN_CP
 			$versionNT_CP
@@ -2302,7 +2264,7 @@ $fonts
 <Fontface fontfamily='FF-Tiny'><Br /></Fontface>
 
 <ForAll select="QUESTIONED"><SetVariable variable="QuestionedCount" select="(\$QuestionedCount+1)"/></ForAll>
-<B><I><Fontface fontfamily='FF-Glos'><Value>Questioned</Value></Fontface></I></B><Br />
+<B><I><Fontface fontfamily='FF-Glos'><Value>*Questioned</Value></Fontface></I></B><Br />
 <Switch><Case test="(\$QuestionedCount>0)">
 <Message select="concat('ABPROOFER $outpdf QUESTIONED ',\$QuestionedCount)" />
 <ForAll select="QUESTIONED"><Span language="{@LANG}"><Value select="@BOOK" /></Span><HSpace width="2pt"/><Value select="@CHAPTER" /><Value select="':'" /><Value select="@VERSE" /><Value select="@MARK" /><Br /></ForAll>
@@ -2485,7 +2447,7 @@ $bidi_title	= ($rtl=="TRUE" ? 'bidi="yes"' : '' );
 $fonts = AION_LOOP_PDF_POD_FONTS($font,$bsize,$bleading,$tsize,$tleading,$rsize,$rleading,$size,$leading,$numarialfont,$footsize,$backvl,$backtl,$backal,$backll,$headfont,$pixtext,$pixlead);
 // options
 $versionsMETA = "Holy Bible Aionian Edition, $versionE";
-$keywordsMETA = (empty($language) ? "English" : $language) . ", Holy Bible, Scriptures, Aionian, Aion, Aionios, eleese, Hades, Gehenna, Tartarus, Abyss, Lake of Fire, Aiōn, Aiōnios, Aïdios, Sheol, Hadēs, Geenna, Tartaroō, Abyssos, Limnē Pyr, Purple Bible, Untranslation";
+$keywordsMETA = (empty($language) ? "English" : $language) . ", Holy Bible, Scriptures, Aionian, Aion, Aionios, eleese, Hades, Gehenna, Tartarus, Abyss, Lake of Fire, Aiōn, Aiōnios, eleēsē, Aïdios, Sheol, Hadēs, Geenna, Tartaroō, Abyssos, Limnē Pyr, Purple Bible, Untranslation";
 // copyright
 $versionFO_CP = "<Span $langspeed><Fontface fontfamily='$copyff'><Value>$version</Value></Fontface></Span>";
 $versionEN_CP = ($version == $versionE ? "" : "<Br /><Fontface fontfamily='FF-Copy'><Value>$versionE</Value></Fontface>" );
@@ -2528,7 +2490,7 @@ $helpneeded = "<Value>We pray for a modern Creative Commons translation in every
 return <<<EOT
 <?xml version="1.0" encoding="UTF-8"?>
 <Layout xmlns="urn:speedata.de:2009/publisher/en" xmlns:sd="urn:speedata:2009/publisher/functions/en">
-<PDFOptions author="https://NAINOIA-INC.signedon.net" title="$versionsMETA (CC BY-ND 4.0)" subject="The World's First Holy Bible Untranslation, the Gospel of Jesus Christ" keywords="$keywordsMETA" displaymode="bookmarks" />
+<PDFOptions author="Nainoia Inc" title="$versionsMETA (CC BY 4.0)" subject="The World's First Holy Bible Untranslation, the Gospel of Jesus Christ" keywords="$keywordsMETA" displaymode="bookmarks" />
 <Options reportmissingglyphs="warning" mainlanguage="English (USA)" />
 <Options html="off"/>
 $fonts
@@ -2565,7 +2527,7 @@ $fonts
 	<!-- BIBLE COPYRIGHT -->
 	<PlaceObject row="$copyright_row" column="1"><Textblock>
 		<Paragraph language="English (USA)" textformat="center" $bidi_title><Fontface fontfamily='FF-Copy'>
-			<I><Value>Holy Bible Aionian Edition ®</Value></I><Br />
+			<I><Value>Holy Bible Aionian Edition®</Value></I><Br />
 			$versionFO_CP
 			$versionEN_CP
 			$versionNT_CP
@@ -2729,7 +2691,7 @@ if ($w_font=='FOREIGN' && (!($w_free=preg_replace("/([\-0-9:% ]{3,})/","</Value>
 $fonts = AION_LOOP_PDF_POD_FONTS($font,$bsize,$bleading,$tsize,$tleading,$rsize,$rleading,$size,$leading,$numarialfont,$footsize,$backvl,$backtl,$backal,$backll,$headfont,$pixtext,$pixlead);
 // options
 $versionsMETA = "Holy Bible Aionian Edition, $versionE";
-$keywordsMETA = (empty($language) ? "English" : $language) . ", Holy Bible, Scriptures, Aionian, Aion, Aionios, eleese, Hades, Gehenna, Tartarus, Abyss, Lake of Fire, Aiōn, Aiōnios, Aïdios, Sheol, Hadēs, Geenna, Tartaroō, Abyssos, Limnē Pyr, Purple Bible, Untranslation";
+$keywordsMETA = (empty($language) ? "English" : $language) . ", Holy Bible, Scriptures, Aionian, Aion, Aionios, eleese, Hades, Gehenna, Tartarus, Abyss, Lake of Fire, Aiōn, Aiōnios, eleēsē, Aïdios, Sheol, Hadēs, Geenna, Tartaroō, Abyssos, Limnē Pyr, Purple Bible, Untranslation";
 // title page
 $versionFO_TI = "<Span $langspeed><Fontface fontfamily='$versionff'><Value>$version</Value></Fontface></Span>";
 $versionEN_TI = ($version == $versionE ? "" : "<Br /><Span language='English (USA)'><Fontface fontfamily='FF-VerE'><Value>$versionE</Value></Fontface></Span>" );
@@ -2749,7 +2711,7 @@ if ($rtl!="TRUE") {
 return <<<EOT
 <?xml version="1.0" encoding="UTF-8"?>
 <Layout xmlns="urn:speedata.de:2009/publisher/en" xmlns:sd="urn:speedata:2009/publisher/functions/en">
-<PDFOptions author="https://NAINOIA-INC.signedon.net" title="$versionsMETA (CC BY-ND 4.0)" subject="The World's First Holy Bible Untranslation, the Gospel of Jesus Christ" keywords="$keywordsMETA" displaymode="bookmarks" />
+<PDFOptions author="Nainoia Inc" title="$versionsMETA (CC BY 4.0)" subject="The World's First Holy Bible Untranslation, the Gospel of Jesus Christ" keywords="$keywordsMETA" displaymode="bookmarks" />
 <Options reportmissingglyphs="warning" mainlanguage="English (USA)" />
 <Options html="off"/>
 $fonts
@@ -2985,7 +2947,7 @@ else {
 return <<<EOT
 <?xml version="1.0" encoding="UTF-8"?>
 <Layout xmlns="urn:speedata.de:2009/publisher/en" xmlns:sd="urn:speedata:2009/publisher/functions/en">
-<PDFOptions author="https://NAINOIA-INC.signedon.net" title="$versionsMETA (CC BY-ND 4.0)" subject="The World's First Holy Bible Untranslation, the Gospel of Jesus Christ" keywords="$keywordsMETA" displaymode="bookmarks" />
+<PDFOptions author="Nainoia Inc" title="$versionsMETA (CC BY 4.0)" subject="The World's First Holy Bible Untranslation, the Gospel of Jesus Christ" keywords="$keywordsMETA" displaymode="bookmarks" />
 <Options reportmissingglyphs="warning" mainlanguage="English (USA)" />
 <Options html="off"/>
 $fonts

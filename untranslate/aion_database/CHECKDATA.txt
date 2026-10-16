@@ -1,6 +1,6 @@
 # File Name: CHECKDATA.txt
 # File Size: 10645061    
-# File Date: 10/08/2026 11:56:25
+# File Date: 10/14/2026 09:59:19
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution 4.0 International, 2018-2026
@@ -36818,7 +36818,7 @@ Holy-Bible---Thai---Thai-Freedom-Bible	Sour txt != Aion	043-JOH-003-015	043	JOH	
 Holy-Bible---Thai---Thai-Freedom-Bible	Sour txt != Aio2	043-JOH-003-015	043	JOH	003	015	เพื่อ​ให้​ทุกคน​ที่​เชื่อ​ใน​พระองค์​ไม่​พินาศ แต่​มี​ชีวิต​นิรันดร์ (aiōnios g166)
 Holy-Bible---Thai---Thai-Freedom-Bible	Sour txt != Aion	043-JOH-003-016	043	JOH	003	016	เพราะ​พระเจ้า​รัก​โลก​มาก​ถึง​ขนาด​ที่​ประทาน​พระบุตร​ผู้​บังเกิด​เพียง​องค์เดียว เพื่อ​ให้​ทุกคน​ที่​เชื่อ​ใน​พระองค์​ไม่​พินาศ แต่​มี​ชีวิต​นิรันดร์
 Holy-Bible---Thai---Thai-Freedom-Bible	Sour txt != Aio2	043-JOH-003-016	043	JOH	003	016	เพราะ​พระเจ้า​รัก​โลก​มาก​ถึง​ขนาด​ที่​ประทาน​พระบุตร​ผู้​บังเกิด​เพียง​องค์เดียว เพื่อ​ให้​ทุกคน​ที่​เชื่อ​ใน​พระองค์​ไม่​พินาศ แต่​มี​ชีวิต​นิรันดร์ (aiōnios g166)
-Holy-Bible---Thai---Thai-Freedom-Bible	Data checks: aionian=28301 standard=28301 source=28306						
+Holy-Bible---Thai---Thai-Freedom-Bible	Data checks: aionian=31098 standard=31098 source=31103						
 Holy-Bible---Tharu-Rana---Rana-Tharu-Bible	Aion txt != Sour	041-MAR-016-009	041	MAR	016	009	(note: The most reliable and earliest manuscripts do not include Mark 16:9-20.) ईसु जिंदो होन के बाद इतवार बारे रोज भोर होत खिना, सबन से अग्गु मरियम मगदलीनी जोके भीतर से बौ सात प्रेत आत्मा कै निकारी रहै, बाकै दिखाई दई।
 Holy-Bible---Tharu-Rana---Rana-Tharu-Bible	Aion txt != Sou2	041-MAR-016-009	041	MAR	016	009	ईसु जिंदो होन के बाद इतवार बारे रोज भोर होत खिना, सबन से अग्गु मरियम मगदलीनी जोके भीतर से बौ सात प्रेत आत्मा कै निकारी रहै, बाकै दिखाई दई।
 Holy-Bible---Tharu-Rana---Rana-Tharu-Bible	Aion txt != Stan	043-JOH-003-015	043	JOH	003	015	ताकी जो कोई बाके ऊपर बिस्वास करै, बौ अनंत जिंदगी पाबै। (aiōnios g166)

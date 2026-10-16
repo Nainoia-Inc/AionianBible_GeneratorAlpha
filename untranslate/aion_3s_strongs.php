@@ -2853,8 +2853,8 @@ function AION_NEWSTRONGS_FIX_REF_GREEK($input, $table, &$database, &$lex_array, 
 			$line['UNDER']		= 'ᾍδη';
 			$line['TRANS']		= 'hadē';
 			$line['LEXICON']	= 'ᾍδης';
-			$line['ENGLISH']	= 'O Hades,';
-			$line['GLOSS']		= 'Hades';
+			$line['ENGLISH']	= 'O Hadēs,';
+			$line['GLOSS']		= 'Hadēs';
 			$line['STRONGS']	= 'G86';
 			$line['MORPH']		= 'N-VSM-L';
 			$line['EDITIONS']	= 'TR+Byz';
