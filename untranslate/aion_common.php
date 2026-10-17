@@ -3498,7 +3498,7 @@ function AION_LOOP_HTMS($source, $destiny, $destiny2) {
 	$grandmarker['BOOK_NT']		= $grandtotal['BOOK_NT']-12512;
 	$grandmarker['CHAP_TOTAL']	= $grandtotal['CHAP_TOTAL']-362457;
 	$grandmarker['VERS_TOTAL']	= $grandtotal['VERS_TOTAL']-9719052;
-	$grandmarker['VERS_AION']	= $grandtotal['VERS_AION']-109668;
+	$grandmarker['VERS_AION']	= $grandtotal['VERS_AION']-109670;
 	$grandmarker['VERS_QUES']	= $grandtotal['VERS_QUES']-497;
 	$grandmarker['LONG']		= $grandtotal['LONG']-2545;
 	$grandmarker['CHAP_NO']		= $grandtotal['CHAP_NO']-192;
@@ -3510,9 +3510,9 @@ function AION_LOOP_HTMS($source, $destiny, $destiny2) {
 	$grandmarker['REVE_NO']		= $grandtotal['REVE_NO']-712;
 	$grandmarker['REVE_EX']		= $grandtotal['REVE_EX']-715;
 	$grandmarker['CUSTO']		= $grandtotal['CUSTO']-1617;
-	$grandmarker['PDFPA']		= $grandtotal['PDFPA']-264584;
+	$grandmarker['PDFPA']		= $grandtotal['PDFPA']-264602;
 	$grandmarker['PDFPN']		= $grandtotal['PDFPN']-61068;
-	$grandmarker['PDFPI']		= (float)$grandtotal['PDFPI']-6046.76;
+	$grandmarker['PDFPI']		= (float)$grandtotal['PDFPI']-6047.12;
 	$grandmarker['PDF_PKDP']	= $grandtotal['PDF_PKDP']-169;
 	$grandmarker['PDF_PKNT']	= $grandtotal['PDF_PKNT']-94;
 	$grandmarker['PDF_PKJO']	= $grandtotal['PDF_PKJO']-16;

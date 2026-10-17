@@ -1213,46 +1213,46 @@ $G_COMMENT
 
 <p>The Aionian Bible republishes public domain and Creative Commons Bible texts that are 100% free to copy and print. All versions are available online at <a href='https://www.Aionianbible.org/Read' target='_blank' title='The worlds first Holy Bible untranslation'>AionianBible.org</a> in web page, ePub, text, and PDF format.  Also read online with the  <a href='https://www.Aionianbible.org/Google-Play' target='_blank' title='Aionian Bible free online at Google Play'>Android</a>  and  <a href='https://www.Aionianbible.org/Apple-iOS-App' target='_blank' title='Apple iOS App'>Apple iOS App</a>.  Buy print Bibles at <a href='https://www.Aionianbible.org/Buy' target='_blank' title='Holy Bible Aionian Edition at Amazon.com and Lulu.com'>Amazon.com and Lulu.com</a>.<br /><br /></p>
 
-<p><b>10/04/26</b> 544 translations in 292 languages with 9,719,052 verses.<br /></p>
+<p><b>2026-10-04</b> 544 translations in 292 languages with 9,719,052 verses.<br /></p>
 
-<p><b>09/01/25</b> 538 translations now available in 291 languages.<br /></p>
+<p><b>2025-09-01</b> 538 translations now available in 291 languages.<br /></p>
 
-<p><b>06/21/25</b> 468 translations now available in 230 languages.<br /></p>
+<p><b>2025-06-21</b> 468 translations now available in 230 languages.<br /></p>
 
-<p><b>03/12/25</b> 382 translations now available in 166 languages.<br /></p>
+<p><b>2025-03-12</b> 382 translations now available in 166 languages.<br /></p>
 
-<p><b>01/28/25</b> All profits are given to <a href='https://CoolCup.org' target='_blank' title='Cool Cup of Water Project'>CoolCup.org</a>.<br /></p>
+<p><b>2025-01-28</b> All profits are given to <a href='https://CoolCup.org' target='_blank' title='Cool Cup of Water Project'>CoolCup.org</a>.<br /></p>
 
-<p><b>11/24/24</b> Progressive Web Application <a href='https://pwa.aionianbible.org/' target='_blank' title='PWA format'>offline format</a>.<br /></p>
+<p><b>2024-11-24</b> Progressive Web Application <a href='https://pwa.aionianbible.org/' target='_blank' title='PWA format'>offline format</a>.<br /></p>
 
-<p><b>10/20/24</b> Gospel Primer <a href='https://www.aionianbible.org/Buy' target='_blank' title='Buy at Amazon and Lulu'>handout format</a>.<br /></p>
+<p><b>2024-10-20</b> Gospel Primer <a href='https://www.aionianbible.org/Buy' target='_blank' title='Buy at Amazon and Lulu'>handout format</a>.<br /></p>
 
-<p><b>08/18/24</b> <a href='https://creativecommons.org/licenses/by/4.0/' target='_blank' title='Copyright license'>Creative Commons Attribution 4.0 International</a>, if source allows.<br /></p>
+<p><b>2024-08-18</b> <a href='https://creativecommons.org/licenses/by/4.0/' target='_blank' title='Copyright license'>Creative Commons Attribution 4.0 International</a>, if allowed.<br /></p>
 
-<p><b>08/05/24</b> 378 translations now available in 165 languages.<br /></p>
+<p><b>2024-08-05</b> 378 translations now available in 165 languages.<br /></p>
 
-<p><b>05/02/24</b> 370 translations now available in 164 languages.<br /></p>
+<p><b>2024-05-02</b> 370 translations now available in 164 languages.<br /></p>
 
-<p><b>02/04/24</b> 352 translations now available in 142 languages.<br /></p>
+<p><b>2024-02-04</b> 352 translations now available in 142 languages.<br /></p>
 
 <p>
-<b>12/04/23</b> <a href='rear-2-glossary.xhtml#g1653' title='Aionian Glossary g165'>Eleēsē (g1653)</a> added to the <a href='rear-2-glossary.xhtml' title='View Aionian Glossary'>Aionian Glossary</a>.<br />
+<b>2023-12-04</b> <a href='rear-2-glossary.xhtml#g1653' title='Aionian Glossary g165'>Eleēsē (g1653)</a> added to the <a href='rear-2-glossary.xhtml' title='View Aionian Glossary'>Aionian Glossary</a>.<br />
 </p>
 
 <p>
-<b>02/14/23</b> Aionian Bible published for anonymous access on the <a href='https://www.aionianbible.org/TOR' target='_blank' title='TOR Network'>TOR Network</a>.<br />
+<b>2023-02-14</b> Aionian Bible published for anonymous access on the <a href='https://www.aionianbible.org/TOR' target='_blank' title='TOR Network'>TOR Network</a>.<br />
 </p>
 
-<p><b>02/14/22</b> <a href='https://en.wikipedia.org/wiki/Strong%27s_Concordance' target='_blank' title='Strongs Concordance history at wikipedia'>Strong's Concordance</a> from <a href='https://viz.bible' target='_blank' title='Strongs Concordance source'>viz.bible</a>, <a href='https://github.com/openscriptures/strongs' target='_blank' title='improved Strongs Concordance source'>Open Scriptures</a>, and <a href='https://github.com/STEPBible/STEPBible-Data' target='_blank' title='STEPBible Enhanced Strongs Concordance'>STEPBible Enhanced Strong's</a> at <a href='https://www.Aionianbible.org/Strongs' target='_blank' title='Strongs Enhanced Concordance and Glossary'>AionianBible.org/Strongs</a>.<br /></p>
+<p><b>2022-02-14</b> <a href='https://en.wikipedia.org/wiki/Strong%27s_Concordance' target='_blank' title='Strongs Concordance history at wikipedia'>Strong's Concordance</a> from <a href='https://viz.bible' target='_blank' title='Strongs Concordance source'>viz.bible</a>, <a href='https://github.com/openscriptures/strongs' target='_blank' title='improved Strongs Concordance source'>Open Scriptures</a>, and <a href='https://github.com/STEPBible/STEPBible-Data' target='_blank' title='STEPBible Enhanced Strongs Concordance'>STEPBible Enhanced Strong's</a> at <a href='https://www.Aionianbible.org/Strongs' target='_blank' title='Strongs Enhanced Concordance and Glossary'>AionianBible.org/Strongs</a>.<br /></p>
 
-<p><b>01/23/22</b> Volunteers celebrate with pie and prayer.<br /></p>
+<p><b>2022-01-23</b> Volunteers celebrate with pie and prayer.<br /></p>
 
-<p><b>01/09/22</b> <a href='https://resources.aionianbible.org/AB-StudyPack/' target='_blank' title='Aionian Bible language StudyPacks'>StudyPack</a> resources for Bible translation and underlying language study now available.<br /></p>
+<p><b>2022-01-09</b> <a href='https://resources.aionianbible.org/AB-StudyPack/' target='_blank' title='Aionian Bible language StudyPacks'>StudyPack</a> resources for Bible translation and underlying language study now available.<br /></p>
 
-<p><b>01/01/22</b> 216 translations now available in 99 languages.<br /></p>
+<p><b>2022-01-01</b> 216 translations now available in 99 languages.<br /></p>
 
 <p>
-<b>12/20/21</b> Social media presence on 
+<b>2021-12-20</b> Social media presence on 
 <a href='https://www.Aionianbible.org/Facebook'		target='_blank' title='Facebook/AionianBible'>Facebook</a>,
 <a href='https://www.Aionianbible.org/Twitter'		target='_blank' title='Twitter/AionianBible'>Twitter</a>,
 <a href='https://www.Aionianbible.org/LinkedIn'		target='_blank' title='LinkedIn/AionianBible'>LinkedIn</a>,
@@ -1263,55 +1263,55 @@ $G_COMMENT
 <a href='https://www.Aionianbible.org/EmailNews'	target='_blank' title='EmailNews/AionianBible'>MailChimp</a><br />
 </p>
 
-<p><b>11/17/21</b> <a href='https://www.Aionianbible.org/Bible-Cover' target='_blank' title='Buy the Aionian Bible Branded Leather Bible Cover'>Aionian Bible Branded Leather Bible Covers</a> now available.<br /></p>
+<p><b>2021-11-17</b> <a href='https://www.Aionianbible.org/Bible-Cover' target='_blank' title='Buy the Aionian Bible Branded Leather Bible Cover'>Aionian Bible Branded Leather Bible Covers</a> now available.<br /></p>
 
-<p><b>03/31/21</b> 214 translations now available in 99 languages.<br /></p>
+<p><b>2021-03-31</b> 214 translations now available in 99 languages.<br /></p>
 
-<p><b>12/01/20</b> Right-to-left and Hindic languages now available in PDF format.<br /></p>
+<p><b>2020-12-01</b> Right-to-left and Hindic languages available in PDF format.<br /></p>
 
-<p><b>08/29/20</b> Aionian Bibles now available in ePub format.<br /></p>
+<p><b>2020-08-29</b> Aionian Bibles now available in ePub format.<br /></p>
 
-<p><b>05/25/20</b> Illustrations by Gustave Doré, <a href='https://resources.aionianbible.org/Gustave-Dore-La-Grande-Bible-de-Tours/' title='Gustave Dorés La Grande Bible de Tours' target='_blank'>La Grande Bible de Tours</a>, (Felix Just, S.J., <a href='https://catholic-resources.org/Art/Dore.htm' title='Catholic Resources' target='_blank'>Catholic-Resources.org/Art/Dore.htm</a>).<br /></p>
+<p><b>2020-05-25</b> Illustrations by Gustave Doré, <a href='https://resources.aionianbible.org/Gustave-Dore-La-Grande-Bible-de-Tours/' title='Gustave Dorés La Grande Bible de Tours' target='_blank'>La Grande Bible de Tours</a>, (Felix Just, S.J., <a href='https://catholic-resources.org/Art/Dore.htm' title='Catholic Resources' target='_blank'>Catholic-Resources.org/Art/Dore.htm</a>).<br /></p>
 
-<p><b>02/22/20</b> Aionian Bibles <a href='https://www.aionianbible.org/Buy' target='_blank' title='in print at Amazon and Lulu'>available in print</a> at <a href='https://www.Aionianbible.org/Lulu' target='_blank' title='Aionian Bibles in print at Lulu.com'>Lulu.com</a>.<br /></p>
+<p><b>2020-02-22</b> Aionian Bibles <a href='https://www.aionianbible.org/Buy' target='_blank' title='in print at Amazon and Lulu'>available in print</a> at <a href='https://www.Aionianbible.org/Lulu' target='_blank' title='Aionian Bibles in print at Lulu.com'>Lulu.com</a>.<br /></p>
 
-<p><b>10/31/19</b> 174 translations now available in 74 languages.<br /></p>
+<p><b>2019-10-31</b> 174 translations now available in 74 languages.<br /></p>
 
-<p><b>10/28/19</b> Aionian Bible project nursed as another J. and J. pray.<br /></p>
+<p><b>2019-10-28</b> Aionian Bible project nursed as another J. and J. pray.<br /></p>
 
-<p><b>03/24/19</b> 135 translations now available in 67 languages.<br /></p>
+<p><b>2019-03-24</b> 135 translations now available in 67 languages.<br /></p>
 
-<p><b>11/17/18</b> 104 translations now available in 57 languages.<br /></p>
+<p><b>2018-11-17</b> 104 translations now available in 57 languages.<br /></p>
 
-<p><b>10/20/18</b> 70 translations now available in 33 languages.<br /></p>
+<p><b>2018-10-20</b> 70 translations now available in 33 languages.<br /></p>
 
-<p><b>09/15/18</b> Aionian Bible project dedicated as J. and J. pray again.<br /></p>
+<p><b>2018-09-15</b> Aionian Bible project dedicated as J. and J. pray again.<br /></p>
 
-<p><b>03/06/18</b> Aionian Bibles <a href='https://www.aionianbible.org/Buy' target='_blank' title='in print at Amazon and Lulu'>available in print</a> at <a href='https://www.Aionianbible.org/Amazon' target='_blank' title='Aionian Bibles in print at Amazon.com'>Amazon.com</a>.<br /></p>
+<p><b>2018-03-06</b> Aionian Bibles <a href='https://www.aionianbible.org/Buy' target='_blank' title='in print at Amazon and Lulu'>available in print</a> at <a href='https://www.Aionianbible.org/Amazon' target='_blank' title='Aionian Bibles in print at Amazon.com'>Amazon.com</a>.<br /></p>
 
-<p><b>02/01/18</b> <i>Holy Bible Aionian Edition®</i>  trademark registered.<br /></p>
+<p><b>2018-02-01</b> <i>Holy Bible Aionian Edition®</i>  trademark registered.<br /></p>
 
-<p><b>07/30/17</b> 42 translations now available in 22 languages.<br /></p>
+<p><b>2017-07-30</b> 42 translations now available in 22 languages.<br /></p>
 
-<p><b>07/01/17</b> <i>'The Purple Bible'</i> nickname begins.<br /></p>
+<p><b>2017-07-01</b> <i>'The Purple Bible'</i> nickname begins.<br /></p>
 
-<p><b>01/16/17</b> <a href='https://www.Aionianbible.org/Google-Play' target='_blank' title='Aionian Bible free online at Google Play'>Aionian Bible Google Play Store App</a> published.<br /></p>
+<p><b>2017-01-16</b> <a href='https://www.Aionianbible.org/Google-Play' target='_blank' title='Aionian Bible free online at Google Play'>Aionian Bible Google Play Store App</a> published.<br /></p>
 
-<p><b>01/01/17</b> <a href='https://creativecommons.org/licenses/by-nd/4.0' target='_blank' title='Copyright license'>Creative Commons Attribution No Derivative Works 4.0</a> license added.<br /></p>
+<p><b>2017-01-01</b> <a href='https://creativecommons.org/licenses/by-nd/4.0' target='_blank' title='Copyright license'>Creative Commons Attribution No Derivative Works 4.0</a> license.<br /></p>
 
-<p><b>12/07/16</b> <a href='https://NAINOIA-INC.signedon.net' target='_blank' title='Nainoia, Inc. exists for Christian mission promotion, technical support services, and Bible translation'>Nainoia Inc</a> established as non-profit corporation.<br /></p>
+<p><b>2016-12-07</b> <a href='https://NAINOIA-INC.signedon.net' target='_blank' title='Nainoia, Inc. exists for Christian mission promotion, technical support services, and Bible translation'>Nainoia Inc</a> established as non-profit corporation.<br /></p>
 
-<p><b>06/21/16</b> 30 translations available in 12 languages.<br /></p>
+<p><b>2016-06-21</b> 30 translations available in 12 languages.<br /></p>
 
-<p><b>01/11/16</b> <a href='https://www.Aionianbible.org' target='_blank' title='The worlds first Holy Bible untranslation'>AionianBible.org</a> domain registered.<br /></p>
+<p><b>2016-01-11</b> <a href='https://www.Aionianbible.org' target='_blank' title='The worlds first Holy Bible untranslation'>AionianBible.org</a> domain registered.<br /></p>
 
-<p><b>06/21/15</b> Aionian Bible project birthed as G. and J. pray.<br /></p>
+<p><b>2015-06-21</b> Aionian Bible project birthed as G. and J. pray.<br /></p>
 
-<p><b>12/18/13</b> Aionian Bible project announced as J. and J. pray.<br /></p>
+<p><b>2013-12-18</b> Aionian Bible project announced as J. and J. pray.<br /></p>
 
-<p><b>04/15/85</b> Aionian Bible project conceived as B. and J. pray.<br /></p>
+<p><b>1985-04-15</b> Aionian Bible project conceived as B. and J. pray.<br /></p>
 
-<p><b>06/21/75</b> Two boys, P. and J., wonder if Jesus saves all and pray.<br /></p>
+<p><b>1975-06-21</b> Two boys, P. and J., wonder if Jesus saves all and pray.<br /></p>
 
 <p><a href='index.xhtml' title='Table of Contents'>TOC</a></p>
 </body>

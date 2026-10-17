@@ -1,6 +1,6 @@
 # File Name: CHECKDATA.txt
-# File Size: 10645061    
-# File Date: 10/14/2026 09:59:19
+# File Size: 10645122    
+# File Date: 10/16/2026 21:40:16
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution 4.0 International, 2018-2026
@@ -4896,9 +4896,9 @@ Holy-Bible---English---Aionian-Bible	Aion txt != Stan	049-EPH-003-021	049	EPH	00
 Holy-Bible---English---Aionian-Bible	Aion txt != Sta2	049-EPH-003-021	049	EPH	003	021	to him be the glory in the assembly and in Christ Jesus to all generations, forever and ever. Amen.
 Holy-Bible---English---Aionian-Bible	Aion txt != Sour	049-EPH-003-021	049	EPH	003	021	to him be the glory in the assembly and in Christ Jesus to all generations for the age of the ages. Amen.
 Holy-Bible---English---Aionian-Bible	Aion txt != Sou2	049-EPH-003-021	049	EPH	003	021	to him be the glory in the assembly and in Christ Jesus to all generations, forever and ever. Amen.
-Holy-Bible---English---Aionian-Bible	Aion txt != Stan	049-EPH-006-012	049	EPH	006	012	For our wrestling is not against flesh and blood, but against the principalities, against the powers, against the world's rulers of this darkness, and against the spiritual forces of wickedness in the heavenly places.
+Holy-Bible---English---Aionian-Bible	Aion txt != Stan	049-EPH-006-012	049	EPH	006	012	For our wrestling is not against flesh and blood, but against the principalities, against the powers, against the world's rulers of the darkness of this age, and against the spiritual forces of wickedness in the heavenly places.
 Holy-Bible---English---Aionian-Bible	Aion txt != Sta2	049-EPH-006-012	049	EPH	006	012	For our wrestling is not against flesh and blood, but against the principalities, against the powers, against the world’s rulers of the darkness of this age, and against the spiritual forces of wickedness in the heavenly places.
-Holy-Bible---English---Aionian-Bible	Aion txt != Sour	049-EPH-006-012	049	EPH	006	012	For our wrestling is not against flesh and blood, but against the principalities, against the powers, against the world's rulers of this darkness, and against the spiritual forces of wickedness in the heavenly places.
+Holy-Bible---English---Aionian-Bible	Aion txt != Sour	049-EPH-006-012	049	EPH	006	012	For our wrestling is not against flesh and blood, but against the principalities, against the powers, against the world's rulers of the darkness of this age, and against the spiritual forces of wickedness in the heavenly places.
 Holy-Bible---English---Aionian-Bible	Aion txt != Sou2	049-EPH-006-012	049	EPH	006	012	For our wrestling is not against flesh and blood, but against the principalities, against the powers, against the world’s rulers of the darkness of this age, and against the spiritual forces of wickedness in the heavenly places.
 Holy-Bible---English---Aionian-Bible	Aion txt != Stan	050-PHI-004-020	050	PHI	004	020	Now to our God and Father be the glory for the ages of the ages! Amen.
 Holy-Bible---English---Aionian-Bible	Aion txt != Sta2	050-PHI-004-020	050	PHI	004	020	Now to our God and Father be the glory forever and ever! Amen.
@@ -5032,9 +5032,9 @@ Holy-Bible---English---Aionian-Bible	Aion txt != Stan	058-HEB-013-021	058	HEB	01
 Holy-Bible---English---Aionian-Bible	Aion txt != Sta2	058-HEB-013-021	058	HEB	013	021	make you complete in every good work to do his will, working in you that which is well pleasing in his sight, through Jesus Christ, to whom be the glory forever and ever. Amen.
 Holy-Bible---English---Aionian-Bible	Aion txt != Sour	058-HEB-013-021	058	HEB	013	021	align you in every good thing so as to do his will, doing in us that which is wellpleasing before him, through Jesus Christ, to whom be the glory for the ages of the ages. Amen.
 Holy-Bible---English---Aionian-Bible	Aion txt != Sou2	058-HEB-013-021	058	HEB	013	021	make you complete in every good work to do his will, working in you that which is well pleasing in his sight, through Jesus Christ, to whom be the glory forever and ever. Amen.
-Holy-Bible---English---Aionian-Bible	Aion txt != Stan	060-1PE-001-023	060	1PE	001	023	having been born again, not of corruptible seed, but of incorruptible, through the living and remaining word of God.
+Holy-Bible---English---Aionian-Bible	Aion txt != Stan	060-1PE-001-023	060	1PE	001	023	having been born again, not of corruptible seed, but of incorruptible, through the living and remaining word of God into the ages.
 Holy-Bible---English---Aionian-Bible	Aion txt != Sta2	060-1PE-001-023	060	1PE	001	023	having been born again, not of corruptible seed, but of incorruptible, through the word of God, which lives and remains forever.
-Holy-Bible---English---Aionian-Bible	Aion txt != Sour	060-1PE-001-023	060	1PE	001	023	having been born again, not of corruptible seed, but of incorruptible, through the living and remaining word of God.
+Holy-Bible---English---Aionian-Bible	Aion txt != Sour	060-1PE-001-023	060	1PE	001	023	having been born again, not of corruptible seed, but of incorruptible, through the living and remaining word of God into the ages.
 Holy-Bible---English---Aionian-Bible	Aion txt != Sou2	060-1PE-001-023	060	1PE	001	023	having been born again, not of corruptible seed, but of incorruptible, through the word of God, which lives and remains forever.
 Holy-Bible---English---Aionian-Bible	Aion txt != Stan	060-1PE-001-025	060	1PE	001	025	but the Lord's word endures for the age." This is the word of Good News which was preached to you.
 Holy-Bible---English---Aionian-Bible	Aion txt != Sta2	060-1PE-001-025	060	1PE	001	025	but the Lord’s word endures forever.” This is the word of Good News which was preached to you.
@@ -5439,7 +5439,7 @@ Holy-Bible---English---Aionian-Bible	Sour txt != Aio2	049-EPH-003-011	049	EPH	00
 Holy-Bible---English---Aionian-Bible	Sour txt != Aion	049-EPH-003-021	049	EPH	003	021	to him be the glory in the assembly and in Christ Jesus to all generations, forever and ever. Amen.
 Holy-Bible---English---Aionian-Bible	Sour txt != Aio2	049-EPH-003-021	049	EPH	003	021	to him be the glory in the assembly and in Christ Jesus to all generations for the age of the ages. Amen.
 Holy-Bible---English---Aionian-Bible	Sour txt != Aion	049-EPH-006-012	049	EPH	006	012	For our wrestling is not against flesh and blood, but against the principalities, against the powers, against the world’s rulers of the darkness of this age, and against the spiritual forces of wickedness in the heavenly places.
-Holy-Bible---English---Aionian-Bible	Sour txt != Aio2	049-EPH-006-012	049	EPH	006	012	For our wrestling is not against flesh and blood, but against the principalities, against the powers, against the world's rulers of this darkness, and against the spiritual forces of wickedness in the heavenly places.
+Holy-Bible---English---Aionian-Bible	Sour txt != Aio2	049-EPH-006-012	049	EPH	006	012	For our wrestling is not against flesh and blood, but against the principalities, against the powers, against the world's rulers of the darkness of this age, and against the spiritual forces of wickedness in the heavenly places.
 Holy-Bible---English---Aionian-Bible	Sour txt != Aion	050-PHI-004-020	050	PHI	004	020	Now to our God and Father be the glory forever and ever! Amen.
 Holy-Bible---English---Aionian-Bible	Sour txt != Aio2	050-PHI-004-020	050	PHI	004	020	Now to our God and Father be the glory for the ages of the ages! Amen.
 Holy-Bible---English---Aionian-Bible	Sour txt != Aion	053-2TH-001-009	053	2TH	001	009	who will pay the penalty: eternal destruction from the face of the Lord and from the glory of his might,
