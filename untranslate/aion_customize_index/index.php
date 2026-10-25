@@ -11,7 +11,7 @@ $_Path = $_Orig = trim(strtok($_SERVER['REQUEST_URI'],'?'),'/');
 $_pathl = strtolower($_Path);
 $_para = $_stid = $_paraC = $_stidC = $_stidN = $_stidX = $_meta = $_SwipePREV = $_SwipeNEXT = $_BibleSTRONGS = NULL;
 $_Part = array(NULL);
-if ($_Path=='' || $_Path=='index.php') {				$_meta = " ~ Homepage";										abcms_home(); }
+if ($_Path=='' || $_Path=='index.php') {				$_meta = " ~ Homepage"; $_Orig = '';						abcms_home(); }
 else if ($_pathl=='preface') {							$_meta = " ~ Preface";										abcms_page('docs/preface.htm'); }
 else if ($_pathl=='buy') {								$_meta = " ~ Buy Bibles and T-Shirts";						abcms_word_list('buy',NULL); }
 else if ($_pathl=='maps') {								$_meta = " ~ Maps";											abcms_page('docs/maps.htm'); }
@@ -59,7 +59,7 @@ else if ($_Part[0]=='Parallel' && $_pnum > 1 && $_pnum < 7) {
 														$_meta = " ~ Read and Study Parallel Bible";				abcms_word_list('parallel',$_Part[1]); }
 else if ($_Part[0]=='Glossary' && $_pnum < 3) {			$_meta = " ~ Glossary";										abcms_glos(); }
 else if ($_Part[0]=='Strongs'  && $_pnum < 3) {			$_meta = " ~ Strongs Concordance Glossary $_stidC";			abcms_stro(); }
-else if ($_Part[0]=='Publisher'&& !$_para && $_pnum<6){	$_meta = " ~ Publisher";									abcms_mail(); }
+else if ($_Part[0]=='Publisher'&& !$_para && $_pnum<6){	$_meta = " ~ Publisher"; if ($_pnum > 1) { $_Orig = NULL; }	abcms_mail(); }
 else if ($_Part[0]=='CAPTCHA' && $_pnum == 2) {			$_meta = "";												abcms_mail_captcha(); }
 else if ($_Part[0]=='Verse') {
 	if ($_pnum==2 && $_Part[1]=='Questioned'){			$_meta = " ~ Questioned Verses";							abcms_word_vers_questioned(); }
@@ -2234,8 +2234,8 @@ return $cache[$file][$key];
 
 /*** HTML ***/
 function abcms_html($goodpage=TRUE,$bodystuff='',$collapse='false') {
-global $_para, $_stid, $_meta, $_Path, $_Part, $_pnum, $_BibleONE, $_BibleTWO;
-if (!$goodpage) { http_response_code(404); $_meta = ' ~ Page not found'; }
+global $_para, $_stid, $_meta, $_Path, $_Orig, $_Part, $_pnum, $_BibleONE, $_BibleTWO;
+if (!$goodpage) { http_response_code(404); $_meta = ' ~ Page not found'; $_Orig = NULL; }
 ?>
 <!DOCTYPE html>
 <html lang='en'>
@@ -2253,8 +2253,9 @@ if ($_para ||
 	(($_Part[0]==='Glossary' || $_Part[0]==='Strongs') && $_pnum!=1)) {
 	echo "<meta name='robots' content='noindex'>";
 }
+if (NULL !== $_Orig) {
 ?>
-<meta property="og:url" content="https://www.aionianbible.org/<?echo $_Path;?>">
+<meta property="og:url" content="https://www.aionianbible.org/<?echo $_Orig;?>">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Holy Bible Aionian Edition®<?echo $_meta;?>">
 <meta property="og:description" content="Holy Bible Aionian Edition®<?echo $_meta;?>">
@@ -2262,6 +2263,8 @@ if ($_para ||
 <meta property="og:image" content="https://www.aionianbible.org/images/MEME-AionianBible-The-Worlds-First-Bible-Untranslation-2.jpg">
 <meta property="og:image" content="https://www.aionianbible.org/images/MEME-AionianBible-The-Worlds-First-Bible-Untranslation-3.jpg">
 <meta property="og:image" content="https://www.aionianbible.org/images/MEME-AionianBible-The-Worlds-First-Bible-Untranslation-4.jpg">
+<link rel='canonical' href='https://www.aionianbible.org/<?echo $_Orig;?>'>
+<? } ?>
 <link rel='shortcut icon' href='/favicon.ico' type='image/x-icon'>
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">

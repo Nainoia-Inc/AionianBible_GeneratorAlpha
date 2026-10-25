@@ -487,11 +487,11 @@ EOF;
 	AION_EPUBY_REAR_3_HISTORY_PAST_XHTML($FOLDEPUB);								// CREATE rear-3-history-past.xhtml
 	AION_EPUBY_REAR_4_HISTORY_FUTURE_XHTML($FOLDEPUB);								// CREATE rear-4-history-future.xhtml
 	AION_EPUBY_REAR_5_HISTORY_DESTINY_XHTML($FOLDEPUB);								// CREATE rear-5-history-destiny.xhtml
-	AION_EPUBY_IMAGE_VERSE_XHTML("$FOLDEPUB/rear-5-map-abraham.xhtml",	"Abraham's Journeys",			"images/MAP-ABRAHAM.jpg",	$G_FORPRINT["HEB11_8"],		TRUE);
-	AION_EPUBY_IMAGE_VERSE_XHTML("$FOLDEPUB/rear-6-map-exodus.xhtml",	"Israel's Exodus",				"images/MAP-EXODUS.jpg",	$G_FORPRINT["EXO13_17"],	TRUE);
-	AION_EPUBY_IMAGE_VERSE_XHTML("$FOLDEPUB/rear-7-map-jesus.xhtml",	"Jesus' Journeys",				"images/MAP-JESUS.jpg",		$G_FORPRINT["MAR10_45"],	TRUE, "better");
-	AION_EPUBY_IMAGE_VERSE_XHTML("$FOLDEPUB/rear-8-map-paul.xhtml",		"Paul's Missionary Journeys",	"images/MAP-PAUL.jpg",		$G_FORPRINT["ROM1_1"],		TRUE);
-	AION_EPUBY_IMAGE_VERSE_XHTML("$FOLDEPUB/rear-9-map-world.xhtml",	"Great Commission",				"images/MAP-WORLD.jpg",		$G_FORPRINT["MAT28_19"],	TRUE);
+	AION_EPUBY_IMAGE_VERSE_XHTML("$FOLDEPUB/rear-6-map-abraham.xhtml",	"Abraham's Journeys",			"images/MAP-ABRAHAM.jpg",	$G_FORPRINT["HEB11_8"],		TRUE);
+	AION_EPUBY_IMAGE_VERSE_XHTML("$FOLDEPUB/rear-7-map-exodus.xhtml",	"Israel's Exodus",				"images/MAP-EXODUS.jpg",	$G_FORPRINT["EXO13_17"],	TRUE);
+	AION_EPUBY_IMAGE_VERSE_XHTML("$FOLDEPUB/rear-8-map-jesus.xhtml",	"Jesus' Journeys",				"images/MAP-JESUS.jpg",		$G_FORPRINT["MAR10_45"],	TRUE, "better");
+	AION_EPUBY_IMAGE_VERSE_XHTML("$FOLDEPUB/rear-9-map-paul.xhtml",		"Paul's Missionary Journeys",	"images/MAP-PAUL.jpg",		$G_FORPRINT["ROM1_1"],		TRUE);
+	AION_EPUBY_IMAGE_VERSE_XHTML("$FOLDEPUB/rear-10-map-world.xhtml",	"Great Commission",				"images/MAP-WORLD.jpg",		$G_FORPRINT["MAT28_19"],	TRUE);
 	
 	// ZIP
 	$FILE = $args['destiny_zip']."/$bible---Aionian-Edition.epub";
@@ -749,6 +749,7 @@ a:hover { color: #9966CC; }
 .not { font-weight: 700; color: #663399; white-space: nowrap; } 
 .rtl-tab { width: 100%; text-align: right; }
 .rtl-ref { width: 50px; text-align: right; }
+.rtl-ref span.ff.num { margin-right: 7px; }
 .social img { border: 0px; }
 
 EOF;
@@ -801,11 +802,11 @@ $intro_old$intro_new$outro_new<item href='rear-1-readers-guide.xhtml' id='xreade
 <item href='rear-3-history-past.xhtml' id='xpast' media-type='application/xhtml+xml' />
 <item href='rear-4-history-future.xhtml' id='xfuture' media-type='application/xhtml+xml' />
 <item href='rear-5-history-destiny.xhtml' id='xdestiny' media-type='application/xhtml+xml' />
-<item href='rear-5-map-abraham.xhtml' id='xabraham' media-type='application/xhtml+xml' />
-<item href='rear-6-map-exodus.xhtml' id='xexodus' media-type='application/xhtml+xml' />
-<item href='rear-7-map-jesus.xhtml' id='xjesus' media-type='application/xhtml+xml' />
-<item href='rear-8-map-paul.xhtml' id='xpaul' media-type='application/xhtml+xml' />
-<item href='rear-9-map-world.xhtml' id='xworld' media-type='application/xhtml+xml' />
+<item href='rear-6-map-abraham.xhtml' id='xabraham' media-type='application/xhtml+xml' />
+<item href='rear-7-map-exodus.xhtml' id='xexodus' media-type='application/xhtml+xml' />
+<item href='rear-8-map-jesus.xhtml' id='xjesus' media-type='application/xhtml+xml' />
+<item href='rear-9-map-paul.xhtml' id='xpaul' media-type='application/xhtml+xml' />
+<item href='rear-10-map-world.xhtml' id='xworld' media-type='application/xhtml+xml' />
 <item href='images/COVER.jpg' id='cover' media-type='image/jpeg' properties='cover-image' />
 <item href='images/BOOK-Life-Time-Entirety-A-Study-of-AION-Heleen-Keizer.jpg' id='img_book_keizer' media-type='image/jpeg' />
 <item href='images/BOOK-Terms-for-Eternity-Aionios-and-Aidios-in-Classical-and-Christian-Texts-Ramelli-Konstan.jpg' id='img_book_ramelli' media-type='image/jpeg' />
@@ -902,11 +903,11 @@ $ncx_old$ncx_new<navPoint id='nav{$ff($cnE+0)}' playOrder='{$ff($cnE+0)}'><navLa
 <navPoint id='nav{$ff($cnE+3)}' playOrder='{$ff($cnE+3)}'><navLabel><text>History Past</text></navLabel><content src='rear-3-history-past.xhtml' /></navPoint>
 <navPoint id='nav{$ff($cnE+4)}' playOrder='{$ff($cnE+4)}'><navLabel><text>History Future</text></navLabel><content src='rear-4-history-future.xhtml' /></navPoint>
 <navPoint id='nav{$ff($cnE+5)}' playOrder='{$ff($cnE+5)}'><navLabel><text>Destiny</text></navLabel><content src='rear-5-history-destiny.xhtml' /></navPoint>
-<navPoint id='nav{$ff($cnE+6)}' playOrder='{$ff($cnE+6)}'><navLabel><text>Abraham</text></navLabel><content src='rear-5-map-abraham.xhtml' /></navPoint>
-<navPoint id='nav{$ff($cnE+7)}' playOrder='{$ff($cnE+7)}'><navLabel><text>Exodus</text></navLabel><content src='rear-6-map-exodus.xhtml' /></navPoint>
-<navPoint id='nav{$ff($cnE+8)}' playOrder='{$ff($cnE+8)}'><navLabel><text>Jesus</text></navLabel><content src='rear-7-map-jesus.xhtml' /></navPoint>
-<navPoint id='nav{$ff($cnE+9)}' playOrder='{$ff($cnE+9)}'><navLabel><text>Paul</text></navLabel><content src='rear-8-map-paul.xhtml' /></navPoint>
-<navPoint id='nav{$ff($cnE+10)}' playOrder='{$ff($cnE+10)}'><navLabel><text>World</text></navLabel><content src='rear-9-map-world.xhtml' /></navPoint>
+<navPoint id='nav{$ff($cnE+6)}' playOrder='{$ff($cnE+6)}'><navLabel><text>Abraham</text></navLabel><content src='rear-6-map-abraham.xhtml' /></navPoint>
+<navPoint id='nav{$ff($cnE+7)}' playOrder='{$ff($cnE+7)}'><navLabel><text>Exodus</text></navLabel><content src='rear-7-map-exodus.xhtml' /></navPoint>
+<navPoint id='nav{$ff($cnE+8)}' playOrder='{$ff($cnE+8)}'><navLabel><text>Jesus</text></navLabel><content src='rear-8-map-jesus.xhtml' /></navPoint>
+<navPoint id='nav{$ff($cnE+9)}' playOrder='{$ff($cnE+9)}'><navLabel><text>Paul</text></navLabel><content src='rear-9-map-paul.xhtml' /></navPoint>
+<navPoint id='nav{$ff($cnE+10)}' playOrder='{$ff($cnE+10)}'><navLabel><text>World</text></navLabel><content src='rear-10-map-world.xhtml' /></navPoint>
 </navMap>
 </ncx>
 EOF;
@@ -1022,7 +1023,7 @@ $G_COMMENT
 
 <p>The next seven words are <a href='rear-2-glossary.xhtml#h7585' title='Aionian Glossary h7585'><i>Sheol</i></a>, <a href='rear-2-glossary.xhtml#g86' title='Aionian Glossary g86'><i>Hadēs</i></a>, <a href='rear-2-glossary.xhtml#g1067' title='Aionian Glossary g1067'><i>Geenna</i></a>, <a href='rear-2-glossary.xhtml#g5020' title='Aionian Glossary g5020'><i>Tartaroō</i></a>, <a href='rear-2-glossary.xhtml#g12' title='Aionian Glossary g12'><i>Abyssos</i></a>, and <a href='rear-2-glossary.xhtml#g3041' title='Aionian Glossary g3041 g4442'><i>Limnē Pyr</i></a>. These words are often translated as <i>Hell</i>, the place of eternal punishment. However, <i>Hell</i> is ill-defined when compared with the Hebrew and Greek. For example, <i>Sheol</i> is the abode of deceased believers and unbelievers and should never be translated as <i>Hell</i>. <i>Hadēs</i> is a temporary place of punishment, {$links->X_REV_20}. <i>Geenna</i> is the Valley of Hinnom, Jerusalem's refuse dump, a temporal judgment for sin. <i>Tartaroō</i> is a prison for demons, mentioned once in {$links->X_2PE_2}. <i>Abyssos</i> is a temporary prison for the Beast and Satan. Translators are also inconsistent because <i>Hell</i> is used by the <a href='https://www.kingjamesbibleonline.org/' title='View the King James Version Bible' target='_blank'>King James Version</a> fifty-four times, the <a href='https://www.thenivbible.com/' target='_blank' title='View the New International Version Bible'>New International Version</a> fourteen times, and the <a href='https://ebible.org/web/' title='View the World English Bible' target='_blank'>World English Bible</a> zero times. Finally, <i>Limnē Pyr</i> is the Lake of Fire, yet {$links->X_MAT_25} explains that these fires are <a href='rear-5-history-destiny.xhtml' title='Matthew 25:41 and the Lake of Fire'>prepared for the Devil and his angels</a>. So there is reason to review our conclusions about the destinies of redeemed mankind and fallen angels.</p>
 
-<p>The eleventh word, <a href='rear-2-glossary.xhtml#g1653' title='Aionian Glossary g1653'><i>eleēsē</i></a>, reveals the grand conclusion of grace in {$links->X_ROM_11}. Please understand these eleven words. The original translation is unaltered and a highlighted note is added to 64 Old Testament and 200 New Testament verses. Also to help parallel study and Strong's Concordance use, apocryphal text is removed and most variant verse numbering is mapped to the English standard. The Aionian Bible republishes public domain and Creative Commons Bible texts. We thank our sources at <a href='https://ebible.org' target='_blank' title='Visit eBible.org, a DBA of Wycliffe, Inc, founded by Michael Paul Johnson'>eBible.org</a>, <a href='https://crosswire.org' target='_blank' title='Visit the Crosswire Bible Society'>Crosswire.org</a>, <a href='https://unbound.biola.edu' target='_blank' title='Visit the Biola University Unbound Bible Project'>unbound.Biola.edu</a>, <a href='https://bible4u.net/' target='_blank' title='Bible4U Uncensored Bible'>Bible4U.net</a>, and <a href='https://NHEB.net' target='_blank' title='Visit the New Heart English Bible'>NHEB.net</a>. The Aionian Bible is copyrighted with the <a href='https://creativecommons.org/licenses/by/4.0' target='_blank' title='Visit Copyright definition'>Creative Commons Attribution 4.0 International</a> license, allowing 100% freedom to copy and print, if respecting source text copyrights. Review the <a href='rear-1-readers-guide.xhtml' title='Readers guide for the Aionian Bible'>Reader's Guide</a>, <a href='rear-1b-project-history.xhtml' title='Project history for the Aionian Bible'>Project History</a>, <a href='rear-5-map-abraham.xhtml' title='Maps and Illustations'>Maps</a>, and <a href='rear-3-history-past.xhtml' title='Timelines and Illustations'>Timelines</a>. Read <a href='https://www.aionianbible.org' title='Read and Study Bible'>online</a> with the <a href='https://www.aionianbible.org/Google-Play' target='_blank' title='Aionian Bible free online at Google Play'>Android</a> and <a href='https://www.aionianbible.org/AppleApp' title='iPhone Apple App' target='_blank'>Apple App</a>, also the <a href='https://www.aionianbible.org/TOR' target='_blank' title='TOR Network'>TOR Network</a>, and buy Bibles at <a href='https://www.aionianbible.org/Buy' title='Holy Bible Aionian Edition at Amazon.com and Lulu.com' target='_blank'>Amazon.com and Lulu.com</a>.Follow at <a href='https://www.AionianBible.org/Facebook' target='_blank' title='Visit the Aionian Bible on Facebook'>Facebook/AionianBible</a>, help <a href='https://www.AionianBible.org/Promote' target='_blank' title='Promote, Sponsor, Advertise, Market'>Promote</a> and <a href='https://www.AionianBible.org/Third-Party-Publisher-Resources' target='_blank' title='Third Party Publisher Resources'>Publish</a>, review the <a href='https://www.AionianBible.org/Privacy' target='_blank' title='Privacy Policy'>Privacy Policy</a>, and contact the  <a href='https://www.AionianBible.org/Publisher' target='_blank' title='Contact Nainoia, Inc'>Publisher</a>.  The <a href='https://www.AionianBible.org/Bibles/English---Aionian-Bible' target='_blank' title='Holy Bible Aionian Edition: Aionian Bible'><span class='notranslate'>Aionian</span>  Bible</a> is the recommended English translation. All profits are given to <a href='https://CoolCup.org' target='_blank' title='Cool Cup of Water Project'>CoolCup.org</a>.</p>
+<p>The eleventh word, <a href='rear-2-glossary.xhtml#g1653' title='Aionian Glossary g1653'><i>eleēsē</i></a>, reveals the grand conclusion of grace in {$links->X_ROM_11}. Please understand these eleven words. The original translation is unaltered and a highlighted note is added to 64 Old Testament and 200 New Testament verses. Also to help parallel study and Strong's Concordance use, apocryphal text is removed and most variant verse numbering is mapped to the English standard. The Aionian Bible republishes public domain and Creative Commons Bible texts. We thank our sources at <a href='https://ebible.org' target='_blank' title='Visit eBible.org, a DBA of Wycliffe, Inc, founded by Michael Paul Johnson'>eBible.org</a>, <a href='https://crosswire.org' target='_blank' title='Visit the Crosswire Bible Society'>Crosswire.org</a>, <a href='https://unbound.biola.edu' target='_blank' title='Visit the Biola University Unbound Bible Project'>unbound.Biola.edu</a>, <a href='https://bible4u.net/' target='_blank' title='Bible4U Uncensored Bible'>Bible4U.net</a>, and <a href='https://NHEB.net' target='_blank' title='Visit the New Heart English Bible'>NHEB.net</a>. The Aionian Bible is copyrighted with the <a href='https://creativecommons.org/licenses/by/4.0' target='_blank' title='Visit Copyright definition'>Creative Commons Attribution 4.0 International</a> license, allowing 100% freedom to copy and print, if respecting source text copyrights. Review the <a href='rear-1-readers-guide.xhtml' title='Readers guide for the Aionian Bible'>Reader's Guide</a>, <a href='rear-1b-project-history.xhtml' title='Project history for the Aionian Bible'>Project History</a>, <a href='rear-6-map-abraham.xhtml' title='Maps and Illustations'>Maps</a>, and <a href='rear-3-history-past.xhtml' title='Timelines and Illustations'>Timelines</a>. Read <a href='https://www.aionianbible.org' title='Read and Study Bible'>online</a> with the <a href='https://www.aionianbible.org/Google-Play' target='_blank' title='Aionian Bible free online at Google Play'>Android</a> and <a href='https://www.aionianbible.org/AppleApp' title='iPhone Apple App' target='_blank'>Apple App</a>, also the <a href='https://www.aionianbible.org/TOR' target='_blank' title='TOR Network'>TOR Network</a>, and buy Bibles at <a href='https://www.aionianbible.org/Buy' title='Holy Bible Aionian Edition at Amazon.com and Lulu.com' target='_blank'>Amazon.com and Lulu.com</a>.Follow at <a href='https://www.AionianBible.org/Facebook' target='_blank' title='Visit the Aionian Bible on Facebook'>Facebook/AionianBible</a>, help <a href='https://www.AionianBible.org/Promote' target='_blank' title='Promote, Sponsor, Advertise, Market'>Promote</a> and <a href='https://www.AionianBible.org/Third-Party-Publisher-Resources' target='_blank' title='Third Party Publisher Resources'>Publish</a>, review the <a href='https://www.AionianBible.org/Privacy' target='_blank' title='Privacy Policy'>Privacy Policy</a>, and contact the  <a href='https://www.AionianBible.org/Publisher' target='_blank' title='Contact Nainoia, Inc'>Publisher</a>.  The <a href='https://www.AionianBible.org/Bibles/English---Aionian-Bible' target='_blank' title='Holy Bible Aionian Edition: Aionian Bible'><span class='notranslate'>Aionian</span>  Bible</a> is the recommended English translation. All profits are given to <a href='https://CoolCup.org' target='_blank' title='Cool Cup of Water Project'>CoolCup.org</a>.</p>
 
 <p>Why purple? King Jesus’ Word is royal and purple is the color of royalty!</p>
 
@@ -1122,11 +1123,11 @@ $intro_old$index_old$intro_new$index_new$outro_new<li class='olend' value='1'><a
 <li class='olinA'><a href='rear-3-history-past.xhtml' title='View chart of history past'>History Past</a></li>
 <li class='oline'><a href='rear-4-history-future.xhtml' title='View chart of history future'>History Future</a></li>
 <li class='oline'><a href='rear-5-history-destiny.xhtml' title='View explanation of mankinds destiny'>$W_DESTINY</a></li>
-<li class='olinA' value='4'><a href='rear-5-map-abraham.xhtml' title='View map of Abrahams Journeys'>Abraham's Journeys</a></li>
-<li class='oline'><a href='rear-6-map-exodus.xhtml' title='View map of Israels Exodus'>Israel's Exodus</a></li>
-<li class='oline'><a href='rear-7-map-jesus.xhtml' title='View map of Jesus Journeys'>Jesus' Journeys</a></li>
-<li class='oline'><a href='rear-8-map-paul.xhtml' title='View map of Pauls Missionary Journeys'>Paul's Missionary Journeys</a></li>
-<li class='oline'><a href='rear-9-map-world.xhtml' title='View map of World Nations'>World Nations</a></li>
+<li class='olinA' value='4'><a href='rear-6-map-abraham.xhtml' title='View map of Abrahams Journeys'>Abraham's Journeys</a></li>
+<li class='oline'><a href='rear-7-map-exodus.xhtml' title='View map of Israels Exodus'>Israel's Exodus</a></li>
+<li class='oline'><a href='rear-8-map-jesus.xhtml' title='View map of Jesus Journeys'>Jesus' Journeys</a></li>
+<li class='oline'><a href='rear-9-map-paul.xhtml' title='View map of Pauls Missionary Journeys'>Paul's Missionary Journeys</a></li>
+<li class='oline'><a href='rear-10-map-world.xhtml' title='View map of World Nations'>World Nations</a></li>
 </ol>
 </nav>
 <nav epub:type='landmarks' class='hidden' hidden='hidden'>
@@ -1180,7 +1181,7 @@ $G_COMMENT
 
 <p>The Holy Spirit is the best writer and he uses literary devices such as introductions, conclusions, paragraphs, and metaphors. He also writes various genres including historical narrative, prose, and poetry. So Bible study must spiritually discern and understand literature. Pray, read, observe, interpret, and apply. Finally, <i>"Do your best to present yourself approved by God, a worker who does not need to be ashamed, properly handling the word of truth."</i> {$links->X_2TI_2}. <i>"God has granted to us his precious and exceedingly great promises; that through these you may become partakers of the divine nature, having escaped from the corruption that is in the world by lust. Yes, and for this very cause adding on your part all diligence, in your faith supply moral excellence; and in moral excellence, knowledge; and in knowledge, self-control; and in self-control patience; and in patience godliness; and in godliness brotherly affection; and in brotherly affection, love. For if these things are yours and abound, they make you to be not idle nor unfruitful to the knowledge of our Lord Jesus Christ.</i> {$links->X_2PE_1}.</p>
 
-<p><a href='rear-5-map-abraham.xhtml' title='Middle Eastern and Mediterranean Bible maps'>Middle Eastern and Mediterranean maps</a> and <a href='rear-3-history-past.xhtml' title='Bible timelines and Church history charts'>Bible timelines and Church history charts</a> are also available to help your study.</p>
+<p><a href='rear-6-map-abraham.xhtml' title='Middle Eastern and Mediterranean Bible maps'>Middle Eastern and Mediterranean maps</a> and <a href='rear-3-history-past.xhtml' title='Bible timelines and Church history charts'>Bible timelines and Church history charts</a> are also available to help your study.</p>
 
 <p><a href='index.xhtml' title='Table of Contents'>TOC</a></p>
 </body>
