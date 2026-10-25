@@ -1,6 +1,5 @@
 <?php
 require_once('./aion_common.php');
-use \ForceUTF8\Encoding;
 
 // TODO NOTES
 // Uncomment the lines to allow copying the latest git hub report
@@ -371,7 +370,6 @@ $htmlheader = <<<EOT
 <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0">
 <meta name='apple-mobile-web-app-capable' content='yes'>
 <meta name="generator" content="ABCMS™">
-<meta http-equiv='x-ua-compatible' content='ie=edge'>
 <style>
 	body { padding: 50px;}
 	div.head { margin: 20px; }
@@ -616,7 +614,6 @@ $htmlheader = <<<EOT
 <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0">
 <meta name='apple-mobile-web-app-capable' content='yes'>
 <meta name="generator" content="ABCMS™">
-<meta http-equiv='x-ua-compatible' content='ie=edge'>
 <style>
 	body { padding: 50px;}
 	div.head { margin: 20px; }
@@ -931,13 +928,13 @@ function AION_NEWSTRONGS_GET_PREPH($file, $fout) {
 		
 		AION_ECHO("WARN! $newmess !mb_detect_encoding()");
 		if (file_put_contents( "$file.UTF8-BAD", $contents ) === FALSE ) { AION_ECHO("ERROR! $newmess !file_put_contents()"); }
-		$contents = Encoding::toUTF8($contents);
+		$contents = fixUTF8($contents);
 		if (mb_detect_encoding($contents, "UTF-8", TRUE) === FALSE ) { AION_ECHO("ERROR! $newmess !mb_detect_encoding()"); }
 		if (file_put_contents( $file, $contents ) === FALSE ) { AION_ECHO("ERROR! $newmess !file_put_contents()"); }
 		
 	}
 	else {
-		$contents2 = Encoding::toUTF8($contents);
+		$contents2 = fixUTF8($contents);
 		if ($contents2 != $contents && file_put_contents( "$file.UTF8-DIFF", $contents2 ) === FALSE ) { AION_ECHO("ERROR! $newmess !file_put_contents()"); }
 		unset($contents2);
 	}
@@ -1139,13 +1136,13 @@ function AION_NEWSTRONGS_GET_PREP($file,$fout) {
 		AION_ECHO("ERROR! $newmess !mb_detect_encoding()");
 		/*
 		if (file_put_contents( "$file.UTF8-BAD", $contents ) === FALSE ) { AION_ECHO("ERROR! $newmess !file_put_contents()"); }
-		$contents = Encoding::toUTF8($contents);
+		$contents = fixUTF8($contents);
 		if (mb_detect_encoding($contents, "UTF-8", TRUE) === FALSE ) { AION_ECHO("ERROR! $newmess !mb_detect_encoding()"); }
 		if (file_put_contents( $file, $contents ) === FALSE ) { AION_ECHO("ERROR! $newmess !file_put_contents()"); }
 		*/
 	}
 	else {
-		$contents2 = Encoding::toUTF8($contents);
+		$contents2 = fixUTF8($contents);
 		if ($contents2 != $contents && file_put_contents( "$file.UTF8-DIFF", $contents2 ) === FALSE ) { AION_ECHO("ERROR! $newmess !file_put_contents()"); }
 		unset($contents2);
 	}
@@ -1497,7 +1494,6 @@ function AION_NEWSTRONGS_GET_FIX_LEX($file, &$lines, &$database, $morph_array, $
 <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0">
 <meta name='apple-mobile-web-app-capable' content='yes'>
 <meta name="generator" content="ABCMS™">
-<meta http-equiv='x-ua-compatible' content='ie=edge'>
 <style>
 	body { padding: 50px;}
 	div.head { margin: 20px; }

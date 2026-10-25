@@ -1,6 +1,4 @@
 <?php
-use \ForceUTF8\Encoding;
-
 function AION_BIBLES_RAWFIX($args, $bible, $type, $file, $vpl, $sword, $unbound, &$bfile, $raw_orig, $raw_fixed, $raw_tags, &$rawcheck) {
 // fix custom file issues before processing
 // specials = \^$.|?*+[(){}
@@ -9,7 +7,7 @@ function AION_BIBLES_RAWFIX($args, $bible, $type, $file, $vpl, $sword, $unbound,
 
 // READ FILE and UTF8 ENCODE BEFORE CHANGES
 if (!($bfile = file_get_contents($file))) { AION_ECHO("ERROR! Problem reading: $file"); }
-$bfile = Encoding::toUTF8($bfile);
+$bfile = fixUTF8($bfile);
 
 
 // ONE SPACE
@@ -1148,12 +1146,6 @@ goto RAWHIDE;
 
 
 
-// RAWFIX BIBLE ********************
-case "Holy-Bible---Chin-Matu---Matupi-Chin-2019" :
-//if (!($bfile = preg_replace("/\|strong=\"[GH]{1}\d+\"/us","",$bfile,-1,$rnum)) || $rnum!=531) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
-goto RAWHIDE;
-
-
 
 // RAWFIX BIBLE ********************
 case "Holy-Bible---Chin-Matu---Matupi-Chin-Bible" :
@@ -2124,7 +2116,7 @@ goto RAWHIDE;
 // RAWFIX BIBLE ********************
 // „orig-quotes‟  “new-quotes”
 case "Holy-Bible---Danish---Danish-1871-1907" :
-//if (!($bfile = preg_replace("/\x{201e}/us","“",$bfile,-1,$rnum)) || $rnum!=1869) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+//if (!($bfile = preg_replace("/\x{201e}/us","“",$bfile,-1,$rnum)) || $rnum!=1869) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); } // allow under quote
 if (!($bfile = preg_replace("/\x{201f}/us","”",$bfile,-1,$rnum)) || $rnum!=1860) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 if (!($bfile = preg_replace("/^([^ ]+ [\d:]+ )0/mus",'$1O',$bfile,-1,$rnum)) || $rnum!=3) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $bfile_saved = $bfile;
@@ -2319,7 +2311,7 @@ goto RAWHIDE;
 // RAWFIX BIBLE ********************
 // „orig-quotes‟  “new-quotes”
 case "Holy-Bible---Danish---Danish-1931-1907" :
-//if (!($bfile = preg_replace("/\x{201e}/us","“",$bfile,-1,$rnum)) || $rnum!=1722) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+//if (!($bfile = preg_replace("/\x{201e}/us","“",$bfile,-1,$rnum)) || $rnum!=1722) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); } // allow under quote
 if (!($bfile = preg_replace("/\x{201f}/us","”",$bfile,-1,$rnum)) || $rnum!=1719) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $bfile_saved = $bfile;
 $blockfix = <<<EOF
@@ -7344,6 +7336,11 @@ $textfix = <<<EOF
 EOF;
 if (!($bfile = preg_replace("/2TI 4:9 (.+?)2TI 4:11 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $textfix = <<<EOF
+1JO 4:16 Et nous avons connu et nous avons cru la charité que Dieu a en nous. Dieu est charité, et celui qui demeure dans la charité demeure en Dieu, et Dieu en lui.
+1JO 4:17 
+EOF;
+if (!($bfile = preg_replace("/1JO 4:16 (.+?)1JO 4:17 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+$textfix = <<<EOF
 REV 20:9 mais Dieu fit tomber un feu du ciel qui les dévora.
 REV 20:10 Et le diable, leur séducteur, fut jeté dans l’étang de feu et de soufre, où sont la bête et le faux prophète, et ils seront tourmentés jour et nuit aux siècles des siècles.
 REV 20:11 
@@ -8400,8 +8397,8 @@ goto RAWHIDE;
 
 // RAWFIX BIBLE ********************
 case "Holy-Bible---German---German-Elberfelder-1871" :
-if (!($bfile = preg_replace("//us","",$bfile,-1,$rnum)) || $rnum!=272) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); } // https://unicodelookup.com/#%C2%92/1
-if (!($bfile = preg_replace("//us","",$bfile,-1,$rnum)) || $rnum!=306) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); } // https://unicodelookup.com/#%C2%85/1
+if (!($bfile = preg_replace("//us","",$bfile,-1,$rnum)) || $rnum!=0) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); } // https://unicodelookup.com/#%C2%92/1
+if (!($bfile = preg_replace("//us","",$bfile,-1,$rnum)) || $rnum!=32) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); } // https://unicodelookup.com/#%C2%85/1
 if (!($bfile = preg_replace("/\(/us","[",$bfile,-1,$rnum)) || $rnum!=10314) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 if (!($bfile = preg_replace("/\)/us","]",$bfile,-1,$rnum)) || $rnum!=10309) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $bfile_saved = $bfile;
@@ -13406,7 +13403,7 @@ if (!($bfile = preg_replace("/[{}]+/us",'',$bfile,-1,$rnum)) || $rnum!=1) { AION
 if (!($bfile = preg_replace("/&#x[A-Za-z0-9]{1,4};[ ]*/us",'',$bfile,-1,$rnum)) || $rnum!=226) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $bfile_saved = $bfile;
 if (!($bfile2 = file_get_contents($file2="../www-stageresources/Holy-Bible---Japanese---Japanese-Meiji-yaku---Source-Edition.SWORD.txt"))) { AION_ECHO("ERROR! Rawfix problem reading: $file2"); }
-$bfile2 = Encoding::toUTF8($bfile2);
+$bfile2 = fixUTF8($bfile2);
 if (!($bfile2 = preg_replace('/<[^<>\n]*>/us','',$bfile2,-1))) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $file"); }
 if (!($bfile2 = preg_replace('/<[^<>\n]*>/us','',$bfile2,-1))) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $file"); }
 if (!($bfile2 = preg_replace('/&#x[A-Za-z0-9]{1,4};[ ]*/us','',$bfile2,-1))) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $file"); }
@@ -13415,7 +13412,7 @@ if (!($bfile = preg_replace("/Ecclesiastes 1:1 /us",$matches[0],$bfile,-1,$rnum)
 if (!preg_match("/Psalms 130:1 (.+?)Psalms 140:1 /us",$bfile2,$matches) || empty($matches[0])) { AION_ECHO("ERROR! Rawfix preg_match(PSA): $file2"); }		
 if (!($bfile = preg_replace("/Psalms 140:1 /us",$matches[0],$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 if (!($bfile2 = file_get_contents($file2="../www-stageresources/Holy-Bible---Japanese---Japanese-Bungo-yaku---Source-Edition.SWORD.txt"))) { AION_ECHO("ERROR! Rawfix problem reading: $file2"); }
-$bfile2 = Encoding::toUTF8($bfile2);
+$bfile2 = fixUTF8($bfile2);
 if (!($bfile2 = preg_replace('/<[^<>\n]*>/us','',$bfile2,-1))) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $file"); }
 if (!($bfile2 = preg_replace('/<[^<>\n]*>/us','',$bfile2,-1))) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $file"); }
 if (!($bfile2 = preg_replace('/&#x[A-Za-z0-9]{1,4};[ ]*/us','',$bfile2,-1))) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $file"); }
@@ -13448,7 +13445,7 @@ case "Holy-Bible---Japanese---Japanese-Meiji-yaku" :
 if (!($bfile = preg_replace("/\\\\/us",'',$bfile,-1,$rnum)) || $rnum!=2) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $bfile_saved = $bfile;
 if (!($bfile2 = file_get_contents($file2="../www-stageresources/Holy-Bible---Japanese---Japanese-Kougo-yaku---Source-Edition.SWORD.txt"))) { AION_ECHO("ERROR! Rawfix problem reading: $file2"); }
-$bfile2 = Encoding::toUTF8($bfile2);
+$bfile2 = fixUTF8($bfile2);
 if (!($bfile2 = preg_replace('/<[^<>\n]*>/us','',$bfile2,-1))) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $file"); }
 if (!($bfile2 = preg_replace('/<[^<>\n]*>/us','',$bfile2,-1))) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $file"); }
 if (!($bfile2 = preg_replace('/&#x[A-Za-z0-9]{1,4};[ ]*/us','',$bfile2,-1))) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $file"); }
@@ -21450,7 +21447,7 @@ goto RAWHIDE;
 // RAWFIX BIBLE ********************
 case "Holy-Bible---Tagalog---Tagalog-Bible-Unlocked" :
 if (!($bfile = preg_replace("/ 18 Narinig/us"," Narinig",$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
-if (!($bfile = preg_replace("//us","",$bfile,-1,$rnum)) || $rnum!=24) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
+if (!($bfile = preg_replace("//us","",$bfile,-1,$rnum)) || $rnum!=3) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 if (!($bfile = preg_replace('/([A-Za-z]+)([\d]+,\s+\d+)/ui', '$1 $2',$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $bfile_saved = $bfile;
 $textfix = <<<EOF
@@ -21485,7 +21482,6 @@ if (!($bfile = preg_replace('/\x{94}/ui',"",$bfile,-1,$rnum)) || $rnum!=157) { A
 if (!($bfile = preg_replace('/\x{9b}/ui',"",$bfile,-1,$rnum)) || $rnum!=4) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $bfile_saved = $bfile;
 goto RAWHIDE;
-
 
 
 
@@ -22851,7 +22847,7 @@ goto RAWHIDE;
 
 // RAWFIX BIBLE ********************
 case "Holy-Bible---Vietnamese---Vietnamese-Bible-1934" :
-if (!($bfile = preg_replace('/[\x{80}\x{81}\x{87}\x{89}\x{8d}\x{91}\x{93}\x{95}\x{9b}\x{9d}\x{9f}]+/ui',"-",$bfile,-1,$rnum)) || $rnum!=17) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); } // https://unicodelookup.com
+if (!($bfile = preg_replace('/[\x{80}\x{81}\x{87}\x{89}\x{8d}\x{91}\x{93}\x{95}\x{9b}\x{9d}\x{9f}]+/ui',"-",$bfile,-1,$rnum)) || $rnum!=7) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); } // https://unicodelookup.com
 if (!($bfile = preg_replace("/ch@ ng/us","chàng", $bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 if (!($bfile = preg_replace("/Y-sơ-ra-@ªn/us","Y-sơ-ra-ên", $bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 if (!($bfile = preg_replace("/n@³i/us","nói", $bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
@@ -23023,7 +23019,7 @@ goto RAWHIDE;
 
 
 // RAWFIX BIBLE ********************
-case "Holy-Bible---Yaka---Ivatan-Bible" :
+case "Holy-Bible---Yaka---Congo-Bible" :
 $textfix = <<<EOF
 2CO 13:12 Dibihisini beni na beni mu litoono, weti bwafwaana kwaa bangaa imiini.
 2CO 13:13 Bangaa imiini boosi baheeri beni mabwee.

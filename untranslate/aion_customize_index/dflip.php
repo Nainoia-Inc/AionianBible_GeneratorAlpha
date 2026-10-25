@@ -75,6 +75,7 @@ Click <span style='color: #663399;'>purple button</span> below for full screen.<
 		</div>
 	</div>
 </div>
+</div>
 <!-- jQuery  -->
 <script src="./dflip/js/libs/jquery.min.js" type="text/javascript"></script>
 <!-- Flipbook main Js file -->

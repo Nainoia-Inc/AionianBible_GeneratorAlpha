@@ -37,6 +37,9 @@ POSSIBILITY OF SUCH DAMAGE.
  * @license  Revised BSD
   */
 
+echo "ForceUTF8 DEPRECATED!!!!\n";
+exit;
+
 namespace ForceUTF8;
 
 class Encoding {

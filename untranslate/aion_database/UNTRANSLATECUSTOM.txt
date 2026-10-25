@@ -1304,8 +1304,8 @@ Holy-Bible---Palaung-Shwe---Shwe-Palaung-Bible								NULL
 Holy-Bible---Panjabi---Punjabi-Bible								NULL
 Holy-Bible---Pengo---Pengo-Bible	061	2PE	002	017	NOTE			questioned
 Holy-Bible---Pengo---Pengo-Bible								NULL
-Holy-Bible---Persian---Old-Persion-Version-Bible	061	2PE	002	017	NOTE			questioned
-Holy-Bible---Persian---Old-Persion-Version-Bible								NULL
+Holy-Bible---Persian---Old-Persian-Version-Bible	061	2PE	002	017	NOTE			questioned
+Holy-Bible---Persian---Old-Persian-Version-Bible								NULL
 Holy-Bible---Persian---Open-Contemporary	066	REV	001	017	AIONS,HADES	g165,g86		NULL
 Holy-Bible---Persian---Open-Contemporary	066	REV	001	018	SKIP			NULL
 Holy-Bible---Persian---Open-Contemporary	066	REV	020	002	ABYSS	g12		NULL
@@ -2113,7 +2113,7 @@ Holy-Bible---Waja---Waja-Bible								NULL
 Holy-Bible---Wolio---Kitabi-Momangkilona-Bible	001	GEN	044	030	SHEOL	h7585		NULL
 Holy-Bible---Wolio---Kitabi-Momangkilona-Bible	001	GEN	044	031	SKIP			NULL
 Holy-Bible---Wolio---Kitabi-Momangkilona-Bible								NULL
-Holy-Bible---Yaka---Ivatan-Bible								NULL
+Holy-Bible---Yaka---Congo-Bible								NULL
 Holy-Bible---Yaka---Yaka-Bible								NULL
 Holy-Bible---Yalunka---Yalunka-Bible								NULL
 Holy-Bible---Yamap---Yamap-Bible								NULL

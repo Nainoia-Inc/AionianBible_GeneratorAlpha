@@ -70,7 +70,7 @@ EOF;
 	}
 	// return the dynamic webmanifest requested
 	else if ($type=='json') {
-		header('Content-Type: application/manifest+json;');
+		header('Content-Type: application/manifest+json');
 		echo <<<EOL
 {
 "dir"				: "ltr",
@@ -78,37 +78,46 @@ EOF;
 "name"				: "{$SubTitle}",
 "short_name"		: "{$Short}",
 "description"		: "Holy Bible Aionian Edition® {$SubTitle}, Progressive Web Application",
+"id"				: "{$match[1]}/{$match[2]}/",
 "start_url"			: "{$match[1]}/{$match[2]}/",
 "scope"				: "{$match[1]}/{$match[2]}/",
 "background_color"	: "#663399",
 "theme_color"		: "#663399",
-"display"			: "minimal-ui",
-"orientation"		: "portrait",
+"display"			: "standalone",
+"orientation"		: "any",
 "prefer_related_applications"	: false,
 "icons"			: [
 	{
-	"src"	: "{$match[1]}/{$match[2]}/pwa.192.png",
-	"type"	: "image/png",
-	"sizes"	: "192x192"
+	"src"		: "{$match[1]}/{$match[2]}/pwa.192.png",
+	"type"		: "image/png",
+	"sizes"		: "192x192",
+	"purpose"	: "any"
 	},
 	{
-	"src"	: "{$match[1]}/{$match[2]}/pwa.512.png",
-	"type"	: "image/png",
-	"sizes"	: "512x512"
+	"src"		: "{$match[1]}/{$match[2]}/pwa.512.png",
+	"type"		: "image/png",
+	"sizes"		: "512x512",
+	"purpose"	: "any"
+	},
+	{
+	"src"		: "{$match[1]}/{$match[2]}/pwa.512.png",
+	"type"		: "image/png",
+	"sizes"		: "512x512",
+	"purpose"	: "maskable"
 	}
 ],
 "screenshots": [
   {
     "src": "{$match[1]}/{$match[2]}/images/Aionian-Bible-PWA-Screenshot-Landscape.jpg",
     "sizes": "1301x708",
-    "type": "image/jpg",
+    "type": "image/jpeg",
     "form_factor": "wide",
     "label": "Aionian Bible home screen wide format"
   },
   {
     "src": "{$match[1]}/{$match[2]}/images/Aionian-Bible-PWA-Screenshot-Portrait.jpg",
     "sizes": "502x770",
-    "type": "image/jpg",
+    "type": "image/jpeg",
     "form_factor": "narrow",
     "label": "Aionian Bible home screen narrow format"
   }
@@ -264,7 +273,6 @@ echo <<< EOF
 <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="generator" content="ABCMS™">
-<meta http-equiv="x-ua-compatible" content="ie=edge">
 <meta property="og:url" content="https://www.aionianbible.org/pwa">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Holy Bible Aionian Edition® ~ PWA">

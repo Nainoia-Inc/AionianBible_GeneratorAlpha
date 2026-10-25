@@ -8,10 +8,12 @@
 #	-name "*Holy-Bible---BOOGEY-MAN*" \
 # Holy-Bible---Gourmantche---Gourma-Bible/Holy-Bible---Gourma---Gourma-Bible
 # Holy-Bible---Ahirani---Gospels/Holy-Bible---Ahirani---Ahirani-Bible
+# Holy-Bible---Persian---Old-Persion-Version-Bible/Holy-Bible---Persian---Old-Persian-Version-Bible
+# Holy-Bible---Yaka---Ivatan-Bible/Holy-Bible---Yaka---Congo-Bible
 
 find ../ \
 	\( \
-	-name "*Holy-Bible---Ahirani---Gospels*" \
+	-name "*Holy-Bible---Yaka---Ivatan-Bible*" \
 	\) \
 	-print \
 	| sort | tee aion_X_rename.nameorig
@@ -19,7 +21,7 @@ find ../ \
 # file newnames	
 cp aion_X_rename.nameorig aion_X_rename.namenew
 sed -i \
-	-e 's/Holy-Bible---Ahirani---Gospels/Holy-Bible---Ahirani---Ahirani-Bible/g' \
+	-e 's/Holy-Bible---Yaka---Ivatan-Bible/Holy-Bible---Yaka---Congo-Bible/g' \
 	aion_X_rename.namenew
 
 # file rename script	
@@ -34,7 +36,7 @@ grep -R -l \
 	--exclude=aion_X_rename* \
 	--exclude=*.zip \
 	--exclude=*.xls \
-	-e Ahirani---Gospels \
+	-e Yaka---Ivatan-Bible \
 	../ \
 	| sort | tee aion_X_rename.edit	
 
@@ -43,6 +45,6 @@ echo "
 cat aion_X_rename.edit |\
 xargs \
 sed -i \
-	-e 's/Ahirani---Gospels/Ahirani---Ahirani-Bible/g'
+	-e 's/Yaka---Ivatan-Bible/Yaka---Congo-Bible/g'
 " \
 | tee aion_X_rename.editdoit.1st

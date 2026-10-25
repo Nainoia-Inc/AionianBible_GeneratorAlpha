@@ -2,12 +2,12 @@
 BIBLE	INDEX	BOOK	CHAPTER	VERSE	MAP	FLAG
 # File Accuracy: Contact publisher with corrections to file format or content
 # File Copyright: Creative Commons Attribution 4.0 International, 2018-2026
-# File Date: 10/16/2026 21:45:40
+# File Date: 10/25/2026 03:14:57
 # File Generator: ABCMS (alpha)
 # File Location: https://resources.AionianBible.org
 # File Name: BOOKSCHAPTERS.txt
 # File Purpose: Supporting resource for the Aionian Bible project
-# File Size: 4137452     
+# File Size: 4136283     
 Holy-Bible---Abureni---Abureni-Bible	041	MAR	009	044	MISSING	MID
 Holy-Bible---Abureni---Abureni-Bible	041	MAR	009	046	MISSING	MID
 Holy-Bible---Ahirani---Ahirani-Bible	047	2CO	001	014	MISSING	MID
@@ -36060,27 +36060,7 @@ Holy-Bible---Hona---Hwana-Bible	042	LUK	017	036	MISSING	MID
 Holy-Bible---Hona---Hwana-Bible	042	LUK	023	017	MISSING	MID
 Holy-Bible---Hona---Hwana-Bible	044	ACT	015	034	MISSING	MID
 Holy-Bible---Hona---Hwana-Bible	044	ACT	024	007	MISSING	MID
-Holy-Bible---Hre---Hre-Bible	001	GEN	005	019	MISSING	MID
-Holy-Bible---Hre---Hre-Bible	001	GEN	008	019	MISSING	MID
-Holy-Bible---Hre---Hre-Bible	001	GEN	011	011	MISSING	MID
-Holy-Bible---Hre---Hre-Bible	001	GEN	011	012	MISSING	MID-SEQ
-Holy-Bible---Hre---Hre-Bible	001	GEN	011	013	MISSING	MID-SEQ
-Holy-Bible---Hre---Hre-Bible	001	GEN	011	014	MISSING	MID-SEQ
-Holy-Bible---Hre---Hre-Bible	001	GEN	012	005	MISSING	MID
-Holy-Bible---Hre---Hre-Bible	001	GEN	015	011	MISSING	MID
-Holy-Bible---Hre---Hre-Bible	001	GEN	018	008	MISSING	MID
-Holy-Bible---Hre---Hre-Bible	001	GEN	023	004	MISSING	MID
-Holy-Bible---Hre---Hre-Bible	001	GEN	023	006	MISSING	MID
-Holy-Bible---Hre---Hre-Bible	001	GEN	023	014	MISSING	MID
-Holy-Bible---Hre---Hre-Bible	001	GEN	024	065	MISSING	MID
-Holy-Bible---Hre---Hre-Bible	001	GEN	036	016	MISSING	MID
-Holy-Bible---Hre---Hre-Bible	001	GEN	041	054	MISSING	MID
-Holy-Bible---Hre---Hre-Bible	001	GEN	045	006	MISSING	MID
-Holy-Bible---Hre---Hre-Bible	002	EXO	007	010	MISSING	MID
 Holy-Bible---Hre---Hre-Bible	002	EXO	008	032	MISSING	END*
-Holy-Bible---Hre---Hre-Bible	002	EXO	011	010	MISSING	END*
-Holy-Bible---Hre---Hre-Bible	002	EXO	012	051	MISSING	END*
-Holy-Bible---Hre---Hre-Bible	003	LEV	014	050	MISSING	MID
 Holy-Bible---Hre---Hre-Bible	003	LEV	024	011	MISSING	MID
 Holy-Bible---Hre---Hre-Bible	003	LEV	026	003	MISSING	MID
 Holy-Bible---Hre---Hre-Bible	003	LEV	026	004	MISSING	MID-SEQ
@@ -43671,24 +43651,24 @@ Holy-Bible---Palaung-Shwe---Shwe-Palaung-Bible	041	MAR	015	028	MISSING	MID
 Holy-Bible---Palaung-Shwe---Shwe-Palaung-Bible	041	MAR	016	021	EXTRA	END*
 Holy-Bible---Palaung-Shwe---Shwe-Palaung-Bible	041	MAR	016	022	EXTRA	END-SEQ*
 Holy-Bible---Pengo---Pengo-Bible	047	2CO	013	014	MISSING	END*
-Holy-Bible---Persian---Old-Persion-Version-Bible	001	GEN	015	021	MISSING	END*
-Holy-Bible---Persian---Old-Persion-Version-Bible	001	GEN	021	029	MISSING	MID
-Holy-Bible---Persian---Old-Persion-Version-Bible	009	1SA	008	022	MISSING	END*
-Holy-Bible---Persian---Old-Persion-Version-Bible	010	2SA	024	025	MISSING	END*
-Holy-Bible---Persian---Old-Persion-Version-Bible	018	JOB	035	001	MISSING	MID
-Holy-Bible---Persian---Old-Persion-Version-Bible	018	JOB	040	001	MISSING	MID
-Holy-Bible---Persian---Old-Persion-Version-Bible	019	PSA	072	020	MISSING	END*
-Holy-Bible---Persian---Old-Persion-Version-Bible	019	PSA	094	005	MISSING	MID
-Holy-Bible---Persian---Old-Persion-Version-Bible	023	ISA	045	025	MISSING	END*
-Holy-Bible---Persian---Old-Persion-Version-Bible	026	EZE	006	005	MISSING	MID
-Holy-Bible---Persian---Old-Persion-Version-Bible	026	EZE	025	005	MISSING	MID
-Holy-Bible---Persian---Old-Persion-Version-Bible	040	MAT	002	017	MISSING	MID
-Holy-Bible---Persian---Old-Persion-Version-Bible	040	MAT	009	038	MISSING	END*
-Holy-Bible---Persian---Old-Persion-Version-Bible	043	JOH	005	004	MISSING	MID
-Holy-Bible---Persian---Old-Persion-Version-Bible	043	JOH	007	053	MISSING	END*
-Holy-Bible---Persian---Old-Persion-Version-Bible	045	ROM	016	024	MISSING	MID
-Holy-Bible---Persian---Old-Persion-Version-Bible	050	PHI	001	030	MISSING	END*
-Holy-Bible---Persian---Old-Persion-Version-Bible	062	1JO	003	023	MISSING	MID
+Holy-Bible---Persian---Old-Persian-Version-Bible	001	GEN	015	021	MISSING	END*
+Holy-Bible---Persian---Old-Persian-Version-Bible	001	GEN	021	029	MISSING	MID
+Holy-Bible---Persian---Old-Persian-Version-Bible	009	1SA	008	022	MISSING	END*
+Holy-Bible---Persian---Old-Persian-Version-Bible	010	2SA	024	025	MISSING	END*
+Holy-Bible---Persian---Old-Persian-Version-Bible	018	JOB	035	001	MISSING	MID
+Holy-Bible---Persian---Old-Persian-Version-Bible	018	JOB	040	001	MISSING	MID
+Holy-Bible---Persian---Old-Persian-Version-Bible	019	PSA	072	020	MISSING	END*
+Holy-Bible---Persian---Old-Persian-Version-Bible	019	PSA	094	005	MISSING	MID
+Holy-Bible---Persian---Old-Persian-Version-Bible	023	ISA	045	025	MISSING	END*
+Holy-Bible---Persian---Old-Persian-Version-Bible	026	EZE	006	005	MISSING	MID
+Holy-Bible---Persian---Old-Persian-Version-Bible	026	EZE	025	005	MISSING	MID
+Holy-Bible---Persian---Old-Persian-Version-Bible	040	MAT	002	017	MISSING	MID
+Holy-Bible---Persian---Old-Persian-Version-Bible	040	MAT	009	038	MISSING	END*
+Holy-Bible---Persian---Old-Persian-Version-Bible	043	JOH	005	004	MISSING	MID
+Holy-Bible---Persian---Old-Persian-Version-Bible	043	JOH	007	053	MISSING	END*
+Holy-Bible---Persian---Old-Persian-Version-Bible	045	ROM	016	024	MISSING	MID
+Holy-Bible---Persian---Old-Persian-Version-Bible	050	PHI	001	030	MISSING	END*
+Holy-Bible---Persian---Old-Persian-Version-Bible	062	1JO	003	023	MISSING	MID
 Holy-Bible---Persian---Open-Contemporary	001	GEN	005	004	MISSING	MID
 Holy-Bible---Persian---Open-Contemporary	001	GEN	005	005	MISSING	MID-SEQ
 Holy-Bible---Persian---Open-Contemporary	001	GEN	005	007	MISSING	MID
@@ -59989,21 +59969,21 @@ Holy-Bible---Wolio---Kitabi-Momangkilona-Bible	042	LUK	023	017	MISSING	MID
 Holy-Bible---Wolio---Kitabi-Momangkilona-Bible	044	ACT	001	022	MISSING	MID
 Holy-Bible---Wolio---Kitabi-Momangkilona-Bible	048	GAL	001	002	MISSING	MID
 Holy-Bible---Wolio---Kitabi-Momangkilona-Bible	048	GAL	004	025	MISSING	MID
-Holy-Bible---Yaka---Ivatan-Bible	041	MAR	003	008	MISSING	MID
-Holy-Bible---Yaka---Ivatan-Bible	041	MAR	005	003	MISSING	MID
-Holy-Bible---Yaka---Ivatan-Bible	041	MAR	009	044	MISSING	MID
-Holy-Bible---Yaka---Ivatan-Bible	041	MAR	009	046	MISSING	MID
-Holy-Bible---Yaka---Ivatan-Bible	041	MAR	011	026	MISSING	MID
-Holy-Bible---Yaka---Ivatan-Bible	041	MAR	015	028	MISSING	MID
-Holy-Bible---Yaka---Ivatan-Bible	043	JOH	004	002	MISSING	MID
-Holy-Bible---Yaka---Ivatan-Bible	043	JOH	004	003	MISSING	MID-SEQ
-Holy-Bible---Yaka---Ivatan-Bible	044	ACT	001	022	MISSING	MID
-Holy-Bible---Yaka---Ivatan-Bible	044	ACT	013	039	MISSING	MID
-Holy-Bible---Yaka---Ivatan-Bible	044	ACT	019	041	MISSING	END*
-Holy-Bible---Yaka---Ivatan-Bible	044	ACT	024	007	MISSING	MID
-Holy-Bible---Yaka---Ivatan-Bible	045	ROM	003	026	MISSING	MID
-Holy-Bible---Yaka---Ivatan-Bible	046	1CO	005	004	MISSING	MID
-Holy-Bible---Yaka---Ivatan-Bible	046	1CO	005	013	MISSING	END*
+Holy-Bible---Yaka---Congo-Bible	041	MAR	003	008	MISSING	MID
+Holy-Bible---Yaka---Congo-Bible	041	MAR	005	003	MISSING	MID
+Holy-Bible---Yaka---Congo-Bible	041	MAR	009	044	MISSING	MID
+Holy-Bible---Yaka---Congo-Bible	041	MAR	009	046	MISSING	MID
+Holy-Bible---Yaka---Congo-Bible	041	MAR	011	026	MISSING	MID
+Holy-Bible---Yaka---Congo-Bible	041	MAR	015	028	MISSING	MID
+Holy-Bible---Yaka---Congo-Bible	043	JOH	004	002	MISSING	MID
+Holy-Bible---Yaka---Congo-Bible	043	JOH	004	003	MISSING	MID-SEQ
+Holy-Bible---Yaka---Congo-Bible	044	ACT	001	022	MISSING	MID
+Holy-Bible---Yaka---Congo-Bible	044	ACT	013	039	MISSING	MID
+Holy-Bible---Yaka---Congo-Bible	044	ACT	019	041	MISSING	END*
+Holy-Bible---Yaka---Congo-Bible	044	ACT	024	007	MISSING	MID
+Holy-Bible---Yaka---Congo-Bible	045	ROM	003	026	MISSING	MID
+Holy-Bible---Yaka---Congo-Bible	046	1CO	005	004	MISSING	MID
+Holy-Bible---Yaka---Congo-Bible	046	1CO	005	013	MISSING	END*
 Holy-Bible---Yalunka---Yalunka-Bible	016	NEH	007	073	MISSING	END*
 Holy-Bible---Yalunka---Yalunka-Bible	023	ISA	064	012	MISSING	END*
 Holy-Bible---Yalunka---Yalunka-Bible	040	MAT	017	021	MISSING	MID

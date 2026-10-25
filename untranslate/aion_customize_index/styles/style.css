@@ -37,6 +37,7 @@ html,body	{ font-family: 'NotoSans', 'Arial', 'sans-serif', 'GentiumPlus'; }
 /*** BASE ***/
 html { height: 100%; }
 body { height: 100%; margin: 0; min-width: 360px; font-size: 100%; color: #191919; }
+h1 { font-size: 1.5rem; text-align: center; }
 h1, h2, h3, h4 { margin: 0 0 10px 0; }
 p, form { margin: 0 0 10px 0; }
 img { max-width: 100%; height: auto; }

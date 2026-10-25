@@ -52,7 +52,10 @@ echo
 echo "*** MAGA Spell Check ***"
 ./aion_X_spell.sh 2>&1 | tee aion_X_spell.out
 
-
+echo
+echo "*** MAGA UTF8 Audut ***"
+php ./regress_fixUTF8.php 2>&1 | tee regress_fixUTF8.out
+php ./audit_fixUTF8.php ../www-stageresources/*Aionian-Edition.noia 2>&1 | tee audit_fixUTF8.out
 
 echo
 date

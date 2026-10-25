@@ -10,11 +10,10 @@
 <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0"/>
 <meta name='apple-mobile-web-app-capable' content='yes'>
 <meta name="generator" content="ABCMS™">
-<meta http-equiv='x-ua-compatible' content='ie=edge'>
-<meta property="og:image" content="/images/MEME-AionianBible-The-Worlds-First-Bible-Untranslation-1.jpg"/>
-<meta property="og:image" content="/images/MEME-AionianBible-The-Worlds-First-Bible-Untranslation-2.jpg"/>
-<meta property="og:image" content="/images/MEME-AionianBible-The-Worlds-First-Bible-Untranslation-3.jpg"/>
-<meta property="og:image" content="/images/MEME-AionianBible-The-Worlds-First-Bible-Untranslation-4.jpg"/>
+<meta property="og:image" content="https://www.aionianbible.org/images/MEME-AionianBible-The-Worlds-First-Bible-Untranslation-1.jpg"/>
+<meta property="og:image" content="https://www.aionianbible.org/images/MEME-AionianBible-The-Worlds-First-Bible-Untranslation-2.jpg"/>
+<meta property="og:image" content="https://www.aionianbible.org/images/MEME-AionianBible-The-Worlds-First-Bible-Untranslation-3.jpg"/>
+<meta property="og:image" content="https://www.aionianbible.org/images/MEME-AionianBible-The-Worlds-First-Bible-Untranslation-4.jpg"/>
 <link rel='shortcut icon' href='/favicon.ico' type='image/x-icon'>
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">

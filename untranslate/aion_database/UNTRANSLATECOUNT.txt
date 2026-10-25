@@ -1,6 +1,6 @@
 # File Name: UNTRANSLATECOUNT.txt
-# File Size: 54076       
-# File Date: 10/16/2026 21:25:51
+# File Size: 54075       
+# File Date: 10/25/2026 02:58:53
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution 4.0 International, 2018-2026
@@ -394,7 +394,7 @@ Holy-Bible---Padoe---Padoe-Bible	0	0	0	1	0	2	1	0	0	6	3	2	0	0	0	0	15	14	14	0	250	
 Holy-Bible---Palaung-Shwe---Shwe-Palaung-Bible	0	0	0	3	0	0	0	0	0	2	1	4	0	0	0	0	10	8	8	0	256	0	0
 Holy-Bible---Panjabi---Punjabi-Bible	0	1	64	12	1	11	9	1	5	94	63	10	2	0	0	1	272	264	264	0	0	0	0
 Holy-Bible---Pengo---Pengo-Bible	0	0	0	12	1	11	9	1	5	91	59	10	2	0	1	0	201	194	193	0	71	0	1
-Holy-Bible---Persian---Old-Persion-Version-Bible	0	0	64	12	1	11	9	1	5	94	63	10	2	0	1	0	272	265	264	0	0	0	1
+Holy-Bible---Persian---Old-Persian-Version-Bible	0	0	64	12	1	11	9	1	5	94	63	10	2	0	1	0	272	265	264	0	0	0	1
 Holy-Bible---Persian---Open-Contemporary	0	0	64	12	1	11	9	1	5	94	63	10	2	0	2	0	272	264	262	2	0	0	2
 Holy-Bible---Pogolo---Pogoro-Bible	0	2	0	12	1	11	9	1	5	94	63	10	2	0	1	2	208	201	200	0	64	0	1
 Holy-Bible---Pohnpeian---Pohnpeian-NT-Psalms-New-Alphabet	0	0	15	12	1	11	9	1	5	94	63	10	2	0	1	0	223	216	215	0	49	0	1
@@ -543,7 +543,7 @@ Holy-Bible---Vwanji---Vwanji-Bible	0	0	0	12	1	11	9	1	5	93	63	10	2	0	1	0	207	200	
 Holy-Bible---Waddar---Waddar-Bible	0	0	0	4	0	5	1	0	0	24	16	6	0	0	0	0	56	53	53	0	211	0	0
 Holy-Bible---Waja---Waja-Bible	0	0	0	8	0	2	0	0	0	15	19	0	0	0	0	0	44	44	44	0	220	0	0
 Holy-Bible---Wolio---Kitabi-Momangkilona-Bible	0	0	19	12	0	11	8	1	5	71	46	10	0	0	1	0	183	175	174	1	89	0	1
-Holy-Bible---Yaka---Ivatan-Bible	0	0	0	12	1	11	9	1	5	94	63	10	2	0	0	0	208	200	200	0	64	0	0
+Holy-Bible---Yaka---Congo-Bible	0	0	0	12	1	11	9	1	5	94	63	10	2	0	0	0	208	200	200	0	64	0	0
 Holy-Bible---Yaka---Yaka-Bible	0	0	0	12	1	7	2	0	0	71	55	10	1	0	0	0	159	154	154	0	110	0	0
 Holy-Bible---Yalunka---Yalunka-Bible	0	0	64	12	1	11	9	1	5	94	63	10	2	0	0	0	272	264	264	0	0	0	0
 Holy-Bible---Yamap---Yamap-Bible	0	0	0	11	0	4	1	0	0	16	9	6	0	0	0	0	47	44	44	0	220	0	0

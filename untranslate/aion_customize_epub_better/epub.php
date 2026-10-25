@@ -8,11 +8,10 @@ if (!is_dir($epub_library)) { exit(header('Location: /epub-not-found',true,302))
 /* epub html */
 ?>
 <!DOCTYPE html>
-<html class="no-js">
+<html class="no-js" lang="en">
 <head>
-<title>Futurepress ePub ~ <?echo $epub;?></title>
+<title>Futurepress ePub</title>
 <meta charset="utf-8" />
-<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 <meta name="description" content="" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <meta name="apple-mobile-web-app-capable" content="yes" />

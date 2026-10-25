@@ -1,8 +1,6 @@
 <?php
 
 /*** init ***/
-use \ForceUTF8\Encoding;
-
 $punct_arrays = array(
 	'(',')','{','}','[',']','<','>','«','»',
 	"'",'"','‘','’','“','”','„',
@@ -50,7 +48,7 @@ function AION_LOOP_ANALYSIS_DOIT($args) {
 
 	// GET BIBLE, REMOVE COMMENTS AND EMPTY LINES
 	if (!($data_aionian = file_get_contents($file_aionian))) {												AION_ECHO("ERROR! Punctuation INIT file_get_contents($file_aionian)"); }
-	$data_aionian = Encoding::toUTF8($data_aionian);
+	$data_aionian = fixUTF8($data_aionian);
 	if(!($data_aionian=preg_replace('/^\h*\v+/um', '', $data_aionian))) {									AION_ECHO("ERROR! Punctuation INIT preg_replace(delete blanks) $file_aionian"); }
 	if(!($data_aionian=preg_replace('/^(#[^\v]*|INDEX\t[^\v]*)\v+/um', '', $data_aionian))) {				AION_ECHO("ERROR! Punctuation INIT preg_replace(delete comments) $file_aionian"); }
 

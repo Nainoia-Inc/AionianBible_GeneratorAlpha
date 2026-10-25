@@ -72,8 +72,10 @@ function AION_LOOP_PWA_DOIT($args) {
 	// GLOBALS
 	global $G_PWA, $G_LINKS, $G_BOOKS, $G_NUMBERS, $G_VERSIONS, $G_FORPRINT;
 	$G_PWA = new stdClass();
-	static $modified = NULL; if ($modified==NULL) { $modified = date("n/j/Y"); }
+	static $modyear;
+	static $modified = NULL; if ($modified==NULL) { $modified = date("n/j/Y"); $modyear = date("Y"); }
 	$G_PWA->modified = $modified;
+	$G_PWA->modyear  = $modyear;
 
 	// BIBLE
 	if (!preg_match("/\/Holy-Bible---(.*)---Aionian-Edition\.noia/", $args['filepath'], $matches)) {	AION_ECHO("ERROR! Failed to preg_match(Holy-Bible): ".$args['filepath']); }
@@ -283,7 +285,7 @@ EOF;
 			// Add NT intro to TOC
 			if (!$yes_nt && (int)$indx>39) {
 				$yes_nt = TRUE;
-				$G_PWA->bible_menu = trim($G_PWA->bible_menu," ,");
+				$G_PWA->bible_menu = trim($G_PWA->bible_menu?:''," ,");
 				if ($yes_ot) { $G_PWA->bible_menu .= "<br>"; }
 				$G_PWA->bible_menu .= "<br><b><a title='New Testament' href='?New' onclick=\"ABDO('New');return false;\">{$G_FORPRINT['W_NEW']}</a></b><br>";
 				$G_PWA->bible_map .= "'New':{$pageindex},"; // map
@@ -378,11 +380,11 @@ EOF;
 			$yes_ot = TRUE;
 			$G_PWA->bible_text .= <<< EOF
 `
-<h2 class='title'>
+<h1 class='title'>
 <a title='Previous Page' class='nav left' href='?Prev' onclick="ABDO('Prev');return false;"><span class="nav clt">&lt;</span></a>
 {$G_FORPRINT['W_OLD']}
 <a title='Next Page' class='nav right' href='?Next' onclick="ABDO('Next');return false;"><span class="nav cgt">&gt;</span></a>
-</h2>
+</h1>
 <div class="map"><img src="images/Gustave-Dore-Bible-Tour-Hebrew-OT-003-Adam-and-Eve-Are-Driven-out-of-Eden.jpg" alt="Adam and Eve are driven out of Eden"></div>
 {$G_FORPRINT['GEN3_24']}
 `,
@@ -435,11 +437,11 @@ EOF;
 				$yes_nt = TRUE;
 				$G_PWA->bible_text .= <<< EOF
 `
-<h2 class='title'>
+<h1 class='title'>
 <a title='Previous Page' class='nav left' href='?Prev' onclick="ABDO('Prev');return false;"><span class="nav clt">&lt;</span></a>
 {$G_FORPRINT['W_NEW']}
 <a title='Next Page' class='nav right' href='?Next' onclick="ABDO('Next');return false;"><span class="nav cgt">&gt;</span></a>
-</h2>
+</h1>
 <div class="map"><img src="images/Gustave-Dore-Bible-Tour-NT-Gospel-215-The-Crucifixion-of-Jesus-and-Two-Criminals.jpg" alt="The Crucifixion of Jesus and Two Criminals"></div>
 {$G_FORPRINT['LUK23_34']}
 `,
@@ -654,6 +656,7 @@ return $foreign_font;
 function AION_PWA_CONTENTS() {
 global $G_PWA, $G_LINKS, $G_BOOKS, $G_NUMBERS, $G_VERSIONS, $G_FORPRINT, $AION_PWA_IMAGE_PAGED;	
 return <<< EOF
+<!DOCTYPE html>
 <!-- Title: Holy Bible Aionian Edition® Progressive Web Application -->
 <!-- SubTitle: {$G_VERSIONS['NAMEENGLISH']} -->
 <!-- Short: {$G_VERSIONS['SHORT']} -->
@@ -680,7 +683,6 @@ return <<< EOF
 
 
 <!--////////////////////////////////////////////////////////////////////////////////////////////////////-->
-<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
@@ -691,7 +693,6 @@ return <<< EOF
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="generator" content="ABCMS™">
 <meta name="version" content="{$G_PWA->modified}">
-<meta http-equiv="x-ua-compatible" content="ie=edge">
 <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
 <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
@@ -746,6 +747,7 @@ html,body	{ font-family: 'NotoSans', 'Arial', 'sans-serif', 'GentiumPlus'; }
 /* BASE */
 html { height: 100%; }
 body { height: 100%; margin: 0; min-width: 360px; font-size: 100%; color: #191919; background-color: #F8F8F8; }
+h1 { font-size: 1.75em; }
 h1, h2, h3, h4 { margin: 0 0 10px 0; }
 p { margin: 0 0 10px 0; }
 img { max-width: 100%; height: auto; }
@@ -771,7 +773,7 @@ a:hover { color: #9966CC; }
 
 /* STICKY */
 #sticky-body, #sticky-push, #sticky-foot { margin: 0; padding: 0; }
-#sticky-body { min-height: 100%; height: auto !important; margin: 0 auto -33px auto; }
+#sticky-body { min-height: 100%; height: auto !important; margin: 0 auto -33px auto; background-color: #FFFFFF; }
 #sticky-push, #sticky-foot { height: 33px; clear: both; }
 :target:before { content:""; display:block; height:110px; margin:-110px 0 0; } /* static header target adjustment */
 
@@ -789,8 +791,8 @@ a:hover { color: #9966CC; }
 #upin.home { text-align: center; font-weight: bold; color: red; }
 
 /* PAGE HEAD */
-#page {	height: 100%; max-width: 1280px; margin: 0 auto; padding: 0 10px; background-color: #FFFFFF; }
-#head { position: fixed; width: 100%; max-width: 1280px; min-width: 360px; background-color: #FFFFFF; }
+#page {	height: 100%; max-width: 1280px; margin: 0 auto; padding: 0 10px; }
+#head { position: fixed; width: 100%; max-width: 1280px; min-width: 360px; }
 #head-hi { max-height: 42px; margin-top: 10px; padding: 2px 15px; border: 1px solid #663399; border-radius: 7px; background-color: #663399; overflow: hidden; }
 #logo { }
 #logo1 { display: inline-block !important; float: left; }
@@ -966,18 +968,19 @@ body.word-read #body { max-width: 1024px; margin: 0 auto; padding: 110px 3% 2% 3
 <div id='home1'>
 <a title="Return to last page read or TOC" href="?Bookmark" onclick="ABDO('Bookmark'); return false;">
 <div id='home2'>
-<h2 class='title'>
+<h1 class='title'>
 {$G_PWA->bible_title}<br>
 <span class='black'>Welcome to the <i>Holy&nbsp;Bible&nbsp;Aionian&nbsp;Edition<span class='RegisteredTM'>®</span></i></span>
-</h2>
+</h1>
 <div id="logo"><img src="images/Holy-Bible-Aionian-Edition-PURPLE-HOME.png" alt="Aionian Bible"></div>
 {$G_FORPRINT['JOH3_16']}
 <div id='moto'>
-One of the world's first Holy Bible <u>untranslations</u><br>
-One of three hundred seventy-six versions<br>
-One of one hundred sixty-five languages<br>
-Anonymous on TOR network<br>
+The world's first Holy Bible <u>untranslation</u><br>
+Two hundred ninety-two languages<br>
+Five hundred forty-four versions<br>
+9,719,052 Scripture verses<br>
 100% free to copy &amp; print<br>
+Anonymous on TOR<br>
 Updated {$G_PWA->modified}<br>
 <br>
 Also known as 'The Purple Bible'
@@ -1037,12 +1040,12 @@ const AB_Bible = [
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 // TOC - Table of Contents
 `
-<h2 class='title'>
+<h1 class='title'>
 <a title='Previous Page' class='nav left' href='?Prev' onclick="ABDO('Prev');return false;"><span class="nav clt">&lt;</span></a>
 {$G_FORPRINT['W_TOC']}
 <a title='Next Page' class='nav right' href='?Next' onclick="ABDO('Next');return false;"><span class="nav cgt">&gt;</span></a><br>
 <a title="Return to last page read or TOC" href="?Bookmark" onclick="ABDO('Bookmark'); return false;">{$G_PWA->bible_title}</a>
-</h2>
+</h1>
 <a title="AionianBible.org online"		href="https://www.AionianBible.org/Read" target="_blank">AionianBible.org for all Bibles</a><br>
 <div id='upin'></div>
 <a title="Copyright"					href="?Copyright"	onclick="ABDO('Copyright');	return false;">Copyright</a><br>
@@ -1078,14 +1081,14 @@ Swipe right and left to page.
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 // COPYRIGHT
 `
-<h2 class='title'>
+<h1 class='title'>
 <a title='Previous Page' class='nav left' href='?Prev' onclick="ABDO('Prev');return false;"><span class="nav clt">&lt;</span></a>
 Copyright
 <a title='Next Page' class='nav right' href='?Next' onclick="ABDO('Next');return false;"><span class="nav cgt">&gt;</span></a><br>
 <a title="Return to last page read or TOC" href="?Bookmark" onclick="ABDO('Bookmark'); return false;">{$G_PWA->bible_title}</a>
-</h2>
+</h1>
 Publisher: Nainoia Inc<br>
-Copyright: <a href='https://creativecommons.org/licenses/by/4.0/' target='_blank'>Creative Commons Attribution 4.0 International, 2018-2024</a><br>
+Copyright: <a href='https://creativecommons.org/licenses/by/4.0/' target='_blank'>Creative Commons Attribution 4.0 International, 2018-{$G_PWA->modyear}</a><br>
 Language: {$G_PWA->bible_lang}<br>
 Locations: {$G_PWA->bible_locs}<br>
 Formatted: ABCMS <a href='https://en.wikipedia.org/wiki/Progressive_web_app' target='_blank' title='Web pages designed for offline viewing'>Progressive Web Application</a> on {$G_PWA->modified}<br>
@@ -1118,11 +1121,11 @@ Celebrate Jesus Christ’s victory of grace!<br>
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 // PREFACE
 `
-<h2 class='title'>
+<h1 class='title'>
 <a title='Previous Page' class='nav left' href='?Prev' onclick="ABDO('Prev');return false;"><span class="nav clt">&lt;</span></a>
 {$G_FORPRINT['W_PREF']}
 <a title='Next Page' class='nav right' href='?Next' onclick="ABDO('Next');return false;"><span class="nav cgt">&gt;</span></a>
-</h2>
+</h1>
 
 <p>This a Progressive Web App (PWA) format of one <i class='notranslate'>Holy Bible Aionian Edition®</i>. PWAs are special webpages designed to install an App icon and be available offline on a smart device if an Internet connection is not available. Visit <a href='https://www.AionianBible.org/Read' target='_blank' title='Select from all AionianBible.org translations'>AionianBible.org</a> for all Bibles.</p>
 
@@ -1144,11 +1147,11 @@ Celebrate Jesus Christ’s victory of grace!<br>
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 // AIONIOS
 `
-<h2 class='title'>
+<h1 class='title'>
 <a title='Previous Page' class='nav left' href='?Prev' onclick="ABDO('Prev');return false;"><span class="nav clt">&lt;</span></a>
 Aiōnios and Aïdios
 <a title='Next Page' class='nav right' href='?Next' onclick="ABDO('Next');return false;"><span class="nav cgt">&gt;</span></a>
-</h2>
+</h1>
 
 <p>Dr. Heleen Keizer wrote <b><i>Life Time Entirety. A Study of AIŌN in Greek Literature and Philosophy, the Septuagint and Philo</i></b> to explain the meaning of the Greek word aiōn. She begins, "<i>The Greek word aiōn has a wide ranging meaning as well as a wide ranging history: it is most commonly translated as ‘eternity’ but has as its first meaning ‘life’ or ‘lifetime’; it has its place in Greek literature and philosophy, but also in the Greek Bible, where it represents the Hebrew word ‘olâm.</i>" Her 315 page PhD dissertation shows that the Greek word aiōn originally denotes life time, duration, or complete life, but not eternal. You can read her <a href='https://www.aionianbible.org/Life-Time-Entirety-Keizer' target='_blank' title='Visit Dr. Keizers dissertation online'>dissertation online</a> or an <a href='https://www.aionianbible.org/Life-Time-Entirety-Keizer-Abstract' target='_blank' title='View an abstract of Dr. Keizers dissertation'>abstract of her conclusions here</a>.</p>
 
@@ -1172,11 +1175,11 @@ Aiōnios and Aïdios
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 // END IMAGE
 `
-<h2 class='title'>
+<h1 class='title'>
 <a title='Previous Page' class='nav left' href='?Prev' onclick="ABDO('Prev');return false;"><span class="nav clt">&lt;</span></a>
 New Jerusalem
 <a title='Next Page' class='nav right' href='?Next' onclick="ABDO('Next');return false;"><span class="nav cgt">&gt;</span></a>
-</h2>
+</h1>
 
 <div class="map"><img src="images/Gustave-Dore-Bible-Tour-NT-Gospel-241-The-New-Jerusalem.jpg" alt="New Jerusalem"></div>
 {$G_FORPRINT['REV21_2_3']}
@@ -1189,11 +1192,11 @@ New Jerusalem
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 // READERS
 `
-<h2 class='title'>
+<h1 class='title'>
 <a title='Previous Page' class='nav left' href='?Prev' onclick="ABDO('Prev');return false;"><span class="nav clt">&lt;</span></a>
 {$G_FORPRINT['W_READ']}
 <a title='Next Page' class='nav right' href='?Next' onclick="ABDO('Next');return false;"><span class="nav cgt">&gt;</span></a>
-</h2>
+</h1>
 
 <p>The Aionian Bible republishes public domain and Creative Commons Bible texts that are 100% free to copy and print. The original translation is unaltered and notes are added to help your study. The notes show the location of eleven special Greek and Hebrew <a href="?Glossary" title="Aionian glossary" onclick="ABDO('Glossary');return false;"><span class='notranslate'>Aionian</span> Glossary</a> words to help us better understand God’s love for individuals and for all mankind, and the nature of afterlife destinies.</p>
 
@@ -1217,11 +1220,11 @@ New Jerusalem
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 // HISTORY
 `
-<h2 class='title'>
+<h1 class='title'>
 <a title='Previous Page' class='nav left' href='?Prev' onclick="ABDO('Prev');return false;"><span class="nav clt">&lt;</span></a>
 Project History
 <a title='Next Page' class='nav right' href='?Next' onclick="ABDO('Next');return false;"><span class="nav cgt">&gt;</span></a>
-</h2>
+</h1>
 
 <p>
 The <span class='notranslate'>Aionian</span>  Bible republishes public domain and Creative Commons Bible texts that are 100% free to copy and print.
@@ -1265,7 +1268,7 @@ All versions are available online at <a href='https://www.AionianBible.org/Read'
 </p><p>
 <b>2021-12-20</b>&nbsp;&nbsp;Social media presence on 
 <a href='https://www.AionianBible.org/Facebook'		target='_blank' title='Facebook/AionianBible'>Facebook</a>,
-<a href='https://www.AionianBible.org/Twitter'		target='_blank' title='Twitter/AionianBible'>Twitter</a>,
+<a href='https://www.AionianBible.org/X'			target='_blank' title='X/AionianBible'>X</a>,
 <a href='https://www.AionianBible.org/LinkedIn'		target='_blank' title='LinkedIn/AionianBible'>LinkedIn</a>,
 <a href='https://www.AionianBible.org/Instagram'	target='_blank' title='Instagram/AionianBible'>Instagram</a>,
 <a href='https://www.AionianBible.org/Pinterest'	target='_blank' title='Pinterest/AionianBible'>Pinterest</a>,
@@ -1332,11 +1335,11 @@ All versions are available online at <a href='https://www.AionianBible.org/Read'
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 // GLOSSARY
 `
-<h2 class='title'>
+<h1 class='title'>
 <a title='Previous Page' class='nav left' href='?Prev' onclick="ABDO('Prev');return false;"><span class="nav clt">&lt;</span></a>
 {$G_FORPRINT['W_GLOS']}
 <a title='Next Page' class='nav right' href='?Next' onclick="ABDO('Next');return false;"><span class="nav cgt">&gt;</span></a>
-</h2>
+</h1>
 
 <p>The <i>Aionian Bible</i> untranslates and instead transliterates eleven special words to help us better understand the extent of God’s love for individuals and all mankind, and the nature of afterlife destinies.  The original translation is unaltered and a note is added to 64 Old Testament and 200 New Testament verses. Compare the definitions below to the <a href='https://www.AionianBible.org/Strongs' target='_blank' title='Strongs Enhanced Concordance and Glossary'>Strong's Concordance</a>.  Follow the links below to study the word's usage.</p>
 
@@ -1438,11 +1441,11 @@ Questioned verse translations do not contain Aionian Glossary words, but may wro
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 // PAST
 `
-<h2 class='title'>
+<h1 class='title'>
 <a title='Previous Page' class='nav left' href='?Prev' onclick="ABDO('Prev');return false;"><span class="nav clt">&lt;</span></a>
 History Past
 <a title='Next Page' class='nav right' href='?Next' onclick="ABDO('Next');return false;"><span class="nav cgt">&gt;</span></a>
-</h2>
+</h1>
 
 <div id='maps'>
 <div class="map timeline"><img src="images/Timeline-History-Aionian-Bible.jpg" alt="History Past"></div>
@@ -1457,11 +1460,11 @@ History Past
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 // FUTURE
 `
-<h2 class='title'>
+<h1 class='title'>
 <a title='Previous Page' class='nav left' href='?Prev' onclick="ABDO('Prev');return false;"><span class="nav clt">&lt;</span></a>
 History Future
 <a title='Next Page' class='nav right' href='?Next' onclick="ABDO('Next');return false;"><span class="nav cgt">&gt;</span></a>
-</h2>
+</h1>
 
 <div id='maps'>
 <div class="map timeline"><img src="images/Timeline-Eschatology-Aionian-Bible.jpg" alt="History Future"></div>
@@ -1476,11 +1479,11 @@ History Future
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 // DESTINY
 `
-<h2 class='title'>
+<h1 class='title'>
 <a title='Previous Page' class='nav left' href='?Prev' onclick="ABDO('Prev');return false;"><span class="nav clt">&lt;</span></a>
 {$G_FORPRINT['W_DESTINY']}
 <a title='Next Page' class='nav right' href='?Next' onclick="ABDO('Next');return false;"><span class="nav cgt">&gt;</span></a>
-</h2>
+</h1>
 
 <p>The Aionian Bible shows the location of eleven special Greek and Hebrew <a href="?Glossary" title="Aionian Glossary" onclick="ABDO('Glossary');return false;">Aionian Glossary</a> words to help us better understand God’s love for individuals and for all mankind, and the nature of afterlife destinies. The underlying Hebrew and Greek words typically translated as <i>Hell</i> show us that there are not just two afterlife destinies, Heaven or Hell.  Instead, there are a number of different locations, each with different purposes, different durations, and different inhabitants. Locations include 1) Old Testament <a href="?Glossary#h7585" title="Aionian glossary h7585" onclick="ABDO('Glossary','h7585');return false;"><i>Sheol</i></a> and New Testament <a href="?Glossary#g86" title="Aionian glossary g86" onclick="ABDO('Glossary','g86');return false;"><i>Hadēs</i></a>, 2) <a href="?Glossary#g1067" title="Aionian glossary g1067" onclick="ABDO('Glossary','g1067');return false;"><i>Geenna</i></a>, 3) <a href="?Glossary#g5020" title="Aionian glossary g5020" onclick="ABDO('Glossary','g5020');return false;"><i>Tartaroō</i></a>, 4) <a href="?Glossary#g12" title="Aionian glossary g12" onclick="ABDO('Glossary','g12');return false;"><i>Abyssos</i></a>, 5) <a href="?Glossary#g3041" title="Aionian glossary g3041" onclick="ABDO('Glossary','g3041');return false;"><i>Limnē Pyr</i></a>, 6) {$G_LINKS->X_PARADISE}, 7) the {$G_LINKS->X_NEWHEAVEN}, and 8) the {$G_LINKS->X_NEWEARTH}. So there is reason to review our conclusions about the destinies of redeemed mankind and fallen angels.</p>
 
@@ -1500,11 +1503,11 @@ History Future
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 // ABRAHAM
 `
-<h2 class='title'>
+<h1 class='title'>
 <a title='Previous Page' class='nav left' href='?Prev' onclick="ABDO('Prev');return false;"><span class="nav clt">&lt;</span></a>
 Abraham's Journey
 <a title='Next Page' class='nav right' href='?Next' onclick="ABDO('Next');return false;"><span class="nav cgt">&gt;</span></a>
-</h2>
+</h1>
 
 <div id='maps'>
 <div class="map"><img src="images/MAP-Abrahams-Journey.jpg" alt="Abraham's Journey"></div>
@@ -1519,11 +1522,11 @@ Abraham's Journey
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 // ISRAEL
 `
-<h2 class='title'>
+<h1 class='title'>
 <a title='Previous Page' class='nav left' href='?Prev' onclick="ABDO('Prev');return false;"><span class="nav clt">&lt;</span></a>
 Israel's Exodus
 <a title='Next Page' class='nav right' href='?Next' onclick="ABDO('Next');return false;"><span class="nav cgt">&gt;</span></a>
-</h2>
+</h1>
 
 <div id='maps'>
 <div class="map"><img src="images/MAP-Israels-Exodus.jpg" alt="Israel's Exodus"></div>
@@ -1538,11 +1541,11 @@ Israel's Exodus
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 // JESUS
 `
-<h2 class='title'>
+<h1 class='title'>
 <a title='Previous Page' class='nav left' href='?Prev' onclick="ABDO('Prev');return false;"><span class="nav clt">&lt;</span></a>
 Jesus' Journeys
 <a title='Next Page' class='nav right' href='?Next' onclick="ABDO('Next');return false;"><span class="nav cgt">&gt;</span></a>
-</h2>
+</h1>
 
 <div id='maps'>
 <div class="map portrait"><img src="images/MAP-Jesus-Journeys.jpg" alt="Jesus' Journeys"></div>
@@ -1557,11 +1560,11 @@ Jesus' Journeys
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 // PAUL
 `
-<h2 class='title'>
+<h1 class='title'>
 <a title='Previous Page' class='nav left' href='?Prev' onclick="ABDO('Prev');return false;"><span class="nav clt">&lt;</span></a>
 Paul's Missionary Journeys
 <a title='Next Page' class='nav right' href='?Next' onclick="ABDO('Next');return false;"><span class="nav cgt">&gt;</span></a>
-</h2>
+</h1>
 
 <div id='maps'>
 <div class="map"><img src="images/MAP-Pauls-Missionary-Journeys.jpg" alt="Paul's Missionary Journeys"></div>
@@ -1576,10 +1579,10 @@ Paul's Missionary Journeys
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 // WORLD
 `
-<h2 class='title'>
+<h1 class='title'>
 <a title='Previous Page' class='nav left' href='?Prev' onclick="ABDO('Prev');return false;"><span class="nav clt">&lt;</span></a>
 World Nations
-</h2>
+</h1>
 
 <div id='maps'>
 <div class="map"><img src="images/MAP-World-Nations.jpg" alt="World Nations"></div>
@@ -1597,6 +1600,7 @@ World Nations
 // PAGER - The heart of the PWA that allows navigating through the page content array AB_Bible
 function ABDO(goto, anchor=null, push=true) {
 	// validate request
+	let gonu = null;
 	if      (typeof goto == 'number')  {				gonu = goto; }
 	else if (typeof goto != 'string')  {				gonu = null; }
 	else if (goto == 'Prev') {							gonu = AB_Page - 1;			goto = gonu; }
@@ -1608,7 +1612,6 @@ function ABDO(goto, anchor=null, push=true) {
 	else if (typeof AB_Bookmark != 'string')  {			gonu = null; }
 	else if (typeof AB_Map[AB_Bookmark] == 'number') {	gonu = AB_Map[AB_Bookmark];	goto = AB_Bookmark; }
 	else if (AB_Bookmark.match(/^[\d]+$/)) {			gonu = +AB_Bookmark;		goto = AB_Bookmark; }
-	else {												gonu = null; }
 	if (gonu === null || typeof AB_Bible[gonu] == 'undefined') {
 		if (gonu !== null && ((AB_Page == 0 && gonu == -1) || (AB_Page == AB_Bible.length-1 && gonu == AB_Bible.length))) { return; }
 		alert("Returning to TOC, invalid page: " + goto);
@@ -1641,7 +1644,8 @@ function ABDO(goto, anchor=null, push=true) {
 	if (null !== AB_Accessible) {
 		AB_Accessible.className = AionianBible_readCookie("AionianBible.Accessible");
 	}
-	if (anchor) { document.getElementById(anchor).scrollIntoView(true); window.scrollBy(0,-70); }
+	let element;
+	if (anchor && (element = document.getElementById(anchor))) { element.scrollIntoView(true); window.scrollBy(0,-70); }
 	else { window.scrollTo(0, 0); }
 }
 

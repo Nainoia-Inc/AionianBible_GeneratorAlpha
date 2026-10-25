@@ -82,7 +82,7 @@ $modified = date("n/j/Y", filemtime("./index.php"));
 <div id='horz'>
 <a href='/Preface' onclick='return AionianBible_Bookmark("/Preface");'>
 <div id='butt'>
-<h2>Welcome to the <i>Holy&nbsp;Bible&nbsp;Aionian&nbsp;Edition<span class='RegisteredTM'>®</span></i></h2>
+<h1>Welcome to the <i>Holy&nbsp;Bible&nbsp;Aionian&nbsp;Edition<span class='RegisteredTM'>®</span></i></h1>
 <div id='logo'><img src='/images/Holy-Bible-Aionian-Edition-PURPLE-HOME.png' alt='Aionian Bible'></div>
 <div id='j316'>For God so loved the world,<br>that he gave his only begotten Son,<br>that whoever believes in him<br>should not perish, but have...</div>
 <div id='aion'>Aionian Life!</div>
@@ -134,7 +134,7 @@ function abcms_notf() {
 abcms_html(FALSE);
 abcms_head('',FALSE);
 ?>
-<h2 class=center>Page Not Found</h2>
+<h1>Page Not Found</h1>
 <p>The page was not found.<br><br><a href='/Read' title='Read and Study Bible'>Please choose a Bible to continue</a>.</p>
 <?
 abcms_tail(FALSE);
@@ -179,7 +179,7 @@ abcms_tail();
 function abcms_mail() {
 global $_pnum;
 $nainoia = <<<EOF
-<h2>Publisher</h2>
+<h1>Publisher</h1>
 <span class='notranslate'>Nainoia, Inc.</span><br>
 PO Box 462, Bellefonte, PA 16823<br>
 <a href="tel:814-470-8028" rel="nofollow">(814) 470-8028</a><br>
@@ -329,8 +329,8 @@ for( $count=0; $count<$random_captcha_lines; $count++ ) {
 }
 // Create a text box and add 6 captcha letters code in it
 $text_box = imagettfbbox($captcha_font_size, 0, $captcha_font, $captcha_code); 
-$x = ($captcha_image_width - $text_box[4])/2;
-$y = ($captcha_image_height - $text_box[5])/2;
+$x = (int)(($captcha_image_width - $text_box[4])/2);
+$y = (int)(($captcha_image_height - $text_box[5])/2);
 imagettftext($captcha_image, $captcha_font_size, 0, $x, $y, $captcha_text_color, $captcha_font, $captcha_code );
 // define the image type to be shown in browser widow
 header('Content-Type: image/jpeg'); 
@@ -410,8 +410,8 @@ abcms_html();
 abcms_head();
 echo "<div id='word'>\n";
 if ($mode=='buy') {			readfile('docs/buy.htm'); }
-else if ($mode=='read') {	echo "<h2 class=center>Bibles Free / <a href='/Buy' title='Buy Bibles at Amazon, Lulu, and Lightning Source'>Buy</a></h2>"; }
-else {						echo "<h2 class=center>Parallel Bibles</h2>"; }
+else if ($mode=='read') {	echo "<h1>Bibles Free / <a href='/Buy' title='Buy Bibles at Amazon, Lulu, and Lightning Source'>Buy</a></h1>"; }
+else {						echo "<h1>Parallel Bibles</h1>"; }
 echo "<div class='center' id='word-quick'>";
 $last = NULL;
 foreach( $bible_ALL as $bible => $version ) {
@@ -427,7 +427,11 @@ foreach( $bible_ALL as $bible => $version ) {
 	$stripe = ($count%2==0?'even':'odd'); ++$count;
 	$highlight = ($bible == 'English---Aionian-Bible' ? 'aionian-bible' : '');
 	$recommended = ($bible == 'English---Aionian-Bible' ? ' ( recommended )' : '');
-	$bible_lang = "<span lang='".$version['LANGUAGECODEISO']."' class='".$version['LANGUAGECSS']."'>";
+	$bible_lang = '<span'
+		.(empty($version['LANGUAGECODEISO']) ? '' : " lang='{$version['LANGUAGECODEISO']}'")
+		.(empty($version['LANGUAGECSS']) ? '' : " class='{$version['LANGUAGECSS']}'")
+		.(empty($version['RTL']) ? '' : " dir='rtl'")
+		.'>';
 	$language = "<span lang='en' class='eng'>".$version['LANGUAGEENGLISH']."</span>";
 	$language .= ( $version['LANGUAGE']==$version['LANGUAGEENGLISH'] ? '' : ' ( '.$bible_lang.$version['LANGUAGE'].'</span> )' );
 	if($last!=$version['LANGUAGEENGLISH'][0] && $bible != 'English---Aionian-Bible') {
@@ -474,7 +478,7 @@ if ($log) { abcms_errs("abcms_bomb() $mess"); }
 if ($nopage) { return $mess; }
 abcms_html(FALSE);
 abcms_head('',FALSE);
-echo "<div id='word'><h2 class=center>Bibles</h2>$mess<br><br>";
+echo "<div id='word'><h1>Bibles</h1>$mess<br><br>";
 if ($path=='/Read') {					echo "<a href='/Read' title='Read and Study Bible'>Choose a Bible to continue</a>"; }
 if (strpos($path,'/Bibles/')===0) {		echo "<a href='$path' title='Read and Study Bible'>Choose a Bible Book and Chapter to continue</a>"; }
 echo "<br><br><a href='/Publisher' title='Contact Nainoia Inc'>Contact the publisher for further help</a><br><br></div>";
@@ -492,8 +496,10 @@ if (!file_exists('./library/Holy-Bible---'.$_Part[1].'---Aionian-Edition.json') 
 	empty($_BibleONE['T_BOOKS'])) {
 	return abcms_bomb("/Read","The Bible requested was not found",FALSE,$nopage);
 }
-$rtl = (empty($_BibleONE['T_VERSIONS']['RTL']) ? "" : "dir='rtl'" );
-$_BibleONE_Lang = "<span lang='".$_BibleONE['T_VERSIONS']['LANGUAGECODEISO']."' $rtl class='".$_BibleONE['T_VERSIONS']['LANGUAGECSS'];
+$_BibleONE_Lang = '<span'
+	.(empty($_BibleONE['T_VERSIONS']['LANGUAGECODEISO']) ? '' : " lang='{$_BibleONE['T_VERSIONS']['LANGUAGECODEISO']}'")
+	.(empty($_BibleONE['T_VERSIONS']['RTL']) ? '' : " dir='rtl'")
+	." class='{$_BibleONE['T_VERSIONS']['LANGUAGECSS']}";
 if (!is_array(($_BibleBOOKS = json_decode(file_get_contents('./library/Holy-Bible---AAA---Books.json'),true)))) {
 	return abcms_bomb("/Read","The Bible book list is unavailable",TRUE,$nopage);
 }
@@ -512,9 +518,11 @@ if (!empty($_paraC)) {
 		!is_array(($_BibleTWO = json_decode(file_get_contents('./library/Holy-Bible---'.$_paraC.'---Aionian-Edition.json'),true)))) {
 		abcms_bomb("/Read","The Parallel Bible requested was not found");
 	}
-	$rtl2 = (empty($_BibleTWO['T_VERSIONS']['RTL']) ? "" : "dir='rtl'" );
+	$_BibleTWO_Lang = '<span'
+		.(empty($_BibleTWO['T_VERSIONS']['LANGUAGECODEISO']) ? '' : " lang='{$_BibleTWO['T_VERSIONS']['LANGUAGECODEISO']}'")
+		.(empty($_BibleTWO['T_VERSIONS']['RTL']) ? '' : " dir='rtl'")
+		." class='{$_BibleTWO['T_VERSIONS']['LANGUAGECSS']}";
 	$bpath = abcms_href(TRUE,'',FALSE,TRUE);
-	$_BibleTWO_Lang = "<span lang='".$_BibleTWO['T_VERSIONS']['LANGUAGECODEISO']."' $rtl2 class='".$_BibleTWO['T_VERSIONS']['LANGUAGECSS'];
 	$_BibleTWO_xLink = "<span class='word-tocs word-book notranslate'><a href='$ppath' title='Read and Study Parallel Bible'>".$_BibleTWO['T_VERSIONS']['SHORT']."</a><a href='$bpath' title='Cancel Parallel Bible study' class='navx'><span class='navx'>X</span></a></span>";
 }
 }
@@ -563,9 +571,11 @@ if (!$quickreturn && !empty($_paraC)) {
 		if (is_array($_BibleCHAP2) && !empty($_BibleCHAP2)) { end($_BibleCHAP2); $_BibleCHAP2_Last = key($_BibleCHAP2); }
 		else { abcms_errs("abcms_word_init_chap() bible chapter not found!"); }
 	}
-	$rtl2 = (empty($_BibleTWO['T_VERSIONS']['RTL']) ? "" : "dir='rtl'" );
+	$_BibleTWO_Lang = '<span'
+		.(empty($_BibleTWO['T_VERSIONS']['LANGUAGECODEISO']) ? '' : " lang='{$_BibleTWO['T_VERSIONS']['LANGUAGECODEISO']}'")
+		.(empty($_BibleTWO['T_VERSIONS']['RTL']) ? '' : " dir='rtl'")
+		." class='{$_BibleTWO['T_VERSIONS']['LANGUAGECSS']}";
 	$bpath = abcms_href(TRUE,'',FALSE,TRUE);
-	$_BibleTWO_Lang = "<span lang='".$_BibleTWO['T_VERSIONS']['LANGUAGECODEISO']."' $rtl2 class='".$_BibleTWO['T_VERSIONS']['LANGUAGECSS'];
 	$_BibleTWO_xLink = "<span class='word-tocs word-book notranslate'><a href='$ppath' title='Read and Study Parallel Bible'>".$_BibleTWO['T_VERSIONS']['SHORT']."</a><a href='$bpath' title='Cancel Parallel Bible study' class='navx'><span class='navx'>X</span></a></span>";
 }
 // STRONGS
@@ -646,7 +656,7 @@ if (!empty($_Part[2])) {
 	$name = "<a href='".abcms_href("/Bibles/$_Part[1]",FALSE,TRUE,TRUE)."' title='Description' class='word-tocs'>".$_BibleONE['T_VERSIONS']['SHORT']."</a>";
 }
 else {
-	$otbooks = $ntbooks = NULL;
+	$otbooks = $ntbooks = '';
 	foreach( $_BibleONE['T_BOOKS'] as $bookkey => $bookname ) {
 		if (empty($bookname)) { continue; }
 		$path_chapter = abcms_href("/Bibles/$_Part[1]/$bookkey",FALSE,TRUE,TRUE);
@@ -666,7 +676,7 @@ else {
 		$para .= "</a></div></div>"; 
 	}
 	else { $para = ''; }
-	$tocmenu = "<div class='field-header2'><img src='/images/Aionian-Bible-Bible.png' title='Read Aionian Bible'> Read:</div>$ol2$ne2$para";	
+	$tocmenu = "<div class='field-header2'><img src='/images/Aionian-Bible-Bible.png' title='Read Aionian Bible' alt=''> Read:</div>$ol2$ne2$para";	
 	$name = "<span class='word-tocs'>".$_BibleONE['T_VERSIONS']['SHORT']."</span>";	
 }
 if (isset($_Part[2]) && $_Part[2]=='Noted') {	$avs = "<span class='word-tocs'>AVS</span>"; }
@@ -695,9 +705,9 @@ abcms_word_init_para();
 abcms_html(TRUE,'class=word-toc');
 abcms_head(abcms_word_tocs_menu(NULL, $tocmenu));
 echo "<div id='word'>";
-echo "<h2 class=center>".$_BibleONE['T_VERSIONS']['NAMEENGLISH']."</h2>";
+echo "<h1>".$_BibleONE['T_VERSIONS']['NAMEENGLISH']."</h1>";
 echo "<div id='word-description'>".$tocmenu.$_BibleONE['FORMATTED']."</div>";
-echo "<div id='word-search'><div class='field-header'><img src='/images/Aionian-Bible-Online.png' title='Aionian Glossary Verses'> Aionian Glossary Verses:</div>";
+echo "<div id='word-search'><div class='field-header'><img src='/images/Aionian-Bible-Online.png' title='Aionian Glossary Verses' alt=''> Aionian Glossary Verses:</div>";
 $path_glossary = abcms_href('/Glossary',TRUE,TRUE,FALSE);
 $path_noted = abcms_href(TRUE,'/Noted',TRUE,TRUE);
 echo "<p>Chapters with <a href='$path_glossary' title='Aionian Glossary'>Aionian Glossary</a> words are highlighted in the table of contents with each verse also <a href='$path_noted' title='Aionian Glossary usage'>listed here</a>.  Notes are added to 64 Old Testament and 200 New Testament verses without altering the source text.  Contact the <a href='/Publisher' title='Contact Nainoia, Inc'>Publisher</a> with any questions. We pray for a modern public domain translation in every language.</p>";
@@ -983,7 +993,7 @@ $next = ($_Part[3]<(int)$_BibleBOOKS[$_Part[2]]['CHAPTERS']
 		? "<a href='".($_SwipeNEXT=abcms_href("/Bibles/$_Part[1]/".$_BibleBOOKS[(int)$_BibleBOOKS[$_Part[2]]['NUMBER']+1]."/1",FALSE,TRUE,TRUE))."' title='Next chapter' class='nav right'><span class='nav cgt'>&gt;</span></a>"
 		: "<a href='".($_SwipeNEXT=abcms_href("/Bibles/$_Part[1]/$test",FALSE,TRUE,TRUE))."' title='$test Testament' class='nav right'><span class='nav cgt'>+</span></a>"));
 echo "<div id='word-menu-float' class='notranslate'>$prev$next</div>";
-return ("<h2>$prev $_BibleONE_Lang'>".$_BibleONE['T_BOOKS'][$_Part[2]]."</span> ".$_Part[3]." $next</h2>");
+return ("$prev $_BibleONE_Lang'>".$_BibleONE['T_BOOKS'][$_Part[2]]."</span> ".$_Part[3]." $next");
 }
 
 
@@ -1007,7 +1017,7 @@ $next = ($_Part[4]<count($_BibleCHAP1)
 		? "<a href='".($_SwipeNEXT=abcms_href("/Bibles/$_Part[1]/".$_BibleBOOKS[(int)$_BibleBOOKS[$_Part[2]]['NUMBER']+1]."/1/1",FALSE,TRUE,TRUE))."' title='Next verse' class='nav right'><span class='nav vgt'>&gt;</span></a>"
 		: "<a href='".($_SwipeNEXT=abcms_href("/Bibles/$_Part[1]/$test",FALSE,TRUE,TRUE))."' title='$test Testament' class='nav right'><span class='nav vgt'>+</span></a>")));
 echo "<div id='word-menu-float' class='notranslate'>$prev$next</div>";
-return ("<h2>$prev $_BibleONE_Lang'>".$_BibleONE['T_BOOKS'][$_Part[2]]."</span> ".$_Part[3].":".$_Part[4]." $next</h2>");
+return ("$prev $_BibleONE_Lang'>".$_BibleONE['T_BOOKS'][$_Part[2]]."</span> ".$_Part[3].":".$_Part[4]." $next");
 }
 
 
@@ -1030,8 +1040,8 @@ $next = ($_Part[4]<count($_BibleCHAP1)
 		: (!empty($_BibleBOOKS[(int)$_BibleBOOKS[$_Part[2]]['NUMBER']+1]) && !empty($_BibleONE['T_BOOKS'][$_BibleBOOKS[(int)$_BibleBOOKS[$_Part[2]]['NUMBER']+1]])
 		? "<a href='".($_SwipeNEXT=abcms_href("/Verse/$_Part[1]/".$_BibleBOOKS[(int)$_BibleBOOKS[$_Part[2]]['NUMBER']+1]."/1/1",FALSE,TRUE,TRUE))."' title='Next verse' class='nav right'><span class='nav vgt'>&gt;</span></a>"
 		: "<a href='".($_SwipeNEXT="/Read")."' title='Bookmarked Bible' onclick='return AionianBible_Bookmark(".'"/Read"'.");' class='nav right'><span class='nav vgt'>+</span></a>")));
-echo "<div id='word-menu-float' class='notranslate'>$prev$next</div>";
-return ("<h2 class=center>$prev ".$_BibleBOOKS[(int)$_BibleBOOKS[$_Part[2]]['NUMBER']]." ".$_Part[3].":".$_Part[4]." $next</h2>\n");
+echo "<div id='word-menu-float' class='notranslate'>$prev$next</div>\n";
+return ("$prev ".$_BibleBOOKS[(int)$_BibleBOOKS[$_Part[2]]['NUMBER']]." ".$_Part[3].":".$_Part[4]." $next\n");
 }
 
 
@@ -1069,9 +1079,11 @@ if (!empty($_paraC)) {
 	if (!is_array($AIONIAN_TWO) || !is_array($_BibleTWO)) {
 		abcms_bomb("/Read","The requested Parallel Bible data was not found",TRUE);
 	}
-	$rtl2 = (empty($_BibleTWO['T_VERSIONS']['RTL']) ? "" : "dir='rtl'" );
+	$_BibleTWO_Lang = '<span'
+		.(empty($_BibleTWO['T_VERSIONS']['LANGUAGECODEISO']) ? '' : " lang='{$_BibleTWO['T_VERSIONS']['LANGUAGECODEISO']}'")
+		.(empty($_BibleTWO['T_VERSIONS']['RTL']) ? '' : " dir='rtl'")
+		." class='{$_BibleTWO['T_VERSIONS']['LANGUAGECSS']}";
 	$bpath = abcms_href(TRUE,'',FALSE,TRUE);
-	$_BibleTWO_Lang = "<span lang='".$_BibleTWO['T_VERSIONS']['LANGUAGECODEISO']."' $rtl2 class='".$_BibleTWO['T_VERSIONS']['LANGUAGECSS'];
 	$_BibleTWO_xLink = "<span class='word-tocs word-book notranslate'><a href='$ppath' title='Read and Study Parallel Bible'>".$_BibleTWO['T_VERSIONS']['SHORT']."</a><a href='$bpath' title='Cancel Parallel Bible study' class='navx'><span class='navx'>X</span></a></span>";
 }
 abcms_html(TRUE,'class=word-read');
@@ -1081,7 +1093,7 @@ $rtl = (empty($_BibleONE['T_VERSIONS']['RTL']) ? FALSE : TRUE);
 $rtlref = ($rtl ? 'rtlref' : '');
 $rtl2 = (empty($_BibleTWO['T_VERSIONS']['RTL']) ? FALSE : TRUE);
 echo "<div id='word' class='aionian'>";
-echo "<h2 class=center>Aionian Verses</h2>\n";
+echo "<h1>Aionian Verses</h1>\n";
 $count_one = $count_two = 0;
 $x = 1;
 $vref2 = FALSE;
@@ -1209,7 +1221,7 @@ $rtl = (empty($_BibleONE['T_VERSIONS']['RTL']) ? FALSE : TRUE);
 $rtl2 = (empty($_BibleTWO['T_VERSIONS']['RTL']) ? FALSE : TRUE);
 if (!$nopage) {	
 	echo "<div id='word'>";
-	echo ($menu=abcms_chap_menu());
+	echo "<h1>".($menu=abcms_chap_menu())."</h1>";
 }
 for ($x=(empty($_Part[4])?1:$_Part[4]); $x<=$maxverses; ++$x) {
 	$stripe = (( $x % 2 == 0 ) ? 'even' : 'odd');
@@ -1234,7 +1246,7 @@ for ($x=(empty($_Part[4])?1:$_Part[4]); $x<=$maxverses; ++$x) {
 	}
 }
 if ($nopage) { return TRUE; }
-echo "<div id='word-menu-bottom'>$menu</div>";
+echo "<div id='word-menu-bottom'><h2>$menu</h2></div>";
 echo '</div>';
 if (!empty($_BibleONE['T_VERSIONS']['WARNING'])) { echo "<div class='word-warning'>".$_BibleONE['T_VERSIONS']['WARNING']."</div>\n"; }
 echo "<div id='word-links'>\n".
@@ -1279,7 +1291,7 @@ $rtl = (empty($_BibleONE['T_VERSIONS']['RTL']) ? FALSE : TRUE);
 $rtl2 = (empty($_BibleTWO['T_VERSIONS']['RTL']) ? FALSE : TRUE);
 $x = $_Part[4];
 echo "<div id='word'><div id='strong-head'>\n";
-echo ($menu=abcms_vers_menu());
+echo "<h1>".($menu=abcms_vers_menu())."</h1>";
 $verse_number = (empty($_BibleONE['T_NUMBERS'][$x]) || $x==$_BibleONE['T_NUMBERS'][$x] ? '' : $_BibleONE_Lang." word-verse-lang'>".$_BibleONE['T_NUMBERS'][$x].'</span> ');
 $strongs = abcms_word_chap_stro($x);
 $verse_text = "$_BibleONE_Lang word-text $strongs'>".(empty($_BibleCHAP1[$x]) ? 'Verse not available in this translation' : $_BibleCHAP1[$x]).'</span> ';
@@ -1324,7 +1336,7 @@ else {
 	}
 }
 echo "</div>\n";
-echo "<div id='word-menu-bottom' class='always'>$menu</div>";
+echo "<div id='word-menu-bottom' class='always'><h2>$menu</h2></div>";
 echo "</div>\n";
 abcms_read_indx_line();
 abcms_tail();		
@@ -1366,7 +1378,7 @@ $_Part[4] = intval($_Part[4]);
 abcms_html(TRUE,'class=word-read');
 abcms_head(abcms_word_menu('all'));
 echo "<div id='word' class='verseall'>\n";
-echo ($menu=abcms_vall_menu());
+echo "<h1>".($menu=abcms_vall_menu())."</h1>";
 echo "<div class='center' id='word-quick'>";
 $last = NULL;
 foreach( $bible_ALL as $bible => $version ) {
@@ -1391,14 +1403,20 @@ foreach( $bible_ALL as $bible => $version ) {
 	else {
 		$quick_id = "";
 	}	
-	$rtl = (empty($_BibleONE['T_VERSIONS']['RTL']) ? "" : "dir='rtl'" );
-	$rtlref = ($rtl ? 'rtlref' : '');
-	$bible_lang = "<span lang='".$version['LANGUAGECODEISO']."' class='".$version['LANGUAGECSS']."'>";
+	$bible_lang = '<span'
+		.(empty($version['LANGUAGECODEISO']) ? '' : " lang='{$version['LANGUAGECODEISO']}'")
+		.(empty($version['LANGUAGECSS']) ? '' : " class='{$version['LANGUAGECSS']}'")
+		.(empty($version['RTL']) ? '' : " dir='rtl'")
+		.'>';
 	$language = "<span lang='en' class='eng'>".$version['LANGUAGEENGLISH']."</span>";
 	$language .= ( $version['LANGUAGE']==$version['LANGUAGEENGLISH'] ? '' : ' ( '.$bible_lang.$version['LANGUAGE'].'</span> )' );
 	$name = "<span lang='en' class='eng'>".$version['NAMEENGLISH']."</span>";
 	$name .= ( $version['NAME']==$version['NAMEENGLISH'] ? '' : ' ( '.$bible_lang.$version['NAME'].'</span> )' );
-	$_BibleONE_Lang = "<span lang='".$_BibleONE['T_VERSIONS']['LANGUAGECODEISO']."' $rtl class='".$_BibleONE['T_VERSIONS']['LANGUAGECSS'];
+	$_BibleONE_Lang = '<span'
+		.(empty($_BibleONE['T_VERSIONS']['LANGUAGECODEISO']) ? '' : " lang='{$_BibleONE['T_VERSIONS']['LANGUAGECODEISO']}'")
+		.($rtl=(empty($_BibleONE['T_VERSIONS']['RTL']) ? '' : " dir='rtl'"))
+		." class='{$_BibleONE['T_VERSIONS']['LANGUAGECSS']}";
+	$rtlref = ($rtl ? 'rtlref' : '');
 	if (empty($_BibleCHAP1[$_Part[4]])) {	$verse_text = "Verse not available"; }
 	else {									$verse_text =  "$_BibleONE_Lang word-text'>".$_BibleCHAP1[$_Part[4]].'</span>'; ++$count; }
 	echo "<div class='word-para-ref $rtlref' $quick_id><a href='".abcms_href("/Bibles/$_Part[1]/$_Part[2]/$_Part[3]",FALSE,TRUE,TRUE)."' title='View verse chapter'>".$language." ~ ".$name."</a></div>\n";
@@ -1406,7 +1424,7 @@ foreach( $bible_ALL as $bible => $version ) {
 	else {		echo "<div class='word-para-one allverses'><span class='word-text'>$verse_text</span></div>\n"; }
 }
 echo "<div>Verse Count = $count</div>\n";
-echo "<div id='word-menu-bottom' class='always'>$menu</div>";
+echo "<div id='word-menu-bottom' class='always'><h2>$menu</h2></div>";
 echo "</div>\n";
 abcms_tail();	
 }
@@ -1436,14 +1454,20 @@ foreach( $bible_ALL as $bible => $version ) {
 		abcms_errs("abcms_word_vers_questioned() bible not found!");
 		continue;
 	}
-	$rtl = (empty($_BibleONE['T_VERSIONS']['RTL']) ? "" : "dir='rtl'" );
-	$rtlref = ($rtl ? 'rtlref' : '');
-	$bible_lang = "<span lang='".$version['LANGUAGECODEISO']."' class='".$version['LANGUAGECSS']."'>";
+	$bible_lang = '<span'
+		.(empty($version['LANGUAGECODEISO']) ? '' : " lang='{$version['LANGUAGECODEISO']}'")
+		.(empty($version['LANGUAGECSS']) ? '' : " class='{$version['LANGUAGECSS']}'")
+		.(empty($version['RTL']) ? '' : " dir='rtl'")
+		.'>';
 	$language = "<span lang='en' class='eng'>".$version['LANGUAGEENGLISH']."</span>";
 	$language .= ( $version['LANGUAGE']==$version['LANGUAGEENGLISH'] ? '' : ' ( '.$bible_lang.$version['LANGUAGE'].'</span> )' );
 	$name = "<span lang='en' class='eng'>".$version['NAMEENGLISH']."</span>";
 	$name .= ( $version['NAME']==$version['NAMEENGLISH'] ? '' : ' ( '.$bible_lang.$version['NAME'].'</span> )' );
-	$_BibleONE_Lang = "<span lang='".$_BibleONE['T_VERSIONS']['LANGUAGECODEISO']."' $rtl class='".$_BibleONE['T_VERSIONS']['LANGUAGECSS'];
+	$_BibleONE_Lang = '<span'
+		.(empty($_BibleONE['T_VERSIONS']['LANGUAGECODEISO']) ? '' : " lang='{$_BibleONE['T_VERSIONS']['LANGUAGECODEISO']}'")
+		.($rtl=(empty($_BibleONE['T_VERSIONS']['RTL']) ? '' : " dir='rtl'"))
+		." class='{$_BibleONE['T_VERSIONS']['LANGUAGECSS']}";
+	$rtlref = ($rtl ? 'rtlref' : '');
 	$x = 0;
 	foreach( $AIONIAN_ONE['QUESTIONED'] as $vref1 => $verse1) {
 		if (!$x) { echo "<div class='word-para-ref $rtlref'><a href='".abcms_href("/Bibles/$bible",FALSE,TRUE,TRUE)."' title='View Bible'>".$language." ~ ".$name."</a></div>\n"; }
@@ -1508,7 +1532,7 @@ abcms_head();
 ?>
 <div id='word'>
 <div id='strong'>
-<h2>Strong's Enhanced Concordance</h2>
+<h1>Strong's Enhanced Concordance</h1>
 The  <span class='notranslate'>Aionian</span>  Bible untranslates and instead transliterates eleven special words to help us better understand the extent of God’s love for individuals and all mankind, and the nature of afterlife destinies.  The original translation is unaltered and an inline note is appended to 64 Old Testament and 200 New Testament verses. Compare the definitions below to the <a href='/Glossary' title='Aionian Glossary' onclick='return AionianBible_Makemark("/Glossary");'><span class='notranslate'>Aionian</span> Glossary</a>. Follow the <span class='word-blue'>blue link</span> below to study the word's usage.  Search for any Strong's number: g1-21369 and h1-9049.<br>
 <div class=center>
 <form action='<? echo abcms_href(TRUE,'',TRUE,FALSE); ?>' method='post'>
@@ -2211,7 +2235,7 @@ return $cache[$file][$key];
 /*** HTML ***/
 function abcms_html($goodpage=TRUE,$bodystuff='',$collapse='false') {
 global $_para, $_stid, $_meta, $_Path, $_Part, $_pnum, $_BibleONE, $_BibleTWO;
-if (!$goodpage) { http_response_code(404); $_meta = 'Page not found'; }
+if (!$goodpage) { http_response_code(404); $_meta = ' ~ Page not found'; }
 ?>
 <!DOCTYPE html>
 <html lang='en'>
@@ -2222,7 +2246,6 @@ if (!$goodpage) { http_response_code(404); $_meta = 'Page not found'; }
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name='mobile-web-app-capable' content='yes'>
 <meta name="generator" content="ABCMS™">
-<meta http-equiv='x-ua-compatible' content='ie=edge'>
 <?
 if ($_para ||
 	$_Part[0]=='Parallel' ||
@@ -2231,14 +2254,14 @@ if ($_para ||
 	echo "<meta name='robots' content='noindex'>";
 }
 ?>
-<meta property="og:url" content="https://www.aionianbible.org">
+<meta property="og:url" content="https://www.aionianbible.org/<?echo $_Path;?>">
 <meta property="og:type" content="website">
-<meta property="og:title" content="Holy Bible Aionian Edition">
-<meta property="og:description" content="Holy Bible Aionian Edition<?echo $_meta;?>">
-<meta property="og:image" content="/images/MEME-AionianBible-The-Worlds-First-Bible-Untranslation-1.jpg">
-<meta property="og:image" content="/images/MEME-AionianBible-The-Worlds-First-Bible-Untranslation-2.jpg">
-<meta property="og:image" content="/images/MEME-AionianBible-The-Worlds-First-Bible-Untranslation-3.jpg">
-<meta property="og:image" content="/images/MEME-AionianBible-The-Worlds-First-Bible-Untranslation-4.jpg">
+<meta property="og:title" content="Holy Bible Aionian Edition®<?echo $_meta;?>">
+<meta property="og:description" content="Holy Bible Aionian Edition®<?echo $_meta;?>">
+<meta property="og:image" content="https://www.aionianbible.org/images/MEME-AionianBible-The-Worlds-First-Bible-Untranslation-1.jpg">
+<meta property="og:image" content="https://www.aionianbible.org/images/MEME-AionianBible-The-Worlds-First-Bible-Untranslation-2.jpg">
+<meta property="og:image" content="https://www.aionianbible.org/images/MEME-AionianBible-The-Worlds-First-Bible-Untranslation-3.jpg">
+<meta property="og:image" content="https://www.aionianbible.org/images/MEME-AionianBible-The-Worlds-First-Bible-Untranslation-4.jpg">
 <link rel='shortcut icon' href='/favicon.ico' type='image/x-icon'>
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -2299,21 +2322,21 @@ global $_Orig, $_Path, $_Part, $_meta, $_BibleONE, $_BibleTWO, $_SwipePREV, $_Sw
 // share urls from https://github.com/bradvin/social-share-urls
 $url = ($good ? urlencode(($url0=("https://www.AionianBible.org/".preg_replace('/\s+/', ' ',$_Path)))) : urlencode($url0="https://www.AionianBible.org"));
 $title = ($good ? urlencode(($title0=preg_replace('/\s+/', ' ',"Holy Bible Aionian Edition® $_meta"))) : urlencode($title0="Holy Bible Aionian Edition® ~ Homepage"));
-$social  = "<a href='https://www.facebook.com/sharer.php?u=$url' target='_blank'><img src='/social/facebook.png' title='Facebook post' class='img25'></a>";
-$social .= "<a href='https://x.com/intent/tweet?url=$url&text=$title&hashtags=AionianBible' target='_blank'><img src='/social/x.png' title='X/Twitter post' class='img25'></a>";
-$social .= "<a href='https://www.linkedin.com/sharing/share-offsite/?url=$url' target='_blank'><img src='/social/linkedin.png' title='LinkedIn post' class='img25'></a>";
-$social .= "<a href='https://reddit.com/submit?url=$url&title=$title' target='_blank'><img src='/social/reddit.png' title='Reddit post' class='img25'></a>";
-$social .= "<a href='https://www.tumblr.com/widgets/share/tool?canonicalUrl=$url&title=$title&tags=AionianBible' target='_blank'><img src='/social/tumblr.png' title='Tumblr post' class='img25'></a>";
-$social .= "<a href='https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=$url' target='_blank'><img src='/social/qzone.png' title='Qzone post' class='img25'></a>";
-$social .= "<a href='https://vk.com/share.php?url=$url&title=$title' target='_blank'><img src='/social/vk.png' title='VK post' class='img25'></a>";
-$social .= "<a href='https://service.weibo.com/share/share.php?url=$url&appkey=&title=$title&pic=&ralateUid=' target='_blank'><img src='/social/weibo.png' title='Weibo post' class='img25'></a>";
-$social .= "<a href='mailto:?subject=".preg_replace("/ /","%20","$title0&body=$url0")."' target='_blank'><img src='/social/email.png' title='Email link' class='img25'></a>";
+$social  = "<a href='https://www.facebook.com/sharer.php?u=$url' target='_blank'><img src='/social/facebook.png' alt='Facebook' title='Facebook post' class='img25'></a>";
+$social .= "<a href='https://x.com/intent/tweet?url=$url&text=$title&hashtags=AionianBible' target='_blank'><img src='/social/x.png' alt='X/Twitter' title='X/Twitter post' class='img25'></a>";
+$social .= "<a href='https://www.linkedin.com/sharing/share-offsite/?url=$url' target='_blank'><img src='/social/linkedin.png' alt='LinkedIn' title='LinkedIn post' class='img25'></a>";
+$social .= "<a href='https://reddit.com/submit?url=$url&title=$title' target='_blank'><img src='/social/reddit.png' alt='Reddit' title='Reddit post' class='img25'></a>";
+$social .= "<a href='https://www.tumblr.com/widgets/share/tool?canonicalUrl=$url&title=$title&tags=AionianBible' target='_blank'><img src='/social/tumblr.png' alt='Tumblr' title='Tumblr post' class='img25'></a>";
+$social .= "<a href='https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=$url' target='_blank'><img src='/social/qzone.png' alt='Qzone' title='Qzone post' class='img25'></a>";
+$social .= "<a href='https://vk.com/share.php?url=$url&title=$title' target='_blank'><img src='/social/vk.png' alt='VK' title='VK post' class='img25'></a>";
+$social .= "<a href='https://service.weibo.com/share/share.php?url=$url&appkey=&title=$title&pic=&ralateUid=' target='_blank'><img src='/social/weibo.png' alt='Weibo' title='Weibo post' class='img25'></a>";
+$social .= "<a href='mailto:?subject=".preg_replace("/ /","%20","$title0&body=$url0")."' target='_blank'><img src='/social/email.png' alt='email' title='Email link' class='img25'></a>";
 ?>
 <div id='social-footer'>
 <div id='google_translate_element'></div>
 <div id='social-shares'>
 <?echo $social;?><br>
-<a href='/EmailNews' target='_blank' title='EmailNews/AionianBible'><img src='/images/Aionian-Bible-Button-Your-Gift-Email-Newsletter.png' alt='EmailNews' title='Aionian Bible Gift and Newsletter' class='img25'></a><a href='/Facebook' target='_blank' title='Facebook/AionianBible'><img src='/images/Aionian-Bible-Facebook.png' title='Aionian Bible on Facebook' class='img25'></a><a href='/X' target='_blank' title='X/AionianBible Twitter'><img src='/images/Aionian-Bible-X.png' title='Aionian Bible on X/Twitter' class='img25'></a><a href='/LinkedIn' target='_blank' title='LinkedIn/AionianBible'><img src='/images/Aionian-Bible-LinkedIn.png' title='Aionian Bible on LinkedIn' class='img25'></a><a href='/Instagram' target='_blank' title='Instagram/AionianBible'><img src='/images/Aionian-Bible-Instagram.png' title='Aionian Bible on Instagram' class='img25'></a><a href='/Pinterest' target='_blank' title='Pinterest/AionianBible'><img src='/images/Aionian-Bible-Pinterest.png' alt='Pinterest' title='Aionian Bible on Pinterest' class='img25'></a><a href='/YouTube' target='_blank' title='YouTube/AionianBible'>	<img src='/images/Aionian-Bible-Youtube.png' title='Aionian Bible on Youtube' class='img25'></a><a href='/Google-Play' target='_blank' title='GooglePlay/AionianBible'><img src='/images/Aionian-Bible-GooglePlay.png' alt='GooglePlay' title='Aionian Bible on GooglePlay' class='img25'></a><a href='/TOR/<?echo $_Orig;?>' target='_blank' title='TOR/AionianBible'><img src='/images/Aionian-Bible-TOR.png' alt='TOR' title='Aionian Bible on The Onion Router network' class='img25'></a><a href='/Buy' title='Buy Aionian Bibles and T-Shirts'><img src='/images/Aionian-Bible-Button-Buy-Square.png' title='Buy Aionian Bible in print' class='img25'></a>
+<a href='/EmailNews' target='_blank' title='EmailNews/AionianBible'><img src='/images/Aionian-Bible-Button-Your-Gift-Email-Newsletter.png' alt='EmailNews' title='Aionian Bible Gift and Newsletter' class='img25'></a><a href='/Facebook' target='_blank' title='Facebook/AionianBible'><img src='/images/Aionian-Bible-Facebook.png' alt='Facebook' title='Aionian Bible on Facebook' class='img25'></a><a href='/X' target='_blank' title='X/AionianBible Twitter'><img src='/images/Aionian-Bible-X.png' alt='X/Twitter' title='Aionian Bible on X/Twitter' class='img25'></a><a href='/LinkedIn' target='_blank' title='LinkedIn/AionianBible'><img src='/images/Aionian-Bible-LinkedIn.png' alt='LinkedIn' title='Aionian Bible on LinkedIn' class='img25'></a><a href='/Instagram' target='_blank' title='Instagram/AionianBible'><img src='/images/Aionian-Bible-Instagram.png' alt='Instagram' title='Aionian Bible on Instagram' class='img25'></a><a href='/Pinterest' target='_blank' title='Pinterest/AionianBible'><img src='/images/Aionian-Bible-Pinterest.png' alt='Pinterest' title='Aionian Bible on Pinterest' class='img25'></a><a href='/YouTube' target='_blank' title='YouTube/AionianBible'>	<img src='/images/Aionian-Bible-Youtube.png' alt='Youtube' title='Aionian Bible on Youtube' class='img25'></a><a href='/Google-Play' target='_blank' title='GooglePlay/AionianBible'><img src='/images/Aionian-Bible-GooglePlay.png' alt='GooglePlay' title='Aionian Bible on GooglePlay' class='img25'></a><a href='/TOR/<?echo $_Orig;?>' target='_blank' title='TOR/AionianBible'><img src='/images/Aionian-Bible-TOR.png' alt='TOR' title='Aionian Bible on The Onion Router network' class='img25'></a><a href='/Buy' title='Buy Aionian Bibles and T-Shirts'><img src='/images/Aionian-Bible-Button-Buy-Square.png' alt='Buy Bible' title='Buy Aionian Bible in print' class='img25'></a>
 </div>
 <script>function googleTranslateElementInit() { new google.translate.TranslateElement({pageLanguage: 'xx' }, 'google_translate_element'); }</script>
 <script src='//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit'></script>
@@ -3520,7 +3543,7 @@ $T_stidX = $_stidX;
 $T_BibleSTRONGS = $_BibleSTRONGS;
 // loop
 echo "<div id='word'>";
-echo "<h2>Custom Verses</h2>";
+echo "<h1>Custom Verses</h1>";
 strtok("X\n$command", "\r\n");
 $count = 0;
 while (($line=strtok("\r\n")) !== FALSE) {

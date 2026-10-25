@@ -380,7 +380,7 @@ Holy-Bible---Padoe---Padoe-Bible	0											NULL
 Holy-Bible---Palaung-Shwe---Shwe-Palaung-Bible	0											NULL
 Holy-Bible---Panjabi---Punjabi-Bible	0			ਨਰਕ								NULL
 Holy-Bible---Pengo---Pengo-Bible	0											NULL
-Holy-Bible---Persian---Old-Persion-Version-Bible	0											NULL
+Holy-Bible---Persian---Old-Persian-Version-Bible	0											NULL
 Holy-Bible---Persian---Open-Contemporary	0											NULL
 Holy-Bible---Pogolo---Pogoro-Bible	0			Jehanamu								NULL
 Holy-Bible---Pohnpeian---Pohnpeian-NT-Psalms-New-Alphabet	0			pweleko								NULL
@@ -529,7 +529,7 @@ Holy-Bible---Vwanji---Vwanji-Bible	0											NULL
 Holy-Bible---Waddar---Waddar-Bible	0											NULL
 Holy-Bible---Waja---Waja-Bible	0											NULL
 Holy-Bible---Wolio---Kitabi-Momangkilona-Bible	0											NULL
-Holy-Bible---Yaka---Ivatan-Bible	0											NULL
+Holy-Bible---Yaka---Congo-Bible	0											NULL
 Holy-Bible---Yaka---Yaka-Bible	0											NULL
 Holy-Bible---Yalunka---Yalunka-Bible	0											NULL
 Holy-Bible---Yamap---Yamap-Bible	0											NULL

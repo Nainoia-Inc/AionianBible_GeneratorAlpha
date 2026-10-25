@@ -1,6 +1,6 @@
 # File Name: IVERSE.txt
-# File Size: 1249312     
-# File Date: 10/16/2026 21:57:32
+# File Size: 1249302     
+# File Date: 10/25/2026 03:25:49
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution 4.0 International, 2018-2026
@@ -2120,7 +2120,7 @@ Holy-Bible---Greek---Greek-Westcott-Hort	EXO-013-017
 Holy-Bible---Greek---Greek-Westcott-Hort	MAR-010-045	Κατα Μαρκον 10:45	και γαρ ο υιος του ανθρωπου ουκ ηλθεν διακονηθηναι αλλα διακονησαι και δουναι την ψυχην αυτου λυτρον αντι πολλων
 Holy-Bible---Greek---Greek-Westcott-Hort	ROM-001-001	Προς Ρωμαιους 1:1	παυλος δουλος {VAR1: ιησου χριστου} {VAR2: χριστου ιησου} κλητος αποστολος αφωρισμενος εις ευαγγελιον θεου
 Holy-Bible---Greek---Greek-Westcott-Hort	MAT-028-019	Κατα Ματθαιον 28:19	πορευθεντες ουν μαθητευσατε παντα τα εθνη βαπτιζοντες αυτους εις το ονομα του πατρος και του υιου και του αγιου πνευματος
-Holy-Bible---Greek---Text-Critical	JOH-003-016	Κατα Ιωαννην 3:16	Οὕτω γὰρ ἠγάπησεν ὁ Θεὸς τὸν κόσμον, ὥστε τὸν υἱὸν αὐτοῦ τὸν μονογενῆ ἔδωκεν, ἵνα πᾶς ὁ πιστεύων εἰς αὐτὸν μὴ ἀπόληται, ἀλλ᾽ ἔχῃ ζωὴν αἰώνιον.
+Holy-Bible---Greek---Text-Critical	JOH-003-016	Κατα Ιωαννην 3:16	Οὕτω γὰρ ἠγάπησεν ὁ Θεὸς τὸν κόσμον, ὥστε τὸν υἱὸν αὐτοῦ τὸν μονογενῆ ἔδωκεν, ἵνα πᾶς ὁ πιστεύων εἰς αὐτὸν μὴ ἀπόληται ἀλλ᾽ ἔχῃ ζωὴν αἰώνιον.
 Holy-Bible---Greek---Text-Critical	GEN-003-024		
 Holy-Bible---Greek---Text-Critical	LUK-023-034	Κατα Λουκαν 23:34	ὁ δὲ Ἰησοῦς ἔλεγε, Πάτερ, ἄφες αὐτοῖς, οὐ γὰρ οἴδασι τί ποιοῦσι. διαμεριζόμενοι δὲ τὰ ἱμάτια αὐτοῦ ἔβαλον κλῆρον.
 Holy-Bible---Greek---Text-Critical	REV-021-002	Αποκαλυψις Ιωαννου 21:2-3	καὶ τὴν πόλιν τὴν ἁγίαν, Ἱερουσαλὴμ καινήν, εἶδον καταβαίνουσαν ἐκ τοῦ οὐρανοῦ ἀπὸ τοῦ Θεοῦ, ἡτοιμασμένην ὡς νύμφην κεκοσμημένην τῷ ἀνδρὶ αὐτῆς. καὶ ἤκουσα φωνῆς μεγάλης ἐκ τοῦ οὐρανοῦ λεγούσης, Ἰδού, ἡ σκηνὴ τοῦ Θεοῦ μετὰ τῶν ἀνθρώπων, καὶ σκηνώσει μετ᾽ αὐτῶν, καὶ αὐτοὶ λαὸς αὐτοῦ ἔσονται, καὶ αὐτὸς ὁ Θεὸς μετ᾽ αὐτῶν ἔσται.
@@ -3443,15 +3443,15 @@ Holy-Bible---Pengo---Pengo-Bible	EXO-013-017
 Holy-Bible---Pengo---Pengo-Bible	MAR-010-045	ମାର୍କ 10:45	ଇନେକିଦେଂକି ମାନାୟ୍‌ ମାଜ଼ି ପା ହେବା ପାୟା ଆଦେଂ ୱାୱାତାଂନା, ମତର୍‌ ହେବା କିଦେଙ୍ଗ୍‌ ଆରି ହେନି କାଜିଂ ମୁକ୍‌ଡ଼ାୟ୍‌ କିନି ମୁଲ୍‌ଲାକେ ଜିବୁନ୍‌ ହିଦେଂ ୱାତାନ୍‌ନା ।”
 Holy-Bible---Pengo---Pengo-Bible	ROM-001-001	ରମିୟ 1:1	ପାଉଲ୍‌, କ୍ରିସ୍ଟ ଜିସୁତି ଆଡ଼ିଏନ୍‌ ଆରି କୁକ୍ୟାତି ରୱାନ୍‌ ପକ୍ୟାତାକାନ୍‌, ଆରେ ଇସ୍ୱର୍‌ ଜାର୍‌ ମାଜ଼ି ମା ମାପ୍ରୁ କ୍ରିସ୍ଟତି ବିସ୍ରେ ଜାର୍‌ ଇମ୍‌ଣି ନେକ୍ରିକାବୁର୍‌ ଦରମ୍‌ ସାସ୍ତର୍‌ତ ଜାର୍‌ ବେଣ୍‌ବାକ୍‌ଣାୟ୍‌କିନାକାନ୍‌ ହୁକେ ଆଗେ ରାଣ୍‌ କିଜ଼ି ମାଚାନ୍‌, ହେ ନେକ୍ରିକାବୁର୍‌ କାଜିଂ ବିନେ ଆଜ଼ି ମାନି ପାଉଲ୍‌ତି ଆକି ।
 Holy-Bible---Pengo---Pengo-Bible	MAT-028-019	ମାତିଉ 28:19	ଲାଗିଂ, ଏପେଙ୍ଗ୍‌ ହାଲ୍‌ଜି ସବୁ ଜାତିନି ମାନାୟାରିଂ ବାୱା, ମାଜ଼ି, ଆରି ପୁଇପୁୟା ଜିବୁନ୍‍ ତର୍‌ଦାଂ ବାପ୍ତିସିମ୍‌ ହିୟାଟ୍‌,
-Holy-Bible---Persian---Old-Persion-Version-Bible	JOH-003-016	یوحنا ۳:۱۶	زیرا خدا جهان را اینقدر محبت نمود که پسر یگانه خود را داد تا هر‌که بر او ایمان آورد هلاک نگردد بلکه حیات جاودانی یابد.
-Holy-Bible---Persian---Old-Persion-Version-Bible	GEN-003-024	پیدایش ۳:۲۴	پس آدم را بیرون کرد و به طرف شرقی باغ عدن، کروبیان را مسکن داد و شمشیرآتشباری را که به هر سو گردش می‌کرد تا طریق درخت حیات را محافظت کند.
-Holy-Bible---Persian---Old-Persion-Version-Bible	LUK-023-034	لوقا ۲۳:۳۴	عیسی گفت: «ای پدر اینها را بیامرز، زیراکه نمی دانند چه می‌کنند.» پس جامه های او راتقسیم کردند و قرعه افکندند.
-Holy-Bible---Persian---Old-Persion-Version-Bible	REV-021-002	مکاشفهٔ یوحنا ۲۱:۲-۳	و شهر مقدس اورشلیم جدید را دیدم که از جانب خدا ازآسمان نازل می‌شود، حاضر شده چون عروسی که برای شوهر خود آراسته است. و آوازی بلنداز آسمان شنیدم که می‌گفت: «اینک خیمه خدا باآدمیان است و با ایشان ساکن خواهد بود و ایشان قوم های او خواهند بود و خود خدا با ایشان خدای ایشان خواهد بود.
-Holy-Bible---Persian---Old-Persion-Version-Bible	HEB-011-008	عبرانیان ۱۱:۸	به ایمان ابراهیم چون خوانده شد، اطاعت نمود و بیرون رفت به سمت آن مکانی که می‌بایست به میراث یابد. پس بیرون آمد ونمی دانست به کجا می‌رود.
-Holy-Bible---Persian---Old-Persion-Version-Bible	EXO-013-017	خروج ۱۳:۱۷	و واقع شد که چون فرعون قوم را رها کرده بود، خدا ایشان را از راه زمین فلسطینیان رهبری نکرد، هرچند آن نزدیکتر بود. زیرا خدا گفت: «مبادا که چون قوم جنگ بینند، پشیمان شوند و به مصر برگردند.»
-Holy-Bible---Persian---Old-Persion-Version-Bible	MAR-010-045	مرقس ۱۰:۴۵	زیرا که پسر انسان نیز نیامده تامخدوم شود بلکه تا خدمت کند و تا جان خود رافدای بسیاری کند.»
-Holy-Bible---Persian---Old-Persion-Version-Bible	ROM-001-001	رومیان ۱:۱	پولس، غلام عیسی مسیح و رسول خوانده شده و جدا نموده شده برای انجیل خدا،
-Holy-Bible---Persian---Old-Persion-Version-Bible	MAT-028-019	متّی ۲۸:۱۹	پس رفته، همه امت‌ها را شاگرد سازید و ایشان رابه اسم اب و ابن و روح‌القدس تعمید دهید.
+Holy-Bible---Persian---Old-Persian-Version-Bible	JOH-003-016	یوحنا ۳:۱۶	زیرا خدا جهان را اینقدر محبت نمود که پسر یگانه خود را داد تا هر‌که بر او ایمان آورد هلاک نگردد بلکه حیات جاودانی یابد.
+Holy-Bible---Persian---Old-Persian-Version-Bible	GEN-003-024	پیدایش ۳:۲۴	پس آدم را بیرون کرد و به طرف شرقی باغ عدن، کروبیان را مسکن داد و شمشیرآتشباری را که به هر سو گردش می‌کرد تا طریق درخت حیات را محافظت کند.
+Holy-Bible---Persian---Old-Persian-Version-Bible	LUK-023-034	لوقا ۲۳:۳۴	عیسی گفت: «ای پدر اینها را بیامرز، زیراکه نمی دانند چه می‌کنند.» پس جامه های او راتقسیم کردند و قرعه افکندند.
+Holy-Bible---Persian---Old-Persian-Version-Bible	REV-021-002	مکاشفهٔ یوحنا ۲۱:۲-۳	و شهر مقدس اورشلیم جدید را دیدم که از جانب خدا ازآسمان نازل می‌شود، حاضر شده چون عروسی که برای شوهر خود آراسته است. و آوازی بلنداز آسمان شنیدم که می‌گفت: «اینک خیمه خدا باآدمیان است و با ایشان ساکن خواهد بود و ایشان قوم های او خواهند بود و خود خدا با ایشان خدای ایشان خواهد بود.
+Holy-Bible---Persian---Old-Persian-Version-Bible	HEB-011-008	عبرانیان ۱۱:۸	به ایمان ابراهیم چون خوانده شد، اطاعت نمود و بیرون رفت به سمت آن مکانی که می‌بایست به میراث یابد. پس بیرون آمد ونمی دانست به کجا می‌رود.
+Holy-Bible---Persian---Old-Persian-Version-Bible	EXO-013-017	خروج ۱۳:۱۷	و واقع شد که چون فرعون قوم را رها کرده بود، خدا ایشان را از راه زمین فلسطینیان رهبری نکرد، هرچند آن نزدیکتر بود. زیرا خدا گفت: «مبادا که چون قوم جنگ بینند، پشیمان شوند و به مصر برگردند.»
+Holy-Bible---Persian---Old-Persian-Version-Bible	MAR-010-045	مرقس ۱۰:۴۵	زیرا که پسر انسان نیز نیامده تامخدوم شود بلکه تا خدمت کند و تا جان خود رافدای بسیاری کند.»
+Holy-Bible---Persian---Old-Persian-Version-Bible	ROM-001-001	رومیان ۱:۱	پولس، غلام عیسی مسیح و رسول خوانده شده و جدا نموده شده برای انجیل خدا،
+Holy-Bible---Persian---Old-Persian-Version-Bible	MAT-028-019	متّی ۲۸:۱۹	پس رفته، همه امت‌ها را شاگرد سازید و ایشان رابه اسم اب و ابن و روح‌القدس تعمید دهید.
 Holy-Bible---Persian---Open-Contemporary	JOH-003-016	یوحنا 3:16	زیرا خدا به قدری مردم جهان را دوست دارد که یگانه پسر خود را فرستاده است، تا هر که به او ایمان آورد، هلاک نشود بلکه زندگی جاوید بیابد.
 Holy-Bible---Persian---Open-Contemporary	GEN-003-024	پیدایش 3:24	یهوه خدا پس از بیرون راندن آنها، در سمت شرقی باغ عدن کروبیانی قرار داد و نیز شمشیری آتشین در آن گذاشت که به هر طرف می‌چرخید، تا راه «درخت حیات» را محافظت کند.
 Holy-Bible---Persian---Open-Contemporary	LUK-023-034	لوقا 23:34	در چنین وضعی، عیسی فرمود: «ای پدر، اینها را ببخش، زیرا که نمی‌دانند چه می‌کنند.» سربازان رومی لباسهای عیسی را به حکم قرعه میان خود تقسیم کردند.
@@ -4784,15 +4784,15 @@ Holy-Bible---Wolio---Kitabi-Momangkilona-Bible	EXO-013-017	Limbaana 13:17	Sapadh
 Holy-Bible---Wolio---Kitabi-Momangkilona-Bible	MAR-010-045	Markus 10:45	Roonamo Anana Maanusia aumba mencuana to atolaiani, maka to alaiani mia mosagaanana tee apasaraakaaka inyawana to amembali katolosina mia bhari."
 Holy-Bible---Wolio---Kitabi-Momangkilona-Bible	ROM-001-001		
 Holy-Bible---Wolio---Kitabi-Momangkilona-Bible	MAT-028-019	Matius 28:19	Rampaakanamo sumai ulingkamo, tee bhari-bharia lipu upamembalia muriku tee upapebhahoa i nuncana sarona o Ama tee Anana tee Rohina Aulataʼala Momangkilo,
-Holy-Bible---Yaka---Ivatan-Bible	JOH-003-016	Yowani 3:16	Ka mbii bu Nziaambi atooni tsi, nde aheeri Mwaana a nde ndila mosi, paa pasi wu usa imiini mu nde, a budusu pe, ka sa abaa moonyi wa bilimi na bilimi.
-Holy-Bible---Yaka---Ivatan-Bible	GEN-003-024		
-Holy-Bible---Yaka---Ivatan-Bible	LUK-023-034	Luka 23:34	[Tumake, Yiisu aleeli: «Taata, sa bo kolokolo, ka a bayaaba pe mi bo bali mu uyiluu.»] Bo bati zeke mu ukaba bikutu bia nde.
-Holy-Bible---Yaka---Ivatan-Bible	REV-021-002	Nziaabisi a Yowani 21:2-3	Na me namoni ngaanda ya ngira, Yeruselemi yinyatii, yakimata ku yula, kwaa Nziaambi, yo yali yayilimi weti mukaasa wumaabweeyise nyutu a nde, mu ndaa mulumi a nde. Me nayuyi ndaa mosi yinene yakimata nha mbata a ipfumu na yakileele: «Mono, nzo a Nziaambi yika nha kati a baata! Nde sa adiaala na bo, na bo sa baba baata ba nde. Nziaambi nde makulu sa aba na bo, nde sa aba Nziaambi a bo.
-Holy-Bible---Yaka---Ivatan-Bible	HEB-011-008	Ebeleo 11:8	Mu imiini, Abraami atumimi mbili a Nziaambi. Nde ayeni ku tsi yi Nziaambi ali atoono uha nde mukobo. Nde ayeni kwahele a uyaaba ku nde akiyene.
-Holy-Bible---Yaka---Ivatan-Bible	EXO-013-017		
-Holy-Bible---Yaka---Ivatan-Bible	MAR-010-045	Malako 10:45	Mundaa ti Mwaana a muutu a ayiri pe paa bamubaasila, ka mu ubaasila baata, na uha moonyi a nde weti kori mu uha bunyanga kwaa babalayi.»
-Holy-Bible---Yaka---Ivatan-Bible	ROM-001-001	Looma 1:1	Me Pawuli booyi la Yiisu Kristo. Nziaambi ati me mbila mu uba tumu, na asiooli me mu uyaabisa Ndaa Yimbwe ya Nziaambi.
-Holy-Bible---Yaka---Ivatan-Bible	MAT-028-019	Mataayi 28:19	Ni mu buu, diyene kwaa baata ba bifuumbu bioosi. Diyiisi bo paa bo baba miyii mia me. Diababootuu mu kuumbu a Taayi, na ya Mwaana, na ya Muheebili wa Ngira.
+Holy-Bible---Yaka---Congo-Bible	JOH-003-016	Yowani 3:16	Ka mbii bu Nziaambi atooni tsi, nde aheeri Mwaana a nde ndila mosi, paa pasi wu usa imiini mu nde, a budusu pe, ka sa abaa moonyi wa bilimi na bilimi.
+Holy-Bible---Yaka---Congo-Bible	GEN-003-024		
+Holy-Bible---Yaka---Congo-Bible	LUK-023-034	Luka 23:34	[Tumake, Yiisu aleeli: «Taata, sa bo kolokolo, ka a bayaaba pe mi bo bali mu uyiluu.»] Bo bati zeke mu ukaba bikutu bia nde.
+Holy-Bible---Yaka---Congo-Bible	REV-021-002	Nziaabisi a Yowani 21:2-3	Na me namoni ngaanda ya ngira, Yeruselemi yinyatii, yakimata ku yula, kwaa Nziaambi, yo yali yayilimi weti mukaasa wumaabweeyise nyutu a nde, mu ndaa mulumi a nde. Me nayuyi ndaa mosi yinene yakimata nha mbata a ipfumu na yakileele: «Mono, nzo a Nziaambi yika nha kati a baata! Nde sa adiaala na bo, na bo sa baba baata ba nde. Nziaambi nde makulu sa aba na bo, nde sa aba Nziaambi a bo.
+Holy-Bible---Yaka---Congo-Bible	HEB-011-008	Ebeleo 11:8	Mu imiini, Abraami atumimi mbili a Nziaambi. Nde ayeni ku tsi yi Nziaambi ali atoono uha nde mukobo. Nde ayeni kwahele a uyaaba ku nde akiyene.
+Holy-Bible---Yaka---Congo-Bible	EXO-013-017		
+Holy-Bible---Yaka---Congo-Bible	MAR-010-045	Malako 10:45	Mundaa ti Mwaana a muutu a ayiri pe paa bamubaasila, ka mu ubaasila baata, na uha moonyi a nde weti kori mu uha bunyanga kwaa babalayi.»
+Holy-Bible---Yaka---Congo-Bible	ROM-001-001	Looma 1:1	Me Pawuli booyi la Yiisu Kristo. Nziaambi ati me mbila mu uba tumu, na asiooli me mu uyaabisa Ndaa Yimbwe ya Nziaambi.
+Holy-Bible---Yaka---Congo-Bible	MAT-028-019	Mataayi 28:19	Ni mu buu, diyene kwaa baata ba bifuumbu bioosi. Diyiisi bo paa bo baba miyii mia me. Diababootuu mu kuumbu a Taayi, na ya Mwaana, na ya Muheebili wa Ngira.
 Holy-Bible---Yaka---Yaka-Bible	JOH-003-016	Yowani 3:16	Mukuma Nzambi watoma zola tsi, wáhana Mwana wandi mosi, ndangu wosu wuna wukwikidini mwena yandi, katotaku kaasi katambula moya wa mvula yi mvula.
 Holy-Bible---Yaka---Yaka-Bible	GEN-003-024		
 Holy-Bible---Yaka---Yaka-Bible	LUK-023-034	Luka 23:34	[Yesu kakala zimbula: «Tata, balolula mukuma bazayimoku mana babati sala.»] Basanzani miledi myandi mu kubetilamya phi zeki.

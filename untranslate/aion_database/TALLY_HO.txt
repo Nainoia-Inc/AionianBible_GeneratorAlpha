@@ -1,6 +1,6 @@
 # File Name: TALLY_HO.txt
-# File Size: 31582       
-# File Date: 10/16/2026 21:40:16
+# File Size: 31581       
+# File Date: 10/25/2026 03:11:49
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution 4.0 International, 2018-2026
@@ -272,7 +272,7 @@ Holy-Bible---Hebrew---Westminster-Leningrad-Philadelphia	23143	23143	23213
 Holy-Bible---Hindi---Contemporary	31086	31086	31087
 Holy-Bible---Hindi---Hindi-Bible	31102	31102	31104
 Holy-Bible---Hona---Hwana-Bible	7951	7951	7955
-Holy-Bible---Hre---Hre-Bible	11529	11529	11534
+Holy-Bible---Hre---Hre-Bible	11549	11549	11554
 Holy-Bible---Hruso---Hrusso-Angka-Bible	1176	1176	1176
 Holy-Bible---Hungarian---Hungarian-Jewish-Bible	23135	23135	23204
 Holy-Bible---Hungarian---Hungarian-Karoli	31102	31102	31173
@@ -394,7 +394,7 @@ Holy-Bible---Padoe---Padoe-Bible	1149	1149	1149
 Holy-Bible---Palaung-Shwe---Shwe-Palaung-Bible	675	675	680
 Holy-Bible---Panjabi---Punjabi-Bible	31102	31102	31104
 Holy-Bible---Pengo---Pengo-Bible	7827	7827	7829
-Holy-Bible---Persian---Old-Persion-Version-Bible	31084	31084	31090
+Holy-Bible---Persian---Old-Persian-Version-Bible	31084	31084	31090
 Holy-Bible---Persian---Open-Contemporary	29468	29468	29469
 Holy-Bible---Pogolo---Pogoro-Bible	7957	7957	7959
 Holy-Bible---Pohnpeian---Pohnpeian-NT-Psalms-New-Alphabet	10415	10415	10416
@@ -543,7 +543,7 @@ Holy-Bible---Vwanji---Vwanji-Bible	7951	7951	7958
 Holy-Bible---Waddar---Waddar-Bible	3793	3793	3793
 Holy-Bible---Waja---Waja-Bible	1763	1763	1764
 Holy-Bible---Wolio---Kitabi-Momangkilona-Bible	12388	12388	12459
-Holy-Bible---Yaka---Ivatan-Bible	7942	7942	7948
+Holy-Bible---Yaka---Congo-Bible	7942	7942	7948
 Holy-Bible---Yaka---Yaka-Bible	7105	7105	7106
 Holy-Bible---Yalunka---Yalunka-Bible	31098	31098	31170
 Holy-Bible---Yamap---Yamap-Bible	2856	2856	2856

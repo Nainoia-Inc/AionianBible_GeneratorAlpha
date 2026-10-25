@@ -1,6 +1,6 @@
 # File Name: ANAVIGATION.txt
-# File Size: 43767       
-# File Date: 10/16/2026 21:59:15
+# File Size: 43766       
+# File Date: 10/25/2026 03:26:48
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution 4.0 International, 2018-2026
@@ -654,7 +654,7 @@ Holy-Bible---Padoe---Padoe-Bible
 Holy-Bible---Palaung-Shwe---Shwe-Palaung-Bible		
 Holy-Bible---Panjabi---Punjabi-Bible		
 Holy-Bible---Pengo---Pengo-Bible		
-Holy-Bible---Persian---Old-Persion-Version-Bible		
+Holy-Bible---Persian---Old-Persian-Version-Bible		
 Holy-Bible---Persian---Open-Contemporary		
 Holy-Bible---Persian---Open-Contemporary	VERSMISS	066-REV-001-018
 Holy-Bible---Persian---Open-Contemporary	VERSMISS	066-REV-020-003
@@ -852,7 +852,7 @@ Holy-Bible---Waddar---Waddar-Bible
 Holy-Bible---Waja---Waja-Bible		
 Holy-Bible---Wolio---Kitabi-Momangkilona-Bible		
 Holy-Bible---Wolio---Kitabi-Momangkilona-Bible	VERSMISS	001-GEN-044-031
-Holy-Bible---Yaka---Ivatan-Bible		
+Holy-Bible---Yaka---Congo-Bible		
 Holy-Bible---Yaka---Yaka-Bible		
 Holy-Bible---Yalunka---Yalunka-Bible		
 Holy-Bible---Yamap---Yamap-Bible		

@@ -3873,11 +3873,11 @@ Holy-Bible---Panjabi---Punjabi-Bible							end
 Holy-Bible---Pengo---Pengo-Bible	064	3JO	001	014	14	1	end
 Holy-Bible---Pengo---Pengo-Bible	066	REV	012	018	1	-1	end
 Holy-Bible---Pengo---Pengo-Bible							end
-Holy-Bible---Persian---Old-Persion-Version-Bible	002	EXO	029	036	46	1	end
-Holy-Bible---Persian---Old-Persion-Version-Bible	014	2CH	014	007	15	1	end
-Holy-Bible---Persian---Old-Persion-Version-Bible	019	PSA	068	033	35	1	end
-Holy-Bible---Persian---Old-Persion-Version-Bible	066	REV	015	008	8	1	end
-Holy-Bible---Persian---Old-Persion-Version-Bible							end
+Holy-Bible---Persian---Old-Persian-Version-Bible	002	EXO	029	036	46	1	end
+Holy-Bible---Persian---Old-Persian-Version-Bible	014	2CH	014	007	15	1	end
+Holy-Bible---Persian---Old-Persian-Version-Bible	019	PSA	068	033	35	1	end
+Holy-Bible---Persian---Old-Persian-Version-Bible	066	REV	015	008	8	1	end
+Holy-Bible---Persian---Old-Persian-Version-Bible							end
 Holy-Bible---Persian---Open-Contemporary	064	3JO	001	014	14	1	end
 Holy-Bible---Persian---Open-Contemporary							end
 Holy-Bible---Pogolo---Pogoro-Bible	064	3JO	001	014	14	1	end
@@ -4942,9 +4942,9 @@ Holy-Bible---Wolio---Kitabi-Momangkilona-Bible	019	PSA	142	001	7	1	end
 Holy-Bible---Wolio---Kitabi-Momangkilona-Bible	064	3JO	001	014	14	1	end
 Holy-Bible---Wolio---Kitabi-Momangkilona-Bible	066	REV	012	018	1	-1	end
 Holy-Bible---Wolio---Kitabi-Momangkilona-Bible							end
-Holy-Bible---Yaka---Ivatan-Bible	064	3JO	001	014	14	1	end
-Holy-Bible---Yaka---Ivatan-Bible	066	REV	012	018	1	-1	end
-Holy-Bible---Yaka---Ivatan-Bible							end
+Holy-Bible---Yaka---Congo-Bible	064	3JO	001	014	14	1	end
+Holy-Bible---Yaka---Congo-Bible	066	REV	012	018	1	-1	end
+Holy-Bible---Yaka---Congo-Bible							end
 Holy-Bible---Yaka---Yaka-Bible	064	3JO	001	014	14	1	end
 Holy-Bible---Yaka---Yaka-Bible							end
 Holy-Bible---Yalunka---Yalunka-Bible	004	NUM	025	019	1	-1	end

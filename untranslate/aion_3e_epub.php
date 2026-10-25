@@ -332,7 +332,7 @@ EOF;
 			$book_foreign	= $args['database']['T_BOOKS'][$bible][$book_index];
 			if(strpos($book_english,'"')!==FALSE || strpos($book_foreign,'"')!==FALSE) { AION_ECHO("ERROR! book name quote problem! $book_english $book_foreign"); }
 			$chap_number	= $args['database']['T_NUMBERS'][$bible][$last_chaN];
-			$book_format	= "<h2 $cssbok>$book_foreign $chap_number</h2>\n<div class='chapnav'>\n<a href='../index.xhtml' title='View Table of Contents'>TOC</a>\n";
+			$book_format	= "<h1 $cssbok>$book_foreign $chap_number</h1>\n<div class='chapnav'>\n<a href='../index.xhtml' title='View Table of Contents'>TOC</a>\n";
 			if ($last_chaN!=1) {
 				if (file_exists("$FOLDEPUB/chapters/$last_indx-$last_book-001.xhtml")) {
 					$book_format .= ", <a href='$last_indx-$last_book-001.xhtml' class='ff' $G_ISO $G_RTL title='View book chapter index'>Chapters</a>\n";
@@ -430,7 +430,7 @@ EOF;
 	$book_foreign	= $args['database']['T_BOOKS'][$bible][$book_index];
 	if(strpos($book_english,'"')!==FALSE || strpos($book_foreign,'"')!==FALSE) { AION_ECHO("ERROR! book name quote problem! $book_english $book_foreign"); }
 	$chap_number	= $args['database']['T_NUMBERS'][$bible][$last_chaN];
-	$book_format	= "<h2 $cssbok>$book_foreign $chap_number</h2>\n<div class='chapnav'>\n<a href='../index.xhtml' title='View Table of Contents'>TOC</a>\n";
+	$book_format	= "<h1 $cssbok>$book_foreign $chap_number</h1>\n<div class='chapnav'>\n<a href='../index.xhtml' title='View Table of Contents'>TOC</a>\n";
 	if ($last_chaN!=1) {
 		$book_format .= ", <a href='$last_indx-$last_book-001.xhtml' class='ff' $G_ISO $G_RTL title='View book chapter index'>Chapters</a>\n";
 	}
@@ -576,44 +576,44 @@ $file = "$folder/epub.css";
 // BASE FONT
 $l = "notosans-basic";
 $f = "notosans-basic-regular";
-$opf_manifest .= "<item href='fonts/$l.license'	id='basic_lic'	media-type='application/text/plain' />";
+$opf_manifest .= "<item href='fonts/$l.license'	id='basic_lic'	media-type='text/plain' />";
 $opf_manifest .= "<item href='fonts/$f.woff'	id='basic_wof'	media-type='application/font-woff' />";		// or /font/woff
-$opf_manifest .= "<item href='fonts/$f.ttf'		id='basic_ttf'	media-type='application/font-sfnt' />";		// or /font/ttf
+// $opf_manifest .= "<item href='fonts/$f.ttf'		id='basic_ttf'	media-type='application/font-sfnt' />";		// or /font/ttf
+// url('fonts/$f.ttf')		format('truetype');
 $basic_font = <<< EOF
 /* Basic Font */ 
 @font-face {
 	font-family:
 		'NotoSans';
 	src:
-		url('fonts/$f.woff')	format('woff'),
-		url('fonts/$f.ttf')		format('truetype');
+		url('fonts/$f.woff')	format('woff');
 }
 
 EOF;
 if (!copy("./aion_customize_index/fonts/$l.license",	"$folder/fonts/$l.license")){	AION_ECHO("ERROR! AION_EPUBY_EPUB_CSS copy font($l)"); }
 if (!copy("./aion_customize_index/fonts/$f.woff",		"$folder/fonts/$f.woff")) {		AION_ECHO("ERROR! AION_EPUBY_EPUB_CSS copy font($f)"); }
-if (!copy("./aion_customize_index/fonts/$f.ttf",		"$folder/fonts/$f.ttf")) {		AION_ECHO("ERROR! AION_EPUBY_EPUB_CSS copy font($f)"); }
+//if (!copy("./aion_customize_index/fonts/$f.ttf",		"$folder/fonts/$f.ttf")) {		AION_ECHO("ERROR! AION_EPUBY_EPUB_CSS copy font($f)"); }
 
 // GENTIUM FONT
 $l = "gentiumplus";
 $f = "gentiumplus-r";
-$opf_manifest .= "<item href='fonts/$l.license'	id='gentiumplus_lic'	media-type='application/text/plain' />";
+$opf_manifest .= "<item href='fonts/$l.license'	id='gentiumplus_lic'	media-type='text/plain' />";
 $opf_manifest .= "<item href='fonts/$f.woff'	id='gentiumplus_wof'	media-type='application/font-woff' />";		// or /font/woff
-$opf_manifest .= "<item href='fonts/$f.ttf'		id='gentiumplus_ttf'	media-type='application/font-sfnt' />";		// or /font/ttf
+//$opf_manifest .= "<item href='fonts/$f.ttf'		id='gentiumplus_ttf'	media-type='application/font-sfnt' />";		// or /font/ttf
+// url('fonts/$f.ttf')		format('truetype');
 $gentium_font = <<< EOF
 /* GentiumPlus Font */ 
 @font-face {
 	font-family:
 		'GentiumPlus';
 	src:
-		url('fonts/$f.woff')	format('woff'),
-		url('fonts/$f.ttf')		format('truetype');
+		url('fonts/$f.woff')	format('woff');
 }
 
 EOF;
 if (!copy("./aion_customize_index/fonts/$l.license",	"$folder/fonts/$l.license")){	AION_ECHO("ERROR! AION_EPUBY_EPUB_CSS copy font($l)"); }
 if (!copy("./aion_customize_index/fonts/$f.woff",		"$folder/fonts/$f.woff")) {		AION_ECHO("ERROR! AION_EPUBY_EPUB_CSS copy font($f)"); }
-if (!copy("./aion_customize_index/fonts/$f.ttf",		"$folder/fonts/$f.ttf")) {		AION_ECHO("ERROR! AION_EPUBY_EPUB_CSS copy font($f)"); }
+// if (!copy("./aion_customize_index/fonts/$f.ttf",		"$folder/fonts/$f.ttf")) {		AION_ECHO("ERROR! AION_EPUBY_EPUB_CSS copy font($f)"); }
 
 // FOREIGN FONT 
 $fray = array(
@@ -654,23 +654,23 @@ $l = $fray[$font][0];
 $f = $fray[$font][1];
 $n = $fray[$font][2];
 $c = $fray[$font][3]; // unused, all use same tag!
-$opf_manifest .= "<item href='fonts/$l.license'	id='foreign_lic'	media-type='application/text/plain' />";
+$opf_manifest .= "<item href='fonts/$l.license'	id='foreign_lic'	media-type='text/plain' />";
 $opf_manifest .= "<item href='fonts/$f.woff'	id='foreign_wof'	media-type='application/font-woff' />";		// or /font/woff
-$opf_manifest .= "<item href='fonts/$f.ttf'		id='foreign_ttf'	media-type='application/font-sfnt' />";		// or /font/ttf
+//$opf_manifest .= "<item href='fonts/$f.ttf'		id='foreign_ttf'	media-type='application/font-sfnt' />";		// or /font/ttf
+// url('fonts/$f.ttf')		format('truetype');
 $foreign_font = <<< EOF
 @font-face {
 	font-family:
 		'$n';
 	src:
-		url('fonts/$f.woff')	format('woff'),
-		url('fonts/$f.ttf')		format('truetype');
+		url('fonts/$f.woff')	format('woff');
 }
 .ff { font-family: 'NotoSans', '$n', 'Arial', 'sans-serif', 'GentiumPlus'; }
 
 EOF;
 if (!copy("./aion_customize_index/fonts/$l.license",	"$folder/fonts/$l.license")) {	AION_ECHO("ERROR! AION_EPUBY_EPUB_CSS copy font($l)"); }
 if (!copy("./aion_customize_index/fonts/$f.woff",		"$folder/fonts/$f.woff")) {		AION_ECHO("ERROR! AION_EPUBY_EPUB_CSS copy font($f)"); }
-if (!copy("./aion_customize_index/fonts/$f.ttf",		"$folder/fonts/$f.ttf")) {		AION_ECHO("ERROR! AION_EPUBY_EPUB_CSS copy font($f)"); }
+//if (!copy("./aion_customize_index/fonts/$f.ttf",		"$folder/fonts/$f.ttf")) {		AION_ECHO("ERROR! AION_EPUBY_EPUB_CSS copy font($f)"); }
 }
 
 $contents = <<< EOF
@@ -704,6 +704,7 @@ html,body { font-family: 'NotoSans', 'Arial', 'sans-serif', 'GentiumPlus'; }
 /*** BASE ***/
 html { height: 100%; }
 body { height: 100%; margin: 0; min-width: 360px; font-size: 100%; color: #191919; }
+h1 { font-size: 1.75rem; }
 h1, h2, h3, h4 { margin: 0 0 10px 0; }
 p, form { margin: 0 0 10px 0; }
 img { max-width: 100%; height: auto; border: 1px solid #C5C5C5; }
@@ -776,14 +777,14 @@ $G_COMMENT
 <dc:language>$lang</dc:language>
 <dc:creator>Nainoia Inc</dc:creator>
 <dc:publisher>Nainoia Inc</dc:publisher>
-<dc:rights>Nainoia Inc, CC-BY-ND 4.0</dc:rights>
+<dc:rights>Nainoia Inc, CC-BY 4.0</dc:rights>
 <dc:date>2020-06-21</dc:date>
 <dc:subject>The Holy Bible, Christian Scriptures</dc:subject>
 <dc:description>The Holy Bible Aionian Edition® is the world’s first Bible untranslation! What is an untranslation? Bibles are translated into each of our languages from the original Hebrew, Aramaic, and Koine Greek. Occasionally, the best word translation cannot be found and these words are transliterated letter by letter. Four well-known transliterations are Christ, baptism, angel, and apostle. The meaning is then preserved more accurately through context and a dictionary. The Aionian Bible untranslates and instead transliterates eleven additional Aionian Glossary words to help us better understand God’s love for individuals and all mankind, and the nature of afterlife destinies.</dc:description>
 <meta property='dcterms:modified'>$G_MODIFIED</meta>
 <meta property='dcterms:dateCopyrighted'>2020-06-21</meta>
 <meta property='ibooks:specified-fonts'>true</meta>
-<meta name='cover' content='images/COVER.jpg' />
+<meta name='cover' content='cover' />
 </metadata>
 <manifest>
 <item href='copyright' id='epub_copyright' media-type='text/plain' />
@@ -820,7 +821,7 @@ $intro_old$intro_new$outro_new<item href='rear-1-readers-guide.xhtml' id='xreade
 <item href='images/MAP-PAUL.jpg' id='img_paul' media-type='image/jpeg' />
 <item href='images/MAP-WORLD.jpg' id='img_world' media-type='image/jpeg' />
 <item href='images/Aionian-Bible-Facebook.png' id='img_facebook' media-type='image/png' />
-<item href='images/Aionian-Bible-Twitter.png' id='img_twitter' media-type='image/png' />
+<item href='images/Aionian-Bible-X.png' id='img_x' media-type='image/png' />
 <item href='images/Aionian-Bible-LinkedIn.png' id='img_linkedin' media-type='image/png' />
 <item href='images/Aionian-Bible-Instagram.png' id='img_instagram' media-type='image/png' />
 <item href='images/Aionian-Bible-Pinterest.png' id='img_pinterest' media-type='image/png' />
@@ -831,7 +832,7 @@ $intro_old$intro_new$outro_new<item href='rear-1-readers-guide.xhtml' id='xreade
 <item href='images/Aionian-Bible-Button-Your-Gift-Email-Newsletter-Home.png' id='img_emailnews' media-type='image/png' />
 $opf_manifest
 </manifest>
-<spine toc="epub_ncx">
+<spine toc='epub_ncx'>
 <itemref idref='xcover' linear='yes' />
 <itemref idref='xcopyright' linear='yes' />
 <itemref idref='xpreface' linear='yes' />
@@ -865,8 +866,8 @@ return;
 // CREATE epub-toc.ncx
 function AION_EPUBY_EPUB_NCX($folder, $ncx_old, $ncx_new) {
 global $G_BOOKS, $G_NUMBERS, $G_VERSIONS, $G_FORPRINT, $G_UUID, $G_TITLE, $G_MODIFIED, $G_RTL, $G_COMMENT;
-$co = substr_count($ncx_old, "\n");
-$cn = substr_count($ncx_new, "\n");
+$co = substr_count($ncx_old?:'', "\n");
+$cn = substr_count($ncx_new?:'', "\n");
 $ncx_old = (empty($ncx_old) ? NULL : "<navPoint id='nav6' playOrder='6' ><navLabel><text>Genesis</text> </navLabel><content src='middle-gen.xhtml' /></navPoint>\n".$ncx_old);
 // 6 if no OT -OR- if OT then OT count + 7
 $cnB = (empty($ncx_old) ? 6 : $co + 7);
@@ -888,7 +889,7 @@ $G_COMMENT
 <meta name="dtb:maxPageNumber" content="0" />
 </head>
 <docTitle><text>$G_TITLE</text></docTitle>
-<docAuthor><text>Nainoia Inc, CC-BY-ND 4.0</text></docAuthor>
+<docAuthor><text>Nainoia Inc, CC-BY 4.0</text></docAuthor>
 <navMap>
 <navPoint id='nav1' playOrder='1'><navLabel><text>Cover</text></navLabel><content src='front-1-cover.xhtml' /></navPoint>
 <navPoint id='nav2' playOrder='2'><navLabel><text>Copyright</text></navLabel><content src='front-2-copyright.xhtml' /></navPoint>
@@ -947,7 +948,7 @@ $file = "$folder/front-2-copyright.xhtml";
 $contents = <<< EOF
 <?xml version="1.0" encoding="utf-8"?>
 $G_COMMENT
-<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="en">
 <head>
 <meta charset="utf-8" />
 <meta name='viewport' content='width=device-width,initial-scale=1'/>
@@ -1005,7 +1006,7 @@ $file = "$folder/front-3-preface.xhtml";
 $contents = <<< EOF
 <?xml version="1.0" encoding="utf-8"?>
 $G_COMMENT
-<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="en">
 <head>
 <meta charset="utf-8" />
 <meta name='viewport' content='width=device-width,initial-scale=1'/>
@@ -1013,7 +1014,7 @@ $G_COMMENT
 <link href='epub.css' rel='stylesheet' />
 </head>
 <body>
-<h2 class='title'>$W_PREF</h2>
+<h1 class='title'>$W_PREF</h1>
 <p class='center'>$languagehtml<a href='https://www.AionianBible.org/Preface' target='_blank'>www.AionianBible.org/Preface</a></p>
 <p>The <i>Holy Bible Aionian Edition®</i> is the world’s first Bible <i>untranslation</i>! What is an <i>untranslation</i>? Bibles are translated into each of our languages from the original Hebrew, Aramaic, and Koine Greek. Occasionally, the best word translation cannot be found and these words are transliterated letter by letter. Four well-known transliterations are <i>Christ</i>, <i>baptism</i>, <i>angel</i>, and <i>apostle</i>. The meaning is then preserved more accurately through context and a dictionary. The Aionian Bible untranslates and instead transliterates eleven additional <a href='rear-2-glossary.xhtml' title='Aionian Glossary'>Aionian Glossary</a> words to help us better understand God’s love for individuals and all mankind, and the nature of afterlife destinies.</p>
 
@@ -1027,7 +1028,7 @@ $G_COMMENT
 
 <p class='social'>
 <a href='https://www.aionianbible.org/Facebook'		target='_blank' title='Facebook/AionianBible'>	<img src='images/Aionian-Bible-Facebook.png'	alt='Facebook'	title='Aionian Bible on Facebook' /></a>
-<a href='https://www.aionianbible.org/Twitter'		target='_blank' title='Twitter/AionianBible'>	<img src='images/Aionian-Bible-Twitter.png'		alt='Twitter'	title='Aionian Bible on Twitter' /></a>
+<a href='https://www.aionianbible.org/X'			target='_blank' title='X/AionianBible'>			<img src='images/Aionian-Bible-X.png'			alt='X'			title='Aionian Bible on X' /></a>
 <a href='https://www.aionianbible.org/LinkedIn'		target='_blank' title='LinkedIn/AionianBible'>	<img src='images/Aionian-Bible-LinkedIn.png'	alt='LinkedIn'	title='Aionian Bible on LinkedIn' /></a>
 <a href='https://www.aionianbible.org/Instagram'	target='_blank' title='Instagram/AionianBible'>	<img src='images/Aionian-Bible-Instagram.png'	alt='Instagram'	title='Aionian Bible on Instagram' /></a>
 <a href='https://www.aionianbible.org/Pinterest'	target='_blank' title='Pinterest/AionianBible'>	<img src='images/Aionian-Bible-Pinterest.png'	alt='Pinterest'	title='Aionian Bible on Pinterest' /></a>
@@ -1055,7 +1056,7 @@ $file = "$folder/front-4-aionian.xhtml";
 $contents = <<< EOF
 <?xml version="1.0" encoding="utf-8"?>
 $G_COMMENT
-<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="en">
 <head>
 <meta charset="utf-8" />
 <meta name='viewport' content='width=device-width,initial-scale=1'/>
@@ -1063,7 +1064,7 @@ $G_COMMENT
 <link href='epub.css' rel='stylesheet' />
 </head>
 <body>
-<h2 class="title">Aiōnios and Aïdios</h2>
+<h1 class="title">Aiōnios and Aïdios</h1>
 <p class='center'>$languagehtml<a href='https://www.AionianBible.org/Aionios-and-Aidios' target='_blank'>www.AionianBible.org/Aionios-and-Aidios</a></p>
 <p><img src="images/BOOK-Life-Time-Entirety-A-Study-of-AION-Heleen-Keizer.jpg" alt="Life Time Entirety. A Study of AIŌN in Greek Literature and Philosophy, the Septuagint and Philo by Heleen Keizer" class='pix' />Dr. Heleen Keizer wrote <b><i>Life Time Entirety. A Study of AIŌN in Greek Literature and Philosophy, the Septuagint and Philo</i></b> to explain the meaning of the Greek word aiōn. She begins, "<i>The Greek word aiōn has a wide ranging meaning as well as a wide ranging history: it is most commonly translated as ‘eternity’ but has as its first meaning ‘life’ or ‘lifetime’; it has its place in Greek literature and philosophy, but also in the Greek Bible, where it represents the Hebrew word ‘olâm.</i>" Her 315 page PhD dissertation shows that the Greek word aiōn originally denotes life time, duration, or complete life, but not eternal. You can read her <a href='https://www.aionianbible.org/Life-Time-Entirety-Keizer' target='_blank' title='Visit Dr. Keizers dissertation online'>dissertation online</a> or an <a href='https://www.aionianbible.org/Life-Time-Entirety-Keizer-Abstract' target='_blank' title='View an abstract of Dr. Keizers dissertation'>abstract of her conclusions here</a>.</p>
 
@@ -1099,7 +1100,7 @@ $file = "$folder/index.xhtml";
 $contents = <<< EOF
 <?xml version="1.0" encoding="utf-8"?>
 $G_COMMENT
-<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="en">
 <head>
  <meta charset="utf-8" />
  <meta name='viewport' content='width=device-width,initial-scale=1'/>
@@ -1107,7 +1108,7 @@ $G_COMMENT
  <link href='epub.css' rel='stylesheet' />
 </head>
 <body>
-<h2 class="title">$W_TOC</h2>
+<h1 class="title">$W_TOC</h1>
 <nav epub:type="toc" id="toc">
 <ol class='nav'>
 <li class='olnop'><a href='front-1-cover.xhtml' title='View Cover'>Cover</a></li>
@@ -1159,7 +1160,7 @@ $file = "$folder/rear-1-readers-guide.xhtml";
 $contents = <<< EOF
 <?xml version="1.0" encoding="utf-8"?>
 $G_COMMENT
-<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="en">
 <head>
 <meta charset="utf-8" />
 <meta name='viewport' content='width=device-width,initial-scale=1'/>
@@ -1167,7 +1168,7 @@ $G_COMMENT
 <link href='epub.css' rel='stylesheet' />
 </head>
 <body>
-<h2 class='title'>$W_READ</h2>
+<h1 class='title'>$W_READ</h1>
 <p class='center'>$languagehtml<a href='https://www.AionianBible.org/Readers-Guide' target='_blank'>www.AionianBible.org/Readers-Guide</a></p>
 
 <p>The Aionian Bible republishes public domain and Creative Commons Bible texts that are 100% free to copy and print. The original translation is unaltered and notes are added to help your study. The notes show the location of eleven special Greek and Hebrew <a href='rear-2-glossary.xhtml' title='Aionian Glossary'>Aionian Glossary</a> words to help us better understand God’s love for individuals and for all mankind, and the nature of afterlife destinies.</p>
@@ -1200,7 +1201,7 @@ $file = "$folder/rear-1b-project-history.xhtml";
 $contents = <<< EOF
 <?xml version="1.0" encoding="utf-8"?>
 $G_COMMENT
-<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="en">
 <head>
 <meta charset="utf-8" />
 <meta name='viewport' content='width=device-width,initial-scale=1'/>
@@ -1208,7 +1209,7 @@ $G_COMMENT
 <link href='epub.css' rel='stylesheet' />
 </head>
 <body>
-<h2 class='title'>Project History</h2>
+<h1 class='title'>Project History</h1>
 <p class='center'>$languagehtml<a href='https://www.AionianBible.org/History' target='_blank'>www.AionianBible.org/History</a></p>
 
 <p>The Aionian Bible republishes public domain and Creative Commons Bible texts that are 100% free to copy and print. All versions are available online at <a href='https://www.Aionianbible.org/Read' target='_blank' title='The worlds first Holy Bible untranslation'>AionianBible.org</a> in web page, ePub, text, and PDF format.  Also read online with the  <a href='https://www.Aionianbible.org/Google-Play' target='_blank' title='Aionian Bible free online at Google Play'>Android</a>  and  <a href='https://www.Aionianbible.org/Apple-iOS-App' target='_blank' title='Apple iOS App'>Apple iOS App</a>.  Buy print Bibles at <a href='https://www.Aionianbible.org/Buy' target='_blank' title='Holy Bible Aionian Edition at Amazon.com and Lulu.com'>Amazon.com and Lulu.com</a>.<br /><br /></p>
@@ -1254,7 +1255,7 @@ $G_COMMENT
 <p>
 <b>2021-12-20</b> Social media presence on 
 <a href='https://www.Aionianbible.org/Facebook'		target='_blank' title='Facebook/AionianBible'>Facebook</a>,
-<a href='https://www.Aionianbible.org/Twitter'		target='_blank' title='Twitter/AionianBible'>Twitter</a>,
+<a href='https://www.Aionianbible.org/X'			target='_blank' title='X/AionianBible'>X</a>,
 <a href='https://www.Aionianbible.org/LinkedIn'		target='_blank' title='LinkedIn/AionianBible'>LinkedIn</a>,
 <a href='https://www.Aionianbible.org/Instagram'	target='_blank' title='Instagram/AionianBible'>Instagram</a>,
 <a href='https://www.Aionianbible.org/Pinterest'	target='_blank' title='Pinterest/AionianBible'>Pinterest</a>,
@@ -1333,7 +1334,7 @@ $file = "$folder/rear-2-glossary.xhtml";
 $contents = <<< EOF
 <?xml version="1.0" encoding="utf-8"?>
 $G_COMMENT
-<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="en">
 <head>
 <meta charset="utf-8" />
 <meta name='viewport' content='width=device-width,initial-scale=1'/>
@@ -1341,7 +1342,7 @@ $G_COMMENT
 <link href='epub.css' rel='stylesheet' />
 </head>
 <body>
-<h2 class='title'>$W_GLOS</h2>
+<h1 class='title'>$W_GLOS</h1>
 <p class='center'>$languagehtml<a href='https://www.AionianBible.org/Glossary' target='_blank'>www.AionianBible.org/Glossary</a></p>
 <p>The <i>Aionian Bible</i> untranslates and instead transliterates eleven special words to help us better understand the extent of God’s love for individuals and all mankind, and the nature of afterlife destinies.  The original translation is unaltered and a note is added to 64 Old Testament and 200 New Testament verses. Compare the definitions below to the <a href='https://www.aionianbible.org/Strongs' target='_blank' title='Visit the Strongs Concordance'>Strong's Concordance</a>.  Follow the links below to study the word's usage.</p>
 
@@ -1452,7 +1453,7 @@ $file = "$folder/rear-3-history-past.xhtml";
 $contents = <<< EOF
 <?xml version="1.0" encoding="utf-8"?>
 $G_COMMENT
-<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="en">
 <head>
 <meta charset="utf-8" />
 <meta name='viewport' content='width=device-width,initial-scale=1'/>
@@ -1460,7 +1461,7 @@ $G_COMMENT
 <link href='epub.css' rel='stylesheet' />
 </head>
 <body>
-<h2 class='title'>History Past</h2>
+<h1 class='title'>History Past</h1>
 <div class='cover'><img src="images/HISTORY-PAST.jpg" alt="History Past" /></div>
 
 <p>Derived from <a href='https://www.aionianbible.org/Ussher' target='_blank' title='Download PDF'>The Annals of the World by James Ussher</a> and <a href='https://www.aionianbible.org/Wikipedia-Timeline-of-Christian-Missions' target='_blank' title='Visit Wikipedia'>Timeline of Christian missions, Wikipedia</a>.</p>
@@ -1482,7 +1483,7 @@ $file = "$folder/rear-4-history-future.xhtml";
 $contents = <<< EOF
 <?xml version="1.0" encoding="utf-8"?>
 $G_COMMENT
-<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="en">
 <head>
 <meta charset="utf-8" />
 <meta name='viewport' content='width=device-width,initial-scale=1'/>
@@ -1490,7 +1491,7 @@ $G_COMMENT
 <link href='epub.css' rel='stylesheet' />
 </head>
 <body>
-<h2 class='title'>History Future</h2>
+<h1 class='title'>History Future</h1>
 
 <div class='cover'><img src="images/HISTORY-FUTURE.jpg" alt="History Future" /></div>
 
@@ -1517,7 +1518,7 @@ $file = "$folder/rear-5-history-destiny.xhtml";
 $contents = <<< EOF
 <?xml version="1.0" encoding="utf-8"?>
 $G_COMMENT
-<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="en">
 <head>
 <meta charset="utf-8" />
 <meta name='viewport' content='width=device-width,initial-scale=1'/>
@@ -1525,7 +1526,7 @@ $G_COMMENT
 <link href='epub.css' rel='stylesheet' />
 </head>
 <body>
-<h2 class='title'>$W_DESTINY</h2>
+<h1 class='title'>$W_DESTINY</h1>
 <p class='center'>$languagehtml<a href='https://www.AionianBible.org/Destiny' target='_blank'>www.AionianBible.org/Destiny</a></p>
 
 <p>The Aionian Bible shows the location of eleven special Greek and Hebrew <a href='rear-2-glossary.xhtml' title='Aionian Glossary'>Aionian Glossary</a> words to help us better understand God’s love for individuals and for all mankind, and the nature of afterlife destinies. The underlying Hebrew and Greek words typically translated as <i>Hell</i> show us that there are not just two afterlife destinies, Heaven or Hell.  Instead, there are a number of different locations, each with different purposes, different durations, and different inhabitants. Locations include 1) Old Testament <a href='rear-2-glossary.xhtml#h7585' title='Aionian Glossary h7585'><i>Sheol</i></a> and New Testament <a href='rear-2-glossary.xhtml#g86' title='Aionian Glossary g86'><i>Hadēs</i></a>, 2) <a href='rear-2-glossary.xhtml#g1067' title='Aionian Glossary g1067'><i>Geenna</i></a>,
@@ -1553,11 +1554,11 @@ return;
 // CREATE image page
 function AION_EPUBY_IMAGE_XHTML($file, $title, $image) {
 global $G_BOOKS, $G_NUMBERS, $G_VERSIONS, $G_FORPRINT, $G_UUID, $G_TITLE, $G_MODIFIED, $G_RTL, $G_COMMENT;
-$title = (empty($title) ? "" : "\n<h2 class='title'>$title</h2>");
+$title = (empty($title) ? "" : "\n<h1 class='title'>$title</h1>");
 $contents = <<< EOF
 <?xml version="1.0" encoding="utf-8"?>
 $G_COMMENT
-<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="en">
 <head>
 <meta charset="utf-8" />
 <meta name='viewport' content='width=device-width,initial-scale=1'/>
@@ -1578,12 +1579,12 @@ return;
 // CREATE image verse page
 function AION_EPUBY_IMAGE_VERSE_XHTML($file, $title, $image, $verse, $map=FALSE, $css=NULL) {
 global $G_BOOKS, $G_NUMBERS, $G_VERSIONS, $G_FORPRINT, $G_UUID, $G_TITLE, $G_MODIFIED, $G_RTL, $G_COMMENT;
-$title = (empty($title) ? "" : "<h2 class='title'>$title</h2>");
+$title = (empty($title) ? "" : "<h1 class='title'>$title</h1>");
 $map = ($map ? " / <a href='https://www.aionianbible.org/Maps' target='_blank' title='Download printable image'>Printable version</a>" : NULL);
 $contents = <<< EOF
 <?xml version="1.0" encoding="utf-8"?>
 $G_COMMENT
-<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="en">
 <head>
 <meta charset="utf-8" />
 <meta name='viewport' content='width=device-width,initial-scale=1'/>

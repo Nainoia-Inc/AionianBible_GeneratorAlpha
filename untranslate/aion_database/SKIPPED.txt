@@ -1,6 +1,6 @@
 # File Name: SKIPPED.txt
-# File Size: 1879976     
-# File Date: 10/16/2026 19:24:59
+# File Size: 1879970     
+# File Date: 10/25/2026 00:57:54
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution 4.0 International, 2018-2026
@@ -12157,12 +12157,12 @@ Holy-Bible---Panjabi---Punjabi-Bible	064	3JO	001	014	ਪਰ ਮੈਨੂੰ ਆ�
 Holy-Bible---Panjabi---Punjabi-Bible	066	REV	012	018	ਅਤੇ ਸਮੁੰਦਰ ਦੇ ਰੇਤੇ ਉੱਤੇ ਜਾ ਖਲੋਤਾ।
 Holy-Bible---Pengo---Pengo-Bible	064	3JO	001	014	ନା ଆହା ଜେ, ବେଗି ନି ଲାହାଙ୍ଗ୍‌ ହୁଡ଼୍‌କା ଆଦେଂ, ଆରେ ଆସେଙ୍ଗ୍‌ ବେଟା ଆଜ଼ି କାତାବାର୍ତା କିନାସ୍‌ ।
 Holy-Bible---Pengo---Pengo-Bible	066	REV	012	018	ଆରେ ହେୱାନ୍‌ ହାମ୍‌ଦୁର୍‌ନି ବାଲି ଜପି ନିଲ୍‌ତାତ୍‌ ।
-Holy-Bible---Persian---Old-Persion-Version-Bible	002	EXO	029	036	و گوساله قربانی گناه را هرروز بجهت کفاره ذبح کن.
-Holy-Bible---Persian---Old-Persion-Version-Bible	014	2CH	014	007	و به یهوداگفت: «این شهرها را بنا نماییم و دیوارها و برجهابا دروازه‌ها و پشت بندها به اطراف آنها بسازیم.
-Holy-Bible---Persian---Old-Persion-Version-Bible	018	JOB	035	001	
-Holy-Bible---Persian---Old-Persion-Version-Bible	018	JOB	040	001	
-Holy-Bible---Persian---Old-Persion-Version-Bible	019	PSA	068	033	برای او که بر فلک الافلاک قدیمی سوار است.
-Holy-Bible---Persian---Old-Persion-Version-Bible	066	REV	015	008	و قدس از جلال خدا و قوت او پر دودگردید.
+Holy-Bible---Persian---Old-Persian-Version-Bible	002	EXO	029	036	و گوساله قربانی گناه را هرروز بجهت کفاره ذبح کن.
+Holy-Bible---Persian---Old-Persian-Version-Bible	014	2CH	014	007	و به یهوداگفت: «این شهرها را بنا نماییم و دیوارها و برجهابا دروازه‌ها و پشت بندها به اطراف آنها بسازیم.
+Holy-Bible---Persian---Old-Persian-Version-Bible	018	JOB	035	001	
+Holy-Bible---Persian---Old-Persian-Version-Bible	018	JOB	040	001	
+Holy-Bible---Persian---Old-Persian-Version-Bible	019	PSA	068	033	برای او که بر فلک الافلاک قدیمی سوار است.
+Holy-Bible---Persian---Old-Persian-Version-Bible	066	REV	015	008	و قدس از جلال خدا و قوت او پر دودگردید.
 Holy-Bible---Persian---Open-Contemporary	064	3JO	001	014	زیرا امیدوارم به‌زودی تو را ببینم تا حضوراً گفتگو کنیم.
 Holy-Bible---Pogolo---Pogoro-Bible	064	3JO	001	014	Ntumbira kukuwona mashaka galaa aga na hatuyoweri.
 Holy-Bible---Pogolo---Pogoro-Bible	066	REV	012	018	Su njoka kagoloka mumpeku mwa bahali.
@@ -14035,12 +14035,12 @@ Holy-Bible---Wolio---Kitabi-Momangkilona-Bible	042	LUK	017	036
 Holy-Bible---Wolio---Kitabi-Momangkilona-Bible	042	LUK	023	017	
 Holy-Bible---Wolio---Kitabi-Momangkilona-Bible	064	3JO	001	014	Iaku kuharapu indamo amangenge kupokawa lausaka tee ingkoo, mamudhaakana tapogau tapoaro rou.
 Holy-Bible---Wolio---Kitabi-Momangkilona-Bible	066	REV	012	018	Kasiimpo naga sumai akabhale-bhale i bhiwina tawo.
-Holy-Bible---Yaka---Ivatan-Bible	041	MAR	009	044	]
-Holy-Bible---Yaka---Ivatan-Bible	041	MAR	009	046	]
-Holy-Bible---Yaka---Ivatan-Bible	041	MAR	011	026	]»
-Holy-Bible---Yaka---Ivatan-Bible	041	MAR	015	028	]
-Holy-Bible---Yaka---Ivatan-Bible	064	3JO	001	014	Me ndi na ilimbisi, ti mu mwaana a taanga hoolo, bisi a we sa dimonono, na sa ditsuu kiinzi na kiinzi.
-Holy-Bible---Yaka---Ivatan-Bible	066	REV	012	018	Darango atemini nha simi la mubu.
+Holy-Bible---Yaka---Congo-Bible	041	MAR	009	044	]
+Holy-Bible---Yaka---Congo-Bible	041	MAR	009	046	]
+Holy-Bible---Yaka---Congo-Bible	041	MAR	011	026	]»
+Holy-Bible---Yaka---Congo-Bible	041	MAR	015	028	]
+Holy-Bible---Yaka---Congo-Bible	064	3JO	001	014	Me ndi na ilimbisi, ti mu mwaana a taanga hoolo, bisi a we sa dimonono, na sa ditsuu kiinzi na kiinzi.
+Holy-Bible---Yaka---Congo-Bible	066	REV	012	018	Darango atemini nha simi la mubu.
 Holy-Bible---Yaka---Yaka-Bible	064	3JO	001	014	Tsini kivuvu ni ka thama ku yikṵ́mona amana twaménasana ha munwa munwa.
 Holy-Bible---Yalunka---Yalunka-Bible	004	NUM	025	019	Na fitina furen yi dangu.
 Holy-Bible---Yalunka---Yalunka-Bible	009	1SA	020	042	Yonatan yi a fala Dawuda xa, a naxa, “Siga bɔɲɛ xunbenli. A kolon, en bata en ma xɔyiyaan nakɔlɔ Alatala xinli, en yi a fala, ‘Alatala nan seren na, i tan nun n tan tagi e nun n bɔnsɔnna nun i bɔnsɔnna tagi habadan!’ ”

@@ -1,7 +1,6 @@
 <?php
 
 /*** init ***/
-use \ForceUTF8\Encoding;
 AION_LOOP_ANALYSIS(	'/home/inmoti55/public_html/domain.aionianbible.org/www-stageresources',
 					'/home/inmoti55/public_html/domain.aionianbible.org/www-stageresources'
 				);
@@ -61,8 +60,8 @@ function AION_LOOP_ANALYSIS_DOIT($args) {
 	$encode_aionian = mb_detect_encoding($data_aionian);
 	$encode_original = (empty($encode_original) ? "Unknown" : $encode_original);
 	$encode_aionian = (empty($encode_aionian) ? "Unknown" : $encode_aionian);
-	$data_original = Encoding::toUTF8($data_original);
-	$data_aionian = Encoding::toUTF8($data_aionian);
+	$data_original = fixUTF8($data_original);
+	$data_aionian = fixUTF8($data_aionian);
 	AION_FILE_DATA_GET( $file_aionian, 'T_BIBLE', $database, array('INDEX','BOOK','CHAPTER','VERSE'), FALSE );
 
 	// REMOVE COMMENTS AND EMPTY LINES

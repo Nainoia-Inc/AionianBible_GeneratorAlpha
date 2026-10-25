@@ -380,7 +380,7 @@ Holy-Bible---Padoe---Padoe-Bible	378
 Holy-Bible---Palaung-Shwe---Shwe-Palaung-Bible	379																																																																	
 Holy-Bible---Panjabi---Punjabi-Bible	380																																																																	
 Holy-Bible---Pengo---Pengo-Bible	381																																																																	
-Holy-Bible---Persian---Old-Persion-Version-Bible	382																																																																	
+Holy-Bible---Persian---Old-Persian-Version-Bible	382																																																																	
 Holy-Bible---Persian---Open-Contemporary	383																																																																	
 Holy-Bible---Pogolo---Pogoro-Bible	384																																																																	
 Holy-Bible---Pohnpeian---Pohnpeian-NT-Psalms-New-Alphabet	385																																																																	
@@ -529,7 +529,7 @@ Holy-Bible---Vwanji---Vwanji-Bible	527
 Holy-Bible---Waddar---Waddar-Bible	528																																																																	
 Holy-Bible---Waja---Waja-Bible	529																																																																	
 Holy-Bible---Wolio---Kitabi-Momangkilona-Bible	530																																																																	
-Holy-Bible---Yaka---Ivatan-Bible	531																																																																	
+Holy-Bible---Yaka---Congo-Bible	531																																																																	
 Holy-Bible---Yaka---Yaka-Bible	532																																																																	
 Holy-Bible---Yalunka---Yalunka-Bible	533																																																																	
 Holy-Bible---Yamap---Yamap-Bible	534																																																																	

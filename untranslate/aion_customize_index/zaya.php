@@ -18,7 +18,7 @@ $ab_link = '/Bibles/'.$match[1];
   <meta charset="utf-8">
   <title>Zaya Flipbook at AionianBible.org</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" type="image/svg+xml" href="/assets/zaya.svg" alt="icon svg">
+  <link rel="icon" type="image/svg+xml" href="/assets/zaya.svg">
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
   <link rel="stylesheet" href="lib/css/style.css">
@@ -85,10 +85,10 @@ $ab_link = '/Bibles/'.$match[1];
       <div class="settings-group-modern">
         <!-- Appearance Select -->
         <button id="openThemeSelectorBtn" class="setting-item-clickable">
-          <div class="item-left">
+          <span class="item-left">
             <i class="fas fa-palette"></i>
             <span>Theme: Default</span>
-          </div>
+          </span>
           <i class="fas fa-chevron-right chevron"></i>
         </button>
 
