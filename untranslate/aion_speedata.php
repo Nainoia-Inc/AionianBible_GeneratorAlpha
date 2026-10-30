@@ -205,11 +205,11 @@ function AION_LOOP_PDF_POD($source, $destiny) {
 		'q_pdfoo'	=> FALSE,	// TRUE = do One Online PDFs
 		'q_pdfjo'	=> FALSE,	// TRUE = do John PDFs
 		'q_epubc'	=> TRUE,	// TRUE = do ePub and covers
-		//'include'	=> "/Holy-Bible---.*(Aionian-Bible).*---Aionian-Edition\.noia$/",
+		'include'	=> "/Holy-Bible---.*(Aionian-Bible|New-Arabic-Bible).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Thai-Freedom).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---Abureni---Abureni-Bible---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---Spanish---Free-for-the-World---Aionian-Edition\.noia$/",
-		'include'	=> "/---Aionian-Edition\.noia$/",
+		//'include'	=> "/---Aionian-Edition\.noia$/",
 		'database'	=> $database,
 		'destiny'	=> $destiny,
 		'verses66'	=> $verses66,
