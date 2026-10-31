@@ -121,20 +121,25 @@ if (!mkdir($FOLDER_STAGE) || !is_dir($FOLDER_STAGE) || !chmod($FOLDER_STAGE,0755
 // HTACCESS
 $HTACCESS = <<<EOT
 # security
-#cfg,css,eot,gif,gitignore,htaccess,htm,html,ico,jar,jpg,js,lua,md,otf,pdf,php,png,rng,sh,so,svg,tex,ttf,TTF,txt,woff,woff2,xml,xsd
-<FilesMatch "\.(php|php5|php6|php7|php8|sh|bash|jar|so|rng|tex|epub|zip|noia)$">
-   ForceType application/octet-stream
-   Header set Content-Disposition attachment
+# cfg,css,eot,gif,gitignore,htaccess,htm,html,ico,jar,jpg,js,lua,md,otf,pdf,php,png,rng,sh,so,svg,tex,ttf,TTF,txt,woff,woff2,xml,xsd
+# Correct MIME types for downloadable book/data files
+AddType application/epub+zip .epub
+AddType text/plain .noia
+AddCharset UTF-8 .noia
+# Force download: listed extensions + files with no extension
+<FilesMatch "(?i)(^[^.]+|\.(php[1-9]?|sh|bash|jar|so|rng|tex|txt|zip|epub|noia))$">
+   Header set Content-Disposition "attachment"
+   Header set X-Content-Type-Options "nosniff"
 </FilesMatch>
-<FilesMatch "^[^.]+$">
+# Neutralize type for everything above EXCEPT epub/noia
+<FilesMatch "(?i)(^[^.]+|\.(php[1-9]?|sh|bash|jar|so|rng|tex|txt|zip))$">
    ForceType application/octet-stream
-   Header set Content-Disposition attachment
 </FilesMatch>
 
 # php -- BEGIN cPanel-generated handler, do not edit
-# Set the “ea-php80” package as the default “PHP” programming language.
+# Set the “ea-php82” package as the default “PHP” programming language.
 <IfModule mime_module>
-  AddHandler application/x-httpd-ea-php80 .php .php8 .phtml
+  AddHandler application/x-httpd-ea-php82 .php .php8 .phtml
 </IfModule>
 # php -- END cPanel-generated handler, do not edit
 

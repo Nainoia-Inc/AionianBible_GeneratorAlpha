@@ -4968,12 +4968,14 @@ function AION_LOOP_CHECK_UNTRANSLATE_MODULE_DOIT($args) {
 		}
 		if (stripos($untrans,'SWAP')!==FALSE){			$doit = FALSE;
 														$swap_text = $args['database'][T_UNTRANSLATECUSTOM][$bible.'-'.$vref]['TEXT'];
+														/* no longer needed cause using WEB instead of Heart?
 														// totally ugly hack to deal with Aionian-Bible(Heart) not using smartquotes
 														if('Holy-Bible---English---Aionian-Bible'==$bible) {
 															static $space_punc	= array('’','”','‘','“');
 															static $space_punc2	= array("'",'"',"'",'"');
 															$swap_text = str_replace($space_punc, $space_punc2, $swap_text);
 														}
+														*/
 														$verse['TEXT'] = $swap_text;
 														++$replace;
 														break;

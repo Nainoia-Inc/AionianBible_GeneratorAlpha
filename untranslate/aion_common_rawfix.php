@@ -7336,11 +7336,6 @@ $textfix = <<<EOF
 EOF;
 if (!($bfile = preg_replace("/2TI 4:9 (.+?)2TI 4:11 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
 $textfix = <<<EOF
-1JO 4:16 Et nous avons connu et nous avons cru la charité que Dieu a en nous. Dieu est charité, et celui qui demeure dans la charité demeure en Dieu, et Dieu en lui.
-1JO 4:17 
-EOF;
-if (!($bfile = preg_replace("/1JO 4:16 (.+?)1JO 4:17 /us",$textfix,$bfile,-1,$rnum)) || $rnum!=1) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); }
-$textfix = <<<EOF
 REV 20:9 mais Dieu fit tomber un feu du ciel qui les dévora.
 REV 20:10 Et le diable, leur séducteur, fut jeté dans l’étang de feu et de soufre, où sont la bête et le faux prophète, et ils seront tourmentés jour et nuit aux siècles des siècles.
 REV 20:11 

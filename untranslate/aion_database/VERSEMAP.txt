@@ -1137,7 +1137,6 @@ Holy-Bible---Hebrew---Westminster-Leningrad-Philadelphia	MAL3-4
 Holy-Bible---Hindi---Contemporary	NONE
 Holy-Bible---Hindi---Hindi-Bible	NONE
 Holy-Bible---Hona---Hwana-Bible	NONE
-Holy-Bible---Hre---Hre-Bible	LEV22-23
 Holy-Bible---Hruso---Hrusso-Angka-Bible	NONE
 Holy-Bible---Hungarian---Hungarian-Jewish-Bible	GEN31-32
 Holy-Bible---Hungarian---Hungarian-Jewish-Bible	EXO7-8

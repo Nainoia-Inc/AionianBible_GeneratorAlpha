@@ -12,12 +12,29 @@ Header set Onion-Location "http://sy3tqe5tvukyk35kbqx4v3xjj5jxkrvrcdno4c4neg5kym
     ExpiresActive Off
   </FilesMatch>
 </IfModule>
+# Manifest needs its own content type
+AddType application/manifest+json .webmanifest
+# Short cache for files that change when Bibles are added
+<IfModule mod_headers.c>
+	<FilesMatch "^(sitemap\.xml|site\.webmanifest|robots\.txt)$">
+		Header set Cache-Control "max-age=86400"
+		Header unset Expires
+	</FilesMatch>
+</IfModule>
 
-# Force download
-<FilesMatch "\.(epub|zip|noia)$">
-   ForceType application/octet-stream
-   Header set Content-Disposition attachment
+# Correct MIME types and force download
+AddType application/epub+zip .epub
+AddType text/plain .noia
+AddCharset UTF-8 .noia
+<FilesMatch "(?i)\.(epub|noia|zip)$">
+    Header set Content-Disposition "attachment"
+    Header set X-Content-Type-Options "nosniff"
 </FilesMatch>
+
+# No stage
+<If "%{HTTP_HOST} =~ /^stage/">
+	Header set X-Robots-Tag "noindex, nofollow"
+</If>
 
 # DOMAIN, HTTPS, TOR
 RewriteCond %{HTTP_HOST} ^do\.aionianbible\.org$ [NC]
@@ -165,8 +182,8 @@ Require valid-user
 </If>
 
 # php -- BEGIN cPanel-generated handler, do not edit
-# Set the “ea-php80” package as the default “PHP” programming language.
+# Set the “ea-php82” package as the default “PHP” programming language.
 <IfModule mime_module>
-  AddHandler application/x-httpd-ea-php80 .php .php8 .phtml
+  AddHandler application/x-httpd-ea-php82 .php .php8 .phtml
 </IfModule>
 # php -- END cPanel-generated handler, do not edit
