@@ -1,6 +1,6 @@
 # File Name: UNTRANSLATEREVERSE.txt
-# File Size: 11869267    
-# File Date: 10/25/2026 14:16:22
+# File Size: 11866583    
+# File Date: 10/31/2026 15:10:50
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution 4.0 International, 2018-2026
@@ -85716,50 +85716,6 @@ Holy-Bible---Hona---Hwana-Bible	044	ACT	024	007-SKIP	044	ACT	024	007-SKIP
 Holy-Bible---Hona---Hwana-Bible	064	3JO	001	014-SKIP	064	3JO	001	014-SKIP
 Holy-Bible---Hona---Hwana-Bible	064	3JO	001	014	064	3JO	001	015
 Holy-Bible---Hona---Hwana-Bible	066	REV	012	018-SKIP	066	REV	012	018-SKIP
-Holy-Bible---Hre---Hre-Bible	003	LEV	023	001	003	LEV	022	034
-Holy-Bible---Hre---Hre-Bible	003	LEV	023	002	003	LEV	022	035
-Holy-Bible---Hre---Hre-Bible	003	LEV	023	003	003	LEV	022	036
-Holy-Bible---Hre---Hre-Bible	003	LEV	023	004	003	LEV	022	037
-Holy-Bible---Hre---Hre-Bible	003	LEV	023	005	003	LEV	022	038
-Holy-Bible---Hre---Hre-Bible	003	LEV	023	006	003	LEV	022	039
-Holy-Bible---Hre---Hre-Bible	003	LEV	023	007	003	LEV	022	040
-Holy-Bible---Hre---Hre-Bible	003	LEV	023	008	003	LEV	022	041
-Holy-Bible---Hre---Hre-Bible	003	LEV	023	009	003	LEV	022	042
-Holy-Bible---Hre---Hre-Bible	003	LEV	023	010	003	LEV	022	043
-Holy-Bible---Hre---Hre-Bible	003	LEV	023	011	003	LEV	022	044
-Holy-Bible---Hre---Hre-Bible	003	LEV	023	012	003	LEV	023	001
-Holy-Bible---Hre---Hre-Bible	003	LEV	023	013	003	LEV	023	002
-Holy-Bible---Hre---Hre-Bible	003	LEV	023	014	003	LEV	023	003
-Holy-Bible---Hre---Hre-Bible	003	LEV	023	015	003	LEV	023	004
-Holy-Bible---Hre---Hre-Bible	003	LEV	023	016	003	LEV	023	005
-Holy-Bible---Hre---Hre-Bible	003	LEV	023	017	003	LEV	023	006
-Holy-Bible---Hre---Hre-Bible	003	LEV	023	018	003	LEV	023	007
-Holy-Bible---Hre---Hre-Bible	003	LEV	023	019	003	LEV	023	008
-Holy-Bible---Hre---Hre-Bible	003	LEV	023	020	003	LEV	023	009
-Holy-Bible---Hre---Hre-Bible	003	LEV	023	021	003	LEV	023	010
-Holy-Bible---Hre---Hre-Bible	003	LEV	023	022	003	LEV	023	011
-Holy-Bible---Hre---Hre-Bible	003	LEV	023	023	003	LEV	023	012
-Holy-Bible---Hre---Hre-Bible	003	LEV	023	024	003	LEV	023	013
-Holy-Bible---Hre---Hre-Bible	003	LEV	023	025	003	LEV	023	014
-Holy-Bible---Hre---Hre-Bible	003	LEV	023	026	003	LEV	023	015
-Holy-Bible---Hre---Hre-Bible	003	LEV	023	027	003	LEV	023	016
-Holy-Bible---Hre---Hre-Bible	003	LEV	023	028	003	LEV	023	017
-Holy-Bible---Hre---Hre-Bible	003	LEV	023	029	003	LEV	023	018
-Holy-Bible---Hre---Hre-Bible	003	LEV	023	030	003	LEV	023	019
-Holy-Bible---Hre---Hre-Bible	003	LEV	023	031	003	LEV	023	020
-Holy-Bible---Hre---Hre-Bible	003	LEV	023	032	003	LEV	023	021
-Holy-Bible---Hre---Hre-Bible	003	LEV	023	033	003	LEV	023	022
-Holy-Bible---Hre---Hre-Bible	003	LEV	023	034	003	LEV	023	023
-Holy-Bible---Hre---Hre-Bible	003	LEV	023	035	003	LEV	023	024
-Holy-Bible---Hre---Hre-Bible	003	LEV	023	036	003	LEV	023	025
-Holy-Bible---Hre---Hre-Bible	003	LEV	023	037	003	LEV	023	026
-Holy-Bible---Hre---Hre-Bible	003	LEV	023	038	003	LEV	023	027
-Holy-Bible---Hre---Hre-Bible	003	LEV	023	039	003	LEV	023	028
-Holy-Bible---Hre---Hre-Bible	003	LEV	023	040	003	LEV	023	029
-Holy-Bible---Hre---Hre-Bible	003	LEV	023	041	003	LEV	023	030
-Holy-Bible---Hre---Hre-Bible	003	LEV	023	042	003	LEV	023	031
-Holy-Bible---Hre---Hre-Bible	003	LEV	023	043	003	LEV	023	032
-Holy-Bible---Hre---Hre-Bible	003	LEV	023	044	003	LEV	023	033
 Holy-Bible---Hre---Hre-Bible	003	LEV	024	011-SKIP	003	LEV	024	011-SKIP
 Holy-Bible---Hre---Hre-Bible	041	MAR	009	050-SKIP	041	MAR	009	050-SKIP
 Holy-Bible---Hre---Hre-Bible	041	MAR	009	050	041	MAR	009	051

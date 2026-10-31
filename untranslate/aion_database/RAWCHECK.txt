@@ -1,6 +1,6 @@
 # File Name: RAWCHECK.txt
-# File Size: 4906479     
-# File Date: 10/25/2026 14:16:22
+# File Size: 4906074     
+# File Date: 10/31/2026 15:10:50
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution 4.0 International, 2018-2026
@@ -7023,7 +7023,6 @@ Holy-Bible---French---French-Crampon-Bible-New	047	2CO	013	013	MODIFY	Tous les s
 Holy-Bible---French---French-Crampon-Bible-New	047	2CO	013	014	ADD	Que la grâce de notre Seigneur Jésus-Christ, l’amour de Dieu et la communication du Saint-Esprit soient avec vous tous !	
 Holy-Bible---French---French-Crampon-Bible-New	055	2TI	004	009	MODIFY	Tâche de me rejoindre au plus tôt ;	Tâche de me rejoindre au plus tôt ; car Démas, m’a quitté par amour pour le siècle présent, et il est parti pour Thessalonique ;
 Holy-Bible---French---French-Crampon-Bible-New	055	2TI	004	010	MODIFY	car Démas, m’a quitté par amour pour le siècle présent, et il est parti pour Thessalonique  ; Crescent est allé en Galatie, Tite en Dalmatie.	Crescent est allé en Galatie, Tite en Dalmatie.
-Holy-Bible---French---French-Crampon-Bible-New	062	1JO	004	016	MODIFY	Et nous avons connu et nous avons cru la charité que Dieu a en nous. Dieu est charité, et celui qui demeure dans la charité demeure en Dieu, et Dieu en lui.	Et nous, nous avons connu l’amour que Dieu a pour nous, et nous y avons cru. Dieu est amour ; et celui qui demeure dans l’amour demeure en Dieu, et Dieu demeure en lui.
 Holy-Bible---French---French-Crampon-Bible-New	066	REV	020	009	MODIFY	mais Dieu fit tomber un feu du ciel qui les dévora.	mais Dieu fit tomber un feu du ciel qui les dévora. Et le diable, leur séducteur, fut jeté dans l’étang de feu et de soufre, où sont la bête
 Holy-Bible---French---French-Crampon-Bible-New	066	REV	020	010	MODIFY	Et le diable, leur séducteur, fut jeté dans l’étang de feu et de soufre, où sont la bête et le faux prophète, et ils seront tourmentés jour et nuit aux siècles des siècles.	et le faux prophète, et ils seront tourmentés jour et nuit aux siècles des siècles.
 Holy-Bible---French---French-Darby-Bible	004	NUM	025	019	DELETE	Et il arriva, après la plaie,	
