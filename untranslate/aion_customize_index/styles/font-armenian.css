@@ -23,4 +23,4 @@
 		url('../fonts/arnamu_serif.woff')	format('woff'),
 		url('../fonts/arnamu_serif.ttf')	format('truetype');
 }
-span.font-armenian { font-family: 'font-armenian', 'NotoSans', 'Arial', 'sans-serif', 'GentiumPlus'; }
+span.font-armenian { font-family: 'font-armenian', 'NotoSans', 'Arial', sans-serif, 'GentiumPlus'; }

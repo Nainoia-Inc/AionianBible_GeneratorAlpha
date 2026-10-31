@@ -23,4 +23,4 @@
 		url('../fonts/notoseriftelugu-regular.woff')	format('woff'),
 		url('../fonts/notoseriftelugu-regular.ttf')		format('truetype');
 }
-span.font-telugu { font-family: 'font-telugu', 'NotoSans', 'Arial', 'sans-serif', 'GentiumPlus'; }
+span.font-telugu { font-family: 'font-telugu', 'NotoSans', 'Arial', sans-serif, 'GentiumPlus'; }

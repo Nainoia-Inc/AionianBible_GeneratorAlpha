@@ -23,4 +23,4 @@
 		url('../fonts/donisiladv.woff')		format('woff'),
 		url('../fonts/donisiladv.ttf')		format('truetype');
 }
-span.font-cherokee { font-family: 'font-cherokee', 'NotoSans', 'Arial', 'sans-serif', 'GentiumPlus'; }
+span.font-cherokee { font-family: 'font-cherokee', 'NotoSans', 'Arial', sans-serif, 'GentiumPlus'; }

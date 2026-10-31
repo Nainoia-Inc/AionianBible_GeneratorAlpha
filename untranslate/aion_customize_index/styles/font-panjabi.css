@@ -23,4 +23,4 @@
 		url('../fonts/notosansgurmukhiui-regular.woff')		format('woff'),
 		url('../fonts/notosansgurmukhiui-regular.ttf')		format('truetype');
 }
-span.font-panjabi { font-family: 'font-panjabi', 'NotoSans', 'Arial', 'sans-serif', 'GentiumPlus'; }
+span.font-panjabi { font-family: 'font-panjabi', 'NotoSans', 'Arial', sans-serif, 'GentiumPlus'; }

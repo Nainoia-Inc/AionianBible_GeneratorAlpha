@@ -23,4 +23,4 @@
 		url('../fonts/notoserifkannada-regular.woff')	format('woff'),
 		url('../fonts/notoserifkannada-regular.ttf')	format('truetype');
 }
-span.font-kannada { font-family: 'font-kannada', 'NotoSans', 'Arial', 'sans-serif', 'GentiumPlus'; }
+span.font-kannada { font-family: 'font-kannada', 'NotoSans', 'Arial', sans-serif, 'GentiumPlus'; }

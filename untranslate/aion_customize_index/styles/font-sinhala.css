@@ -23,4 +23,4 @@
 		url('../fonts/abhayalibre.woff')	format('woff'),
 		url('../fonts/abhayalibre.ttf')		format('truetype');
 }
-span.font-sinhala { font-family: 'font-sinhala', 'NotoSans', 'Arial', 'sans-serif', 'GentiumPlus'; }
+span.font-sinhala { font-family: 'font-sinhala', 'NotoSans', 'Arial', sans-serif, 'GentiumPlus'; }

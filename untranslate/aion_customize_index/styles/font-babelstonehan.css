@@ -23,4 +23,4 @@
 		url('../fonts/babelstonehan.woff')	format('woff'),
 		url('../fonts/babelstonehan.ttf')	format('truetype');
 }
-span.font-babelstonehan { font-family: 'font-babelstonehan', 'NotoSans', 'Arial', 'sans-serif', 'GentiumPlus'; }
+span.font-babelstonehan { font-family: 'font-babelstonehan', 'NotoSans', 'Arial', sans-serif, 'GentiumPlus'; }

@@ -23,4 +23,4 @@
 		url('../fonts/akshar_unicode.woff')		format('woff'),
 		url('../fonts/akshar_unicode.ttf')		format('truetype');
 }
-span.font-hindi { font-family: 'font-hindi', 'NotoSans', 'Arial', 'sans-serif', 'GentiumPlus'; }
+span.font-hindi { font-family: 'font-hindi', 'NotoSans', 'Arial', sans-serif, 'GentiumPlus'; }

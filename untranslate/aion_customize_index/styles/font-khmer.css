@@ -23,4 +23,4 @@
 		url('../fonts/busra.woff')	format('woff'),
 		url('../fonts/busra.ttf')	format('truetype');
 }
-span.font-khmer { font-family: 'font-khmer', 'NotoSans', 'Arial', 'sans-serif', 'GentiumPlus'; }
+span.font-khmer { font-family: 'font-khmer', 'NotoSans', 'Arial', sans-serif, 'GentiumPlus'; }

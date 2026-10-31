@@ -23,4 +23,4 @@
 		url('../fonts/notonaskharabicui-regular.woff')	format('woff'),
 		url('../fonts/notonaskharabicui-regular.ttf')	format('truetype');
 }
-span.font-persian { font-family: 'font-persian', 'NotoSans', 'Arial', 'sans-serif', 'GentiumPlus'; }
+span.font-persian { font-family: 'font-persian', 'NotoSans', 'Arial', sans-serif, 'GentiumPlus'; }

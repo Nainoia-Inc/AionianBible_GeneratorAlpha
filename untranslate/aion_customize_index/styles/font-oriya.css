@@ -23,4 +23,4 @@
 		url('../fonts/notosansoriyaui-regular.woff')	format('woff'),
 		url('../fonts/notosansoriyaui-regular.ttf')		format('truetype');
 }
-span.font-oriya { font-family: 'font-oriya', 'NotoSans', 'Arial', 'sans-serif', 'GentiumPlus'; }
+span.font-oriya { font-family: 'font-oriya', 'NotoSans', 'Arial', sans-serif, 'GentiumPlus'; }

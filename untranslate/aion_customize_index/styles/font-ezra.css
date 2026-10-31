@@ -23,4 +23,4 @@
 		url('../fonts/ezra_sil.woff')	format('woff'),
 		url('../fonts/ezra_sil.ttf')	format('truetype');
 }
-span.font-ezra { font-family: 'font-ezra', 'NotoSans', 'Arial', 'sans-serif', 'GentiumPlus'; }
+span.font-ezra { font-family: 'font-ezra', 'NotoSans', 'Arial', sans-serif, 'GentiumPlus'; }

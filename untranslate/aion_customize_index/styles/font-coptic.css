@@ -23,4 +23,4 @@
 		url('../fonts/newathu5_5.woff')		format('woff'),
 		url('../fonts/newathu5_5.ttf')		format('truetype');
 }
-span.font-coptic { font-family: 'font-coptic', 'NotoSans', 'Arial', 'sans-serif', 'GentiumPlus'; }
+span.font-coptic { font-family: 'font-coptic', 'NotoSans', 'Arial', sans-serif, 'GentiumPlus'; }

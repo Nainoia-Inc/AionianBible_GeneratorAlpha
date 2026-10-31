@@ -23,4 +23,4 @@
 		url('../fonts/notoserifdevanagari-regular.woff')	format('woff'),
 		url('../fonts/notoserifdevanagari-regular.ttf')		format('truetype');
 }
-span.font-devanagari { font-family: 'font-devanagari', 'NotoSans', 'Arial', 'sans-serif', 'GentiumPlus'; }
+span.font-devanagari { font-family: 'font-devanagari', 'NotoSans', 'Arial', sans-serif, 'GentiumPlus'; }

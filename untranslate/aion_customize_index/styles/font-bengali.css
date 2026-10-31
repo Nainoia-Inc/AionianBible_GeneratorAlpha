@@ -23,4 +23,4 @@
 		url('../fonts/solaimanlipi.woff')	format('woff'),
 		url('../fonts/solaimanlipi.ttf')	format('truetype');
 }
-span.font-bengali { font-family: 'font-bengali', 'NotoSans', 'Arial', 'sans-serif', 'GentiumPlus'; }
+span.font-bengali { font-family: 'font-bengali', 'NotoSans', 'Arial', sans-serif, 'GentiumPlus'; }

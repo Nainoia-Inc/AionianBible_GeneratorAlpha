@@ -23,4 +23,4 @@
 		url('../fonts/noto-ethiopic-serif-regular.woff')	format('woff'),
 		url('../fonts/noto-ethiopic-serif-regular.ttf')		format('truetype');
 }
-span.font-ethiopic { font-family: 'font-ethiopic', 'NotoSans', 'Arial', 'sans-serif', 'GentiumPlus'; }
+span.font-ethiopic { font-family: 'font-ethiopic', 'NotoSans', 'Arial', sans-serif, 'GentiumPlus'; }

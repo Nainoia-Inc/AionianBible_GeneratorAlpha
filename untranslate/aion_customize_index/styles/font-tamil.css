@@ -23,4 +23,4 @@
 		url('../fonts/notoseriftamil-semicondensed.woff')	format('woff'),
 		url('../fonts/notoseriftamil-semicondensed.ttf')	format('truetype');
 }
-span.font-tamil { font-family: 'font-tamil', 'NotoSans', 'Arial', 'sans-serif', 'GentiumPlus'; }
+span.font-tamil { font-family: 'font-tamil', 'NotoSans', 'Arial', sans-serif, 'GentiumPlus'; }

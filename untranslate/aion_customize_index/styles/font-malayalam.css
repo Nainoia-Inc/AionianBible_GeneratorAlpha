@@ -23,4 +23,4 @@
 		url('../fonts/notoserifmalayalam-regular.woff')		format('woff'),
 		url('../fonts/notoserifmalayalam-regular.ttf')		format('truetype');
 }
-span.font-malayalam { font-family: 'font-malayalam', 'NotoSans', 'Arial', 'sans-serif', 'GentiumPlus'; }
+span.font-malayalam { font-family: 'font-malayalam', 'NotoSans', 'Arial', sans-serif, 'GentiumPlus'; }

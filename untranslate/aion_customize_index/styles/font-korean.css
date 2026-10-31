@@ -23,4 +23,4 @@
 		url('../fonts/unbatang.woff')	format('woff'),
 		url('../fonts/unbatang.ttf')	format('truetype');
 }
-span.font-korean { font-family: 'font-korean', 'NotoSans', 'Arial', 'sans-serif', 'GentiumPlus'; }
+span.font-korean { font-family: 'font-korean', 'NotoSans', 'Arial', sans-serif, 'GentiumPlus'; }

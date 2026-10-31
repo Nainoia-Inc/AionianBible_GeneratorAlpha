@@ -23,4 +23,4 @@
 		url('../fonts/notoserifgujarati-regular.woff')		format('woff'),
 		url('../fonts/notoserifgujarati-regular.ttf')		format('truetype');
 }
-span.font-gujarati { font-family: 'font-gujarati', 'NotoSans', 'Arial', 'sans-serif', 'GentiumPlus'; }
+span.font-gujarati { font-family: 'font-gujarati', 'NotoSans', 'Arial', sans-serif, 'GentiumPlus'; }

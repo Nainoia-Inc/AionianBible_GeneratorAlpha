@@ -23,4 +23,4 @@
 		url('../fonts/estrangelo_edessa.woff')	format('woff'),
 		url('../fonts/estrangelo_edessa.ttf')	format('truetype');
 }
-span.font-aramaic { font-family: 'font-aramaic', 'NotoSans', 'Arial', 'sans-serif', 'GentiumPlus'; }
+span.font-aramaic { font-family: 'font-aramaic', 'NotoSans', 'Arial', sans-serif, 'GentiumPlus'; }

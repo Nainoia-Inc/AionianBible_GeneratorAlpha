@@ -23,4 +23,4 @@
 		url('../fonts/notoseriftibetan.woff')	format('woff'),
 		url('../fonts/notoseriftibetan.ttf')	format('truetype');
 }
-span.font-tibetan { font-family: 'font-tibetan', 'NotoSans', 'Arial', 'sans-serif', 'GentiumPlus'; }
+span.font-tibetan { font-family: 'font-tibetan', 'NotoSans', 'Arial', sans-serif, 'GentiumPlus'; }

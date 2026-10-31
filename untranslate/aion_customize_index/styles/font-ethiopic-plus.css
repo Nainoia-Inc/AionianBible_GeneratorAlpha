@@ -23,4 +23,4 @@
 		url('../fonts/abyssinicaSIL-regular.woff')	format('woff'),
 		url('../fonts/abyssinicaSIL-regular.ttf')	format('truetype');
 }
-span.font-ethiopic { font-family: 'font-ethiopic-plus', 'NotoSans', 'Arial', 'sans-serif', 'GentiumPlus'; }
+span.font-ethiopic { font-family: 'font-ethiopic-plus', 'NotoSans', 'Arial', sans-serif, 'GentiumPlus'; }
