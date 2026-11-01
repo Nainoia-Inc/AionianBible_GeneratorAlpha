@@ -773,6 +773,7 @@ function AION_EPUBY_EPUB_OPF($folder, $opf_manifest, $opf_spine_old, $opf_spine_
 global $G_BOOKS, $G_NUMBERS, $G_VERSIONS, $G_FORPRINT, $G_UUID, $G_TITLE, $G_MODIFIED, $G_RTL, $G_COMMENT;
 $file = "$folder/epub.opf";
 $lang = (empty($G_VERSIONS['LANGUAGECODEISO']) ? "en" : $G_VERSIONS['LANGUAGECODEISO']);
+$langen = ('en'===$lang ? '' : "\n<dc:language>en</dc:language>");
 $opf_spine_old = (empty($opf_spine_old) ? NULL : "<itemref idref='xgen' linear='yes' />\n".$opf_spine_old);
 $opf_spine_new = (empty($opf_spine_new) ? NULL : "<itemref idref='xmat' linear='yes' />\n".$opf_spine_new."<itemref idref='xrev' linear='yes' />\n");
 $intro_old = (empty($opf_spine_old) ? '' : "<item href='middle-gen.xhtml' id='xgen' media-type='application/xhtml+xml' />\n");
@@ -785,8 +786,7 @@ $G_COMMENT
 <metadata xmlns:calibre="http://calibre.kovidgoyal.net/2009/metadata" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:opf="http://www.idpf.org/2007/opf" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 <dc:identifier id="uid">urn:uuid:$G_UUID</dc:identifier>
 <dc:title>$G_TITLE</dc:title>
-<dc:language>$lang</dc:language>
-<dc:language>en</dc:language>
+<dc:language>$lang</dc:language>$langen
 <dc:creator>Nainoia Inc</dc:creator>
 <dc:publisher>Nainoia Inc</dc:publisher>
 <dc:rights>Nainoia Inc, CC-BY 4.0</dc:rights>
@@ -1152,7 +1152,7 @@ $intro_old$index_old$intro_new$index_new$outro_new<li class='olend' value='1'><a
 <li class='oline'><a href='rear-7-map-exodus.xhtml' title='View map of Israels Exodus'>Israel's Exodus</a></li>
 <li class='oline'><a href='rear-8-map-jesus.xhtml' title='View map of Jesus Journeys'>Jesus' Journeys</a></li>
 <li class='oline'><a href='rear-9-map-paul.xhtml' title='View map of Pauls Missionary Journeys'>Paul's Missionary Journeys</a></li>
-<li class='oline'><a href='rear-10-map-world.xhtml' title='View map of World Nations'>World Nations</a></li>
+<li class='oline'><a href='rear-10-map-world.xhtml' title='View Great Commission map'>Great Commission</a></li>
 </ol>
 </nav>
 <nav epub:type='landmarks' class='hidden' hidden='hidden' role='navigation'>

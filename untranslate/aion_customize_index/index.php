@@ -2311,10 +2311,10 @@ else if ($good && (
 else if ($_Path==='Read') {					echo "<a href='/Read' title='Bookmarked Bible' onclick='return AionianBible_Bookmark(".'"/Read"'.");'>Read</a>"; }
 else {										echo "<a href='/Read' title='Bookmarked Bible' onclick='return AionianBible_Bookmark(".'"/Read"'.");'>Read</a>"; }
 // end
-echo "<a href='#' title='Font Size Accessibility' onclick='AionianBible_Accessible();' id='accessible' aria-label='Font Size Accessibility'>+</a>";
+echo "<a href='#' title='Font Size Accessibility' onclick='return AionianBible_Accessible();' id='accessible' aria-label='Font Size Accessibility'>+</a>";
 echo "</div></div>\n";
 if (!empty($headlo)) { echo "<div id='head-lo'>$headlo</div>\n"; }
-echo "</div><div id='body' class=''>\n";
+echo "</div><div id='body' role='main' class=''>\n";
 }
 
 
@@ -2336,13 +2336,11 @@ $social .= "<a href='https://service.weibo.com/share/share.php?url=$url&appkey=&
 $social .= "<a href='mailto:?subject=".preg_replace("/ /","%20","$title0&body=$url0")."' target='_blank'><img src='/social/email.png' alt='email' title='Email link' class='img25'></a>";
 ?>
 <div id='social-footer' class='no-arrow'>
-<div id='google_translate_element'></div>
+<div id='google_translate_element'><button type='button' id='translate-button' class='translate-button' onclick='AionianBible_Translate(this);'>Translate</button></div>
 <div id='social-shares'>
 <?echo $social;?><br>
 <a href='/EmailNews' target='_blank' title='EmailNews/AionianBible'><img src='/images/Aionian-Bible-Button-Your-Gift-Email-Newsletter.png' alt='EmailNews' title='Aionian Bible Gift and Newsletter' class='img25'></a><a href='/Facebook' target='_blank' title='Facebook/AionianBible'><img src='/images/Aionian-Bible-Facebook.png' alt='Facebook' title='Aionian Bible on Facebook' class='img25'></a><a href='/X' target='_blank' title='X/AionianBible Twitter'><img src='/images/Aionian-Bible-X.png' alt='X/Twitter' title='Aionian Bible on X/Twitter' class='img25'></a><a href='/LinkedIn' target='_blank' title='LinkedIn/AionianBible'><img src='/images/Aionian-Bible-LinkedIn.png' alt='LinkedIn' title='Aionian Bible on LinkedIn' class='img25'></a><a href='/Instagram' target='_blank' title='Instagram/AionianBible'><img src='/images/Aionian-Bible-Instagram.png' alt='Instagram' title='Aionian Bible on Instagram' class='img25'></a><a href='/Pinterest' target='_blank' title='Pinterest/AionianBible'><img src='/images/Aionian-Bible-Pinterest.png' alt='Pinterest' title='Aionian Bible on Pinterest' class='img25'></a><a href='/YouTube' target='_blank' title='YouTube/AionianBible'>	<img src='/images/Aionian-Bible-Youtube.png' alt='Youtube' title='Aionian Bible on Youtube' class='img25'></a><a href='/Google-Play' target='_blank' title='GooglePlay/AionianBible'><img src='/images/Aionian-Bible-GooglePlay.png' alt='GooglePlay' title='Aionian Bible on GooglePlay' class='img25'></a><a href='/TOR/<?echo $_Orig;?>' target='_blank' title='TOR/AionianBible'><img src='/images/Aionian-Bible-TOR.png' alt='TOR' title='Aionian Bible on The Onion Router network' class='img25'></a><a href='/Buy' title='Buy Aionian Bibles and T-Shirts'><img src='/images/Aionian-Bible-Button-Buy-Square.png' alt='Buy Bible' title='Buy Aionian Bible in print' class='img25'></a>
 </div>
-<script>function googleTranslateElementInit() { new google.translate.TranslateElement({pageLanguage: 'xx' }, 'google_translate_element'); }</script>
-<script src='//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit'></script>
 </div>
 </div>
 <div id='sticky-push'></div>
@@ -2413,8 +2411,8 @@ if ($_Orig==='') {
   "keywords" : "Christian,Holy,Bible,Scripture,Word,salvation,grace,truth,aiōn,aion,aiōnios,aionios,aionian,aïdios,untranslation,translation,free,online,website,public domain,creative commons",
   "copyrightYear" : 2016,
   "educationalUse" : "to restore relationship to God and all mankind with the truth, personal transformation, and growth",
-  "isAccessibleForFree" : True,
-  "isFamilyFriendly" : True,
+  "isAccessibleForFree" : true,
+  "isFamilyFriendly" : true,
   "typicalAgeRange" : "4-100",
   "isBasedOn" : { "@id": "https://www.AionianBible.org/#Bible" },
   "translationOfWork" : { "@id": "https://www.AionianBible.org/#Bible" },
@@ -2435,7 +2433,7 @@ if ($_Orig==='') {
   "@id" : "https://www.AionianBible.org/#Bible",
   "url" : "https://www.AionianBible.org",
   "name" : "Bible",
-  "abridged" : False,
+  "abridged" : false,
   "bookEdition" : "Original autograph",
   "headline" : "Holy Bible",
   "educationalUse" : "to restore relationship to God and all mankind with the truth, personal transformation, and growth",
@@ -2556,7 +2554,7 @@ else if ($_Part[0]==='Bibles' && $_pnum==2) {
   "translationOfWork" : { "@id": "https://www.AionianBible.org/#Bible" },
   "name" : "'.$bible.'",
   "alternateName" : "Holy Bible '.$lang.'",
-  "abridged" : False,
+  "abridged" : false,
   "bookEdition" : "Holy Bible Aionian Edition®",
   "headline" : "Holy Bible Aionian Edition® '.$bible.' '.$lang.'",
   "educationalUse" : "to restore relationship to God and all mankind with the truth, personal transformation, and growth",

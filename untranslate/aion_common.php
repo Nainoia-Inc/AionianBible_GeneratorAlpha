@@ -165,7 +165,7 @@ function AION_FILE_DATA_PUT( $file, $result, $comments_more=NULL ) {
 	gc_collect_cycles();
 }
 function AION_FILE_DATA_PUT_HEADER($file, $filesize, $comments_more) {
-	$thedate = date('m/d/Y H:i:s');
+	$thedate = date('n/j/Y H:i:s');
 	$comments  = "# File Name: ".basename($file)."\n";
 	$comments .= "# File Size: ".sprintf("%-12s", 0)."\n";
 	$comments .= "# File Date: $thedate\n";
@@ -599,8 +599,8 @@ if (preg_match("/^## Aionian Bible/", $contents)) {
 	return;
 }
 $filename = basename($file);
-$today = date('m/d/Y H:i:s');
-$source_date_formatted = date("m/d/Y H:i:s", $source_date);
+$today = date('n/j/Y H:i:s');
+$source_date_formatted = date("n/j/Y H:i:s", $source_date);
 $source_url = $args['database']['T_VERSIONS'][$bible]['SOURCELINK'];
 $source_copy = $args['database']['T_VERSIONS'][$bible]['COPYRIGHT'];
 $contents = <<<EOT
@@ -903,7 +903,7 @@ $sour = (
 	(is_file($base.'---Source-Edition.UNBOUND.txt')	? '---Source-Edition.UNBOUND.txt' :
 	(is_file($base.'---Source-Edition.B4U.txt')		? '---Source-Edition.B4U.txt' :
 	(is_file($base.'---Source-Edition.SWORD.txt')	? '---Source-Edition.SWORD.txt' : NULL)))))));
-$source_version = (filemtime($base.$sour)===FALSE ? '' : ("# Bible Source Version: ".date("Y/m/d", filemtime($base.$sour))."\n"));
+$source_version = (filemtime($base.$sour)===FALSE ? '' : ("# Bible Source Version: ".date("n/j/Y", filemtime($base.$sour))."\n"));
 return (
 	"# Bible Name: ".$bibleversion['NAME']."\n".
 	"# Bible Name English: ".$bibleversion['NAMEENGLISH']."\n".

@@ -255,10 +255,14 @@ div.word-warning { color: red; }
 
 /*** SOCIAL FOOTER ***/
 #social-footer { width: 100%; margin-top: 20px; overflow: auto;}
-#google_translate_element { float: left; margin-bottom: 5px; }
 #social-shares { float: right; text-align: right; }
 #social-shares a { margin-left: 3px; }
 #social-shares .img25 { width: 22px; height: 22px; }
+
+/*** Google Translate ***/
+#google_translate_element { float: left; margin-bottom: 5px; }
+.translate-button { font: inherit; font-size: 90%; color: #663399; background: #F0EBF5; border: 1px solid #9966CC; border-radius: 4px; padding: 4px 10px; cursor: pointer; }
+.translate-button:hover, .translate-button:focus-visible { background: #E0D6EB; }
 
 /*** FORM ***/
 form input[type="text"],

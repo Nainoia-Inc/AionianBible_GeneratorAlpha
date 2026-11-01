@@ -1113,7 +1113,7 @@ const AB_Bible = [
 <a title="Israel's Exodus"				href="?Israel"		onclick="ABDO('Israel');	return false;">Israel's Exodus</a><br>
 <a title="Jesus' Journeys"				href="?Jesus"		onclick="ABDO('Jesus');		return false;">Jesus' Journeys</a><br>
 <a title="Paul's Missionary Journeys"	href="?Paul"		onclick="ABDO('Paul');		return false;">Paul's Missionary Journeys</a><br>
-<a title="World Nations"				href="?World"		onclick="ABDO('World');		return false;">World Nations</a><br>
+<a title="Great Commission"				href="?World"		onclick="ABDO('World');		return false;">Great Commission</a><br>
 <br>
 <a href='https://resources.aionianbible.org/Gustave-Dore-La-Grande-Bible-de-Tours/' target='_blank' title='La Grande Bible de Tours by Gustave Doré'>{$G_FORPRINT['W_ILUS']}</a>.<br>
 Swipe right and left to page.
@@ -1626,11 +1626,11 @@ Paul's Missionary Journeys
 `
 <h1 class='title'>
 <a title='Previous Page' aria-label='Previous Page' class='nav left' href='?Prev' onclick="ABDO('Prev');return false;"><span class="nav clt">&lt;</span></a>
-World Nations
+Great Commission
 </h1>
 
 <div id='maps'>
-<div class="map"><img src="images/MAP-World-Nations.jpg" alt="World Nations"></div>
+<div class="map"><img src="images/MAP-World-Nations.jpg" alt="Great Commission"></div>
 <div class='caption'>{$G_FORPRINT['MAT28_19']}</div>
 </div>
 `

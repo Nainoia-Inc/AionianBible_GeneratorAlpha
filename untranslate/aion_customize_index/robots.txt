@@ -3,12 +3,5 @@
 User-agent: *
 Sitemap: https://www.AionianBible.org/sitemap.xml
 
-Disallow: /css/
-Disallow: /font/
-Disallow: /fonts/
-Disallow: /img/
-Disallow: /js/
+Disallow: /datawebs/
 Disallow: /library/
-Disallow: /Readium/
-Disallow: /social/
-Disallow: /styles/

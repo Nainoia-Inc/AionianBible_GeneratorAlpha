@@ -168,3 +168,24 @@ function AionianBible_RefreshCaptcha() {
     var img = document.images['2captcha_image'];	img.src = img.src.substring(0,img.src.lastIndexOf("/"))+"/2"+"l23"+Math.floor(Math.random() * 10000000000);
     var img = document.images['3captcha_image'];	img.src = img.src.substring(0,img.src.lastIndexOf("/"))+"/3"+"l23"+Math.floor(Math.random() * 10000000000);
 }
+// GOOGLE TRANSLATE - load Google's script only when the visitor asks for it
+function googleTranslateElementInit() {
+	const button = document.getElementById('translate-button');
+	if (button) { button.remove(); }
+	new google.translate.TranslateElement({ pageLanguage: 'xx' }, 'google_translate_element');
+}
+function AionianBible_Translate(button) {
+	if (document.getElementById('google-translate-js')) { return false; }
+	button.disabled = true;
+	button.textContent = 'Loading translator ...';
+	const script = document.createElement('script');
+	script.id = 'google-translate-js';
+	script.src = 'https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit';
+	script.onerror = () => {
+		script.remove();
+		button.disabled = false;
+		button.textContent = 'Translate (unavailable, try again)';
+	};
+	document.head.appendChild(script);
+	return false;
+}
