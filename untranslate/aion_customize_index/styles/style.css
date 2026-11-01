@@ -32,19 +32,22 @@ OTHER
 		url('../fonts/gentiumplus-r.woff')	format('woff'),
 		url('../fonts/gentiumplus-r.ttf')	format('truetype');
 }
-html,body	{ font-family: 'NotoSans', 'Arial', 'sans-serif', 'GentiumPlus'; }
+html,body	{ font-family: 'NotoSans', 'Arial', sans-serif, 'GentiumPlus'; }
 
 /*** BASE ***/
 html { height: 100%; }
-body { height: 100%; margin: 0; min-width: 360px; font-size: 100%; color: #191919; }
+body { height: 100%; margin: 0; min-width: 320px; font-size: 100%; color: #191919; }
 h1 { font-size: 1.4rem;	text-align: center; }
 h2 { font-size: 1.3rem;	}
 h3 { font-size: 1.2rem; }
 h4 { font-size: 1.1rem; }
 h1, h2, h3, h4, p, form { margin: 0 0 0.5rem 0; }
 img { max-width: 100%; height: auto; }
-a { text-decoration: none; color: #663399; }
-a:hover { color: #9966CC; }
+a { color: #663399; text-decoration: none; }
+a:hover { color: #9966CC; text-decoration: underline; }
+a[target="_blank"]::after { content: "\00a0\2197"; font-size: 75%; }
+a[target="_blank"]:has(img)::after, .no-arrow a[target="_blank"]::after { content: none; }
+a:focus-visible { outline: 2px solid #9966CC; outline-offset: 2px; }
 .hidden { display: none; }
 .center { text-align: center; }
 .italic { font-style: italic; }
@@ -55,7 +58,6 @@ a:hover { color: #9966CC; }
 .field-header1, .field-header-no-bold, .field-header { margin-top: 15px; }
 .field-label { display: inline-block; font-style: italic;  vertical-align: top; }
 .field-value { display: inline-block; margin-left: 15px; }
-.field-links.decorated a { text-decoration: underline; }
 
 /*** STICKY ***/
 #sticky-body, #sticky-push, #sticky-foot { margin: 0; padding: 0; }
@@ -83,9 +85,8 @@ a:hover { color: #9966CC; }
 #icon a { margin: 3px 15px 0 0; display: block; }
 #icon a:hover { margin-right: 17px; }
 
-
 /*** HEAD ***/
-#head { position: fixed; width: 100%; max-width: 1280px; min-width: 360px; background-color: #FFFFFF; }
+#head { position: fixed; width: 100%; max-width: 1280px; min-width: 320px; background-color: #FFFFFF; }
 #head-hi { max-height: 42px; margin-top: 10px; padding: 2px 15px; border: 1px solid #663399; border-radius: 7px; background-color: #663399; overflow: hidden; }
 #head-lo { max-height: 70px; max-width: 1024px; margin: 0px auto; padding: 7px 3%; background-color: #FFFFFF; border-bottom: 1px solid #9966CC; overflow: auto; }
 #logo { }
@@ -100,7 +101,6 @@ a:hover { color: #9966CC; }
 
 /*** BODY ***/
 #body {	max-width: 1024px; margin: 0 auto; padding: 80px 3% 10px 3%; }
-#body h1, #body h2, #body h3 { text-align: center; }
 body.word-toc  #body { max-width: 1024px; margin: 0 auto; padding: 110px 3% 2% 3%; }
 body.word-read #body { max-width: 1024px; margin: 0 auto; padding: 110px 3% 2% 3%; }
 
@@ -163,7 +163,6 @@ body.word-read #body { max-width: 1024px; margin: 0 auto; padding: 110px 3% 2% 3
 	#word-menu-bottom.always { display: block; }
 }
 
-
 #word .word-para { margin-bottom: 15px; }
 #word .word-para-ref { font-weight: bold; }
 #word .word-para-ref.rtlref { text-align: right; }
@@ -188,10 +187,16 @@ body.word-read #body { max-width: 1024px; margin: 0 auto; padding: 110px 3% 2% 3
 
 #word .word-rtl { margin-bottom: 10px; width: 100%; }
 #word .word-rtl.allverses { margin-bottom: 15px; }
-#word .word-rtl .word-text { text-align: right; width: 100%; }
-#word .word-rtl .word-refs { width: 15px; vertical-align: top; text-align: right; white-space: nowrap; }
+#word .word-rtl .word-text { text-align: right; }
+#word .word-rtl .word-refs { text-align: right; white-space: nowrap; }
 #word .word-rtl .word-verse { font-weight: bold; margin-left: 5px;  margin-right: 0px; }
 #word .word-rtl .word-verse-lang { font-weight: bold; margin-left: 10px; margin-right: 0px; }
+
+#word div.rtlt { display: block; }
+#word div.rtlr { display: table-row; display: flex; align-items: baseline; gap: 4px; padding: 3px; }
+#word div.rtlr > .word-text { flex: 1 1 auto; min-width: 0; }
+#word div.rtlr > .word-refs { flex: 0 0 auto; white-space: nowrap; }
+#word div.rtlc { display: table-cell; }
 
 #word.questioned hr { border-top: 1px solid #9966CC; border-bottom: 0px; margin-top: 35px; }
 #word-links { margin-top: 7px; }
@@ -233,7 +238,7 @@ div.word-warning { color: red; }
 	
 /*** TAIL ***/
 #tail {
-	min-width: 360px;
+	min-width: 320px;
 	max-width: 1024px;
 	margin: 0 auto;
 	text-align: center;

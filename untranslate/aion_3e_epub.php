@@ -395,7 +395,7 @@ EOF;
 				}
 			}
 			$book_format .= "</div>\n";
-			$book_trailer = "<div class='chapbot'>\n<a href='https://www.aionianbible.org/Publisher/$bible_basic/$book_index/$last_chaN' title='Report Bible text questions and concerns to Nainoia Inc'>Report Issue</a>\n</div>\n";
+			$book_trailer = "<div class='chapbot'>\n<a href='https://www.aionianbible.org/Publisher/$bible_basic/$book_index/$last_chaN' title='Report Bible text questions and concerns to Nainoia Inc' target='_blank'>Report Issue</a>\n</div>\n";
 			$contents = "$header<title>$book_english $last_chaN</title>\n</head>\n<body>\n<div>\n$book_format<div class='chap'>\n$contents</div>\n$book_trailer</div>\n</body>\n</html>\n";
 			$file = "chapters/$last_indx-$last_book-$last_chap.xhtml";
 			if (file_put_contents("$FOLDEPUB/$file", $contents) === FALSE) { AION_ECHO("ERROR! file_put_contents($FOLDEPUB/$file)"); }
@@ -416,7 +416,7 @@ EOF;
 		// VERSE
 		$verF = $args['database']['T_NUMBERS'][$bible][$verN];
 		$verF = ($verF == $verN ? "" : "<span $cssnum> $verF </span>");
-		if ($G_RTL) {	$contents .= "<table class='rtl-tab'><tr><td>$text</td><td class='rtl-ref'>$verF<span class='num'> $verN</span></td></tr></table>\n"; }
+		if ($G_RTL) {	$contents .= "<div class='rtl-tab'><div class='rtl-row'><div class='rtl-cel rtl-txt'>$text</div><div class='rtl-cel rtl-ref'>$verF<span class='num'> $verN</span></div></div></div>\n"; }
 		else {			$contents .= "<span $cssver><span class='num'>$verN </span>$verF$text</span>\n"; }
 		// END
 		$last_indx = $indx;
@@ -439,7 +439,7 @@ EOF;
 		for($x=1; $x<=$book_chapters; $x++) { $book_format .= ($x==$last_chaN ? "" : " <a href='$last_indx-$last_book-".sprintf('%03d',$x).".xhtml' title='View book chapter'>$x</a>\n"); }
 	}
 	$book_format .= "</div>\n";
-	$book_trailer = "<div class='chapbot'>\n<a href='https://www.aionianbible.org/Publisher/$bible_basic/$book_index/$last_chaN' title='Report Bible text questions and concerns to Nainoia Inc'>Report Issue</a>\n</div>\n";
+	$book_trailer = "<div class='chapbot'>\n<a href='https://www.aionianbible.org/Publisher/$bible_basic/$book_index/$last_chaN' title='Report Bible text questions and concerns to Nainoia Inc' target='_blank'>Report Issue</a>\n</div>\n";
 	$contents = "$header<title>$book_english $last_chaN</title>\n</head>\n<body>\n<div>\n$book_format<div class='chap'>$contents</div>\n$book_trailer</div>\n</body>\n</html>\n";
 	$file = "chapters/$last_indx-$last_book-$last_chap.xhtml";	
 	if (file_put_contents("$FOLDEPUB/$file", $contents) === FALSE) { AION_ECHO("ERROR! file_put_contents($FOLDEPUB/$file)"); }
@@ -473,7 +473,7 @@ EOF;
 	AION_EPUBY_EPUB_CSS($FOLDEPUB, $opf_manifest);									// CREATE epub.css
 	AION_EPUBY_EPUB_OPF($FOLDEPUB, $opf_manifest, $opf_spine_old, $opf_spine_new);	// CREATE epub.opf
 	AION_EPUBY_EPUB_NCX($FOLDEPUB, $ncx_old, $ncx_new);								// CREATE toc.ncx
-	AION_EPUBY_IMAGE_XHTML("$FOLDEPUB/front-1-cover.xhtml","","images/COVER.jpg");
+	AION_EPUBY_IMAGE_XHTML("$FOLDEPUB/front-1-cover.xhtml",$G_TITLE,"images/COVER.jpg");
 	AION_EPUBY_FRONT_2_COPYRIGHT_XHTML($FOLDEPUB, "$G_ISO $G_RTL");					// CREATE front-2-copyright.xhtml
 	AION_EPUBY_FRONT_3_PREFACE_XHTML($FOLDEPUB);									// CREATE front-3-preface.xhtml
 	AION_EPUBY_FRONT_4_AIONIAN_XHTML($FOLDEPUB);									// CREATE front-4-aionian.xhtml
@@ -665,7 +665,7 @@ $foreign_font = <<< EOF
 	src:
 		url('fonts/$f.woff')	format('woff');
 }
-.ff { font-family: 'NotoSans', '$n', 'Arial', 'sans-serif', 'GentiumPlus'; }
+.ff { font-family: 'NotoSans', '$n', 'Arial', sans-serif, 'GentiumPlus'; }
 
 EOF;
 if (!copy("./aion_customize_index/fonts/$l.license",	"$folder/fonts/$l.license")) {	AION_ECHO("ERROR! AION_EPUBY_EPUB_CSS copy font($l)"); }
@@ -699,19 +699,25 @@ OTHER
 $basic_font
 $gentium_font
 $foreign_font
-html,body { font-family: 'NotoSans', 'Arial', 'sans-serif', 'GentiumPlus'; }
+html,body { font-family: 'NotoSans', 'Arial', sans-serif, 'GentiumPlus'; }
 
 /*** BASE ***/
 html { height: 100%; }
-body { height: 100%; margin: 0; min-width: 360px; font-size: 100%; color: #191919; }
-h1 { font-size: 1.75rem; }
-h1, h2, h3, h4 { margin: 0 0 10px 0; }
+body { height: 100%; margin: 0; font-size: 100%; color: #191919; }
+h1 { font-size: 1.4rem;	text-align: center; }
+h2 { font-size: 1.3rem;	}
+h3 { font-size: 1.2rem; }
+h4 { font-size: 1.1rem; }
+h1, h2, h3, h4, p, form { margin: 0 0 0.5rem 0; }
 p, form { margin: 0 0 10px 0; }
 img { max-width: 100%; height: auto; border: 1px solid #C5C5C5; }
 img.simple { max-width: 100%; height: auto; display: block; margin-left: auto; margin-right: auto; margin-bottom: 10px; border: 0; }
 div.better { width: 50%; }
-a { text-decoration: none; color: #663399; }
-a:hover { color: #9966CC; }
+a { color: #663399; text-decoration: none; }
+a:hover { color: #9966CC; text-decoration: underline; }
+a[target="_blank"]::after { content: "\\00a0\\2197"; font-size: 75%; }
+a[target="_blank"]:has(img)::after, .no-arrow a[target="_blank"]::after { content: none; }
+a:focus-visible { outline: 2px solid #9966CC; outline-offset: 2px; }
 .hidden { display: none; }
 .left { text-align: left; }
 .center { text-align: center; }
@@ -747,10 +753,14 @@ a:hover { color: #9966CC; }
 .lan { }
 .num { font-weight: 700; }
 .not { font-weight: 700; color: #663399; white-space: nowrap; } 
-.rtl-tab { width: 100%; text-align: right; }
-.rtl-ref { width: 50px; text-align: right; }
-.rtl-ref span.ff.num { margin-right: 7px; }
 .social img { border: 0px; }
+div.rtl-tab { display: block; width: 100%; text-align: right; }
+div.rtl-row { display: table-row; display: flex; align-items: baseline; gap: 4px; padding: 3px; }
+div.rtl-row > .rtl-txt { flex: 1 1 auto; min-width: 0; }
+div.rtl-row > .rtl-ref { flex: 0 0 auto; white-space: nowrap; }
+div.rtl-cel { display: table-cell; }
+div.rtl-ref { text-align: right; }
+div.rtl-ref span.ff.num { margin-right: 7px; }
 
 EOF;
 if (file_put_contents($file, $contents) === FALSE) { AION_ECHO("ERROR! AION_FILE_DATA_PUT file_put_contents($file)"); }
@@ -771,11 +781,12 @@ $outro_new = (empty($opf_spine_new) ? '' : "<item href='middle-rev.xhtml' id='xr
 $contents = <<< EOF
 <?xml version="1.0" encoding="utf-8"?>
 $G_COMMENT
-<package xmlns="http://www.idpf.org/2007/opf" prefix="ibooks: http://vocabulary.itunes.apple.com/rdf/ibooks/vocabulary-extensions-1.0/" version="3.0" unique-identifier="uid">
+<package xmlns="http://www.idpf.org/2007/opf" prefix="ibooks: http://vocabulary.itunes.apple.com/rdf/ibooks/vocabulary-extensions-1.0/" version="3.0" unique-identifier="uid" xml:lang="en-US">
 <metadata xmlns:calibre="http://calibre.kovidgoyal.net/2009/metadata" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:opf="http://www.idpf.org/2007/opf" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 <dc:identifier id="uid">urn:uuid:$G_UUID</dc:identifier>
 <dc:title>$G_TITLE</dc:title>
 <dc:language>$lang</dc:language>
+<dc:language>en</dc:language>
 <dc:creator>Nainoia Inc</dc:creator>
 <dc:publisher>Nainoia Inc</dc:publisher>
 <dc:rights>Nainoia Inc, CC-BY 4.0</dc:rights>
@@ -786,6 +797,20 @@ $G_COMMENT
 <meta property='dcterms:dateCopyrighted'>2020-06-21</meta>
 <meta property='ibooks:specified-fonts'>true</meta>
 <meta name='cover' content='cover' />
+<!-- Accessibility -->
+<meta property="dcterms:conformsTo">EPUB Accessibility 1.1 - WCAG 2.2 Level AA</meta>
+<meta property="a11y:certifiedBy">Nainoia Inc</meta>
+<meta property="schema:accessMode">textual</meta>
+<meta property="schema:accessMode">visual</meta>
+<meta property="schema:accessModeSufficient">textual</meta>
+<meta property="schema:accessibilityFeature">tableOfContents</meta>
+<meta property="schema:accessibilityFeature">readingOrder</meta>
+<meta property="schema:accessibilityFeature">structuralNavigation</meta>
+<meta property="schema:accessibilityFeature">alternativeText</meta>
+<meta property="schema:accessibilityFeature">displayTransformability</meta>
+<meta property="schema:accessibilityFeature">index</meta>
+<meta property="schema:accessibilityHazard">none</meta>
+<meta property="schema:accessibilitySummary">This publication meets WCAG 2.2 Level AA. All content is text-based with a navigable table of contents and structured headings for books and chapters. The cover image has alternative text. Text can be resized and reflowed. There are no known hazards.</meta>
 </metadata>
 <manifest>
 <item href='copyright' id='epub_copyright' media-type='text/plain' />
@@ -921,8 +946,8 @@ return;
 function AION_EPUBY_FRONT_2_COPYRIGHT_XHTML($folder, $css) {
 global $G_BOOKS, $G_NUMBERS, $G_VERSIONS, $G_FORPRINT, $G_UUID, $G_TITLE, $G_MODIFIED, $G_RTL, $G_COMMENT;
 $j316 = $G_FORPRINT['JOH3_16'];
-$versionFO_CP = ($G_VERSIONS['NAME']==$G_VERSIONS['NAMEENGLISH'] ? '' : "<h3 class='center ff' $css>".$G_VERSIONS['NAME']."</h3>");
-$versionEN_CP = "<h3 class='center'>".$G_VERSIONS['NAMEENGLISH']."</h3>";
+$versionEN_CP = "<h1 class='center'>".$G_VERSIONS['NAMEENGLISH']."</h1>";
+$versionFO_CP = ($G_VERSIONS['NAME']==$G_VERSIONS['NAMEENGLISH'] ? '' : "<h2 class='center ff' $css>".$G_VERSIONS['NAME']."</h2>");
 $versionCC_CP = "Copyright: ".
  (empty($G_VERSIONS['ABCOPYRIGHT']) ? ("<a href='https://creativecommons.org/licenses/by/4.0/' target='_target'>Creative Commons Attribution 4.0 International, 2018-".date("Y")."</a>") :
  ((FALSE!==stripos($G_VERSIONS['ABCOPYRIGHT'],"Creative Commons Attribution 4.0 International")) ? ("<a href='https://creativecommons.org/licenses/by/4.0/' target='_blank'>".$G_VERSIONS['ABCOPYRIGHT']."</a>") :
@@ -953,7 +978,7 @@ $G_COMMENT
 <head>
 <meta charset="utf-8" />
 <meta name='viewport' content='width=device-width,initial-scale=1'/>
-<title>$G_TITLE</title>
+<title>$G_TITLE, Copyright</title>
 <link href='epub.css' rel='stylesheet' />
 </head>
 <body>
@@ -984,7 +1009,7 @@ $versionDE_CP
 <br />
 $versionSS_CP
 <br />
-We pray for a modern public domain translation in every language. Report concerns to <a href='https://nainoia-inc.signedon.net/' target='_blank' title='Publisher of the Holy Bible Aionian Edition'>Nainoia Inc</a>. Volunteer help appreciated! Given to our family, friends, and fellowman for Christ’s victory of grace!<br />
+We pray for a modern Creative Commons translation in every language. Report concerns to <a href='https://nainoia-inc.signedon.net/' target='_blank' title='Publisher of the Holy Bible Aionian Edition'>Nainoia Inc</a>. Volunteer help appreciated! Given to our family, friends, and fellowman for Christ’s victory of grace!<br />
 <br />$extension_text
 <p><a href='index.xhtml' title='Table of Contents'>TOC</a></p>
 </body>
@@ -1011,7 +1036,7 @@ $G_COMMENT
 <head>
 <meta charset="utf-8" />
 <meta name='viewport' content='width=device-width,initial-scale=1'/>
-<title>$G_TITLE</title>
+<title>$G_TITLE, Preface</title>
 <link href='epub.css' rel='stylesheet' />
 </head>
 <body>
@@ -1027,7 +1052,7 @@ $G_COMMENT
 
 <p>Why purple? King Jesus’ Word is royal and purple is the color of royalty!</p>
 
-<p class='social'>
+<p class='social no-arrow'>
 <a href='https://www.aionianbible.org/Facebook'		target='_blank' title='Facebook/AionianBible'>	<img src='images/Aionian-Bible-Facebook.png'	alt='Facebook'	title='Aionian Bible on Facebook' /></a>
 <a href='https://www.aionianbible.org/X'			target='_blank' title='X/AionianBible'>			<img src='images/Aionian-Bible-X.png'			alt='X'			title='Aionian Bible on X' /></a>
 <a href='https://www.aionianbible.org/LinkedIn'		target='_blank' title='LinkedIn/AionianBible'>	<img src='images/Aionian-Bible-LinkedIn.png'	alt='LinkedIn'	title='Aionian Bible on LinkedIn' /></a>
@@ -1061,7 +1086,7 @@ $G_COMMENT
 <head>
 <meta charset="utf-8" />
 <meta name='viewport' content='width=device-width,initial-scale=1'/>
-<title>$G_TITLE</title>
+<title>$G_TITLE, Aionian</title>
 <link href='epub.css' rel='stylesheet' />
 </head>
 <body>
@@ -1103,14 +1128,14 @@ $contents = <<< EOF
 $G_COMMENT
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="en">
 <head>
- <meta charset="utf-8" />
- <meta name='viewport' content='width=device-width,initial-scale=1'/>
- <title>$G_TITLE</title>
- <link href='epub.css' rel='stylesheet' />
+<meta charset="utf-8" />
+<meta name='viewport' content='width=device-width,initial-scale=1'/>
+<title>$G_TITLE, Table of Contents</title>
+<link href='epub.css' rel='stylesheet' />
 </head>
 <body>
-<h1 class="title">$W_TOC</h1>
-<nav epub:type="toc" id="toc">
+<h1 class='title'>$W_TOC</h1>
+<nav epub:type='toc' id='toc' role='doc-toc'>
 <ol class='nav'>
 <li class='olnop'><a href='front-1-cover.xhtml' title='View Cover'>Cover</a></li>
 <li class='olbeg' value='1'><a href='front-2-copyright.xhtml' title='View Copyright'>Copyright</a></li>
@@ -1130,7 +1155,7 @@ $intro_old$index_old$intro_new$index_new$outro_new<li class='olend' value='1'><a
 <li class='oline'><a href='rear-10-map-world.xhtml' title='View map of World Nations'>World Nations</a></li>
 </ol>
 </nav>
-<nav epub:type='landmarks' class='hidden' hidden='hidden'>
+<nav epub:type='landmarks' class='hidden' hidden='hidden' role='navigation'>
 <h2>Guide</h2>
 <ol>
 <li><a epub:type='cover' href='front-1-cover.xhtml'>Cover</a></li>
@@ -1165,7 +1190,7 @@ $G_COMMENT
 <head>
 <meta charset="utf-8" />
 <meta name='viewport' content='width=device-width,initial-scale=1'/>
-<title>$G_TITLE</title>
+<title>$G_TITLE, Reader’s Guide</title>
 <link href='epub.css' rel='stylesheet' />
 </head>
 <body>
@@ -1206,7 +1231,7 @@ $G_COMMENT
 <head>
 <meta charset="utf-8" />
 <meta name='viewport' content='width=device-width,initial-scale=1'/>
-<title>$G_TITLE</title>
+<title>$G_TITLE, Project History</title>
 <link href='epub.css' rel='stylesheet' />
 </head>
 <body>
@@ -1253,7 +1278,7 @@ $G_COMMENT
 
 <p><b>2022-01-01</b> 216 translations now available in 99 languages.<br /></p>
 
-<p>
+<p class='no-arrow'>
 <b>2021-12-20</b> Social media presence on 
 <a href='https://www.Aionianbible.org/Facebook'		target='_blank' title='Facebook/AionianBible'>Facebook</a>,
 <a href='https://www.Aionianbible.org/X'			target='_blank' title='X/AionianBible'>X</a>,
@@ -1339,7 +1364,7 @@ $G_COMMENT
 <head>
 <meta charset="utf-8" />
 <meta name='viewport' content='width=device-width,initial-scale=1'/>
-<title>$G_TITLE</title>
+<title>$G_TITLE, Glossary</title>
 <link href='epub.css' rel='stylesheet' />
 </head>
 <body>
@@ -1347,7 +1372,7 @@ $G_COMMENT
 <p class='center'>$languagehtml<a href='https://www.AionianBible.org/Glossary' target='_blank'>www.AionianBible.org/Glossary</a></p>
 <p>The <i>Aionian Bible</i> untranslates and instead transliterates eleven special words to help us better understand the extent of God’s love for individuals and all mankind, and the nature of afterlife destinies.  The original translation is unaltered and a note is added to 64 Old Testament and 200 New Testament verses. Compare the definitions below to the <a href='https://www.aionianbible.org/Strongs' target='_blank' title='Visit the Strongs Concordance'>Strong's Concordance</a>.  Follow the links below to study the word's usage.</p>
 
-<h3><i><a class='tag' id="g12">Abyssos</a></i></h3>
+<h2><i><a class='tag' id="g12">Abyssos</a></i></h2>
 Language: Koine Greek<br />
 Speech: proper noun, place<br />
 Strongs: g12<br />
@@ -1356,7 +1381,7 @@ Meaning:<br />
 Usage: 9 times in 3 books, 6 chapters, and 9 verses<br />
 $g12<br />
 
-<h3><i><a class='tag' id="g126">aïdios</a></i></h3>
+<h2><i><a class='tag' id="g126">aïdios</a></i></h2>
 Language: Koine Greek<br />
 Speech: adjective<br />
 Strongs: g126<br />
@@ -1364,7 +1389,7 @@ Meaning:<br /><div style='margin-left: 15px;'>Lasting, enduring forever, eternal
 Usage: 2 times in Romans 1:20 and Jude 1:6<br />
 $g126<br />
 
-<h3><i><a class='tag' id="g165">aiōn</a></i></h3>
+<h2><i><a class='tag' id="g165">aiōn</a></i></h2>
 Language: Koine Greek<br />
 Speech: noun<br />
 Strongs: g165<br />
@@ -1372,7 +1397,7 @@ Meaning:<br /><div style='margin-left: 15px;'>A lifetime or time period with a b
 Usage: 129 times in 22 books, 75 chapters, and 102 verses<br />
 $g165<br />
 
-<h3><i><a class='tag' id="g166">aiōnios</a></i></h3>
+<h2><i><a class='tag' id="g166">aiōnios</a></i></h2>
 Language: Koine Greek<br />
 Speech: adjective<br />
 Strongs: g166<br />
@@ -1380,7 +1405,7 @@ Meaning:<br /><div style='margin-left: 15px;'>From start to finish, pertaining t
 Usage: 71 times in 19 books, 45 chapters, and 69 verses<br />
 $g166<br />
 
-<h3><i><a class='tag' id="g1653">eleēsē</a></i></h3>
+<h2><i><a class='tag' id="g1653">eleēsē</a></i></h2>
 Language: Koine Greek<br />
 Speech: verb<br />
 Strongs: g1653<br />
@@ -1388,7 +1413,7 @@ Meaning:<br /><div style='margin-left: 15px;'>To have pity on, to show mercy. Ty
 Usage: 1 time in this conjugation, {$links->X_ROM_11}<br />
 $g1653<br />
 
-<h3><i><a class='tag' id="g1067">Geenna</a></i></h3>
+<h2><i><a class='tag' id="g1067">Geenna</a></i></h2>
 Language: Koine Greek<br />
 Speech: proper noun, place<br />
 Strongs: g1067<br />
@@ -1397,7 +1422,7 @@ Meaning:<br />
 Usage: 12 times in 4 books, 7 chapters, and 12 verses<br />
 $g1067<br />
 
-<h3><i><a class='tag' id="g86">Hadēs</a></i></h3>
+<h2><i><a class='tag' id="g86">Hadēs</a></i></h2>
 Language: Koine Greek<br />
 Speech: proper noun, place<br />
 Strongs: g86<br />
@@ -1406,7 +1431,7 @@ Meaning:<br />
 Usage: 11 times in 5 books, 9 chapters, and 11 verses<br />
 $g86<br />
 
-<h3><i><a class='tag' id="g3041"></a><a class='tag' id="g4442">Limnē Pyr</a></i></h3>
+<h2><i><a class='tag' id="g3041"></a><a class='tag' id="g4442">Limnē Pyr</a></i></h2>
 Language: Koine Greek<br />
 Speech: proper noun, place<br />
 Strongs: g3041 g4442<br />
@@ -1415,7 +1440,7 @@ Meaning:<br />
 Usage: 5 times in 1 book, 3 chapters, and 5 verses<br />
 $g3041<br />
 
-<h3><i><a class='tag' id="h7585">Sheol</a></i></h3>
+<h2><i><a class='tag' id="h7585">Sheol</a></i></h2>
 Language: Hebrew<br />
 Speech: proper noun, place<br />
 Strongs: h7585<br />
@@ -1424,7 +1449,7 @@ Meaning:<br />
 Usage: 66 times in 17 books, 51 chapters, and 64 verses<br />
 $h7585<br />
 
-<h3><i><a class='tag' id="g5020">Tartaroō</a></i></h3>
+<h2><i><a class='tag' id="g5020">Tartaroō</a></i></h2>
 Language: Koine Greek<br />
 Speech: proper noun, place<br />
 Strongs: g5020<br />
@@ -1433,7 +1458,7 @@ Meaning:<br />
 Usage: 1 time in 2 Peter 2:4<br />
 $g5020<br />
 
-<h3><i><a class='tag' id="questioned">Questioned</a></i></h3>
+<h2><i><a class='tag' id="questioned">Questioned</a></i></h2>
 Questioned verse translations do not contain Aionian Glossary words, but may wrongly imply eternal or Hell.<br />
 <br />
 $questioned
@@ -1458,7 +1483,7 @@ $G_COMMENT
 <head>
 <meta charset="utf-8" />
 <meta name='viewport' content='width=device-width,initial-scale=1'/>
-<title>$G_TITLE</title>
+<title>$G_TITLE, History Past</title>
 <link href='epub.css' rel='stylesheet' />
 </head>
 <body>
@@ -1488,7 +1513,7 @@ $G_COMMENT
 <head>
 <meta charset="utf-8" />
 <meta name='viewport' content='width=device-width,initial-scale=1'/>
-<title>$G_TITLE</title>
+<title>$G_TITLE, History Future</title>
 <link href='epub.css' rel='stylesheet' />
 </head>
 <body>
@@ -1523,7 +1548,7 @@ $G_COMMENT
 <head>
 <meta charset="utf-8" />
 <meta name='viewport' content='width=device-width,initial-scale=1'/>
-<title>$G_TITLE</title>
+<title>$G_TITLE, Destiny</title>
 <link href='epub.css' rel='stylesheet' />
 </head>
 <body>
@@ -1555,7 +1580,9 @@ return;
 // CREATE image page
 function AION_EPUBY_IMAGE_XHTML($file, $title, $image) {
 global $G_BOOKS, $G_NUMBERS, $G_VERSIONS, $G_FORPRINT, $G_UUID, $G_TITLE, $G_MODIFIED, $G_RTL, $G_COMMENT;
-$title = (empty($title) ? "" : "\n<h1 class='title'>$title</h1>");
+$title = $title?:$G_TITLE;
+$htitle = "<h1 class='title'>$title</h1>";
+$title = strip_tags($title);
 $contents = <<< EOF
 <?xml version="1.0" encoding="utf-8"?>
 $G_COMMENT
@@ -1563,10 +1590,11 @@ $G_COMMENT
 <head>
 <meta charset="utf-8" />
 <meta name='viewport' content='width=device-width,initial-scale=1'/>
-<title>$G_TITLE</title>
+<title>$title</title>
 <link href='epub.css' rel='stylesheet' />
 </head>
-<body>$title
+<body>
+$htitle
 <div class='cov'><img src="$image" alt="$title" /></div>
 </body>
 </html>
@@ -1580,7 +1608,9 @@ return;
 // CREATE image verse page
 function AION_EPUBY_IMAGE_VERSE_XHTML($file, $title, $image, $verse, $map=FALSE, $css=NULL) {
 global $G_BOOKS, $G_NUMBERS, $G_VERSIONS, $G_FORPRINT, $G_UUID, $G_TITLE, $G_MODIFIED, $G_RTL, $G_COMMENT;
-$title = (empty($title) ? "" : "<h1 class='title'>$title</h1>");
+$title = $title?:$G_TITLE;
+$htitle = "\n<h1 class='title'>$title</h1>";
+$title = strip_tags($title);
 $map = ($map ? " / <a href='https://www.aionianbible.org/Maps' target='_blank' title='Download printable image'>Printable version</a>" : NULL);
 $contents = <<< EOF
 <?xml version="1.0" encoding="utf-8"?>
@@ -1589,11 +1619,11 @@ $G_COMMENT
 <head>
 <meta charset="utf-8" />
 <meta name='viewport' content='width=device-width,initial-scale=1'/>
-<title>$G_TITLE</title>
+<title>$title</title>
 <link href='epub.css' rel='stylesheet' />
 </head>
-<body>$title
-<div class='map $css'><img src="$image" /></div>
+<body>$htitle
+<div class='map $css'><img src="$image" alt="$title" /></div>
 $verse
 
 <p><a href='index.xhtml' title='Table of Contents'>TOC</a>$map</p>

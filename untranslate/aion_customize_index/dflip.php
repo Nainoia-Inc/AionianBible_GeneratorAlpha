@@ -14,19 +14,24 @@ $return = '/Bibles/'.$match[1];
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="utf-8">
-	<title>Dearflip Flipbook at AionianBible.org</title>
-	<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
-	<!-- Flipbook StyleSheet -->
-	<link href="./dflip/css/dflip.min.css" rel="stylesheet" type="text/css">
-	<!-- Icons Stylesheet -->
-	<link href="./dflip/css/themify-icons.min.css" rel="stylesheet" type="text/css">
-	<style>
+<meta charset="utf-8">
+<title>Dearflip Flipbook at AionianBible.org<? echo $return; ?></title>
+<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+<!-- Flipbook StyleSheet -->
+<link href="./dflip/css/dflip.min.css" rel="stylesheet" type="text/css">
+<!-- Icons Stylesheet -->
+<link href="./dflip/css/themify-icons.min.css" rel="stylesheet" type="text/css">
+<style>
 body {
 	font-family: 'Arial', 'sans-serif';
 	background-color: #E0D6EB;
 	margin: 0;
 }
+h1 { font-size: 1.4rem;	text-align: center; }
+h2 { font-size: 1.3rem;	}
+h3 { font-size: 1.2rem; }
+h4 { font-size: 1.1rem; }
+h1, h2, h3, h4, p, form { margin: 0 0 0.5rem 0; }
 div.df-ui-btn.df-ui-fullscreen {
 	background-color: #663399;
 }
@@ -43,7 +48,7 @@ div.df-ui-btn.df-ui-fullscreen {
 }
 #welcome { width: 100%;	text-align: center;	font-size: 1.25em; line-height: 1.4em; }
 #welcome h3 { margin-bottom: 10px; }
-	</style>
+</style>
 </head>
 
 <body>
@@ -59,7 +64,7 @@ div.df-ui-btn.df-ui-fullscreen {
 </div>
 </div>
 <div id='welcome'>
-<h3>DearFlip Flipbook Viewer</h3>
+<h1>DearFlip Flipbook Viewer</h1>
 Click <span style='color: #663399;'>purple button</span> below for full screen.<br>
 </div>
 </div>

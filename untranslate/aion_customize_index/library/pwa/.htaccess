@@ -3,6 +3,18 @@ RewriteEngine On
 Options +FollowSymlinks
 RewriteBase /
 
+# CACCHING RULES
+AddDefaultCharset utf-8
+AddCharset utf-8 .htm .html .js .json
+<IfModule mod_headers.c>
+	<FilesMatch "\.(htm|html)$">
+		Header set Cache-Control "no-cache"
+	</FilesMatch>
+	<FilesMatch "\.(woff2?|ttf|png|jpe?g|ico)$">
+		Header set Cache-Control "max-age=2592000"
+	</FilesMatch>
+</IfModule>
+
 # REWRITE PWA
 # Must end with "/" to masquerade each PWA into its own folder allowing multiple-installs
 RewriteCond %{QUERY_STRING} !PWA

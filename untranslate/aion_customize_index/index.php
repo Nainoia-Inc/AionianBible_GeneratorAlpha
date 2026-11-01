@@ -77,7 +77,7 @@ function abcms_home() {
 abcms_html();
 $modified = date("n/j/Y", filemtime("./index.php"));
 ?>
-<div id='home'>
+<div id='home' class='no-arrow'>
 <div id='vert'>
 <div id='horz'>
 <a href='/Preface' onclick='return AionianBible_Bookmark("/Preface");'>
@@ -102,7 +102,7 @@ Also known as 'The Purple Bible'
 </div>
 </div>
 </div>
-<div id='icon'>
+<div id='icon' class='no-arrow'>
 <a href='/Facebook'		target='_blank' title='Facebook/AionianBible'>	<img src='/images/Aionian-Bible-Facebook.png' alt='Facebook' title='Aionian Bible on Facebook'></a>
 <a href='/X'			target='_blank' title='X/AionianBible Twitter'>	<img src='/images/Aionian-Bible-X.png' alt='X/Twitter' title='Aionian Bible on X/Twitter'></a>
 <a href='/LinkedIn'		target='_blank' title='LinkedIn/AionianBible'>	<img src='/images/Aionian-Bible-LinkedIn.png' alt='LinkedIn' title='Aionian Bible on LinkedIn'></a>
@@ -190,7 +190,7 @@ PO Box 462, Bellefonte, PA 16823<br>
 <br>
 <form action="https://www.paypal.com/donate" method="post" target="_top">
 <input type="hidden" name="hosted_button_id" value="PNHVLFLK5B77E">
-<input type="image" src="/images/Aionian-Bible-Button-Donate.png" name="submit" title="PayPal - The safer, easier way to donate online!" alt="Donate at PayPal">
+<input type="image" src="/images/Aionian-Bible-Button-Donate.png" name="submit" title="Donate safely at PayPal" alt="Donate safely at PayPal">
 </form>
 EOF;
 // skipit
@@ -265,11 +265,11 @@ else {
 ?>
 <form action='/Publisher/<?php echo hash('sha256','AionianBible.org/Publisher/Submit'.time().random_bytes(7)); ?>' method='post' accept-charset='UTF-8'>
 <input type='hidden' name='csrf' value='<?php echo ($_SESSION['csrf'] = hash('sha256','AionianBible.org/Publisher'.time().random_bytes(10))); ?>'>
-<input type='text' name='name' placeholder='Name' value="<? echo $val_name;?>">
-<input type='email' name='email' placeholder='Email' value="<? echo $val_email;?>">
-<input type='text' name='subject' placeholder='Subject' value="<? echo $val_subject;?>">
-<textarea name='message' placeholder='Comment or question, 1000 character maximum' rows='15'><? echo $val_message;?></textarea>
-<input type='text' name='company' value="<? echo 'Replace asteriks with Captcha [******]';?>">
+<input type='text' name='name' placeholder='Name' aria-label='Name' autocomplete='name' value='<? echo $val_name;?>'>
+<input type='email' name='email' placeholder='Email' aria-label='Email' autocomplete='email' value='<? echo $val_email;?>'>
+<input type='text' name='subject' placeholder='Subject' aria-label='Subject' value='<? echo $val_subject;?>'>
+<textarea name='message' rows='15' placeholder='Comment or question, 1000 character maximum' aria-label='Comment or question, 1000 character maximum' maxlength='1000'><? echo $val_message;?></textarea>
+<input type='text' name='company' value='Replace asterisks with Captcha image [******]' aria-label='Replace asterisks with Captcha image' autocomplete='off'>
 <input type='text' name='captcha' id='captcha' placeholder='Enter Captcha'>
 <div class='captcha'><img src='/CAPTCHA/<?php echo mb_rand('l'); ?>' alt='Captcha' title='Captcha' id='lcaptcha_image'><img src='/CAPTCHA/<?php echo mb_rand('2'); ?>' alt='Captcha' title='Captcha' id='2captcha_image'><img src='/CAPTCHA/<?php echo mb_rand('3'); ?>' alt='Captcha' title='Captcha' id='3captcha_image'> <a href='javascript: AionianBible_RefreshCaptcha();'>Refresh Captcha</a></div>
 <input type='submit' name='submit' value='Submit'>
@@ -445,7 +445,7 @@ foreach( $bible_ALL as $bible => $version ) {
 	$name .= ( $version['NAME']==$version['NAMEENGLISH'] ? '' : ' ( '.$bible_lang.$version['NAME'].'</span> )' );
 	if ($mode=='buy') {
 		$title = 'BUY Holy Bible Aionian Edition: '.str_replace("'", "", $version['NAMEENGLISH']);
-		echo "<div class='word-buy $stripe $highlight' $quick_id><a href='".abcms_href('/Bibles/'.$bible,FALSE,TRUE,TRUE)."' title='Bible Table of Contents'>".$language." ~ ".$name."</a>";
+		echo "<div class='no-arrow word-buy $stripe $highlight' $quick_id><a href='".abcms_href('/Bibles/'.$bible,FALSE,TRUE,TRUE)."' title='Bible Table of Contents'>".$language." ~ ".$name."</a>";
 		$buylinks  = ($version['AMAZON']=='NULL'		? '' : "<a href='https://www.amazon.com/dp/".$version['AMAZON']."'		target='_blank' title='$title'>Amazon</a>, ");
 		$buylinks .= ($version['AMAZONNT']=='NULL'		? '' : "<a href='https://www.amazon.com/dp/".$version['AMAZONNT']."'	target='_blank' title='$title'>Amazon NT</a>, ");
 		$buylinks .= ($version['AMAZONJOHN']=='NULL'	? '' : "<a href='https://www.amazon.com/dp/".$version['AMAZONJOHN']."'	target='_blank' title='$title'>Amazon Gospel Primer</a>, ");
@@ -710,7 +710,7 @@ echo "<div id='word-description'>".$tocmenu.$_BibleONE['FORMATTED']."</div>";
 echo "<div id='word-search'><div class='field-header'><img src='/images/Aionian-Bible-Online.png' title='Aionian Glossary Verses' alt=''> Aionian Glossary Verses:</div>";
 $path_glossary = abcms_href('/Glossary',TRUE,TRUE,FALSE);
 $path_noted = abcms_href(TRUE,'/Noted',TRUE,TRUE);
-echo "<p>Chapters with <a href='$path_glossary' title='Aionian Glossary'>Aionian Glossary</a> words are highlighted in the table of contents with each verse also <a href='$path_noted' title='Aionian Glossary usage'>listed here</a>.  Notes are added to 64 Old Testament and 200 New Testament verses without altering the source text.  Contact the <a href='/Publisher' title='Contact Nainoia, Inc'>Publisher</a> with any questions. We pray for a modern public domain translation in every language.</p>";
+echo "<p>Chapters with <a href='$path_glossary' title='Aionian Glossary'>Aionian Glossary</a> words are highlighted in the table of contents with each verse also <a href='$path_noted' title='Aionian Glossary usage'>listed here</a>.  Notes are added to 64 Old Testament and 200 New Testament verses without altering the source text.  Contact the <a href='/Publisher' title='Contact Nainoia, Inc'>Publisher</a> with any questions. We pray for a modern Creative Commons translation in every language.</p>";
 echo '</div></div>';
 abcms_tail();
 }
@@ -1112,9 +1112,9 @@ foreach( $AIONIAN_ONE as $vref1 => $verse1) {
 							($_BibleBOOKS[$_BibleBOOKS[(int)$verse2['INDEX']]]['ENGLISH']==$_BibleTWO['T_BOOKS'][$_BibleBOOKS[(int)$verse2['INDEX']]] ? '' :
 							' '.$_BibleTWO_Lang." word-para-ref'>".'('.$_BibleTWO['T_BOOKS'][$_BibleBOOKS[(int)$verse2['INDEX']]].' '.$_BibleTWO['T_NUMBERS'][(int)$verse2['CHAPTER']].':'.$_BibleTWO['T_NUMBERS'][(int)$verse2['VERSE']].')</span>');
 			echo "<div class='word-para $stripe aionian'><div class='word-para-ref $rtlref'>$vref_link</div>\n";
-			if ($rtl) {	echo "<table class='word-para-one word-rtl'><tr><td class='word-text'>$missing1</td></tr></table>\n"; }
+			if ($rtl) {	echo "<div class='rtlt word-para-one word-rtl'><div class='rtlr'><div class='rtlc word-text'>$missing1</div></div></div>\n"; }
 			else {		echo "<div class='word-para-one'>$missing1</div>";}
-			if ($rtl2){	echo "<table class='word-para-two word-rtl'><tr><td class='word-text'>$verse_two</td></tr></table>\n"; }
+			if ($rtl2){	echo "<div class='rtlt word-para-two word-rtl'><div class='rtlr'><div class='rtlc word-text'>$verse_two</div></div></div>\n"; }
 			else {		echo "<div class='word-para-two'>$verse_two</div>\n"; }	
 			echo "</div>\n";
 			++$count_two;
@@ -1130,19 +1130,19 @@ foreach( $AIONIAN_ONE as $vref1 => $verse1) {
 	$verse_one = $_BibleONE_Lang." word-text'>".$verse1['TEXT'].'</span>';
 	echo "<div class='word-para $stripe aionian'><div class='word-para-ref $rtlref'>$vref_link</div>\n";
 	if (!$AIONIAN_TWO) {
-		if ($rtl) {	echo "<table class='word-para-one word-rtl'><tr><td class='word-text'>$verse_one</td></tr></table>\n"; }
+		if ($rtl) {	echo "<div class='rtlt word-para-one word-rtl'><div class='rtlr'><div class='rtlc word-text'>$verse_one</div></div></div>\n"; }
 		else {		echo "<div class='word-para-one'>$verse_one</div>\n"; }
 	}
 	else if ($vref1<$vref2 || !$vref2) {
-		if ($rtl) {	echo "<table class='word-para-one word-rtl'><tr><td class='word-text'>$verse_one</td></tr></table>\n"; }
+		if ($rtl) {	echo "<div class='rtlt word-para-one word-rtl'><div class='rtlr'><div class='rtlc word-text'>$verse_one</div></div></div>\n"; }
 		else {		echo "<div class='word-para-one'>$verse_one</div>";}
-		if ($rtl2){	echo "<table class='word-para-two word-rtl'><tr><td class='word-text'>$missing2</td></tr></table>\n"; }
+		if ($rtl2){	echo "<div class='rtlt word-para-two word-rtl'><div class='rtlr'><div class='rtlc word-text'>$missing2</div></div></div>\n"; }
 		else {		echo "<div class='word-para-two'>$missing2</div>\n"; }
 	}
 	else if ($vref1==$vref2) {
-		if ($rtl) {	echo "<table class='word-para-one word-rtl'><tr><td class='word-text'>$verse_one</td></tr></table>\n"; }
+		if ($rtl) {	echo "<div class='rtlt word-para-one word-rtl'><div class='rtlr'><div class='rtlc word-text'>$verse_one</div></div></div>\n"; }
 		else {		echo "<div class='word-para-one'>$verse_one</div>";}
-		if ($rtl2){	echo "<table class='word-para-two word-rtl'><tr><td class='word-text'>$verse_two</td></tr></table>\n"; }
+		if ($rtl2){	echo "<div class='rtlt word-para-two word-rtl'><div class='rtlr'><div class='rtlc word-text'>$verse_two</div></div></div>\n"; }
 		else {		echo "<div class='word-para-two'>$verse_two</div>\n"; }		
 		++$count_two;
 		next($AIONIAN_TWO);
@@ -1164,9 +1164,9 @@ if ($AIONIAN_TWO) {
 						($_BibleBOOKS[(int)$verse2['INDEX']]==$_BibleTWO['T_BOOKS'][$_BibleBOOKS[(int)$verse2['INDEX']]] ? '' :
 						' '.$_BibleTWO_Lang." word-para-ref'>".'('.$_BibleTWO['T_BOOKS'][$_BibleBOOKS[(int)$verse2['INDEX']]].' '.$_BibleTWO['T_NUMBERS'][(int)$verse2['CHAPTER']].':'.$_BibleTWO['T_NUMBERS'][(int)$verse2['VERSE']].')</span>');
 			echo "<div class='word-para $stripe aionian'><div class='word-para-ref $rtlref'>$vref_link</div>\n";
-			if ($rtl) {	echo "<table class='word-para-one word-rtl'><tr><td class='word-text'>$missing1</td></tr></table>\n"; }
+			if ($rtl) {	echo "<div class='rtlt word-para-one word-rtl'><div class='rtlr'><div class='rtlc word-text'>$missing1</div></div></div>\n"; }
 			else {		echo "<div class='word-para-one'>$missing1</div>";}
-			if ($rtl2){	echo "<table class='word-para-two word-rtl'><tr><td class='word-text'>$verse_two</td></tr></table>\n"; }
+			if ($rtl2){	echo "<div class='rtlt word-para-two word-rtl'><div class='rtlr'><div class='rtlc word-text'>$verse_two</div></div></div>\n"; }
 			else {		echo "<div class='word-para-two'>$verse_two</div>\n"; }		
 			echo "</div>\n";
 		++$count_two;
@@ -1183,7 +1183,7 @@ foreach( $AIONIAN_ONE['QUESTIONED'] as $vref1 => $verse1) {
 		'</a>';				
 	$verse_one = $_BibleONE_Lang." word-text'>".$verse1['TEXT'].'</span>';
 	echo "<div class='word-para $stripe aionian'><div class='word-para-ref $rtlref'>$vref_link</div>\n";
-	if ($rtl) {	echo "<table class='word-para-one word-rtl'><tr><td class='word-text'>$verse_one</td></tr></table>\n"; }
+	if ($rtl) {	echo "<div class='rtlt word-para-one word-rtl'><div class='rtlr'><div class='rtlc word-text'>$verse_one</div></div></div>\n"; }
 	else {		echo "<div class='word-para-one'>$verse_one</div>";}
 	echo "</div>\n";
 	++$count_questioned;
@@ -1233,14 +1233,14 @@ for ($x=(empty($_Part[4])?1:$_Part[4]); $x<=$maxverses; ++$x) {
 		$verse_number2 = (empty($_BibleTWO['T_NUMBERS'][$x]) || $x==$_BibleTWO['T_NUMBERS'][$x] ? '' : $_BibleTWO_Lang." word-verse-lang'>".$_BibleTWO['T_NUMBERS'][$x].'</span>');
 		$verse_text2 = (empty($_BibleCHAP2[$x]) ? '' : $_BibleTWO_Lang." word-text'>".$_BibleCHAP2[$x].'</span>');
 		echo "<div class='word-para $stripe'>\n";
-		if ($rtl) { echo "<table class='word-para-one word-rtl'><tr><td class='word-text'>$verse_text</td><td class='word-refs'>$verse_number<span class='word-verse'>$verse_link</span></td></tr></table>\n"; }
+		if ($rtl) { echo "<div class='rtlt word-para-one word-rtl'><div class='rtlr'><div class='rtlc word-text'>$verse_text</div><div class='rtlc word-refs'>$verse_number<span class='word-verse'>$verse_link</span></div></div></div>\n"; }
 		else {		echo "<div class='word-para-one'><span class='word-verse'>$verse_link</span>$verse_number$verse_text</div>\n"; }
-		if ($rtl2) {echo "<table class='word-para-two word-rtl'><tr><td class='word-text'>$verse_text2</td><td class='word-refs'>$verse_number2</td></tr></table>\n"; }
+		if ($rtl2) {echo "<div class='rtlt word-para-two word-rtl'><div class='rtlr'><div class='rtlc word-text'>$verse_text2</div><div class='rtlc word-refs'>$verse_number2</div></div></div>\n"; }
 		else {		echo "<div class='word-para-two'>$verse_number2$verse_text2</div>\n"; }
 		echo "</div>\n";
 	}
 	else if ($rtl) {
-			echo	"<table class='word-rtl $stripe'><tr><td class='word-text'>$verse_text</td><td class='word-refs'>$verse_number<span class='word-verse'>$verse_link</span></td></tr></table>\n";
+			echo	"<div class='rtlt word-rtl $stripe'><div class='rtlr'><div class='rtlc word-text'>$verse_text</div><div class='rtlc word-refs'>$verse_number<span class='word-verse'>$verse_link</span></div></div></div>\n";
 	}
 	else {	echo	"<span class='word-text $stripe'><span class='word-verse'>$verse_link</span>$verse_number$verse_text</span>\n";
 	}
@@ -1250,7 +1250,7 @@ echo "<div id='word-menu-bottom'><h2>$menu</h2></div>";
 echo '</div>';
 if (!empty($_BibleONE['T_VERSIONS']['WARNING'])) { echo "<div class='word-warning'>".$_BibleONE['T_VERSIONS']['WARNING']."</div>\n"; }
 echo "<div id='word-links'>\n".
-	"<a href='#' title='Go to Bookmark' onclick='AionianBible_Get();'>Go to</a> &gt; <a href='#' title='Set Bookmark' onclick='AionianBible_Set();'>Bookmark</a>".
+	"<a href='#' title='Go to Bookmark' onclick='AionianBible_Get();' aria-label='Go to Bookmark'>Go to</a> &gt; <a href='#' title='Set Bookmark' onclick='AionianBible_Set();' aria-label='Set Bookmark'>Bookmark</a>".
 	" / <a href='".abcms_href("/Strongs/$_Part[1]",FALSE,TRUE,TRUE)."' title='Aionian Glossary and Strongs Concordance'>Concordance</a>\n".
 	" / <a href='/Maps' title='Middle Eastern and Mediterranean Bible maps, Bible timeline and church history'>Maps</a>\n".
 	(($tmp = preg_replace("/Bibles\//","Publisher/",$_Path)) ? " / <a href='/$tmp' title='Propose translation correction'>Report Issue</a>\n" : '').
@@ -1299,21 +1299,21 @@ if ($_BibleCHAP2_Last) {
 	$verse_number2 = (empty($_BibleTWO['T_NUMBERS'][$x]) || $x==$_BibleTWO['T_NUMBERS'][$x] ? '' : $_BibleTWO_Lang." word-verse-lang verse-num'>".$_BibleTWO['T_NUMBERS'][$x].'</span>');
 	$verse_text2 = (empty($_BibleCHAP2[$x]) ? '<span>Verse not available in this translation</span>' : $_BibleTWO_Lang." word-text'>".$_BibleCHAP2[$x].'</span>');
 	echo "<div class='word-para'>\n";
-	if ($rtl) { echo "<table class='word-para-one word-rtl'><tr><td class='word-text'>$verse_text</td><td class='word-refs'>$verse_number<span class='word-verse'>$x </span></td></tr></table>\n"; }
+	if ($rtl) { echo "<div class='rtlt word-para-one word-rtl'><div class='rtlr'><div class='rtlc word-text'>$verse_text</div><div class='rtlc word-refs'>$verse_number<span class='word-verse'>$x </span></div></div></div>\n"; }
 	else {		echo "<div class='word-para-one'><span class='word-verse'>$x </span>$verse_number$verse_text</div>\n"; }
-	if ($rtl2) {echo "<table class='word-para-two word-rtl'><tr><td class='word-text'>$verse_text2</td><td class='word-refs'>$verse_number2</td></tr></table>\n"; }
+	if ($rtl2) {echo "<div class='rtlt word-para-two word-rtl'><div class='rtlr'><div class='rtlc word-text'>$verse_text2</div><div class='rtlc word-refs'>$verse_number2</div></div></div>\n"; }
 	else {		echo "<div class='word-para-two word-ltr'>$verse_number2$verse_text2</div>\n"; }
 	echo "</div>\n";
 }
 else {
-	if ($rtl) { echo "<table class='word-para word-rtl'><tr><td class='word-text'>$verse_text</td><td class='word-refs'>$verse_number<span class='word-verse'>$x </span></td></tr></table>\n"; }
+	if ($rtl) { echo "<div class='rtlt word-para word-rtl'><div class='rtlr'><div class='rtlc word-text'>$verse_text</div><div class='rtlc word-refs'>$verse_number<span class='word-verse'>$x </span></div></div></div>\n"; }
 	else {		echo "<div class='word-para'><span class='word-text'><span class='word-verse'>$x </span>$verse_number$verse_text</span></div>\n"; }
 }
 if (!empty($_BibleONE['T_VERSIONS']['WARNING'])) { echo "<div class='word-warning'>".$_BibleONE['T_VERSIONS']['WARNING']."</div>\n"; }
 $javascript = "AionianBible_CollapseExpand(\"ab-lexicon\", null); return false;";
 echo "<div class=field-header>\n".
 	"<a href='' title='Open or close all lexicon entries below' onclick='$javascript'>Toggle Lexicons</a>\n".
-	" / <a href='#' title='Go to Bookmark' onclick='AionianBible_Get();'>Go to</a> &gt; <a href='#' title='Set Bookmark' onclick='AionianBible_Set();'>Bookmark</a>".
+	" / <a href='#' title='Go to Bookmark' onclick='AionianBible_Get();' aria-label='Go to Bookmark'>Go to</a> &gt; <a href='#' title='Set Bookmark' onclick='AionianBible_Set();' aria-label='Set Bookmark'>Bookmark</a>".
 	" / <a href='".abcms_href("/Verse/All/$_Part[2]/$_Part[3]/$_Part[4]",FALSE,TRUE,TRUE)."' title='Verse in all Bibles'>All Bibles</a>\n".
 	" / <a href='".abcms_href("/Strongs/$_Part[1]",FALSE,TRUE,TRUE)."' title='Aionian Glossary and Strongs Concordance'>Concordance</a>\n".
 	" / <a href='/Maps' title='Middle Eastern and Mediterranean Bible maps, Bible timeline and church history'>Maps</a>\n".
@@ -1420,7 +1420,7 @@ foreach( $bible_ALL as $bible => $version ) {
 	if (empty($_BibleCHAP1[$_Part[4]])) {	$verse_text = "Verse not available"; }
 	else {									$verse_text =  "$_BibleONE_Lang word-text'>".$_BibleCHAP1[$_Part[4]].'</span>'; ++$count; }
 	echo "<div class='word-para-ref $rtlref' $quick_id><a href='".abcms_href("/Bibles/$_Part[1]/$_Part[2]/$_Part[3]",FALSE,TRUE,TRUE)."' title='View verse chapter'>".$language." ~ ".$name."</a></div>\n";
-	if ($rtl) {	echo "<table class='word-rtl allverses'><tr><td class='word-text'>$verse_text</td></tr></table>\n"; }
+	if ($rtl) {	echo "<div class='rtlt word-rtl allverses'><div class='rtlr'><div class='rtlc word-text'>$verse_text</div></div></div>\n"; }
 	else {		echo "<div class='word-para-one allverses'><span class='word-text'>$verse_text</span></div>\n"; }
 }
 echo "<div>Verse Count = $count</div>\n";
@@ -1480,7 +1480,7 @@ foreach( $bible_ALL as $bible => $version ) {
 			'</a>';				
 		$verse_number = (empty($_BibleONE['T_NUMBERS'][$x]) || $x==$_BibleONE['T_NUMBERS'][$x] ? '' : $_BibleONE_Lang." word-verse-lang'>".$_BibleONE['T_NUMBERS'][$x].'</span>');
 		$verse_text = $_BibleONE_Lang." word-text'>".$verse1['TEXT'].'</span>';
-		if ($rtl) {	echo "<table class='word-rtl $stripe'><tr><td class='word-refs rtlref'><span class='word-verse'>$vref_link</span></td></tr><tr><td class='word-text'>$verse_text</td></tr></table>\n"; }
+		if ($rtl) {	echo "<div class='rtlt word-rtl $stripe'><div class='rtlr'><div class='rtlc word-text rtlref'><span class='word-verse'>$vref_link</span></div></div><div class='rtlr'><div class='rtlc word-text'>$verse_text</div></div></div>\n"; }
 		else {		echo "<div class='word-para $stripe aionian'><div class='word-para-ref'>$vref_link</div>\n<div class='word-para-one'>$verse_number$verse_text</div>\n</div>\n"; }
 	}
 	if ($x) { echo "<hr>"; }
@@ -1536,7 +1536,7 @@ abcms_head();
 The  <span class='notranslate'>Aionian</span>  Bible untranslates and instead transliterates eleven special words to help us better understand the extent of God’s love for individuals and all mankind, and the nature of afterlife destinies.  The original translation is unaltered and an inline note is appended to 64 Old Testament and 200 New Testament verses. Compare the definitions below to the <a href='/Glossary' title='Aionian Glossary' onclick='return AionianBible_Makemark("/Glossary");'><span class='notranslate'>Aionian</span> Glossary</a>. Follow the <span class='word-blue'>blue link</span> below to study the word's usage.  Search for any Strong's number: g1-21369 and h1-9049.<br>
 <div class=center>
 <form action='<? echo abcms_href(TRUE,'',TRUE,FALSE); ?>' method='post'>
-<input type='text' name='sid' placeholder='Enter g1-21369 or h1-9049 for Greek and Hebrew Strongs numbers, for example g166' value=''>
+<input type='text' name='sid' placeholder='Enter g1-21369 or h1-9049 for Greek and Hebrew Strongs numbers, for example g166' aria-label='Enter g1-21369 or h1-9049 for Greek and Hebrew Strongs numbers, for example g166' value=''>
 <input type='submit' name='search' value='Search'>
 </form>
 </div>
@@ -1881,7 +1881,7 @@ echo
 	(empty($tag[11]) || $tag[11]==$word ? "" : "<div class='field-field'><div class='field-label'>Gloss:</div><div class='field-value'>{$tag[11]}</div></div>\n") .
 
 	// morphhology array('M'=>'Morphhology','U'=>'Explanation')
-	(empty($morphs['M'])	? "" : "<div class='field-field'><div class='field-label'>Morphhology:</div><div class='field-value'>{$morphs['M']}</div></div>\n") .
+	(empty($morphs['M'])	? "" : "<div class='field-field'><div class='field-label'>Morphology:</div><div class='field-value'>{$morphs['M']}</div></div>\n") .
 	(empty($morphs['U'])	? "" : "<div class='field-field'><div class='field-label'>Grammar:</div><div class='field-value'>{$morphs['U']}</div></div>\n") .
 
 	// tag detail
@@ -1908,7 +1908,7 @@ echo
 	(empty($lex_tyndale[1]) ? "" : "<div class='field-field'><div class='field-label'>Origin:</div><div class='field-value notranslate'>{$lex_tyndale[1]}</div></div>\n") .
 	(empty($lex_tyndale[3]) ? "" : "<div class='field-field'><div class='field-label'>Transliteration:</div><div class='field-value notranslate'>{$lex_tyndale[3]}</div></div>\n") .
 	(empty($lex_tyndale[4]) ? "" : "<div class='field-field'><div class='field-label'>Gloss:</div><div class='field-value'>{$lex_tyndale[4]}</div></div>\n") .
-	(empty($morphs_tyndale) ? "" : "<div class='field-field'><div class='field-label'>Morphhology:</div><div class='field-value'>{$morphs_tyndale}</div></div>\n") .
+	(empty($morphs_tyndale) ? "" : "<div class='field-field'><div class='field-label'>Morphology:</div><div class='field-value'>{$morphs_tyndale}</div></div>\n") .
 	(empty($lex_tyndale[6]) ? "" : "<div class='field-field'><div class='field-label'>Definition:</div><div class='field-value'>{$lex_tyndale[6]}</div></div>\n")) .
 	(empty($lex_LSJ[0])	? "" :
 	("<div class='field-field'><div class='field-header-no-bold'><span class='field-header1'>Liddell-Scott-Jones</span>{$lsj_substitute}</div></div>\n") .
@@ -1916,15 +1916,15 @@ echo
 	(empty($lex_LSJ[1]) ? "" : "<div class='field-field'><div class='field-label'>Origin:</div><div class='field-value notranslate'>{$lex_LSJ[1]}</div></div>\n") .
 	(empty($lex_LSJ[3]) ? "" : "<div class='field-field'><div class='field-label'>Transliteration:</div><div class='field-value notranslate'>{$lex_LSJ[3]}</div></div>\n") .
 	(empty($lex_LSJ[4]) ? "" : "<div class='field-field'><div class='field-label'>Gloss:</div><div class='field-value'>{$lex_LSJ[4]}</div></div>\n") .
-	(empty($morphs_LSJ) ? "" : "<div class='field-field'><div class='field-label'>Morphhology:</div><div class='field-value'>{$morphs_LSJ}</div></div>\n") .
+	(empty($morphs_LSJ) ? "" : "<div class='field-field'><div class='field-label'>Morphology:</div><div class='field-value'>{$morphs_LSJ}</div></div>\n") .
 	(empty($lex_LSJ[6]) ? "" : "<div class='field-field'><div class='field-label'>Definition:</div><div class='field-value'>{$lex_LSJ[6]}</div></div>\n")) .
 	(empty($lex_strongs[0])	? "" :
 	("<div class='field-field'><div class='field-header-no-bold'><span class='field-header1'>Strongs</span>{$lex_strongsub}</div></div>\n") .
 	(empty($lex_strongs[1]) ? "" : "<div class='field-field'><div class='field-label'>Word:</div><div class='field-value notranslate'>{$lex_strongs[1]}</div></div>\n") .
 	(empty($lex_strongs[2]) ? "" : "<div class='field-field'><div class='field-label'>Transliteration:</div><div class='field-value notranslate'>{$lex_strongs[2]}</div></div>\n") .
-	(empty($lex_strongs[3]) ? "" : "<div class='field-field'><div class='field-label'>Pronounciation:</div><div class='field-value notranslate'>{$lex_strongs[3]}</div></div>\n") .
+	(empty($lex_strongs[3]) ? "" : "<div class='field-field'><div class='field-label'>Pronunciation:</div><div class='field-value notranslate'>{$lex_strongs[3]}</div></div>\n") .
 	(empty($stronglang)		? "" : "<div class='field-field'><div class='field-label'>Language:</div><div class='field-value'>{$stronglang}</div></div>\n") .
-	(empty($lex_strongs[5]) ? "" : "<div class='field-field'><div class='field-label'>Morphhology:</div><div class='field-value'>{$lex_strongs[5]}</div></div>\n") .
+	(empty($lex_strongs[5]) ? "" : "<div class='field-field'><div class='field-label'>Morphology:</div><div class='field-value'>{$lex_strongs[5]}</div></div>\n") .
 	(empty($lex_strongs[6]) ? "" : "<div class='field-field'><div class='field-label'>Definition:</div><div class='field-value'>{$lex_strongs[6]}</div></div>\n")) .
 	(empty($tag)			? "" : "</div>\n");
 	
@@ -2300,8 +2300,8 @@ function abcms_head($headlo='',$good=TRUE) {
 <?
 global $_Path, $_Part;
 // preface
-if ($_Path==='Preface') {					echo "<a href='#' title='Preface and mission' >Preface</a>"; }
-else {										echo "<a href='/Preface' title='Preface and mission' >Preface</a>"; }
+if ($_Path==='Preface') {					echo "<a href='#' title='Preface and mission' aria-label='Already on Preface'>Preface</a>"; }
+else {										echo "<a href='/Preface' title='Preface and mission' aria-label='Go to Preface'>Preface</a>"; }
 // bible
 if ($good && $_Part[0]==='Bibles') {		echo "<a href='".abcms_href("/Read",FALSE,TRUE,TRUE)."' title='Read and Study Bible'>Bibles</a>"; }
 else if ($good && (
@@ -2311,7 +2311,7 @@ else if ($good && (
 else if ($_Path==='Read') {					echo "<a href='/Read' title='Bookmarked Bible' onclick='return AionianBible_Bookmark(".'"/Read"'.");'>Read</a>"; }
 else {										echo "<a href='/Read' title='Bookmarked Bible' onclick='return AionianBible_Bookmark(".'"/Read"'.");'>Read</a>"; }
 // end
-echo "<a href='#' title='Font Size Accessibility' onclick='AionianBible_Accessible();' id='accessible'>+</a>";
+echo "<a href='#' title='Font Size Accessibility' onclick='AionianBible_Accessible();' id='accessible' aria-label='Font Size Accessibility'>+</a>";
 echo "</div></div>\n";
 if (!empty($headlo)) { echo "<div id='head-lo'>$headlo</div>\n"; }
 echo "</div><div id='body' class=''>\n";
@@ -2335,7 +2335,7 @@ $social .= "<a href='https://vk.com/share.php?url=$url&title=$title' target='_bl
 $social .= "<a href='https://service.weibo.com/share/share.php?url=$url&appkey=&title=$title&pic=&ralateUid=' target='_blank'><img src='/social/weibo.png' alt='Weibo' title='Weibo post' class='img25'></a>";
 $social .= "<a href='mailto:?subject=".preg_replace("/ /","%20","$title0&body=$url0")."' target='_blank'><img src='/social/email.png' alt='email' title='Email link' class='img25'></a>";
 ?>
-<div id='social-footer'>
+<div id='social-footer' class='no-arrow'>
 <div id='google_translate_element'></div>
 <div id='social-shares'>
 <?echo $social;?><br>
@@ -2393,11 +2393,11 @@ exit;
 
 /*** JSON+LD ***/
 function abcms_jsonld($good) {
-global $_Path, $_Part, $_pnum, $_meta, $_BibleONE, $_BibleCHAP1;
+global $_Path, $_Part, $_Orig, $_pnum, $_meta, $_BibleONE, $_BibleCHAP1;
 // bad page
-if (!$good) { return; }
+if (!$good || NULL === $_Orig) { return; }
 // homepage
-if ($_Path==='') {
+if ($_Orig==='') {
 	$jsonld = '
 [
 {
@@ -2405,7 +2405,7 @@ if ($_Path==='') {
   "@type" : "WebSite",
   "url" : "https://www.AionianBible.org",
   "name" : "AionianBible.org ~ The Holy Bible Aionian Edition®",
-  "headline" : "One hundred seventy-four Bible versions. Seventy-three world languages. 100% free to copy and print. Also known as \'The Purple Bible\'",
+  "headline" : "The World\'s First Holy Bible Untranslation. 100% free to copy and print. Also known as \'The Purple Bible\'",
   "description" : "The Holy Bible Aionian Edition® ~ The World\'s First Holy Bible Untranslation",
   "text" : "For God so loved the world, that he gave his one and only Son, that whoever believes in him should not perish, but have... Aionian Life! John 3:16",
   "genre" : "http://vocab.getty.edu/aat/300055271",
@@ -2413,8 +2413,8 @@ if ($_Path==='') {
   "keywords" : "Christian,Holy,Bible,Scripture,Word,salvation,grace,truth,aiōn,aion,aiōnios,aionios,aionian,aïdios,untranslation,translation,free,online,website,public domain,creative commons",
   "copyrightYear" : 2016,
   "educationalUse" : "to restore relationship to God and all mankind with the truth, personal transformation, and growth",
-  "isAccessibleForFree" : "True",
-  "isFamilyFriendly" : "True",
+  "isAccessibleForFree" : True,
+  "isFamilyFriendly" : True,
   "typicalAgeRange" : "4-100",
   "isBasedOn" : { "@id": "https://www.AionianBible.org/#Bible" },
   "translationOfWork" : { "@id": "https://www.AionianBible.org/#Bible" },
@@ -2435,7 +2435,7 @@ if ($_Path==='') {
   "@id" : "https://www.AionianBible.org/#Bible",
   "url" : "https://www.AionianBible.org",
   "name" : "Bible",
-  "abridged" : "False",
+  "abridged" : False,
   "bookEdition" : "Original autograph",
   "headline" : "Holy Bible",
   "educationalUse" : "to restore relationship to God and all mankind with the truth, personal transformation, and growth",
@@ -2467,7 +2467,7 @@ if ($_Path==='') {
 ';
 }
 // publisher
-else if ($_Path==='Publisher') {
+else if ($_Part[0] === 'Publisher') {
 	$jsonld = '
 [
 {
@@ -2556,7 +2556,7 @@ else if ($_Part[0]==='Bibles' && $_pnum==2) {
   "translationOfWork" : { "@id": "https://www.AionianBible.org/#Bible" },
   "name" : "'.$bible.'",
   "alternateName" : "Holy Bible '.$lang.'",
-  "abridged" : "False",
+  "abridged" : False,
   "bookEdition" : "Holy Bible Aionian Edition®",
   "headline" : "Holy Bible Aionian Edition® '.$bible.' '.$lang.'",
   "educationalUse" : "to restore relationship to God and all mankind with the truth, personal transformation, and growth",
@@ -2564,6 +2564,11 @@ else if ($_Part[0]==='Bibles' && $_pnum==2) {
   "description" : "Christian Scripture inspired by God the Holy Spirit for teaching, rebuking, correcting, and training in righteousness with the '.$bible.', '.$lang.'.",
   "genre" : "http://vocab.getty.edu/aat/300264513",
   "inLanguage" : "'.$_BibleONE['T_VERSIONS']['LANGUAGECODEISO'].'",
+  "accessMode" : ["textual", "visual"],
+  "accessModeSufficient" : ["textual"],
+  "accessibilityFeature" : ["tableOfContents", "readingOrder", "structuralNavigation", "alternativeText", "displayTransformability"],
+  "accessibilityHazard" : ["none"],
+  "accessibilitySummary" : "Text-based Bible with structured headings and chapter navigation. Text can be resized and reflows. Maps and illustrations have short text descriptions.",
   "author" : { "@id": "https://www.AionianBible.org/#God" },
   "translator" : { "@id": "https://www.AionianBible.org/Bibles/'.$bkey.'/#Provider" },
   "copyrightHolder" : { "@id": "https://www.AionianBible.org/Bibles/'.$bkey.'/#Provider" },
@@ -2664,7 +2669,7 @@ else {
   "name" : "Holy Bible Aionian Edition® '.$_meta.'",
   "headline" : "Holy Bible Aionian Edition® '.$_meta.'",
   "description" : "Holy Bible Aionian Edition® '.$_meta.' '.$_Path.'",
-  "url" : "https://www.AionianBible.org/'.$_Path.'",
+  "url" : "https://www.AionianBible.org/'.$_Orig.'",
   "genre" : "http://vocab.getty.edu/aat/300055271",
   "publisher" : { "@id": "https://www.AionianBible.org/Publisher/#NainoiaInc" },
   "relatedLink" : [
@@ -2815,6 +2820,7 @@ static $avs = array(
 '49001' => '21',
 '49002' => '2,7',
 '49003' => '9,11,21',
+'49006' => '12',
 '50004' => '20',
 '51001' => '26',
 '53001' => '9',

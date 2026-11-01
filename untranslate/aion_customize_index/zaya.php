@@ -16,7 +16,7 @@ $ab_link = '/Bibles/'.$match[1];
 
 <head>
   <meta charset="utf-8">
-  <title>Zaya Flipbook at AionianBible.org</title>
+  <title>Zaya Flipbook at AionianBible.org<? echo $ab_link; ?></title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/svg+xml" href="/assets/zaya.svg">
 
@@ -33,6 +33,10 @@ $ab_link = '/Bibles/'.$match[1];
 </head>
 
 <body class="bg-gray-900 text-white">
+
+<h1 style="position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0;">
+Zaya Flipbook at AionianBible.org<? echo $ab_link; ?>
+</h1>
 
     <!-- GitHub Link 
     <div class="fixed top-4 right-4 z-50">
