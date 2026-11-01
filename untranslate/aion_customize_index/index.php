@@ -77,7 +77,7 @@ function abcms_home() {
 abcms_html();
 $modified = date("n/j/Y", filemtime("./index.php"));
 ?>
-<div id='home' class='no-arrow'>
+<div id='home' class='no-arrow' role='main'>
 <div id='vert'>
 <div id='horz'>
 <a href='/Preface' onclick='return AionianBible_Bookmark("/Preface");'>

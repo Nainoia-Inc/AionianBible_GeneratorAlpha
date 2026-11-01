@@ -1005,7 +1005,7 @@ body.word-read #body { max-width: 1024px; margin: 0 auto; padding: 110px 3% 2% 3
 <a href="?Prev" title="Previous page" class="nav left" onclick="ABDO('Prev');return false;" aria-label="Previous page"><span class="nav clt">&lt;</span></a>
 <a href="?Next" title="Next page" class="nav right" onclick="ABDO('Next');return false;" aria-label="Next page"><span class="nav cgt">&gt;</span></a>
 </div>
-<div id='body'>
+<div id='body' role='main'>
 <div id='upin' class='home'><span class='java'>( JavaScript required )<br></span></div>
 <div id='status' role='status' aria-live='polite'></div>
 <div id='home1'>
