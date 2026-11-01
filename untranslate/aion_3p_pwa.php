@@ -972,7 +972,6 @@ body.word-read #body { max-width: 1024px; margin: 0 auto; padding: 110px 3% 2% 3
 	"name" : "Holy Bible Aionian Edition® {$G_VERSIONS['NAMEENGLISH']}",
 	"inLanguage" : "{$G_VERSIONS['LANGUAGECODEISO']}",
 	"publisher" : "Nainoia Inc",
-	"license" : "https://creativecommons.org/licenses/by/4.0/",
 	"accessMode" : ["textual", "visual"],
 	"accessModeSufficient" : ["textual"],
 	"accessibilityFeature" : ["tableOfContents", "readingOrder", "structuralNavigation", "alternativeText", "displayTransformability"],
@@ -1022,7 +1021,7 @@ body.word-read #body { max-width: 1024px; margin: 0 auto; padding: 110px 3% 2% 3
 The world's first Holy Bible <u>untranslation</u><br>
 Two hundred ninety-two languages<br>
 Five hundred forty-four versions<br>
-9,719,052 Scripture verses<br>
+9,719,078 Scripture verses<br>
 100% free to copy &amp; print<br>
 Anonymous on TOR<br>
 Updated {$G_PWA->modified}<br>
@@ -1276,7 +1275,7 @@ The <span class='notranslate'>Aionian</span>  Bible republishes public domain an
 All versions are available online at <a href='https://www.AionianBible.org/Read' target='_blank' title='The worlds first Holy Bible untranslation'>AionianBible.org</a> in web page, ePub, text, and PDF format.  Also read online with the  <a href='https://www.AionianBible.org/Google-Play' target='_blank' title='Aionian Bible free online at Google Play'><span class='notranslate'>Android</span></a>  and  <a href='https://www.AionianBible.org/Apple-iOS-App' target='_blank' title='Apple iOS App'><span class='notranslate'>Apple iOS App</span></a>.  Buy print Bibles at <a href='https://www.AionianBible.org/Buy' target='_blank' title='Holy Bible Aionian Edition at Amazon.com and Lulu.com'><span class='notranslate'>Amazon.com and Lulu.com</span></a>.<br>
 <br>
 </p><p>
-<b>2026-10-04</b>&nbsp;&nbsp;544 translations in 292 languages with 9,719,052 verses.<br>
+<b>2026-11-01</b>&nbsp;&nbsp;544 translations in 292 languages with 9,719,078 verses.<br>
 </p><p>
 <b>2025-09-01</b>&nbsp;&nbsp;538 translations now available in 291 languages.<br>
 </p><p>
