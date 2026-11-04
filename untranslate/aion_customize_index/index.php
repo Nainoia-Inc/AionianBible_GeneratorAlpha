@@ -2245,6 +2245,7 @@ if (!$goodpage) { http_response_code(404); $_meta = ' ~ Page not found'; $_Orig 
 <meta name='description' content="Holy Bible Aionian Edition® ~ The world's first Holy Bible untranslation!<?echo $_meta;?>">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name='mobile-web-app-capable' content='yes'>
+<meta name="color-scheme" content="light dark">
 <meta name="generator" content="ABCMS™">
 <?
 if ($_para ||
@@ -2409,7 +2410,7 @@ if ($_Orig==='') {
   "genre" : "http://vocab.getty.edu/aat/300055271",
   "inLanguage" : "en-US",
   "keywords" : "Christian,Holy,Bible,Scripture,Word,salvation,grace,truth,aiōn,aion,aiōnios,aionios,aionian,aïdios,untranslation,translation,free,online,website,public domain,creative commons",
-  "copyrightYear" : 2016,
+  "copyrightYear" : 2026,
   "educationalUse" : "to restore relationship to God and all mankind with the truth, personal transformation, and growth",
   "isAccessibleForFree" : true,
   "isFamilyFriendly" : true,

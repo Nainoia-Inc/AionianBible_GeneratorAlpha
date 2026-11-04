@@ -599,8 +599,9 @@ $fray = array(
 'font-coptic.css'			=> array('newathu5_5',					'newathu5_5',					'font-coptic',			'font-coptic'		),
 'font-devanagari.css'		=> array('notoserifdevanagari',			'notoserifdevanagari-regular',	'font-devanagari',		'font-devanagari'	),
 'font-ethiopic.css'			=> array('noto-ethiopic',				'noto-ethiopic-serif-regular',	'font-ethiopic',		'font-ethiopic'		),
-'font-ethiopic-plus.css'	=> array('abyssinicaSIL-regular',		'abyssinicaSIL-regular',		'font-ethiopic-plus',	'font-ethiopic-plus'),
+'font-ethiopic-plus.css'	=> array('abyssinicaSIL-regular-plus',	'abyssinicaSIL-regular-plus',	'font-ethiopic-plus',	'font-ethiopic-plus'),
 'font-ezra.css'				=> array('ezra_sil',					'ezra_sil',						'font-ezra',			'font-ezra'			),
+'font-ezra2.css'			=> array('ezra_sil',					'ezra_sil',						'font-ezra2',			'font-ezra2'		),
 'font-gujarati.css'			=> array('notoserifgujarati',			'notoserifgujarati-regular',	'font-gujarati',		'font-gujarati'		),
 'font-hindi.css'			=> array('akshar_unicode',				'akshar_unicode',				'font-hindi',			'font-hindi'		),
 'font-kannada.css'			=> array('notoserifkannada',			'notoserifkannada-regular',		'font-kannada',			'font-kannada'		),
@@ -694,7 +695,8 @@ return <<< EOF
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="generator" content="ABCMS™">
 <meta name="version" content="{$G_PWA->modified}">
-<meta name="theme-color" content="#663399">
+<meta name="theme-color" content="#2B1A42">
+<meta name="color-scheme" content="light dark">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
@@ -709,23 +711,64 @@ return <<< EOF
 
 <!--////////////////////////////////////////////////////////////////////////////////////////////////////-->
 <style>
-/* PALETTE
-PURPLE
-#663399 purple text
-#9966CC purple highlight
-#E0D6EB purple background
-#F0EBF5 cover background
-BLUE
-#006699 blue text
-#CCE0EB blue background
-OTHER
-#191919 black text
-#C5C5C5 gray dark
-#EDEDED gray light
-#FFFFFF white
-#000000 black
-#F8F8F8 super light gray
-*/
+/*** PALETTE ***/
+:root {
+	--ab-text: #000000;
+	--ab-bg: #FFFFFF;
+	--ab-page: #F8F8F8;
+	--ab-heading: #663399;
+	--ab-link: #7345A1;
+	--ab-link-hover: #4E2A7A;
+	--ab-brand: #663399;
+	--ab-on-brand: #FFFFFF;
+	--ab-on-brand-hover: #E0D6EB;
+	--ab-highlight: #E0D6EB;
+	--ab-note: #7345A1;
+	--ab-card: #F0EBF5;
+	--ab-zebra: #EDEDED;
+	--ab-blue: #005F8C;
+	--ab-blue-bg: #CCE0EB;
+	--ab-accent: #7345A1;
+	--ab-on-accent: #FFFFFF;
+	--ab-button-bg: #E0D6EB;
+	--ab-button-text: #4E2A7A;
+	--ab-control-border: #767676;
+	--ab-focus: #663399;
+	--ab-focus-on-brand: #FFFFFF;
+	--ab-nav-bg: #663399;
+	--ab-nav-text: #FFFFFF;
+	--ab-error: #B3261E;
+	--ab-border: #C5C5C5;
+}
+@media (prefers-color-scheme: dark) {
+:root {
+	--ab-text: #F5F2FA;
+	--ab-bg: #16121D;
+	--ab-page: #100D15;
+	--ab-heading: #D2B8F5;
+	--ab-link: #A375D1;
+	--ab-link-hover: #D6C0F7;
+	--ab-brand: #2B1A42;
+	--ab-on-brand: #FFFFFF;
+	--ab-on-brand-hover: #D2B8F5;
+	--ab-highlight: #241B30;
+	--ab-note: #A079D2;
+	--ab-card: #1D1727;
+	--ab-zebra: #1B1721;
+	--ab-blue: #478FC2;
+	--ab-blue-bg: #0F1F2D;
+	--ab-accent: #5A2F92;
+	--ab-on-accent: #FFFFFF;
+	--ab-button-bg: #241B30;
+	--ab-button-text: #D6C0F7;
+	--ab-control-border: #8A8295;
+	--ab-focus: #D2B8F5;
+	--ab-focus-on-brand: #FFD866;
+	--ab-nav-bg: #7848A8;
+	--ab-nav-text: #FFFFFF;
+	--ab-error: #FF8A80;
+	--ab-border: #3A3346;
+}}
 
 /* FONT */
 @font-face {

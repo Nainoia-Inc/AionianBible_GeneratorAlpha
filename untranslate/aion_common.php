@@ -3493,7 +3493,7 @@ function AION_LOOP_HTMS($source, $destiny, $destiny2) {
 		)));
 	$grandmarker = array();
 	$grandmarker['BIBLE_COUNT']	= $grandtotal['BIBLE_COUNT']-544;
-	$grandmarker['LANG_COUNT']	= $grandtotal['LANG_COUNT']-280;
+	$grandmarker['LANG_COUNT']	= $grandtotal['LANG_COUNT']-286;
 	$grandmarker['BOOK_OT']		= $grandtotal['BOOK_OT']-10070;
 	$grandmarker['BOOK_NT']		= $grandtotal['BOOK_NT']-12512;
 	$grandmarker['CHAP_TOTAL']	= $grandtotal['CHAP_TOTAL']-362457;

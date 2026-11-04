@@ -19,8 +19,8 @@
 	font-family:
 		'font-ethiopic-plus';
 	src:
-		url('../fonts/abyssinicaSIL-regular.woff2')	format('woff2'),
-		url('../fonts/abyssinicaSIL-regular.woff')	format('woff'),
-		url('../fonts/abyssinicaSIL-regular.ttf')	format('truetype');
+		url('../fonts/abyssinicaSIL-regular-plus.woff2')	format('woff2'),
+		url('../fonts/abyssinicaSIL-regular-plus.woff')		format('woff'),
+		url('../fonts/abyssinicaSIL-regular-plus.ttf')		format('truetype');
 }
-span.font-ethiopic { font-family: 'font-ethiopic-plus', 'NotoSans', 'Arial', sans-serif, 'GentiumPlus'; }
+span.font-ethiopic-plus { font-family: 'font-ethiopic-plus', 'NotoSans', 'Arial', sans-serif, 'GentiumPlus'; }

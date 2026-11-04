@@ -205,11 +205,12 @@ function AION_LOOP_PDF_POD($source, $destiny) {
 		'q_pdfoo'	=> FALSE,	// TRUE = do One Online PDFs
 		'q_pdfjo'	=> FALSE,	// TRUE = do John PDFs
 		'q_epubc'	=> TRUE,	// TRUE = do ePub and covers
-		//'include'	=> "/Holy-Bible---.*(Aionian-Bible|New-Arabic-Bible).*---Aionian-Edition\.noia$/",
-		//'include'	=> "/Holy-Bible---.*(Thai-Freedom).*---Aionian-Edition\.noia$/",
+		//'include'	=> "/Holy-Bible---.*(Arabic|Syriac-Peshitta|Persian|Sorani-Bible|Urdu-Free-Contemporary|Hebrew).*---Aionian-Edition\.noia$/",
+		//'include'	=> "/Holy-Bible---.*(Uyghur-Bible-Arabic|Arabic-Van-Dyck-Bible|Hebrew-Westminster-Leningrad).*---Aionian-Edition\.noia$/",
+		'include'	=> "/Holy-Bible---.*(One-Unity-Resource|Gayl-Bible|Melo-Bible).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---Abureni---Abureni-Bible---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---Spanish---Free-for-the-World---Aionian-Edition\.noia$/",
-		'include'	=> "/---Aionian-Edition\.noia$/",
+		//'include'	=> "/---Aionian-Edition\.noia$/",
 		'database'	=> $database,
 		'destiny'	=> $destiny,
 		'verses66'	=> $verses66,
@@ -922,8 +923,8 @@ $langspeed	= trim(!empty($forprint['LANGSPEED'])	? "language='".$forprint['LANGS
 $langchap	= trim(!empty($forprint['LANGCHAP'])	? "language='".$forprint['LANGCHAP']."'"	: ""		);
 $yesnew		= trim(!empty($forprint['YESNEW'])		? $forprint['YESNEW']		: $default['YESNEW']		);
 $rtl		= trim(!empty($forprint['RTL'])			? $forprint['RTL']			: $default['RTL']			);
-$column1	= trim(!empty($forprint['COLUMN1'])		? $forprint['COLUMN1']		: NULL						);
-$studwide	= trim(!empty($forprint['STUDWIDE'])	? $forprint['STUDWIDE']		: NULL						);
+$column1	= trim(!empty($forprint['COLUMN1'])		? $forprint['COLUMN1']		: ''						);
+$studwide	= trim(!empty($forprint['STUDWIDE'])	? $forprint['STUDWIDE']		: ''						);
 $font		= trim(!empty($forprint['FONT'])		? $forprint['FONT']			: $default['FONT']			);
 $nudge		= trim(!empty($forprint['NUDGE'])		? $forprint['NUDGE']		: $default['NUDGE']			);
 $bidi		= trim(!empty($forprint['BIDI'])		? $forprint['BIDI']			: $default['BIDI']			);
@@ -1063,13 +1064,12 @@ $mat28_19	= trim(!empty($forprint['MAT28_19'])	? $forprint['MAT28_19']		: $defau
 if ($language=="Hebrew") {
 	$front = "</Value><Span language='English (USA)'><Fontface fontfamily='FF-Pixt'><Value> ( </Value></Fontface></Span><Value>";
 	$back   = "</Value><Span language='English (USA)'><Fontface fontfamily='FF-Pixt'><Value> ) </Value></Fontface></Span><Value>";
-	$backot = "</Value><Span language='English (USA)'><Fontface fontfamily='FF-Pixt'><Value> ) </Value></Fontface></Span><Value>";
 	$joh3_16_b	= $front.trim($forprint['JOH3_16_B'])	.$back;
-	$gen3_24_b	= $front.trim($forprint['GEN3_24_B'])	.$backot;
+	$gen3_24_b	= $front.trim($forprint['GEN3_24_B'])	.$back;
 	$luk23_34_b	= $front.trim($forprint['LUK23_34_B'])	.$back;
 	$rev21_2_3_b= $front.trim($forprint['REV21_2_3_B'])	.$back;
 	$heb11_8_b	= $front.trim($forprint['HEB11_8_B'])	.$back;
-	$exo13_17_b	= $front.trim($forprint['EXO13_17_B'])	.$backot;
+	$exo13_17_b	= $front.trim($forprint['EXO13_17_B'])	.$back;
 	$mar10_45_b	= $front.trim($forprint['MAR10_45_B'])	.$back;
 	$rom1_1_b	= $front.trim($forprint['ROM1_1_B'])	.$back;
 	$mat28_19_b	= $front.trim($forprint['MAT28_19_B'])	.$back;
@@ -1079,6 +1079,7 @@ else {
 	$gen3_24_b	= trim(!empty($forprint['GEN3_24_B'])	? $forprint['GEN3_24_B']	: $default['GEN3_24_B']		);
 	$luk23_34_b	= trim(!empty($forprint['LUK23_34_B'])	? $forprint['LUK23_34_B']	: $default['LUK23_34_B']	);
 	$rev21_2_3_b= trim(!empty($forprint['REV21_2_3_B'])	? $forprint['REV21_2_3_B']	: $default['REV21_2_3_B']	);
+	if ($rtl=="TRUE") { $rev21_2_3_b = preg_replace('/:/u',": ",$rev21_2_3_b); }
 	$heb11_8_b	= trim(!empty($forprint['HEB11_8_B'])	? $forprint['HEB11_8_B']	: $default['HEB11_8_B']		);
 	$exo13_17_b	= trim(!empty($forprint['EXO13_17_B'])	? $forprint['EXO13_17_B']	: $default['EXO13_17_B']	);
 	$mar10_45_b	= trim(!empty($forprint['MAR10_45_B'])	? $forprint['MAR10_45_B']	: $default['MAR10_45_B']	);

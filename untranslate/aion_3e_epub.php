@@ -628,8 +628,9 @@ $fray = array(
 'font-coptic.css'			=> array('newathu5_5',					'newathu5_5',					'font-coptic',			'font-coptic'		),
 'font-devanagari.css'		=> array('notoserifdevanagari',			'notoserifdevanagari-regular',	'font-devanagari',		'font-devanagari'	),
 'font-ethiopic.css'			=> array('noto-ethiopic',				'noto-ethiopic-serif-regular',	'font-ethiopic',		'font-ethiopic'		),
-'font-ethiopic-plus.css'	=> array('abyssinicaSIL-regular',		'abyssinicaSIL-regular',		'font-ethiopic-plus',	'font-ethiopic-plus'),
+'font-ethiopic-plus.css'	=> array('abyssinicaSIL-regular-plus',	'abyssinicaSIL-regular-plus',	'font-ethiopic-plus',	'font-ethiopic-plus'),
 'font-ezra.css'				=> array('ezra_sil',					'ezra_sil',						'font-ezra',			'font-ezra'			),
+'font-ezra2.css'			=> array('ezra_sil',					'ezra_sil',						'font-ezra2',			'font-ezra2'		),
 'font-gujarati.css'			=> array('notoserifgujarati',			'notoserifgujarati-regular',	'font-gujarati',		'font-gujarati'		),
 'font-hindi.css'			=> array('akshar_unicode',				'akshar_unicode',				'font-hindi',			'font-hindi'		),
 'font-kannada.css'			=> array('notoserifkannada',			'notoserifkannada-regular',		'font-kannada',			'font-kannada'		),
@@ -678,22 +679,35 @@ $contents = <<< EOF
 $G_COMMENT
 ***/
 
-/*** PALETTE
-PURPLE
-#663399 purple text
-#9966CC purple highlight
-#E0D6EB purple background
-#F0EBF5 cover background
-BLUE
-#006699 blue text
-#CCE0EB blue background
-OTHER
-#191919 black text
-#C5C5C5 gray dark
-#EDEDED gray light
-#FFFFFF white
-#000000 black
-***/
+/*** PALETTE ***/
+:root {
+	--ab-text: #000000;
+	--ab-bg: #FFFFFF;
+	--ab-page: #F8F8F8;
+	--ab-heading: #663399;
+	--ab-link: #7345A1;
+	--ab-link-hover: #4E2A7A;
+	--ab-brand: #663399;
+	--ab-on-brand: #FFFFFF;
+	--ab-on-brand-hover: #E0D6EB;
+	--ab-highlight: #E0D6EB;
+	--ab-note: #7345A1;
+	--ab-card: #F0EBF5;
+	--ab-zebra: #EDEDED;
+	--ab-blue: #005F8C;
+	--ab-blue-bg: #CCE0EB;
+	--ab-accent: #7345A1;
+	--ab-on-accent: #FFFFFF;
+	--ab-button-bg: #E0D6EB;
+	--ab-button-text: #4E2A7A;
+	--ab-control-border: #767676;
+	--ab-focus: #663399;
+	--ab-focus-on-brand: #FFFFFF;
+	--ab-nav-bg: #663399;
+	--ab-nav-text: #FFFFFF;
+	--ab-error: #B3261E;
+	--ab-border: #C5C5C5;
+}
 
 /*** FONT ***/
 $basic_font
