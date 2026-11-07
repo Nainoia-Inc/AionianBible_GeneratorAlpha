@@ -357,7 +357,7 @@ Zaya Flipbook at AionianBible.org<? echo $ab_link; ?>
   </div>
 
   <!-- Container where the flipbook will be displayed -->
-  <div id="flipbookContainer" class="h-screen w-full relative"></div>
+  <div id="flipbookContainer" class="h-screen w-full relative" role="main"></div>
 
   <!-- PDF-Specific Quotes Modal -->
   <div id="pdfSpecificQuotesModal" class="modal-container">

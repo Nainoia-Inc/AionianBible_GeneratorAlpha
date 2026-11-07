@@ -19349,7 +19349,7 @@ goto RAWHIDE;
 
 // RAWFIX BIBLE ********************
 case "Holy-Bible---Romanian---Bayash-Luke" :
-if (!($bfile = preg_replace("/ /us","",$bfile,-1,$rnum)) || $rnum!=10) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); } // https://unicodelookup.com/#%E2%80%8A/1
+if (!($bfile = preg_replace("/ /us","",$bfile,-1,$rnum)) || $rnum!=17) { AION_ECHO("ERROR! Rawfix preg_replace(line=".__LINE__."): $rnum $file"); } // https://unicodelookup.com/#%E2%80%8A/1
 $bfile_saved = $bfile;	
 goto RAWHIDE;
 

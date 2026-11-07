@@ -71,7 +71,6 @@ $CHECK_VARS = "CHECK_VARIANT.txt";
 $CHECK_WARN = "CHECK_WARNINGS.txt";
 // readme +
 $README_FILE = "_README.md";
-$HTACCESS_FILE = ".htaccess";
 // hebrew
 $HEBREW_VIZBI_DATA = "Hebrew_Lexicon_Strongs.txt";
 $HEBREW_VIZBI_INDX = "Hebrew_Lexicon_Strongs_Index.json";
@@ -118,35 +117,10 @@ if (!mkdir($FOLDER_STAGE) || !is_dir($FOLDER_STAGE) || !chmod($FOLDER_STAGE,0755
 
 
 //////////////////////////////////////////////////////////////////////////////////////////////////
-// HTACCESS
-$HTACCESS = <<<EOT
-# security
-# cfg,css,eot,gif,gitignore,htaccess,htm,html,ico,jar,jpg,js,lua,md,otf,pdf,php,png,rng,sh,so,svg,tex,ttf,TTF,txt,woff,woff2,xml,xsd
-# Correct MIME types for downloadable book/data files
-AddType application/epub+zip .epub
-AddType text/plain .noia
-AddCharset UTF-8 .noia
-# Force download: listed extensions + files with no extension
-<FilesMatch "(?i)(^[^.]+|\.(php[1-9]?|sh|bash|jar|so|rng|tex|txt|zip|epub|noia))$">
-   Header set Content-Disposition "attachment"
-   Header set X-Content-Type-Options "nosniff"
-</FilesMatch>
-# Neutralize type for everything above EXCEPT epub/noia
-<FilesMatch "(?i)(^[^.]+|\.(php[1-9]?|sh|bash|jar|so|rng|tex|txt|zip))$">
-   ForceType application/octet-stream
-</FilesMatch>
-
-# php -- BEGIN cPanel-generated handler, do not edit
-# Set the “ea-php82” package as the default “PHP” programming language.
-<IfModule mime_module>
-  AddHandler application/x-httpd-ea-php82 .php .php8 .phtml
-</IfModule>
-# php -- END cPanel-generated handler, do not edit
-
-EOT;
-if (file_put_contents("$FOLDER_STAGE$HTACCESS_FILE", $HTACCESS)===FALSE) { AION_ECHO("ERROR! file_put_contents($HTACCESS_FILE)"); }
-unset($HTACCESS); $HTACCESS=NULL;
-
+// HTACCESS + 
+if (!copy('../www-stageresources/.favicon.ico',	$FOLDER_STAGE.'.favicon.ico')) {	AION_ECHO("ERROR! failed file copy"); }
+if (!copy('../www-stageresources/.header.htm',	$FOLDER_STAGE.'.header.htm')) {		AION_ECHO("ERROR! failed file copy"); }
+if (!copy('../www-stageresources/.logo.png',	$FOLDER_STAGE.'.logo.png')) {		AION_ECHO("ERROR! failed file copy"); }
 
 
 
@@ -1302,7 +1276,7 @@ Act.2.11#05=NKO	Κρῆτες (Krētes)	[11] Cretans	G2912=N-NPM-LG	Κρής=Cr
 		$match[11] = trim(preg_replace("#\s+#u"," ",$match[11])," +");
 		$match[12] = trim(preg_replace("#\s+#u"," ",$match[12])," +");
 		// 13 is spanish, not needed
-		if (preg_match("#{$match[14]}#u",$gloss)) { $match[14] = NULL; } // Remove repeated words in the extra column 
+		if (preg_match("#{$match[14]}#u",$gloss)) { $match[14] = ''; } // Remove repeated words in the extra column 
 		$match[14] = trim(preg_replace("#\s+#u"," ",$match[14]));
 		$match[15] = trim(preg_replace("#\s+#u"," ",$match[15]));
 		$match[16] = trim(preg_replace("#\s+#u"," ",$match[16]));
@@ -2535,7 +2509,7 @@ function AION_NEWSTRONGS_FIX_REF_HEBREW($input,$table,&$database, &$lex_array, $
 			}
 
 			// VALIDATE TRANSLITERATION
-			if (!($trans = (empty($tpart[$key]) ? NULL : $tpart[$key])) && !$strongs_punctuation) {
+			if (!($trans = (empty($tpart[$key]) ? '' : $tpart[$key])) && !$strongs_punctuation) {
 				$warn="$newmess\tmissing transliteration TRAN='$trans'\n";
 				// special case for misplaced transliterations
 				if (!empty($tpart[$key-1]) && ("$book $chap $vers $numb"=='1CH 27 12 50600' || "$book $chap $vers $numb"=='NEH 2 13 51700')) {
@@ -2676,7 +2650,7 @@ function AION_NEWSTRONGS_FIX_REF_HEBREW($input,$table,&$database, &$lex_array, $
 			// HTMLSPECIALCHARS
 			$VAR = htmlspecialchars($VAR);
 			$spell = htmlspecialchars($spell);
-			$extra = htmlspecialchars($extra);
+			$extra = htmlspecialchars($extra?:'');
 			
 			// Hyperlink Expand!
 			$VAR = AION_NEWSTRONGS_HYPERLINK($newmess, $VAR);

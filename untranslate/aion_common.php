@@ -3497,7 +3497,7 @@ function AION_LOOP_HTMS($source, $destiny, $destiny2) {
 	$grandmarker['BOOK_OT']		= $grandtotal['BOOK_OT']-10070;
 	$grandmarker['BOOK_NT']		= $grandtotal['BOOK_NT']-12512;
 	$grandmarker['CHAP_TOTAL']	= $grandtotal['CHAP_TOTAL']-362457;
-	$grandmarker['VERS_TOTAL']	= $grandtotal['VERS_TOTAL']-9719078;
+	$grandmarker['VERS_TOTAL']	= $grandtotal['VERS_TOTAL']-9719079;
 	$grandmarker['VERS_AION']	= $grandtotal['VERS_AION']-109670;
 	$grandmarker['VERS_QUES']	= $grandtotal['VERS_QUES']-497;
 	$grandmarker['LONG']		= $grandtotal['LONG']-2546;
@@ -3505,21 +3505,21 @@ function AION_LOOP_HTMS($source, $destiny, $destiny2) {
 	$grandmarker['VERS_NO']		= $grandtotal['VERS_NO']-7396;
 	$grandmarker['VERS_EX']		= $grandtotal['VERS_EX']-1096;
 	$grandmarker['FIXED']		= $grandtotal['FIXED']-15384;
-	$grandmarker['NOTFIXED']	= $grandtotal['NOTFIXED']-60129;
+	$grandmarker['NOTFIXED']	= $grandtotal['NOTFIXED']-60128;
 	$grandmarker['CHAP_RE']		= $grandtotal['CHAP_RE']-11717;
 	$grandmarker['REVE_NO']		= $grandtotal['REVE_NO']-712;
 	$grandmarker['REVE_EX']		= $grandtotal['REVE_EX']-715;
 	$grandmarker['CUSTO']		= $grandtotal['CUSTO']-1617;
-	$grandmarker['PDFPA']		= $grandtotal['PDFPA']-264602;
-	$grandmarker['PDFPN']		= $grandtotal['PDFPN']-61068;
-	$grandmarker['PDFPI']		= (float)$grandtotal['PDFPI']-6047.12;
+	$grandmarker['PDFPA']		= $grandtotal['PDFPA']-264632;
+	$grandmarker['PDFPN']		= $grandtotal['PDFPN']-61076;
+	$grandmarker['PDFPI']		= (float)$grandtotal['PDFPI']-6047.72;
 	$grandmarker['PDF_PKDP']	= $grandtotal['PDF_PKDP']-169;
 	$grandmarker['PDF_PKNT']	= $grandtotal['PDF_PKNT']-94;
 	$grandmarker['PDF_PKJO']	= $grandtotal['PDF_PKJO']-16;
 	$grandmarker['PDF_PLUL']	= $grandtotal['PDF_PLUL']-533;
 	$grandmarker['PDF_PLNT']	= $grandtotal['PDF_PLNT']-217;
 	$grandmarker['PDF_PLHC']	= $grandtotal['PDF_PLHC']-264;
-	$grandmarker['PDF_PLJO']	= $grandtotal['PDF_PLJO']-100;
+	$grandmarker['PDF_PLJO']	= $grandtotal['PDF_PLJO']-101;
 	$grandmarker['PDF_PRTL']	= $grandtotal['PDF_PRTL']-385;
 	$grandmarker['TRANS']		= $grandtotal['TRANS']-479;
 	$grandtotal['LONG']		= ($grandtotal['LONG']		== 0 ? $grandtotal['LONG']		: "<span style='font-weight:bold; color:red;'>".$grandtotal['LONG']."</span>" );
@@ -4599,7 +4599,7 @@ function AION_LOOP_EPUB_UZIP($source, $destiny) {
 	AION_LOOP( array(
 		'function'	=> 'AION_LOOP_EPUB_UZIP_DOIT',
 		'source'	=> $source,
-		//'include'		=> "/Holy-Bible---.*(Aionian-Bible|Gods-Living-Word|Family-35-NT|LXX2012-U-S-English).*---Aionian-Edition\.epub$/",
+		//'include'		=> "/Holy-Bible---.*(Aionian-Bible|Arabic-Van-Dyck-Bible).*---Aionian-Edition\.epub$/",
 		//'include'		=> "/Holy-Bible---English---Aionian-Bible---Aionian-Edition\.epub$/",
 		'include'	=> "/\.epub$/",
 		'destiny'	=> $destiny,

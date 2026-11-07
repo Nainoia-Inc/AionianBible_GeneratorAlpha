@@ -38,7 +38,7 @@ document.onreadystatechange = function () {
 </head>
 <body>
 <div id="sidebar"><div id="tocView" class="view"></div></div>
-<div id="main">
+<div id="main" role="main">
 	<div id="titlebar">
 		<div id="opener"><a id="slider" class="icon-menu">Menu</a></div>
 		<div id="metainfo">

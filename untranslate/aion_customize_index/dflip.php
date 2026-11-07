@@ -16,15 +16,16 @@ $return = '/Bibles/'.$match[1];
 <head>
 <meta charset="utf-8">
 <title>Dearflip Flipbook at AionianBible.org<? echo $return; ?></title>
-<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <!-- Flipbook StyleSheet -->
 <link href="./dflip/css/dflip.min.css" rel="stylesheet" type="text/css">
 <!-- Icons Stylesheet -->
 <link href="./dflip/css/themify-icons.min.css" rel="stylesheet" type="text/css">
 <style>
 body {
-	font-family: 'Arial', 'sans-serif';
-	background-color: #E0D6EB;
+	font-family: 'Arial', sans-serif;
+	background-color: #EDE7F4;
+	color: #101010;
 	margin: 0;
 }
 h1 { font-size: 1.4rem;	text-align: center; }
@@ -36,7 +37,7 @@ div.df-ui-btn.df-ui-fullscreen {
 	background-color: #663399;
 }
 #page { width: 100%; }
-#head { width: 100%; max-width: 1280px; min-width: 360px; background-color: #E0D6EB; margin: 0 auto; }
+#head { width: 100%; max-width: 1280px; min-width: 360px; background-color: #EDE7F4; margin: 0 auto; }
 #head-hi { max-height: 42px; margin-top: 10px; padding: 2px 15px; border: 1px solid #663399; border-radius: 7px; background-color: #663399; overflow: hidden; }
 #logo1 { display: inline-block !important; float: left; }
 #menu { display: block; float: right; white-space: nowrap; margin-top: 7px; }
@@ -44,7 +45,7 @@ div.df-ui-btn.df-ui-fullscreen {
 #menu a:hover { color: #E0D6EB; }
 @media screen and (max-width: 1279px) {
 	#head-hi { margin-top: 0; }
-	#head-hi { border: none; border-bottom: 1px solid #9966CC; border-radius: 0; }
+	#head-hi { border: none; border-bottom: 1px solid #8250B4; border-radius: 0; }
 }
 #welcome { width: 100%;	text-align: center;	font-size: 1.25em; line-height: 1.4em; }
 #welcome h3 { margin-bottom: 10px; }
@@ -54,7 +55,7 @@ div.df-ui-btn.df-ui-fullscreen {
 <body>
 
 <div id="page">
-<div id="head">
+<div id="head" role="banner">
 <div id="head-hi">
 <div id="logo1"><a href="/" title="Aionian Bible homepage"><img src="/images/Holy-Bible-Aionian-Edition-PURPLE-LOGO.png" alt="Aionian Bible"></a></div>
 <div id="menu">
@@ -70,12 +71,12 @@ Click <span style='color: #663399;'>purple button</span> below for full screen.<
 </div>
 
 
-<div class="container">
+<div class="container" role="main">
 <div class="row">
 	<div class="col-xs-12">
 		<div class="col-xs-12" style="padding-bottom:30px">
 			<!--Normal FLipbook-->
-			<div class="_df_book" height="100%" webgl="true" backgroundcolor="#E0D6EB" source="<? echo $flipbook; ?>" id="df_manual_book">
+			<div class="_df_book" height="100%" webgl="true" backgroundcolor="#EDE7F4" source="<? echo $flipbook; ?>" id="df_manual_book">
 			</div>
 		</div>
 	</div>

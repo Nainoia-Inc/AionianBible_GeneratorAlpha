@@ -111,7 +111,7 @@ if (empty($_SERVER['QUERY_STRING']) &&
 			'fonts/notosans-basic-regular.woff2',
 		);
 		if (!empty($Font)) {
-			$files[] = "fonts/{$Font}.woff";
+			$files[] = "fonts/{$Font}.woff2";
 		}
 		$files = array_merge($files, array(
 			'images/favicon.ico',
@@ -287,7 +287,7 @@ echo <<< EOF
 <title>Holy Bible Aionian Edition® ~ PWA</title>
 <meta name="description" content="Holy Bible Aionian Edition® ~ The world's first Holy Bible untranslation! ~ Progressive Web Application">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="theme-color" content="#663399">
+<meta name="theme-color" content="#2B1A42">
 <meta name="generator" content="ABCMS™">
 <meta property="og:url" content="https://www.aionianbible.org/pwa">
 <meta property="og:type" content="website">
@@ -314,6 +314,7 @@ Licensed with <a href='https://creativecommons.org/licenses/by/4.0/' title='Lice
 <a href='https://www.AionianBible.org/Third-Party-Publisher-Resources' target='_blank'>Third Party Publisher resources here</a><br>
 <br>
 {$_Message}
+<div role='main'>
 <h1>Progressive Web Applications (PWA)</h1>
 Available off-line on smart devices.<br>
 <br>
@@ -328,5 +329,5 @@ foreach($files as $file) {
 	if ($_Message) {	echo "$bible<br>"; }
 	else {				echo "<a href='{$path}/{$matches[1]}/' target='_blank' class='bible'>$bible</a><br>"; }
 }
-echo "</body></html>";
+echo "</div></body></html>";
 exit;
