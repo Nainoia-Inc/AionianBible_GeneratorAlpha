@@ -1,26 +1,10 @@
 /* Ethiopic Plus */
 @font-face {
 	font-family:
-		'NotoSans';
-	src:
-		url('../fonts/notosans-basic-regular.woff2')	format('woff2'),
-		url('../fonts/notosans-basic-regular.woff')		format('woff'),
-		url('../fonts/notosans-basic-regular.ttf')		format('truetype');
-}
-@font-face {
-	font-family:
-		'GentiumPlus';
-	src:
-		url('../fonts/gentiumplus-r.woff2')	format('woff2'),
-		url('../fonts/gentiumplus-r.woff')	format('woff'),
-		url('../fonts/gentiumplus-r.ttf')	format('truetype');
-}
-@font-face {
-	font-family:
 		'font-ethiopic-plus';
 	src:
 		url('../fonts/abyssinicaSIL-regular-plus.woff2')	format('woff2'),
 		url('../fonts/abyssinicaSIL-regular-plus.woff')		format('woff'),
 		url('../fonts/abyssinicaSIL-regular-plus.ttf')		format('truetype');
 }
-span.font-ethiopic-plus { font-family: 'font-ethiopic-plus', 'NotoSans', 'Arial', sans-serif, 'GentiumPlus'; }
+.font-ethiopic-plus { font-family: 'font-ethiopic-plus', 'NotoSans', 'Arial', sans-serif, 'GentiumPlus'; }

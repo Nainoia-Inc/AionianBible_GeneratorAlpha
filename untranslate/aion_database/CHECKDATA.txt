@@ -1,6 +1,6 @@
 # File Name: CHECKDATA.txt
 # File Size: 10643041    
-# File Date: 11/1/2026 01:13:50
+# File Date: 11/6/2026 04:32:50
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution 4.0 International, 2018-2026
@@ -30953,7 +30953,7 @@ Holy-Bible---Romani-Vlax---Gurbet-Luke	Sour txt != Aio2	066-REV-013-001	066	REV	
 Holy-Bible---Romani-Vlax---Gurbet-Luke	Data checks: aionian=7957 standard=7957 source=7959						
 Holy-Bible---Romani-Vlax---Lovaric-Bible	Data checks: aionian=1666 standard=1666 source=1666						
 Holy-Bible---Romani-Vlax---Servi-Bible	Data checks: aionian=3817 standard=3817 source=3817						
-Holy-Bible---Romanian---Bayash-Luke	Data checks: aionian=1149 standard=1149 source=1151						
+Holy-Bible---Romanian---Bayash-Luke	Data checks: aionian=1150 standard=1150 source=1151						
 Holy-Bible---Romanian---Cyrillic	Aion txt != Sour	041-MAR-016-009	041	MAR	016	009	(note: The most reliable and earliest manuscripts do not include Mark 16:9-20.) (Исус, дупэ че а ынвият, ын диминяца зилей динтый а сэптэмыний, С-а арэтат май ынтый Марией Магдалена, дин каре скосесе шапте драчь.
 Holy-Bible---Romanian---Cyrillic	Aion txt != Sou2	041-MAR-016-009	041	MAR	016	009	(Исус, дупэ че а ынвият, ын диминяца зилей динтый а сэптэмыний, С-а арэтат май ынтый Марией Магдалена, дин каре скосесе шапте драчь.
 Holy-Bible---Romanian---Cyrillic	Aion txt != Stan	043-JOH-003-015	043	JOH	003	015	пентру ка орьчине креде ын Ел сэ ну пярэ, чи сэ айбэ вяцавешникэ. (aiōnios g166)

@@ -1,6 +1,6 @@
 # File Name: TALLY_HO.txt
 # File Size: 31580       
-# File Date: 11/1/2026 01:13:50
+# File Date: 11/6/2026 04:32:50
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution 4.0 International, 2018-2026
@@ -425,7 +425,7 @@ Holy-Bible---Romani-Vlax---Chergash-Luke	7957	7957	7959
 Holy-Bible---Romani-Vlax---Gurbet-Luke	7957	7957	7959
 Holy-Bible---Romani-Vlax---Lovaric-Bible	1666	1666	1666
 Holy-Bible---Romani-Vlax---Servi-Bible	3817	3817	3817
-Holy-Bible---Romanian---Bayash-Luke	1149	1149	1151
+Holy-Bible---Romanian---Bayash-Luke	1150	1150	1151
 Holy-Bible---Romanian---Cyrillic	31102	31102	31102
 Holy-Bible---Romanian---Free-Bible	7953	7953	7957
 Holy-Bible---Romanian---Ludari-Luke	1143	1143	1143

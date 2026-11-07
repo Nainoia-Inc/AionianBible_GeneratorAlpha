@@ -1,22 +1,3 @@
-/* Base Font */
-@font-face {
-	font-family:
-		'NotoSans';
-	src:
-		url('../fonts/notosans-basic-regular.woff2')	format('woff2'),
-		url('../fonts/notosans-basic-regular.woff')		format('woff'),
-		url('../fonts/notosans-basic-regular.ttf')		format('truetype');
-}
-/* GentiumPlus */
-@font-face {
-	font-family:
-		'GentiumPlus';
-	src:
-		url('../fonts/gentiumplus-r.woff2')	format('woff2'),
-		url('../fonts/gentiumplus-r.woff')	format('woff'),
-		url('../fonts/gentiumplus-r.ttf')	format('truetype');
-}
-
 /* Arabic */
 @font-face {
 	font-family:
@@ -26,7 +7,7 @@
 		url('../fonts/notonaskharabicui-regular.woff')		format('woff'),
 		url('../fonts/notonaskharabicui-regular.ttf')		format('truetype');
 }
-span.font-arabic { font-family: 'font-arabic', 'NotoSans', 'Arial', sans-serif, 'GentiumPlus'; }
+.font-arabic { font-family: 'font-arabic', 'NotoSans', 'Arial', sans-serif, 'GentiumPlus'; }
 
 /* Aramaic */
 @font-face {
@@ -37,7 +18,7 @@ span.font-arabic { font-family: 'font-arabic', 'NotoSans', 'Arial', sans-serif, 
 		url('../fonts/estrangelo_edessa.woff')		format('woff'),
 		url('../fonts/estrangelo_edessa.ttf')		format('truetype');
 }
-span.font-aramaic { font-family: 'font-aramaic', 'NotoSans', 'Arial', sans-serif, 'GentiumPlus'; }
+.font-aramaic { font-family: 'font-aramaic', 'NotoSans', 'Arial', sans-serif, 'GentiumPlus'; }
 
 /* Armenian */
 @font-face {
@@ -48,7 +29,7 @@ span.font-aramaic { font-family: 'font-aramaic', 'NotoSans', 'Arial', sans-serif
 		url('../fonts/arnamu_serif.woff')	format('woff'),
 		url('../fonts/arnamu_serif.ttf')	format('truetype');
 }
-span.font-armenian { font-family: 'font-armenian', 'NotoSans', 'Arial', sans-serif, 'GentiumPlus'; }
+.font-armenian { font-family: 'font-armenian', 'NotoSans', 'Arial', sans-serif, 'GentiumPlus'; }
 
 /* BabelStoneHan */
 @font-face {
@@ -59,7 +40,7 @@ span.font-armenian { font-family: 'font-armenian', 'NotoSans', 'Arial', sans-ser
 		url('../fonts/babelstonehan.woff')		format('woff'),
 		url('../fonts/babelstonehan.ttf')		format('truetype');
 }
-span.font-babelstonehan { font-family: 'font-babelstonehan', 'NotoSans', 'Arial', sans-serif, 'GentiumPlus'; }
+.font-babelstonehan { font-family: 'font-babelstonehan', 'NotoSans', 'Arial', sans-serif, 'GentiumPlus'; }
 
 /* Bengali */
 @font-face {
@@ -70,7 +51,7 @@ span.font-babelstonehan { font-family: 'font-babelstonehan', 'NotoSans', 'Arial'
 		url('../fonts/solaimanlipi.woff')	format('woff'),
 		url('../fonts/solaimanlipi.ttf')	format('truetype');
 }
-span.font-bengali { font-family: 'font-bengali', 'NotoSans', 'Arial', sans-serif, 'GentiumPlus'; }
+.font-bengali { font-family: 'font-bengali', 'NotoSans', 'Arial', sans-serif, 'GentiumPlus'; }
 
 /* Cherokee */
 @font-face {
@@ -81,7 +62,7 @@ span.font-bengali { font-family: 'font-bengali', 'NotoSans', 'Arial', sans-serif
 		url('../fonts/donisiladv.woff')	format('woff'),
 		url('../fonts/donisiladv.ttf')		format('truetype');
 }
-span.font-cherokee { font-family: 'font-cherokee', 'NotoSans', 'Arial', sans-serif, 'GentiumPlus'; }
+.font-cherokee { font-family: 'font-cherokee', 'NotoSans', 'Arial', sans-serif, 'GentiumPlus'; }
 
 /* Coptic */
 @font-face {
@@ -92,7 +73,7 @@ span.font-cherokee { font-family: 'font-cherokee', 'NotoSans', 'Arial', sans-ser
 		url('../fonts/newathu5_5.woff')	format('woff'),
 		url('../fonts/newathu5_5.ttf')		format('truetype');
 }
-span.font-coptic { font-family: 'font-coptic', 'NotoSans', 'Arial', sans-serif, 'GentiumPlus'; }
+.font-coptic { font-family: 'font-coptic', 'NotoSans', 'Arial', sans-serif, 'GentiumPlus'; }
 
 /* Devanagari */
 @font-face {
@@ -103,7 +84,7 @@ span.font-coptic { font-family: 'font-coptic', 'NotoSans', 'Arial', sans-serif, 
 		url('../fonts/notoserifdevanagari-regular.woff')	format('woff'),
 		url('../fonts/notoserifdevanagari-regular.ttf')	format('truetype');
 }
-span.font-devanagari { font-family: 'font-devanagari', 'NotoSans', 'Arial', sans-serif, 'GentiumPlus'; }
+.font-devanagari { font-family: 'font-devanagari', 'NotoSans', 'Arial', sans-serif, 'GentiumPlus'; }
 
 /* Ethiopic */
 @font-face {
@@ -114,7 +95,7 @@ span.font-devanagari { font-family: 'font-devanagari', 'NotoSans', 'Arial', sans
 		url('../fonts/noto-ethiopic-serif-regular.woff')	format('woff'),
 		url('../fonts/noto-ethiopic-serif-regular.ttf')		format('truetype');
 }
-span.font-ethiopic { font-family: 'font-ethiopic', 'NotoSans', 'Arial', sans-serif, 'GentiumPlus'; }
+.font-ethiopic { font-family: 'font-ethiopic', 'NotoSans', 'Arial', sans-serif, 'GentiumPlus'; }
 
 /* Ethiopic Plus */
 @font-face {
@@ -125,7 +106,7 @@ span.font-ethiopic { font-family: 'font-ethiopic', 'NotoSans', 'Arial', sans-ser
 		url('../fonts/abyssinicaSIL-regular-plus.woff')		format('woff'),
 		url('../fonts/abyssinicaSIL-regular-plus.ttf')		format('truetype');
 }
-span.font-ethiopic-plus { font-family: 'font-ethiopic-plus', 'NotoSans', 'Arial', sans-serif, 'GentiumPlus'; }
+.font-ethiopic-plus { font-family: 'font-ethiopic-plus', 'NotoSans', 'Arial', sans-serif, 'GentiumPlus'; }
 
 /* Hebrew */
 @font-face {
@@ -136,7 +117,7 @@ span.font-ethiopic-plus { font-family: 'font-ethiopic-plus', 'NotoSans', 'Arial'
 		url('../fonts/ezra_sil.woff')	format('woff'),
 		url('../fonts/ezra_sil.ttf')	format('truetype');
 }
-span.font-ezra { font-family: 'font-ezra', 'NotoSans', 'Arial', sans-serif, 'GentiumPlus'; }
+.font-ezra { font-family: 'font-ezra', 'NotoSans', 'Arial', sans-serif, 'GentiumPlus'; }
 @font-face {
 	font-family:
 		'font-ezra2';
@@ -145,7 +126,7 @@ span.font-ezra { font-family: 'font-ezra', 'NotoSans', 'Arial', sans-serif, 'Gen
 		url('../fonts/ezra_sil.woff')	format('woff'),
 		url('../fonts/ezra_sil.ttf')	format('truetype');
 }
-span.font-ezra2 { font-family: 'NotoSans', 'font-ezra2', 'Arial', sans-serif, 'GentiumPlus'; }
+.font-ezra2 { font-family: 'NotoSans', 'font-ezra2', 'Arial', sans-serif, 'GentiumPlus'; }
 
 /* Gujarati */
 @font-face {
@@ -156,7 +137,7 @@ span.font-ezra2 { font-family: 'NotoSans', 'font-ezra2', 'Arial', sans-serif, 'G
 		url('../fonts/notoserifgujarati-regular.woff')		format('woff'),
 		url('../fonts/notoserifgujarati-regular.ttf')		format('truetype');
 }
-span.font-gujarati { font-family: 'font-gujarati', 'NotoSans', 'Arial', sans-serif, 'GentiumPlus'; }
+.font-gujarati { font-family: 'font-gujarati', 'NotoSans', 'Arial', sans-serif, 'GentiumPlus'; }
 
 /* Hindi */
 @font-face {
@@ -167,7 +148,7 @@ span.font-gujarati { font-family: 'font-gujarati', 'NotoSans', 'Arial', sans-ser
 		url('../fonts/akshar_unicode.woff')	format('woff'),
 		url('../fonts/akshar_unicode.ttf')		format('truetype');
 }
-span.font-hindi { font-family: 'font-hindi', 'NotoSans', 'Arial', sans-serif, 'GentiumPlus'; }
+.font-hindi { font-family: 'font-hindi', 'NotoSans', 'Arial', sans-serif, 'GentiumPlus'; }
 
 /* Kannada */
 @font-face {
@@ -178,7 +159,7 @@ span.font-hindi { font-family: 'font-hindi', 'NotoSans', 'Arial', sans-serif, 'G
 		url('../fonts/notoserifkannada-regular.woff')	format('woff'),
 		url('../fonts/notoserifkannada-regular.ttf')	format('truetype');
 }
-span.font-kannada { font-family: 'font-kannada', 'NotoSans', 'Arial', sans-serif, 'GentiumPlus'; }
+.font-kannada { font-family: 'font-kannada', 'NotoSans', 'Arial', sans-serif, 'GentiumPlus'; }
 
 /* Sanskrit Khmer */
 @font-face {
@@ -189,7 +170,7 @@ span.font-kannada { font-family: 'font-kannada', 'NotoSans', 'Arial', sans-serif
 		url('../fonts/busra.woff')	format('woff'),
 		url('../fonts/busra.ttf')	format('truetype');
 }
-span.font-khmer { font-family: 'font-khmer', 'NotoSans', 'Arial', sans-serif, 'GentiumPlus'; }
+.font-khmer { font-family: 'font-khmer', 'NotoSans', 'Arial', sans-serif, 'GentiumPlus'; }
 
 /* Korean */
 @font-face {
@@ -200,7 +181,7 @@ span.font-khmer { font-family: 'font-khmer', 'NotoSans', 'Arial', sans-serif, 'G
 		url('../fonts/unbatang.woff')	format('woff'),
 		url('../fonts/unbatang.ttf')	format('truetype');
 }
-span.font-korean { font-family: 'font-korean', 'NotoSans', 'Arial', sans-serif, 'GentiumPlus'; }
+.font-korean { font-family: 'font-korean', 'NotoSans', 'Arial', sans-serif, 'GentiumPlus'; }
 
 /* Malayalam */
 @font-face {
@@ -211,7 +192,7 @@ span.font-korean { font-family: 'font-korean', 'NotoSans', 'Arial', sans-serif, 
 		url('../fonts/notoserifmalayalam-regular.woff')	format('woff'),
 		url('../fonts/notoserifmalayalam-regular.ttf')		format('truetype');
 }
-span.font-malayalam { font-family: 'font-malayalam', 'NotoSans', 'Arial', sans-serif, 'GentiumPlus'; }
+.font-malayalam { font-family: 'font-malayalam', 'NotoSans', 'Arial', sans-serif, 'GentiumPlus'; }
 
 /* Myanmar */
 @font-face {
@@ -222,7 +203,7 @@ span.font-malayalam { font-family: 'font-malayalam', 'NotoSans', 'Arial', sans-s
 		url('../fonts/padauk-regular.woff')		format('woff'),
 		url('../fonts/padauk-regular.ttf')		format('truetype');
 }
-span.font-myanmar { font-family: 'font-myanmar', 'NotoSans', 'Arial', sans-serif, 'GentiumPlus'; }
+.font-myanmar { font-family: 'font-myanmar', 'NotoSans', 'Arial', sans-serif, 'GentiumPlus'; }
 @font-face {
 	font-family:
 		'font-myanmar-google';
@@ -231,8 +212,8 @@ span.font-myanmar { font-family: 'font-myanmar', 'NotoSans', 'Arial', sans-serif
 		url('../fonts/notosansmyanmar-regular.woff')		format('woff'),
 		url('../fonts/notosansmyanmar-regular.ttf')		format('truetype');
 }
-span.font-myanmar-google { font-family: 'font-myanmar-google', 'NotoSans', 'Arial', sans-serif, 'GentiumPlus'; }
-span.font-myanmar-microsoft { font-family: 'NotoSans', 'Arial', sans-serif, 'GentiumPlus'; }
+.font-myanmar-google { font-family: 'font-myanmar-google', 'NotoSans', 'Arial', sans-serif, 'GentiumPlus'; }
+.font-myanmar-microsoft { font-family: 'NotoSans', 'Arial', sans-serif, 'GentiumPlus'; }
 
 /* Oriya */
 @font-face {
@@ -243,7 +224,7 @@ span.font-myanmar-microsoft { font-family: 'NotoSans', 'Arial', sans-serif, 'Gen
 		url('../fonts/notosansoriyaui-regular.woff')	format('woff'),
 		url('../fonts/notosansoriyaui-regular.ttf')	format('truetype');
 }
-span.font-oriya { font-family: 'font-oriya', 'NotoSans', 'Arial', sans-serif, 'GentiumPlus'; }
+.font-oriya { font-family: 'font-oriya', 'NotoSans', 'Arial', sans-serif, 'GentiumPlus'; }
 
 /* Panjabi */
 @font-face {
@@ -254,7 +235,7 @@ span.font-oriya { font-family: 'font-oriya', 'NotoSans', 'Arial', sans-serif, 'G
 		url('../fonts/notosansgurmukhiui-regular.woff')	format('woff'),
 		url('../fonts/notosansgurmukhiui-regular.ttf')		format('truetype');
 }
-span.font-panjabi { font-family: 'font-panjabi', 'NotoSans', 'Arial', sans-serif, 'GentiumPlus'; }
+.font-panjabi { font-family: 'font-panjabi', 'NotoSans', 'Arial', sans-serif, 'GentiumPlus'; }
 
 /* Persion */
 @font-face {
@@ -265,7 +246,7 @@ span.font-panjabi { font-family: 'font-panjabi', 'NotoSans', 'Arial', sans-serif
 		url('../fonts/notonaskharabicui-regular.woff')		format('woff'),
 		url('../fonts/notonaskharabicui-regular.ttf')		format('truetype');
 }
-span.font-persian { font-family: 'font-persian', 'NotoSans', 'Arial', sans-serif, 'GentiumPlus'; }
+.font-persian { font-family: 'font-persian', 'NotoSans', 'Arial', sans-serif, 'GentiumPlus'; }
 
 /* Sanskrit Sinhala */
 @font-face {
@@ -276,7 +257,7 @@ span.font-persian { font-family: 'font-persian', 'NotoSans', 'Arial', sans-serif
 		url('../fonts/abhayalibre.woff')	format('woff'),
 		url('../fonts/abhayalibre.ttf')		format('truetype');
 }
-span.font-sinhala { font-family: 'font-sinhala', 'NotoSans', 'Arial', sans-serif, 'GentiumPlus'; }
+.font-sinhala { font-family: 'font-sinhala', 'NotoSans', 'Arial', sans-serif, 'GentiumPlus'; }
 
 /* Sanskrit Tamil */
 @font-face {
@@ -287,7 +268,7 @@ span.font-sinhala { font-family: 'font-sinhala', 'NotoSans', 'Arial', sans-serif
 		url('../fonts/notoseriftamil-semicondensed.woff')	format('woff'),
 		url('../fonts/notoseriftamil-semicondensed.ttf')	format('truetype');
 }
-span.font-tamil { font-family: 'font-tamil', 'NotoSans', 'Arial', sans-serif, 'GentiumPlus'; }
+.font-tamil { font-family: 'font-tamil', 'NotoSans', 'Arial', sans-serif, 'GentiumPlus'; }
 
 /* Sanskrit Telugu */
 @font-face {
@@ -298,7 +279,7 @@ span.font-tamil { font-family: 'font-tamil', 'NotoSans', 'Arial', sans-serif, 'G
 		url('../fonts/notoseriftelugu-regular.woff')	format('woff'),
 		url('../fonts/notoseriftelugu-regular.ttf')		format('truetype');
 }
-span.font-telugu { font-family: 'font-telugu', 'NotoSans', 'Arial', sans-serif, 'GentiumPlus'; }
+.font-telugu { font-family: 'font-telugu', 'NotoSans', 'Arial', sans-serif, 'GentiumPlus'; }
 
 /* Sanskrit Thai */
 @font-face {
@@ -309,7 +290,7 @@ span.font-telugu { font-family: 'font-telugu', 'NotoSans', 'Arial', sans-serif, 
 		url('../fonts/notoserifthai_semicondensed.woff')	format('woff'),
 		url('../fonts/notoserifthai_semicondensed.ttf')		format('truetype');
 }
-span.font-thai { font-family: 'font-thai', 'NotoSans', 'Arial', sans-serif, 'GentiumPlus'; }
+.font-thai { font-family: 'font-thai', 'NotoSans', 'Arial', sans-serif, 'GentiumPlus'; }
 
 /* Sanskrit Tibetan */
 @font-face {
@@ -320,4 +301,4 @@ span.font-thai { font-family: 'font-thai', 'NotoSans', 'Arial', sans-serif, 'Gen
 		url('../fonts/notoseriftibetan.woff')	format('woff'),
 		url('../fonts/notoseriftibetan.ttf')	format('truetype');
 }
-span.font-tibetan { font-family: 'font-tibetan', 'NotoSans', 'Arial', sans-serif, 'GentiumPlus'; }
+.font-tibetan { font-family: 'font-tibetan', 'NotoSans', 'Arial', sans-serif, 'GentiumPlus'; }

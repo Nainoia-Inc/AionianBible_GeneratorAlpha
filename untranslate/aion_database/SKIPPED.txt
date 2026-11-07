@@ -1,6 +1,6 @@
 # File Name: SKIPPED.txt
-# File Size: 1879969     
-# File Date: 11/1/2026 00:05:45
+# File Size: 1879916     
+# File Date: 11/6/2026 02:24:49
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution 4.0 International, 2018-2026
@@ -12332,8 +12332,7 @@ Holy-Bible---Romani-Vlax---Chergash-Luke	064	3JO	001	014	Nego nadiv man kaj sigo
 Holy-Bible---Romani-Vlax---Chergash-Luke	066	REV	012	018	Thaj e Aždaja ačhili pe obala e morešći.
 Holy-Bible---Romani-Vlax---Gurbet-Luke	064	3JO	001	014	al nadima kaj sigate ka dikhav tut thaj muj mujesa te vaćara.
 Holy-Bible---Romani-Vlax---Gurbet-Luke	066	REV	012	018	Tegani i Aždaja ačhili ki obala e moresi.
-Holy-Bible---Romanian---Bayash-Luke	042	LUK	017	036	
-Holy-Bible---Romanian---Bayash-Luke	042	LUK	023	017	
+Holy-Bible---Romanian---Bayash-Luke	042	LUK	005	030	
 Holy-Bible---Romanian---Free-Bible	042	LUK	017	036	
 Holy-Bible---Romanian---Free-Bible	044	ACT	008	037	
 Holy-Bible---Romanian---Free-Bible	044	ACT	015	034	

@@ -1,29 +1,13 @@
 /* Myanmar */
 @font-face {
 	font-family:
-		'NotoSans';
-	src:
-		url('../fonts/notosans-basic-regular.woff2')	format('woff2'),
-		url('../fonts/notosans-basic-regular.woff')		format('woff'),
-		url('../fonts/notosans-basic-regular.ttf')		format('truetype');
-}
-@font-face {
-	font-family:
-		'GentiumPlus';
-	src:
-		url('../fonts/gentiumplus-r.woff2')	format('woff2'),
-		url('../fonts/gentiumplus-r.woff')	format('woff'),
-		url('../fonts/gentiumplus-r.ttf')	format('truetype');
-}
-@font-face {
-	font-family:
 		'font-myanmar';
 	src:
 		url('../fonts/padauk-regular.woff2')	format('woff2'),
 		url('../fonts/padauk-regular.woff')		format('woff'),
 		url('../fonts/padauk-regular.ttf')		format('truetype');
 }
-span.font-myanmar { font-family: 'font-myanmar', 'NotoSans', 'Arial', sans-serif, 'GentiumPlus'; }
+.font-myanmar { font-family: 'font-myanmar', 'NotoSans', 'Arial', sans-serif, 'GentiumPlus'; }
 
 
 @font-face {
@@ -34,7 +18,7 @@ span.font-myanmar { font-family: 'font-myanmar', 'NotoSans', 'Arial', sans-serif
 		url('../fonts/notosansmyanmar-regular.woff')		format('woff'),
 		url('../fonts/notosansmyanmar-regular.ttf')		format('truetype');
 }
-span.font-myanmar-google { font-family: 'font-myanmar-google', 'NotoSans', 'Arial', sans-serif, 'GentiumPlus'; }
+.font-myanmar-google { font-family: 'font-myanmar-google', 'NotoSans', 'Arial', sans-serif, 'GentiumPlus'; }
 
 
-span.font-myanmar-microsoft { font-family: 'NotoSans', 'Arial', sans-serif, 'GentiumPlus'; }
+.font-myanmar-microsoft { font-family: 'NotoSans', 'Arial', sans-serif, 'GentiumPlus'; }

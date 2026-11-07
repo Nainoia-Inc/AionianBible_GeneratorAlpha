@@ -1,6 +1,6 @@
 # File Name: IVERSE.txt
-# File Size: 1249301     
-# File Date: 11/1/2026 01:27:19
+# File Size: 1249262     
+# File Date: 11/6/2026 04:46:48
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution 4.0 International, 2018-2026
@@ -3724,7 +3724,7 @@ Holy-Bible---Romani-Vlax---Servi-Bible	ROM-001-001
 Holy-Bible---Romani-Vlax---Servi-Bible	MAT-028-019		
 Holy-Bible---Romanian---Bayash-Luke	JOH-003-016		
 Holy-Bible---Romanian---Bayash-Luke	GEN-003-024		
-Holy-Bible---Romanian---Bayash-Luke	LUK-023-034	Luka 23:34	Šă Isus u zăs: “Tata Dimizovu amnjov, jartălji kă jej nu šćijă šje fašji.” Šă vojnici ur skos kockă să să ămperci dăm coljilje aluj ăntri jej.
+Holy-Bible---Romanian---Bayash-Luke	LUK-023-034	Luka 23:34	Atunča Isus a zăs: “Tată, jartăle kă nu štije će fače! Da jej a vărlit kockă kum ar pudili drzili lor ăntru jej.
 Holy-Bible---Romanian---Bayash-Luke	REV-021-002		 
 Holy-Bible---Romanian---Bayash-Luke	HEB-011-008		
 Holy-Bible---Romanian---Bayash-Luke	EXO-013-017		
