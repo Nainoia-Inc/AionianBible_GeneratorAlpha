@@ -1,6 +1,6 @@
 # File Name: UNTRANSLATEMODULE.txt
-# File Size: 54221768    
-# File Date: 11/6/2026 04:20:13
+# File Size: 54221843    
+# File Date: 11/11/2026 00:28:53
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution 4.0 International, 2018-2026
@@ -14831,9 +14831,9 @@ Holy-Bible---Chin-Thado---Chongthu-Bible	MISSING,	019	PSA	016	010	SHEOL		Ajeh ch
 Holy-Bible---Chin-Thado---Chongthu-Bible	MISSING,	019	PSA	018	005	SHEOL		Damun lungkhamna chun eium kimvel'in; ka lampi a thinan thang akam e. (Sheol h7585)	The sorrows of hell compassed me about: the snares of death prevented me.
 Holy-Bible---Chin-Thado---Chongthu-Bible	MISSING,	019	PSA	030	003	SHEOL		O Pakai, nangin lhankhuh a kon'in neihin puidoh e. Thina kokhuh a ka lhahlutna dinga kon'in jong nei hoidoh sah e. (Sheol h7585)	O LORD, thou hast brought up my soul from the grave: thou hast kept me alive, that I should not go down to the pit.
 Holy-Bible---Chin-Thado---Chongthu-Bible	MISSING,	019	PSA	031	017	SHEOL		O Pakai, nei jumso hihbeh in, ajeh chu panpi ngaichan nangma kakou jinge. Miphalou ho chu jumsah jon; amaho chu alhankhuh uvah thipsan sahtan. (Sheol h7585)	Let me not be ashamed, O LORD; for I have called upon thee: let the wicked be ashamed, [and] let them be silent in the grave.
-Holy-Bible---Chin-Thado---Chongthu-Bible	MISSING,	019	PSA	049	014	SHEOL		Kelngoiho bang'a lhanmun lhung thou thou di'u thina chu akelngoi chingpa'u hi ding, anei agouhou a kon'a gamla tah a lhanmun khat a monlha thou thou diu ahi. (Sheol h7585)	Like sheep they are laid in the grave; death shall feed on them; and the upright shall have dominion over them in the morning; and their beauty shall consume in the grave from their dwelling.
-Holy-Bible---Chin-Thado---Chongthu-Bible	MISSING,	019	PSA	049	015	SHEOL		Ahin keivang Pathen'in kahinkho eilhatdoh peh in tin, Aman lhanmun'a kon'in eihuhdoh nante. (Sheol h7585)	But God will redeem my soul from the power of the grave: for he shall receive me. (Selah)
-Holy-Bible---Chin-Thado---Chongthu-Bible	MISSING,	019	PSA	055	015	SHEOL		Ka dougalte hi thina'n lhunkhum hen, lhankhuh in ahing'in vallhum jeng'u hen, ajeh chu setna'n alungsung'u chen nan aneitan ahi. (Sheol h7585)	Let death seize upon them, [and] let them go down quick into hell: for wickedness [is] in their dwellings, [and] among them.
+Holy-Bible---Chin-Thado---Chongthu-Bible	MISSING,	019	PSA	049	014	SHEOL		Kelngoi ho bang'a, lhanmun lhung thou-thou diu, thina chu akelngoi chingpau hi ding ahi. Jingkah teng Pathen mitah hon achung uva vai ahop diu ahi. Anei agou hou a kon'a gamla tah a, lhanmun khat a monlha thou-thou diu ahi. (Sheol h7585)	Like sheep they are laid in the grave; death shall feed on them; and the upright shall have dominion over them in the morning; and their beauty shall consume in the grave from their dwelling.
+Holy-Bible---Chin-Thado---Chongthu-Bible	MISSING,	019	PSA	049	015	SHEOL		Ahin keivang, Pathen'in kahinkho eilhatdoh peh ding ahi. Aman lhanmun'a kon'in eihuhdoh nante. (Selah) (Sheol h7585)	But God will redeem my soul from the power of the grave: for he shall receive me. (Selah)
+Holy-Bible---Chin-Thado---Chongthu-Bible	MISSING,	019	PSA	055	015	SHEOL		Ka dougal te hi thinan lhunkhum hen; lhankhuh in ahing'in vallhum jeng uhen, ajeh chu setnan alungsungu chennan anei tan ahi. (Sheol h7585)	Let death seize upon them, [and] let them go down quick into hell: for wickedness [is] in their dwellings, [and] among them.
 Holy-Bible---Chin-Thado---Chongthu-Bible	MISSING,	019	PSA	086	013	SHEOL		Ajeh chu nei ngailutna hi akidange. Nangman thina kulkhuh a kon'in nei huhdoh tai (Sheol h7585)	For great [is] thy mercy toward me: and thou hast delivered my soul from the lowest hell.
 Holy-Bible---Chin-Thado---Chongthu-Bible	MISSING,	019	PSA	088	003	SHEOL		Ajeh chu kahin kho hi boina adim in, thinan eikainai chehcheh e. (Sheol h7585)	For my soul is full of troubles: and my life draweth nigh unto the grave.
 Holy-Bible---Chin-Thado---Chongthu-Bible	MISSING,	019	PSA	089	048	SHEOL		Mihing koihi athi theilou ding um'am? Mihem koipen ham lhan a kon a ahoidohthei dingah? (Sheol h7585)	What man [is he that] liveth, and shall not see death?  shall he deliver his soul from the hand of the grave? (Selah)
