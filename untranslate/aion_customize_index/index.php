@@ -26,6 +26,7 @@ else if ($_pathl=='bible-cover') {						$_meta = " ~ Aionian Bible Branded Leath
 else if ($_pathl=='privacy') {							$_meta = " ~ Privacy Policy";								abcms_page('docs/privacy.htm'); }
 else if ($_pathl=='apple-ios-app') {					$_meta = " ~ Apple iOS App";								abcms_page('docs/appleiosapp.htm'); }
 else if ($_pathl=='third-party-publisher-resources') {	$_meta = " ~ Third Party Publisher Resources";				abcms_page('docs/third-party-publisher-resources.htm'); }
+else if ($_pathl=='accessibility') {					$_meta = " ~ Accessibility Statement";						abcms_page('docs/accessibility.htm'); }
 else if (strpos($_Path, 'Debug')===0) {					$_meta = " ~ Debug";										abcms_debug(); }
 else if ($_pathl=='country') {							echo "COUNTRY: ".(empty($_SERVER["HTTP_CF_IPCOUNTRY"]) ? "UNKNOWN" : $_SERVER["HTTP_CF_IPCOUNTRY"]); exit; }
 else if (!preg_match('/^[a-zA-Z0-9\-\/]+$/',$_Path)) {																abcms_notf(); }
@@ -90,7 +91,7 @@ $modified = date("n/j/Y", filemtime("./index.php"));
 The world's first Holy Bible <u>untranslation</u><br>
 Two hundred ninety-two languages<br>
 Five hundred forty-four versions<br>
-9,719,078 Scripture verses<br>
+9,719,079 Scripture verses<br>
 100% free to copy &amp; print<br>
 Anonymous on TOR<br>
 Updated <? echo $modified; ?><br>
@@ -102,7 +103,7 @@ Also known as 'The Purple Bible'
 </div>
 </div>
 </div>
-<div id='icon' class='no-arrow'>
+<div id='icon' class='no-arrow' role='navigation' aria-label='Social'>
 <a href='/Facebook'		target='_blank' title='Facebook/AionianBible'>	<img src='/images/Aionian-Bible-Facebook.png' alt='Facebook' title='Aionian Bible on Facebook'></a>
 <a href='/X'			target='_blank' title='X/AionianBible Twitter'>	<img src='/images/Aionian-Bible-X.png' alt='X/Twitter' title='Aionian Bible on X/Twitter'></a>
 <a href='/LinkedIn'		target='_blank' title='LinkedIn/AionianBible'>	<img src='/images/Aionian-Bible-LinkedIn.png' alt='LinkedIn' title='Aionian Bible on LinkedIn'></a>
@@ -204,7 +205,7 @@ if (empty($_SERVER['HTTPS']) || $_SERVER['HTTPS'] != 'on' || (int)$_SERVER['SERV
 if ($_pnum===2 && $_SERVER['REQUEST_METHOD']!='POST') { abcms_bomb("/Publisher","Invalid URL Requested for Publisher form"); }
 session_start();
 $gotall = (!empty($_POST['name']) && !empty($_POST['email']) && !empty($_POST['subject']) && !empty($_POST['message']) && !empty($_POST['submit']) ? TRUE : FALSE);
-$captcha_pass = (empty($_POST['captcha']) && !empty($_POST['company']) && !empty($_SESSION['captcha2']) && !empty($_SESSION['captcha3']) && strtolower($_POST['company'])=='replace asteriks with captcha ['.$_SESSION['captcha2'].$_SESSION['captcha3'].']' ? TRUE : FALSE);
+$captcha_pass = (empty($_POST['captcha']) && !empty($_POST['company']) && !empty($_SESSION['captcha2']) && !empty($_SESSION['captcha3']) && strtolower(trim($_POST['company']))==$_SESSION['captcha2'].$_SESSION['captcha3'] ? TRUE : FALSE);
 if($gotall && $captcha_pass) {
 	// START
 	abcms_html();
@@ -259,7 +260,7 @@ else {
 	$val_message = (empty($_POST['message']) || $val_subject=='AB-CUSTOM-VERSES' ? '' : aion_strip($_POST['message']));
 	if (empty($status) && $_SERVER['REQUEST_METHOD']=='POST') {
 		if (!$gotall) {				$status = '( please submit with all fields completed )<br><br>'; }
-		else if (!$captcha_pass) {	$status = '( please replace asteriks with Captcha [******] )<br><br>'; }
+		else if (!$captcha_pass) {	$status = '( please submit correct CAPTCHA )<br><br>'; }
 	}
 	echo "$nainoia Please contact us below<br><span class='form-status'>$status</span>";	
 ?>
@@ -269,9 +270,10 @@ else {
 <input type='email' name='email' placeholder='Email' aria-label='Email' autocomplete='email' value='<? echo $val_email;?>'>
 <input type='text' name='subject' placeholder='Subject' aria-label='Subject' value='<? echo $val_subject;?>'>
 <textarea name='message' rows='15' placeholder='Comment or question, 1000 character maximum' aria-label='Comment or question, 1000 character maximum' maxlength='1000'><? echo $val_message;?></textarea>
-<input type='text' name='company' value='Replace asterisks with Captcha image [******]' aria-label='Replace asterisks with Captcha image' autocomplete='off'>
-<input type='text' name='captcha' id='captcha' placeholder='Enter Captcha'>
-<div class='captcha'><img src='/CAPTCHA/<?php echo mb_rand('l'); ?>' alt='Captcha' title='Captcha' id='lcaptcha_image'><img src='/CAPTCHA/<?php echo mb_rand('2'); ?>' alt='Captcha' title='Captcha' id='2captcha_image'><img src='/CAPTCHA/<?php echo mb_rand('3'); ?>' alt='Captcha' title='Captcha' id='3captcha_image'> <a href='javascript: AionianBible_RefreshCaptcha();'>Refresh Captcha</a></div>
+<input type='text' name='company' placeholder='Enter CAPTCHA image characters' aria-label='Enter CAPTCHA image characters' autocomplete='off'>
+<input type='text' name='captcha' id='captcha'>
+Can’t read this CAPTCHA? Call or write to us at the phone number and address above.<br>
+<div class='captcha'><img src='/CAPTCHA/<?php echo mb_rand('l'); ?>' alt='Captcha' title='Captcha' id='lcaptcha_image'><img src='/CAPTCHA/<?php echo mb_rand('2'); ?>' alt='Can’t read this CAPTCHA? Call or write to us at the phone number and address above.' title='Captcha' id='2captcha_image'><img src='/CAPTCHA/<?php echo mb_rand('3'); ?>' alt='Captcha' title='Captcha' id='3captcha_image'> <a href='javascript: AionianBible_RefreshCaptcha();'>Refresh Captcha</a></div>
 <input type='submit' name='submit' value='Submit'>
 </form>
 <?
@@ -728,7 +730,7 @@ if (!is_array(($bible_AIONIAN = json_decode(file_get_contents('./library/Holy-Bi
 abcms_html(TRUE,'class=word-toc');
 abcms_head(abcms_word_tocs_menu($testament, $tocmenu));
 /* Books and chapters */
-echo "<div id='word'><div id='word-search'><div class='word-test'>".$_BibleONE['T_VERSIONS']['NAMEENGLISH']."<br>$testament</div>\n";
+echo "<div id='word'><div id='word-search'><div class='word-test'><h1>".$_BibleONE['T_VERSIONS']['NAMEENGLISH']."<br>$testament</h1></div>\n";
 foreach( $_BibleONE['T_BOOKS'] as $bookkey => $bookname ) {
 	if (empty($bookname) || ('Old Testament'==$testament && (int)$_BibleBOOKS[$bookkey]['NUMBER']>=40) || ('New Testament'==$testament && (int)$_BibleBOOKS[$bookkey]['NUMBER']<=39)) { continue; }
 	$bookname_foreign = ( $bookname==$_BibleBOOKS[$bookkey]['ENGLISH'] ? '' : '<br>'.$_BibleONE_Lang."'>".$bookname.'</span>' );
@@ -736,11 +738,10 @@ foreach( $_BibleONE['T_BOOKS'] as $bookkey => $bookname ) {
 	echo "\n<div class='word-book'><a href='$path_chapter'>".$_BibleBOOKS[$bookkey]['ENGLISH'].$bookname_foreign."</a></div>";
 	echo "<div class='word-chapter'>";
 	for( $chapter=1; $chapter<=$_BibleBOOKS[$bookkey]['CHAPTERS']; ++$chapter ) {
-		$stripe=($chapter%2==0) ? 'even' : 'odd';
 		$selected = empty($bible_AIONIAN[$_BibleBOOKS[$bookkey]['ENGLISH'].' '.(int)$chapter]) ? '' : 'selected';
 		$strongs = abcms_word_tocs_stro($_stidC,$bookkey,$chapter) ? 'strongs' : '';
 		$path_chapter = abcms_href("/Bibles/$_Part[1]/$bookkey/$chapter",FALSE,TRUE,TRUE);
-		echo "<a href='$path_chapter' class='$stripe $selected $strongs' title='View chapter'>".$chapter."</a>";
+		echo "<a href='$path_chapter' class='$selected $strongs' title='View chapter'>".$chapter."</a>";
 	}
 	echo '</div>';
 }
@@ -1095,10 +1096,9 @@ $rtl2 = (empty($_BibleTWO['T_VERSIONS']['RTL']) ? FALSE : TRUE);
 echo "<div id='word' class='aionian'>";
 echo "<h1>Aionian Verses</h1>\n";
 $count_one = $count_two = 0;
-$x = 1;
 $vref2 = FALSE;
-$missing1 = $_BibleONE_Lang." word-text'>(parallel missing)</span>";
-$missing2 = ($AIONIAN_TWO ? $_BibleTWO_Lang." word-text'>(parallel missing)</span>" : '');
+$missing1 = "<span class='word-text'>(parallel missing)</span>";
+$missing2 = ($AIONIAN_TWO ? "<span class='word-text'>(parallel missing)</span>" : '');
 foreach( $AIONIAN_ONE as $vref1 => $verse1) {
 	if ($vref1=='QUESTIONED' || $verse1===TRUE) { continue; }
 	if ($AIONIAN_TWO) {
@@ -1107,42 +1107,40 @@ foreach( $AIONIAN_ONE as $vref1 => $verse1) {
 			if ($vref2=='QUESTIONED' || $verse2===TRUE) { next($AIONIAN_TWO); continue; }
 			$verse_two = $_BibleTWO_Lang." word-text'>".$verse2['TEXT'].'</span>';
 			if ($vref1<=$vref2) { break; }
-			$stripe = (( $x % 2 == 0 ) ? 'even' : 'odd'); ++$x;
 			$vref_link =	"<span lang='en' class='eng'>".$_BibleBOOKS[$_BibleBOOKS[(int)$verse2['INDEX']]]['ENGLISH'].' '.(int)$verse2['CHAPTER'].':'.(int)$verse2['VERSE'].'</span>'.
 							($_BibleBOOKS[$_BibleBOOKS[(int)$verse2['INDEX']]]['ENGLISH']==$_BibleTWO['T_BOOKS'][$_BibleBOOKS[(int)$verse2['INDEX']]] ? '' :
 							' '.$_BibleTWO_Lang." word-para-ref'>".'('.$_BibleTWO['T_BOOKS'][$_BibleBOOKS[(int)$verse2['INDEX']]].' '.$_BibleTWO['T_NUMBERS'][(int)$verse2['CHAPTER']].':'.$_BibleTWO['T_NUMBERS'][(int)$verse2['VERSE']].')</span>');
-			echo "<div class='word-para $stripe aionian'><div class='word-para-ref $rtlref'>$vref_link</div>\n";
-			if ($rtl) {	echo "<div class='rtlt word-para-one word-rtl'><div class='rtlr'><div class='rtlc word-text'>$missing1</div></div></div>\n"; }
+			echo "<div class='word-para aionian'><div class='word-para-ref $rtlref'>$vref_link</div>\n";
+			if ($rtl) { echo "<div class='word-para-one word-rtl' dir='rtl'>$missing1</div>\n"; }
 			else {		echo "<div class='word-para-one'>$missing1</div>";}
-			if ($rtl2){	echo "<div class='rtlt word-para-two word-rtl'><div class='rtlr'><div class='rtlc word-text'>$verse_two</div></div></div>\n"; }
+			if ($rtl2){	echo "<div class='word-para-two word-rtl' dir='rtl'>$verse_two</div>\n"; }
 			else {		echo "<div class='word-para-two'>$verse_two</div>\n"; }	
 			echo "</div>\n";
 			++$count_two;
 			next($AIONIAN_TWO);
 		}
 	}
-	$stripe = (( $x % 2 == 0 ) ? 'even' : 'odd'); ++$x;
 	$vref_link =	"<a href='".abcms_href("/Bibles/$_Part[1]/".$_BibleBOOKS[(int)$verse1['INDEX']].'/'.(int)$verse1['CHAPTER'],FALSE,TRUE,TRUE)."' title='View chapter'>".
 					"<span lang='en' class='eng'>".$_BibleBOOKS[$_BibleBOOKS[(int)$verse1['INDEX']]]['ENGLISH'].' '.(int)$verse1['CHAPTER'].':'.(int)$verse1['VERSE'].'</span>'.
 					($_BibleBOOKS[$_BibleBOOKS[(int)$verse1['INDEX']]]['ENGLISH']==$_BibleONE['T_BOOKS'][$_BibleBOOKS[(int)$verse1['INDEX']]] ? '' :
 					' '.$_BibleONE_Lang." word-para-ref'>".'('.$_BibleONE['T_BOOKS'][$_BibleBOOKS[(int)$verse1['INDEX']]].' '.$_BibleONE['T_NUMBERS'][(int)$verse1['CHAPTER']].':'.$_BibleONE['T_NUMBERS'][(int)$verse1['VERSE']].')</span>').
 					'</a>';
 	$verse_one = $_BibleONE_Lang." word-text'>".$verse1['TEXT'].'</span>';
-	echo "<div class='word-para $stripe aionian'><div class='word-para-ref $rtlref'>$vref_link</div>\n";
+	echo "<div class='word-para aionian'><div class='word-para-ref $rtlref'>$vref_link</div>\n";
 	if (!$AIONIAN_TWO) {
-		if ($rtl) {	echo "<div class='rtlt word-para-one word-rtl'><div class='rtlr'><div class='rtlc word-text'>$verse_one</div></div></div>\n"; }
+		if ($rtl) { echo "<div class='word-para-one word-rtl' dir='rtl'>$verse_one</div>\n"; }
 		else {		echo "<div class='word-para-one'>$verse_one</div>\n"; }
 	}
 	else if ($vref1<$vref2 || !$vref2) {
-		if ($rtl) {	echo "<div class='rtlt word-para-one word-rtl'><div class='rtlr'><div class='rtlc word-text'>$verse_one</div></div></div>\n"; }
+		if ($rtl) { echo "<div class='word-para-one word-rtl' dir='rtl'>$verse_one</div>\n"; }
 		else {		echo "<div class='word-para-one'>$verse_one</div>";}
-		if ($rtl2){	echo "<div class='rtlt word-para-two word-rtl'><div class='rtlr'><div class='rtlc word-text'>$missing2</div></div></div>\n"; }
+		if ($rtl2){ echo "<div class='word-para-two word-rtl' dir='rtl'>$missing2</div>\n"; }
 		else {		echo "<div class='word-para-two'>$missing2</div>\n"; }
 	}
 	else if ($vref1==$vref2) {
-		if ($rtl) {	echo "<div class='rtlt word-para-one word-rtl'><div class='rtlr'><div class='rtlc word-text'>$verse_one</div></div></div>\n"; }
+		if ($rtl) { echo "<div class='word-para-one word-rtl' dir='rtl'>$verse_one</div>\n"; }
 		else {		echo "<div class='word-para-one'>$verse_one</div>";}
-		if ($rtl2){	echo "<div class='rtlt word-para-two word-rtl'><div class='rtlr'><div class='rtlc word-text'>$verse_two</div></div></div>\n"; }
+		if ($rtl2){	echo "<div class='word-para-two word-rtl' dir='rtl'>$verse_two</div>\n"; }
 		else {		echo "<div class='word-para-two'>$verse_two</div>\n"; }		
 		++$count_two;
 		next($AIONIAN_TWO);
@@ -1159,14 +1157,13 @@ if ($AIONIAN_TWO) {
 		$vref2=key($AIONIAN_TWO);
 		if ($vref2=='QUESTIONED' || $verse2===TRUE) { continue; }
 		$verse_two = $_BibleTWO_Lang." word-text'>".$verse2['TEXT'].'</span>';
-		$stripe = (( $x % 2 == 0 ) ? 'even' : 'odd'); ++$x;
 		$vref_link =	"<span lang='en' class='eng'>".$_BibleBOOKS[(int)$verse2['INDEX']].' '.(int)$verse2['CHAPTER'].':'.(int)$verse2['VERSE'].'</span>'.
 						($_BibleBOOKS[(int)$verse2['INDEX']]==$_BibleTWO['T_BOOKS'][$_BibleBOOKS[(int)$verse2['INDEX']]] ? '' :
 						' '.$_BibleTWO_Lang." word-para-ref'>".'('.$_BibleTWO['T_BOOKS'][$_BibleBOOKS[(int)$verse2['INDEX']]].' '.$_BibleTWO['T_NUMBERS'][(int)$verse2['CHAPTER']].':'.$_BibleTWO['T_NUMBERS'][(int)$verse2['VERSE']].')</span>');
-			echo "<div class='word-para $stripe aionian'><div class='word-para-ref $rtlref'>$vref_link</div>\n";
-			if ($rtl) {	echo "<div class='rtlt word-para-one word-rtl'><div class='rtlr'><div class='rtlc word-text'>$missing1</div></div></div>\n"; }
+			echo "<div class='word-para aionian'><div class='word-para-ref $rtlref'>$vref_link</div>\n";
+			if ($rtl){	echo "<div class='word-para-one word-rtl' dir='rtl'>$missing1</div>\n"; }
 			else {		echo "<div class='word-para-one'>$missing1</div>";}
-			if ($rtl2){	echo "<div class='rtlt word-para-two word-rtl'><div class='rtlr'><div class='rtlc word-text'>$verse_two</div></div></div>\n"; }
+			if ($rtl2){	echo "<div class='word-para-two word-rtl' dir='rtl'>$verse_two</div>\n"; }
 			else {		echo "<div class='word-para-two'>$verse_two</div>\n"; }		
 			echo "</div>\n";
 		++$count_two;
@@ -1175,15 +1172,14 @@ if ($AIONIAN_TWO) {
 $count_questioned = 0;
 foreach( $AIONIAN_ONE['QUESTIONED'] as $vref1 => $verse1) {
 	if ($count_questioned==0) { echo "<div class='word-aionian-questioned'><div class='word-para field-header'>Questioned verse translations do not contain Aionian Glossary words, but may wrongly imply eternal or Hell</div>"; }
-	$stripe = (( $x % 2 == 0 ) ? 'even' : 'odd'); ++$x;
 	$vref_link = "<a href='".abcms_href("/Bibles/$_Part[1]/".$_BibleBOOKS[(int)$verse1['INDEX']].'/'.(int)$verse1['CHAPTER'],FALSE,TRUE,TRUE)."' title='View chapter'>".
 		"<span lang='en' class='eng'>".$_BibleBOOKS[$_BibleBOOKS[(int)$verse1['INDEX']]]['ENGLISH'].' '.(int)$verse1['CHAPTER'].':'.(int)$verse1['VERSE'].'</span>'.
 		($_BibleBOOKS[$_BibleBOOKS[(int)$verse1['INDEX']]]['ENGLISH']==$_BibleONE['T_BOOKS'][$_BibleBOOKS[(int)$verse1['INDEX']]] ? '' :
 		' '.$_BibleONE_Lang." word-para-ref'>".'('.$_BibleONE['T_BOOKS'][$_BibleBOOKS[(int)$verse1['INDEX']]].' '.$_BibleONE['T_NUMBERS'][(int)$verse1['CHAPTER']].':'.$_BibleONE['T_NUMBERS'][(int)$verse1['VERSE']].')</span>').
 		'</a>';				
 	$verse_one = $_BibleONE_Lang." word-text'>".$verse1['TEXT'].'</span>';
-	echo "<div class='word-para $stripe aionian'><div class='word-para-ref $rtlref'>$vref_link</div>\n";
-	if ($rtl) {	echo "<div class='rtlt word-para-one word-rtl'><div class='rtlr'><div class='rtlc word-text'>$verse_one</div></div></div>\n"; }
+	echo "<div class='word-para aionian'><div class='word-para-ref $rtlref'>$vref_link</div>\n";
+	if ($rtl){	echo "<div class='word-para-one word-rtl' dir='rtl'>$verse_one</div>\n"; }
 	else {		echo "<div class='word-para-one'>$verse_one</div>";}
 	echo "</div>\n";
 	++$count_questioned;
@@ -1224,25 +1220,24 @@ if (!$nopage) {
 	echo "<h1>".($menu=abcms_chap_menu())."</h1>";
 }
 for ($x=(empty($_Part[4])?1:$_Part[4]); $x<=$maxverses; ++$x) {
-	$stripe = (( $x % 2 == 0 ) ? 'even' : 'odd');
-	$verse_link = "<a href='".abcms_href("/Bibles/$_Part[1]/$_Part[2]/$_Part[3]/$x",FALSE,TRUE,TRUE)."' title='View verse'>$x</a> ";
-	$verse_number = (empty($_BibleONE['T_NUMBERS'][$x]) || $x==$_BibleONE['T_NUMBERS'][$x] ? '' : $_BibleONE_Lang." word-verse-lang'>".$_BibleONE['T_NUMBERS'][$x].'</span> ');
+	$verse_link = "<a href='".abcms_href("/Bibles/$_Part[1]/$_Part[2]/$_Part[3]/$x",FALSE,TRUE,TRUE)."'>$x</a> ";
+	$verse_number = (empty($_BibleONE['T_NUMBERS'][$x]) || $x==$_BibleONE['T_NUMBERS'][$x] ? '' : $_BibleONE_Lang." word-refs'>".$_BibleONE['T_NUMBERS'][$x].'</span> ');
 	$strongs = abcms_word_chap_stro($x);
-	$verse_text = (empty($_BibleCHAP1[$x]) ? '' : "$_BibleONE_Lang word-text $strongs'>".$_BibleCHAP1[$x].'</span> ');
+	$verse_text = (empty($_BibleCHAP1[$x]) ? '' : "$_BibleONE_Lang word-text$strongs'>".$_BibleCHAP1[$x].'</span> ');
 	if ($_BibleCHAP2_Last) {
-		$verse_number2 = (empty($_BibleTWO['T_NUMBERS'][$x]) || $x==$_BibleTWO['T_NUMBERS'][$x] ? '' : $_BibleTWO_Lang." word-verse-lang'>".$_BibleTWO['T_NUMBERS'][$x].'</span>');
-		$verse_text2 = (empty($_BibleCHAP2[$x]) ? '' : $_BibleTWO_Lang." word-text'>".$_BibleCHAP2[$x].'</span>');
-		echo "<div class='word-para $stripe'>\n";
-		if ($rtl) { echo "<div class='rtlt word-para-one word-rtl'><div class='rtlr'><div class='rtlc word-text'>$verse_text</div><div class='rtlc word-refs'>$verse_number<span class='word-verse'>$verse_link</span></div></div></div>\n"; }
+		$verse_number2 = (empty($_BibleTWO['T_NUMBERS'][$x]) || $x==$_BibleTWO['T_NUMBERS'][$x] ? '' : $_BibleTWO_Lang." word-refs'>".$_BibleTWO['T_NUMBERS'][$x].'</span>');
+		$verse_text2 = (empty($_BibleCHAP2[$x]) ? '' : "$_BibleTWO_Lang word-text'>".$_BibleCHAP2[$x].'</span>');
+		echo "<div class='word-para'>\n";
+		if ($rtl) { echo "<div class='word-para-one word-rtl' dir='rtl'><span class='word-verse'>$verse_link</span>$verse_number$verse_text</div>\n"; }
 		else {		echo "<div class='word-para-one'><span class='word-verse'>$verse_link</span>$verse_number$verse_text</div>\n"; }
-		if ($rtl2) {echo "<div class='rtlt word-para-two word-rtl'><div class='rtlr'><div class='rtlc word-text'>$verse_text2</div><div class='rtlc word-refs'>$verse_number2</div></div></div>\n"; }
+		if ($rtl2) {echo "<div class='word-para-two word-rtl' dir='rtl'>$verse_number2$verse_text2</div>\n"; }
 		else {		echo "<div class='word-para-two'>$verse_number2$verse_text2</div>\n"; }
 		echo "</div>\n";
 	}
 	else if ($rtl) {
-			echo	"<div class='rtlt word-rtl $stripe'><div class='rtlr'><div class='rtlc word-text'>$verse_text</div><div class='rtlc word-refs'>$verse_number<span class='word-verse'>$verse_link</span></div></div></div>\n";
+			echo "<div class='word-rtl' dir='rtl'><span class='word-verse'>$verse_link</span>$verse_number$verse_text</div>\n";
 	}
-	else {	echo	"<span class='word-text $stripe'><span class='word-verse'>$verse_link</span>$verse_number$verse_text</span>\n";
+	else {	echo "<span class='word-verse'>$verse_link</span>$verse_number$verse_text\n";
 	}
 }
 if ($nopage) { return TRUE; }
@@ -1264,8 +1259,8 @@ abcms_tail();
 /*** WORD CHAP STRONGS ***/
 function abcms_word_chap_stro($x) {
 global $_BibleSTRONGS, $_stidC;
-if (!isset($_BibleSTRONGS[$x][$_stidC])) { return NULL; }
-return 'strongs';
+if (!isset($_BibleSTRONGS[$x][$_stidC])) { return ''; }
+return ' strongs';
 }
 
 
@@ -1292,22 +1287,22 @@ $rtl2 = (empty($_BibleTWO['T_VERSIONS']['RTL']) ? FALSE : TRUE);
 $x = $_Part[4];
 echo "<div id='word'><div id='strong-head'>\n";
 echo "<h1>".($menu=abcms_vers_menu())."</h1>";
-$verse_number = (empty($_BibleONE['T_NUMBERS'][$x]) || $x==$_BibleONE['T_NUMBERS'][$x] ? '' : $_BibleONE_Lang." word-verse-lang'>".$_BibleONE['T_NUMBERS'][$x].'</span> ');
+$verse_number = (empty($_BibleONE['T_NUMBERS'][$x]) || $x==$_BibleONE['T_NUMBERS'][$x] ? '' : $_BibleONE_Lang." word-refs'>".$_BibleONE['T_NUMBERS'][$x].'</span> ');
 $strongs = abcms_word_chap_stro($x);
-$verse_text = "$_BibleONE_Lang word-text $strongs'>".(empty($_BibleCHAP1[$x]) ? 'Verse not available in this translation' : $_BibleCHAP1[$x]).'</span> ';
+$verse_text = "$_BibleONE_Lang word-text$strongs'>".(empty($_BibleCHAP1[$x]) ? 'Verse not available in this translation' : $_BibleCHAP1[$x]).'</span> ';
 if ($_BibleCHAP2_Last) {
-	$verse_number2 = (empty($_BibleTWO['T_NUMBERS'][$x]) || $x==$_BibleTWO['T_NUMBERS'][$x] ? '' : $_BibleTWO_Lang." word-verse-lang verse-num'>".$_BibleTWO['T_NUMBERS'][$x].'</span>');
+	$verse_number2 = (empty($_BibleTWO['T_NUMBERS'][$x]) || $x==$_BibleTWO['T_NUMBERS'][$x] ? '' : $_BibleTWO_Lang." word-refs verse-num'>".$_BibleTWO['T_NUMBERS'][$x].'</span>');
 	$verse_text2 = (empty($_BibleCHAP2[$x]) ? '<span>Verse not available in this translation</span>' : $_BibleTWO_Lang." word-text'>".$_BibleCHAP2[$x].'</span>');
 	echo "<div class='word-para'>\n";
-	if ($rtl) { echo "<div class='rtlt word-para-one word-rtl'><div class='rtlr'><div class='rtlc word-text'>$verse_text</div><div class='rtlc word-refs'>$verse_number<span class='word-verse'>$x </span></div></div></div>\n"; }
+	if ($rtl) { echo "<div class='word-para-one word-rtl' dir='rtl'><span class='word-verse'>$x</span>$verse_number$verse_text</div>\n"; }
 	else {		echo "<div class='word-para-one'><span class='word-verse'>$x </span>$verse_number$verse_text</div>\n"; }
-	if ($rtl2) {echo "<div class='rtlt word-para-two word-rtl'><div class='rtlr'><div class='rtlc word-text'>$verse_text2</div><div class='rtlc word-refs'>$verse_number2</div></div></div>\n"; }
+	if ($rtl2){	echo "<div class='word-para-two word-rtl' dir='rtl'>$verse_number2$verse_text2</div>\n"; }
 	else {		echo "<div class='word-para-two word-ltr'>$verse_number2$verse_text2</div>\n"; }
 	echo "</div>\n";
 }
 else {
-	if ($rtl) { echo "<div class='rtlt word-para word-rtl'><div class='rtlr'><div class='rtlc word-text'>$verse_text</div><div class='rtlc word-refs'>$verse_number<span class='word-verse'>$x </span></div></div></div>\n"; }
-	else {		echo "<div class='word-para'><span class='word-text'><span class='word-verse'>$x </span>$verse_number$verse_text</span></div>\n"; }
+	if ($rtl) { echo "<div class='word-para word-rtl' dir='rtl'><span class='word-verse'>$x</span>$verse_number$verse_text</div>\n"; }
+	else {		echo "<div class='word-para'><span class='word-verse'>$x </span>$verse_number$verse_text</div>\n"; }
 }
 if (!empty($_BibleONE['T_VERSIONS']['WARNING'])) { echo "<div class='word-warning'>".$_BibleONE['T_VERSIONS']['WARNING']."</div>\n"; }
 $javascript = "AionianBible_CollapseExpand(\"ab-lexicon\", null); return false;";
@@ -1419,9 +1414,9 @@ foreach( $bible_ALL as $bible => $version ) {
 	$rtlref = ($rtl ? 'rtlref' : '');
 	if (empty($_BibleCHAP1[$_Part[4]])) {	$verse_text = "Verse not available"; }
 	else {									$verse_text =  "$_BibleONE_Lang word-text'>".$_BibleCHAP1[$_Part[4]].'</span>'; ++$count; }
-	echo "<div class='word-para-ref $rtlref' $quick_id><a href='".abcms_href("/Bibles/$_Part[1]/$_Part[2]/$_Part[3]",FALSE,TRUE,TRUE)."' title='View verse chapter'>".$language." ~ ".$name."</a></div>\n";
-	if ($rtl) {	echo "<div class='rtlt word-rtl allverses'><div class='rtlr'><div class='rtlc word-text'>$verse_text</div></div></div>\n"; }
-	else {		echo "<div class='word-para-one allverses'><span class='word-text'>$verse_text</span></div>\n"; }
+	echo "<div class='word-para-ref $rtlref' $quick_id><a href='".abcms_href("/Bibles/$_Part[1]/$_Part[2]/$_Part[3]",FALSE,TRUE,TRUE)."'>".$language." ~ ".$name."</a></div>\n";
+	if ($rtl){	echo "<div class='word-rtl allverses'>$verse_text</div>\n"; }
+	else {		echo "<div class='word-para-one allverses'>$verse_text</div>\n"; }
 }
 echo "<div>Verse Count = $count</div>\n";
 echo "<div id='word-menu-bottom' class='always'><h2>$menu</h2></div>";
@@ -1471,17 +1466,16 @@ foreach( $bible_ALL as $bible => $version ) {
 	$x = 0;
 	foreach( $AIONIAN_ONE['QUESTIONED'] as $vref1 => $verse1) {
 		if (!$x) { echo "<div class='word-para-ref $rtlref'><a href='".abcms_href("/Bibles/$bible",FALSE,TRUE,TRUE)."' title='View Bible'>".$language." ~ ".$name."</a></div>\n"; }
-		$stripe = (( $x % 2 == 0 ) ? 'even' : 'odd'); ++$x;
+		++$x;
 		$vref_link =
 			"<a href='".abcms_href("/Bibles/$bible/".$_BibleBOOKS[(int)$verse1['INDEX']].'/'.(int)$verse1['CHAPTER'],FALSE,TRUE,TRUE)."' title='View chapter'>".
 			"<span lang='en' class='eng'>".$_BibleBOOKS[$_BibleBOOKS[(int)$verse1['INDEX']]]['ENGLISH'].' '.(int)$verse1['CHAPTER'].':'.(int)$verse1['VERSE'].'</span>'.
 			($_BibleBOOKS[$_BibleBOOKS[(int)$verse1['INDEX']]]['ENGLISH']==$_BibleONE['T_BOOKS'][$_BibleBOOKS[(int)$verse1['INDEX']]] ? '' :
 			' '.$_BibleONE_Lang." word-para-ref'>".'('.$_BibleONE['T_BOOKS'][$_BibleBOOKS[(int)$verse1['INDEX']]].' '.$_BibleONE['T_NUMBERS'][(int)$verse1['CHAPTER']].':'.$_BibleONE['T_NUMBERS'][(int)$verse1['VERSE']].')</span>').
 			'</a>';				
-		$verse_number = (empty($_BibleONE['T_NUMBERS'][$x]) || $x==$_BibleONE['T_NUMBERS'][$x] ? '' : $_BibleONE_Lang." word-verse-lang'>".$_BibleONE['T_NUMBERS'][$x].'</span>');
 		$verse_text = $_BibleONE_Lang." word-text'>".$verse1['TEXT'].'</span>';
-		if ($rtl) {	echo "<div class='rtlt word-rtl $stripe'><div class='rtlr'><div class='rtlc word-text rtlref'><span class='word-verse'>$vref_link</span></div></div><div class='rtlr'><div class='rtlc word-text'>$verse_text</div></div></div>\n"; }
-		else {		echo "<div class='word-para $stripe aionian'><div class='word-para-ref'>$vref_link</div>\n<div class='word-para-one'>$verse_number$verse_text</div>\n</div>\n"; }
+		if ($rtl) {	echo "<div class='word-para'><div class='word-para-ref rtlref'>$vref_link</div><div dir='rtl'>$verse_text</div></div>\n"; }
+		else {		echo "<div class='word-para'><div class='word-para-ref'>$vref_link</div><div>$verse_text</div></div>\n"; }
 	}
 	if ($x) { echo "<hr>"; }
 }
@@ -1845,7 +1839,7 @@ $stronglang = (empty($lex_strongs[4]) ? '' :
 
 // SUBSTITUTIONS
 // Editions, Greek only
-if ($strongs[0]=='g') {
+if (!empty($tag) && $strongs[0]=='g') {
 	$tag[13] = (empty($tag[13]) ? NULL : preg_replace($editions_search, $editions_replace, $tag[13])); // editions
 	$tag[14] = (empty($tag[14]) ? NULL : preg_replace($editions_search, $editions_replace, $tag[14])); // var
 	$tag[15] = (empty($tag[15]) ? NULL : preg_replace($editions_search, $editions_replace, $tag[15])); // spell
@@ -2293,26 +2287,25 @@ function abcms_head($headlo='',$good=TRUE) {
 ?>
 <div id='page'>
 <div id='sticky-body'>
-<div id='head'>
+<div id='head' role='banner'>
 <div id='head-hi'>
 <div id='logo1'><a href='/' title='Aionian Bible homepage'><img src='/images/Holy-Bible-Aionian-Edition-PURPLE-LOGO.png' alt='Aionian Bible'></a></div>
 <div id='logo2'><a href='/' title='Aionian Bible homepage'><img src='/images/Holy-Bible-Aionian-Edition-PURPLE-AB.png' alt='Aionian Bible'></a></div>
 <div id='menu'>
 <?
-global $_Path, $_Part;
+global $_Path, $_Part, $_pnum;
 // preface
-if ($_Path==='Preface') {					echo "<a href='#' title='Preface and mission' aria-label='Already on Preface'>Preface</a>"; }
+if ($_Path==='Preface') {					echo "<a href='#' title='Preface and mission' aria-current='page'>Preface</a>"; }
 else {										echo "<a href='/Preface' title='Preface and mission' aria-label='Go to Preface'>Preface</a>"; }
 // bible
 if ($good && $_Part[0]==='Bibles') {		echo "<a href='".abcms_href("/Read",FALSE,TRUE,TRUE)."' title='Read and Study Bible'>Bibles</a>"; }
 else if ($good && (
+	($_Part[0]==='Strongs' && $_pnum>1) ||
 	$_Part[0]==='Parallel' ||
-	$_Part[0]==='Strongs' ||
 	$_Part[0]==='Glossary')) {				echo "<a href='".abcms_href("/Bibles",TRUE,TRUE,TRUE)."' title='Bookmarked Bible' onclick='return AionianBible_Bookmark(".'""'.");'>Read</a>"; }
-else if ($_Path==='Read') {					echo "<a href='/Read' title='Bookmarked Bible' onclick='return AionianBible_Bookmark(".'"/Read"'.");'>Read</a>"; }
 else {										echo "<a href='/Read' title='Bookmarked Bible' onclick='return AionianBible_Bookmark(".'"/Read"'.");'>Read</a>"; }
 // end
-echo "<a href='#' title='Font Size Accessibility' onclick='return AionianBible_Accessible();' id='accessible' aria-label='Font Size Accessibility'>+</a>";
+echo "<a href='#' role='button' id='accessible' title='Text size' aria-label='Text size: normal' onclick='return AionianBible_Accessible();' onkeydown='if(event.key===\" \"){event.preventDefault();this.click();}'>+</a>";
 echo "</div></div>\n";
 if (!empty($headlo)) { echo "<div id='head-lo'>$headlo</div>\n"; }
 echo "</div><div id='body' role='main' class=''>\n";
@@ -2336,7 +2329,7 @@ $social .= "<a href='https://vk.com/share.php?url=$url&title=$title' target='_bl
 $social .= "<a href='https://service.weibo.com/share/share.php?url=$url&appkey=&title=$title&pic=&ralateUid=' target='_blank'><img src='/social/weibo.png' alt='Weibo' title='Weibo post' class='img25'></a>";
 $social .= "<a href='mailto:?subject=".preg_replace("/ /","%20","$title0&body=$url0")."' target='_blank'><img src='/social/email.png' alt='email' title='Email link' class='img25'></a>";
 ?>
-<div id='social-footer' class='no-arrow'>
+<div id='social-footer' class='no-arrow' role='navigation' aria-label='Share'>
 <div id='google_translate_element'><button type='button' id='translate-button' class='translate-button' onclick='AionianBible_Translate(this);'>Translate</button></div>
 <div id='social-shares'>
 <?echo $social;?><br>
@@ -2347,7 +2340,7 @@ $social .= "<a href='mailto:?subject=".preg_replace("/ /","%20","$title0&body=$u
 <div id='sticky-push'></div>
 </div>
 <div id='sticky-foot'> 	
-<div id='tail'><a href='/Publisher' title='Contact Nainoia, Inc'>The world's first Holy Bible untranslation!</a></div>
+<div id='tail' role='contentinfo'><a href='/Publisher' title='Contact Nainoia, Inc'>The world's first Holy Bible untranslation!</a> (<a href='/Accessibility' title='Accessibility'>Accessibility</a>)</div>
 </div>
 </div>
 <?

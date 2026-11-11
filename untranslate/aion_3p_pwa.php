@@ -111,15 +111,15 @@ function AION_LOOP_PWA_DOIT($args) {
 	$G_VERSIONS['SOURCEVERSION'] = (filemtime($base.$sour)===FALSE ? $G_VERSIONS['YEAR'] : date("n/j/Y", filemtime($base.$sour)));
 
 	// BIBLE CSS
+	$cssdir	= (empty($G_VERSIONS['RTL']) ? "" : "dir='rtl'");
 	$cssiso	= (empty($G_VERSIONS['LANGUAGECODEISO']) ? "" : "lang='".$G_VERSIONS['LANGUAGECODEISO']."'");
-	$cssdir = (empty($G_VERSIONS['RTL']) ? "" : "dir='rtl'");
 	$csshed = "class='ff' $cssiso $cssdir";
 	$cssbok = "class='ff bok' $cssiso $cssdir";
-	$cssrtl = "class='ff rtl' $cssiso $cssdir";
-	$cssver = "class='ff ver' $cssiso $cssdir";
+	$cssver = "class='ff ver'";
 	$csstex = "class='ff tex' $cssiso $cssdir";
-	$cssavh = "class='ff tex avh' $cssiso $cssdir";
-	$cssnum = "class='ff num' $cssiso $cssdir";
+	$csstev = "class='tex'";
+	$cssavh = "class='tex avh'";
+	$cssnum = "class='num'";
 	$csslan = "class='ff lan' $cssiso $cssdir";
 	
 	// PREPARE FIELDS
@@ -374,17 +374,13 @@ EOF;
 		if (!($text = preg_replace('# g4442([^0-9]{1})#ui',	' <a href="?Glossary#g4442" onclick="ABDO(\'Glossary\',\'g4442\');return false;"	title=\'View definition\'>g4442</a>$1',	$text))) { AION_ECHO("ERROR! $error preg_replace(g4442)"); }
 		if (!($text = preg_replace('# g5020([^0-9]{1})#ui',	' <a href="?Glossary#g5020" onclick="ABDO(\'Glossary\',\'g5020\');return false;"	title=\'View definition\'>g5020</a>$1',	$text))) { AION_ECHO("ERROR! $error preg_replace(g5020)"); }
 		if ($mark != $text) {	$text = "<span $cssavh>".$text."</span>"; }
-		else {					$text = "<span $csstex>".$text."</span>"; }
+		else {					$text = "<span $csstev>".$text."</span>"; }
 		// OT INTRO, before first chapter
 		if (!$yes_ot && $book != $last_book && (int)$indx<40) {
 			$yes_ot = TRUE;
 			$G_PWA->bible_text .= <<< EOF
 `
-<h1 class='title'>
-<a title='Previous Page' aria-label='Previous Page' class='nav left' href='?Prev' onclick="ABDO('Prev');return false;"><span class="nav clt">&lt;</span></a>
-{$G_FORPRINT['W_OLD']}
-<a title='Next Page' aria-label='Next Page' class='nav right' href='?Next' onclick="ABDO('Next');return false;"><span class="nav cgt">&gt;</span></a>
-</h1>
+<h1 class='title'>{$G_FORPRINT['W_OLD']}</h1>
 <div class="map"><img src="images/Gustave-Dore-Bible-Tour-Hebrew-OT-003-Adam-and-Eve-Are-Driven-out-of-Eden.jpg" alt="Adam and Eve are driven out of Eden"></div>
 {$G_FORPRINT['GEN3_24']}
 `,
@@ -410,21 +406,13 @@ EOF;
 			}
 			$G_PWA->bible_text .= <<<EOF
 `
-<h1>
-<a title='Previous Page' aria-label='Previous Page' class='nav left' href='?Prev' onclick="ABDO('Prev');return false;"><span class="nav clt">&lt;</span></a>
-<a title='View Book Chapters' href='?{$book_index}' onclick="ABDO('{$book_index}');return false;">{$book_form}</a> {$chap_number}
-<a title='Next Page' aria-label='Next Page' class='nav right' href='?Next' onclick="ABDO('Next');return false;"><span class="nav cgt">&gt;</span></a>
-</h1>
+<h1 class='title'><a title='View Book Chapters' href='?{$book_index}' onclick="ABDO('{$book_index}');return false;">{$book_form}</a> {$chap_number}</h1>
 {$book_format}
-<div class='chap'>
+<div class='chap ff' {$cssiso} {$cssdir}>
 {$contents}
 </div>
 <div id="word-menu-bottom">
-<h2>
-<a title='Previous Page' aria-label='Previous Page' class='nav left' href='?Prev' onclick="ABDO('Prev');return false;"><span class="nav clt">&lt;</span></a>
-<a title='View Book Chapters' href='?{$book_index}' onclick="ABDO('{$book_index}');return false;">{$book_form}</a> {$chap_number}
-<a title='Next Page' aria-label='Next Page' class='nav right' href='?Next' onclick="ABDO('Next');return false;"><span class="nav cgt">&gt;</span></a>
-</h2>
+<h2 class='title'><a title='View Book Chapters' href='?{$book_index}' onclick="ABDO('{$book_index}');return false;">{$book_form}</a> {$chap_number}</h2>
 </div>
 `,
 
@@ -437,11 +425,7 @@ EOF;
 				$yes_nt = TRUE;
 				$G_PWA->bible_text .= <<< EOF
 `
-<h1 class='title'>
-<a title='Previous Page' aria-label='Previous Page' class='nav left' href='?Prev' onclick="ABDO('Prev');return false;"><span class="nav clt">&lt;</span></a>
-{$G_FORPRINT['W_NEW']}
-<a title='Next Page' aria-label='Next Page' class='nav right' href='?Next' onclick="ABDO('Next');return false;"><span class="nav cgt">&gt;</span></a>
-</h1>
+<h1 class='title'>{$G_FORPRINT['W_NEW']}</h1>
 <div class="map"><img src="images/Gustave-Dore-Bible-Tour-NT-Gospel-215-The-Crucifixion-of-Jesus-and-Two-Criminals.jpg" alt="The Crucifixion of Jesus and Two Criminals"></div>
 {$G_FORPRINT['LUK23_34']}
 `,
@@ -452,8 +436,8 @@ EOF;
 		// VERSE - build the chapter verse by verse
 		$verF = $args['database']['T_NUMBERS'][$bible][$verN];
 		$verF = ($verF == $verN ? "" : "<span $cssnum> $verF </span>");
-		if ($cssdir) {	$contents .= "<div class='rtl-tab'><div class='rtl-row'><div class='rtl-cel rtl-txt'>$text</div><div class='rtl-cel rtl-ref'>$verF<span class='num'> $verN</span></div></div></div>\n"; }
-		else {			$contents .= "<span $cssver><span class='num'>$verN </span>$verF$text</span>\n"; }
+		if ($G_VERSIONS['RTL']) {	$contents .= "<div class='rtl'><span class='ref num'>$verN</span>$verF$text</div>\n"; }
+		else {						$contents .= "<span $cssver><span class='num'>$verN </span>$verF$text</span>\n"; }
 		// END
 		$last_indx = $indx;
 		$last_book = $book;
@@ -477,21 +461,13 @@ EOF;
 	}
 	$G_PWA->bible_text .= <<<EOF
 `
-<h1>
-<a title='Previous Page' aria-label='Previous Page' class='nav left' href='?Prev' onclick="ABDO('Prev');return false;"><span class="nav clt">&lt;</span></a>
-<a title='View Book Chapters' href='?{$book_index}' onclick="ABDO('{$book_index}');return false;">{$book_form}</a> {$chap_number}
-<a title='Next Page' aria-label='Next Page' class='nav right' href='?Next' onclick="ABDO('Next');return false;"><span class="nav cgt">&gt;</span></a>
-</h1>
+<h1 class='title'><a title='View Book Chapters' href='?{$book_index}' onclick="ABDO('{$book_index}');return false;">{$book_form}</a> {$chap_number}</h1>
 {$book_format}
-<div class='chap'>
+<div class='chap ff' {$cssiso} {$cssdir}>
 {$contents}
 </div>
 <div id="word-menu-bottom">
-<h2>
-<a title='Previous Page' aria-label='Previous Page' class='nav left' href='?Prev' onclick="ABDO('Prev');return false;"><span class="nav clt">&lt;</span></a>
-<a title='View Book Chapters' href='?{$book_index}' onclick="ABDO('{$book_index}');return false;">{$book_form}</a> {$chap_number}
-<a title='Next Page' aria-label='Next Page' class='nav right' href='?Next' onclick="ABDO('Next');return false;"><span class="nav cgt">&gt;</span></a>
-</h2>
+<h2 class='title'><a title='View Book Chapters' href='?{$book_index}' onclick="ABDO('{$book_index}');return false;">{$book_form}</a> {$chap_number}</h2>
 </div>
 `,
 
@@ -500,8 +476,8 @@ EOF;
 	$contents = NULL;
 
 	// DYNAMIC STUFF
-	$G_PWA->fontname = $G_PWA->fontfiles = NULL;
-	$G_PWA->font = AION_PWA_FONT($G_PWA->fontname, $G_PWA->fontfiles);
+	$G_PWA->fontname = NULL;
+	$G_PWA->font = AION_PWA_FONT($G_PWA->fontname);
 	// WRITE AND VALIDATE
 	$file = "{$args['destiny']}/{$bible}---Aionian-Edition.htm";
 	if (is_file($file)) { unlink($file); }
@@ -585,7 +561,7 @@ function AION_PWA_LINKS($links) {
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 // CSS
-function AION_PWA_FONT(&$fontname, &$fontfiles) {
+function AION_PWA_FONT(&$fontname) {
 global $G_VERSIONS;
 // FOREIGN FONT 
 $fray = array(
@@ -619,7 +595,7 @@ $fray = array(
 'font-tibetan.css'			=> array('notoseriftibetan',			'notoseriftibetan',				'font-tibetan',			'font-tibetan'		),
 );
 $font = $G_VERSIONS['LANGUAGESTYLE'];
-if (empty($font)) {				$fontname = $foreign_font = $fontfiles = NULL; }
+if (empty($font)) {				$fontname = $foreign_font = NULL; }
 else if (empty($fray[$font])) {	AION_ECHO("ERROR! AION_EPUBY_EPUB_CSS font not found: $font"); }
 else {
 $l = $fray[$font][0];
@@ -632,16 +608,12 @@ $foreign_font = <<< EOF
 	font-family:
 		'$n';
 	src:
+		url('fonts/{$f}.woff2')	format('woff2'),
 		url('fonts/{$f}.woff')	format('woff'),
 		url('fonts/{$f}.ttf')	format('truetype');
 }
 .ff { font-family: 'NotoSans', '$n', 'Arial', sans-serif, 'GentiumPlus'; }
 
-EOF;
-
-$fontfiles = <<<EOF
-'fonts/{$f}.woff',
-'fonts/{$f}.ttf',
 EOF;
 }
 
@@ -713,61 +685,62 @@ return <<< EOF
 <style>
 /*** PALETTE ***/
 :root {
-	--ab-text: #000000;
-	--ab-bg: #FFFFFF;
-	--ab-page: #F8F8F8;
-	--ab-heading: #663399;
-	--ab-link: #7345A1;
-	--ab-link-hover: #4E2A7A;
-	--ab-brand: #663399;
-	--ab-on-brand: #FFFFFF;
-	--ab-on-brand-hover: #E0D6EB;
-	--ab-highlight: #E0D6EB;
-	--ab-note: #7345A1;
-	--ab-card: #F0EBF5;
-	--ab-zebra: #EDEDED;
-	--ab-blue: #005F8C;
-	--ab-blue-bg: #CCE0EB;
-	--ab-accent: #7345A1;
-	--ab-on-accent: #FFFFFF;
-	--ab-button-bg: #E0D6EB;
-	--ab-button-text: #4E2A7A;
-	--ab-control-border: #767676;
-	--ab-focus: #663399;
-	--ab-focus-on-brand: #FFFFFF;
-	--ab-nav-bg: #663399;
-	--ab-nav-text: #FFFFFF;
-	--ab-error: #B3261E;
-	--ab-border: #C5C5C5;
+	color-scheme: light dark;		/* native controls and scrollbars follow the theme */
+	--ab-text: #101010;				/* near black */
+	--ab-bg: #FFFFFF;				/* white */
+	--ab-page: #F8F8F8;				/* off-white */
+	--ab-heading: #663399;			/* rebecca purple */
+	--ab-link: #8250B4;				/* bright royal purple */
+	--ab-link-hover: #4E2A7A;		/* deep purple */
+	--ab-brand: #663399;			/* rebecca purple */
+	--ab-on-brand: #FFFFFF;			/* white */
+	--ab-on-brand-hover: #E0D6EB;	/* pale lavender */
+	--ab-highlight: #EDE7F4;		/* pale lavender 2 */
+	--ab-note: #8250B4;				/* bright royal purple */
+	--ab-card: #F0EBF5;				/* lavender mist */
+	--ab-zebra: #EDEDED;			/* light gray */
+	--ab-blue: #005F8C;				/* deep teal blue */
+	--ab-blue-bg: #CCE0EB;			/* pale blue */
+	--ab-accent: #8250B4;			/* bright royal purple */
+	--ab-on-accent: #FFFFFF;		/* white */
+	--ab-button-bg: #E0D6EB;		/* pale lavender */
+	--ab-button-text: #4E2A7A;		/* deep purple */
+	--ab-control-border: #767676;	/* mid gray */
+	--ab-focus: #663399;			/* rebecca purple */
+	--ab-focus-on-brand: #FFFFFF;	/* white */
+	--ab-nav-bg: #663399;			/* rebecca purple */
+	--ab-nav-text: #FFFFFF;			/* white */
+	--ab-error: #B3261E;			/* brick red */
+	--ab-border: #C5C5C5;			/* silver gray */
 }
 @media (prefers-color-scheme: dark) {
 :root {
-	--ab-text: #F5F2FA;
-	--ab-bg: #16121D;
-	--ab-page: #100D15;
-	--ab-heading: #D2B8F5;
-	--ab-link: #A375D1;
-	--ab-link-hover: #D6C0F7;
-	--ab-brand: #2B1A42;
-	--ab-on-brand: #FFFFFF;
-	--ab-on-brand-hover: #D2B8F5;
-	--ab-highlight: #241B30;
-	--ab-note: #A079D2;
-	--ab-card: #1D1727;
-	--ab-zebra: #1B1721;
-	--ab-blue: #478FC2;
-	--ab-blue-bg: #0F1F2D;
-	--ab-accent: #5A2F92;
-	--ab-on-accent: #FFFFFF;
-	--ab-button-bg: #241B30;
-	--ab-button-text: #D6C0F7;
-	--ab-control-border: #8A8295;
-	--ab-focus: #D2B8F5;
-	--ab-focus-on-brand: #FFD866;
-	--ab-nav-bg: #7848A8;
-	--ab-nav-text: #FFFFFF;
-	--ab-error: #FF8A80;
-	--ab-border: #3A3346;
+	--ab-text: #F5F2FA;				/* lavender white */
+	--ab-bg: #16121D;				/* violet black */
+	--ab-page: #100D15;				/* deepest violet black */
+	--ab-heading: #D2B8F5;			/* soft lilac */
+	--ab-link: #A375D1;				/* medium orchid */
+	--ab-link-hover: #D6C0F7;		/* pale lilac */
+	--ab-brand: #2B1A42;			/* deep aubergine */
+	--ab-on-brand: #FFFFFF;			/* white */
+	--ab-on-brand-hover: #D2B8F5;	/* soft lilac */
+	--ab-highlight: #241B30;		/* dark plum */
+	--ab-note: #A079D2;				/* orchid */
+	--ab-card: #1D1727;				/* night plum */
+	--ab-zebra: #1B1721;			/* charcoal violet */
+	--ab-blue: #478FC2;				/* steel blue */
+	--ab-blue-bg: #0F1F2D;			/* midnight blue */
+	--ab-accent: #5A2F92;			/* dark royal purple */
+	--ab-on-accent: #FFFFFF;		/* white */
+	--ab-button-bg: #241B30;		/* dark plum */
+	--ab-button-text: #D6C0F7;		/* pale lilac */
+	--ab-control-border: #8A8295;	/* gray lilac */
+	--ab-focus: #D2B8F5;			/* soft lilac */
+	--ab-focus-on-brand: #FFD866;	/* warm gold */
+	--ab-nav-bg: #7848A8;			/* medium purple */
+	--ab-nav-text: #FFFFFF;			/* white */
+	--ab-error: #FF8A80;			/* light coral */
+	--ab-border: #3A3346;			/* dusky gray violet */
 }}
 
 /* FONT */
@@ -791,8 +764,8 @@ return <<< EOF
 html,body	{ font-family: 'NotoSans', 'Arial', sans-serif, 'GentiumPlus'; }
 
 /* BASE */
-html { height: 100%; }
-body { height: 100%; margin: 0; min-width: 320px; font-size: 100%; color: #191919; background-color: #F8F8F8; }
+html { height: 100%; scroll-padding-top: 50px; }
+body { height: 100%; margin: 0; min-width: 320px; font-size: 100%; color: var(--ab-text); background-color: var(--ab-page); }
 h1 { font-size: 1.4rem;	text-align: center; }
 h2 { font-size: 1.3rem;	}
 h3 { font-size: 1.2rem; }
@@ -800,59 +773,56 @@ h4 { font-size: 1.1rem; }
 h1, h2, h3, h4, p, form { margin: 0 0 0.5rem 0; }
 p { margin: 0 0 10px 0; }
 img { max-width: 100%; height: auto; }
-a { color: #663399; text-decoration: none; }
-a:hover { color: #9966CC; text-decoration: underline; }
+a { color: var(--ab-link); text-decoration: none; }
+a:hover { color: var(--ab-link-hover); text-decoration: underline; }
 a[target="_blank"]::after { content: "\\00a0\\2197"; font-size: 75%; }
 a[target="_blank"]:has(img)::after, .no-arrow a[target="_blank"]::after { content: none; }
-a:focus-visible { outline: 2px solid #9966CC; outline-offset: 2px; }
+a:focus-visible { outline: 2px solid var(--ab-focus); outline-offset: 2px; }
+#head-hi a:focus-visible, #tail a:focus-visible { outline-color: var(--ab-focus-on-brand); }
 .center { text-align: center; }
 
 /* THINGS */
 .title { text-align: center; }
-.title2 { font-size: 125%; font-weight: bold; }
 .chapnav { margin-bottom: 7px; }
 .chapnav a { margin-left: 2px; display: inline-block; }
 .map { text-align: center; margin: auto; }
-.map img { border: 1px solid #C5C5C5; }
+.map img { border: 1px solid var(--ab-border); }
 .cap { text-align: center; font-style: italic; width: 80%; margin: 0 auto; display: block; }
 .ref { font-style: normal; } 
 .bok { text-align: center; }
-.avh { background-color: #E0D6EB; }
+.avh { background-color: var(--ab-highlight); }
 .num { font-weight: 700; }
-.not { font-weight: 700; color: #663399; white-space: nowrap; } 
-#status { text-align: center; font-weight: bold; color: #663399; min-height: 1.2em; }
+.not { font-weight: 700; color: var(--ab-note); white-space: nowrap; } 
+#status { text-align: center; font-weight: bold; color: var(--ab-heading); min-height: 1.2em; }
 
-div.rtl-tab { display: block; width: 100%; text-align: right; }
-div.rtl-row { display: table-row; display: flex; align-items: baseline; gap: 4px; padding: 3px; }
-div.rtl-row > .rtl-txt { flex: 1 1 auto; min-width: 0; }
-div.rtl-row > .rtl-ref { flex: 0 0 auto; white-space: nowrap; }
-div.rtl-cel { display: table-cell; }
-div.rtl-ref { text-align: right; }
-div.rtl-ref span.ff.num { margin-right: 7px; }
+div.rtl { display: flex; align-items: baseline; padding: 3px; box-sizing: border-box; margin-bottom: 10px; }
+div.rtl > .ref { flex: 0 0 auto; white-space: nowrap; float: right; }
+div.rtl > .tex { flex: 1 1 auto; min-width: 0; overflow-wrap: anywhere; }
+div.rtl .num { margin-left: 12px; }
 
 /* STICKY */
 #sticky-body, #sticky-push, #sticky-foot { margin: 0; padding: 0; }
-#sticky-body { min-height: 100%; height: auto !important; margin: 0 auto -33px auto; background-color: #FFFFFF; }
+#sticky-body { min-height: 100%; height: auto !important; margin: 0 auto -33px auto; background-color: var(--ab-bg); }
 #sticky-push, #sticky-foot { height: 33px; clear: both; }
 :target:before { content:""; display:block; height:110px; margin:-110px 0 0; } /* static header target adjustment */
 
 /* HOME */
 #home1 { margin: 0 auto; text-align: center; }
-#home1 a:hover #home2 { border: 1px solid #9966CC; border-radius: 7px;	background-color: #F0EBF5; }
-#home1 .black { color: #191919; }
+#home1 a:hover #home2 { border: 1px solid var(--ab-accent); border-radius: 7px;	background-color: var(--ab-card); }
+#home1 .black { color: var(--ab-text); }
 #home1 a { display: inline-block; }
-#home1 a:hover #aion { color: #663399; }
+#home1 a:hover #aion { color: var(--ab-heading); }
 #home2 { padding: 0 10px; }
-#j316 { padding: 10px 0; font-style: italic; font-size: 110%; font-weight: bold; max-width: 420px; margin: 0 auto; color: #191919; }
-#aion { padding: 0 0 15px 0; font-style: italic; font-size: 130%; font-weight: bold; color: #191919; }
-#moto { margin: 10px 0 0 0; color: #663399; }
+#j316 { padding: 10px 0; font-style: italic; font-size: 110%; font-weight: bold; max-width: 420px; margin: 0 auto; color: var(--ab-text); }
+#aion { padding: 0 0 15px 0; font-style: italic; font-size: 130%; font-weight: bold; color: var(--ab-text); }
+#moto { margin: 10px 0 0 0; color: var(--ab-heading); }
 .RegisteredTM { font-size: 75%; }
-#upin.home { text-align: center; font-weight: bold; color: red; }
+#upin.home { text-align: center; font-weight: bold; color: var(--ab-error); }
 
 /* PAGE HEAD */
 #page {	height: 100%; max-width: 1280px; margin: 0 auto; padding: 0 10px; }
 #head { position: fixed; width: 100%; max-width: 1280px; min-width: 320px; }
-#head-hi { margin-top: 10px; padding: 2px 15px; border: 1px solid #663399; border-radius: 7px; background-color: #663399; overflow: hidden; }
+#head-hi { margin-top: 10px; padding: 2px 15px; border: 1px solid var(--ab-nav-bg); border-radius: 7px; background-color: var(--ab-nav-bg); overflow: hidden; }
 
 #logo { }
 #logo1 { display: inline-block !important; float: left; }
@@ -860,93 +830,38 @@ div.rtl-ref span.ff.num { margin-right: 7px; }
 #body.large { font-size: 150%; }
 #body.larger { font-size: 200%; }
 #menu { display: inline-block; float: right; white-space: nowrap; }
-#menu a { color: #FFFFFF; margin: 0px 0px 0px 10px; display: inline-block; font-size: 175%; }
-#menu a:hover { color: #E0D6EB; }
+#menu a { color: var(--ab-nav-text); margin: 0px 0px 0px 10px; display: inline-block; font-size: 175%; }
+#menu a:hover { color: var(--ab-on-brand-hover); }
 #menu a#accessible { font-weight: bold; font-size: 200%;  }
+#menu a.nav { display: inline-block; min-width: 24px; text-align: center; }
+#body > a:not([title='View Book']), #body > b > a, #upin a { display: inline-block; padding: 4px 0; }
 
 /* BODY */
 #body {	max-width: 1024px; margin: 0 auto; padding: 80px 3% 40px 3%; }
-#body h1 { text-align: center; }
-body.word-toc  #body { max-width: 1024px; margin: 0 auto; padding: 110px 3% 2% 3%; }
-body.word-read #body { max-width: 1024px; margin: 0 auto; padding: 110px 3% 2% 3%; }
 
 /*** WORD ***/
-#word { }
-#word .word-bible a { padding: 15px 5px; border: 1px solid #EDEDED; display: block; }
-#word .word-bible.odd a { background-color: #EDEDED; }
-#word .word-bible.aionian-bible a { background-color: #E0D6EB; }
-#word .word-bible a:hover { color: #FFFFFF; background-color: #9966CC; border: 1px solid #9966CC; }
-#word .word-bible.aionian-bible a:hover { color: #FFFFFF; background-color: #9966CC; border: 1px solid #9966CC; }
-
-#word-menu { font-size: 130%; }
-#word-menu .word-tocs { margin-right: 5px; }
-#word-menu .nav { font-weight: 900; padding-left: 5px; padding-right: 5px; }
-#word-menu .sgt { font-weight: 900; padding-left: 5px; padding-right: 3px; }
-#word-menu .nup { font-weight: 900; padding-left: 5px; padding-right: 5px; }
-#word-menu .navx { font-weight: 900; padding-left: 5px; padding-right: 5px; }
-#word-menu .navxx { font-weight: 900; padding-left: 3px; padding-right: 5px; }
-#word-menu a:hover { background-color: #EDEDED; }
-#word-menu { overflow: auto; }
-#word-menu .word-menu-l { float: left; }
-#word-menu .word-menu-l .word-book { background-color: #E0D6EB; }
-#word-menu .word-menu-l .word-strongs { background-color: #CCE0EB; }
-#word-menu .word-strongs a { color: #006699; }
-#word-menu .word-menu-r { float: right; }
-
 #word-menu-float { position: fixed; width: 0px; height: 0px; bottom: 0px; left: 0px; font-size: 200%; }
-#word-menu-float a  { position: fixed; width: 32px; height: 40%; top: 30%; background-color: #D3D3D3; color: #FFFFFF; border-radius: 10px; text-align: center; display: table; }
+#word-menu-float a  { position: fixed; width: 32px; height: 40%; top: 30%; background-color: var(--ab-border); color: var(--ab-on-brand); border-radius: 10px; text-align: center; display: table; }
 #word-menu-float a span  { display: table-cell; vertical-align: middle; }
 #word-menu-float a.left  { left:  7px; }
 #word-menu-float a.right { right: 7px; }
-#word-menu-float a:hover { background-color: #C5C5C5; }
+#word-menu-float a:hover { background-color: var(--ab-control-border); }
 @media screen and (max-width: 1279px) {
 	#word-menu-float { display: none; }
 }
 @media screen and (min-width: 1280px) {
 	#word-menu-bottom { display: none; }
-	#word-menu-bottom.always { display: block; }
 }
-
-#word .word-para { margin-bottom: 15px; }
-#word .word-para-ref { font-weight: bold; }
-#word .word-para-ref.rtlref { text-align: right; }
-#word .word-para-one { }
-#word .word-para-one.allverses { margin-bottom: 15px; }
-#word.aionian .word-para-two { margin-left: 0; }
-#word .word-para-two { margin-left: 12px; }
-#word .word-para-two .word-text { background-color: #F0EBF5; font-style: italic; }
-#word .word-para-two .word-text .word-aionian { background-color: #F0EBF5; }
-#word .word-para-two .word-text .word-questioned { background-color: #F0EBF5; }
-#word .word-para-two.word-ltr .verse-num { margin-right: 12px; }
-#word .word-verse { font-weight: bold; }
-#word .word-verse-lang { font-weight: bold; }
-#word .word-text { }
-#word .word-questioned { background-color: #E0D6EB; }
-#word .word-questioned .word-footnote { font-weight: bold; font-style: italic; }
-#word .word-aionian { background-color: #E0D6EB; }
-#word .word-aionian .word-footnote { font-weight: bold; font-style: italic; }
-#word .word-aionian-questioned { background-color: #EDEDED; padding: 10px; }
-#word .word-text.strongs,
-#word .word-text.strongs .word-aionian { background-color: #CCE0EB; }
 #word-menu-bottom { text-align: center; }
-
-#word .word-rtl { margin-bottom: 10px; width: 100%; }
-#word .word-rtl.allverses { margin-bottom: 15px; }
-#word .word-rtl .word-text { text-align: right; width: 100%; }
-#word .word-rtl .word-refs { width: 15px; vertical-align: top; text-align: right; white-space: nowrap; }
-#word .word-rtl .word-verse { font-weight: bold; margin-left: 5px;  margin-right: 0px; }
-#word .word-rtl .word-verse-lang { font-weight: bold; margin-left: 10px; margin-right: 0px; }
-
-#word.questioned hr { border-top: 1px solid #9966CC; border-bottom: 0px; margin-top: 35px; }
 
 /*** MAPS ***/
 #maps { text-align: center; width: 100%; }
 #maps .left { text-align: left; }
-#maps img { text-align: center; margin: 10px auto; border: solid black 1px; }
+#maps img { text-align: center; margin: 10px auto; border: solid var(--ab-text) 1px; }
 #maps div { margin: 0 auto; }
 #maps div.portrait { max-width: 360px; }
 #maps div.timeline { max-width: 800px; }
-#maps div.map a:hover img { border: 1px solid #9966CC; }
+#maps div.map a:hover img { border: 1px solid var(--ab-accent); }
 #maps div.caption { margin: 0 0 40px 0; }
 #maps div.caption .verse { font-style: italic; }
 
@@ -959,31 +874,30 @@ body.word-read #body { max-width: 1024px; margin: 0 auto; padding: 110px 3% 2% 3
 	font-size: 80%;
 	font-style: italic;
 	padding: 2px;
-	border: 1px solid #663399;
+	border: 1px solid var(--ab-brand);
 	border-radius: 7px;
-	color: #FFFFFF;
-	background-color: #663399;
+	color: var(--ab-on-brand);
+	background-color: var(--ab-brand);
+	box-sizing: border-box;
 }
-#tail a { color: #FFFFFF; }
-#tail a:hover { color: #E0D6EB; }
+#tail a { color: var(--ab-on-brand); }
+#tail a:hover { color: var(--ab-on-brand-hover); }
 
 /* RESPONSIVE */
 @media screen and (max-width: 1279px) {
 	#head-hi { margin-top: 0; }
-	#head-hi { border: none; border-bottom: 1px solid #9966CC; border-radius: 0; }
+	#head-hi { border: none; border-bottom: 1px solid var(--ab-accent); border-radius: 0; }
 	#accessible { top: 10px; }
 }
 @media screen and (max-width: 1023px) {
-	#tail { border: none; border-top: 1px solid #9966CC; border-radius: 0; }
-	#sticky-foot { background-color: #663399; }
+	#tail { border: none; border-top: 1px solid var(--ab-accent); border-radius: 0; }
+	#sticky-foot { background-color: var(--ab-brand); }
 	#page {	padding: 0; }
 }
 @media screen and (max-width: 640px) {
 	#j316 { width: auto; }
 	#logo1 { display: none !important; }
 	#logo2 { display: inline-block !important; float: left; }
-	#word-menu .crunch { display: none; }
-	#word-menu .word-book-name { font-size: 60% !important; }
 }
 @media screen and (max-width: 480px) {
 	#head-hi { padding: 2px 8px; }
@@ -1000,6 +914,10 @@ body.word-read #body { max-width: 1024px; margin: 0 auto; padding: 110px 3% 2% 3
 	div.chapnav,
 	#sticky-push,
 	#sticky-foot { display: none !important; }
+}
+/*** ACCESSIBILITY ***/
+@media (prefers-color-scheme: dark) {
+	#logo img { filter: brightness(1.8); }
 }
 </style>
 
@@ -1032,7 +950,7 @@ body.word-read #body { max-width: 1024px; margin: 0 auto; padding: 110px 3% 2% 3
 <body>
 <div id='page'>
 <div id='sticky-body'>
-<div id='head'>
+<div id='head' role='banner'>
 <div id='head-hi'>
 <div id='logo1'><a href='?PWA' title='Aionian Bible homepage' onclick="ABDO('PWA');return false;"><img src='images/Holy-Bible-Aionian-Edition-PURPLE-LOGO-PWA.png' alt='Aionian Bible'></a></div>
 <div id='logo2'><a href='?PWA' title='Aionian Bible homepage' onclick="ABDO('PWA');return false;"><img src='images/Holy-Bible-Aionian-Edition-PURPLE-AB-PWA.png' alt='Aionian Bible'></a></div>
@@ -1054,7 +972,7 @@ body.word-read #body { max-width: 1024px; margin: 0 auto; padding: 110px 3% 2% 3
 <div id='home1'>
 <a title="Return to last page read or TOC" href="?Bookmark" onclick="ABDO('Bookmark'); return false;">
 <div id='home2'>
-<h1 class='title'>
+<h1 class='center'>
 {$G_PWA->bible_title}<br>
 <span class='black'>Welcome to the <i>Holy&nbsp;Bible&nbsp;Aionian&nbsp;Edition<span class='RegisteredTM'>®</span></i></span>
 </h1>
@@ -1064,7 +982,7 @@ body.word-read #body { max-width: 1024px; margin: 0 auto; padding: 110px 3% 2% 3
 The world's first Holy Bible <u>untranslation</u><br>
 Two hundred ninety-two languages<br>
 Five hundred forty-four versions<br>
-9,719,078 Scripture verses<br>
+9,719,079 Scripture verses<br>
 100% free to copy &amp; print<br>
 Anonymous on TOR<br>
 Updated {$G_PWA->modified}<br>
@@ -1079,7 +997,7 @@ Also known as 'The Purple Bible'
 <div id='sticky-push'></div>
 </div>
 <div id='sticky-foot'> 
-<div id='tail'><a title="Table of Contents" href="?TOC" onclick="ABDO('TOC'); return false;">{$G_VERSIONS['NAMEENGLISH']}</a> ~ <a href='https://www.AionianBible.org/Read' title='AionianBible.org' target='_blank'>AionianBible.org for all Bibles</a></div>
+<div id='tail' role='contentinfo'><a title="Table of Contents" href="?TOC" onclick="ABDO('TOC'); return false;">{$G_VERSIONS['NAMEENGLISH']}</a> ~ <a href='https://www.AionianBible.org/Read' title='AionianBible.org' target='_blank'>AionianBible.org for all Bibles</a></div>
 </div>
 </div>
 
@@ -1126,12 +1044,8 @@ const AB_Bible = [
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 // TOC - Table of Contents
 `
-<h1 class='title'>
-<a title='Previous Page' aria-label='Previous Page' class='nav left' href='?Prev' onclick="ABDO('Prev');return false;"><span class="nav clt">&lt;</span></a>
-{$G_FORPRINT['W_TOC']}
-<a title='Next Page' aria-label='Next Page' class='nav right' href='?Next' onclick="ABDO('Next');return false;"><span class="nav cgt">&gt;</span></a><br>
-<a title="Return to last page read or TOC" href="?Bookmark" onclick="ABDO('Bookmark'); return false;">{$G_PWA->bible_title}</a>
-</h1>
+<h1 class='title'>{$G_FORPRINT['W_TOC']}</h1>
+<h2 class='center'><a title="Return to last page read or TOC" href="?Bookmark" onclick="ABDO('Bookmark'); return false;">{$G_PWA->bible_title}</a></h2>
 <a title="AionianBible.org online"		href="https://www.AionianBible.org/Read" target="_blank">AionianBible.org for all Bibles</a><br>
 <div id='upin'></div>
 <div id='status' role='status' aria-live='polite'></div>
@@ -1168,12 +1082,8 @@ Swipe right and left to page.
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 // COPYRIGHT
 `
-<h1 class='title'>
-<a title='Previous Page' aria-label='Previous Page' class='nav left' href='?Prev' onclick="ABDO('Prev');return false;"><span class="nav clt">&lt;</span></a>
-Copyright
-<a title='Next Page' aria-label='Next Page' class='nav right' href='?Next' onclick="ABDO('Next');return false;"><span class="nav cgt">&gt;</span></a><br>
-<a title="Return to last page read or TOC" href="?Bookmark" onclick="ABDO('Bookmark'); return false;">{$G_PWA->bible_title}</a>
-</h1>
+<h1 class='title'>Copyright</h1>
+<h2 class='center'><a title="Return to last page read or TOC" href="?Bookmark" onclick="ABDO('Bookmark'); return false;">{$G_PWA->bible_title}</a></h2>
 Publisher: Nainoia Inc<br>
 Copyright: <a href='https://creativecommons.org/licenses/by/4.0/' target='_blank'>Creative Commons Attribution 4.0 International, 2018-{$G_PWA->modyear}</a><br>
 Language: {$G_PWA->bible_lang}<br>
@@ -1188,6 +1098,7 @@ Formats:
 <a href='https://resources.AionianBible.org/Holy-Bible---{$G_PWA->bible_basic}---Aionian-Edition---STUDY.pdf' target='_blank' title='Download Study PDF'>Study PDF</a>, 
 <a href='https://resources.AionianBible.org/Holy-Bible---{$G_PWA->bible_basic}---Aionian-Edition.noia' target='_blank' title='Download Data File'>Data File</a>, and
 <a href='https://resources.AionianBible.org' target='_blank' title='Download Everything'>Everything</a><br>
+Accessibility: <a href='https://www.AionianBible.org/Accessibility' target='_blank' title='Accessibility Statement'>Accessibility Statement</a><br>
 <br>
 Source: {$G_VERSIONS['SOURCE']}<br>
 Source copyright: {$G_VERSIONS['COPYRIGHT']}<br>
@@ -1208,11 +1119,7 @@ Celebrate Jesus Christ’s victory of grace!<br>
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 // PREFACE
 `
-<h1 class='title'>
-<a title='Previous Page' aria-label='Previous Page' class='nav left' href='?Prev' onclick="ABDO('Prev');return false;"><span class="nav clt">&lt;</span></a>
-{$G_FORPRINT['W_PREF']}
-<a title='Next Page' aria-label='Next Page' class='nav right' href='?Next' onclick="ABDO('Next');return false;"><span class="nav cgt">&gt;</span></a>
-</h1>
+<h1 class='title'>{$G_FORPRINT['W_PREF']}</h1>
 
 <p>This a Progressive Web App (PWA) format of one <i class='notranslate'>Holy Bible Aionian Edition®</i>. PWAs are special webpages designed to install an App icon and be available offline on a smart device if an Internet connection is not available. Visit <a href='https://www.AionianBible.org/Read' target='_blank' title='Select from all AionianBible.org translations'>AionianBible.org</a> for all Bibles.</p>
 
@@ -1234,11 +1141,7 @@ Celebrate Jesus Christ’s victory of grace!<br>
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 // AIONIOS
 `
-<h1 class='title'>
-<a title='Previous Page' aria-label='Previous Page' class='nav left' href='?Prev' onclick="ABDO('Prev');return false;"><span class="nav clt">&lt;</span></a>
-Aiōnios and Aïdios
-<a title='Next Page' aria-label='Next Page' class='nav right' href='?Next' onclick="ABDO('Next');return false;"><span class="nav cgt">&gt;</span></a>
-</h1>
+<h1 class='title'>Aiōnios and Aïdios</h1>
 
 <p>Dr. Heleen Keizer wrote <b><i>Life Time Entirety. A Study of AIŌN in Greek Literature and Philosophy, the Septuagint and Philo</i></b> to explain the meaning of the Greek word aiōn. She begins, "<i>The Greek word aiōn has a wide ranging meaning as well as a wide ranging history: it is most commonly translated as ‘eternity’ but has as its first meaning ‘life’ or ‘lifetime’; it has its place in Greek literature and philosophy, but also in the Greek Bible, where it represents the Hebrew word ‘olâm.</i>" Her 315 page PhD dissertation shows that the Greek word aiōn originally denotes life time, duration, or complete life, but not eternal. You can read her <a href='https://www.aionianbible.org/Life-Time-Entirety-Keizer' target='_blank' title='Visit Dr. Keizers dissertation online'>dissertation online</a> or an <a href='https://www.aionianbible.org/Life-Time-Entirety-Keizer-Abstract' target='_blank' title='View an abstract of Dr. Keizers dissertation'>abstract of her conclusions here</a>.</p>
 
@@ -1262,12 +1165,7 @@ Aiōnios and Aïdios
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 // END IMAGE
 `
-<h1 class='title'>
-<a title='Previous Page' aria-label='Previous Page' class='nav left' href='?Prev' onclick="ABDO('Prev');return false;"><span class="nav clt">&lt;</span></a>
-New Jerusalem
-<a title='Next Page' aria-label='Next Page' class='nav right' href='?Next' onclick="ABDO('Next');return false;"><span class="nav cgt">&gt;</span></a>
-</h1>
-
+<h1 class='title'>New Jerusalem</h1>
 <div class="map"><img src="images/Gustave-Dore-Bible-Tour-NT-Gospel-241-The-New-Jerusalem.jpg" alt="New Jerusalem"></div>
 {$G_FORPRINT['REV21_2_3']}
 `,
@@ -1279,11 +1177,7 @@ New Jerusalem
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 // READERS
 `
-<h1 class='title'>
-<a title='Previous Page' aria-label='Previous Page' class='nav left' href='?Prev' onclick="ABDO('Prev');return false;"><span class="nav clt">&lt;</span></a>
-{$G_FORPRINT['W_READ']}
-<a title='Next Page' aria-label='Next Page' class='nav right' href='?Next' onclick="ABDO('Next');return false;"><span class="nav cgt">&gt;</span></a>
-</h1>
+<h1 class='title'>{$G_FORPRINT['W_READ']}</h1>
 
 <p>The Aionian Bible republishes public domain and Creative Commons Bible texts that are 100% free to copy and print. The original translation is unaltered and notes are added to help your study. The notes show the location of eleven special Greek and Hebrew <a href="?Glossary" title="Aionian glossary" onclick="ABDO('Glossary');return false;"><span class='notranslate'>Aionian</span> Glossary</a> words to help us better understand God’s love for individuals and for all mankind, and the nature of afterlife destinies.</p>
 
@@ -1307,18 +1201,13 @@ New Jerusalem
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 // HISTORY
 `
-<h1 class='title'>
-<a title='Previous Page' aria-label='Previous Page' class='nav left' href='?Prev' onclick="ABDO('Prev');return false;"><span class="nav clt">&lt;</span></a>
-Project History
-<a title='Next Page' aria-label='Next Page' class='nav right' href='?Next' onclick="ABDO('Next');return false;"><span class="nav cgt">&gt;</span></a>
-</h1>
-
+<h1 class='title'>Project History</h1>
 <p>
 The <span class='notranslate'>Aionian</span>  Bible republishes public domain and Creative Commons Bible texts that are 100% free to copy and print.
 All versions are available online at <a href='https://www.AionianBible.org/Read' target='_blank' title='The worlds first Holy Bible untranslation'>AionianBible.org</a> in web page, ePub, text, and PDF format.  Also read online with the  <a href='https://www.AionianBible.org/Google-Play' target='_blank' title='Aionian Bible free online at Google Play'><span class='notranslate'>Android</span></a>  and  <a href='https://www.AionianBible.org/Apple-iOS-App' target='_blank' title='Apple iOS App'><span class='notranslate'>Apple iOS App</span></a>.  Buy print Bibles at <a href='https://www.AionianBible.org/Buy' target='_blank' title='Holy Bible Aionian Edition at Amazon.com and Lulu.com'><span class='notranslate'>Amazon.com and Lulu.com</span></a>.<br>
 <br>
 </p><p>
-<b>2026-11-01</b>&nbsp;&nbsp;544 translations in 292 languages with 9,719,078 verses.<br>
+<b>2026-11-01</b>&nbsp;&nbsp;544 translations in 292 languages with 9,719,079 verses.<br>
 </p><p>
 <b>2025-09-01</b>&nbsp;&nbsp;538 translations now available in 291 languages.<br>
 </p><p>
@@ -1422,11 +1311,7 @@ All versions are available online at <a href='https://www.AionianBible.org/Read'
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 // GLOSSARY
 `
-<h1 class='title'>
-<a title='Previous Page' aria-label='Previous Page' class='nav left' href='?Prev' onclick="ABDO('Prev');return false;"><span class="nav clt">&lt;</span></a>
-{$G_FORPRINT['W_GLOS']}
-<a title='Next Page' aria-label='Next Page' class='nav right' href='?Next' onclick="ABDO('Next');return false;"><span class="nav cgt">&gt;</span></a>
-</h1>
+<h1 class='title'>{$G_FORPRINT['W_GLOS']}</h1>
 
 <p>The <i>Aionian Bible</i> untranslates and instead transliterates eleven special words to help us better understand the extent of God’s love for individuals and all mankind, and the nature of afterlife destinies.  The original translation is unaltered and a note is added to 64 Old Testament and 200 New Testament verses. Compare the definitions below to the <a href='https://www.AionianBible.org/Strongs' target='_blank' title='Strongs Enhanced Concordance and Glossary'>Strong's Concordance</a>.  Follow the links below to study the word's usage.</p>
 
@@ -1528,12 +1413,7 @@ Questioned verse translations do not contain Aionian Glossary words, but may wro
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 // PAST
 `
-<h1 class='title'>
-<a title='Previous Page' aria-label='Previous Page' class='nav left' href='?Prev' onclick="ABDO('Prev');return false;"><span class="nav clt">&lt;</span></a>
-History Past
-<a title='Next Page' aria-label='Next Page' class='nav right' href='?Next' onclick="ABDO('Next');return false;"><span class="nav cgt">&gt;</span></a>
-</h1>
-
+<h1 class='title'>History Past</h1>
 <div id='maps'>
 <div class="map timeline"><img src="images/Timeline-History-Aionian-Bible.jpg" alt="History Past"></div>
 <p class='left'>Derived from <a href='https://www.aionianbible.org/Ussher' target='_blank' title='Download PDF'>The Annals of the World by James Ussher</a> and <a href='https://www.aionianbible.org/Wikipedia-Timeline-of-Christian-Missions' target='_blank' title='Visit Wikipedia'>Timeline of Christian missions, Wikipedia</a>. <a href='https://www.aionianbible.org/Timeline' target='_blank' title='Download printable chart'>Printable version</a></p>
@@ -1547,12 +1427,7 @@ History Past
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 // FUTURE
 `
-<h1 class='title'>
-<a title='Previous Page' aria-label='Previous Page' class='nav left' href='?Prev' onclick="ABDO('Prev');return false;"><span class="nav clt">&lt;</span></a>
-History Future
-<a title='Next Page' aria-label='Next Page' class='nav right' href='?Next' onclick="ABDO('Next');return false;"><span class="nav cgt">&gt;</span></a>
-</h1>
-
+<h1 class='title'>History Future</h1>
 <div id='maps'>
 <div class="map timeline"><img src="images/Timeline-Eschatology-Aionian-Bible.jpg" alt="History Future"></div>
 <p class='left'>The chart indicates the whereabouts of God, mankind, and angels throughout the ages of history.  Note that the punishment of deceased unbelieving mankind in Hadēs is temporal as promised when Jesus said <i>“the gates of Hadēs will not prevail”</i>, Paul wrote <i>“Hadēs where is your victory?”</i>, and John wrote <i>“Hadēs gives up.”</i>  Also note that certain fallen angels are already held in a separate prison, Tartarus, awaiting final judgment and sentencing to the Lake of Fire which is <i>“prepared for the Devil and his angels,”</i> according to Matthew 25:41.  Satan’s rebellion will be crushed and Christ will be victorious in the salvation of all his people.  You too can know your name is already written in Heaven through faith in Jesus Christ! <a href='https://www.aionianbible.org/Future' target='_blank' title='Download printable chart'>Printable version</a></p>
@@ -1566,11 +1441,7 @@ History Future
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 // DESTINY
 `
-<h1 class='title'>
-<a title='Previous Page' aria-label='Previous Page' class='nav left' href='?Prev' onclick="ABDO('Prev');return false;"><span class="nav clt">&lt;</span></a>
-{$G_FORPRINT['W_DESTINY']}
-<a title='Next Page' aria-label='Next Page' class='nav right' href='?Next' onclick="ABDO('Next');return false;"><span class="nav cgt">&gt;</span></a>
-</h1>
+<h1 class='title'>{$G_FORPRINT['W_DESTINY']}</h1>
 
 <p>The Aionian Bible shows the location of eleven special Greek and Hebrew <a href="?Glossary" title="Aionian Glossary" onclick="ABDO('Glossary');return false;">Aionian Glossary</a> words to help us better understand God’s love for individuals and for all mankind, and the nature of afterlife destinies. The underlying Hebrew and Greek words typically translated as <i>Hell</i> show us that there are not just two afterlife destinies, Heaven or Hell.  Instead, there are a number of different locations, each with different purposes, different durations, and different inhabitants. Locations include 1) Old Testament <a href="?Glossary#h7585" title="Aionian glossary h7585" onclick="ABDO('Glossary','h7585');return false;"><i>Sheol</i></a> and New Testament <a href="?Glossary#g86" title="Aionian glossary g86" onclick="ABDO('Glossary','g86');return false;"><i>Hadēs</i></a>, 2) <a href="?Glossary#g1067" title="Aionian glossary g1067" onclick="ABDO('Glossary','g1067');return false;"><i>Geenna</i></a>, 3) <a href="?Glossary#g5020" title="Aionian glossary g5020" onclick="ABDO('Glossary','g5020');return false;"><i>Tartaroō</i></a>, 4) <a href="?Glossary#g12" title="Aionian glossary g12" onclick="ABDO('Glossary','g12');return false;"><i>Abyssos</i></a>, 5) <a href="?Glossary#g3041" title="Aionian glossary g3041" onclick="ABDO('Glossary','g3041');return false;"><i>Limnē Pyr</i></a>, 6) {$G_LINKS->X_PARADISE}, 7) the {$G_LINKS->X_NEWHEAVEN}, and 8) the {$G_LINKS->X_NEWEARTH}. So there is reason to review our conclusions about the destinies of redeemed mankind and fallen angels.</p>
 
@@ -1590,12 +1461,7 @@ History Future
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 // ABRAHAM
 `
-<h1 class='title'>
-<a title='Previous Page' aria-label='Previous Page' class='nav left' href='?Prev' onclick="ABDO('Prev');return false;"><span class="nav clt">&lt;</span></a>
-Abraham's Journey
-<a title='Next Page' aria-label='Next Page' class='nav right' href='?Next' onclick="ABDO('Next');return false;"><span class="nav cgt">&gt;</span></a>
-</h1>
-
+<h1 class='title'>Abraham's Journey</h1>
 <div id='maps'>
 <div class="map"><img src="images/MAP-Abrahams-Journey.jpg" alt="Abraham's Journey"></div>
 <div class='caption'>{$G_FORPRINT['HEB11_8']}</div>
@@ -1609,12 +1475,7 @@ Abraham's Journey
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 // ISRAEL
 `
-<h1 class='title'>
-<a title='Previous Page' aria-label='Previous Page' class='nav left' href='?Prev' onclick="ABDO('Prev');return false;"><span class="nav clt">&lt;</span></a>
-Israel's Exodus
-<a title='Next Page' aria-label='Next Page' class='nav right' href='?Next' onclick="ABDO('Next');return false;"><span class="nav cgt">&gt;</span></a>
-</h1>
-
+<h1 class='title'>Israel's Exodus</h1>
 <div id='maps'>
 <div class="map"><img src="images/MAP-Israels-Exodus.jpg" alt="Israel's Exodus"></div>
 <div class='caption'>{$G_FORPRINT['EXO13_17']}</div>
@@ -1628,12 +1489,7 @@ Israel's Exodus
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 // JESUS
 `
-<h1 class='title'>
-<a title='Previous Page' aria-label='Previous Page' class='nav left' href='?Prev' onclick="ABDO('Prev');return false;"><span class="nav clt">&lt;</span></a>
-Jesus' Journeys
-<a title='Next Page' aria-label='Next Page' class='nav right' href='?Next' onclick="ABDO('Next');return false;"><span class="nav cgt">&gt;</span></a>
-</h1>
-
+<h1 class='title'>Jesus' Journeys</h1>
 <div id='maps'>
 <div class="map portrait"><img src="images/MAP-Jesus-Journeys.jpg" alt="Jesus' Journeys"></div>
 <div class='caption'>{$G_FORPRINT['MAR10_45']}</div>
@@ -1647,12 +1503,7 @@ Jesus' Journeys
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 // PAUL
 `
-<h1 class='title'>
-<a title='Previous Page' aria-label='Previous Page' class='nav left' href='?Prev' onclick="ABDO('Prev');return false;"><span class="nav clt">&lt;</span></a>
-Paul's Missionary Journeys
-<a title='Next Page' aria-label='Next Page' class='nav right' href='?Next' onclick="ABDO('Next');return false;"><span class="nav cgt">&gt;</span></a>
-</h1>
-
+<h1 class='title'>Paul's Missionary Journeys</h1>
 <div id='maps'>
 <div class="map"><img src="images/MAP-Pauls-Missionary-Journeys.jpg" alt="Paul's Missionary Journeys"></div>
 <div class='caption'>{$G_FORPRINT['ROM1_1']}</div>
@@ -1666,11 +1517,7 @@ Paul's Missionary Journeys
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 // WORLD
 `
-<h1 class='title'>
-<a title='Previous Page' aria-label='Previous Page' class='nav left' href='?Prev' onclick="ABDO('Prev');return false;"><span class="nav clt">&lt;</span></a>
-Great Commission
-</h1>
-
+<h1 class='title'>Great Commission</h1>
 <div id='maps'>
 <div class="map"><img src="images/MAP-World-Nations.jpg" alt="Great Commission"></div>
 <div class='caption'>{$G_FORPRINT['MAT28_19']}</div>
@@ -1712,7 +1559,16 @@ function ABDO(goto, anchor=null, push=true) {
 		AB_Bookmark = goto;
 		AionianBible_writeCookie("AionianBible.Bookmark", AB_Bookmark);
 	}
-	document.getElementById('body').innerHTML = AB_Bible[AB_Page];
+
+	// set page and inject next/prev links
+	const body = document.getElementById('body');
+	body.innerHTML = AB_Bible[AB_Page];
+	const prev = `<a title='Previous Page' aria-label='Previous Page' class='nav left' href='?Prev' onclick="ABDO('Prev');return false;"><span class="nav clt">&lt;</span></a> `;
+	const next = ` <a title='Next Page' aria-label='Next Page' class='nav right' href='?Next' onclick="ABDO('Next');return false;"><span class="nav cgt">&gt;</span></a>`;
+	body.querySelectorAll('h1.title, h2.title').forEach(h => {
+		if (AB_Page > 0) { h.insertAdjacentHTML('afterbegin', prev); }
+		if (AB_Page < AB_Bible.length - 1) { h.insertAdjacentHTML('beforeend', next); }
+	});
 
 	// Set the update and install links 
 	if (AB_Page < 2) {
@@ -1920,7 +1776,7 @@ function AionianBible_PWA_UpdateInstall() {
 		}
 		// offer install function */
 		else {
-			upin.innerHTML = "<a href='?PWA' onclick='AionianBible_PWA_InstallPrompt();return false;' title='Install Progressive Web Application'>( Install Bible App )</a><br>";
+			upin.innerHTML = "<a href='?PWA' onclick='AionianBible_PWA_InstallPrompt();return false;' title='Install Progressive Web Application'>( Install Bible App, use Chrome on Samsung )</a><br>";
 		}
 	}
 }

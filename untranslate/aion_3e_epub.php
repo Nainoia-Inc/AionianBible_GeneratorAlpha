@@ -75,7 +75,7 @@ function AION_LOOP_EPUBY($source, $destiny_unzip, $destiny_zip) {
 		'function'		=> 'AION_LOOP_EPUBY_DOIT',
 		'source'		=> $source,
 		//'include'		=> "/Holy-Bible---.*(Albanian).*---Aionian-Edition\.noia$/",
-		//'include'		=> "/Holy-Bible---.*(Aionian-Bible|Tsak).*---Aionian-Edition\.noia$/",
+		//'include'		=> "/Holy-Bible---.*(Aionian-Bible|Arabic-Van-Dyck-Bible).*---Aionian-Edition\.noia$/",
 		//'include'		=> "/Holy-Bible---.+(Basic).+---Aionian-Edition\.noia$/",
 		//'include'		=> "/Holy-Bible---.*(Azerb|Gaelic|Somali).*---Aionian-Edition\.noia$/",
 		//'include'		=> "/Holy-Bible---Tsak.*---Aionian-Edition\.noia$/",
@@ -109,7 +109,7 @@ function AION_LOOP_EPUBY_DOIT($args) {
 	$G_FORPRINT	= $args['database'][T_FORPRINT][$bible];
 	$G_UUID		= $G_FORPRINT['UUID'];
 	$G_TITLE	= "Holy Bible Aionian Edition: ".$G_VERSIONS['NAMEENGLISH'];
-	$G_MODIFIED	= date('Y-m-d\TH:i:s\Z');
+	$G_MODIFIED	= gmdate('Y-m-d\TH:i:s\Z');
 	$G_RTL		= (empty($G_VERSIONS['RTL']) ? "" : "dir='rtl'");
 	$G_ISO		= (empty($G_VERSIONS['LANGUAGECODEISO']) ? "" : "lang='".$G_VERSIONS['LANGUAGECODEISO']."'");
 	$bible_name	= $G_VERSIONS['NAMEENGLISH'];
@@ -141,11 +141,11 @@ EOF;
 	// BIBLE CSS
 	$csshed = "class='ff' $G_ISO $G_RTL";
 	$cssbok = "class='ff bok' $G_ISO $G_RTL";
-	$cssrtl = "class='ff rtl' $G_ISO $G_RTL";
-	$cssver = "class='ff ver' $G_ISO $G_RTL";
+	$cssver = "class='ff ver'";
 	$csstex = "class='ff tex' $G_ISO $G_RTL";
-	$cssavh = "class='ff tex avh' $G_ISO $G_RTL";
-	$cssnum = "class='ff num' $G_ISO $G_RTL";
+	$csstev = "class='tex'";
+	$cssavh = "class='tex avh'";
+	$cssnum = "class='num'";
 	$csslan = "class='ff lan' $G_ISO $G_RTL";
 	
 	// PREPARE LANGUAGE
@@ -242,7 +242,7 @@ EOF;
 	$g86	= glossarylinks($bible, $database['T_BIBLE'], $args['database']['T_UNTRANSLATE'], $args['database']['T_BOOKS'], $cssbok, "g86");
 	$g126	= glossarylinks($bible, $database['T_BIBLE'], $args['database']['T_UNTRANSLATE'], $args['database']['T_BOOKS'], $cssbok, "g126");
 	$g165	= glossarylinks($bible, $database['T_BIBLE'], $args['database']['T_UNTRANSLATE'], $args['database']['T_BOOKS'], $cssbok, "g165");
-	$g1653	= glossarylinks($bible, $database['T_BIBLE'], $args['database']['T_UNTRANSLATE'], $args['database']['T_BOOKS'], $cssbok, "g163");
+	$g1653	= glossarylinks($bible, $database['T_BIBLE'], $args['database']['T_UNTRANSLATE'], $args['database']['T_BOOKS'], $cssbok, "g1653");
 	$g166	= glossarylinks($bible, $database['T_BIBLE'], $args['database']['T_UNTRANSLATE'], $args['database']['T_BOOKS'], $cssbok, "g166");
 	$g1067	= glossarylinks($bible, $database['T_BIBLE'], $args['database']['T_UNTRANSLATE'], $args['database']['T_BOOKS'], $cssbok, "g1067");
 	$g3041	= glossarylinks($bible, $database['T_BIBLE'], $args['database']['T_UNTRANSLATE'], $args['database']['T_BOOKS'], $cssbok, "g3041");
@@ -323,7 +323,7 @@ EOF;
 		if (!($text = preg_replace('# g4442([^0-9]{1})#ui',	' <a href=\'../rear-2-glossary.xhtml#g4442\' title=\'View definition\'>g4442</a>$1',$text))) { AION_ECHO("ERROR! preg_replace(g4442)"); }
 		if (!($text = preg_replace('# g5020([^0-9]{1})#ui',	' <a href=\'../rear-2-glossary.xhtml#g5020\' title=\'View definition\'>g5020</a>$1',$text))) { AION_ECHO("ERROR! preg_replace(g5020)"); }
 		if ($mark != $text) {	$text = "<span $cssavh>".$text."</span>"; }
-		else {					$text = "<span $csstex>".$text."</span>"; }
+		else {					$text = "<span $csstev>".$text."</span>"; }
 				
 		// CHAPTER
 		if ($last_indx && ($book != $last_book || $chap != $last_chap)) {
@@ -396,7 +396,7 @@ EOF;
 			}
 			$book_format .= "</div>\n";
 			$book_trailer = "<div class='chapbot'>\n<a href='https://www.aionianbible.org/Publisher/$bible_basic/$book_index/$last_chaN' title='Report Bible text questions and concerns to Nainoia Inc' target='_blank'>Report Issue</a>\n</div>\n";
-			$contents = "$header<title>$book_english $last_chaN</title>\n</head>\n<body>\n<div>\n$book_format<div class='chap'>\n$contents</div>\n$book_trailer</div>\n</body>\n</html>\n";
+			$contents = "$header<title>$book_english $last_chaN</title>\n</head>\n<body>\n<div role='main'>\n$book_format<div class='chap ff' {$G_ISO} {$G_RTL}>\n$contents</div>\n$book_trailer</div>\n</body>\n</html>\n";
 			$file = "chapters/$last_indx-$last_book-$last_chap.xhtml";
 			if (file_put_contents("$FOLDEPUB/$file", $contents) === FALSE) { AION_ECHO("ERROR! file_put_contents($FOLDEPUB/$file)"); }
 			$contents = NULL;
@@ -415,8 +415,8 @@ EOF;
 		}
 		// VERSE
 		$verF = $args['database']['T_NUMBERS'][$bible][$verN];
-		$verF = ($verF == $verN ? "" : "<span $cssnum> $verF </span>");
-		if ($G_RTL) {	$contents .= "<div class='rtl-tab'><div class='rtl-row'><div class='rtl-cel rtl-txt'>$text</div><div class='rtl-cel rtl-ref'>$verF<span class='num'> $verN</span></div></div></div>\n"; }
+		$verF = ($verF == $verN ? "" : "<span $cssnum>$verF</span>");
+		if ($G_RTL) {	$contents .= "<div class='rtl'><span class='ref num'>$verN</span>$verF$text</div>\n"; }
 		else {			$contents .= "<span $cssver><span class='num'>$verN </span>$verF$text</span>\n"; }
 		// END
 		$last_indx = $indx;
@@ -440,7 +440,7 @@ EOF;
 	}
 	$book_format .= "</div>\n";
 	$book_trailer = "<div class='chapbot'>\n<a href='https://www.aionianbible.org/Publisher/$bible_basic/$book_index/$last_chaN' title='Report Bible text questions and concerns to Nainoia Inc' target='_blank'>Report Issue</a>\n</div>\n";
-	$contents = "$header<title>$book_english $last_chaN</title>\n</head>\n<body>\n<div>\n$book_format<div class='chap'>$contents</div>\n$book_trailer</div>\n</body>\n</html>\n";
+	$contents = "$header<title>$book_english $last_chaN</title>\n</head>\n<body>\n<div role='main'>\n$book_format<div class='chap ff' {$G_ISO} {$G_RTL}>$contents</div>\n$book_trailer</div>\n</body>\n</html>\n";
 	$file = "chapters/$last_indx-$last_book-$last_chap.xhtml";	
 	if (file_put_contents("$FOLDEPUB/$file", $contents) === FALSE) { AION_ECHO("ERROR! file_put_contents($FOLDEPUB/$file)"); }
 
@@ -577,7 +577,7 @@ $file = "$folder/epub.css";
 $l = "notosans-basic";
 $f = "notosans-basic-regular";
 $opf_manifest .= "<item href='fonts/$l.license'	id='basic_lic'	media-type='text/plain' />";
-$opf_manifest .= "<item href='fonts/$f.woff'	id='basic_wof'	media-type='application/font-woff' />";		// or /font/woff
+$opf_manifest .= "<item href='fonts/$f.woff'	id='basic_wof'	media-type='font/woff' />";		// or /font/woff
 // $opf_manifest .= "<item href='fonts/$f.ttf'		id='basic_ttf'	media-type='application/font-sfnt' />";		// or /font/ttf
 // url('fonts/$f.ttf')		format('truetype');
 $basic_font = <<< EOF
@@ -598,7 +598,7 @@ if (!copy("./aion_customize_index/fonts/$f.woff",		"$folder/fonts/$f.woff")) {		
 $l = "gentiumplus";
 $f = "gentiumplus-r";
 $opf_manifest .= "<item href='fonts/$l.license'	id='gentiumplus_lic'	media-type='text/plain' />";
-$opf_manifest .= "<item href='fonts/$f.woff'	id='gentiumplus_wof'	media-type='application/font-woff' />";		// or /font/woff
+$opf_manifest .= "<item href='fonts/$f.woff'	id='gentiumplus_wof'	media-type='font/woff' />";		// or /font/woff
 //$opf_manifest .= "<item href='fonts/$f.ttf'		id='gentiumplus_ttf'	media-type='application/font-sfnt' />";		// or /font/ttf
 // url('fonts/$f.ttf')		format('truetype');
 $gentium_font = <<< EOF
@@ -656,7 +656,7 @@ $f = $fray[$font][1];
 $n = $fray[$font][2];
 $c = $fray[$font][3]; // unused, all use same tag!
 $opf_manifest .= "<item href='fonts/$l.license'	id='foreign_lic'	media-type='text/plain' />";
-$opf_manifest .= "<item href='fonts/$f.woff'	id='foreign_wof'	media-type='application/font-woff' />";		// or /font/woff
+$opf_manifest .= "<item href='fonts/$f.woff'	id='foreign_wof'	media-type='font/woff' />";		// or /font/woff
 //$opf_manifest .= "<item href='fonts/$f.ttf'		id='foreign_ttf'	media-type='application/font-sfnt' />";		// or /font/ttf
 // url('fonts/$f.ttf')		format('truetype');
 $foreign_font = <<< EOF
@@ -674,40 +674,44 @@ if (!copy("./aion_customize_index/fonts/$f.woff",		"$folder/fonts/$f.woff")) {		
 //if (!copy("./aion_customize_index/fonts/$f.ttf",		"$folder/fonts/$f.ttf")) {		AION_ECHO("ERROR! AION_EPUBY_EPUB_CSS copy font($f)"); }
 }
 
+// PALETTE, single light palette, inlined as plain hex because many e-readers ignore CSS var()
+// Keep in sync with the :root palette in style.css and aion_3p_pwa.php
+$P = array(
+	'text'					=> '#101010',	/* near black */
+	'bg'					=> '#FFFFFF',	/* white */
+	'page'					=> '#F8F8F8',	/* off-white */
+	'heading'				=> '#663399',	/* rebecca purple */
+	'link'					=> '#8250B4',	/* bright royal purple */
+	'link-hover'			=> '#4E2A7A',	/* deep purple */
+	'brand'					=> '#663399',	/* rebecca purple */
+	'on-brand'				=> '#FFFFFF',	/* white */
+	'on-brand-hover'		=> '#E0D6EB',	/* pale lavender */
+	'highlight'				=> '#EDE7F4',	/* pale lavender 2 */
+	'note'					=> '#8250B4',	/* bright royal purple */
+	'card'					=> '#F0EBF5',	/* lavender mist */
+	'zebra'					=> '#EDEDED',	/* light gray */
+	'blue'					=> '#005F8C',	/* deep teal blue */
+	'blue-bg'				=> '#CCE0EB',	/* pale blue */
+	'accent'				=> '#8250B4',	/* bright royal purple */
+	'on-accent'				=> '#FFFFFF',	/* white */
+	'button-bg'				=> '#E0D6EB',	/* pale lavender */
+	'button-text'			=> '#4E2A7A',	/* deep purple */
+	'control-border'		=> '#767676',	/* mid gray */
+	'focus'					=> '#663399',	/* rebecca purple */
+	'focus-on-brand'		=> '#FFFFFF',	/* white */
+	'nav-bg'				=> '#663399',	/* rebecca purple */
+	'nav-text'				=> '#FFFFFF',	/* white */
+	'error'					=> '#B3261E',	/* brick red */
+	'border'				=> '#C5C5C5',	/* silver gray */
+);
+
 $contents = <<< EOF
 /***
 $G_COMMENT
 ***/
 
 /*** PALETTE ***/
-:root {
-	--ab-text: #000000;
-	--ab-bg: #FFFFFF;
-	--ab-page: #F8F8F8;
-	--ab-heading: #663399;
-	--ab-link: #7345A1;
-	--ab-link-hover: #4E2A7A;
-	--ab-brand: #663399;
-	--ab-on-brand: #FFFFFF;
-	--ab-on-brand-hover: #E0D6EB;
-	--ab-highlight: #E0D6EB;
-	--ab-note: #7345A1;
-	--ab-card: #F0EBF5;
-	--ab-zebra: #EDEDED;
-	--ab-blue: #005F8C;
-	--ab-blue-bg: #CCE0EB;
-	--ab-accent: #7345A1;
-	--ab-on-accent: #FFFFFF;
-	--ab-button-bg: #E0D6EB;
-	--ab-button-text: #4E2A7A;
-	--ab-control-border: #767676;
-	--ab-focus: #663399;
-	--ab-focus-on-brand: #FFFFFF;
-	--ab-nav-bg: #663399;
-	--ab-nav-text: #FFFFFF;
-	--ab-error: #B3261E;
-	--ab-border: #C5C5C5;
-}
+/* colours inlined from the PHP palette array in aion_3e_epub.php */
 
 /*** FONT ***/
 $basic_font
@@ -717,26 +721,23 @@ html,body { font-family: 'NotoSans', 'Arial', sans-serif, 'GentiumPlus'; }
 
 /*** BASE ***/
 html { height: 100%; }
-body { height: 100%; margin: 0; font-size: 100%; color: #191919; }
+body { height: 100%; margin: 0; font-size: 100%; color: {$P['text']}; }
 h1 { font-size: 1.4rem;	text-align: center; }
 h2 { font-size: 1.3rem;	}
 h3 { font-size: 1.2rem; }
 h4 { font-size: 1.1rem; }
 h1, h2, h3, h4, p, form { margin: 0 0 0.5rem 0; }
 p, form { margin: 0 0 10px 0; }
-img { max-width: 100%; height: auto; border: 1px solid #C5C5C5; }
+img { max-width: 100%; height: auto; border: 1px solid {$P['border']}; }
 img.simple { max-width: 100%; height: auto; display: block; margin-left: auto; margin-right: auto; margin-bottom: 10px; border: 0; }
 div.better { width: 50%; }
-a { color: #663399; text-decoration: none; }
-a:hover { color: #9966CC; text-decoration: underline; }
+a { color: {$P['link']}; text-decoration: none; }
+a:hover { color: {$P['link-hover']}; text-decoration: underline; }
 a[target="_blank"]::after { content: "\\00a0\\2197"; font-size: 75%; }
 a[target="_blank"]:has(img)::after, .no-arrow a[target="_blank"]::after { content: none; }
-a:focus-visible { outline: 2px solid #9966CC; outline-offset: 2px; }
+a:focus-visible { outline: 2px solid {$P['focus']}; outline-offset: 2px; }
 .hidden { display: none; }
-.left { text-align: left; }
 .center { text-align: center; }
-.right { text-align: right; }
-.italic { font-style: italic; }
 
 /*** Ordered list ***/
 .olbeg { list-style-type: lower-roman; clear: left; }
@@ -752,29 +753,22 @@ a:focus-visible { outline: 2px solid #9966CC; outline-offset: 2px; }
 .title { text-align: center; }
 .chapnav { margin-bottom: 7px; }
 .chapbot { margin-top: 7px; }
-.chap { }
 .cov { text-align: center; margin: auto; } 
 .map { text-align: center; margin: auto; }
-.pix { max-width: 50%; height: auto; border: 1px solid #C5C5C5; float: right; margin: 0 0 10px 10px; }
+.pix { max-width: 50%; height: auto; border: 1px solid {$P['border']}; float: right; margin: 0 0 10px 10px; }
 .j316 { font-weight: 600; font-style: italic; }
 .cap { text-align: center; font-style: italic; }
-.tag { color: #191919; }
+.tag { color: {$P['text']}; }
 .bok { text-align: center; }
-.ver { }
 .ref { font-style: normal; } 
-.tex { }
-.avh { background-color: #E0D6EB; }
-.lan { }
+.avh { background-color: {$P['highlight']}; }
 .num { font-weight: 700; }
-.not { font-weight: 700; color: #663399; white-space: nowrap; } 
+.not { font-weight: 700; color: {$P['note']}; white-space: nowrap; } 
 .social img { border: 0px; }
-div.rtl-tab { display: block; width: 100%; text-align: right; }
-div.rtl-row { display: table-row; display: flex; align-items: baseline; gap: 4px; padding: 3px; }
-div.rtl-row > .rtl-txt { flex: 1 1 auto; min-width: 0; }
-div.rtl-row > .rtl-ref { flex: 0 0 auto; white-space: nowrap; }
-div.rtl-cel { display: table-cell; }
-div.rtl-ref { text-align: right; }
-div.rtl-ref span.ff.num { margin-right: 7px; }
+div.rtl { display: flex; align-items: baseline; padding: 3px; box-sizing: border-box; margin-bottom: 10px; }
+div.rtl > .ref { flex: 0 0 auto; white-space: nowrap; float: right; }
+div.rtl > .tex { flex: 1 1 auto; min-width: 0; overflow-wrap: anywhere; }
+div.rtl .num { margin-left: 12px; }
 
 EOF;
 if (file_put_contents($file, $contents) === FALSE) { AION_ECHO("ERROR! AION_FILE_DATA_PUT file_put_contents($file)"); }
@@ -995,7 +989,7 @@ $G_COMMENT
 <title>$G_TITLE, Copyright</title>
 <link href='epub.css' rel='stylesheet' />
 </head>
-<body>
+<body><div role='main'>
 <img src="./images/LOGO.jpg" alt="Holy Bible Aionian Edition" class='simple' />
 $versionEN_CP
 $versionFO_CP
@@ -1026,7 +1020,7 @@ $versionSS_CP
 We pray for a modern Creative Commons translation in every language. Report concerns to <a href='https://nainoia-inc.signedon.net/' target='_blank' title='Publisher of the Holy Bible Aionian Edition'>Nainoia Inc</a>. Volunteer help appreciated! Given to our family, friends, and fellowman for Christ’s victory of grace!<br />
 <br />$extension_text
 <p><a href='index.xhtml' title='Table of Contents'>TOC</a></p>
-</body>
+</div></body>
 </html>
 EOF;
 if (file_put_contents($file, $contents) === FALSE) { AION_ECHO("ERROR! AION_FILE_DATA_PUT file_put_contents($file)"); }
@@ -1053,7 +1047,7 @@ $G_COMMENT
 <title>$G_TITLE, Preface</title>
 <link href='epub.css' rel='stylesheet' />
 </head>
-<body>
+<body><div role='main'>
 <h1 class='title'>$W_PREF</h1>
 <p class='center'>$languagehtml<a href='https://www.AionianBible.org/Preface' target='_blank'>www.AionianBible.org/Preface</a></p>
 <p>The <i>Holy Bible Aionian Edition®</i> is the world’s first Bible <i>untranslation</i>! What is an <i>untranslation</i>? Bibles are translated into each of our languages from the original Hebrew, Aramaic, and Koine Greek. Occasionally, the best word translation cannot be found and these words are transliterated letter by letter. Four well-known transliterations are <i>Christ</i>, <i>baptism</i>, <i>angel</i>, and <i>apostle</i>. The meaning is then preserved more accurately through context and a dictionary. The Aionian Bible untranslates and instead transliterates eleven additional <a href='rear-2-glossary.xhtml' title='Aionian Glossary'>Aionian Glossary</a> words to help us better understand God’s love for individuals and all mankind, and the nature of afterlife destinies.</p>
@@ -1080,7 +1074,7 @@ $G_COMMENT
 </p>
 
 <p><a href='index.xhtml' title='Table of Contents'>TOC</a> / <a href='$epublink' target='_blank' title='Download this ePub'>Download this ePub!</a></p>
-</body>
+</div></body>
 </html>
 EOF;
 if (file_put_contents($file, $contents) === FALSE) { AION_ECHO("ERROR! AION_FILE_DATA_PUT file_put_contents($file)"); }
@@ -1103,7 +1097,7 @@ $G_COMMENT
 <title>$G_TITLE, Aionian</title>
 <link href='epub.css' rel='stylesheet' />
 </head>
-<body>
+<body><div role='main'>
 <h1 class="title">Aiōnios and Aïdios</h1>
 <p class='center'>$languagehtml<a href='https://www.AionianBible.org/Aionios-and-Aidios' target='_blank'>www.AionianBible.org/Aionios-and-Aidios</a></p>
 <p><img src="images/BOOK-Life-Time-Entirety-A-Study-of-AION-Heleen-Keizer.jpg" alt="Life Time Entirety. A Study of AIŌN in Greek Literature and Philosophy, the Septuagint and Philo by Heleen Keizer" class='pix' />Dr. Heleen Keizer wrote <b><i>Life Time Entirety. A Study of AIŌN in Greek Literature and Philosophy, the Septuagint and Philo</i></b> to explain the meaning of the Greek word aiōn. She begins, "<i>The Greek word aiōn has a wide ranging meaning as well as a wide ranging history: it is most commonly translated as ‘eternity’ but has as its first meaning ‘life’ or ‘lifetime’; it has its place in Greek literature and philosophy, but also in the Greek Bible, where it represents the Hebrew word ‘olâm.</i>" Her 315 page PhD dissertation shows that the Greek word aiōn originally denotes life time, duration, or complete life, but not eternal. You can read her <a href='https://www.aionianbible.org/Life-Time-Entirety-Keizer' target='_blank' title='Visit Dr. Keizers dissertation online'>dissertation online</a> or an <a href='https://www.aionianbible.org/Life-Time-Entirety-Keizer-Abstract' target='_blank' title='View an abstract of Dr. Keizers dissertation'>abstract of her conclusions here</a>.</p>
@@ -1113,7 +1107,7 @@ $G_COMMENT
 <p>Every quest for the truth must have the wisdom to eliminate what we prefer to be true and also the courage to eliminate what we fear to be true in order to discover what Christ says is actually true.</p>
 
 <p><a href='index.xhtml' title='Table of Contents'>TOC</a></p>
-</body>
+</div></body>
 </html>
 EOF;
 if (file_put_contents($file, $contents) === FALSE) { AION_ECHO("ERROR! AION_FILE_DATA_PUT file_put_contents($file)"); }
@@ -1147,7 +1141,7 @@ $G_COMMENT
 <title>$G_TITLE, Table of Contents</title>
 <link href='epub.css' rel='stylesheet' />
 </head>
-<body>
+<body><div role='main'>
 <h1 class='title'>$W_TOC</h1>
 <nav epub:type='toc' id='toc' role='doc-toc'>
 <ol class='nav'>
@@ -1181,7 +1175,7 @@ $intro_old$index_old$intro_new$index_new$outro_new<li class='olend' value='1'><a
 <li><a epub:type='glossary' href='rear-2-glossary.xhtml'>$W_GLOS</a></li>
 </ol>
 </nav>
-</body>
+</div></body>
 </html>
 EOF;
 if (file_put_contents($file, $contents) === FALSE) { AION_ECHO("ERROR! AION_FILE_DATA_PUT file_put_contents($file)"); }
@@ -1207,7 +1201,7 @@ $G_COMMENT
 <title>$G_TITLE, Reader’s Guide</title>
 <link href='epub.css' rel='stylesheet' />
 </head>
-<body>
+<body><div role='main'>
 <h1 class='title'>$W_READ</h1>
 <p class='center'>$languagehtml<a href='https://www.AionianBible.org/Readers-Guide' target='_blank'>www.AionianBible.org/Readers-Guide</a></p>
 
@@ -1223,7 +1217,7 @@ $G_COMMENT
 <p><a href='rear-6-map-abraham.xhtml' title='Middle Eastern and Mediterranean Bible maps'>Middle Eastern and Mediterranean maps</a> and <a href='rear-3-history-past.xhtml' title='Bible timelines and Church history charts'>Bible timelines and Church history charts</a> are also available to help your study.</p>
 
 <p><a href='index.xhtml' title='Table of Contents'>TOC</a></p>
-</body>
+</div></body>
 </html>
 EOF;
 if (file_put_contents($file, $contents) === FALSE) { AION_ECHO("ERROR! AION_FILE_DATA_PUT file_put_contents($file)"); }
@@ -1248,13 +1242,13 @@ $G_COMMENT
 <title>$G_TITLE, Project History</title>
 <link href='epub.css' rel='stylesheet' />
 </head>
-<body>
+<body><div role='main'>
 <h1 class='title'>Project History</h1>
 <p class='center'>$languagehtml<a href='https://www.AionianBible.org/History' target='_blank'>www.AionianBible.org/History</a></p>
 
 <p>The Aionian Bible republishes public domain and Creative Commons Bible texts that are 100% free to copy and print. All versions are available online at <a href='https://www.Aionianbible.org/Read' target='_blank' title='The worlds first Holy Bible untranslation'>AionianBible.org</a> in web page, ePub, text, and PDF format.  Also read online with the  <a href='https://www.Aionianbible.org/Google-Play' target='_blank' title='Aionian Bible free online at Google Play'>Android</a>  and  <a href='https://www.Aionianbible.org/Apple-iOS-App' target='_blank' title='Apple iOS App'>Apple iOS App</a>.  Buy print Bibles at <a href='https://www.Aionianbible.org/Buy' target='_blank' title='Holy Bible Aionian Edition at Amazon.com and Lulu.com'>Amazon.com and Lulu.com</a>.<br /><br /></p>
 
-<p><b>2026-11-01</b> 544 translations in 292 languages with 9,719,078 verses.<br /></p>
+<p><b>2026-11-01</b> 544 translations in 292 languages with 9,719,079 verses.<br /></p>
 
 <p><b>2025-09-01</b> 538 translations now available in 291 languages.<br /></p>
 
@@ -1277,7 +1271,7 @@ $G_COMMENT
 <p><b>2024-02-04</b> 352 translations now available in 142 languages.<br /></p>
 
 <p>
-<b>2023-12-04</b> <a href='rear-2-glossary.xhtml#g1653' title='Aionian Glossary g165'>Eleēsē (g1653)</a> added to the <a href='rear-2-glossary.xhtml' title='View Aionian Glossary'>Aionian Glossary</a>.<br />
+<b>2023-12-04</b> <a href='rear-2-glossary.xhtml#g1653' title='Aionian Glossary g1653'>Eleēsē (g1653)</a> added to the <a href='rear-2-glossary.xhtml' title='View Aionian Glossary'>Aionian Glossary</a>.<br />
 </p>
 
 <p>
@@ -1355,7 +1349,7 @@ $G_COMMENT
 <p><b>1975-06-21</b> Two boys, P. and J., wonder if Jesus saves all and pray.<br /></p>
 
 <p><a href='index.xhtml' title='Table of Contents'>TOC</a></p>
-</body>
+</div></body>
 </html>
 EOF;
 if (file_put_contents($file, $contents) === FALSE) { AION_ECHO("ERROR! AION_FILE_DATA_PUT file_put_contents($file)"); }
@@ -1381,7 +1375,7 @@ $G_COMMENT
 <title>$G_TITLE, Glossary</title>
 <link href='epub.css' rel='stylesheet' />
 </head>
-<body>
+<body><div role='main'>
 <h1 class='title'>$W_GLOS</h1>
 <p class='center'>$languagehtml<a href='https://www.AionianBible.org/Glossary' target='_blank'>www.AionianBible.org/Glossary</a></p>
 <p>The <i>Aionian Bible</i> untranslates and instead transliterates eleven special words to help us better understand the extent of God’s love for individuals and all mankind, and the nature of afterlife destinies.  The original translation is unaltered and a note is added to 64 Old Testament and 200 New Testament verses. Compare the definitions below to the <a href='https://www.aionianbible.org/Strongs' target='_blank' title='Visit the Strongs Concordance'>Strong's Concordance</a>.  Follow the links below to study the word's usage.</p>
@@ -1477,7 +1471,7 @@ Questioned verse translations do not contain Aionian Glossary words, but may wro
 <br />
 $questioned
 <p><a href='index.xhtml' title='Table of Contents'>TOC</a></p>
-</body>
+</div></body>
 </html>
 EOF;
 if (file_put_contents($file, $contents) === FALSE) { AION_ECHO("ERROR! AION_FILE_DATA_PUT file_put_contents($file)"); }
@@ -1500,14 +1494,14 @@ $G_COMMENT
 <title>$G_TITLE, History Past</title>
 <link href='epub.css' rel='stylesheet' />
 </head>
-<body>
+<body><div role='main'>
 <h1 class='title'>History Past</h1>
 <div class='cover'><img src="images/HISTORY-PAST.jpg" alt="History Past" /></div>
 
 <p>Derived from <a href='https://www.aionianbible.org/Ussher' target='_blank' title='Download PDF'>The Annals of the World by James Ussher</a> and <a href='https://www.aionianbible.org/Wikipedia-Timeline-of-Christian-Missions' target='_blank' title='Visit Wikipedia'>Timeline of Christian missions, Wikipedia</a>.</p>
 
 <p><a href='index.xhtml' title='Table of Contents'>TOC</a> / <a href='https://www.aionianbible.org/Timeline' target='_blank' title='Download printable chart'>Printable version</a></p>
-</body>
+</div></body>
 </html>
 EOF;
 if (file_put_contents($file, $contents) === FALSE) { AION_ECHO("ERROR! AION_FILE_DATA_PUT file_put_contents($file)"); }
@@ -1530,7 +1524,7 @@ $G_COMMENT
 <title>$G_TITLE, History Future</title>
 <link href='epub.css' rel='stylesheet' />
 </head>
-<body>
+<body><div role='main'>
 <h1 class='title'>History Future</h1>
 
 <div class='cover'><img src="images/HISTORY-FUTURE.jpg" alt="History Future" /></div>
@@ -1538,7 +1532,7 @@ $G_COMMENT
 <p>The chart indicates the whereabouts of God, mankind, and angels throughout the ages of history.  Note that the punishment of deceased unbelieving mankind in Hadēs is temporal as promised when Jesus said <i>“the gates of Hadēs will not prevail”</i>, Paul wrote <i>“Hadēs where is your victory?”</i>, and John wrote <i>“Hadēs gives up.”</i>  Also note that certain fallen angels are already held in a separate prison, Tartarus, awaiting final judgment and sentencing to the Lake of Fire which is <i>“prepared for the Devil and his angels,”</i> according to Matthew 25:41.  Satan’s rebellion will be crushed and Christ will be victorious in the salvation of all his people.  You too can know your name is already written in Heaven through faith in Jesus Christ!</p>
 
 <p><a href='index.xhtml' title='Table of Contents'>TOC</a> / <a href='https://www.aionianbible.org/Future' target='_blank' title='Download printable chart'>Printable version</a></p>
-</body>
+</div></body>
 </html>
 EOF;
 if (file_put_contents($file, $contents) === FALSE) { AION_ECHO("ERROR! AION_FILE_DATA_PUT file_put_contents($file)"); }
@@ -1565,7 +1559,7 @@ $G_COMMENT
 <title>$G_TITLE, Destiny</title>
 <link href='epub.css' rel='stylesheet' />
 </head>
-<body>
+<body><div role='main'>
 <h1 class='title'>$W_DESTINY</h1>
 <p class='center'>$languagehtml<a href='https://www.AionianBible.org/Destiny' target='_blank'>www.AionianBible.org/Destiny</a></p>
 
@@ -1581,7 +1575,7 @@ $G_COMMENT
 <p>Faith is not a pen to write your own name in the Book of Life. Instead, faith is the glasses to see that the love of Christ for all mankind has already written our names in Heaven. <i>“If the first fruit is holy, so is the lump,”</i> {$links->X_ROM_1116}.  Though unbelievers will suffer regrettable punishment in Hadēs, redeemed mankind will never enter the Lake of Fire, prepared for the Devil and his angels. And as God promised, all mankind will worship Christ together forever, {$links->X_PHI_2}.</p>
 
 <p><a href='index.xhtml' title='Table of Contents'>TOC</a></p>
-</body>
+</div></body>
 </html>
 EOF;
 if (file_put_contents($file, $contents) === FALSE) { AION_ECHO("ERROR! AION_FILE_DATA_PUT file_put_contents($file)"); }
@@ -1607,10 +1601,10 @@ $G_COMMENT
 <title>$title</title>
 <link href='epub.css' rel='stylesheet' />
 </head>
-<body>
+<body><div role='main'>
 $htitle
 <div class='cov'><img src="$image" alt="$title" /></div>
-</body>
+</div></body>
 </html>
 EOF;
 if (file_put_contents($file, $contents) === FALSE) { AION_ECHO("ERROR! AION_FILE_DATA_PUT file_put_contents($file)"); }
@@ -1636,12 +1630,13 @@ $G_COMMENT
 <title>$title</title>
 <link href='epub.css' rel='stylesheet' />
 </head>
-<body>$htitle
+<body><div role='main'>
+$htitle
 <div class='map $css'><img src="$image" alt="$title" /></div>
 $verse
 
 <p><a href='index.xhtml' title='Table of Contents'>TOC</a>$map</p>
-</body>
+</div></body>
 </html>
 EOF;
 if (file_put_contents($file, $contents) === FALSE) { AION_ECHO("ERROR! AION_EPUBY_IMAGE_VERSE_XHTML file_put_contents($file)"); }
