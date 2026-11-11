@@ -66,7 +66,7 @@ div.df-ui-btn.df-ui-fullscreen {
 </div>
 <div id='welcome'>
 <h1>DearFlip Flipbook Viewer</h1>
-Click <span style='color: #663399;'>purple button</span> below for full screen.<br>
+Click full-screen button below (<span style='color: #663399;'>purple</span> bottom right).<br>
 </div>
 </div>
 

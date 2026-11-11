@@ -2,7 +2,7 @@
 /*** GLOSSARY - static content, except for dynamic internal href links ***/
 /*
 My counts differ from STEPBible TAGS
-Aion	STEP=129 by including MAT6:13 and 2PE2:17, but I maintain 127
+Aion	STEP=129 by including MAT6:13 and 2PE2:17, I originally maintained 127, now 129
 Hadēs	STEP=10 because 1CO15:55 is a variant, but I manually add it to match 11
 */
 global $_Part;

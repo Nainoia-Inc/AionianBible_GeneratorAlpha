@@ -35,9 +35,6 @@ window.onload = function() {
 	AB_Bookmark2 = AionianBible_readCookie("AionianBible.Bookmark2");
 	AB_Accessible = document.getElementById("body");
 	if (null!==AB_Accessible) {
-		AB_Accessible.className = AionianBible_readCookie("AionianBible.Accessible");
-	}
-	if (null!==AB_Accessible) {
 		AB_Accessible.className = AionianBible_readCookie("AionianBible.Accessible") || '';
 		document.getElementById('accessible').setAttribute('aria-label', 'Text size: ' + (({'':'normal','large':'large','larger':'largest'})[AB_Accessible.className] || 'normal'));
 	}
@@ -74,8 +71,8 @@ function AionianBible_Accessible() {
 			AB_Accessible.className = "larger";
 			AionianBible_writeCookie("AionianBible.Accessible", "larger");
 		}
+		document.getElementById('accessible').setAttribute('aria-label', 'Text size: ' + (({'':'normal','large':'large','larger':'largest'})[AB_Accessible.className] || 'normal'));
 	}
-	document.getElementById('accessible').setAttribute('aria-label', 'Text size: ' + (({'':'normal','large':'large','larger':'largest'})[AB_Accessible.className] || 'normal'));
 	return false;
 }
 // goto bookmark
