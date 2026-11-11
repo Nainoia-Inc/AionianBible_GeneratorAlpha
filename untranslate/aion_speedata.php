@@ -207,10 +207,10 @@ function AION_LOOP_PDF_POD($source, $destiny) {
 		'q_epubc'	=> TRUE,	// TRUE = do ePub and covers
 		//'include'	=> "/Holy-Bible---.*(Arabic|Syriac-Peshitta|Persian|Sorani-Bible|Urdu-Free-Contemporary|Hebrew).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Uyghur-Bible-Arabic|Arabic-Van-Dyck-Bible|Hebrew-Westminster-Leningrad).*---Aionian-Edition\.noia$/",
-		'include'	=> "/Holy-Bible---.*(One-Unity-Resource|Gayl-Bible|Melo-Bible).*---Aionian-Edition\.noia$/",
+		//'include'	=> "/Holy-Bible---.*(One-Unity-Resource|Gayl-Bible|Melo-Bible).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---Abureni---Abureni-Bible---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---Spanish---Free-for-the-World---Aionian-Edition\.noia$/",
-		//'include'	=> "/---Aionian-Edition\.noia$/",
+		'include'	=> "/---Aionian-Edition\.noia$/",
 		'database'	=> $database,
 		'destiny'	=> $destiny,
 		'verses66'	=> $verses66,

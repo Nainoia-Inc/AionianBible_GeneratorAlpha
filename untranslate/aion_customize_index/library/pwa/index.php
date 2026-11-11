@@ -270,7 +270,7 @@ EOL;
 $path = trim(strtok($_SERVER['REQUEST_URI'],'?'),'/\?');
 $_Message = NULL;
 // output error message
-if (!empty($_SERVER['QUERY_STRING']) ||
+if ((!empty($_SERVER['QUERY_STRING']) && !preg_match('/^(?:(?:fbclid|gclid|msclkid|utm_[a-z]+)=[^&]*&?)+$/', $_SERVER['QUERY_STRING'])) ||
 	(!empty($path) && !preg_match("#".preg_quote($path, '#')."$#ui", dirname(__FILE__)))) {
 	http_response_code(404);
 	$_Message = "<span style='color:red;'>Sorry page requested not found<br><br></span>";
@@ -288,6 +288,7 @@ echo <<< EOF
 <meta name="description" content="Holy Bible Aionian Edition® ~ The world's first Holy Bible untranslation! ~ Progressive Web Application">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="theme-color" content="#2B1A42">
+<meta name="color-scheme" content="light dark">
 <meta name="generator" content="ABCMS™">
 <meta property="og:url" content="https://www.aionianbible.org/pwa">
 <meta property="og:type" content="website">

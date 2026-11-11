@@ -37,6 +37,10 @@ window.onload = function() {
 	if (null!==AB_Accessible) {
 		AB_Accessible.className = AionianBible_readCookie("AionianBible.Accessible");
 	}
+	if (null!==AB_Accessible) {
+		AB_Accessible.className = AionianBible_readCookie("AionianBible.Accessible") || '';
+		document.getElementById('accessible').setAttribute('aria-label', 'Text size: ' + (({'':'normal','large':'large','larger':'largest'})[AB_Accessible.className] || 'normal'));
+	}
 	if (true===AB_Collapse) {
 		AionianBible_CollapseExpand("ab-lexicon", null);
 	}
@@ -71,6 +75,7 @@ function AionianBible_Accessible() {
 			AionianBible_writeCookie("AionianBible.Accessible", "larger");
 		}
 	}
+	document.getElementById('accessible').setAttribute('aria-label', 'Text size: ' + (({'':'normal','large':'large','larger':'largest'})[AB_Accessible.className] || 'normal'));
 	return false;
 }
 // goto bookmark
