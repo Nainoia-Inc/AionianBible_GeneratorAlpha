@@ -729,7 +729,7 @@ EOT;
 		if (!rename("$bible$destiny_READ.pdf",					"../$bible$destiny_READ.pdf")) {					AION_ECHO("WARN! SPEEDATA: rename $bible$destiny_READ.pdf");				$scripterr = TRUE; }
 	}
 	if ($args['q_pdfall'] || $args['q_epubc']) {
-		system("convert $bible$destiny_EPUB.pdf -resize 1707x2560 -sharpen 0x3 ../$bible$destiny_EPUB.jpg");
+		system("convert $bible$destiny_EPUB.pdf -strip -quality 80 -sampling-factor 4:2:0 -resize 900x -sharpen 0x2 ../$bible$destiny_EPUB.jpg");
 		if (!unlink("$bible$destiny_EPUB.pdf")) {																	AION_ECHO("WARN! SPEEDATA: unlink $bible$destiny_EPUB.pdf");				$scripterr = TRUE; }
 	}
 	if ($args['q_pdfall'] || $args['q_pdfpo']) {
@@ -915,6 +915,7 @@ function hyperlink(&$text, $notedlink="") {
 function AION_LOOP_PDF_POD_LAYOUT_BODY($versions,$forprint,$default,$newtonly,$format,$numarialfont,$outpdf) {
 global $speedata_version;
 // settings	
+$bcopyright	= (empty($versions['ABCOPYRIGHT'])		? ("Creative Commons Attribution 4.0 International, 2018-".date("Y")) : $versions['ABCOPYRIGHT']);
 $langforeign= (!empty($versions['LANGUAGE'])		? trim($versions['LANGUAGE']): NULL						);
 $langenglish= (!empty($versions['LANGUAGEENGLISH'])	? trim($versions['LANGUAGEENGLISH']): NULL				);
 $country	= (!empty($versions['COUNTRY'])			? trim($versions['COUNTRY']): NULL						);
@@ -1287,7 +1288,7 @@ $fonts = AION_LOOP_PDF_POD_FONTS($font,$bsize,$bleading,$tsize,$tleading,$rsize,
 $versenumberlanguage = ($numarialfont ? "language='English (USA)'" : "" );
 // options
 $versionsMETA = "Holy Bible Aionian Edition, $versionE";
-$keywordsMETA = (empty($language) ? "English" : $language) . ", Holy Bible, Scriptures, Aionian, Aion, Aionios, eleese, Hades, Gehenna, Tartarus, Abyss, Lake of Fire, Aiōn, Aiōnios, eleēsē, Aïdios, Sheol, Hadēs, Geenna, Tartaroō, Abyssos, Limnē Pyr, Purple Bible, Untranslation";
+$keywordsMETA = (empty($language) ? "English" : $language) . ", Holy Bible, Christian, Scriptures, Aionian, Aion, Aionios, eleese, Hades, Gehenna, Tartarus, Abyss, Lake of Fire, Aiōn, Aiōnios, eleēsē, Aïdios, Sheol, Hadēs, Geenna, Tartaroō, Abyssos, Limnē Pyr, Purple Bible, Untranslation";
 // title page
 $versionFO_TI = "<Span $langspeed><Fontface fontfamily='$versionff'><Value>$version</Value></Fontface></Span>";
 $versionEN_TI = ($version == $versionE ? "" : "<Br /><Fontface fontfamily='FF-VerE'><Value>$versionE</Value></Fontface>" );
@@ -1328,6 +1329,7 @@ $testflag = "_$format";
 $allbooks = ($format=='POD22' || $format=='PODJO' ? 'false()' : 'true()');
 // online and study format
 $onlineformat = (($format=="READ" || $format=="STUDY") ? "true()" : "false()" );
+$pdfua = (($format=="READ" || $format=="STUDY") ? 'format="PDF/UA"' : '' );
 $rotated = (($format=="READ") ? "true()" : "false()" );
 $studyformat = (($format=="STUDY") ? "true()" : "false()" );
 $adjustpagenumbers = (($format=="READ" || $format=="STUDY") ? "false()" : "true()" );
@@ -1519,7 +1521,7 @@ $helpneeded = "<Value>We pray for a modern Creative Commons translation in every
 return <<<EOT
 <?xml version="1.0" encoding="UTF-8"?>
 <Layout xmlns="urn:speedata.de:2009/publisher/en" xmlns:sd="urn:speedata:2009/publisher/functions/en">
-<PDFOptions author="Nainoia Inc" title="$versionsMETA (CC BY 4.0)" subject="The World's First Holy Bible Untranslation, the Gospel of Jesus Christ" keywords="$keywordsMETA" displaymode="bookmarks" />
+<PDFOptions author="Nainoia Inc" creator="ABCMS" producer="$speedata_version" title="$versionsMETA" copyright="$bcopyright" subject="The World's First Holy Bible Untranslation, the Gospel of Jesus Christ" keywords="$keywordsMETA" displaymode="bookmarks" pagelayout="singlepage" $pdfua/>
 <Options reportmissingglyphs="warning" mainlanguage="English (USA)" />
 <Options html="off"/>
 $fonts
@@ -1606,10 +1608,10 @@ $fonts
 	</PositioningArea>
 	<AtPageCreation>
 		<PlaceObject row="$BOTTOM_ROW" column="1">
-			<Textblock width="$BOTTOM_WIDTH" minheight="3" fontfamily="FF-Foot" textformat="footerleft"><Paragraph language="{\$lang}"><B><Value select="\$book"/></B></Paragraph></Textblock>
+			<Textblock width="$BOTTOM_WIDTH" minheight="3" fontfamily="FF-Foot" textformat="footerleft"><Paragraph language="{\$lang}" role="Artifact"><B><Value select="\$book"/></B></Paragraph></Textblock>
 		</PlaceObject>
 		<PlaceObject row="$BOTTOM_ROW" column="$BOTTOM_CENTER">
-			<Textblock width="3" minheight="3" fontfamily="FF-Fnum" textformat="footercenter"><Paragraph><Value select="sd:current-page() - \$pagesextra"/></Paragraph></Textblock>
+			<Textblock width="3" minheight="3" fontfamily="FF-Fnum" textformat="footercenter"><Paragraph role="Artifact"><Value select="sd:current-page() - \$pagesextra"/></Paragraph></Textblock>
 		</PlaceObject>
 	</AtPageCreation>
 </Pagetype>
@@ -1620,10 +1622,10 @@ $fonts
 	</PositioningArea>
 	<AtPageCreation>
 		<PlaceObject row="$BOTTOM_ROW" column="1">
-<Textblock width="$BOTTOM_WIDTH" minheight="3" fontfamily="FF-Foot" textformat="footerleft"><Paragraph language="{\$lang}"><B><Value select="\$book"/></B></Paragraph></Textblock>
+<Textblock width="$BOTTOM_WIDTH" minheight="3" fontfamily="FF-Foot" textformat="footerleft"><Paragraph language="{\$lang}" role="Artifact"><B><Value select="\$book"/></B></Paragraph></Textblock>
 		</PlaceObject>
 		<PlaceObject row="$BOTTOM_ROW" column="$BOTTOM_CENTER">
-			<Textblock width="3" minheight="3" fontfamily="FF-Fnum" textformat="footercenter"><Paragraph><Value select="sd:current-page() - \$pagesextra"/></Paragraph></Textblock>
+			<Textblock width="3" minheight="3" fontfamily="FF-Fnum" textformat="footercenter"><Paragraph role="Artifact"><Value select="sd:current-page() - \$pagesextra"/></Paragraph></Textblock>
 		</PlaceObject>
 	</AtPageCreation>
 </Pagetype>
@@ -1637,10 +1639,10 @@ $fonts
 	</PositioningArea>
 	<AtPageCreation>
 		<PlaceObject row="$BOTTOM_ROW" column="$BOTTOM_RIGHT_RIGHT">
-			<Textblock width="$BOTTOM_WIDTH" minheight="3" fontfamily="FF-Foot" textformat="$FOOTERRIGHT"><Paragraph language="{\$lang}"><B><Value select="\$book"/></B></Paragraph></Textblock>
+			<Textblock width="$BOTTOM_WIDTH" minheight="3" fontfamily="FF-Foot" textformat="$FOOTERRIGHT"><Paragraph language="{\$lang}" role="Artifact"><B><Value select="\$book"/></B></Paragraph></Textblock>
 		</PlaceObject>
 		<PlaceObject row="$BOTTOM_ROW" column="$BOTTOM_CENTER">
-			<Textblock width="3" minheight="3" fontfamily="FF-Fnum" textformat="footercenter"><Paragraph><Value select="sd:current-page() - \$pagesextra"/></Paragraph></Textblock>
+			<Textblock width="3" minheight="3" fontfamily="FF-Fnum" textformat="footercenter"><Paragraph role="Artifact"><Value select="sd:current-page() - \$pagesextra"/></Paragraph></Textblock>
 		</PlaceObject>
 	</AtPageCreation>
 </Pagetype>
@@ -1652,10 +1654,10 @@ $fonts
 	</PositioningArea>
 	<AtPageCreation>
 		<PlaceObject row="$BOTTOM_ROW" column="$BOTTOM_LEFT_LEFT">
-			<Textblock width="$BOTTOM_WIDTH" minheight="3" fontfamily="FF-Foot" textformat="$FOOTERLEFT"><Paragraph language="{\$lang}"><B><Value select="\$book"/></B></Paragraph></Textblock>
+			<Textblock width="$BOTTOM_WIDTH" minheight="3" fontfamily="FF-Foot" textformat="$FOOTERLEFT"><Paragraph language="{\$lang}" role="Artifact"><B><Value select="\$book"/></B></Paragraph></Textblock>
 		</PlaceObject>
 		<PlaceObject row="$BOTTOM_ROW" column="$BOTTOM_CENTER">
-			<Textblock width="3" minheight="3" fontfamily="FF-Fnum" textformat="footercenter"><Paragraph><Value select="sd:current-page() - \$pagesextra"/></Paragraph></Textblock>
+			<Textblock width="3" minheight="3" fontfamily="FF-Fnum" textformat="footercenter"><Paragraph role="Artifact"><Value select="sd:current-page() - \$pagesextra"/></Paragraph></Textblock>
 		</PlaceObject>
 	</AtPageCreation>
 </Pagetype>
@@ -1698,7 +1700,7 @@ $fonts
 	<Switch>
 		<Case test="$onlineformat">
 			<Bookmark level="1" select="'Title Page'" open="no" />
-			<PlaceObject row="0 in" column="0 in" allocate="no"><Image file='$PIX_COVER' height='11in' width='8.5in' clip='yes' /></PlaceObject>
+			<PlaceObject row="0 in" column="0 in" allocate="no"><Image file='$PIX_COVER' height='11in' width='8.5in' clip='yes' role='Artifact' /></PlaceObject>
 			<PlaceObject row="7" column="1"><Textblock><Paragraph textformat="right" color="white">
 				<Fontface fontfamily="FF-Holy"><Value>Holy Bible</Value></Fontface><Br />
 				<Fontface fontfamily="FF-Aion"><Value>Aionian </Value></Fontface>
@@ -1706,7 +1708,7 @@ $fonts
 				<Fontface fontfamily="FF-AioR"><Value>®</Value></Fontface>
 			</Paragraph></Textblock></PlaceObject>
 
-			<PlaceObject row="62" column="1"><Textblock><Paragraph language="English (USA)" textformat="right" color="white" $bidi_title>
+			<PlaceObject row="62" column="1"><Textblock><Paragraph language="English (USA)" textformat="right" color="white" role="H1" $bidi_title>
 				$versionFO_TI
 				$versionEN_TI
 				$versionNT_TI
@@ -1827,7 +1829,7 @@ $fonts
 <Switch><Case test="'$format'!='PODJO'">
 		<ClearPage openon="right" pagetype="$page1colright" />
 		<Bookmark level="1" select="'$bm_old'" open="no" />
-		<PlaceObject row="1" column="1"><Textblock><Paragraph language="Other" textformat="$TITLEJUSTIFICATION">$w_old</Paragraph></Textblock></PlaceObject>
+		<PlaceObject row="1" column="1"><Textblock><Paragraph language="Other" textformat="$TITLEJUSTIFICATION" role="H1">$w_old</Paragraph></Textblock></PlaceObject>
 		<Message select="concat('ABPROOFER $outpdf OT-INTRO ',sd:current-page())" />
 </Case>
 <Otherwise>
@@ -1835,7 +1837,7 @@ $fonts
 </Otherwise>
 </Switch>
 		<ClearPage openon="left" pagetype="$page1colleft" />
-		<PlaceObject row="1" column="1"><Image file='$PIX_OLD' width='$MARGIN_SINGLE_WIDTH' /></PlaceObject>
+		<PlaceObject row="1" column="1"><Image file='$PIX_OLD' width='$MARGIN_SINGLE_WIDTH' description='Old Testament, Adam and Eve expelled from Eden' /></PlaceObject>
 		<PlaceObject row="105" column="5"><Textblock width="69">$gen3_24</Textblock></PlaceObject>
 		<Message select="concat('ABPROOFER $outpdf OT-PIX ',sd:current-page())" />
 	</Case>
@@ -1859,7 +1861,7 @@ $fonts
 <Switch><Case test="'$format'!='PODJO'">
 		<ClearPage openon="right" pagetype="$page1colright" skippagetype="$page1colleft" />
 		<Bookmark level="1" select="'$bm_new'" open="no" />
-		<PlaceObject row="1" column="1"><Textblock><Paragraph language="Other" textformat="$TITLEJUSTIFICATION">$w_new</Paragraph></Textblock></PlaceObject>
+		<PlaceObject row="1" column="1"><Textblock><Paragraph language="Other" textformat="$TITLEJUSTIFICATION" role="H1">$w_new</Paragraph></Textblock></PlaceObject>
 		<Message select="concat('ABPROOFER $outpdf NT-INTRO ',sd:current-page())" />
 </Case>
 <Otherwise>
@@ -1867,7 +1869,7 @@ $fonts
 </Otherwise>
 </Switch>
 		<ClearPage openon="left" pagetype="$page1colleft" />
-		<PlaceObject row="1" column="1"><Image file='$PIX_NEW' width='$MARGIN_SINGLE_WIDTH' /></PlaceObject>
+		<PlaceObject row="1" column="1"><Image file='$PIX_NEW' width='$MARGIN_SINGLE_WIDTH' description='New Testament, Christ crucified' /></PlaceObject>
 		<PlaceObject row="105" column="5"><Textblock width="69">$luk23_34</Textblock></PlaceObject>
 		<Message select="concat('ABPROOFER $outpdf NT-PIX ',sd:current-page())" />
 	</Case>
@@ -1900,7 +1902,7 @@ $fonts
 	<!-- BIBLE PICTURE -->
 	<ClearPage openon="left" pagetype="$page1colleft" skippagetype="$page1colright"/>	
 	<Bookmark level="1" select="'$bm_apdx'" open="no" />
-	<PlaceObject row="1" column="1"><Image file='$PIX_END' width='$MARGIN_SINGLE_WIDTH' /></PlaceObject>
+	<PlaceObject row="1" column="1"><Image file='$PIX_END' width='$MARGIN_SINGLE_WIDTH' description='Glory and The New Jerusalem' /></PlaceObject>
 	<PlaceObject row="105" column="5"><Textblock width="69">$rev21_2_3</Textblock></PlaceObject>
 	<Message select="concat('ABPROOFER $outpdf END-PIX ',sd:current-page())" />
 </Otherwise>
@@ -1944,31 +1946,31 @@ $fonts
 		<Case test="$rotated">
 			<ClearPage openon="left" pagetype="$page1colleftrotated"/>
 			<Bookmark level="1" select="'$bm_map'" open="no" />
-			<PlaceObject row="1" column="1" background='full' background-color='white' frame='solid' framecolor='black' rulewidth='1pt' allocate='no'><Image file='$PIX_MAP_ABRAHAM' height='$MARGIN_MAPS_WIDTH' width='$MARGIN_MAPS_HEIGHT' clip='no' rotate='90' /></PlaceObject>
+			<PlaceObject row="1" column="1" background='full' background-color='white' frame='solid' framecolor='black' rulewidth='1pt' allocate='no'><Image file='$PIX_MAP_ABRAHAM' height='$MARGIN_MAPS_WIDTH' width='$MARGIN_MAPS_HEIGHT' clip='no' rotate='90' description="Abraham's journeys" /></PlaceObject>
 			<PlaceObject row="$MARGIN_MAPS_COLUMN" column="1" allocate="no"><Textblock width='$MARGIN_MAPS_HEIGHT_W'>$heb11_8</Textblock></PlaceObject>
 			<Message select="concat('ABPROOFER $outpdf MAP1 ',sd:current-page())" />
 
 			<ClearPage openon="right" pagetype="$page1colrightrotated"/>
-			<PlaceObject row="1" column="1" background='full' background-color='white' frame='solid' framecolor='black' rulewidth='1pt'><Image file='$PIX_MAP_EXODUS' height='$MARGIN_MAPS_WIDTH' width='$MARGIN_MAPS_HEIGHT' clip='no' rotate='90' /></PlaceObject>
+			<PlaceObject row="1" column="1" background='full' background-color='white' frame='solid' framecolor='black' rulewidth='1pt'><Image file='$PIX_MAP_EXODUS' height='$MARGIN_MAPS_WIDTH' width='$MARGIN_MAPS_HEIGHT' clip='no' rotate='90' description="Israel's Exodus" /></PlaceObject>
 			<PlaceObject row="$MARGIN_MAPS_COLUMN" column="1" allocate="no"><Textblock width='$MARGIN_MAPS_HEIGHT_W'>$exo13_17</Textblock></PlaceObject>
 			<Message select="concat('ABPROOFER $outpdf MAP2 ',sd:current-page())" />
 
 			<ClearPage openon="left" pagetype="$page1colleft"/>
-			<PlaceObject row="1" column="1" background='full' background-color='white' frame='solid' framecolor='black' rulewidth='1pt' allocate='no'><Image file='$PIX_MAP_JESUS' height='$MARGIN_MAPS_HEIGHT' width='$MARGIN_MAPS_WIDTH' clip='no' /></PlaceObject>
+			<PlaceObject row="1" column="1" background='full' background-color='white' frame='solid' framecolor='black' rulewidth='1pt' allocate='no'><Image file='$PIX_MAP_JESUS' height='$MARGIN_MAPS_HEIGHT' width='$MARGIN_MAPS_WIDTH' clip='no' description="Jesus' journeys" /></PlaceObject>
 			<PlaceObject row="$MARGIN_MAPS_HEIGHT" column="$MARGIN_MAPS_COLUMN" rotate="-90" allocate="no"><Textblock width='$MARGIN_MAPS_HEIGHT_W'>$mar10_45</Textblock></PlaceObject>
 			<Message select="concat('ABPROOFER $outpdf MAP3 ',sd:current-page())" />
 
 			<ClearPage openon="right" pagetype="$page1colrightrotated"/>
-			<PlaceObject row="1" column="1" background='full' background-color='white' frame='solid' framecolor='black' rulewidth='1pt' allocate='no'><Image file='$PIX_MAP_PAUL' height='$MARGIN_MAPS_WIDTH' width='$MARGIN_MAPS_HEIGHT' clip='no' rotate='90' /></PlaceObject>
+			<PlaceObject row="1" column="1" background='full' background-color='white' frame='solid' framecolor='black' rulewidth='1pt' allocate='no'><Image file='$PIX_MAP_PAUL' height='$MARGIN_MAPS_WIDTH' width='$MARGIN_MAPS_HEIGHT' clip='no' rotate='90' description="Paul's missionary journeys" /></PlaceObject>
 			<PlaceObject row="$MARGIN_MAPS_COLUMN" column="1" allocate="no"><Textblock width='$MARGIN_MAPS_HEIGHT_W'>$rom1_1</Textblock></PlaceObject>
 			<Message select="concat('ABPROOFER $outpdf MAP4 ',sd:current-page())" />
 
 			<ClearPage openon="left" pagetype="$page1colleftrotated"/>
-			<PlaceObject row="1" column="1" background='full' background-color='white' frame='solid' framecolor='black' rulewidth='1pt'><Image file='$PIX_TIMEA' height='$MARGIN_MAPS_WIDTH_TIME' width='$MARGIN_MAPS_HEIGHT_TIME' clip='no' /></PlaceObject>
+			<PlaceObject row="1" column="1" background='full' background-color='white' frame='solid' framecolor='black' rulewidth='1pt'><Image file='$PIX_TIMEA' height='$MARGIN_MAPS_WIDTH_TIME' width='$MARGIN_MAPS_HEIGHT_TIME' clip='no' description='History past' /></PlaceObject>
 			<Message select="concat('ABPROOFER $outpdf TIMEA ',sd:current-page())" />
 
 			<ClearPage openon="right" pagetype="$page1colrightrotated"/>
-			<PlaceObject row="1" column="1" background='full' background-color='white' ><Image file='$PIX_TIMEB' height='$MARGIN_MAPS_WIDTH_TIME' width='$MARGIN_MAPS_HEIGHT_TIME' clip='no' /></PlaceObject>
+			<PlaceObject row="1" column="1" background='full' background-color='white' ><Image file='$PIX_TIMEB' height='$MARGIN_MAPS_WIDTH_TIME' width='$MARGIN_MAPS_HEIGHT_TIME' clip='no' description='History future' /></PlaceObject>
 			<Message select="concat('ABPROOFER $outpdf TIMEB ',sd:current-page())" />
 
 			<!-- LAKE OF FIRE -->
@@ -1978,57 +1980,57 @@ $fonts
 			<Message select="concat('ABPROOFER $outpdf LAKEOFFIRE ',sd:current-page())" />
 
 			<ClearPage openon="right" pagetype="$page1colrightrotated"/>
-			<PlaceObject row="1" column="1" background='full' background-color='white' frame='solid' framecolor='black' rulewidth='1pt'><Image file='$PIX_MAP_WORLD' height='$MARGIN_MAPS_WIDTH' width='$MARGIN_MAPS_HEIGHT' clip='no' rotate='90' /></PlaceObject>
+			<PlaceObject row="1" column="1" background='full' background-color='white' frame='solid' framecolor='black' rulewidth='1pt'><Image file='$PIX_MAP_WORLD' height='$MARGIN_MAPS_WIDTH' width='$MARGIN_MAPS_HEIGHT' clip='no' rotate='90' description='Great Commission world map' /></PlaceObject>
 			<PlaceObject row="$MARGIN_MAPS_COLUMN" column="1" allocate="no"><Textblock width='$MARGIN_MAPS_HEIGHT_W'>$mat28_19</Textblock></PlaceObject>
 			<Message select="concat('ABPROOFER $outpdf MAP5 ',sd:current-page())" />
 		</Case>
 		<Otherwise>
 			<ClearPage openon="left" pagetype="$page1colleft"/>
 			<Bookmark level="1" select="'$bm_map'" open="no" />
-			<PlaceObject row="1" column="1" background='full' background-color='white' frame='solid' framecolor='black' rulewidth='1pt'><Image file='$PIX_MAP_ABRAHAM' height='$MARGIN_MAPS_HEIGHT' width='$MARGIN_MAPS_WIDTH' clip='no' /></PlaceObject>
+			<PlaceObject row="1" column="1" background='full' background-color='white' frame='solid' framecolor='black' rulewidth='1pt'><Image file='$PIX_MAP_ABRAHAM' height='$MARGIN_MAPS_HEIGHT' width='$MARGIN_MAPS_WIDTH' clip='no' description="Abraham's journeys" /></PlaceObject>
 			<PlaceObject row="$MARGIN_MAPS_HEIGHT" column="$MARGIN_MAPS_COLUMN" rotate="-90" allocate="no"><Textblock width='$MARGIN_MAPS_HEIGHT_W'>$heb11_8</Textblock></PlaceObject>
 			<Message select="concat('ABPROOFER $outpdf MAP1 ',sd:current-page())" />
 
 			<ClearPage openon="right" pagetype="$page1colright"/>
-			<PlaceObject row="1" column="1" background='full' background-color='white' frame='solid' framecolor='black' rulewidth='1pt'><Image file='$PIX_MAP_EXODUS' height='$MARGIN_MAPS_HEIGHT' width='$MARGIN_MAPS_WIDTH' clip='no' /></PlaceObject>
+			<PlaceObject row="1" column="1" background='full' background-color='white' frame='solid' framecolor='black' rulewidth='1pt'><Image file='$PIX_MAP_EXODUS' height='$MARGIN_MAPS_HEIGHT' width='$MARGIN_MAPS_WIDTH' clip='no' description="Israel's Exodus" /></PlaceObject>
 			<PlaceObject row="$MARGIN_MAPS_HEIGHT" column="$MARGIN_MAPS_COLUMN" rotate="-90" allocate="no"><Textblock width='$MARGIN_MAPS_HEIGHT_W'>$exo13_17</Textblock></PlaceObject>
 			<Message select="concat('ABPROOFER $outpdf MAP2 ',sd:current-page())" />
 
 			<ClearPage openon="left" pagetype="$page1colleft"/>
-			<PlaceObject row="1" column="1" background='full' background-color='white' frame='solid' framecolor='black' rulewidth='1pt'><Image file='$PIX_MAP_JESUS' height='$MARGIN_MAPS_HEIGHT' width='$MARGIN_MAPS_WIDTH' clip='no' /></PlaceObject>
+			<PlaceObject row="1" column="1" background='full' background-color='white' frame='solid' framecolor='black' rulewidth='1pt'><Image file='$PIX_MAP_JESUS' height='$MARGIN_MAPS_HEIGHT' width='$MARGIN_MAPS_WIDTH' clip='no' description="Jesus' journeys" /></PlaceObject>
 			<PlaceObject row="$MARGIN_MAPS_HEIGHT" column="$MARGIN_MAPS_COLUMN" rotate="-90" allocate="no"><Textblock width='$MARGIN_MAPS_HEIGHT_W'>$mar10_45</Textblock></PlaceObject>
 			<Message select="concat('ABPROOFER $outpdf MAP3 ',sd:current-page())" />
 
 			<ClearPage openon="right" pagetype="$page1colright"/>
-			<PlaceObject row="1" column="1" background='full' background-color='white' frame='solid' framecolor='black' rulewidth='1pt'><Image file='$PIX_MAP_PAUL' height='$MARGIN_MAPS_HEIGHT' width='$MARGIN_MAPS_WIDTH' clip='no' /></PlaceObject>
+			<PlaceObject row="1" column="1" background='full' background-color='white' frame='solid' framecolor='black' rulewidth='1pt'><Image file='$PIX_MAP_PAUL' height='$MARGIN_MAPS_HEIGHT' width='$MARGIN_MAPS_WIDTH' clip='no' description="Paul's missionary journeys" /></PlaceObject>
 			<PlaceObject row="$MARGIN_MAPS_HEIGHT" column="$MARGIN_MAPS_COLUMN" rotate="-90" allocate="no"><Textblock width='$MARGIN_MAPS_HEIGHT_W'>$rom1_1</Textblock></PlaceObject>
 			<Message select="concat('ABPROOFER $outpdf MAP4 ',sd:current-page())" />
 
 			<Switch>
 				<Case test="$studyformat">
 					<ClearPage openon="left" pagetype="$page1colleft"/>
-					<PlaceObject row="1" column="1" background='full' background-color='white' frame='solid' framecolor='black' rulewidth='1pt'><Image file='$PIX_TIMEA' height='$MARGIN_MAPS_HEIGHT_TIME' width='$MARGIN_MAPS_WIDTH_TIME' clip='no' rotate='-90'  /></PlaceObject>
+					<PlaceObject row="1" column="1" background='full' background-color='white' frame='solid' framecolor='black' rulewidth='1pt'><Image file='$PIX_TIMEA' height='$MARGIN_MAPS_HEIGHT_TIME' width='$MARGIN_MAPS_WIDTH_TIME' clip='no' rotate='-90'  description="History past" /></PlaceObject>
 					<Message select="concat('ABPROOFER $outpdf TIMEA ',sd:current-page())" />
 
 					<ClearPage openon="right" pagetype="$page1colright"/>
-					<PlaceObject row="1" column="1" background='full' background-color='white' ><Image file='$PIX_TIMEB' height='$MARGIN_MAPS_HEIGHT_TIME' width='$MARGIN_MAPS_WIDTH_TIME' clip='no' rotate='-90'  /></PlaceObject>
+					<PlaceObject row="1" column="1" background='full' background-color='white' ><Image file='$PIX_TIMEB' height='$MARGIN_MAPS_HEIGHT_TIME' width='$MARGIN_MAPS_WIDTH_TIME' clip='no' rotate='-90'  description="History future" /></PlaceObject>
 					<Message select="concat('ABPROOFER $outpdf TIMEB ',sd:current-page())" />
 				</Case>			
 				<Otherwise>
 					<ClearPage openon="left" pagetype="$page1colleft"/>
-					<PlaceObject row="1" column="1" background='full' background-color='white' frame='solid' framecolor='black' rulewidth='1pt'><Image file='$PIX_TIME1' height='$MARGIN_MAPS_HEIGHT_TIME' width='$MARGIN_MAPS_WIDTH_TIME' clip='no' /></PlaceObject>
+					<PlaceObject row="1" column="1" background='full' background-color='white' frame='solid' framecolor='black' rulewidth='1pt'><Image file='$PIX_TIME1' height='$MARGIN_MAPS_HEIGHT_TIME' width='$MARGIN_MAPS_WIDTH_TIME' clip='no' description="History past, page 1 of 2" /></PlaceObject>
 					<Message select="concat('ABPROOFER $outpdf TIME1 ',sd:current-page())" />
 
 					<ClearPage openon="right" pagetype="$page1colright"/>
-					<PlaceObject row="1" column="1" background='full' background-color='white' frame='solid' framecolor='black' rulewidth='1pt'><Image file='$PIX_TIME2' height='$MARGIN_MAPS_HEIGHT_TIME' width='$MARGIN_MAPS_WIDTH_TIME' clip='no' /></PlaceObject>
+					<PlaceObject row="1" column="1" background='full' background-color='white' frame='solid' framecolor='black' rulewidth='1pt'><Image file='$PIX_TIME2' height='$MARGIN_MAPS_HEIGHT_TIME' width='$MARGIN_MAPS_WIDTH_TIME' clip='no' description="History past, page 2 of 2" /></PlaceObject>
 					<Message select="concat('ABPROOFER $outpdf TIME2 ',sd:current-page())" />
 
 					<ClearPage openon="left" pagetype="$page1colleft"/>
-					<PlaceObject row="1" column="1" background='full' background-color='white' ><Image file='$PIX_TIME3' height='$MARGIN_MAPS_HEIGHT_TIME' width='$MARGIN_MAPS_WIDTH_TIME' clip='no' /></PlaceObject>
+					<PlaceObject row="1" column="1" background='full' background-color='white' ><Image file='$PIX_TIME3' height='$MARGIN_MAPS_HEIGHT_TIME' width='$MARGIN_MAPS_WIDTH_TIME' clip='no' description="History future, page 1 of 2" /></PlaceObject>
 					<Message select="concat('ABPROOFER $outpdf TIME3 ',sd:current-page())" />
 
 					<ClearPage openon="right" pagetype="$page1colright"/>
-					<PlaceObject row="1" column="1" background='full' background-color='white' ><Image file='$PIX_TIME4' height='$MARGIN_MAPS_HEIGHT_TIME' width='$MARGIN_MAPS_WIDTH_TIME' clip='no' /></PlaceObject>
+					<PlaceObject row="1" column="1" background='full' background-color='white' ><Image file='$PIX_TIME4' height='$MARGIN_MAPS_HEIGHT_TIME' width='$MARGIN_MAPS_WIDTH_TIME' clip='no' description="History future, page 2 of 2" /></PlaceObject>
 					<Message select="concat('ABPROOFER $outpdf TIME4 ',sd:current-page())" />
 				</Otherwise>
 			</Switch>
@@ -2040,7 +2042,7 @@ $fonts
 			<Message select="concat('ABPROOFER $outpdf LAKEOFFIRE ',sd:current-page())" />
 		
 			<ClearPage openon="right" pagetype="$page1colright"/>
-			<PlaceObject row="1" column="1" background='full' background-color='white' frame='solid' framecolor='black' rulewidth='1pt'><Image file='$PIX_MAP_WORLD' height='$MARGIN_MAPS_HEIGHT' width='$MARGIN_MAPS_WIDTH' clip='no' /></PlaceObject>
+			<PlaceObject row="1" column="1" background='full' background-color='white' frame='solid' framecolor='black' rulewidth='1pt'><Image file='$PIX_MAP_WORLD' height='$MARGIN_MAPS_HEIGHT' width='$MARGIN_MAPS_WIDTH' clip='no' description="Great Commission world map" /></PlaceObject>
 			<PlaceObject row="$MARGIN_MAPS_HEIGHT" column="$MARGIN_MAPS_COLUMN" rotate="-90" allocate="no"><Textblock width='$MARGIN_MAPS_HEIGHT_W'>$mat28_19</Textblock></PlaceObject>
 			<Message select="concat('ABPROOFER $outpdf MAP5 ',sd:current-page())" />
 		</Otherwise>
@@ -2073,7 +2075,7 @@ $fonts
 
 <!-- PRINT TOC -->
 <Record element="toc_element">
-	<PlaceObject row="1" column="1"><Textblock><Paragraph textformat="center">$w_toc<Br /></Paragraph></Textblock></PlaceObject>
+	<PlaceObject row="1" column="1"><Textblock><Paragraph textformat="center" role="H1">$w_toc<Br /></Paragraph></Textblock></PlaceObject>
 	<Switch>
 		<Case test="\$gotold='true'">
 			<PlaceObject row="8" column="$MARGIN_TOCS_LEFT" allocate="no"><Textblock fontfamily="FF-TOCS" textformat="toc" width="37"><Paragraph $bidi_table>
@@ -2117,7 +2119,7 @@ $fonts
 		<SetVariable variable="proof_gotfirst" select="'true'"/>
 		<Bookmark level="1" select="@BOOK" open="no" />
 		<SetVariable variable="toc_variable"><Copy-of select="\$toc_variable" />\n<Element name="oldtoc"><Attribute name="BOOK" select="@BOOK" /><Attribute name="LANG" select="@LANG" /><Attribute name="PAGE" select="sd:current-page() - \$pagesextra" /></Element></SetVariable>
-		<Output area="area2col"><Text fontfamily="FF-Book" textformat="$rtlbook"><Paragraph language="{\$lang}"><Value select="@BOOK"/></Paragraph></Text></Output>
+		<Output area="area2col"><Text fontfamily="FF-Book" textformat="$rtlbook"><Paragraph language="{\$lang}" role="H1"><Value select="@BOOK"/></Paragraph></Text></Output>
 		<ProcessNode select="chapter" mode="regular"/>
 	</Case></Switch>		
 </Record>
@@ -2136,7 +2138,7 @@ $fonts
 <Switch><Case test="'$format'='PODJO' and \$bookenglish='Revelation'">	
 	<!-- BIBLE PICTURE -->
 	<ClearPage openon="left" pagetype="$page1colleft" skippagetype="$page1colright"/>	
-	<PlaceObject row="1" column="1"><Image file='$PIX_END' width='$MARGIN_SINGLE_WIDTH' /></PlaceObject>
+	<PlaceObject row="1" column="1"><Image file='$PIX_END' width='$MARGIN_SINGLE_WIDTH' description="Glory and The New Jerusalem" /></PlaceObject>
 	<PlaceObject row="105" column="5"><Textblock width="69">$rev21_2_3</Textblock></PlaceObject>
 	<Message select="concat('ABPROOFER $outpdf END-PIX ',sd:current-page())" />
 </Case></Switch>
@@ -2145,7 +2147,7 @@ $fonts
 		<SetVariable variable="proof_gotfirst" select="'true'"/>
 		<Bookmark level="1" select="@BOOK" open="no" />
 		<SetVariable variable="toc_variable"><Copy-of select="\$toc_variable" />\n<Element name="newtoc"><Attribute name="BOOK" select="@BOOK" /><Attribute name="LANG" select="@LANG" /><Attribute name="PAGE" select="sd:current-page() - \$pagesextra" /></Element></SetVariable>
-		<Output area="area2col"><Text fontfamily="FF-Book" textformat="$rtlbook"><Paragraph language="{\$lang}"><Value select="@BOOK"/></Paragraph></Text></Output>
+		<Output area="area2col"><Text fontfamily="FF-Book" textformat="$rtlbook"><Paragraph language="{\$lang}" role="H1"><Value select="@BOOK"/></Paragraph></Text></Output>
 		<ProcessNode select="chapter" mode="regular"/>
 	</Case></Switch>
 </Record>
@@ -2411,6 +2413,7 @@ EOT;
 function AION_LOOP_PDF_POD_LAYOUT_COPY($versions,$forprint,$default,$newtonly,$numarialfont) {
 global $speedata_version;
 // settings	
+$bcopyright	= (empty($versions['ABCOPYRIGHT'])		? ("Creative Commons Attribution 4.0 International, 2018-".date("Y")) : $versions['ABCOPYRIGHT']);
 $language	= trim(!empty($forprint['LANGUAGE'])	? $forprint['LANGUAGE']		: $default['LANGUAGE']		);
 $langenglish= (!empty($versions['LANGUAGEENGLISH'])	? trim($versions['LANGUAGEENGLISH']): NULL				);
 $langspeed	= trim(!empty($forprint['LANGSPEED'])	? "language='".$forprint['LANGSPEED']."'"	: ""		);
@@ -2448,7 +2451,7 @@ $bidi_title	= ($rtl=="TRUE" ? 'bidi="yes"' : '' );
 $fonts = AION_LOOP_PDF_POD_FONTS($font,$bsize,$bleading,$tsize,$tleading,$rsize,$rleading,$size,$leading,$numarialfont,$footsize,$backvl,$backtl,$backal,$backll,$headfont,$pixtext,$pixlead);
 // options
 $versionsMETA = "Holy Bible Aionian Edition, $versionE";
-$keywordsMETA = (empty($language) ? "English" : $language) . ", Holy Bible, Scriptures, Aionian, Aion, Aionios, eleese, Hades, Gehenna, Tartarus, Abyss, Lake of Fire, Aiōn, Aiōnios, eleēsē, Aïdios, Sheol, Hadēs, Geenna, Tartaroō, Abyssos, Limnē Pyr, Purple Bible, Untranslation";
+$keywordsMETA = (empty($language) ? "English" : $language) . ", Holy Bible, Christian, Scriptures, Aionian, Aion, Aionios, eleese, Hades, Gehenna, Tartarus, Abyss, Lake of Fire, Aiōn, Aiōnios, eleēsē, Aïdios, Sheol, Hadēs, Geenna, Tartaroō, Abyssos, Limnē Pyr, Purple Bible, Untranslation";
 // copyright
 $versionFO_CP = "<Span $langspeed><Fontface fontfamily='$copyff'><Value>$version</Value></Fontface></Span>";
 $versionEN_CP = ($version == $versionE ? "" : "<Br /><Fontface fontfamily='FF-Copy'><Value>$versionE</Value></Fontface>" );
@@ -2491,7 +2494,7 @@ $helpneeded = "<Value>We pray for a modern Creative Commons translation in every
 return <<<EOT
 <?xml version="1.0" encoding="UTF-8"?>
 <Layout xmlns="urn:speedata.de:2009/publisher/en" xmlns:sd="urn:speedata:2009/publisher/functions/en">
-<PDFOptions author="Nainoia Inc" title="$versionsMETA (CC BY 4.0)" subject="The World's First Holy Bible Untranslation, the Gospel of Jesus Christ" keywords="$keywordsMETA" displaymode="bookmarks" />
+<PDFOptions author="Nainoia Inc" creator="ABCMS" producer="$speedata_version" title="$versionsMETA" copyright="$bcopyright" subject="The World's First Holy Bible Untranslation, the Gospel of Jesus Christ" keywords="$keywordsMETA" displaymode="bookmarks" pagelayout="singlepage"/>
 <Options reportmissingglyphs="warning" mainlanguage="English (USA)" />
 <Options html="off"/>
 $fonts
@@ -2563,7 +2566,9 @@ EOT;
 
 
 function AION_LOOP_PDF_POD_LAYOUT_COVR($versions,$forprint,$default,$bodyfile,$newtonly,$numarialfont,$isbnpix,$isbntype,$hardmargin) {
+global $speedata_version;
 // settings	
+$bcopyright	= (empty($versions['ABCOPYRIGHT'])		? ("Creative Commons Attribution 4.0 International, 2018-".date("Y")) : $versions['ABCOPYRIGHT']);
 $bible		= $forprint['BIBLE'];
 $language	= trim(!empty($forprint['LANGUAGE'])	? $forprint['LANGUAGE']		: $default['LANGUAGE']		);
 $langspeed	= trim(!empty($forprint['LANGSPEED'])	? "language='".$forprint['LANGSPEED']."'"	: ""		);
@@ -2692,7 +2697,7 @@ if ($w_font=='FOREIGN' && (!($w_free=preg_replace("/([\-0-9:% ]{3,})/","</Value>
 $fonts = AION_LOOP_PDF_POD_FONTS($font,$bsize,$bleading,$tsize,$tleading,$rsize,$rleading,$size,$leading,$numarialfont,$footsize,$backvl,$backtl,$backal,$backll,$headfont,$pixtext,$pixlead);
 // options
 $versionsMETA = "Holy Bible Aionian Edition, $versionE";
-$keywordsMETA = (empty($language) ? "English" : $language) . ", Holy Bible, Scriptures, Aionian, Aion, Aionios, eleese, Hades, Gehenna, Tartarus, Abyss, Lake of Fire, Aiōn, Aiōnios, eleēsē, Aïdios, Sheol, Hadēs, Geenna, Tartaroō, Abyssos, Limnē Pyr, Purple Bible, Untranslation";
+$keywordsMETA = (empty($language) ? "English" : $language) . ", Holy Bible, Christian, Scriptures, Aionian, Aion, Aionios, eleese, Hades, Gehenna, Tartarus, Abyss, Lake of Fire, Aiōn, Aiōnios, eleēsē, Aïdios, Sheol, Hadēs, Geenna, Tartaroō, Abyssos, Limnē Pyr, Purple Bible, Untranslation";
 // title page
 $versionFO_TI = "<Span $langspeed><Fontface fontfamily='$versionff'><Value>$version</Value></Fontface></Span>";
 $versionEN_TI = ($version == $versionE ? "" : "<Br /><Span language='English (USA)'><Fontface fontfamily='FF-VerE'><Value>$versionE</Value></Fontface></Span>" );
@@ -2712,7 +2717,7 @@ if ($rtl!="TRUE") {
 return <<<EOT
 <?xml version="1.0" encoding="UTF-8"?>
 <Layout xmlns="urn:speedata.de:2009/publisher/en" xmlns:sd="urn:speedata:2009/publisher/functions/en">
-<PDFOptions author="Nainoia Inc" title="$versionsMETA (CC BY 4.0)" subject="The World's First Holy Bible Untranslation, the Gospel of Jesus Christ" keywords="$keywordsMETA" displaymode="bookmarks" />
+<PDFOptions author="Nainoia Inc" creator="ABCMS" producer="$speedata_version" title="$versionsMETA" copyright="$bcopyright" subject="The World's First Holy Bible Untranslation, the Gospel of Jesus Christ" keywords="$keywordsMETA" displaymode="bookmarks" pagelayout="singlepage"/>
 <Options reportmissingglyphs="warning" mainlanguage="English (USA)" />
 <Options html="off"/>
 $fonts
@@ -2794,7 +2799,7 @@ $fonts
 	<Paragraph language="English (USA)" textformat="center" color='white' fontfamily="FF-Btex">
 	$joh3_16<Br />
 	$w_life<Br />
-	<Image width="4in" height="1pt" file="COVER-rule-purplelight.jpg"/>
+	<Image width="4in" height="1pt" file="COVER-rule-purplelight.jpg" />
 	</Paragraph>
 	<Paragraph language="English (USA)" textformat="centerpad" color='white' fontfamily="FF-Btex">
 	$w_worl<Br />
@@ -2948,7 +2953,7 @@ else {
 return <<<EOT
 <?xml version="1.0" encoding="UTF-8"?>
 <Layout xmlns="urn:speedata.de:2009/publisher/en" xmlns:sd="urn:speedata:2009/publisher/functions/en">
-<PDFOptions author="Nainoia Inc" title="$versionsMETA (CC BY 4.0)" subject="The World's First Holy Bible Untranslation, the Gospel of Jesus Christ" keywords="$keywordsMETA" displaymode="bookmarks" />
+<PDFOptions author="Nainoia Inc" creator="ABCMS" producer="$speedata_version" title="$versionsMETA" copyright="$bcopyright" subject="The World's First Holy Bible Untranslation, the Gospel of Jesus Christ" keywords="$keywordsMETA" displaymode="bookmarks" pagelayout="singlepage"/>
 <Options reportmissingglyphs="warning" mainlanguage="English (USA)" />
 <Options html="off"/>
 $fonts
