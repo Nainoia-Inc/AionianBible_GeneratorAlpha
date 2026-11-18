@@ -455,7 +455,7 @@ Holy-Bible---English---Aionian-Bible	055	2TI	001	009	SWAP		AIONIAN	who saved us 
 Holy-Bible---English---Aionian-Bible	055	2TI	002	010	SWAP		AIONIAN	Therefore I endure all things for the chosen ones’ sake, that they also may obtain the salvation which is in Christ Jesus with consummate (aiōnios g166) glory.
 Holy-Bible---English---Aionian-Bible	055	2TI	004	010	SWAP		AIONS	for Demas left me, having loved this present age (aiōn g165), and went to Thessalonica; Crescens to Galatia; and Titus to Dalmatia.
 Holy-Bible---English---Aionian-Bible	055	2TI	004	018	SWAP		AIONS	And the Lord will deliver me from every evil work and will preserve me for his heavenly Kingdom. To him be the glory for the ages (aiōn g165) of the ages (aiōn g165). Amen.
-Holy-Bible---English---Aionian-Bible	056	TIT	001	002	SWAP		AIONIAN	in hope of the consummate (aiōnios g166) life, which God, who cannnot lie, promised before time began;
+Holy-Bible---English---Aionian-Bible	056	TIT	001	002	SWAP		AIONIAN	in hope of the consummate (aiōnios g166) life, which God, who cannot lie, promised before time began;
 Holy-Bible---English---Aionian-Bible	056	TIT	002	012	SWAP		AIONS	instructing us to the intent that, denying ungodliness and worldly lusts, we would live soberly, righteously, and godly in this present age (aiōn g165);
 Holy-Bible---English---Aionian-Bible	056	TIT	003	007	SWAP		AIONIAN	that being justified by his grace, we might be made heirs according to the hope of the consummate (aiōnios g166) life.
 Holy-Bible---English---Aionian-Bible	057	PHM	001	015	SWAP		AIONIAN	For perhaps he was therefore separated from you briefly, that you would now have him wholly (aiōnios g166),
@@ -488,7 +488,7 @@ Holy-Bible---English---Aionian-Bible	061	2PE	001	011	SWAP		AIONIAN	For thus you 
 Holy-Bible---English---Aionian-Bible	061	2PE	002	004	SWAP		TARTARUS	For if God did not spare angels when they sinned, but cast them down to Tartarus (Tartaroō g5020), and committed them to pits of darkness to be reserved for judgment;
 Holy-Bible---English---Aionian-Bible	061	2PE	002	017	SWAP		AIONS	These are wells without water, clouds driven by a storm; for whom the blackness of darkness has been reserved.
 Holy-Bible---English---Aionian-Bible	061	2PE	003	018	SWAP		AIONS	But grow in the grace and knowledge of our Lord and Savior Jesus Christ. To him be the glory both now and in the day of that age (aiōn g165). Amen.
-Holy-Bible---English---Aionian-Bible	062	1JO	001	002	SWAP		AIONIAN	(and the life was revealed, and we have seen, and testify, and declare to you the consummmate (aiōnios g166) life, which was with the Father, and was revealed to us);
+Holy-Bible---English---Aionian-Bible	062	1JO	001	002	SWAP		AIONIAN	(and the life was revealed, and we have seen, and testify, and declare to you the consummate (aiōnios g166) life, which was with the Father, and was revealed to us);
 Holy-Bible---English---Aionian-Bible	062	1JO	002	017	SWAP		AIONS	The world is passing away with its lusts, but he who does God’s will remains for the age (aiōn g165).
 Holy-Bible---English---Aionian-Bible	062	1JO	002	025	SWAP		AIONIAN	This is the promise which he promised us, the consummate (aiōnios g166) life.
 Holy-Bible---English---Aionian-Bible	062	1JO	003	015	SWAP		AIONIAN	Whoever hates his brother is a murderer, and you know that no murderer has consummate (aiōnios g166) life remaining in him.

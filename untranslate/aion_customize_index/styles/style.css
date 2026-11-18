@@ -188,6 +188,7 @@ body.word-read #body { max-width: 1024px; margin: 0 auto; padding: 110px 3% 2% 3
 #word-menu .word-menu-r { float: right; }
 #word-menu a.nav, #word-quick a { display: inline-block; min-width: 24px; text-align: center; }
 a.word-tocs, .word-tocs > a { display: inline-block; min-height: 24px; line-height: 24px; }
+#word-menu-bottom h2 { text-align: center; }
 
 #word-menu-float { position: fixed; width: 0px; height: 0px; bottom: 0px; left: 0px; font-size: 200%; }
 #word-menu-float a  { position: fixed; width: 32px; height: 40%; top: 30%; background-color: var(--ab-border); color: var(--ab-on-brand); border-radius: 10px; text-align: center; display: table; }

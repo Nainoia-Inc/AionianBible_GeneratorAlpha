@@ -207,7 +207,7 @@ function AION_LOOP_PDF_POD($source, $destiny) {
 		'q_epubc'	=> TRUE,	// TRUE = do ePub and covers
 		//'include'	=> "/Holy-Bible---.*(Arabic|Syriac-Peshitta|Persian|Sorani-Bible|Urdu-Free-Contemporary|Hebrew).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Uyghur-Bible-Arabic|Arabic-Van-Dyck-Bible|Hebrew-Westminster-Leningrad).*---Aionian-Edition\.noia$/",
-		//'include'	=> "/Holy-Bible---.*(One-Unity-Resource|Gayl-Bible|Melo-Bible).*---Aionian-Edition\.noia$/",
+		//'include'	=> "/Holy-Bible---.*(Zinza).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---Abureni---Abureni-Bible---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---Spanish---Free-for-the-World---Aionian-Edition\.noia$/",
 		'include'	=> "/---Aionian-Edition\.noia$/",
@@ -731,6 +731,7 @@ EOT;
 	if ($args['q_pdfall'] || $args['q_epubc']) {
 		system("convert $bible$destiny_EPUB.pdf -strip -quality 80 -sampling-factor 4:2:0 -resize 900x -sharpen 0x2 ../$bible$destiny_EPUB.jpg");
 		if (!unlink("$bible$destiny_EPUB.pdf")) {																	AION_ECHO("WARN! SPEEDATA: unlink $bible$destiny_EPUB.pdf");				$scripterr = TRUE; }
+		//if (!rename("$bible$destiny_EPUB.pdf",				"../$bible$destiny_EPUB.pdf")) {				AION_ECHO("WARN! SPEEDATA: rename $bible$destiny_EPUB.pdf");			$scripterr = TRUE; }
 	}
 	if ($args['q_pdfall'] || $args['q_pdfpo']) {
 		if (!rename("$bible$destiny_POD_INTERIOR.pdf",			"../$bible$destiny_POD_INTERIOR.pdf")) {			AION_ECHO("WARN! SPEEDATA: rename $bible$destiny_POD_INTERIOR.pdf");		$scripterr = TRUE; }
@@ -2162,7 +2163,7 @@ $fonts
 				<Paragraph $langspeed $bidi_bible>
 					<Switch>
 						<Case test="$rtlinit"><Span $langchap><Fontface fontfamily="FF-Init"><Value select="@CHAP"/><Value>&#xa0;&#xa0;</Value></Fontface></Span></Case>
-						<Otherwise><Initial fontfamily="FF-Init" padding-right="2pt"><Value select="@CHAP"/></Initial></Otherwise>
+						<Otherwise><Initial fontfamily="FF-Init" padding-right="2pt" role="H2" actualtext="Chapter {@CHAP}"><Value select="@CHAP"/></Initial></Otherwise>
 					</Switch>
 					<ForAll select="*">
 						<Switch>
