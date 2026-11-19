@@ -4372,80 +4372,80 @@ Holy-Bible---Chin-Siyin---Siyin-Chin-Bible	120	x	78	Basic Latin 	26	MAR	015	021	
 Holy-Bible---Chin-Siyin---Siyin-Chin-Bible	113	q	71	Basic Latin 	7	ACT	018	002	Taciang Aquila a kici Judah mi khat taw ki mu hi, ama sia Pontus ah a suak hi a, a zi Prisilla taw Italy pan a thet zawk uh ngei ngawl lai hi; banghangziam cile Claudius in Judah mi theampo Rome pan pusuak tu in thupia hi: taciang Paul sia amate kungah hongpai hi.
 Holy-Bible---Chin-Siyin---Siyin-Chin-Bible	70	F	46	Basic Latin 	27	ACT	023	024	Paul i to tu nganhing te zong vaihawmsak vun a, taciang ngam uk Felix tungah bangma tat ngawl in puak vun, ci hi.
 Holy-Bible---Chin-Siyin---Siyin-Chin-Bible	81	Q	51	Basic Latin 	1	ROM	016	023	Ka innteakpa Gaius le pawlpi theampo in hong paupui uh hi. Khuapi sumkeam Erastus le a suapuipa Quartus te in hong paupui uh hi.
-Holy-Bible---Chin-Thado---Chongthu-Bible	76	L	4c	Basic Latin 	2891	GEN	001	002	Leiset chu agong bei le ahomkeu ahin, muthim chun twipi thuh tah chu akhukhum ahin, Hiche twipi chung'a chu Pathen Lhagao chu ana lhale ahi.
-Holy-Bible---Chin-Thado---Chongthu-Bible	101	e	65	Basic Latin 	222057	GEN	001	002	Leiset chu agong bei le ahomkeu ahin, muthim chun twipi thuh tah chu akhukhum ahin, Hiche twipi chung'a chu Pathen Lhagao chu ana lhale ahi.
-Holy-Bible---Chin-Thado---Chongthu-Bible	105	i	69	Basic Latin 	372692	GEN	001	002	Leiset chu agong bei le ahomkeu ahin, muthim chun twipi thuh tah chu akhukhum ahin, Hiche twipi chung'a chu Pathen Lhagao chu ana lhale ahi.
-Holy-Bible---Chin-Thado---Chongthu-Bible	115	s	73	Basic Latin 	77101	GEN	001	002	Leiset chu agong bei le ahomkeu ahin, muthim chun twipi thuh tah chu akhukhum ahin, Hiche twipi chung'a chu Pathen Lhagao chu ana lhale ahi.
-Holy-Bible---Chin-Thado---Chongthu-Bible	116	t	74	Basic Latin 	163557	GEN	001	002	Leiset chu agong bei le ahomkeu ahin, muthim chun twipi thuh tah chu akhukhum ahin, Hiche twipi chung'a chu Pathen Lhagao chu ana lhale ahi.
-Holy-Bible---Chin-Thado---Chongthu-Bible	32	 	20	Basic Latin 	736853	GEN	001	002	Leiset chu agong bei le ahomkeu ahin, muthim chun twipi thuh tah chu akhukhum ahin, Hiche twipi chung'a chu Pathen Lhagao chu ana lhale ahi.
-Holy-Bible---Chin-Thado---Chongthu-Bible	99	c	63	Basic Latin 	99951	GEN	001	002	Leiset chu agong bei le ahomkeu ahin, muthim chun twipi thuh tah chu akhukhum ahin, Hiche twipi chung'a chu Pathen Lhagao chu ana lhale ahi.
-Holy-Bible---Chin-Thado---Chongthu-Bible	104	h	68	Basic Latin 	442962	GEN	001	002	Leiset chu agong bei le ahomkeu ahin, muthim chun twipi thuh tah chu akhukhum ahin, Hiche twipi chung'a chu Pathen Lhagao chu ana lhale ahi.
-Holy-Bible---Chin-Thado---Chongthu-Bible	117	u	75	Basic Latin 	219660	GEN	001	002	Leiset chu agong bei le ahomkeu ahin, muthim chun twipi thuh tah chu akhukhum ahin, Hiche twipi chung'a chu Pathen Lhagao chu ana lhale ahi.
-Holy-Bible---Chin-Thado---Chongthu-Bible	97	a	61	Basic Latin 	549412	GEN	001	002	Leiset chu agong bei le ahomkeu ahin, muthim chun twipi thuh tah chu akhukhum ahin, Hiche twipi chung'a chu Pathen Lhagao chu ana lhale ahi.
-Holy-Bible---Chin-Thado---Chongthu-Bible	103	g	67	Basic Latin 	155470	GEN	001	002	Leiset chu agong bei le ahomkeu ahin, muthim chun twipi thuh tah chu akhukhum ahin, Hiche twipi chung'a chu Pathen Lhagao chu ana lhale ahi.
-Holy-Bible---Chin-Thado---Chongthu-Bible	111	o	6f	Basic Latin 	181194	GEN	001	002	Leiset chu agong bei le ahomkeu ahin, muthim chun twipi thuh tah chu akhukhum ahin, Hiche twipi chung'a chu Pathen Lhagao chu ana lhale ahi.
-Holy-Bible---Chin-Thado---Chongthu-Bible	110	n	6e	Basic Latin 	395785	GEN	001	002	Leiset chu agong bei le ahomkeu ahin, muthim chun twipi thuh tah chu akhukhum ahin, Hiche twipi chung'a chu Pathen Lhagao chu ana lhale ahi.
-Holy-Bible---Chin-Thado---Chongthu-Bible	98	b	62	Basic Latin 	27522	GEN	001	002	Leiset chu agong bei le ahomkeu ahin, muthim chun twipi thuh tah chu akhukhum ahin, Hiche twipi chung'a chu Pathen Lhagao chu ana lhale ahi.
-Holy-Bible---Chin-Thado---Chongthu-Bible	108	l	6c	Basic Latin 	141496	GEN	001	002	Leiset chu agong bei le ahomkeu ahin, muthim chun twipi thuh tah chu akhukhum ahin, Hiche twipi chung'a chu Pathen Lhagao chu ana lhale ahi.
-Holy-Bible---Chin-Thado---Chongthu-Bible	109	m	6d	Basic Latin 	124655	GEN	001	002	Leiset chu agong bei le ahomkeu ahin, muthim chun twipi thuh tah chu akhukhum ahin, Hiche twipi chung'a chu Pathen Lhagao chu ana lhale ahi.
-Holy-Bible---Chin-Thado---Chongthu-Bible	107	k	6b	Basic Latin 	103365	GEN	001	002	Leiset chu agong bei le ahomkeu ahin, muthim chun twipi thuh tah chu akhukhum ahin, Hiche twipi chung'a chu Pathen Lhagao chu ana lhale ahi.
-Holy-Bible---Chin-Thado---Chongthu-Bible	44	,	2c	Basic Latin 	45862	GEN	001	002	Leiset chu agong bei le ahomkeu ahin, muthim chun twipi thuh tah chu akhukhum ahin, Hiche twipi chung'a chu Pathen Lhagao chu ana lhale ahi.
-Holy-Bible---Chin-Thado---Chongthu-Bible	119	w	77	Basic Latin 	2274	GEN	001	002	Leiset chu agong bei le ahomkeu ahin, muthim chun twipi thuh tah chu akhukhum ahin, Hiche twipi chung'a chu Pathen Lhagao chu ana lhale ahi.
+Holy-Bible---Chin-Thado---Chongthu-Bible	76	L	4c	Basic Latin 	2875	GEN	001	002	Leiset chu agong bei le ahomkeu ahin, muthim chun twipi thuh tah chu akhukhum ahin, Hiche twipi chung'a chu Pathen Lhagao chu ana lhale ahi.
+Holy-Bible---Chin-Thado---Chongthu-Bible	101	e	65	Basic Latin 	222112	GEN	001	002	Leiset chu agong bei le ahomkeu ahin, muthim chun twipi thuh tah chu akhukhum ahin, Hiche twipi chung'a chu Pathen Lhagao chu ana lhale ahi.
+Holy-Bible---Chin-Thado---Chongthu-Bible	105	i	69	Basic Latin 	372702	GEN	001	002	Leiset chu agong bei le ahomkeu ahin, muthim chun twipi thuh tah chu akhukhum ahin, Hiche twipi chung'a chu Pathen Lhagao chu ana lhale ahi.
+Holy-Bible---Chin-Thado---Chongthu-Bible	115	s	73	Basic Latin 	77126	GEN	001	002	Leiset chu agong bei le ahomkeu ahin, muthim chun twipi thuh tah chu akhukhum ahin, Hiche twipi chung'a chu Pathen Lhagao chu ana lhale ahi.
+Holy-Bible---Chin-Thado---Chongthu-Bible	116	t	74	Basic Latin 	163562	GEN	001	002	Leiset chu agong bei le ahomkeu ahin, muthim chun twipi thuh tah chu akhukhum ahin, Hiche twipi chung'a chu Pathen Lhagao chu ana lhale ahi.
+Holy-Bible---Chin-Thado---Chongthu-Bible	32	 	20	Basic Latin 	737413	GEN	001	002	Leiset chu agong bei le ahomkeu ahin, muthim chun twipi thuh tah chu akhukhum ahin, Hiche twipi chung'a chu Pathen Lhagao chu ana lhale ahi.
+Holy-Bible---Chin-Thado---Chongthu-Bible	99	c	63	Basic Latin 	99946	GEN	001	002	Leiset chu agong bei le ahomkeu ahin, muthim chun twipi thuh tah chu akhukhum ahin, Hiche twipi chung'a chu Pathen Lhagao chu ana lhale ahi.
+Holy-Bible---Chin-Thado---Chongthu-Bible	104	h	68	Basic Latin 	443001	GEN	001	002	Leiset chu agong bei le ahomkeu ahin, muthim chun twipi thuh tah chu akhukhum ahin, Hiche twipi chung'a chu Pathen Lhagao chu ana lhale ahi.
+Holy-Bible---Chin-Thado---Chongthu-Bible	117	u	75	Basic Latin 	219671	GEN	001	002	Leiset chu agong bei le ahomkeu ahin, muthim chun twipi thuh tah chu akhukhum ahin, Hiche twipi chung'a chu Pathen Lhagao chu ana lhale ahi.
+Holy-Bible---Chin-Thado---Chongthu-Bible	97	a	61	Basic Latin 	549504	GEN	001	002	Leiset chu agong bei le ahomkeu ahin, muthim chun twipi thuh tah chu akhukhum ahin, Hiche twipi chung'a chu Pathen Lhagao chu ana lhale ahi.
+Holy-Bible---Chin-Thado---Chongthu-Bible	103	g	67	Basic Latin 	155449	GEN	001	002	Leiset chu agong bei le ahomkeu ahin, muthim chun twipi thuh tah chu akhukhum ahin, Hiche twipi chung'a chu Pathen Lhagao chu ana lhale ahi.
+Holy-Bible---Chin-Thado---Chongthu-Bible	111	o	6f	Basic Latin 	181200	GEN	001	002	Leiset chu agong bei le ahomkeu ahin, muthim chun twipi thuh tah chu akhukhum ahin, Hiche twipi chung'a chu Pathen Lhagao chu ana lhale ahi.
+Holy-Bible---Chin-Thado---Chongthu-Bible	110	n	6e	Basic Latin 	395749	GEN	001	002	Leiset chu agong bei le ahomkeu ahin, muthim chun twipi thuh tah chu akhukhum ahin, Hiche twipi chung'a chu Pathen Lhagao chu ana lhale ahi.
+Holy-Bible---Chin-Thado---Chongthu-Bible	98	b	62	Basic Latin 	27532	GEN	001	002	Leiset chu agong bei le ahomkeu ahin, muthim chun twipi thuh tah chu akhukhum ahin, Hiche twipi chung'a chu Pathen Lhagao chu ana lhale ahi.
+Holy-Bible---Chin-Thado---Chongthu-Bible	108	l	6c	Basic Latin 	141556	GEN	001	002	Leiset chu agong bei le ahomkeu ahin, muthim chun twipi thuh tah chu akhukhum ahin, Hiche twipi chung'a chu Pathen Lhagao chu ana lhale ahi.
+Holy-Bible---Chin-Thado---Chongthu-Bible	109	m	6d	Basic Latin 	124652	GEN	001	002	Leiset chu agong bei le ahomkeu ahin, muthim chun twipi thuh tah chu akhukhum ahin, Hiche twipi chung'a chu Pathen Lhagao chu ana lhale ahi.
+Holy-Bible---Chin-Thado---Chongthu-Bible	107	k	6b	Basic Latin 	103359	GEN	001	002	Leiset chu agong bei le ahomkeu ahin, muthim chun twipi thuh tah chu akhukhum ahin, Hiche twipi chung'a chu Pathen Lhagao chu ana lhale ahi.
+Holy-Bible---Chin-Thado---Chongthu-Bible	44	,	2c	Basic Latin 	45892	GEN	001	002	Leiset chu agong bei le ahomkeu ahin, muthim chun twipi thuh tah chu akhukhum ahin, Hiche twipi chung'a chu Pathen Lhagao chu ana lhale ahi.
+Holy-Bible---Chin-Thado---Chongthu-Bible	119	w	77	Basic Latin 	2273	GEN	001	002	Leiset chu agong bei le ahomkeu ahin, muthim chun twipi thuh tah chu akhukhum ahin, Hiche twipi chung'a chu Pathen Lhagao chu ana lhale ahi.
 Holy-Bible---Chin-Thado---Chongthu-Bible	112	p	70	Basic Latin 	76813	GEN	001	002	Leiset chu agong bei le ahomkeu ahin, muthim chun twipi thuh tah chu akhukhum ahin, Hiche twipi chung'a chu Pathen Lhagao chu ana lhale ahi.
-Holy-Bible---Chin-Thado---Chongthu-Bible	72	H	48	Basic Latin 	12072	GEN	001	002	Leiset chu agong bei le ahomkeu ahin, muthim chun twipi thuh tah chu akhukhum ahin, Hiche twipi chung'a chu Pathen Lhagao chu ana lhale ahi.
-Holy-Bible---Chin-Thado---Chongthu-Bible	39	'	27	Basic Latin 	15752	GEN	001	002	Leiset chu agong bei le ahomkeu ahin, muthim chun twipi thuh tah chu akhukhum ahin, Hiche twipi chung'a chu Pathen Lhagao chu ana lhale ahi.
-Holy-Bible---Chin-Thado---Chongthu-Bible	80	P	50	Basic Latin 	15596	GEN	001	002	Leiset chu agong bei le ahomkeu ahin, muthim chun twipi thuh tah chu akhukhum ahin, Hiche twipi chung'a chu Pathen Lhagao chu ana lhale ahi.
-Holy-Bible---Chin-Thado---Chongthu-Bible	46	.	2e	Basic Latin 	40297	GEN	001	002	Leiset chu agong bei le ahomkeu ahin, muthim chun twipi thuh tah chu akhukhum ahin, Hiche twipi chung'a chu Pathen Lhagao chu ana lhale ahi.
-Holy-Bible---Chin-Thado---Chongthu-Bible	59	;	3b	Basic Latin 	1624	GEN	001	003	Pathen'in; “Vah hung umhen,” atin, Vah chu aumtai.
-Holy-Bible---Chin-Thado---Chongthu-Bible	8220	“	201c	General Punctuation 	6464	GEN	001	003	Pathen'in; “Vah hung umhen,” atin, Vah chu aumtai.
-Holy-Bible---Chin-Thado---Chongthu-Bible	86	V	56	Basic Latin 	1171	GEN	001	003	Pathen'in; “Vah hung umhen,” atin, Vah chu aumtai.
-Holy-Bible---Chin-Thado---Chongthu-Bible	8221	”	201d	General Punctuation 	5946	GEN	001	003	Pathen'in; “Vah hung umhen,” atin, Vah chu aumtai.
-Holy-Bible---Chin-Thado---Chongthu-Bible	118	v	76	Basic Latin 	38173	GEN	001	004	Pathen'in vah chu aven pha asah e. Chule Pathen'in vah chu muthim a kon'in asep khen tai.
-Holy-Bible---Chin-Thado---Chongthu-Bible	67	C	43	Basic Latin 	7808	GEN	001	004	Pathen'in vah chu aven pha asah e. Chule Pathen'in vah chu muthim a kon'in asep khen tai.
-Holy-Bible---Chin-Thado---Chongthu-Bible	106	j	6a	Basic Latin 	52315	GEN	001	005	Pathen'in vah chu sun asah in muthim chu jan asah tai. Hiche apat chun nilhah le jingkah ahung umdoh tan hichu nikho masa pen ahung hitai.
-Holy-Bible---Chin-Thado---Chongthu-Bible	100	d	64	Basic Latin 	60549	GEN	001	005	Pathen'in vah chu sun asah in muthim chu jan asah tai. Hiche apat chun nilhah le jingkah ahung umdoh tan hichu nikho masa pen ahung hitai.
-Holy-Bible---Chin-Thado---Chongthu-Bible	84	T	54	Basic Latin 	3368	GEN	001	006	Hichun Pathen'in aseijin, “Twipi sukhen dingin, vanthamjol hung kidal hen lang Van, twipi le leiset twipi chu alang alang ah sukhen hen,” atin.
-Holy-Bible---Chin-Thado---Chongthu-Bible	121	y	79	Basic Latin 	8431	GEN	001	009	Chule Pathen'in aseiye, “Vantham jol'a twi um jouse chu mun khat a kikhol khom hen lang chule tolgo lai um doh hen,” ati. Asei bang chun aum jeng tai.
-Holy-Bible---Chin-Thado---Chongthu-Bible	65	A	41	Basic Latin 	14559	GEN	001	009	Chule Pathen'in aseiye, “Vantham jol'a twi um jouse chu mun khat a kikhol khom hen lang chule tolgo lai um doh hen,” ati. Asei bang chun aum jeng tai.
-Holy-Bible---Chin-Thado---Chongthu-Bible	45	-	2d	Basic Latin 	6493	GEN	001	011	Chuin Pathen'in aseiye, “Leiset in hamphung ho, amu nei hamphung, agathei hamhing chi chom-chom leh thingphung aga amunei ho, hiche ho chun ama-ama chi dungjui cheh ahin sepdoh kit diu ahi,” ati. Hiti chun ahung kehdoh tauve.
-Holy-Bible---Chin-Thado---Chongthu-Bible	78	N	4e	Basic Latin 	5188	GEN	001	013	Nilhah khat le jingkah khat achekit in nithum alhing tai.
-Holy-Bible---Chin-Thado---Chongthu-Bible	83	S	53	Basic Latin 	3578	GEN	001	014	Chuin Pathen'in aseiye, “Sun le jan sepkhen dingin vanthomjol'a avah thei vahho hung kigol uhenlang, hiche ho chu kum kihei chin melchihnan jong, nikho simtoh nan jong chule kum simtoh nan jong pang'u hen.
-Holy-Bible---Chin-Thado---Chongthu-Bible	8217	’	2019	General Punctuation 	6794	GEN	001	015	Chujongleh hiche ho chu van'a vanthamjol'a kon'in leiset salvah-in pang uhen,’’ atin ahileh, hiti chun aumtai.
-Holy-Bible---Chin-Thado---Chongthu-Bible	33	!	21	Basic Latin 	2385	GEN	001	024	Chuin Pathen'in aseiye, “Leiset in ama a kon'in sa jat chom-chom hin hingdoh hen! Ama-ama jat dungjui cheh in, vah ngoi thei gancha, tol'a kithol ganhing leh gamsa ho jong hihen” ati. Hiti chun aum jeng tai.
-Holy-Bible---Chin-Thado---Chongthu-Bible	69	E	45	Basic Latin 	2767	GEN	001	026	Hichun Pathen'in aseiye, “Eihon mihem ho, eiho lim pu'in sem'u hitin. Amaho chu twikhanglen sunga nga ho jouse chunga thunei diu, vanlai jol'a leng le vacha ho chule vah ngoi thei gancha ho le gamsa ho, chule a op a kithol chengse chung'a thunei vaihom in pang uhen,” ati.
-Holy-Bible---Chin-Thado---Chongthu-Bible	71	G	47	Basic Latin 	1636	GEN	002	013	Vadung ni lhinna chu amin Gihon ahin, hiche vadung chu Cush gam pumpia long kimvel ahi.
-Holy-Bible---Chin-Thado---Chongthu-Bible	114	r	72	Basic Latin 	12639	GEN	002	014	Vadung thum lhinna chu ahile Tigris ahin, hiche vadung hi sah solam gam'a Asshur gam pumpia long ahin, chule vadung li lhinna chu Euphrates ahi.
-Holy-Bible---Chin-Thado---Chongthu-Bible	77	M	4d	Basic Latin 	4573	GEN	002	018	Chujongleh Pathen'in aseiye, “Mihempa achanga aum hi apha poi hijeh chun keiman aum khompi ding khat sempeh ing kate,’’ ati.
-Holy-Bible---Chin-Thado---Chongthu-Bible	63	?	3f	Basic Latin 	3106	GEN	003	001	Pakai Pathen thilsem jouse lah a gul hi alungthim thempen ahi. Nikhat chu aman numeinu adongin, “Pathen'in honsunga theiga jouse naneh thei lhon lou beh ding ahi tia asei mong em?” ati.
-Holy-Bible---Chin-Thado---Chongthu-Bible	75	K	4b	Basic Latin 	6421	GEN	003	010	Adam in jong adonbut in “Keiman nangma honsung'a na hung chu kahen ahile ka sagoh keo kahi jeh a ka kichat a kisela kahi,” ati.
-Holy-Bible---Chin-Thado---Chongthu-Bible	73	I	49	Basic Latin 	5659	GEN	004	006	Hiche phat chun Pathen'in Cain jah a, “Ibola nang le nang ki lunghannahi ham? Chule ibola namai thim jeng a ham?
+Holy-Bible---Chin-Thado---Chongthu-Bible	72	H	48	Basic Latin 	12075	GEN	001	002	Leiset chu agong bei le ahomkeu ahin, muthim chun twipi thuh tah chu akhukhum ahin, Hiche twipi chung'a chu Pathen Lhagao chu ana lhale ahi.
+Holy-Bible---Chin-Thado---Chongthu-Bible	39	'	27	Basic Latin 	15780	GEN	001	002	Leiset chu agong bei le ahomkeu ahin, muthim chun twipi thuh tah chu akhukhum ahin, Hiche twipi chung'a chu Pathen Lhagao chu ana lhale ahi.
+Holy-Bible---Chin-Thado---Chongthu-Bible	80	P	50	Basic Latin 	15609	GEN	001	002	Leiset chu agong bei le ahomkeu ahin, muthim chun twipi thuh tah chu akhukhum ahin, Hiche twipi chung'a chu Pathen Lhagao chu ana lhale ahi.
+Holy-Bible---Chin-Thado---Chongthu-Bible	46	.	2e	Basic Latin 	40351	GEN	001	002	Leiset chu agong bei le ahomkeu ahin, muthim chun twipi thuh tah chu akhukhum ahin, Hiche twipi chung'a chu Pathen Lhagao chu ana lhale ahi.
+Holy-Bible---Chin-Thado---Chongthu-Bible	59	;	3b	Basic Latin 	1659	GEN	001	003	Pathen'in; “Vah hung umhen,” atin, Vah chu aumtai.
+Holy-Bible---Chin-Thado---Chongthu-Bible	8220	“	201c	General Punctuation 	6471	GEN	001	003	Pathen'in; “Vah hung umhen,” atin, Vah chu aumtai.
+Holy-Bible---Chin-Thado---Chongthu-Bible	86	V	56	Basic Latin 	1179	GEN	001	003	Pathen'in; “Vah hung umhen,” atin, Vah chu aumtai.
+Holy-Bible---Chin-Thado---Chongthu-Bible	8221	”	201d	General Punctuation 	5950	GEN	001	003	Pathen'in; “Vah hung umhen,” atin, Vah chu aumtai.
+Holy-Bible---Chin-Thado---Chongthu-Bible	118	v	76	Basic Latin 	38175	GEN	001	004	Pathen'in vah chu aven pha asah e. Chule Pathen'in vah chu muthim a kon'in asep khen tai.
+Holy-Bible---Chin-Thado---Chongthu-Bible	67	C	43	Basic Latin 	7816	GEN	001	004	Pathen'in vah chu aven pha asah e. Chule Pathen'in vah chu muthim a kon'in asep khen tai.
+Holy-Bible---Chin-Thado---Chongthu-Bible	106	j	6a	Basic Latin 	52309	GEN	001	005	Pathen'in vah chu sun asah in muthim chu jan asah tai. Hiche apat chun nilhah le jingkah ahung umdoh tan hichu nikho masa pen ahung hitai.
+Holy-Bible---Chin-Thado---Chongthu-Bible	100	d	64	Basic Latin 	60558	GEN	001	005	Pathen'in vah chu sun asah in muthim chu jan asah tai. Hiche apat chun nilhah le jingkah ahung umdoh tan hichu nikho masa pen ahung hitai.
+Holy-Bible---Chin-Thado---Chongthu-Bible	84	T	54	Basic Latin 	3374	GEN	001	006	Hichun Pathen'in aseijin, “Twipi sukhen dingin, vanthamjol hung kidal hen lang Van, twipi le leiset twipi chu alang alang ah sukhen hen,” atin.
+Holy-Bible---Chin-Thado---Chongthu-Bible	121	y	79	Basic Latin 	8452	GEN	001	009	Chule Pathen'in aseiye, “Vantham jol'a twi um jouse chu mun khat a kikhol khom hen lang chule tolgo lai um doh hen,” ati. Asei bang chun aum jeng tai.
+Holy-Bible---Chin-Thado---Chongthu-Bible	65	A	41	Basic Latin 	14576	GEN	001	009	Chule Pathen'in aseiye, “Vantham jol'a twi um jouse chu mun khat a kikhol khom hen lang chule tolgo lai um doh hen,” ati. Asei bang chun aum jeng tai.
+Holy-Bible---Chin-Thado---Chongthu-Bible	45	-	2d	Basic Latin 	6481	GEN	001	011	Chuin Pathen'in aseiye, “Leiset in hamphung ho, amu nei hamphung, agathei hamhing chi chom-chom leh thingphung aga amunei ho, hiche ho chun ama-ama chi dungjui cheh ahin sepdoh kit diu ahi,” ati. Hiti chun ahung kehdoh tauve.
+Holy-Bible---Chin-Thado---Chongthu-Bible	78	N	4e	Basic Latin 	5203	GEN	001	013	Nilhah khat le jingkah khat achekit in nithum alhing tai.
+Holy-Bible---Chin-Thado---Chongthu-Bible	83	S	53	Basic Latin 	3601	GEN	001	014	Chuin Pathen'in aseiye, “Sun le jan sepkhen dingin vanthomjol'a avah thei vahho hung kigol uhenlang, hiche ho chu kum kihei chin melchihnan jong, nikho simtoh nan jong chule kum simtoh nan jong pang'u hen.
+Holy-Bible---Chin-Thado---Chongthu-Bible	8217	’	2019	General Punctuation 	6795	GEN	001	015	Chujongleh hiche ho chu van'a vanthamjol'a kon'in leiset salvah-in pang uhen,’’ atin ahileh, hiti chun aumtai.
+Holy-Bible---Chin-Thado---Chongthu-Bible	33	!	21	Basic Latin 	2404	GEN	001	024	Chuin Pathen'in aseiye, “Leiset in ama a kon'in sa jat chom-chom hin hingdoh hen! Ama-ama jat dungjui cheh in, vah ngoi thei gancha, tol'a kithol ganhing leh gamsa ho jong hihen” ati. Hiti chun aum jeng tai.
+Holy-Bible---Chin-Thado---Chongthu-Bible	69	E	45	Basic Latin 	2773	GEN	001	026	Hichun Pathen'in aseiye, “Eihon mihem ho, eiho lim pu'in sem'u hitin. Amaho chu twikhanglen sunga nga ho jouse chunga thunei diu, vanlai jol'a leng le vacha ho chule vah ngoi thei gancha ho le gamsa ho, chule a op a kithol chengse chung'a thunei vaihom in pang uhen,” ati.
+Holy-Bible---Chin-Thado---Chongthu-Bible	71	G	47	Basic Latin 	1637	GEN	002	013	Vadung ni lhinna chu amin Gihon ahin, hiche vadung chu Cush gam pumpia long kimvel ahi.
+Holy-Bible---Chin-Thado---Chongthu-Bible	114	r	72	Basic Latin 	12643	GEN	002	014	Vadung thum lhinna chu ahile Tigris ahin, hiche vadung hi sah solam gam'a Asshur gam pumpia long ahin, chule vadung li lhinna chu Euphrates ahi.
+Holy-Bible---Chin-Thado---Chongthu-Bible	77	M	4d	Basic Latin 	4576	GEN	002	018	Chujongleh Pathen'in aseiye, “Mihempa achanga aum hi apha poi hijeh chun keiman aum khompi ding khat sempeh ing kate,’’ ati.
+Holy-Bible---Chin-Thado---Chongthu-Bible	63	?	3f	Basic Latin 	3101	GEN	003	001	Pakai Pathen thilsem jouse lah a gul hi alungthim thempen ahi. Nikhat chu aman numeinu adongin, “Pathen'in honsunga theiga jouse naneh thei lhon lou beh ding ahi tia asei mong em?” ati.
+Holy-Bible---Chin-Thado---Chongthu-Bible	75	K	4b	Basic Latin 	6440	GEN	003	010	Adam in jong adonbut in “Keiman nangma honsung'a na hung chu kahen ahile ka sagoh keo kahi jeh a ka kichat a kisela kahi,” ati.
+Holy-Bible---Chin-Thado---Chongthu-Bible	73	I	49	Basic Latin 	5660	GEN	004	006	Hiche phat chun Pathen'in Cain jah a, “Ibola nang le nang ki lunghannahi ham? Chule ibola namai thim jeng a ham?
 Holy-Bible---Chin-Thado---Chongthu-Bible	90	Z	5a	Basic Latin 	836	GEN	004	019	Lamech chun ji ni aneijin amasa nu chu ahile Adah ahin chule anina nu chu Zillah ahiye.
-Holy-Bible---Chin-Thado---Chongthu-Bible	74	J	4a	Basic Latin 	7724	GEN	004	020	Adah in Jabal ahingin, ama hi ahiye, khoilupon in a chenga gancha chingho dinga apau chu.
+Holy-Bible---Chin-Thado---Chongthu-Bible	74	J	4a	Basic Latin 	7725	GEN	004	020	Adah in Jabal ahingin, ama hi ahiye, khoilupon in a chenga gancha chingho dinga apau chu.
 Holy-Bible---Chin-Thado---Chongthu-Bible	8216	‘	2018	General Punctuation 	357	GEN	004	023	Chujouvin nikhat chu Lamech chun ajite ni jah a hitin aseiye , “Vo Adah le Zillah ka aw kasei ngai lhon'in, ‘Ajeh chu pasal khat in eimavo jeh in ka that in gollhang khat in eiden jeh in ka that tai.
-Holy-Bible---Chin-Thado---Chongthu-Bible	79	O	4f	Basic Latin 	990	GEN	008	011	Vakhu chu nilhah langin ama henglam'a ahung kile kit in, vetau amuh achun athah beh a kiloulha Olive thingna khat ahin pon, hijeh chun Noah in jong leiset chunga twipi akangsoh tai, ti ahedoh paijin ahi.
-Holy-Bible---Chin-Thado---Chongthu-Bible	58	:	3a	Basic Latin 	906	GEN	009	025	Hichun Noah in aseijin: “Canaan vang gaosap chang hen, Asopi teni henga soh jouse soh in hung pang hen,” atin,
-Holy-Bible---Chin-Thado---Chongthu-Bible	122	z	7a	Basic Latin 	2106	GEN	010	003	Gomer chilhah ho chu Ashkenaz, Riphath chule Togarmath ahiuve.
+Holy-Bible---Chin-Thado---Chongthu-Bible	79	O	4f	Basic Latin 	997	GEN	008	011	Vakhu chu nilhah langin ama henglam'a ahung kile kit in, vetau amuh achun athah beh a kiloulha Olive thingna khat ahin pon, hijeh chun Noah in jong leiset chunga twipi akangsoh tai, ti ahedoh paijin ahi.
+Holy-Bible---Chin-Thado---Chongthu-Bible	58	:	3a	Basic Latin 	907	GEN	009	025	Hichun Noah in aseijin: “Canaan vang gaosap chang hen, Asopi teni henga soh jouse soh in hung pang hen,” atin,
+Holy-Bible---Chin-Thado---Chongthu-Bible	122	z	7a	Basic Latin 	2108	GEN	010	003	Gomer chilhah ho chu Ashkenaz, Riphath chule Togarmath ahiuve.
 Holy-Bible---Chin-Thado---Chongthu-Bible	82	R	52	Basic Latin 	698	GEN	010	003	Gomer chilhah ho chu Ashkenaz, Riphath chule Togarmath ahiuve.
-Holy-Bible---Chin-Thado---Chongthu-Bible	68	D	44	Basic Latin 	2076	GEN	010	007	Cush chilhah ho chu Seba, Havilah, Sabtah, Raamah, chule Sabteca ahiuve. Raamah chilhah ho chu Sheba le Dedan ahi.
-Holy-Bible---Chin-Thado---Chongthu-Bible	66	B	42	Basic Latin 	1984	GEN	010	010	Hichun Cush chun alenggam chu Babylon khopi sunga Babylonia tin ahin semdoh in, hiche khopi ho chu Erech, Akkad, chule Calneh ahiuve.
+Holy-Bible---Chin-Thado---Chongthu-Bible	68	D	44	Basic Latin 	2075	GEN	010	007	Cush chilhah ho chu Seba, Havilah, Sabtah, Raamah, chule Sabteca ahiuve. Raamah chilhah ho chu Sheba le Dedan ahi.
+Holy-Bible---Chin-Thado---Chongthu-Bible	66	B	42	Basic Latin 	1983	GEN	010	010	Hichun Cush chun alenggam chu Babylon khopi sunga Babylonia tin ahin semdoh in, hiche khopi ho chu Erech, Akkad, chule Calneh ahiuve.
 Holy-Bible---Chin-Thado---Chongthu-Bible	120	x	78	Basic Latin 	97	GEN	010	022	Shem chilhah ho chu ahile Elam, Asshur, Arphaxed, Lud chule Ram ahiuve.
 Holy-Bible---Chin-Thado---Chongthu-Bible	85	U	55	Basic Latin 	229	GEN	010	023	Ram chilhah ho chu ahile Uz, Hul, Gether, chule Mash ahiuve.
 Holy-Bible---Chin-Thado---Chongthu-Bible	40	(	28	Basic Latin 	391	GEN	010	025	Ebel chun cha ni aneijin amasapa chu Peleg (Hichu kisuh khenna tina ahi) ahi, ijeh inem itile ama phatlai a chu vannoi chu ama-ama paotho doh dungjuiya ahung umdoh laitah chu ahi, chule asopipa min chu Joktan ahi.
 Holy-Bible---Chin-Thado---Chongthu-Bible	41	)	29	Basic Latin 	390	GEN	010	025	Ebel chun cha ni aneijin amasapa chu Peleg (Hichu kisuh khenna tina ahi) ahi, ijeh inem itile ama phatlai a chu vannoi chu ama-ama paotho doh dungjuiya ahung umdoh laitah chu ahi, chule asopipa min chu Joktan ahi.
-Holy-Bible---Chin-Thado---Chongthu-Bible	89	Y	59	Basic Latin 	17	GEN	022	014	Hijeh chun Abraham'in hiche mun chu Yahweh-Yireh (Pathen'in hin ngaito nante) tin asahtai. Tuni geihin hiche “Pathen'in amolsang chung ah hin kingaito nante,” ti thuchih hi akisei jing nalaiye.
+Holy-Bible---Chin-Thado---Chongthu-Bible	89	Y	59	Basic Latin 	16	GEN	022	014	Hijeh chun Abraham'in hiche mun chu Yahweh-Yireh (Pathen'in hin ngaito nante) tin asahtai. Tuni geihin hiche “Pathen'in amolsang chung ah hin kingaito nante,” ti thuchih hi akisei jing nalaiye.
 Holy-Bible---Chin-Thado---Chongthu-Bible	52	4	34	Basic Latin 	138	EXO	025	010	Israel miten thinggi thinga thingkong khat asem diu hichu, adung inchie 45, avai inchi 27 le atun inchi 27 a asem dingu ahiye.
 Holy-Bible---Chin-Thado---Chongthu-Bible	53	5	35	Basic Latin 	177	EXO	025	010	Israel miten thinggi thinga thingkong khat asem diu hichu, adung inchie 45, avai inchi 27 le atun inchi 27 a asem dingu ahiye.
 Holy-Bible---Chin-Thado---Chongthu-Bible	50	2	32	Basic Latin 	283	EXO	025	010	Israel miten thinggi thinga thingkong khat asem diu hichu, adung inchie 45, avai inchi 27 le atun inchi 27 a asem dingu ahiye.
-Holy-Bible---Chin-Thado---Chongthu-Bible	55	7	37	Basic Latin 	150	EXO	025	010	Israel miten thinggi thinga thingkong khat asem diu hichu, adung inchie 45, avai inchi 27 le atun inchi 27 a asem dingu ahiye.
+Holy-Bible---Chin-Thado---Chongthu-Bible	55	7	37	Basic Latin 	149	EXO	025	010	Israel miten thinggi thinga thingkong khat asem diu hichu, adung inchie 45, avai inchi 27 le atun inchi 27 a asem dingu ahiye.
 Holy-Bible---Chin-Thado---Chongthu-Bible	51	3	33	Basic Latin 	165	EXO	025	023	Thinggi thing na manchah ding hichu dokhang khat nasem ding, adung inchi 36, avai inchi 18, chule atun inchi 27 hi ding ahi.
 Holy-Bible---Chin-Thado---Chongthu-Bible	54	6	36	Basic Latin 	110	EXO	025	023	Thinggi thing na manchah ding hichu dokhang khat nasem ding, adung inchi 36, avai inchi 18, chule atun inchi 27 hi ding ahi.
 Holy-Bible---Chin-Thado---Chongthu-Bible	49	1	31	Basic Latin 	274	EXO	025	023	Thinggi thing na manchah ding hichu dokhang khat nasem ding, adung inchi 36, avai inchi 18, chule atun inchi 27 hi ding ahi.
-Holy-Bible---Chin-Thado---Chongthu-Bible	56	8	38	Basic Latin 	71	EXO	025	023	Thinggi thing na manchah ding hichu dokhang khat nasem ding, adung inchi 36, avai inchi 18, chule atun inchi 27 hi ding ahi.
+Holy-Bible---Chin-Thado---Chongthu-Bible	56	8	38	Basic Latin 	70	EXO	025	023	Thinggi thing na manchah ding hichu dokhang khat nasem ding, adung inchi 36, avai inchi 18, chule atun inchi 27 hi ding ahi.
 Holy-Bible---Chin-Thado---Chongthu-Bible	8211	–	2013	General Punctuation 	208	EXO	026	002	Pondal som ho chu alet le aneo dan kibang cheh ding – asao dan Feet 42 hi ding chule avai feet 6 hi ding ahi.
 Holy-Bible---Chin-Thado---Chongthu-Bible	70	F	46	Basic Latin 	26	EXO	026	002	Pondal som ho chu alet le aneo dan kibang cheh ding – asao dan Feet 42 hi ding chule avai feet 6 hi ding ahi.
 Holy-Bible---Chin-Thado---Chongthu-Bible	102	f	66	Basic Latin 	216	EXO	026	002	Pondal som ho chu alet le aneo dan kibang cheh ding – asao dan Feet 42 hi ding chule avai feet 6 hi ding ahi.
-Holy-Bible---Chin-Thado---Chongthu-Bible	8212	—	2014	General Punctuation 	223	EXO	039	001	Muntheng'a natong ding hon amanchah diuvin asandup chule asanpol a kikhong pon akhui uvin—Aaron'in muntheng'a na atoh teng akivonna ding chu Pakaijin Mose heng'a athupeh ahi.
-Holy-Bible---Chin-Thado---Chongthu-Bible	48	0	30	Basic Latin 	1216	NUM	001	020	Ama-ama phung dungjui cheh a amin u kijihlut banga pasal kum somni apat achunglam galsat a konthei amijat ho chu hicheng hi ahi. Phung Mijat Reuben (Jacob chapa tahpen) 46,500
+Holy-Bible---Chin-Thado---Chongthu-Bible	8212	—	2014	General Punctuation 	235	EXO	039	001	Muntheng'a natong ding hon amanchah diuvin asandup chule asanpol a kikhong pon akhui uvin—Aaron'in muntheng'a na atoh teng akivonna ding chu Pakaijin Mose heng'a athupeh ahi.
+Holy-Bible---Chin-Thado---Chongthu-Bible	48	0	30	Basic Latin 	1214	NUM	001	020	Ama-ama phung dungjui cheh a amin u kijihlut banga pasal kum somni apat achunglam galsat a konthei amijat ho chu hicheng hi ahi. Phung Mijat Reuben (Jacob chapa tahpen) 46,500
 Holy-Bible---Chin-Thado---Chongthu-Bible	57	9	39	Basic Latin 	31	NUM	001	022	Simeon 59,300
 Holy-Bible---Chin-Thado---Chongthu-Bible	87	W	57	Basic Latin 	1	NUM	021	014	Hiche jeh chun Pakai galbolna Lekhabun asei “Suphah gamkaiya Waheb khopi, chule Arnon Vadung thuh tah,
 Holy-Bible---Chin-Thado---Chongthu-Bible	160	 	a0	Latin-1 Supplement	2	JOS	018	024	Kephar-ammoni, Ophni, and Geba— khopi som le ni chule  vella khoho ahiuve
@@ -29306,37 +29306,37 @@ Holy-Bible---English---A-Conservative-Version	91	[	5b	Basic Latin 	3	ACT	008	037
 Holy-Bible---English---A-Conservative-Version	93	]	5d	Basic Latin 	3	ACT	008	037	[This verse in not in the majority of the Greek manuscripts.]
 Holy-Bible---English---A-Conservative-Version	54	6	36	Basic Latin 	3	REV	013	018	Here is wisdom: He who has understanding, let him calculate the number of the beast, for it is a number of a man. And its number is 666.
 Holy-Bible---English---Aionian-Bible	84	T	54	Basic Latin 	12637	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
-Holy-Bible---English---Aionian-Bible	104	h	68	Basic Latin 	234086	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
-Holy-Bible---English---Aionian-Bible	101	e	65	Basic Latin 	385649	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
-Holy-Bible---English---Aionian-Bible	32	 	20	Basic Latin 	728635	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
-Holy-Bible---English---Aionian-Bible	97	a	61	Basic Latin 	233932	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
+Holy-Bible---English---Aionian-Bible	104	h	68	Basic Latin 	234088	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
+Holy-Bible---English---Aionian-Bible	101	e	65	Basic Latin 	385651	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
+Holy-Bible---English---Aionian-Bible	32	 	20	Basic Latin 	728637	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
+Holy-Bible---English---Aionian-Bible	97	a	61	Basic Latin 	233933	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
 Holy-Bible---English---Aionian-Bible	114	r	72	Basic Latin 	165785	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
-Holy-Bible---English---Aionian-Bible	116	t	74	Basic Latin 	259665	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
-Holy-Bible---English---Aionian-Bible	119	w	77	Basic Latin 	70313	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
+Holy-Bible---English---Aionian-Bible	116	t	74	Basic Latin 	259674	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
+Holy-Bible---English---Aionian-Bible	119	w	77	Basic Latin 	70311	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
 Holy-Bible---English---Aionian-Bible	115	s	73	Basic Latin 	185422	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
 Holy-Bible---English---Aionian-Bible	102	f	66	Basic Latin 	77103	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
-Holy-Bible---English---Aionian-Bible	111	o	6f	Basic Latin 	252356	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
+Holy-Bible---English---Aionian-Bible	111	o	6f	Basic Latin 	252353	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
 Holy-Bible---English---Aionian-Bible	109	m	6d	Basic Latin 	74884	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
 Holy-Bible---English---Aionian-Bible	108	l	6c	Basic Latin 	123794	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
-Holy-Bible---English---Aionian-Bible	110	n	6e	Basic Latin 	192817	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
-Holy-Bible---English---Aionian-Bible	100	d	64	Basic Latin 	131665	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
+Holy-Bible---English---Aionian-Bible	110	n	6e	Basic Latin 	192816	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
+Holy-Bible---English---Aionian-Bible	100	d	64	Basic Latin 	131664	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
 Holy-Bible---English---Aionian-Bible	112	p	70	Basic Latin 	39074	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
-Holy-Bible---English---Aionian-Bible	121	y	79	Basic Latin 	67134	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
-Holy-Bible---English---Aionian-Bible	46	.	2e	Basic Latin 	37436	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
+Holy-Bible---English---Aionian-Bible	121	y	79	Basic Latin 	67135	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
+Holy-Bible---English---Aionian-Bible	46	.	2e	Basic Latin 	37437	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
 Holy-Bible---English---Aionian-Bible	68	D	44	Basic Latin 	9518	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
 Holy-Bible---English---Aionian-Bible	107	k	6b	Basic Latin 	22824	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
-Holy-Bible---English---Aionian-Bible	117	u	75	Basic Latin 	83110	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
-Holy-Bible---English---Aionian-Bible	99	c	63	Basic Latin 	51366	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
+Holy-Bible---English---Aionian-Bible	117	u	75	Basic Latin 	83109	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
+Holy-Bible---English---Aionian-Bible	99	c	63	Basic Latin 	51368	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
 Holy-Bible---English---Aionian-Bible	71	G	47	Basic Latin 	6155	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
 Holy-Bible---English---Aionian-Bible	8217	’	2019	General Punctuation 	5670	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
 Holy-Bible---English---Aionian-Bible	83	S	53	Basic Latin 	5935	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
-Holy-Bible---English---Aionian-Bible	105	i	69	Basic Latin 	185421	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
+Holy-Bible---English---Aionian-Bible	105	i	69	Basic Latin 	185422	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
 Holy-Bible---English---Aionian-Bible	118	v	76	Basic Latin 	31866	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
-Holy-Bible---English---Aionian-Bible	103	g	67	Basic Latin 	49673	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
-Holy-Bible---English---Aionian-Bible	44	,	2c	Basic Latin 	67032	GEN	001	003	God said, “Let there be light,” and there was light.
+Holy-Bible---English---Aionian-Bible	103	g	67	Basic Latin 	49672	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
+Holy-Bible---English---Aionian-Bible	44	,	2c	Basic Latin 	67031	GEN	001	003	God said, “Let there be light,” and there was light.
 Holy-Bible---English---Aionian-Bible	8220	“	201c	General Punctuation 	7857	GEN	001	003	God said, “Let there be light,” and there was light.
 Holy-Bible---English---Aionian-Bible	76	L	4c	Basic Latin 	9474	GEN	001	003	God said, “Let there be light,” and there was light.
-Holy-Bible---English---Aionian-Bible	98	b	62	Basic Latin 	41912	GEN	001	003	God said, “Let there be light,” and there was light.
+Holy-Bible---English---Aionian-Bible	98	b	62	Basic Latin 	41911	GEN	001	003	God said, “Let there be light,” and there was light.
 Holy-Bible---English---Aionian-Bible	8221	”	201d	General Punctuation 	6391	GEN	001	003	God said, “Let there be light,” and there was light.
 Holy-Bible---English---Aionian-Bible	120	x	78	Basic Latin 	1657	GEN	001	006	God said, “Let there be an expanse in the middle of the waters, and let it divide the waters from the waters.”
 Holy-Bible---English---Aionian-Bible	59	;	3b	Basic Latin 	5886	GEN	001	007	God made the expanse, and divided the waters which were under the expanse from the waters which were above the expanse; and it was so.
@@ -29352,7 +29352,7 @@ Holy-Bible---English---Aionian-Bible	65	A	41	Basic Latin 	6591	GEN	002	010	A riv
 Holy-Bible---English---Aionian-Bible	80	P	50	Basic Latin 	2187	GEN	002	011	The name of the first is Pishon: it flows through the whole land of Havilah, where there is gold;
 Holy-Bible---English---Aionian-Bible	67	C	43	Basic Latin 	1797	GEN	002	013	The name of the second river is Gihon. It is the same river that flows through the whole land of Cush.
 Holy-Bible---English---Aionian-Bible	89	Y	59	Basic Latin 	2906	GEN	002	016	The LORD God commanded the man, saying, “You may freely eat of every tree of the garden;
-Holy-Bible---English---Aionian-Bible	87	W	57	Basic Latin 	3657	GEN	002	019	Out of the ground the LORD God formed every animal of the field, and every bird of the sky, and brought them to the man to see what he would call them. Whatever the man called every living creature became its name.
+Holy-Bible---English---Aionian-Bible	87	W	57	Basic Latin 	3658	GEN	002	019	Out of the ground the LORD God formed every animal of the field, and every bird of the sky, and brought them to the man to see what he would call them. Whatever the man called every living creature became its name.
 Holy-Bible---English---Aionian-Bible	8216	‘	2018	General Punctuation 	1979	GEN	002	023	The man said, “This is now bone of my bones, and flesh of my flesh. She will be called ‘woman,’ because she was taken out of Man.”
 Holy-Bible---English---Aionian-Bible	77	M	4d	Basic Latin 	3927	GEN	002	023	The man said, “This is now bone of my bones, and flesh of my flesh. She will be called ‘woman,’ because she was taken out of Man.”
 Holy-Bible---English---Aionian-Bible	106	j	6a	Basic Latin 	2323	GEN	002	024	Therefore a man will leave his father and his mother, and will join with his wife, and they will be one flesh.
@@ -29932,7 +29932,7 @@ Holy-Bible---English---Darby-Translation	86	V	56	Basic Latin 	111	NUM	013	014	fo
 Holy-Bible---English---Darby-Translation	81	Q	51	Basic Latin 	2	PSA	119	088	Quicken me according to thy loving-kindness, and I will keep the testimony of thy mouth.
 Holy-Bible---English---Darby-Translation	8220	“	201c	General Punctuation 	1	PRO	023	035	— “They have smitten me, [and] I am not sore; they have beaten me, [and] I knew it not. When shall I awake? I will seek it yet again.”
 Holy-Bible---English---Darby-Translation	8221	”	201d	General Punctuation 	1	PRO	023	035	— “They have smitten me, [and] I am not sore; they have beaten me, [and] I knew it not. When shall I awake? I will seek it yet again.”
-Holy-Bible---English---Douay-Rheims-1899	65	A	41	Basic Latin 	18756	GEN	001	002	And the earth was void and empty, and darkness was upon the face of the deep; and the spirit of God moved over the waters.
+Holy-Bible---English---Douay-Rheims-1899	65	A	41	Basic Latin 	18755	GEN	001	002	And the earth was void and empty, and darkness was upon the face of the deep; and the spirit of God moved over the waters.
 Holy-Bible---English---Douay-Rheims-1899	110	n	6e	Basic Latin 	215169	GEN	001	002	And the earth was void and empty, and darkness was upon the face of the deep; and the spirit of God moved over the waters.
 Holy-Bible---English---Douay-Rheims-1899	100	d	64	Basic Latin 	159814	GEN	001	002	And the earth was void and empty, and darkness was upon the face of the deep; and the spirit of God moved over the waters.
 Holy-Bible---English---Douay-Rheims-1899	32	 	20	Basic Latin 	755706	GEN	001	002	And the earth was void and empty, and darkness was upon the face of the deep; and the spirit of God moved over the waters.
@@ -29945,18 +29945,18 @@ Holy-Bible---English---Douay-Rheims-1899	119	w	77	Basic Latin 	62437	GEN	001	002
 Holy-Bible---English---Douay-Rheims-1899	115	s	73	Basic Latin 	186658	GEN	001	002	And the earth was void and empty, and darkness was upon the face of the deep; and the spirit of God moved over the waters.
 Holy-Bible---English---Douay-Rheims-1899	118	v	76	Basic Latin 	30182	GEN	001	002	And the earth was void and empty, and darkness was upon the face of the deep; and the spirit of God moved over the waters.
 Holy-Bible---English---Douay-Rheims-1899	111	o	6f	Basic Latin 	240874	GEN	001	002	And the earth was void and empty, and darkness was upon the face of the deep; and the spirit of God moved over the waters.
-Holy-Bible---English---Douay-Rheims-1899	105	i	69	Basic Latin 	180794	GEN	001	002	And the earth was void and empty, and darkness was upon the face of the deep; and the spirit of God moved over the waters.
+Holy-Bible---English---Douay-Rheims-1899	105	i	69	Basic Latin 	180795	GEN	001	002	And the earth was void and empty, and darkness was upon the face of the deep; and the spirit of God moved over the waters.
 Holy-Bible---English---Douay-Rheims-1899	109	m	6d	Basic Latin 	77084	GEN	001	002	And the earth was void and empty, and darkness was upon the face of the deep; and the spirit of God moved over the waters.
 Holy-Bible---English---Douay-Rheims-1899	112	p	70	Basic Latin 	40719	GEN	001	002	And the earth was void and empty, and darkness was upon the face of the deep; and the spirit of God moved over the waters.
 Holy-Bible---English---Douay-Rheims-1899	121	y	79	Basic Latin 	59128	GEN	001	002	And the earth was void and empty, and darkness was upon the face of the deep; and the spirit of God moved over the waters.
 Holy-Bible---English---Douay-Rheims-1899	44	,	2c	Basic Latin 	65803	GEN	001	002	And the earth was void and empty, and darkness was upon the face of the deep; and the spirit of God moved over the waters.
 Holy-Bible---English---Douay-Rheims-1899	107	k	6b	Basic Latin 	20202	GEN	001	002	And the earth was void and empty, and darkness was upon the face of the deep; and the spirit of God moved over the waters.
 Holy-Bible---English---Douay-Rheims-1899	117	u	75	Basic Latin 	77788	GEN	001	002	And the earth was void and empty, and darkness was upon the face of the deep; and the spirit of God moved over the waters.
-Holy-Bible---English---Douay-Rheims-1899	102	f	66	Basic Latin 	78192	GEN	001	002	And the earth was void and empty, and darkness was upon the face of the deep; and the spirit of God moved over the waters.
+Holy-Bible---English---Douay-Rheims-1899	102	f	66	Basic Latin 	78193	GEN	001	002	And the earth was void and empty, and darkness was upon the face of the deep; and the spirit of God moved over the waters.
 Holy-Bible---English---Douay-Rheims-1899	99	c	63	Basic Latin 	54800	GEN	001	002	And the earth was void and empty, and darkness was upon the face of the deep; and the spirit of God moved over the waters.
 Holy-Bible---English---Douay-Rheims-1899	59	;	3b	Basic Latin 	2169	GEN	001	002	And the earth was void and empty, and darkness was upon the face of the deep; and the spirit of God moved over the waters.
 Holy-Bible---English---Douay-Rheims-1899	71	G	47	Basic Latin 	6150	GEN	001	002	And the earth was void and empty, and darkness was upon the face of the deep; and the spirit of God moved over the waters.
-Holy-Bible---English---Douay-Rheims-1899	46	.	2e	Basic Latin 	28910	GEN	001	002	And the earth was void and empty, and darkness was upon the face of the deep; and the spirit of God moved over the waters.
+Holy-Bible---English---Douay-Rheims-1899	46	.	2e	Basic Latin 	28909	GEN	001	002	And the earth was void and empty, and darkness was upon the face of the deep; and the spirit of God moved over the waters.
 Holy-Bible---English---Douay-Rheims-1899	58	:	3a	Basic Latin 	22693	GEN	001	003	And God said: Be light made. And light was made.
 Holy-Bible---English---Douay-Rheims-1899	66	B	42	Basic Latin 	5202	GEN	001	003	And God said: Be light made. And light was made.
 Holy-Bible---English---Douay-Rheims-1899	108	l	6c	Basic Latin 	122716	GEN	001	003	And God said: Be light made. And light was made.
@@ -32591,19 +32591,19 @@ Holy-Bible---English---Text-Critical	104	h	68	Basic Latin 	52263	MAT	001	002	Abr
 Holy-Bible---English---Text-Critical	109	m	6d	Basic Latin 	18099	MAT	001	002	Abraham was the father of Isaac, Isaac was the father of Jacob, Jacob was the father of Judah and his brothers,
 Holy-Bible---English---Text-Critical	32	 	20	Basic Latin 	173516	MAT	001	002	Abraham was the father of Isaac, Isaac was the father of Jacob, Jacob was the father of Judah and his brothers,
 Holy-Bible---English---Text-Critical	119	w	77	Basic Latin 	19361	MAT	001	002	Abraham was the father of Isaac, Isaac was the father of Jacob, Jacob was the father of Judah and his brothers,
-Holy-Bible---English---Text-Critical	115	s	73	Basic Latin 	46560	MAT	001	002	Abraham was the father of Isaac, Isaac was the father of Jacob, Jacob was the father of Judah and his brothers,
+Holy-Bible---English---Text-Critical	115	s	73	Basic Latin 	46558	MAT	001	002	Abraham was the father of Isaac, Isaac was the father of Jacob, Jacob was the father of Judah and his brothers,
 Holy-Bible---English---Text-Critical	116	t	74	Basic Latin 	64172	MAT	001	002	Abraham was the father of Isaac, Isaac was the father of Jacob, Jacob was the father of Judah and his brothers,
-Holy-Bible---English---Text-Critical	101	e	65	Basic Latin 	94313	MAT	001	002	Abraham was the father of Isaac, Isaac was the father of Jacob, Jacob was the father of Judah and his brothers,
+Holy-Bible---English---Text-Critical	101	e	65	Basic Latin 	94312	MAT	001	002	Abraham was the father of Isaac, Isaac was the father of Jacob, Jacob was the father of Judah and his brothers,
 Holy-Bible---English---Text-Critical	102	f	66	Basic Latin 	15825	MAT	001	002	Abraham was the father of Isaac, Isaac was the father of Jacob, Jacob was the father of Judah and his brothers,
 Holy-Bible---English---Text-Critical	111	o	6f	Basic Latin 	62873	MAT	001	002	Abraham was the father of Isaac, Isaac was the father of Jacob, Jacob was the father of Judah and his brothers,
 Holy-Bible---English---Text-Critical	73	I	49	Basic Latin 	3047	MAT	001	002	Abraham was the father of Isaac, Isaac was the father of Jacob, Jacob was the father of Judah and his brothers,
 Holy-Bible---English---Text-Critical	99	c	63	Basic Latin 	13038	MAT	001	002	Abraham was the father of Isaac, Isaac was the father of Jacob, Jacob was the father of Judah and his brothers,
 Holy-Bible---English---Text-Critical	44	,	2c	Basic Latin 	14362	MAT	001	002	Abraham was the father of Isaac, Isaac was the father of Jacob, Jacob was the father of Judah and his brothers,
-Holy-Bible---English---Text-Critical	74	J	4a	Basic Latin 	2194	MAT	001	002	Abraham was the father of Isaac, Isaac was the father of Jacob, Jacob was the father of Judah and his brothers,
-Holy-Bible---English---Text-Critical	117	u	75	Basic Latin 	20182	MAT	001	002	Abraham was the father of Isaac, Isaac was the father of Jacob, Jacob was the father of Judah and his brothers,
+Holy-Bible---English---Text-Critical	74	J	4a	Basic Latin 	2193	MAT	001	002	Abraham was the father of Isaac, Isaac was the father of Jacob, Jacob was the father of Judah and his brothers,
+Holy-Bible---English---Text-Critical	117	u	75	Basic Latin 	20181	MAT	001	002	Abraham was the father of Isaac, Isaac was the father of Jacob, Jacob was the father of Judah and his brothers,
 Holy-Bible---English---Text-Critical	100	d	64	Basic Latin 	32221	MAT	001	002	Abraham was the father of Isaac, Isaac was the father of Jacob, Jacob was the father of Judah and his brothers,
-Holy-Bible---English---Text-Critical	110	n	6e	Basic Latin 	47479	MAT	001	002	Abraham was the father of Isaac, Isaac was the father of Jacob, Jacob was the father of Judah and his brothers,
-Holy-Bible---English---Text-Critical	105	i	69	Basic Latin 	44743	MAT	001	002	Abraham was the father of Isaac, Isaac was the father of Jacob, Jacob was the father of Judah and his brothers,
+Holy-Bible---English---Text-Critical	110	n	6e	Basic Latin 	47480	MAT	001	002	Abraham was the father of Isaac, Isaac was the father of Jacob, Jacob was the father of Judah and his brothers,
+Holy-Bible---English---Text-Critical	105	i	69	Basic Latin 	44745	MAT	001	002	Abraham was the father of Isaac, Isaac was the father of Jacob, Jacob was the father of Judah and his brothers,
 Holy-Bible---English---Text-Critical	80	P	50	Basic Latin 	825	MAT	001	003	Judah was the father of Perez and Zerah by Tamar, Perez was the father of Hezron, Hezron was the father of Ram,
 Holy-Bible---English---Text-Critical	122	z	7a	Basic Latin 	369	MAT	001	003	Judah was the father of Perez and Zerah by Tamar, Perez was the father of Hezron, Hezron was the father of Ram,
 Holy-Bible---English---Text-Critical	90	Z	5a	Basic Latin 	54	MAT	001	003	Judah was the father of Perez and Zerah by Tamar, Perez was the father of Hezron, Hezron was the father of Ram,
@@ -32613,13 +32613,13 @@ Holy-Bible---English---Text-Critical	72	H	48	Basic Latin 	837	MAT	001	003	Judah 
 Holy-Bible---English---Text-Critical	82	R	52	Basic Latin 	160	MAT	001	003	Judah was the father of Perez and Zerah by Tamar, Perez was the father of Hezron, Hezron was the father of Ram,
 Holy-Bible---English---Text-Critical	78	N	4e	Basic Latin 	554	MAT	001	004	Ram was the father of Amminadab, Amminadab was the father of Nahshon, Nahshon was the father of Salmon,
 Holy-Bible---English---Text-Critical	83	S	53	Basic Latin 	1697	MAT	001	004	Ram was the father of Amminadab, Amminadab was the father of Nahshon, Nahshon was the father of Salmon,
-Holy-Bible---English---Text-Critical	108	l	6c	Basic Latin 	25539	MAT	001	004	Ram was the father of Amminadab, Amminadab was the father of Nahshon, Nahshon was the father of Salmon,
+Holy-Bible---English---Text-Critical	108	l	6c	Basic Latin 	25540	MAT	001	004	Ram was the father of Amminadab, Amminadab was the father of Nahshon, Nahshon was the father of Salmon,
 Holy-Bible---English---Text-Critical	66	B	42	Basic Latin 	1298	MAT	001	005	Salmon was the father of Boaz by Rahab, Boaz was the father of Obed by Ruth, Obed was the father of Jesse,
 Holy-Bible---English---Text-Critical	79	O	4f	Basic Latin 	283	MAT	001	005	Salmon was the father of Boaz by Rahab, Boaz was the father of Obed by Ruth, Obed was the father of Jesse,
 Holy-Bible---English---Text-Critical	68	D	44	Basic Latin 	361	MAT	001	006	and Jesse was the father of David the king. David the king was the father of Solomon by the wife of Uriah,
-Holy-Bible---English---Text-Critical	118	v	76	Basic Latin 	7785	MAT	001	006	and Jesse was the father of David the king. David the king was the father of Solomon by the wife of Uriah,
+Holy-Bible---English---Text-Critical	118	v	76	Basic Latin 	7786	MAT	001	006	and Jesse was the father of David the king. David the king was the father of Solomon by the wife of Uriah,
 Holy-Bible---English---Text-Critical	107	k	6b	Basic Latin 	4597	MAT	001	006	and Jesse was the father of David the king. David the king was the father of Solomon by the wife of Uriah,
-Holy-Bible---English---Text-Critical	103	g	67	Basic Latin 	13077	MAT	001	006	and Jesse was the father of David the king. David the king was the father of Solomon by the wife of Uriah,
+Holy-Bible---English---Text-Critical	103	g	67	Basic Latin 	13078	MAT	001	006	and Jesse was the father of David the king. David the king was the father of Solomon by the wife of Uriah,
 Holy-Bible---English---Text-Critical	46	.	2e	Basic Latin 	7998	MAT	001	006	and Jesse was the father of David the king. David the king was the father of Solomon by the wife of Uriah,
 Holy-Bible---English---Text-Critical	85	U	55	Basic Latin 	20	MAT	001	006	and Jesse was the father of David the king. David the king was the father of Solomon by the wife of Uriah,
 Holy-Bible---English---Text-Critical	106	j	6a	Basic Latin 	779	MAT	001	007	Solomon was the father of Rehoboam, Rehoboam was the father of Abijah, Abijah was the father of Asa,
@@ -33146,37 +33146,37 @@ Holy-Bible---English---Weymouth-NT	51	3	33	Basic Latin 	3	JOH	012	005	"Why was n
 Holy-Bible---English---Weymouth-NT	55	7	37	Basic Latin 	3	ACT	027	037	There were 276 of us, crew and passengers, all told.
 Holy-Bible---English---Weymouth-NT	54	6	36	Basic Latin 	6	ACT	027	037	There were 276 of us, crew and passengers, all told.
 Holy-Bible---English---World-English-Bible	84	T	54	Basic Latin 	11515	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
-Holy-Bible---English---World-English-Bible	104	h	68	Basic Latin 	241584	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
-Holy-Bible---English---World-English-Bible	101	e	65	Basic Latin 	386265	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
-Holy-Bible---English---World-English-Bible	32	 	20	Basic Latin 	718877	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
-Holy-Bible---English---World-English-Bible	97	a	61	Basic Latin 	240797	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
+Holy-Bible---English---World-English-Bible	104	h	68	Basic Latin 	241586	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
+Holy-Bible---English---World-English-Bible	101	e	65	Basic Latin 	386267	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
+Holy-Bible---English---World-English-Bible	32	 	20	Basic Latin 	718879	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
+Holy-Bible---English---World-English-Bible	97	a	61	Basic Latin 	240798	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
 Holy-Bible---English---World-English-Bible	114	r	72	Basic Latin 	165785	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
-Holy-Bible---English---World-English-Bible	116	t	74	Basic Latin 	254563	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
-Holy-Bible---English---World-English-Bible	119	w	77	Basic Latin 	77137	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
+Holy-Bible---English---World-English-Bible	116	t	74	Basic Latin 	254572	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
+Holy-Bible---English---World-English-Bible	119	w	77	Basic Latin 	77135	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
 Holy-Bible---English---World-English-Bible	115	s	73	Basic Latin 	185423	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
 Holy-Bible---English---World-English-Bible	102	f	66	Basic Latin 	77103	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
-Holy-Bible---English---World-English-Bible	111	o	6f	Basic Latin 	248920	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
+Holy-Bible---English---World-English-Bible	111	o	6f	Basic Latin 	248917	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
 Holy-Bible---English---World-English-Bible	109	m	6d	Basic Latin 	74884	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
 Holy-Bible---English---World-English-Bible	108	l	6c	Basic Latin 	123254	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
-Holy-Bible---English---World-English-Bible	110	n	6e	Basic Latin 	192615	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
-Holy-Bible---English---World-English-Bible	100	d	64	Basic Latin 	131665	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
+Holy-Bible---English---World-English-Bible	110	n	6e	Basic Latin 	192614	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
+Holy-Bible---English---World-English-Bible	100	d	64	Basic Latin 	131664	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
 Holy-Bible---English---World-English-Bible	112	p	70	Basic Latin 	39074	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
-Holy-Bible---English---World-English-Bible	121	y	79	Basic Latin 	67134	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
-Holy-Bible---English---World-English-Bible	46	.	2e	Basic Latin 	37436	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
+Holy-Bible---English---World-English-Bible	121	y	79	Basic Latin 	67135	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
+Holy-Bible---English---World-English-Bible	46	.	2e	Basic Latin 	37437	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
 Holy-Bible---English---World-English-Bible	68	D	44	Basic Latin 	2630	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
 Holy-Bible---English---World-English-Bible	107	k	6b	Basic Latin 	22824	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
-Holy-Bible---English---World-English-Bible	117	u	75	Basic Latin 	83110	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
-Holy-Bible---English---World-English-Bible	99	c	63	Basic Latin 	51366	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
+Holy-Bible---English---World-English-Bible	117	u	75	Basic Latin 	83109	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
+Holy-Bible---English---World-English-Bible	99	c	63	Basic Latin 	51368	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
 Holy-Bible---English---World-English-Bible	71	G	47	Basic Latin 	5842	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
 Holy-Bible---English---World-English-Bible	8217	’	2019	General Punctuation 	9406	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
 Holy-Bible---English---World-English-Bible	83	S	53	Basic Latin 	5935	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
-Holy-Bible---English---World-English-Bible	105	i	69	Basic Latin 	185140	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
+Holy-Bible---English---World-English-Bible	105	i	69	Basic Latin 	185141	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
 Holy-Bible---English---World-English-Bible	118	v	76	Basic Latin 	31866	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
-Holy-Bible---English---World-English-Bible	103	g	67	Basic Latin 	49673	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
-Holy-Bible---English---World-English-Bible	44	,	2c	Basic Latin 	67032	GEN	001	003	God said, “Let there be light,” and there was light.
+Holy-Bible---English---World-English-Bible	103	g	67	Basic Latin 	49672	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
+Holy-Bible---English---World-English-Bible	44	,	2c	Basic Latin 	67031	GEN	001	003	God said, “Let there be light,” and there was light.
 Holy-Bible---English---World-English-Bible	8220	“	201c	General Punctuation 	7857	GEN	001	003	God said, “Let there be light,” and there was light.
 Holy-Bible---English---World-English-Bible	76	L	4c	Basic Latin 	2899	GEN	001	003	God said, “Let there be light,” and there was light.
-Holy-Bible---English---World-English-Bible	98	b	62	Basic Latin 	41912	GEN	001	003	God said, “Let there be light,” and there was light.
+Holy-Bible---English---World-English-Bible	98	b	62	Basic Latin 	41911	GEN	001	003	God said, “Let there be light,” and there was light.
 Holy-Bible---English---World-English-Bible	8221	”	201d	General Punctuation 	6391	GEN	001	003	God said, “Let there be light,” and there was light.
 Holy-Bible---English---World-English-Bible	120	x	78	Basic Latin 	1657	GEN	001	006	God said, “Let there be an expanse in the middle of the waters, and let it divide the waters from the waters.”
 Holy-Bible---English---World-English-Bible	59	;	3b	Basic Latin 	5886	GEN	001	007	God made the expanse, and divided the waters which were under the expanse from the waters which were above the expanse; and it was so.
@@ -33191,7 +33191,7 @@ Holy-Bible---English---World-English-Bible	69	E	45	Basic Latin 	2720	GEN	002	008
 Holy-Bible---English---World-English-Bible	65	A	41	Basic Latin 	6595	GEN	002	010	A river went out of Eden to water the garden; and from there it was parted, and became the source of four rivers.
 Holy-Bible---English---World-English-Bible	80	P	50	Basic Latin 	2187	GEN	002	011	The name of the first is Pishon: it flows through the whole land of Havilah, where there is gold;
 Holy-Bible---English---World-English-Bible	67	C	43	Basic Latin 	1797	GEN	002	013	The name of the second river is Gihon. It is the same river that flows through the whole land of Cush.
-Holy-Bible---English---World-English-Bible	87	W	57	Basic Latin 	3661	GEN	002	019	Out of the ground Yahweh God formed every animal of the field, and every bird of the sky, and brought them to the man to see what he would call them. Whatever the man called every living creature became its name.
+Holy-Bible---English---World-English-Bible	87	W	57	Basic Latin 	3662	GEN	002	019	Out of the ground Yahweh God formed every animal of the field, and every bird of the sky, and brought them to the man to see what he would call them. Whatever the man called every living creature became its name.
 Holy-Bible---English---World-English-Bible	8216	‘	2018	General Punctuation 	1979	GEN	002	023	The man said, “This is now bone of my bones, and flesh of my flesh. She will be called ‘woman,’ because she was taken out of Man.”
 Holy-Bible---English---World-English-Bible	77	M	4d	Basic Latin 	3927	GEN	002	023	The man said, “This is now bone of my bones, and flesh of my flesh. She will be called ‘woman,’ because she was taken out of Man.”
 Holy-Bible---English---World-English-Bible	106	j	6a	Basic Latin 	2323	GEN	002	024	Therefore a man will leave his father and his mother, and will join with his wife, and they will be one flesh.
@@ -33214,37 +33214,37 @@ Holy-Bible---English---World-English-Bible	81	Q	51	Basic Latin 	8	GEN	018	006	Ab
 Holy-Bible---English---World-English-Bible	8211	–	2013	General Punctuation 	1	DEU	006	010	It shall be, when Yahweh your God brings you into the land which he swore to your fathers, to Abraham, to Isaac, and to Jacob, to give you–a land with great and good cities which you didn’t build,
 Holy-Bible---English---World-English-Bible	160	 	a0	Latin-1 Supplement	3	JOH	005	011	He answered them, “He who made me well said to me, ‘Take up your mat and walk.’ ”
 Holy-Bible---English---World-English-Bible-British-Edition	84	T	54	Basic Latin 	12637	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
-Holy-Bible---English---World-English-Bible-British-Edition	104	h	68	Basic Latin 	234129	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
-Holy-Bible---English---World-English-Bible-British-Edition	101	e	65	Basic Latin 	385733	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
-Holy-Bible---English---World-English-Bible-British-Edition	32	 	20	Basic Latin 	725494	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
-Holy-Bible---English---World-English-Bible-British-Edition	97	a	61	Basic Latin 	234290	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
+Holy-Bible---English---World-English-Bible-British-Edition	104	h	68	Basic Latin 	234131	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
+Holy-Bible---English---World-English-Bible-British-Edition	101	e	65	Basic Latin 	385735	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
+Holy-Bible---English---World-English-Bible-British-Edition	32	 	20	Basic Latin 	725496	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
+Holy-Bible---English---World-English-Bible-British-Edition	97	a	61	Basic Latin 	234291	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
 Holy-Bible---English---World-English-Bible-British-Edition	114	r	72	Basic Latin 	165785	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
-Holy-Bible---English---World-English-Bible-British-Edition	116	t	74	Basic Latin 	260900	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
-Holy-Bible---English---World-English-Bible-British-Edition	119	w	77	Basic Latin 	70271	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
+Holy-Bible---English---World-English-Bible-British-Edition	116	t	74	Basic Latin 	260909	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
+Holy-Bible---English---World-English-Bible-British-Edition	119	w	77	Basic Latin 	70269	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
 Holy-Bible---English---World-English-Bible-British-Edition	115	s	73	Basic Latin 	186900	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
 Holy-Bible---English---World-English-Bible-British-Edition	102	f	66	Basic Latin 	77088	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
-Holy-Bible---English---World-English-Bible-British-Edition	111	o	6f	Basic Latin 	248921	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
+Holy-Bible---English---World-English-Bible-British-Edition	111	o	6f	Basic Latin 	248918	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
 Holy-Bible---English---World-English-Bible-British-Edition	109	m	6d	Basic Latin 	74884	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
 Holy-Bible---English---World-English-Bible-British-Edition	108	l	6c	Basic Latin 	123374	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
-Holy-Bible---English---World-English-Bible-British-Edition	110	n	6e	Basic Latin 	193008	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
-Holy-Bible---English---World-English-Bible-British-Edition	100	d	64	Basic Latin 	131815	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
+Holy-Bible---English---World-English-Bible-British-Edition	110	n	6e	Basic Latin 	193007	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
+Holy-Bible---English---World-English-Bible-British-Edition	100	d	64	Basic Latin 	131814	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
 Holy-Bible---English---World-English-Bible-British-Edition	112	p	70	Basic Latin 	39170	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
-Holy-Bible---English---World-English-Bible-British-Edition	121	y	79	Basic Latin 	67138	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
-Holy-Bible---English---World-English-Bible-British-Edition	46	.	2e	Basic Latin 	37436	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
+Holy-Bible---English---World-English-Bible-British-Edition	121	y	79	Basic Latin 	67139	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
+Holy-Bible---English---World-English-Bible-British-Edition	46	.	2e	Basic Latin 	37437	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
 Holy-Bible---English---World-English-Bible-British-Edition	68	D	44	Basic Latin 	9518	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
 Holy-Bible---English---World-English-Bible-British-Edition	107	k	6b	Basic Latin 	22824	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
-Holy-Bible---English---World-English-Bible-British-Edition	117	u	75	Basic Latin 	84025	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
-Holy-Bible---English---World-English-Bible-British-Edition	99	c	63	Basic Latin 	51381	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
+Holy-Bible---English---World-English-Bible-British-Edition	117	u	75	Basic Latin 	84024	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
+Holy-Bible---English---World-English-Bible-British-Edition	99	c	63	Basic Latin 	51383	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
 Holy-Bible---English---World-English-Bible-British-Edition	71	G	47	Basic Latin 	6155	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
 Holy-Bible---English---World-English-Bible-British-Edition	8217	’	2019	General Punctuation 	9406	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
 Holy-Bible---English---World-English-Bible-British-Edition	83	S	53	Basic Latin 	5935	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
-Holy-Bible---English---World-English-Bible-British-Edition	105	i	69	Basic Latin 	185054	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
+Holy-Bible---English---World-English-Bible-British-Edition	105	i	69	Basic Latin 	185055	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
 Holy-Bible---English---World-English-Bible-British-Edition	118	v	76	Basic Latin 	31866	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
-Holy-Bible---English---World-English-Bible-British-Edition	103	g	67	Basic Latin 	49704	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
-Holy-Bible---English---World-English-Bible-British-Edition	44	,	2c	Basic Latin 	67032	GEN	001	003	God said, “Let there be light,” and there was light.
+Holy-Bible---English---World-English-Bible-British-Edition	103	g	67	Basic Latin 	49703	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
+Holy-Bible---English---World-English-Bible-British-Edition	44	,	2c	Basic Latin 	67031	GEN	001	003	God said, “Let there be light,” and there was light.
 Holy-Bible---English---World-English-Bible-British-Edition	8220	“	201c	General Punctuation 	7857	GEN	001	003	God said, “Let there be light,” and there was light.
 Holy-Bible---English---World-English-Bible-British-Edition	76	L	4c	Basic Latin 	9474	GEN	001	003	God said, “Let there be light,” and there was light.
-Holy-Bible---English---World-English-Bible-British-Edition	98	b	62	Basic Latin 	41912	GEN	001	003	God said, “Let there be light,” and there was light.
+Holy-Bible---English---World-English-Bible-British-Edition	98	b	62	Basic Latin 	41911	GEN	001	003	God said, “Let there be light,” and there was light.
 Holy-Bible---English---World-English-Bible-British-Edition	8221	”	201d	General Punctuation 	6391	GEN	001	003	God said, “Let there be light,” and there was light.
 Holy-Bible---English---World-English-Bible-British-Edition	120	x	78	Basic Latin 	1657	GEN	001	006	God said, “Let there be an expanse in the middle of the waters, and let it divide the waters from the waters.”
 Holy-Bible---English---World-English-Bible-British-Edition	59	;	3b	Basic Latin 	5886	GEN	001	007	God made the expanse, and divided the waters which were under the expanse from the waters which were above the expanse; and it was so.
@@ -33260,7 +33260,7 @@ Holy-Bible---English---World-English-Bible-British-Edition	65	A	41	Basic Latin 	
 Holy-Bible---English---World-English-Bible-British-Edition	80	P	50	Basic Latin 	2187	GEN	002	011	The name of the first is Pishon: it flows through the whole land of Havilah, where there is gold;
 Holy-Bible---English---World-English-Bible-British-Edition	67	C	43	Basic Latin 	1797	GEN	002	013	The name of the second river is Gihon. It is the same river that flows through the whole land of Cush.
 Holy-Bible---English---World-English-Bible-British-Edition	89	Y	59	Basic Latin 	2906	GEN	002	016	The LORD God commanded the man, saying, “You may freely eat of every tree of the garden;
-Holy-Bible---English---World-English-Bible-British-Edition	87	W	57	Basic Latin 	3657	GEN	002	019	Out of the ground the LORD God formed every animal of the field, and every bird of the sky, and brought them to the man to see what he would call them. Whatever the man called every living creature became its name.
+Holy-Bible---English---World-English-Bible-British-Edition	87	W	57	Basic Latin 	3658	GEN	002	019	Out of the ground the LORD God formed every animal of the field, and every bird of the sky, and brought them to the man to see what he would call them. Whatever the man called every living creature became its name.
 Holy-Bible---English---World-English-Bible-British-Edition	8216	‘	2018	General Punctuation 	1979	GEN	002	023	The man said, “This is now bone of my bones, and flesh of my flesh. She will be called ‘woman,’ because she was taken out of Man.”
 Holy-Bible---English---World-English-Bible-British-Edition	77	M	4d	Basic Latin 	3927	GEN	002	023	The man said, “This is now bone of my bones, and flesh of my flesh. She will be called ‘woman,’ because she was taken out of Man.”
 Holy-Bible---English---World-English-Bible-British-Edition	106	j	6a	Basic Latin 	2323	GEN	002	024	Therefore a man will leave his father and his mother, and will join with his wife, and they will be one flesh.
@@ -33282,37 +33282,37 @@ Holy-Bible---English---World-English-Bible-British-Edition	81	Q	51	Basic Latin 	
 Holy-Bible---English---World-English-Bible-British-Edition	8211	–	2013	General Punctuation 	1	DEU	006	010	It shall be, when the LORD your God brings you into the land which he swore to your fathers, to Abraham, to Isaac, and to Jacob, to give you–a land with great and good cities which you didn’t build,
 Holy-Bible---English---World-English-Bible-British-Edition	160	 	a0	Latin-1 Supplement	3	JOH	005	011	He answered them, “He who made me well said to me, ‘Take up your mat and walk.’ ”
 Holy-Bible---English---World-English-Bible-Updated	84	T	54	Basic Latin 	12637	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
-Holy-Bible---English---World-English-Bible-Updated	104	h	68	Basic Latin 	234083	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
-Holy-Bible---English---World-English-Bible-Updated	101	e	65	Basic Latin 	385649	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
-Holy-Bible---English---World-English-Bible-Updated	32	 	20	Basic Latin 	725101	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
-Holy-Bible---English---World-English-Bible-Updated	97	a	61	Basic Latin 	233912	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
+Holy-Bible---English---World-English-Bible-Updated	104	h	68	Basic Latin 	234085	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
+Holy-Bible---English---World-English-Bible-Updated	101	e	65	Basic Latin 	385651	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
+Holy-Bible---English---World-English-Bible-Updated	32	 	20	Basic Latin 	725103	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
+Holy-Bible---English---World-English-Bible-Updated	97	a	61	Basic Latin 	233913	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
 Holy-Bible---English---World-English-Bible-Updated	114	r	72	Basic Latin 	165785	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
-Holy-Bible---English---World-English-Bible-Updated	116	t	74	Basic Latin 	259665	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
-Holy-Bible---English---World-English-Bible-Updated	119	w	77	Basic Latin 	70302	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
+Holy-Bible---English---World-English-Bible-Updated	116	t	74	Basic Latin 	259674	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
+Holy-Bible---English---World-English-Bible-Updated	119	w	77	Basic Latin 	70300	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
 Holy-Bible---English---World-English-Bible-Updated	115	s	73	Basic Latin 	185422	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
 Holy-Bible---English---World-English-Bible-Updated	102	f	66	Basic Latin 	77103	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
-Holy-Bible---English---World-English-Bible-Updated	111	o	6f	Basic Latin 	248921	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
+Holy-Bible---English---World-English-Bible-Updated	111	o	6f	Basic Latin 	248918	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
 Holy-Bible---English---World-English-Bible-Updated	109	m	6d	Basic Latin 	74884	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
 Holy-Bible---English---World-English-Bible-Updated	108	l	6c	Basic Latin 	123254	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
-Holy-Bible---English---World-English-Bible-Updated	110	n	6e	Basic Latin 	192615	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
-Holy-Bible---English---World-English-Bible-Updated	100	d	64	Basic Latin 	131665	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
+Holy-Bible---English---World-English-Bible-Updated	110	n	6e	Basic Latin 	192614	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
+Holy-Bible---English---World-English-Bible-Updated	100	d	64	Basic Latin 	131664	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
 Holy-Bible---English---World-English-Bible-Updated	112	p	70	Basic Latin 	39074	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
-Holy-Bible---English---World-English-Bible-Updated	121	y	79	Basic Latin 	67134	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
-Holy-Bible---English---World-English-Bible-Updated	46	.	2e	Basic Latin 	37436	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
+Holy-Bible---English---World-English-Bible-Updated	121	y	79	Basic Latin 	67135	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
+Holy-Bible---English---World-English-Bible-Updated	46	.	2e	Basic Latin 	37437	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
 Holy-Bible---English---World-English-Bible-Updated	68	D	44	Basic Latin 	9518	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
 Holy-Bible---English---World-English-Bible-Updated	107	k	6b	Basic Latin 	22824	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
-Holy-Bible---English---World-English-Bible-Updated	117	u	75	Basic Latin 	83110	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
-Holy-Bible---English---World-English-Bible-Updated	99	c	63	Basic Latin 	51366	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
+Holy-Bible---English---World-English-Bible-Updated	117	u	75	Basic Latin 	83109	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
+Holy-Bible---English---World-English-Bible-Updated	99	c	63	Basic Latin 	51368	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
 Holy-Bible---English---World-English-Bible-Updated	71	G	47	Basic Latin 	6155	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
 Holy-Bible---English---World-English-Bible-Updated	8217	’	2019	General Punctuation 	9406	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
 Holy-Bible---English---World-English-Bible-Updated	83	S	53	Basic Latin 	5935	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
-Holy-Bible---English---World-English-Bible-Updated	105	i	69	Basic Latin 	185140	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
+Holy-Bible---English---World-English-Bible-Updated	105	i	69	Basic Latin 	185141	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
 Holy-Bible---English---World-English-Bible-Updated	118	v	76	Basic Latin 	31866	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
-Holy-Bible---English---World-English-Bible-Updated	103	g	67	Basic Latin 	49673	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
-Holy-Bible---English---World-English-Bible-Updated	44	,	2c	Basic Latin 	67032	GEN	001	003	God said, “Let there be light,” and there was light.
+Holy-Bible---English---World-English-Bible-Updated	103	g	67	Basic Latin 	49672	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
+Holy-Bible---English---World-English-Bible-Updated	44	,	2c	Basic Latin 	67031	GEN	001	003	God said, “Let there be light,” and there was light.
 Holy-Bible---English---World-English-Bible-Updated	8220	“	201c	General Punctuation 	7857	GEN	001	003	God said, “Let there be light,” and there was light.
 Holy-Bible---English---World-English-Bible-Updated	76	L	4c	Basic Latin 	9474	GEN	001	003	God said, “Let there be light,” and there was light.
-Holy-Bible---English---World-English-Bible-Updated	98	b	62	Basic Latin 	41912	GEN	001	003	God said, “Let there be light,” and there was light.
+Holy-Bible---English---World-English-Bible-Updated	98	b	62	Basic Latin 	41911	GEN	001	003	God said, “Let there be light,” and there was light.
 Holy-Bible---English---World-English-Bible-Updated	8221	”	201d	General Punctuation 	6391	GEN	001	003	God said, “Let there be light,” and there was light.
 Holy-Bible---English---World-English-Bible-Updated	120	x	78	Basic Latin 	1657	GEN	001	006	God said, “Let there be an expanse in the middle of the waters, and let it divide the waters from the waters.”
 Holy-Bible---English---World-English-Bible-Updated	59	;	3b	Basic Latin 	5886	GEN	001	007	God made the expanse, and divided the waters which were under the expanse from the waters which were above the expanse; and it was so.
@@ -33328,7 +33328,7 @@ Holy-Bible---English---World-English-Bible-Updated	65	A	41	Basic Latin 	6591	GEN
 Holy-Bible---English---World-English-Bible-Updated	80	P	50	Basic Latin 	2187	GEN	002	011	The name of the first is Pishon: it flows through the whole land of Havilah, where there is gold;
 Holy-Bible---English---World-English-Bible-Updated	67	C	43	Basic Latin 	1797	GEN	002	013	The name of the second river is Gihon. It is the same river that flows through the whole land of Cush.
 Holy-Bible---English---World-English-Bible-Updated	89	Y	59	Basic Latin 	2906	GEN	002	016	The LORD God commanded the man, saying, “You may freely eat of every tree of the garden;
-Holy-Bible---English---World-English-Bible-Updated	87	W	57	Basic Latin 	3657	GEN	002	019	Out of the ground the LORD God formed every animal of the field, and every bird of the sky, and brought them to the man to see what he would call them. Whatever the man called every living creature became its name.
+Holy-Bible---English---World-English-Bible-Updated	87	W	57	Basic Latin 	3658	GEN	002	019	Out of the ground the LORD God formed every animal of the field, and every bird of the sky, and brought them to the man to see what he would call them. Whatever the man called every living creature became its name.
 Holy-Bible---English---World-English-Bible-Updated	8216	‘	2018	General Punctuation 	1979	GEN	002	023	The man said, “This is now bone of my bones, and flesh of my flesh. She will be called ‘woman,’ because she was taken out of Man.”
 Holy-Bible---English---World-English-Bible-Updated	77	M	4d	Basic Latin 	3927	GEN	002	023	The man said, “This is now bone of my bones, and flesh of my flesh. She will be called ‘woman,’ because she was taken out of Man.”
 Holy-Bible---English---World-English-Bible-Updated	106	j	6a	Basic Latin 	2323	GEN	002	024	Therefore a man will leave his father and his mother, and will join with his wife, and they will be one flesh.
@@ -33350,37 +33350,37 @@ Holy-Bible---English---World-English-Bible-Updated	81	Q	51	Basic Latin 	8	GEN	01
 Holy-Bible---English---World-English-Bible-Updated	8211	–	2013	General Punctuation 	1	DEU	006	010	It shall be, when the LORD your God brings you into the land which he swore to your fathers, to Abraham, to Isaac, and to Jacob, to give you–a land with great and good cities which you didn’t build,
 Holy-Bible---English---World-English-Bible-Updated	160	 	a0	Latin-1 Supplement	3	JOH	005	011	He answered them, “He who made me well said to me, ‘Take up your mat and walk.’ ”
 Holy-Bible---English---World-Messianic-Bible	84	T	54	Basic Latin 	12734	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
-Holy-Bible---English---World-Messianic-Bible	104	h	68	Basic Latin 	235381	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
-Holy-Bible---English---World-Messianic-Bible	101	e	65	Basic Latin 	385883	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
-Holy-Bible---English---World-Messianic-Bible	32	 	20	Basic Latin 	725271	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
-Holy-Bible---English---World-Messianic-Bible	97	a	61	Basic Latin 	235607	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
+Holy-Bible---English---World-Messianic-Bible	104	h	68	Basic Latin 	235383	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
+Holy-Bible---English---World-Messianic-Bible	101	e	65	Basic Latin 	385885	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
+Holy-Bible---English---World-Messianic-Bible	32	 	20	Basic Latin 	725273	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
+Holy-Bible---English---World-Messianic-Bible	97	a	61	Basic Latin 	235608	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
 Holy-Bible---English---World-Messianic-Bible	114	r	72	Basic Latin 	165268	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
-Holy-Bible---English---World-Messianic-Bible	116	t	74	Basic Latin 	258988	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
-Holy-Bible---English---World-Messianic-Bible	119	w	77	Basic Latin 	70089	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
+Holy-Bible---English---World-Messianic-Bible	116	t	74	Basic Latin 	258997	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
+Holy-Bible---English---World-Messianic-Bible	119	w	77	Basic Latin 	70087	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
 Holy-Bible---English---World-Messianic-Bible	115	s	73	Basic Latin 	185446	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
 Holy-Bible---English---World-Messianic-Bible	102	f	66	Basic Latin 	77294	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
-Holy-Bible---English---World-Messianic-Bible	111	o	6f	Basic Latin 	249680	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
+Holy-Bible---English---World-Messianic-Bible	111	o	6f	Basic Latin 	249677	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
 Holy-Bible---English---World-Messianic-Bible	109	m	6d	Basic Latin 	74962	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
 Holy-Bible---English---World-Messianic-Bible	108	l	6c	Basic Latin 	123155	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
-Holy-Bible---English---World-Messianic-Bible	110	n	6e	Basic Latin 	192715	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
-Holy-Bible---English---World-Messianic-Bible	100	d	64	Basic Latin 	131677	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
+Holy-Bible---English---World-Messianic-Bible	110	n	6e	Basic Latin 	192714	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
+Holy-Bible---English---World-Messianic-Bible	100	d	64	Basic Latin 	131676	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
 Holy-Bible---English---World-Messianic-Bible	112	p	70	Basic Latin 	38678	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
-Holy-Bible---English---World-Messianic-Bible	121	y	79	Basic Latin 	67201	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
-Holy-Bible---English---World-Messianic-Bible	46	.	2e	Basic Latin 	37436	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
+Holy-Bible---English---World-Messianic-Bible	121	y	79	Basic Latin 	67202	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
+Holy-Bible---English---World-Messianic-Bible	46	.	2e	Basic Latin 	37437	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
 Holy-Bible---English---World-Messianic-Bible	68	D	44	Basic Latin 	9518	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
 Holy-Bible---English---World-Messianic-Bible	107	k	6b	Basic Latin 	22806	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
-Holy-Bible---English---World-Messianic-Bible	117	u	75	Basic Latin 	83111	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
-Holy-Bible---English---World-Messianic-Bible	99	c	63	Basic Latin 	51546	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
+Holy-Bible---English---World-Messianic-Bible	117	u	75	Basic Latin 	83110	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
+Holy-Bible---English---World-Messianic-Bible	99	c	63	Basic Latin 	51548	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
 Holy-Bible---English---World-Messianic-Bible	71	G	47	Basic Latin 	6156	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
 Holy-Bible---English---World-Messianic-Bible	8217	’	2019	General Punctuation 	9403	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
 Holy-Bible---English---World-Messianic-Bible	83	S	53	Basic Latin 	5974	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
-Holy-Bible---English---World-Messianic-Bible	105	i	69	Basic Latin 	185287	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
+Holy-Bible---English---World-Messianic-Bible	105	i	69	Basic Latin 	185288	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
 Holy-Bible---English---World-Messianic-Bible	118	v	76	Basic Latin 	31890	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
-Holy-Bible---English---World-Messianic-Bible	103	g	67	Basic Latin 	49668	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
-Holy-Bible---English---World-Messianic-Bible	44	,	2c	Basic Latin 	67032	GEN	001	003	God said, “Let there be light,” and there was light.
+Holy-Bible---English---World-Messianic-Bible	103	g	67	Basic Latin 	49667	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
+Holy-Bible---English---World-Messianic-Bible	44	,	2c	Basic Latin 	67031	GEN	001	003	God said, “Let there be light,” and there was light.
 Holy-Bible---English---World-Messianic-Bible	8220	“	201c	General Punctuation 	7857	GEN	001	003	God said, “Let there be light,” and there was light.
 Holy-Bible---English---World-Messianic-Bible	76	L	4c	Basic Latin 	9473	GEN	001	003	God said, “Let there be light,” and there was light.
-Holy-Bible---English---World-Messianic-Bible	98	b	62	Basic Latin 	41912	GEN	001	003	God said, “Let there be light,” and there was light.
+Holy-Bible---English---World-Messianic-Bible	98	b	62	Basic Latin 	41911	GEN	001	003	God said, “Let there be light,” and there was light.
 Holy-Bible---English---World-Messianic-Bible	8221	”	201d	General Punctuation 	6391	GEN	001	003	God said, “Let there be light,” and there was light.
 Holy-Bible---English---World-Messianic-Bible	120	x	78	Basic Latin 	1656	GEN	001	006	God said, “Let there be an expanse in the middle of the waters, and let it divide the waters from the waters.”
 Holy-Bible---English---World-Messianic-Bible	59	;	3b	Basic Latin 	5886	GEN	001	007	God made the expanse, and divided the waters which were under the expanse from the waters which were above the expanse; and it was so.
@@ -33396,7 +33396,7 @@ Holy-Bible---English---World-Messianic-Bible	65	A	41	Basic Latin 	6290	GEN	002	0
 Holy-Bible---English---World-Messianic-Bible	80	P	50	Basic Latin 	2197	GEN	002	011	The name of the first is Pishon: it flows through the whole land of Havilah, where there is gold;
 Holy-Bible---English---World-Messianic-Bible	67	C	43	Basic Latin 	1135	GEN	002	013	The name of the second river is Gihon. It is the same river that flows through the whole land of Cush.
 Holy-Bible---English---World-Messianic-Bible	89	Y	59	Basic Latin 	4091	GEN	002	016	The LORD God commanded the man, saying, “You may freely eat of every tree of the garden;
-Holy-Bible---English---World-Messianic-Bible	87	W	57	Basic Latin 	3657	GEN	002	019	Out of the ground the LORD God formed every animal of the field, and every bird of the sky, and brought them to the man to see what he would call them. Whatever the man called every living creature became its name.
+Holy-Bible---English---World-Messianic-Bible	87	W	57	Basic Latin 	3658	GEN	002	019	Out of the ground the LORD God formed every animal of the field, and every bird of the sky, and brought them to the man to see what he would call them. Whatever the man called every living creature became its name.
 Holy-Bible---English---World-Messianic-Bible	8216	‘	2018	General Punctuation 	1979	GEN	002	023	The man said, “This is now bone of my bones, and flesh of my flesh. She will be called ‘woman,’ because she was taken out of Man.”
 Holy-Bible---English---World-Messianic-Bible	77	M	4d	Basic Latin 	4490	GEN	002	023	The man said, “This is now bone of my bones, and flesh of my flesh. She will be called ‘woman,’ because she was taken out of Man.”
 Holy-Bible---English---World-Messianic-Bible	106	j	6a	Basic Latin 	2323	GEN	002	024	Therefore a man will leave his father and his mother, and will join with his wife, and they will be one flesh.
@@ -33422,37 +33422,37 @@ Holy-Bible---English---World-Messianic-Bible	8211	–	2013	General Punctuation 	
 Holy-Bible---English---World-Messianic-Bible	39	'	27	Basic Latin 	6	MAT	021	009	The multitudes who went in front of him, and those who followed, kept shouting, “Hoshia'na to the son of David! Blessed is he who comes in the name of the Lord! Hoshia'na in the highest!”
 Holy-Bible---English---World-Messianic-Bible	160	 	a0	Latin-1 Supplement	3	JOH	005	011	He answered them, “He who made me well said to me, ‘Take up your mat and walk.’ ”
 Holy-Bible---English---World-Messianic-Bible-British-Edition	84	T	54	Basic Latin 	12734	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
-Holy-Bible---English---World-Messianic-Bible-British-Edition	104	h	68	Basic Latin 	235427	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
-Holy-Bible---English---World-Messianic-Bible-British-Edition	101	e	65	Basic Latin 	385967	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
-Holy-Bible---English---World-Messianic-Bible-British-Edition	32	 	20	Basic Latin 	725664	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
-Holy-Bible---English---World-Messianic-Bible-British-Edition	97	a	61	Basic Latin 	235985	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
+Holy-Bible---English---World-Messianic-Bible-British-Edition	104	h	68	Basic Latin 	235429	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
+Holy-Bible---English---World-Messianic-Bible-British-Edition	101	e	65	Basic Latin 	385969	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
+Holy-Bible---English---World-Messianic-Bible-British-Edition	32	 	20	Basic Latin 	725666	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
+Holy-Bible---English---World-Messianic-Bible-British-Edition	97	a	61	Basic Latin 	235986	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
 Holy-Bible---English---World-Messianic-Bible-British-Edition	114	r	72	Basic Latin 	165268	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
-Holy-Bible---English---World-Messianic-Bible-British-Edition	116	t	74	Basic Latin 	260223	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
-Holy-Bible---English---World-Messianic-Bible-British-Edition	119	w	77	Basic Latin 	70058	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
+Holy-Bible---English---World-Messianic-Bible-British-Edition	116	t	74	Basic Latin 	260232	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
+Holy-Bible---English---World-Messianic-Bible-British-Edition	119	w	77	Basic Latin 	70056	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
 Holy-Bible---English---World-Messianic-Bible-British-Edition	115	s	73	Basic Latin 	186832	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
 Holy-Bible---English---World-Messianic-Bible-British-Edition	102	f	66	Basic Latin 	77279	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
-Holy-Bible---English---World-Messianic-Bible-British-Edition	111	o	6f	Basic Latin 	249680	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
+Holy-Bible---English---World-Messianic-Bible-British-Edition	111	o	6f	Basic Latin 	249677	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
 Holy-Bible---English---World-Messianic-Bible-British-Edition	109	m	6d	Basic Latin 	74962	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
 Holy-Bible---English---World-Messianic-Bible-British-Edition	108	l	6c	Basic Latin 	123275	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
-Holy-Bible---English---World-Messianic-Bible-British-Edition	110	n	6e	Basic Latin 	193108	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
-Holy-Bible---English---World-Messianic-Bible-British-Edition	100	d	64	Basic Latin 	131827	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
+Holy-Bible---English---World-Messianic-Bible-British-Edition	110	n	6e	Basic Latin 	193107	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
+Holy-Bible---English---World-Messianic-Bible-British-Edition	100	d	64	Basic Latin 	131826	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
 Holy-Bible---English---World-Messianic-Bible-British-Edition	112	p	70	Basic Latin 	38774	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
-Holy-Bible---English---World-Messianic-Bible-British-Edition	121	y	79	Basic Latin 	67205	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
-Holy-Bible---English---World-Messianic-Bible-British-Edition	46	.	2e	Basic Latin 	37436	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
+Holy-Bible---English---World-Messianic-Bible-British-Edition	121	y	79	Basic Latin 	67206	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
+Holy-Bible---English---World-Messianic-Bible-British-Edition	46	.	2e	Basic Latin 	37437	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
 Holy-Bible---English---World-Messianic-Bible-British-Edition	68	D	44	Basic Latin 	9518	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
 Holy-Bible---English---World-Messianic-Bible-British-Edition	107	k	6b	Basic Latin 	22806	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
-Holy-Bible---English---World-Messianic-Bible-British-Edition	117	u	75	Basic Latin 	84026	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
-Holy-Bible---English---World-Messianic-Bible-British-Edition	99	c	63	Basic Latin 	51561	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
+Holy-Bible---English---World-Messianic-Bible-British-Edition	117	u	75	Basic Latin 	84025	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
+Holy-Bible---English---World-Messianic-Bible-British-Edition	99	c	63	Basic Latin 	51563	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
 Holy-Bible---English---World-Messianic-Bible-British-Edition	71	G	47	Basic Latin 	6156	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
 Holy-Bible---English---World-Messianic-Bible-British-Edition	8217	’	2019	General Punctuation 	9403	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
 Holy-Bible---English---World-Messianic-Bible-British-Edition	83	S	53	Basic Latin 	5974	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
-Holy-Bible---English---World-Messianic-Bible-British-Edition	105	i	69	Basic Latin 	185201	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
+Holy-Bible---English---World-Messianic-Bible-British-Edition	105	i	69	Basic Latin 	185202	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
 Holy-Bible---English---World-Messianic-Bible-British-Edition	118	v	76	Basic Latin 	31890	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
-Holy-Bible---English---World-Messianic-Bible-British-Edition	103	g	67	Basic Latin 	49699	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
-Holy-Bible---English---World-Messianic-Bible-British-Edition	44	,	2c	Basic Latin 	67032	GEN	001	003	God said, “Let there be light,” and there was light.
+Holy-Bible---English---World-Messianic-Bible-British-Edition	103	g	67	Basic Latin 	49698	GEN	001	002	The earth was formless and empty. Darkness was on the surface of the deep and God’s Spirit was hovering over the surface of the waters.
+Holy-Bible---English---World-Messianic-Bible-British-Edition	44	,	2c	Basic Latin 	67031	GEN	001	003	God said, “Let there be light,” and there was light.
 Holy-Bible---English---World-Messianic-Bible-British-Edition	8220	“	201c	General Punctuation 	7857	GEN	001	003	God said, “Let there be light,” and there was light.
 Holy-Bible---English---World-Messianic-Bible-British-Edition	76	L	4c	Basic Latin 	9473	GEN	001	003	God said, “Let there be light,” and there was light.
-Holy-Bible---English---World-Messianic-Bible-British-Edition	98	b	62	Basic Latin 	41912	GEN	001	003	God said, “Let there be light,” and there was light.
+Holy-Bible---English---World-Messianic-Bible-British-Edition	98	b	62	Basic Latin 	41911	GEN	001	003	God said, “Let there be light,” and there was light.
 Holy-Bible---English---World-Messianic-Bible-British-Edition	8221	”	201d	General Punctuation 	6391	GEN	001	003	God said, “Let there be light,” and there was light.
 Holy-Bible---English---World-Messianic-Bible-British-Edition	120	x	78	Basic Latin 	1656	GEN	001	006	God said, “Let there be an expanse in the middle of the waters, and let it divide the waters from the waters.”
 Holy-Bible---English---World-Messianic-Bible-British-Edition	59	;	3b	Basic Latin 	5886	GEN	001	007	God made the expanse, and divided the waters which were under the expanse from the waters which were above the expanse; and it was so.
@@ -33468,7 +33468,7 @@ Holy-Bible---English---World-Messianic-Bible-British-Edition	65	A	41	Basic Latin
 Holy-Bible---English---World-Messianic-Bible-British-Edition	80	P	50	Basic Latin 	2197	GEN	002	011	The name of the first is Pishon: it flows through the whole land of Havilah, where there is gold;
 Holy-Bible---English---World-Messianic-Bible-British-Edition	67	C	43	Basic Latin 	1135	GEN	002	013	The name of the second river is Gihon. It is the same river that flows through the whole land of Cush.
 Holy-Bible---English---World-Messianic-Bible-British-Edition	89	Y	59	Basic Latin 	4091	GEN	002	016	The LORD God commanded the man, saying, “You may freely eat of every tree of the garden;
-Holy-Bible---English---World-Messianic-Bible-British-Edition	87	W	57	Basic Latin 	3657	GEN	002	019	Out of the ground the LORD God formed every animal of the field, and every bird of the sky, and brought them to the man to see what he would call them. Whatever the man called every living creature became its name.
+Holy-Bible---English---World-Messianic-Bible-British-Edition	87	W	57	Basic Latin 	3658	GEN	002	019	Out of the ground the LORD God formed every animal of the field, and every bird of the sky, and brought them to the man to see what he would call them. Whatever the man called every living creature became its name.
 Holy-Bible---English---World-Messianic-Bible-British-Edition	8216	‘	2018	General Punctuation 	1979	GEN	002	023	The man said, “This is now bone of my bones, and flesh of my flesh. She will be called ‘woman,’ because she was taken out of Man.”
 Holy-Bible---English---World-Messianic-Bible-British-Edition	77	M	4d	Basic Latin 	4490	GEN	002	023	The man said, “This is now bone of my bones, and flesh of my flesh. She will be called ‘woman,’ because she was taken out of Man.”
 Holy-Bible---English---World-Messianic-Bible-British-Edition	106	j	6a	Basic Latin 	2323	GEN	002	024	Therefore a man will leave his father and his mother, and will join with his wife, and they will be one flesh.
@@ -40773,37 +40773,37 @@ Holy-Bible---Greek---Greek-Westcott-Hort	56	8	38	Basic Latin 	2	ROM	010	005	μω
 Holy-Bible---Greek---Text-Critical	7944	Ἀ	1f08	Greek Extended 	544	MAT	001	002	Ἀβραὰμ ἐγέννησε τὸν Ἰσαάκ, Ἰσαὰκ δὲ ἐγέννησε τὸν Ἰακώβ, Ἰακὼβ δὲ ἐγέννησε τὸν Ἰούδαν καὶ τοὺς ἀδελφοὺς αὐτοῦ,
 Holy-Bible---Greek---Text-Critical	946	β	3b2	Greek and Coptic 	3414	MAT	001	002	Ἀβραὰμ ἐγέννησε τὸν Ἰσαάκ, Ἰσαὰκ δὲ ἐγέννησε τὸν Ἰακώβ, Ἰακὼβ δὲ ἐγέννησε τὸν Ἰούδαν καὶ τοὺς ἀδελφοὺς αὐτοῦ,
 Holy-Bible---Greek---Text-Critical	961	ρ	3c1	Greek and Coptic 	23218	MAT	001	002	Ἀβραὰμ ἐγέννησε τὸν Ἰσαάκ, Ἰσαὰκ δὲ ἐγέννησε τὸν Ἰακώβ, Ἰακὼβ δὲ ἐγέννησε τὸν Ἰούδαν καὶ τοὺς ἀδελφοὺς αὐτοῦ,
-Holy-Bible---Greek---Text-Critical	945	α	3b1	Greek and Coptic 	52643	MAT	001	002	Ἀβραὰμ ἐγέννησε τὸν Ἰσαάκ, Ἰσαὰκ δὲ ἐγέννησε τὸν Ἰακώβ, Ἰακὼβ δὲ ἐγέννησε τὸν Ἰούδαν καὶ τοὺς ἀδελφοὺς αὐτοῦ,
+Holy-Bible---Greek---Text-Critical	945	α	3b1	Greek and Coptic 	52644	MAT	001	002	Ἀβραὰμ ἐγέννησε τὸν Ἰσαάκ, Ἰσαὰκ δὲ ἐγέννησε τὸν Ἰακώβ, Ἰακὼβ δὲ ἐγέννησε τὸν Ἰούδαν καὶ τοὺς ἀδελφοὺς αὐτοῦ,
 Holy-Bible---Greek---Text-Critical	8048	ὰ	1f70	Greek Extended 	4836	MAT	001	002	Ἀβραὰμ ἐγέννησε τὸν Ἰσαάκ, Ἰσαὰκ δὲ ἐγέννησε τὸν Ἰακώβ, Ἰακὼβ δὲ ἐγέννησε τὸν Ἰούδαν καὶ τοὺς ἀδελφοὺς αὐτοῦ,
 Holy-Bible---Greek---Text-Critical	956	μ	3bc	Greek and Coptic 	19525	MAT	001	002	Ἀβραὰμ ἐγέννησε τὸν Ἰσαάκ, Ἰσαὰκ δὲ ἐγέννησε τὸν Ἰακώβ, Ἰακὼβ δὲ ἐγέννησε τὸν Ἰούδαν καὶ τοὺς ἀδελφοὺς αὐτοῦ,
-Holy-Bible---Greek---Text-Critical	32	 	20	Basic Latin 	132175	MAT	001	002	Ἀβραὰμ ἐγέννησε τὸν Ἰσαάκ, Ἰσαὰκ δὲ ἐγέννησε τὸν Ἰακώβ, Ἰακὼβ δὲ ἐγέννησε τὸν Ἰούδαν καὶ τοὺς ἀδελφοὺς αὐτοῦ,
-Holy-Bible---Greek---Text-Critical	7952	ἐ	1f10	Greek Extended 	12318	MAT	001	002	Ἀβραὰμ ἐγέννησε τὸν Ἰσαάκ, Ἰσαὰκ δὲ ἐγέννησε τὸν Ἰακώβ, Ἰακὼβ δὲ ἐγέννησε τὸν Ἰούδαν καὶ τοὺς ἀδελφοὺς αὐτοῦ,
-Holy-Bible---Greek---Text-Critical	947	γ	3b3	Greek and Coptic 	11113	MAT	001	002	Ἀβραὰμ ἐγέννησε τὸν Ἰσαάκ, Ἰσαὰκ δὲ ἐγέννησε τὸν Ἰακώβ, Ἰακὼβ δὲ ἐγέννησε τὸν Ἰούδαν καὶ τοὺς ἀδελφοὺς αὐτοῦ,
+Holy-Bible---Greek---Text-Critical	32	 	20	Basic Latin 	132176	MAT	001	002	Ἀβραὰμ ἐγέννησε τὸν Ἰσαάκ, Ἰσαὰκ δὲ ἐγέννησε τὸν Ἰακώβ, Ἰακὼβ δὲ ἐγέννησε τὸν Ἰούδαν καὶ τοὺς ἀδελφοὺς αὐτοῦ,
+Holy-Bible---Greek---Text-Critical	7952	ἐ	1f10	Greek Extended 	12319	MAT	001	002	Ἀβραὰμ ἐγέννησε τὸν Ἰσαάκ, Ἰσαὰκ δὲ ἐγέννησε τὸν Ἰακώβ, Ἰακὼβ δὲ ἐγέννησε τὸν Ἰούδαν καὶ τοὺς ἀδελφοὺς αὐτοῦ,
+Holy-Bible---Greek---Text-Critical	947	γ	3b3	Greek and Coptic 	11114	MAT	001	002	Ἀβραὰμ ἐγέννησε τὸν Ἰσαάκ, Ἰσαὰκ δὲ ἐγέννησε τὸν Ἰακώβ, Ἰακὼβ δὲ ἐγέννησε τὸν Ἰούδαν καὶ τοὺς ἀδελφοὺς αὐτοῦ,
 Holy-Bible---Greek---Text-Critical	941	έ	3ad	Greek and Coptic 	8656	MAT	001	002	Ἀβραὰμ ἐγέννησε τὸν Ἰσαάκ, Ἰσαὰκ δὲ ἐγέννησε τὸν Ἰακώβ, Ἰακὼβ δὲ ἐγέννησε τὸν Ἰούδαν καὶ τοὺς ἀδελφοὺς αὐτοῦ,
-Holy-Bible---Greek---Text-Critical	957	ν	3bd	Greek and Coptic 	54764	MAT	001	002	Ἀβραὰμ ἐγέννησε τὸν Ἰσαάκ, Ἰσαὰκ δὲ ἐγέννησε τὸν Ἰακώβ, Ἰακὼβ δὲ ἐγέννησε τὸν Ἰούδαν καὶ τοὺς ἀδελφοὺς αὐτοῦ,
-Holy-Bible---Greek---Text-Critical	951	η	3b7	Greek and Coptic 	9206	MAT	001	002	Ἀβραὰμ ἐγέννησε τὸν Ἰσαάκ, Ἰσαὰκ δὲ ἐγέννησε τὸν Ἰακώβ, Ἰακὼβ δὲ ἐγέννησε τὸν Ἰούδαν καὶ τοὺς ἀδελφοὺς αὐτοῦ,
+Holy-Bible---Greek---Text-Critical	957	ν	3bd	Greek and Coptic 	54765	MAT	001	002	Ἀβραὰμ ἐγέννησε τὸν Ἰσαάκ, Ἰσαὰκ δὲ ἐγέννησε τὸν Ἰακώβ, Ἰακὼβ δὲ ἐγέννησε τὸν Ἰούδαν καὶ τοὺς ἀδελφοὺς αὐτοῦ,
+Holy-Bible---Greek---Text-Critical	951	η	3b7	Greek and Coptic 	9205	MAT	001	002	Ἀβραὰμ ἐγέννησε τὸν Ἰσαάκ, Ἰσαὰκ δὲ ἐγέννησε τὸν Ἰακώβ, Ἰακὼβ δὲ ἐγέννησε τὸν Ἰούδαν καὶ τοὺς ἀδελφοὺς αὐτοῦ,
 Holy-Bible---Greek---Text-Critical	963	σ	3c3	Greek and Coptic 	24488	MAT	001	002	Ἀβραὰμ ἐγέννησε τὸν Ἰσαάκ, Ἰσαὰκ δὲ ἐγέννησε τὸν Ἰακώβ, Ἰακὼβ δὲ ἐγέννησε τὸν Ἰούδαν καὶ τοὺς ἀδελφοὺς αὐτοῦ,
 Holy-Bible---Greek---Text-Critical	949	ε	3b5	Greek and Coptic 	38919	MAT	001	002	Ἀβραὰμ ἐγέννησε τὸν Ἰσαάκ, Ἰσαὰκ δὲ ἐγέννησε τὸν Ἰακώβ, Ἰακὼβ δὲ ἐγέννησε τὸν Ἰούδαν καὶ τοὺς ἀδελφοὺς αὐτοῦ,
-Holy-Bible---Greek---Text-Critical	964	τ	3c4	Greek and Coptic 	51575	MAT	001	002	Ἀβραὰμ ἐγέννησε τὸν Ἰσαάκ, Ἰσαὰκ δὲ ἐγέννησε τὸν Ἰακώβ, Ἰακὼβ δὲ ἐγέννησε τὸν Ἰούδαν καὶ τοὺς ἀδελφοὺς αὐτοῦ,
-Holy-Bible---Greek---Text-Critical	8056	ὸ	1f78	Greek Extended 	7808	MAT	001	002	Ἀβραὰμ ἐγέννησε τὸν Ἰσαάκ, Ἰσαὰκ δὲ ἐγέννησε τὸν Ἰακώβ, Ἰακὼβ δὲ ἐγέννησε τὸν Ἰούδαν καὶ τοὺς ἀδελφοὺς αὐτοῦ,
-Holy-Bible---Greek---Text-Critical	7992	Ἰ	1f38	Greek Extended 	1774	MAT	001	002	Ἀβραὰμ ἐγέννησε τὸν Ἰσαάκ, Ἰσαὰκ δὲ ἐγέννησε τὸν Ἰακώβ, Ἰακὼβ δὲ ἐγέννησε τὸν Ἰούδαν καὶ τοὺς ἀδελφοὺς αὐτοῦ,
+Holy-Bible---Greek---Text-Critical	964	τ	3c4	Greek and Coptic 	51576	MAT	001	002	Ἀβραὰμ ἐγέννησε τὸν Ἰσαάκ, Ἰσαὰκ δὲ ἐγέννησε τὸν Ἰακώβ, Ἰακὼβ δὲ ἐγέννησε τὸν Ἰούδαν καὶ τοὺς ἀδελφοὺς αὐτοῦ,
+Holy-Bible---Greek---Text-Critical	8056	ὸ	1f78	Greek Extended 	7807	MAT	001	002	Ἀβραὰμ ἐγέννησε τὸν Ἰσαάκ, Ἰσαὰκ δὲ ἐγέννησε τὸν Ἰακώβ, Ἰακὼβ δὲ ἐγέννησε τὸν Ἰούδαν καὶ τοὺς ἀδελφοὺς αὐτοῦ,
+Holy-Bible---Greek---Text-Critical	7992	Ἰ	1f38	Greek Extended 	1773	MAT	001	002	Ἀβραὰμ ἐγέννησε τὸν Ἰσαάκ, Ἰσαὰκ δὲ ἐγέννησε τὸν Ἰακώβ, Ἰακὼβ δὲ ἐγέννησε τὸν Ἰούδαν καὶ τοὺς ἀδελφοὺς αὐτοῦ,
 Holy-Bible---Greek---Text-Critical	940	ά	3ac	Greek and Coptic 	6953	MAT	001	002	Ἀβραὰμ ἐγέννησε τὸν Ἰσαάκ, Ἰσαὰκ δὲ ἐγέννησε τὸν Ἰακώβ, Ἰακὼβ δὲ ἐγέννησε τὸν Ἰούδαν καὶ τοὺς ἀδελφοὺς αὐτοῦ,
-Holy-Bible---Greek---Text-Critical	954	κ	3ba	Greek and Coptic 	23022	MAT	001	002	Ἀβραὰμ ἐγέννησε τὸν Ἰσαάκ, Ἰσαὰκ δὲ ἐγέννησε τὸν Ἰακώβ, Ἰακὼβ δὲ ἐγέννησε τὸν Ἰούδαν καὶ τοὺς ἀδελφοὺς αὐτοῦ,
+Holy-Bible---Greek---Text-Critical	954	κ	3ba	Greek and Coptic 	23023	MAT	001	002	Ἀβραὰμ ἐγέννησε τὸν Ἰσαάκ, Ἰσαὰκ δὲ ἐγέννησε τὸν Ἰακώβ, Ἰακὼβ δὲ ἐγέννησε τὸν Ἰούδαν καὶ τοὺς ἀδελφοὺς αὐτοῦ,
 Holy-Bible---Greek---Text-Critical	44	,	2c	Basic Latin 	11412	MAT	001	002	Ἀβραὰμ ἐγέννησε τὸν Ἰσαάκ, Ἰσαὰκ δὲ ἐγέννησε τὸν Ἰακώβ, Ἰακὼβ δὲ ἐγέννησε τὸν Ἰούδαν καὶ τοὺς ἀδελφοὺς αὐτοῦ,
 Holy-Bible---Greek---Text-Critical	948	δ	3b4	Greek and Coptic 	12658	MAT	001	002	Ἀβραὰμ ἐγέννησε τὸν Ἰσαάκ, Ἰσαὰκ δὲ ἐγέννησε τὸν Ἰακώβ, Ἰακὼβ δὲ ἐγέννησε τὸν Ἰούδαν καὶ τοὺς ἀδελφοὺς αὐτοῦ,
 Holy-Bible---Greek---Text-Critical	8050	ὲ	1f72	Greek Extended 	3527	MAT	001	002	Ἀβραὰμ ἐγέννησε τὸν Ἰσαάκ, Ἰσαὰκ δὲ ἐγέννησε τὸν Ἰακώβ, Ἰακὼβ δὲ ἐγέννησε τὸν Ἰούδαν καὶ τοὺς ἀδελφοὺς αὐτοῦ,
 Holy-Bible---Greek---Text-Critical	974	ώ	3ce	Greek and Coptic 	2073	MAT	001	002	Ἀβραὰμ ἐγέννησε τὸν Ἰσαάκ, Ἰσαὰκ δὲ ἐγέννησε τὸν Ἰακώβ, Ἰακὼβ δὲ ἐγέννησε τὸν Ἰούδαν καὶ τοὺς ἀδελφοὺς αὐτοῦ,
 Holy-Bible---Greek---Text-Critical	8060	ὼ	1f7c	Greek Extended 	1012	MAT	001	002	Ἀβραὰμ ἐγέννησε τὸν Ἰσαάκ, Ἰσαὰκ δὲ ἐγέννησε τὸν Ἰακώβ, Ἰακὼβ δὲ ἐγέννησε τὸν Ἰούδαν καὶ τοὺς ἀδελφοὺς αὐτοῦ,
-Holy-Bible---Greek---Text-Critical	959	ο	3bf	Greek and Coptic 	46113	MAT	001	002	Ἀβραὰμ ἐγέννησε τὸν Ἰσαάκ, Ἰσαὰκ δὲ ἐγέννησε τὸν Ἰακώβ, Ἰακὼβ δὲ ἐγέννησε τὸν Ἰούδαν καὶ τοὺς ἀδελφοὺς αὐτοῦ,
+Holy-Bible---Greek---Text-Critical	959	ο	3bf	Greek and Coptic 	46111	MAT	001	002	Ἀβραὰμ ἐγέννησε τὸν Ἰσαάκ, Ἰσαὰκ δὲ ἐγέννησε τὸν Ἰακώβ, Ἰακὼβ δὲ ἐγέννησε τὸν Ἰούδαν καὶ τοὺς ἀδελφοὺς αὐτοῦ,
 Holy-Bible---Greek---Text-Critical	973	ύ	3cd	Greek and Coptic 	5064	MAT	001	002	Ἀβραὰμ ἐγέννησε τὸν Ἰσαάκ, Ἰσαὰκ δὲ ἐγέννησε τὸν Ἰακώβ, Ἰακὼβ δὲ ἐγέννησε τὸν Ἰούδαν καὶ τοὺς ἀδελφοὺς αὐτοῦ,
 Holy-Bible---Greek---Text-Critical	8054	ὶ	1f76	Greek Extended 	11982	MAT	001	002	Ἀβραὰμ ἐγέννησε τὸν Ἰσαάκ, Ἰσαὰκ δὲ ἐγέννησε τὸν Ἰακώβ, Ἰακὼβ δὲ ἐγέννησε τὸν Ἰούδαν καὶ τοὺς ἀδελφοὺς αὐτοῦ,
 Holy-Bible---Greek---Text-Critical	8058	ὺ	1f7a	Greek Extended 	1808	MAT	001	002	Ἀβραὰμ ἐγέννησε τὸν Ἰσαάκ, Ἰσαὰκ δὲ ἐγέννησε τὸν Ἰακώβ, Ἰακὼβ δὲ ἐγέννησε τὸν Ἰούδαν καὶ τοὺς ἀδελφοὺς αὐτοῦ,
-Holy-Bible---Greek---Text-Critical	962	ς	3c2	Greek and Coptic 	27344	MAT	001	002	Ἀβραὰμ ἐγέννησε τὸν Ἰσαάκ, Ἰσαὰκ δὲ ἐγέννησε τὸν Ἰακώβ, Ἰακὼβ δὲ ἐγέννησε τὸν Ἰούδαν καὶ τοὺς ἀδελφοὺς αὐτοῦ,
+Holy-Bible---Greek---Text-Critical	962	ς	3c2	Greek and Coptic 	27343	MAT	001	002	Ἀβραὰμ ἐγέννησε τὸν Ἰσαάκ, Ἰσαὰκ δὲ ἐγέννησε τὸν Ἰακώβ, Ἰακὼβ δὲ ἐγέννησε τὸν Ἰούδαν καὶ τοὺς ἀδελφοὺς αὐτοῦ,
 Holy-Bible---Greek---Text-Critical	7936	ἀ	1f00	Greek Extended 	7376	MAT	001	002	Ἀβραὰμ ἐγέννησε τὸν Ἰσαάκ, Ἰσαὰκ δὲ ἐγέννησε τὸν Ἰακώβ, Ἰακὼβ δὲ ἐγέννησε τὸν Ἰούδαν καὶ τοὺς ἀδελφοὺς αὐτοῦ,
-Holy-Bible---Greek---Text-Critical	955	λ	3bb	Greek and Coptic 	18410	MAT	001	002	Ἀβραὰμ ἐγέννησε τὸν Ἰσαάκ, Ἰσαὰκ δὲ ἐγέννησε τὸν Ἰακώβ, Ἰακὼβ δὲ ἐγέννησε τὸν Ἰούδαν καὶ τοὺς ἀδελφοὺς αὐτοῦ,
+Holy-Bible---Greek---Text-Critical	955	λ	3bb	Greek and Coptic 	18409	MAT	001	002	Ἀβραὰμ ἐγέννησε τὸν Ἰσαάκ, Ἰσαὰκ δὲ ἐγέννησε τὸν Ἰακώβ, Ἰακὼβ δὲ ἐγέννησε τὸν Ἰούδαν καὶ τοὺς ἀδελφοὺς αὐτοῦ,
 Holy-Bible---Greek---Text-Critical	966	φ	3c6	Greek and Coptic 	3826	MAT	001	002	Ἀβραὰμ ἐγέννησε τὸν Ἰσαάκ, Ἰσαὰκ δὲ ἐγέννησε τὸν Ἰακώβ, Ἰακὼβ δὲ ἐγέννησε τὸν Ἰούδαν καὶ τοὺς ἀδελφοὺς αὐτοῦ,
 Holy-Bible---Greek---Text-Critical	8016	ὐ	1f50	Greek Extended 	8833	MAT	001	002	Ἀβραὰμ ἐγέννησε τὸν Ἰσαάκ, Ἰσαὰκ δὲ ἐγέννησε τὸν Ἰακώβ, Ἰακὼβ δὲ ἐγέννησε τὸν Ἰούδαν καὶ τοὺς ἀδελφοὺς αὐτοῦ,
-Holy-Bible---Greek---Text-Critical	8166	ῦ	1fe6	Greek Extended 	9038	MAT	001	002	Ἀβραὰμ ἐγέννησε τὸν Ἰσαάκ, Ἰσαὰκ δὲ ἐγέννησε τὸν Ἰακώβ, Ἰακὼβ δὲ ἐγέννησε τὸν Ἰούδαν καὶ τοὺς ἀδελφοὺς αὐτοῦ,
+Holy-Bible---Greek---Text-Critical	8166	ῦ	1fe6	Greek Extended 	9037	MAT	001	002	Ἀβραὰμ ἐγέννησε τὸν Ἰσαάκ, Ἰσαὰκ δὲ ἐγέννησε τὸν Ἰακώβ, Ἰακὼβ δὲ ἐγέννησε τὸν Ἰούδαν καὶ τοὺς ἀδελφοὺς αὐτοῦ,
 Holy-Bible---Greek---Text-Critical	934	Φ	3a6	Greek and Coptic 	208	MAT	001	003	Ἰούδας δὲ ἐγέννησε τὸν Φαρὲς καὶ τὸν Ζαρὰ ἐκ τῆς Θάμαρ, Φαρὲς δὲ ἐγέννησε τὸν Ἐσρώμ, Ἐσρὼμ δὲ ἐγέννησε τὸν Ἀράμ,
 Holy-Bible---Greek---Text-Critical	918	Ζ	396	Greek and Coptic 	39	MAT	001	003	Ἰούδας δὲ ἐγέννησε τὸν Φαρὲς καὶ τὸν Ζαρὰ ἐκ τῆς Θάμαρ, Φαρὲς δὲ ἐγέννησε τὸν Ἐσρώμ, Ἐσρὼμ δὲ ἐγέννησε τὸν Ἀράμ,
 Holy-Bible---Greek---Text-Critical	8134	ῆ	1fc6	Greek Extended 	3327	MAT	001	003	Ἰούδας δὲ ἐγέννησε τὸν Φαρὲς καὶ τὸν Ζαρὰ ἐκ τῆς Θάμαρ, Φαρὲς δὲ ἐγέννησε τὸν Ἐσρώμ, Ἐσρὼμ δὲ ἐγέννησε τὸν Ἀράμ,
@@ -40813,18 +40813,18 @@ Holy-Bible---Greek---Text-Critical	953	ι	3b9	Greek and Coptic 	26450	MAT	001	00
 Holy-Bible---Greek---Text-Critical	925	Ν	39d	Greek and Coptic 	110	MAT	001	004	Ἀρὰμ δὲ ἐγέννησε τὸν Ἀμιναδάβ, Ἀμιναδὰβ δὲ ἐγέννησε τὸν Ναασσών, Ναασσὼν δὲ ἐγέννησε τὸν Σαλμών,
 Holy-Bible---Greek---Text-Critical	931	Σ	3a3	Greek and Coptic 	424	MAT	001	004	Ἀρὰμ δὲ ἐγέννησε τὸν Ἀμιναδάβ, Ἀμιναδὰβ δὲ ἐγέννησε τὸν Ναασσών, Ναασσὼν δὲ ἐγέννησε τὸν Σαλμών,
 Holy-Bible---Greek---Text-Critical	914	Β	392	Greek and Coptic 	157	MAT	001	005	Σαλμὼν δὲ ἐγέννησε τὸν Βοὸζ ἐκ τῆς Ῥαχάβ, Βοὸζ δὲ ἐγέννησε τὸν Ὠβὴδ ἐκ τῆς Ῥούθ, Ὠβὴδ δὲ ἐγέννησε τὸν Ἰεσσαί,
-Holy-Bible---Greek---Text-Critical	950	ζ	3b6	Greek and Coptic 	1544	MAT	001	005	Σαλμὼν δὲ ἐγέννησε τὸν Βοὸζ ἐκ τῆς Ῥαχάβ, Βοὸζ δὲ ἐγέννησε τὸν Ὠβὴδ ἐκ τῆς Ῥούθ, Ὠβὴδ δὲ ἐγέννησε τὸν Ἰεσσαί,
+Holy-Bible---Greek---Text-Critical	950	ζ	3b6	Greek and Coptic 	1545	MAT	001	005	Σαλμὼν δὲ ἐγέννησε τὸν Βοὸζ ἐκ τῆς Ῥαχάβ, Βοὸζ δὲ ἐγέννησε τὸν Ὠβὴδ ἐκ τῆς Ῥούθ, Ὠβὴδ δὲ ἐγέννησε τὸν Ἰεσσαί,
 Holy-Bible---Greek---Text-Critical	8172	Ῥ	1fec	Greek Extended 	56	MAT	001	005	Σαλμὼν δὲ ἐγέννησε τὸν Βοὸζ ἐκ τῆς Ῥαχάβ, Βοὸζ δὲ ἐγέννησε τὸν Ὠβὴδ ἐκ τῆς Ῥούθ, Ὠβὴδ δὲ ἐγέννησε τὸν Ἰεσσαί,
 Holy-Bible---Greek---Text-Critical	967	χ	3c7	Greek and Coptic 	4711	MAT	001	005	Σαλμὼν δὲ ἐγέννησε τὸν Βοὸζ ἐκ τῆς Ῥαχάβ, Βοὸζ δὲ ἐγέννησε τὸν Ὠβὴδ ἐκ τῆς Ῥούθ, Ὠβὴδ δὲ ἐγέννησε τὸν Ἰεσσαί,
 Holy-Bible---Greek---Text-Critical	8040	Ὠ	1f68	Greek Extended 	3	MAT	001	005	Σαλμὼν δὲ ἐγέννησε τὸν Βοὸζ ἐκ τῆς Ῥαχάβ, Βοὸζ δὲ ἐγέννησε τὸν Ὠβὴδ ἐκ τῆς Ῥούθ, Ὠβὴδ δὲ ἐγέννησε τὸν Ἰεσσαί,
 Holy-Bible---Greek---Text-Critical	8052	ὴ	1f74	Greek Extended 	3859	MAT	001	005	Σαλμὼν δὲ ἐγέννησε τὸν Βοὸζ ἐκ τῆς Ῥαχάβ, Βοὸζ δὲ ἐγέννησε τὸν Ὠβὴδ ἐκ τῆς Ῥούθ, Ὠβὴδ δὲ ἐγέννησε τὸν Ἰεσσαί,
 Holy-Bible---Greek---Text-Critical	952	θ	3b8	Greek and Coptic 	9488	MAT	001	005	Σαλμὼν δὲ ἐγέννησε τὸν Βοὸζ ἐκ τῆς Ῥαχάβ, Βοὸζ δὲ ἐγέννησε τὸν Ὠβὴδ ἐκ τῆς Ῥούθ, Ὠβὴδ δὲ ἐγέννησε τὸν Ἰεσσαί,
-Holy-Bible---Greek---Text-Critical	943	ί	3af	Greek and Coptic 	10242	MAT	001	005	Σαλμὼν δὲ ἐγέννησε τὸν Βοὸζ ἐκ τῆς Ῥαχάβ, Βοὸζ δὲ ἐγέννησε τὸν Ὠβὴδ ἐκ τῆς Ῥούθ, Ὠβὴδ δὲ ἐγέννησε τὸν Ἰεσσαί,
+Holy-Bible---Greek---Text-Critical	943	ί	3af	Greek and Coptic 	10241	MAT	001	005	Σαλμὼν δὲ ἐγέννησε τὸν Βοὸζ ἐκ τῆς Ῥαχάβ, Βοὸζ δὲ ἐγέννησε τὸν Ὠβὴδ ἐκ τῆς Ῥούθ, Ὠβὴδ δὲ ἐγέννησε τὸν Ἰεσσαί,
 Holy-Bible---Greek---Text-Critical	916	Δ	394	Greek and Coptic 	262	MAT	001	006	Ἰεσσαὶ δὲ ἐγέννησε τὸν Δαυὶδ τὸν βασιλέα. Δαυὶδ δὲ ὁ βασιλεὺς ἐγέννησε τὸν Σολομῶνα ἐκ τῆς τοῦ Οὐρίου,
-Holy-Bible---Greek---Text-Critical	965	υ	3c5	Greek and Coptic 	10811	MAT	001	006	Ἰεσσαὶ δὲ ἐγέννησε τὸν Δαυὶδ τὸν βασιλέα. Δαυὶδ δὲ ὁ βασιλεὺς ἐγέννησε τὸν Σολομῶνα ἐκ τῆς τοῦ Οὐρίου,
+Holy-Bible---Greek---Text-Critical	965	υ	3c5	Greek and Coptic 	10810	MAT	001	006	Ἰεσσαὶ δὲ ἐγέννησε τὸν Δαυὶδ τὸν βασιλέα. Δαυὶδ δὲ ὁ βασιλεὺς ἐγέννησε τὸν Σολομῶνα ἐκ τῆς τοῦ Οὐρίου,
 Holy-Bible---Greek---Text-Critical	46	.	2e	Basic Latin 	6110	MAT	001	006	Ἰεσσαὶ δὲ ἐγέννησε τὸν Δαυὶδ τὸν βασιλέα. Δαυὶδ δὲ ὁ βασιλεὺς ἐγέννησε τὸν Σολομῶνα ἐκ τῆς τοῦ Οὐρίου,
 Holy-Bible---Greek---Text-Critical	8001	ὁ	1f41	Greek Extended 	3224	MAT	001	006	Ἰεσσαὶ δὲ ἐγέννησε τὸν Δαυὶδ τὸν βασιλέα. Δαυὶδ δὲ ὁ βασιλεὺς ἐγέννησε τὸν Σολομῶνα ἐκ τῆς τοῦ Οὐρίου,
-Holy-Bible---Greek---Text-Critical	8182	ῶ	1ff6	Greek Extended 	5383	MAT	001	006	Ἰεσσαὶ δὲ ἐγέννησε τὸν Δαυὶδ τὸν βασιλέα. Δαυὶδ δὲ ὁ βασιλεὺς ἐγέννησε τὸν Σολομῶνα ἐκ τῆς τοῦ Οὐρίου,
+Holy-Bible---Greek---Text-Critical	8182	ῶ	1ff6	Greek Extended 	5385	MAT	001	006	Ἰεσσαὶ δὲ ἐγέννησε τὸν Δαυὶδ τὸν βασιλέα. Δαυὶδ δὲ ὁ βασιλεὺς ἐγέννησε τὸν Σολομῶνα ἐκ τῆς τοῦ Οὐρίου,
 Holy-Bible---Greek---Text-Critical	927	Ο	39f	Greek and Coptic 	281	MAT	001	006	Ἰεσσαὶ δὲ ἐγέννησε τὸν Δαυὶδ τὸν βασιλέα. Δαυὶδ δὲ ὁ βασιλεὺς ἐγέννησε τὸν Σολομῶνα ἐκ τῆς τοῦ Οὐρίου,
 Holy-Bible---Greek---Text-Critical	969	ω	3c9	Greek and Coptic 	7994	MAT	001	008	Ἀσὰ δὲ ἐγέννησε τὸν Ἰωσαφάτ, Ἰωσαφὰτ δὲ ἐγέννησε τὸν Ἰωράμ, Ἰωρὰμ δὲ ἐγέννησε τὸν Ὀζίαν,
 Holy-Bible---Greek---Text-Critical	8008	Ὀ	1f48	Greek Extended 	20	MAT	001	008	Ἀσὰ δὲ ἐγέννησε τὸν Ἰωσαφάτ, Ἰωσαφὰτ δὲ ἐγέννησε τὸν Ἰωράμ, Ἰωρὰμ δὲ ἐγέννησε τὸν Ὀζίαν,
@@ -40835,7 +40835,7 @@ Holy-Bible---Greek---Text-Critical	942	ή	3ae	Greek and Coptic 	3715	MAT	001	012
 Holy-Bible---Greek---Text-Critical	7940	ἄ	1f04	Greek Extended 	1129	MAT	001	016	Ἰακὼβ δὲ ἐγέννησε τὸν Ἰωσὴφ τὸν ἄνδρα Μαρίας, ἐξ ἧς ἐγεννήθη Ἰησοῦς ὁ λεγόμενος Χριστός.
 Holy-Bible---Greek---Text-Critical	958	ξ	3be	Greek and Coptic 	2249	MAT	001	016	Ἰακὼβ δὲ ἐγέννησε τὸν Ἰωσὴφ τὸν ἄνδρα Μαρίας, ἐξ ἧς ἐγεννήθη Ἰησοῦς ὁ λεγόμενος Χριστός.
 Holy-Bible---Greek---Text-Critical	7975	ἧ	1f27	Greek Extended 	51	MAT	001	016	Ἰακὼβ δὲ ἐγέννησε τὸν Ἰωσὴφ τὸν ἄνδρα Μαρίας, ἐξ ἧς ἐγεννήθη Ἰησοῦς ὁ λεγόμενος Χριστός.
-Holy-Bible---Greek---Text-Critical	972	ό	3cc	Greek and Coptic 	6334	MAT	001	016	Ἰακὼβ δὲ ἐγέννησε τὸν Ἰωσὴφ τὸν ἄνδρα Μαρίας, ἐξ ἧς ἐγεννήθη Ἰησοῦς ὁ λεγόμενος Χριστός.
+Holy-Bible---Greek---Text-Critical	972	ό	3cc	Greek and Coptic 	6335	MAT	001	016	Ἰακὼβ δὲ ἐγέννησε τὸν Ἰωσὴφ τὸν ἄνδρα Μαρίας, ἐξ ἧς ἐγεννήθη Ἰησοῦς ὁ λεγόμενος Χριστός.
 Holy-Bible---Greek---Text-Critical	935	Χ	3a7	Greek and Coptic 	598	MAT	001	016	Ἰακὼβ δὲ ἐγέννησε τὸν Ἰωσὴφ τὸν ἄνδρα Μαρίας, ἐξ ἧς ἐγεννήθη Ἰησοῦς ὁ λεγόμενος Χριστός.
 Holy-Bible---Greek---Text-Critical	928	Π	3a0	Greek and Coptic 	945	MAT	001	017	Πᾶσαι οὖν αἱ γενεαὶ ἀπὸ Ἀβραὰμ ἕως Δαυὶδ γενεαὶ δεκατέσσαρες, καὶ ἀπὸ Δαυὶδ ἕως τῆς μετοικεσίας Βαβυλῶνος γενεαὶ δεκατέσσαρες, καὶ ἀπὸ τῆς μετοικεσίας Βαβυλῶνος ἕως τοῦ Χριστοῦ γενεαὶ δεκατέσσαρες.
 Holy-Bible---Greek---Text-Critical	8118	ᾶ	1fb6	Greek Extended 	1465	MAT	001	017	Πᾶσαι οὖν αἱ γενεαὶ ἀπὸ Ἀβραὰμ ἕως Δαυὶδ γενεαὶ δεκατέσσαρες, καὶ ἀπὸ Δαυὶδ ἕως τῆς μετοικεσίας Βαβυλῶνος γενεαὶ δεκατέσσαρες, καὶ ἀπὸ τῆς μετοικεσίας Βαβυλῶνος ἕως τοῦ Χριστοῦ γενεαὶ δεκατέσσαρες.
@@ -40843,7 +40843,7 @@ Holy-Bible---Greek---Text-Critical	8022	ὖ	1f56	Greek Extended 	568	MAT	001	017
 Holy-Bible---Greek---Text-Critical	7985	ἱ	1f31	Greek Extended 	1944	MAT	001	017	Πᾶσαι οὖν αἱ γενεαὶ ἀπὸ Ἀβραὰμ ἕως Δαυὶδ γενεαὶ δεκατέσσαρες, καὶ ἀπὸ Δαυὶδ ἕως τῆς μετοικεσίας Βαβυλῶνος γενεαὶ δεκατέσσαρες, καὶ ἀπὸ τῆς μετοικεσίας Βαβυλῶνος ἕως τοῦ Χριστοῦ γενεαὶ δεκατέσσαρες.
 Holy-Bible---Greek---Text-Critical	7957	ἕ	1f15	Greek Extended 	406	MAT	001	017	Πᾶσαι οὖν αἱ γενεαὶ ἀπὸ Ἀβραὰμ ἕως Δαυὶδ γενεαὶ δεκατέσσαρες, καὶ ἀπὸ Δαυὶδ ἕως τῆς μετοικεσίας Βαβυλῶνος γενεαὶ δεκατέσσαρες, καὶ ἀπὸ τῆς μετοικεσίας Βαβυλῶνος ἕως τοῦ Χριστοῦ γενεαὶ δεκατέσσαρες.
 Holy-Bible---Greek---Text-Critical	932	Τ	3a4	Greek and Coptic 	454	MAT	001	018	Τοῦ δὲ Ἰησοῦ Χριστοῦ ἡ γέννησις οὕτως ἦν· μνηστευθείσης γὰρ τῆς μητρὸς αὐτοῦ Μαρίας τῷ Ἰωσήφ, πρὶν ἢ συνελθεῖν αὐτοὺς εὑρέθη ἐν γαστρὶ ἔχουσα ἐκ Πνεύματος Ἁγίου.
-Holy-Bible---Greek---Text-Critical	7969	ἡ	1f21	Greek Extended 	2380	MAT	001	018	Τοῦ δὲ Ἰησοῦ Χριστοῦ ἡ γέννησις οὕτως ἦν· μνηστευθείσης γὰρ τῆς μητρὸς αὐτοῦ Μαρίας τῷ Ἰωσήφ, πρὶν ἢ συνελθεῖν αὐτοὺς εὑρέθη ἐν γαστρὶ ἔχουσα ἐκ Πνεύματος Ἁγίου.
+Holy-Bible---Greek---Text-Critical	7969	ἡ	1f21	Greek Extended 	2379	MAT	001	018	Τοῦ δὲ Ἰησοῦ Χριστοῦ ἡ γέννησις οὕτως ἦν· μνηστευθείσης γὰρ τῆς μητρὸς αὐτοῦ Μαρίας τῷ Ἰωσήφ, πρὶν ἢ συνελθεῖν αὐτοὺς εὑρέθη ἐν γαστρὶ ἔχουσα ἐκ Πνεύματος Ἁγίου.
 Holy-Bible---Greek---Text-Critical	8021	ὕ	1f55	Greek Extended 	436	MAT	001	018	Τοῦ δὲ Ἰησοῦ Χριστοῦ ἡ γέννησις οὕτως ἦν· μνηστευθείσης γὰρ τῆς μητρὸς αὐτοῦ Μαρίας τῷ Ἰωσήφ, πρὶν ἢ συνελθεῖν αὐτοὺς εὑρέθη ἐν γαστρὶ ἔχουσα ἐκ Πνεύματος Ἁγίου.
 Holy-Bible---Greek---Text-Critical	7974	ἦ	1f26	Greek Extended 	616	MAT	001	018	Τοῦ δὲ Ἰησοῦ Χριστοῦ ἡ γέννησις οὕτως ἦν· μνηστευθείσης γὰρ τῆς μητρὸς αὐτοῦ Μαρίας τῷ Ἰωσήφ, πρὶν ἢ συνελθεῖν αὐτοὺς εὑρέθη ἐν γαστρὶ ἔχουσα ἐκ Πνεύματος Ἁγίου.
 Holy-Bible---Greek---Text-Critical	183	·	b7	Latin-1 Supplement	1948	MAT	001	018	Τοῦ δὲ Ἰησοῦ Χριστοῦ ἡ γέννησις οὕτως ἦν· μνηστευθείσης γὰρ τῆς μητρὸς αὐτοῦ Μαρίας τῷ Ἰωσήφ, πρὶν ἢ συνελθεῖν αὐτοὺς εὑρέθη ἐν γαστρὶ ἔχουσα ἐκ Πνεύματος Ἁγίου.
@@ -40929,7 +40929,7 @@ Holy-Bible---Greek---Text-Critical	8036	ὤ	1f64	Greek Extended 	45	MAT	017	003	
 Holy-Bible---Greek---Text-Critical	7965	Ἕ	1f1d	Greek Extended 	29	MAT	019	005	καὶ εἶπεν, Ἕνεκεν τούτου καταλείψει ἄνθρωπος τὸν πατέρα καὶ τὴν μητέρα καὶ προσκολληθήσεται τῇ γυναικὶ αὐτοῦ, καὶ ἔσονται οἱ δύο εἰς σάρκα μίαν;
 Holy-Bible---Greek---Text-Critical	8146	ῒ	1fd2	Greek Extended 	16	MAT	020	001	Ὁμοία γάρ ἐστιν ἡ βασιλεία τῶν οὐρανῶν ἀνθρώπῳ οἰκοδεσπότῃ ὅστις ἐξῆλθεν ἅμα πρωῒ μισθώσασθαι ἐργάτας εἰς τὸν ἀμπελῶνα αὐτοῦ.
 Holy-Bible---Greek---Text-Critical	8162	ῢ	1fe2	Greek Extended 	1	MAT	021	005	Εἴπατε τῇ θυγατρὶ Σιών, Ἰδού, ὁ βασιλεύς σου ἔρχεταί σοι πραῢς καὶ ἐπιβεβηκὼς ἐπὶ ὄνον καὶ πῶλον υἱὸν ὑποζυγίου.
-Holy-Bible---Greek---Text-Critical	971	ϋ	3cb	Greek and Coptic 	37	MAT	023	024	ὁδηγοὶ τυφλοί, οἱ διϋλίζοντες τὸν κώνωπα τὴν δὲ κάμηλον καταπίνοντες.
+Holy-Bible---Greek---Text-Critical	971	ϋ	3cb	Greek and Coptic 	36	MAT	023	024	ὁδηγοὶ τυφλοί, οἱ διϋλίζοντες τὸν κώνωπα τὴν δὲ κάμηλον καταπίνοντες.
 Holy-Bible---Greek---Text-Critical	8047	Ὧ	1f6f	Greek Extended 	2	MAT	024	023	τότε ἐάν τις ὑμῖν εἴπῃ, Ἰδού, ὧδε ὁ Χριστός, ἤ, Ὧδε, μὴ πιστεύσητε·
 Holy-Bible---Greek---Text-Critical	8084	ᾔ	1f94	Greek Extended 	34	MAT	024	043	ἐκεῖνο δὲ γινώσκετε ὅτι εἰ ᾔδει ὁ οἰκοδεσπότης ποίᾳ φυλακῇ ὁ κλέπτης ἔρχεται, ἐγρηγόρησεν ἂν καὶ οὐκ ἂν εἴασε διορυγῆναι τὴν οἰκίαν αὐτοῦ.
 Holy-Bible---Greek---Text-Critical	8087	ᾗ	1f97	Greek Extended 	40	MAT	024	044	διὰ τοῦτο καὶ ὑμεῖς γίνεσθε ἕτοιμοι, ὅτι ᾗ ὥρᾳ οὐ δοκεῖτε ὁ υἱὸς τοῦ ἀνθρώπου ἔρχεται.
@@ -42663,56 +42663,56 @@ Holy-Bible---Hona---Hwana-Bible	66	B	42	Basic Latin 	4	1CO	016	021	NGGI MBULUS N
 Holy-Bible---Hona---Hwana-Bible	113	q	71	Basic Latin 	9	1PE	002	024	Ndǝghǝn tafadghǝn tǝrangga ɗimiyid nǝm ɗǝ, q2 aten kaɗiirha, ƙǝsǝr q1 a tsawum mǝmǝra hu ɗimiyirha, q2 Tǝ wal yibrha hu nggayirha, q1 Hu wal wundǝdghǝn fa, q2 ndǝn wal nun ƙǝnda q1
 Holy-Bible---Hre---Hre-Bible	74	J	4a	Basic Latin 	4894	GEN	001	002	Jò aih taneh ùh i dua dang cleq rai dech do, kan clam oe enh qnhèq ka kòe jrùq; Yiang da Boc Plình pan axràng enh qnhèq ka diac.
 Holy-Bible---Hre---Hre-Bible	242	ò	f2	Latin-1 Supplement	14372	GEN	001	002	Jò aih taneh ùh i dua dang cleq rai dech do, kan clam oe enh qnhèq ka kòe jrùq; Yiang da Boc Plình pan axràng enh qnhèq ka diac.
-Holy-Bible---Hre---Hre-Bible	32	 	20	Basic Latin 	295830	GEN	001	002	Jò aih taneh ùh i dua dang cleq rai dech do, kan clam oe enh qnhèq ka kòe jrùq; Yiang da Boc Plình pan axràng enh qnhèq ka diac.
-Holy-Bible---Hre---Hre-Bible	97	a	61	Basic Latin 	179776	GEN	001	002	Jò aih taneh ùh i dua dang cleq rai dech do, kan clam oe enh qnhèq ka kòe jrùq; Yiang da Boc Plình pan axràng enh qnhèq ka diac.
-Holy-Bible---Hre---Hre-Bible	105	i	69	Basic Latin 	60888	GEN	001	002	Jò aih taneh ùh i dua dang cleq rai dech do, kan clam oe enh qnhèq ka kòe jrùq; Yiang da Boc Plình pan axràng enh qnhèq ka diac.
-Holy-Bible---Hre---Hre-Bible	104	h	68	Basic Latin 	112897	GEN	001	002	Jò aih taneh ùh i dua dang cleq rai dech do, kan clam oe enh qnhèq ka kòe jrùq; Yiang da Boc Plình pan axràng enh qnhèq ka diac.
-Holy-Bible---Hre---Hre-Bible	116	t	74	Basic Latin 	35491	GEN	001	002	Jò aih taneh ùh i dua dang cleq rai dech do, kan clam oe enh qnhèq ka kòe jrùq; Yiang da Boc Plình pan axràng enh qnhèq ka diac.
+Holy-Bible---Hre---Hre-Bible	32	 	20	Basic Latin 	295835	GEN	001	002	Jò aih taneh ùh i dua dang cleq rai dech do, kan clam oe enh qnhèq ka kòe jrùq; Yiang da Boc Plình pan axràng enh qnhèq ka diac.
+Holy-Bible---Hre---Hre-Bible	97	a	61	Basic Latin 	179781	GEN	001	002	Jò aih taneh ùh i dua dang cleq rai dech do, kan clam oe enh qnhèq ka kòe jrùq; Yiang da Boc Plình pan axràng enh qnhèq ka diac.
+Holy-Bible---Hre---Hre-Bible	105	i	69	Basic Latin 	60886	GEN	001	002	Jò aih taneh ùh i dua dang cleq rai dech do, kan clam oe enh qnhèq ka kòe jrùq; Yiang da Boc Plình pan axràng enh qnhèq ka diac.
+Holy-Bible---Hre---Hre-Bible	104	h	68	Basic Latin 	112895	GEN	001	002	Jò aih taneh ùh i dua dang cleq rai dech do, kan clam oe enh qnhèq ka kòe jrùq; Yiang da Boc Plình pan axràng enh qnhèq ka diac.
+Holy-Bible---Hre---Hre-Bible	116	t	74	Basic Latin 	35486	GEN	001	002	Jò aih taneh ùh i dua dang cleq rai dech do, kan clam oe enh qnhèq ka kòe jrùq; Yiang da Boc Plình pan axràng enh qnhèq ka diac.
 Holy-Bible---Hre---Hre-Bible	110	n	6e	Basic Latin 	76502	GEN	001	002	Jò aih taneh ùh i dua dang cleq rai dech do, kan clam oe enh qnhèq ka kòe jrùq; Yiang da Boc Plình pan axràng enh qnhèq ka diac.
-Holy-Bible---Hre---Hre-Bible	101	e	65	Basic Latin 	42304	GEN	001	002	Jò aih taneh ùh i dua dang cleq rai dech do, kan clam oe enh qnhèq ka kòe jrùq; Yiang da Boc Plình pan axràng enh qnhèq ka diac.
+Holy-Bible---Hre---Hre-Bible	101	e	65	Basic Latin 	42306	GEN	001	002	Jò aih taneh ùh i dua dang cleq rai dech do, kan clam oe enh qnhèq ka kòe jrùq; Yiang da Boc Plình pan axràng enh qnhèq ka diac.
 Holy-Bible---Hre---Hre-Bible	249	ù	f9	Latin-1 Supplement	15100	GEN	001	002	Jò aih taneh ùh i dua dang cleq rai dech do, kan clam oe enh qnhèq ka kòe jrùq; Yiang da Boc Plình pan axràng enh qnhèq ka diac.
 Holy-Bible---Hre---Hre-Bible	100	d	64	Basic Latin 	25143	GEN	001	002	Jò aih taneh ùh i dua dang cleq rai dech do, kan clam oe enh qnhèq ka kòe jrùq; Yiang da Boc Plình pan axràng enh qnhèq ka diac.
 Holy-Bible---Hre---Hre-Bible	117	u	75	Basic Latin 	22833	GEN	001	002	Jò aih taneh ùh i dua dang cleq rai dech do, kan clam oe enh qnhèq ka kòe jrùq; Yiang da Boc Plình pan axràng enh qnhèq ka diac.
 Holy-Bible---Hre---Hre-Bible	103	g	67	Basic Latin 	36387	GEN	001	002	Jò aih taneh ùh i dua dang cleq rai dech do, kan clam oe enh qnhèq ka kòe jrùq; Yiang da Boc Plình pan axràng enh qnhèq ka diac.
-Holy-Bible---Hre---Hre-Bible	99	c	63	Basic Latin 	30255	GEN	001	002	Jò aih taneh ùh i dua dang cleq rai dech do, kan clam oe enh qnhèq ka kòe jrùq; Yiang da Boc Plình pan axràng enh qnhèq ka diac.
-Holy-Bible---Hre---Hre-Bible	108	l	6c	Basic Latin 	25153	GEN	001	002	Jò aih taneh ùh i dua dang cleq rai dech do, kan clam oe enh qnhèq ka kòe jrùq; Yiang da Boc Plình pan axràng enh qnhèq ka diac.
+Holy-Bible---Hre---Hre-Bible	99	c	63	Basic Latin 	30260	GEN	001	002	Jò aih taneh ùh i dua dang cleq rai dech do, kan clam oe enh qnhèq ka kòe jrùq; Yiang da Boc Plình pan axràng enh qnhèq ka diac.
+Holy-Bible---Hre---Hre-Bible	108	l	6c	Basic Latin 	25152	GEN	001	002	Jò aih taneh ùh i dua dang cleq rai dech do, kan clam oe enh qnhèq ka kòe jrùq; Yiang da Boc Plình pan axràng enh qnhèq ka diac.
 Holy-Bible---Hre---Hre-Bible	113	q	71	Basic Latin 	65475	GEN	001	002	Jò aih taneh ùh i dua dang cleq rai dech do, kan clam oe enh qnhèq ka kòe jrùq; Yiang da Boc Plình pan axràng enh qnhèq ka diac.
-Holy-Bible---Hre---Hre-Bible	114	r	72	Basic Latin 	30024	GEN	001	002	Jò aih taneh ùh i dua dang cleq rai dech do, kan clam oe enh qnhèq ka kòe jrùq; Yiang da Boc Plình pan axràng enh qnhèq ka diac.
-Holy-Bible---Hre---Hre-Bible	111	o	6f	Basic Latin 	46634	GEN	001	002	Jò aih taneh ùh i dua dang cleq rai dech do, kan clam oe enh qnhèq ka kòe jrùq; Yiang da Boc Plình pan axràng enh qnhèq ka diac.
+Holy-Bible---Hre---Hre-Bible	114	r	72	Basic Latin 	30022	GEN	001	002	Jò aih taneh ùh i dua dang cleq rai dech do, kan clam oe enh qnhèq ka kòe jrùq; Yiang da Boc Plình pan axràng enh qnhèq ka diac.
+Holy-Bible---Hre---Hre-Bible	111	o	6f	Basic Latin 	46635	GEN	001	002	Jò aih taneh ùh i dua dang cleq rai dech do, kan clam oe enh qnhèq ka kòe jrùq; Yiang da Boc Plình pan axràng enh qnhèq ka diac.
 Holy-Bible---Hre---Hre-Bible	44	,	2c	Basic Latin 	22491	GEN	001	002	Jò aih taneh ùh i dua dang cleq rai dech do, kan clam oe enh qnhèq ka kòe jrùq; Yiang da Boc Plình pan axràng enh qnhèq ka diac.
-Holy-Bible---Hre---Hre-Bible	107	k	6b	Basic Latin 	28583	GEN	001	002	Jò aih taneh ùh i dua dang cleq rai dech do, kan clam oe enh qnhèq ka kòe jrùq; Yiang da Boc Plình pan axràng enh qnhèq ka diac.
-Holy-Bible---Hre---Hre-Bible	109	m	6d	Basic Latin 	43045	GEN	001	002	Jò aih taneh ùh i dua dang cleq rai dech do, kan clam oe enh qnhèq ka kòe jrùq; Yiang da Boc Plình pan axràng enh qnhèq ka diac.
+Holy-Bible---Hre---Hre-Bible	107	k	6b	Basic Latin 	28585	GEN	001	002	Jò aih taneh ùh i dua dang cleq rai dech do, kan clam oe enh qnhèq ka kòe jrùq; Yiang da Boc Plình pan axràng enh qnhèq ka diac.
+Holy-Bible---Hre---Hre-Bible	109	m	6d	Basic Latin 	43046	GEN	001	002	Jò aih taneh ùh i dua dang cleq rai dech do, kan clam oe enh qnhèq ka kòe jrùq; Yiang da Boc Plình pan axràng enh qnhèq ka diac.
 Holy-Bible---Hre---Hre-Bible	232	è	e8	Latin-1 Supplement	12558	GEN	001	002	Jò aih taneh ùh i dua dang cleq rai dech do, kan clam oe enh qnhèq ka kòe jrùq; Yiang da Boc Plình pan axràng enh qnhèq ka diac.
-Holy-Bible---Hre---Hre-Bible	106	j	6a	Basic Latin 	11768	GEN	001	002	Jò aih taneh ùh i dua dang cleq rai dech do, kan clam oe enh qnhèq ka kòe jrùq; Yiang da Boc Plình pan axràng enh qnhèq ka diac.
+Holy-Bible---Hre---Hre-Bible	106	j	6a	Basic Latin 	11766	GEN	001	002	Jò aih taneh ùh i dua dang cleq rai dech do, kan clam oe enh qnhèq ka kòe jrùq; Yiang da Boc Plình pan axràng enh qnhèq ka diac.
 Holy-Bible---Hre---Hre-Bible	59	;	3b	Basic Latin 	1221	GEN	001	002	Jò aih taneh ùh i dua dang cleq rai dech do, kan clam oe enh qnhèq ka kòe jrùq; Yiang da Boc Plình pan axràng enh qnhèq ka diac.
 Holy-Bible---Hre---Hre-Bible	89	Y	59	Basic Latin 	708	GEN	001	002	Jò aih taneh ùh i dua dang cleq rai dech do, kan clam oe enh qnhèq ka kòe jrùq; Yiang da Boc Plình pan axràng enh qnhèq ka diac.
-Holy-Bible---Hre---Hre-Bible	66	B	42	Basic Latin 	3010	GEN	001	002	Jò aih taneh ùh i dua dang cleq rai dech do, kan clam oe enh qnhèq ka kòe jrùq; Yiang da Boc Plình pan axràng enh qnhèq ka diac.
+Holy-Bible---Hre---Hre-Bible	66	B	42	Basic Latin 	3011	GEN	001	002	Jò aih taneh ùh i dua dang cleq rai dech do, kan clam oe enh qnhèq ka kòe jrùq; Yiang da Boc Plình pan axràng enh qnhèq ka diac.
 Holy-Bible---Hre---Hre-Bible	80	P	50	Basic Latin 	3180	GEN	001	002	Jò aih taneh ùh i dua dang cleq rai dech do, kan clam oe enh qnhèq ka kòe jrùq; Yiang da Boc Plình pan axràng enh qnhèq ka diac.
-Holy-Bible---Hre---Hre-Bible	236	ì	ec	Latin-1 Supplement	25475	GEN	001	002	Jò aih taneh ùh i dua dang cleq rai dech do, kan clam oe enh qnhèq ka kòe jrùq; Yiang da Boc Plình pan axràng enh qnhèq ka diac.
-Holy-Bible---Hre---Hre-Bible	112	p	70	Basic Latin 	17924	GEN	001	002	Jò aih taneh ùh i dua dang cleq rai dech do, kan clam oe enh qnhèq ka kòe jrùq; Yiang da Boc Plình pan axràng enh qnhèq ka diac.
-Holy-Bible---Hre---Hre-Bible	120	x	78	Basic Latin 	6185	GEN	001	002	Jò aih taneh ùh i dua dang cleq rai dech do, kan clam oe enh qnhèq ka kòe jrùq; Yiang da Boc Plình pan axràng enh qnhèq ka diac.
-Holy-Bible---Hre---Hre-Bible	224	à	e0	Latin-1 Supplement	18080	GEN	001	002	Jò aih taneh ùh i dua dang cleq rai dech do, kan clam oe enh qnhèq ka kòe jrùq; Yiang da Boc Plình pan axràng enh qnhèq ka diac.
-Holy-Bible---Hre---Hre-Bible	46	.	2e	Basic Latin 	10579	GEN	001	002	Jò aih taneh ùh i dua dang cleq rai dech do, kan clam oe enh qnhèq ka kòe jrùq; Yiang da Boc Plình pan axràng enh qnhèq ka diac.
-Holy-Bible---Hre---Hre-Bible	58	:	3a	Basic Latin 	3504	GEN	001	003	Boc Plình doe: Ep i kan qngah; aih hi i kan qngah.
+Holy-Bible---Hre---Hre-Bible	236	ì	ec	Latin-1 Supplement	25476	GEN	001	002	Jò aih taneh ùh i dua dang cleq rai dech do, kan clam oe enh qnhèq ka kòe jrùq; Yiang da Boc Plình pan axràng enh qnhèq ka diac.
+Holy-Bible---Hre---Hre-Bible	112	p	70	Basic Latin 	17918	GEN	001	002	Jò aih taneh ùh i dua dang cleq rai dech do, kan clam oe enh qnhèq ka kòe jrùq; Yiang da Boc Plình pan axràng enh qnhèq ka diac.
+Holy-Bible---Hre---Hre-Bible	120	x	78	Basic Latin 	6186	GEN	001	002	Jò aih taneh ùh i dua dang cleq rai dech do, kan clam oe enh qnhèq ka kòe jrùq; Yiang da Boc Plình pan axràng enh qnhèq ka diac.
+Holy-Bible---Hre---Hre-Bible	224	à	e0	Latin-1 Supplement	18079	GEN	001	002	Jò aih taneh ùh i dua dang cleq rai dech do, kan clam oe enh qnhèq ka kòe jrùq; Yiang da Boc Plình pan axràng enh qnhèq ka diac.
+Holy-Bible---Hre---Hre-Bible	46	.	2e	Basic Latin 	10577	GEN	001	002	Jò aih taneh ùh i dua dang cleq rai dech do, kan clam oe enh qnhèq ka kòe jrùq; Yiang da Boc Plình pan axràng enh qnhèq ka diac.
+Holy-Bible---Hre---Hre-Bible	58	:	3a	Basic Latin 	3505	GEN	001	003	Boc Plình doe: Ep i kan qngah; aih hi i kan qngah.
 Holy-Bible---Hre---Hre-Bible	69	E	45	Basic Latin 	205	GEN	001	003	Boc Plình doe: Ep i kan qngah; aih hi i kan qngah.
 Holy-Bible---Hre---Hre-Bible	121	y	79	Basic Latin 	6319	GEN	001	005	Boc plình yiniq am ka kan qngah aih la dahì; kan clam aih damang. Qmang aih i dixèq xam disroq; aih la hì baxèm.
 Holy-Bible---Hre---Hre-Bible	81	Q	51	Basic Latin 	632	GEN	001	005	Boc plình yiniq am ka kan qngah aih la dahì; kan clam aih damang. Qmang aih i dixèq xam disroq; aih la hì baxèm.
-Holy-Bible---Hre---Hre-Bible	115	s	73	Basic Latin 	6408	GEN	001	005	Boc plình yiniq am ka kan qngah aih la dahì; kan clam aih damang. Qmang aih i dixèq xam disroq; aih la hì baxèm.
-Holy-Bible---Hre---Hre-Bible	98	b	62	Basic Latin 	16497	GEN	001	005	Boc plình yiniq am ka kan qngah aih la dahì; kan clam aih damang. Qmang aih i dixèq xam disroq; aih la hì baxèm.
+Holy-Bible---Hre---Hre-Bible	115	s	73	Basic Latin 	6409	GEN	001	005	Boc plình yiniq am ka kan qngah aih la dahì; kan clam aih damang. Qmang aih i dixèq xam disroq; aih la hì baxèm.
+Holy-Bible---Hre---Hre-Bible	98	b	62	Basic Latin 	16498	GEN	001	005	Boc plình yiniq am ka kan qngah aih la dahì; kan clam aih damang. Qmang aih i dixèq xam disroq; aih la hì baxèm.
 Holy-Bible---Hre---Hre-Bible	273	đ	111	Latin Extended-A 	6066	GEN	001	006	Boc plình doe hòm: Ep i mòeq toq adreo dech oe qne diac đòeq lah diac khoe ka diac.
-Holy-Bible---Hre---Hre-Bible	72	H	48	Basic Latin 	2263	GEN	001	007	Haq broq loh adreo dech; lah diac enh qneq ka adreo dech aih khoe ka diac oe ta adreo dech, aih hi qmang aih.
+Holy-Bible---Hre---Hre-Bible	72	H	48	Basic Latin 	2262	GEN	001	007	Haq broq loh adreo dech; lah diac enh qneq ka adreo dech aih khoe ka diac oe ta adreo dech, aih hi qmang aih.
 Holy-Bible---Hre---Hre-Bible	335	ŏ	14f	Latin Extended-A 	4769	GEN	001	008	Boc Plình yiniq am ka adreo dech aih trŏc. Qmang aih i dixèq xam disroq; aih la hì baiq.
 Holy-Bible---Hre---Hre-Bible	68	D	44	Basic Latin 	611	GEN	001	009	Boc plình doe hòm: Diac oe enh qneq ka trŏc ep apùq hlài mòeq nòe, èh waq ka loh nòe croh srênh; aih hi i wop qmang aih.
 Holy-Bible---Hre---Hre-Bible	119	w	77	Basic Latin 	10423	GEN	001	009	Boc plình doe hòm: Diac oe enh qneq ka trŏc ep apùq hlài mòeq nòe, èh waq ka loh nòe croh srênh; aih hi i wop qmang aih.
-Holy-Bible---Hre---Hre-Bible	234	ê	ea	Latin-1 Supplement	5912	GEN	001	009	Boc plình doe hòm: Diac oe enh qneq ka trŏc ep apùq hlài mòeq nòe, èh waq ka loh nòe croh srênh; aih hi i wop qmang aih.
+Holy-Bible---Hre---Hre-Bible	234	ê	ea	Latin-1 Supplement	5910	GEN	001	009	Boc plình doe hòm: Diac oe enh qneq ka trŏc ep apùq hlài mòeq nòe, èh waq ka loh nòe croh srênh; aih hi i wop qmang aih.
 Holy-Bible---Hre---Hre-Bible	84	T	54	Basic Latin 	1515	GEN	001	011	Boc plình doe hòm: Taneh ep hon loh long nhat, nhat loh pliang adrech, long caqmon loh plì, tiaq deh tang yiniq đòeq i deh clong adrech tachac ta taneh, aih hi i qmang aih.
-Holy-Bible---Hre---Hre-Bible	384	ƀ	180	Latin Extended-B 	4411	GEN	001	014	Boc plình doe hòm: Ep i ƀài yiniq qngah oe ta adreo dech ta trŏc đòeq lah qnoh dahì xam damang rai broq teu hu hadro đòeq jò, hì xam hanam.
+Holy-Bible---Hre---Hre-Bible	384	ƀ	180	Latin Extended-B 	4410	GEN	001	014	Boc plình doe hòm: Ep i ƀài yiniq qngah oe ta adreo dech ta trŏc đòeq lah qnoh dahì xam damang rai broq teu hu hadro đòeq jò, hì xam hanam.
 Holy-Bible---Hre---Hre-Bible	200	È	c8	Latin-1 Supplement	115	GEN	001	015	Èh đòeq broq ƀài yiniq qngah ta adreo dech ta trŏc đòeq sreo qnoh ta taneh; aih hi i qmang aih.
 Holy-Bible---Hre---Hre-Bible	244	ô	f4	Latin-1 Supplement	9527	GEN	001	019	Qmang aih i dixèq xam disroq, aih la hì pôn.
 Holy-Bible---Hre---Hre-Bible	67	C	43	Basic Latin 	3930	GEN	001	027	Boc plình broq loh kon mangai tìah ka qmù Cla rađeh; Haq broq loh kon mangai tiaq dua Boc plình. Haq broq loh mangai calô xam mangai cadrì.
 Holy-Bible---Hre---Hre-Bible	45	-	2d	Basic Latin 	1486	GEN	001	028	Boc plình am xôq ramot ka kon mangai rai doe: Drah ha-uang, tam ka bàc dôq bình bauq ta crŏng taneh; ep broq ka taneh iu tiaq; ep wèq ngan ƀài ka ta diac raxìq xam ƀài chìm ta trŏc xam dìq dŏng ƀài ngè rìh loq tadroq ta crŏng taneh.
-Holy-Bible---Hre---Hre-Bible	75	K	4b	Basic Latin 	1255	GEN	001	029	Boc plình doe hòm: Kô Au am ka pì rìm adrech nhat loh pliang ma hon jàp ta taneh xam ƀài adrech long i plì ma i clong adrech. Aih èh đòeq broq dahwèq acaq am ka pì.
-Holy-Bible---Hre---Hre-Bible	65	A	41	Basic Latin 	2703	GEN	001	029	Boc plình doe hòm: Kô Au am ka pì rìm adrech nhat loh pliang ma hon jàp ta taneh xam ƀài adrech long i plì ma i clong adrech. Aih èh đòeq broq dahwèq acaq am ka pì.
+Holy-Bible---Hre---Hre-Bible	75	K	4b	Basic Latin 	1256	GEN	001	029	Boc plình doe hòm: Kô Au am ka pì rìm adrech nhat loh pliang ma hon jàp ta taneh xam ƀài adrech long i plì ma i clong adrech. Aih èh đòeq broq dahwèq acaq am ka pì.
+Holy-Bible---Hre---Hre-Bible	65	A	41	Basic Latin 	2704	GEN	001	029	Boc plình doe hòm: Kô Au am ka pì rìm adrech nhat loh pliang ma hon jàp ta taneh xam ƀài adrech long i plì ma i clong adrech. Aih èh đòeq broq dahwèq acaq am ka pì.
 Holy-Bible---Hre---Hre-Bible	77	M	4d	Basic Latin 	3452	GEN	002	006	Mahaq i hòe diac plôh tŏc enh taneh pùc jàp jìa crŏng taneh.
 Holy-Bible---Hre---Hre-Bible	202	Ê	ca	Latin-1 Supplement	623	GEN	002	008	Khoe aih, Jêhowa Boc plình broq mòeq toq wuàn ta Êđen, tangèa ƀè mat mahì loh, rai đòeq mangai haq maneo broq loh oe ta aih.
 Holy-Bible---Hre---Hre-Bible	87	W	57	Basic Latin 	864	GEN	002	012	Wang gùng aih lem raya; ta aih hadai i gahnàu xam ngŏc nget.
@@ -42727,18 +42727,18 @@ Holy-Bible---Hre---Hre-Bible	78	N	4e	Basic Latin 	415	GEN	003	002	Mangai cadrì 
 Holy-Bible---Hre---Hre-Bible	334	Ŏ	14e	Latin Extended-A 	1	GEN	003	006	Jò mangai cadrì hnoq plì da long aih tìah gleq jìang kaq, lem ka mat hnoq, èh khòh waq, majah qmang aih loq jah kan khun rabiaq haq hi gich kaq. Haq hadai am deh ka ŏng yòng ten aih. Ŏng hadai kaq.
 Holy-Bible---Hre---Hre-Bible	217	Ù	d9	Latin-1 Supplement	174	GEN	004	015	Jêhowa padreo bàu “Ùh i qmang aih, tàng cabô jêh đac Ca-in, mangai aih ep chìuq kan patem chau tapèh yàng”. Jêhowa hi pateo hadro ta chac Ca-in, đòeq ùh hìaq i bô jêh đac jò wì hnoq haq.
 Holy-Bible---Hre---Hre-Bible	76	L	4c	Basic Latin 	359	GEN	004	018	Hênoc baq da Yrat, Yrat baq da Mêhuđa-ên, Mêhuđa-ên baq da Mêtusa-ên, Mêtusa-ên baq da Lêmec.
-Holy-Bible---Hre---Hre-Bible	83	S	53	Basic Latin 	742	GEN	004	019	Lêmec yŏc baiq toq mai, mòeq ngai yiniq haq Ađa, mòeq ngai yiniq haq Sila.
+Holy-Bible---Hre---Hre-Bible	83	S	53	Basic Latin 	743	GEN	004	019	Lêmec yŏc baiq toq mai, mòeq ngai yiniq haq Ađa, mòeq ngai yiniq haq Sila.
 Holy-Bible---Hre---Hre-Bible	79	O	4f	Basic Latin 	169	GEN	004	021	Oh haq aih Jiuƀan, aih la kan cadraq da ƀài ngai rawêh broc, hlui taliaq.
 Holy-Bible---Hre---Hre-Bible	210	Ò	d2	Latin-1 Supplement	13	GEN	004	023	Lêmec doe deh ka wa mai: “Ađa xam Sila, drah tamàng bàu au, Cadrì da Lêmec, drah tàng bàu au, Òq au khoe jêh đac moeq ngai, majah qmang aih haq khoe broq ka au habau, Moeq ngai radam, taiq haq jêh au loh ka pràm,
-Holy-Bible---Hre---Hre-Bible	49	1	31	Basic Latin 	42	GEN	005	003	Jò Ađam khoe jah 130 hanam, haq i moeq toq kon calô tìah qmòe ka cla, haq yiniq am deh ka kon aih Sêt:
-Holy-Bible---Hre---Hre-Bible	51	3	33	Basic Latin 	18	GEN	005	003	Jò Ađam khoe jah 130 hanam, haq i moeq toq kon calô tìah qmòe ka cla, haq yiniq am deh ka kon aih Sêt:
-Holy-Bible---Hre---Hre-Bible	48	0	30	Basic Latin 	78	GEN	005	003	Jò Ađam khoe jah 130 hanam, haq i moeq toq kon calô tìah qmòe ka cla, haq yiniq am deh ka kon aih Sêt:
+Holy-Bible---Hre---Hre-Bible	49	1	31	Basic Latin 	43	GEN	005	003	Jò Ađam khoe jah 130 hanam, haq i moeq toq kon calô tìah qmòe ka cla, haq yiniq am deh ka kon aih Sêt:
+Holy-Bible---Hre---Hre-Bible	51	3	33	Basic Latin 	20	GEN	005	003	Jò Ađam khoe jah 130 hanam, haq i moeq toq kon calô tìah qmòe ka cla, haq yiniq am deh ka kon aih Sêt:
+Holy-Bible---Hre---Hre-Bible	48	0	30	Basic Latin 	83	GEN	005	003	Jò Ađam khoe jah 130 hanam, haq i moeq toq kon calô tìah qmòe ka cla, haq yiniq am deh ka kon aih Sêt:
 Holy-Bible---Hre---Hre-Bible	56	8	38	Basic Latin 	12	GEN	005	004	Atìq ka Ađam ha-uang ka Sêt, oe rìh tam jah 800 hrinh hanam, ha-uang tam kon calô cadrì.
 Holy-Bible---Hre---Hre-Bible	57	9	39	Basic Latin 	14	GEN	005	005	Qmang aih Ađam halình jah 930 hanam. Khoe aih hi cachìt.
-Holy-Bible---Hre---Hre-Bible	53	5	35	Basic Latin 	18	GEN	005	006	Sêt jah 105 hanam, ha-uang loh ka Ênoc.
+Holy-Bible---Hre---Hre-Bible	53	5	35	Basic Latin 	20	GEN	005	006	Sêt jah 105 hanam, ha-uang loh ka Ênoc.
 Holy-Bible---Hre---Hre-Bible	55	7	37	Basic Latin 	14	GEN	005	007	Atìq ka i Ênoc, haq oe rìh tam 807 hanam, ha-uang kon calô kon cadrì.
 Holy-Bible---Hre---Hre-Bible	50	2	32	Basic Latin 	42	GEN	005	008	Qmang aih Sêt halình jah 912 hanam, khoe aih haq cachìt.
-Holy-Bible---Hre---Hre-Bible	52	4	34	Basic Latin 	14	GEN	005	013	Atìq ka ha-uang ka Mahalale, haq halình tam 840 hanam, ha-uang kon calô cadrì.
+Holy-Bible---Hre---Hre-Bible	52	4	34	Basic Latin 	15	GEN	005	013	Atìq ka ha-uang ka Mahalale, haq halình tam 840 hanam, ha-uang kon calô cadrì.
 Holy-Bible---Hre---Hre-Bible	54	6	36	Basic Latin 	13	GEN	005	015	Mahalale jah 65 hanam ha-uang ka Jêret.
 Holy-Bible---Hre---Hre-Bible	82	R	52	Basic Latin 	397	GEN	007	002	Rìm ngè rìh ma hruah moeq adrech ìh wê tiaq ìh tapèh racop, xam calô xam cadrì; ngè rìh ma ùh hruah mòeq adrech moeq racop, xam calô xam cadrì,
 Holy-Bible---Hre---Hre-Bible	579	Ƀ	243	Latin Extended-B 	516	GEN	007	008	Ƀài ngè rìh ma hruah xam ma ùh hruah, ƀài chìm, ƀài ngè ma ti moq ta taneh,
@@ -49505,26 +49505,26 @@ Holy-Bible---Japanese---Japanese-Electronic-Network-Bible	36118	贖	8d16	CJK Uni
 Holy-Bible---Japanese---Japanese-Electronic-Network-Bible	30977	礁	7901	CJK Unified Ideographs 	1	JUD	001	012	これらの者たちは，あなた方と一緒に食事をするとはいえ，あなた方の親ぼくの食事における隠れた岩礁であり，恐れもなく自らを養う羊飼い，風に吹きまわされる水のない雲，実を結ばずに二度死んで根こそぎにされた秋の木，
 Holy-Bible---Japanese---Japanese-Electronic-Network-Bible	31179	秋	79cb	CJK Unified Ideographs 	1	JUD	001	012	これらの者たちは，あなた方と一緒に食事をするとはいえ，あなた方の親ぼくの食事における隠れた岩礁であり，恐れもなく自らを養う羊飼い，風に吹きまわされる水のない雲，実を結ばずに二度死んで根こそぎにされた秋の木，
 Holy-Bible---Japanese---Japanese-Freedom-Bible	22320	地	5730	CJK Unified Ideographs 	3798	GEN	001	002	地は形なく、むなしく、闇が深淵の面を覆っていた。神の霊が水の面を舞っていた。
-Holy-Bible---Japanese---Japanese-Freedom-Bible	12399	は	306f	Hiragana 	46976	GEN	001	002	地は形なく、むなしく、闇が深淵の面を覆っていた。神の霊が水の面を舞っていた。
+Holy-Bible---Japanese---Japanese-Freedom-Bible	12399	は	306f	Hiragana 	46975	GEN	001	002	地は形なく、むなしく、闇が深淵の面を覆っていた。神の霊が水の面を舞っていた。
 Holy-Bible---Japanese---Japanese-Freedom-Bible	24418	形	5f62	CJK Unified Ideographs 	108	GEN	001	002	地は形なく、むなしく、闇が深淵の面を覆っていた。神の霊が水の面を舞っていた。
 Holy-Bible---Japanese---Japanese-Freedom-Bible	12394	な	306a	Hiragana 	39487	GEN	001	002	地は形なく、むなしく、闇が深淵の面を覆っていた。神の霊が水の面を舞っていた。
 Holy-Bible---Japanese---Japanese-Freedom-Bible	12367	く	304f	Hiragana 	9724	GEN	001	002	地は形なく、むなしく、闇が深淵の面を覆っていた。神の霊が水の面を舞っていた。
-Holy-Bible---Japanese---Japanese-Freedom-Bible	12289	、	3001	CJK Symbols and Punctuation 	70608	GEN	001	002	地は形なく、むなしく、闇が深淵の面を覆っていた。神の霊が水の面を舞っていた。
+Holy-Bible---Japanese---Japanese-Freedom-Bible	12289	、	3001	CJK Symbols and Punctuation 	70609	GEN	001	002	地は形なく、むなしく、闇が深淵の面を覆っていた。神の霊が水の面を舞っていた。
 Holy-Bible---Japanese---Japanese-Freedom-Bible	12416	む	3080	Hiragana 	1733	GEN	001	002	地は形なく、むなしく、闇が深淵の面を覆っていた。神の霊が水の面を舞っていた。
 Holy-Bible---Japanese---Japanese-Freedom-Bible	12375	し	3057	Hiragana 	34388	GEN	001	002	地は形なく、むなしく、闇が深淵の面を覆っていた。神の霊が水の面を舞っていた。
 Holy-Bible---Japanese---Japanese-Freedom-Bible	38343	闇	95c7	CJK Unified Ideographs 	167	GEN	001	002	地は形なく、むなしく、闇が深淵の面を覆っていた。神の霊が水の面を舞っていた。
 Holy-Bible---Japanese---Japanese-Freedom-Bible	12364	が	304c	Hiragana 	28934	GEN	001	002	地は形なく、むなしく、闇が深淵の面を覆っていた。神の霊が水の面を舞っていた。
 Holy-Bible---Japanese---Japanese-Freedom-Bible	28145	深	6df1	CJK Unified Ideographs 	283	GEN	001	002	地は形なく、むなしく、闇が深淵の面を覆っていた。神の霊が水の面を舞っていた。
 Holy-Bible---Japanese---Japanese-Freedom-Bible	28149	淵	6df5	CJK Unified Ideographs 	31	GEN	001	002	地は形なく、むなしく、闇が深淵の面を覆っていた。神の霊が水の面を舞っていた。
-Holy-Bible---Japanese---Japanese-Freedom-Bible	12398	の	306e	Hiragana 	88608	GEN	001	002	地は形なく、むなしく、闇が深淵の面を覆っていた。神の霊が水の面を舞っていた。
+Holy-Bible---Japanese---Japanese-Freedom-Bible	12398	の	306e	Hiragana 	88610	GEN	001	002	地は形なく、むなしく、闇が深淵の面を覆っていた。神の霊が水の面を舞っていた。
 Holy-Bible---Japanese---Japanese-Freedom-Bible	38754	面	9762	CJK Unified Ideographs 	224	GEN	001	002	地は形なく、むなしく、闇が深淵の面を覆っていた。神の霊が水の面を舞っていた。
-Holy-Bible---Japanese---Japanese-Freedom-Bible	12434	を	3092	Hiragana 	44555	GEN	001	002	地は形なく、むなしく、闇が深淵の面を覆っていた。神の霊が水の面を舞っていた。
+Holy-Bible---Japanese---Japanese-Freedom-Bible	12434	を	3092	Hiragana 	44554	GEN	001	002	地は形なく、むなしく、闇が深淵の面を覆っていた。神の霊が水の面を舞っていた。
 Holy-Bible---Japanese---Japanese-Freedom-Bible	35206	覆	8986	CJK Unified Ideographs 	353	GEN	001	002	地は形なく、むなしく、闇が深淵の面を覆っていた。神の霊が水の面を舞っていた。
 Holy-Bible---Japanese---Japanese-Freedom-Bible	12387	っ	3063	Hiragana 	22131	GEN	001	002	地は形なく、むなしく、闇が深淵の面を覆っていた。神の霊が水の面を舞っていた。
 Holy-Bible---Japanese---Japanese-Freedom-Bible	12390	て	3066	Hiragana 	33796	GEN	001	002	地は形なく、むなしく、闇が深淵の面を覆っていた。神の霊が水の面を舞っていた。
 Holy-Bible---Japanese---Japanese-Freedom-Bible	12356	い	3044	Hiragana 	37219	GEN	001	002	地は形なく、むなしく、闇が深淵の面を覆っていた。神の霊が水の面を舞っていた。
 Holy-Bible---Japanese---Japanese-Freedom-Bible	12383	た	305f	Hiragana 	77167	GEN	001	002	地は形なく、むなしく、闇が深淵の面を覆っていた。神の霊が水の面を舞っていた。
-Holy-Bible---Japanese---Japanese-Freedom-Bible	12290	。	3002	CJK Symbols and Punctuation 	58847	GEN	001	002	地は形なく、むなしく、闇が深淵の面を覆っていた。神の霊が水の面を舞っていた。
+Holy-Bible---Japanese---Japanese-Freedom-Bible	12290	。	3002	CJK Symbols and Punctuation 	58846	GEN	001	002	地は形なく、むなしく、闇が深淵の面を覆っていた。神の霊が水の面を舞っていた。
 Holy-Bible---Japanese---Japanese-Freedom-Bible	31070	神	795e	CJK Unified Ideographs 	5564	GEN	001	002	地は形なく、むなしく、闇が深淵の面を覆っていた。神の霊が水の面を舞っていた。
 Holy-Bible---Japanese---Japanese-Freedom-Bible	38666	霊	970a	CJK Unified Ideographs 	727	GEN	001	002	地は形なく、むなしく、闇が深淵の面を覆っていた。神の霊が水の面を舞っていた。
 Holy-Bible---Japanese---Japanese-Freedom-Bible	27700	水	6c34	CJK Unified Ideographs 	843	GEN	001	002	地は形なく、むなしく、闇が深淵の面を覆っていた。神の霊が水の面を舞っていた。
@@ -49534,17 +49534,17 @@ Holy-Bible---Japanese---Japanese-Freedom-Bible	12431	わ	308f	Hiragana 	12692	GE
 Holy-Bible---Japanese---Japanese-Freedom-Bible	12428	れ	308c	Hiragana 	30429	GEN	001	003	神は言われた。「光があれ。」すると、光があった。
 Holy-Bible---Japanese---Japanese-Freedom-Bible	12300	「	300c	CJK Symbols and Punctuation 	6608	GEN	001	003	神は言われた。「光があれ。」すると、光があった。
 Holy-Bible---Japanese---Japanese-Freedom-Bible	20809	光	5149	CJK Unified Ideographs 	686	GEN	001	003	神は言われた。「光があれ。」すると、光があった。
-Holy-Bible---Japanese---Japanese-Freedom-Bible	12354	あ	3042	Hiragana 	26497	GEN	001	003	神は言われた。「光があれ。」すると、光があった。
+Holy-Bible---Japanese---Japanese-Freedom-Bible	12354	あ	3042	Hiragana 	26498	GEN	001	003	神は言われた。「光があれ。」すると、光があった。
 Holy-Bible---Japanese---Japanese-Freedom-Bible	12301	」	300d	CJK Symbols and Punctuation 	6492	GEN	001	003	神は言われた。「光があれ。」すると、光があった。
 Holy-Bible---Japanese---Japanese-Freedom-Bible	12377	す	3059	Hiragana 	16147	GEN	001	003	神は言われた。「光があれ。」すると、光があった。
-Holy-Bible---Japanese---Japanese-Freedom-Bible	12427	る	308b	Hiragana 	34437	GEN	001	003	神は言われた。「光があれ。」すると、光があった。
+Holy-Bible---Japanese---Japanese-Freedom-Bible	12427	る	308b	Hiragana 	34438	GEN	001	003	神は言われた。「光があれ。」すると、光があった。
 Holy-Bible---Japanese---Japanese-Freedom-Bible	12392	と	3068	Hiragana 	31609	GEN	001	003	神は言われた。「光があれ。」すると、光があった。
 Holy-Bible---Japanese---Japanese-Freedom-Bible	35211	見	898b	CJK Unified Ideographs 	4082	GEN	001	004	神は光を見て、良しとされた。神は光と闇を分けられた。
 Holy-Bible---Japanese---Japanese-Freedom-Bible	33391	良	826f	CJK Unified Ideographs 	674	GEN	001	004	神は光を見て、良しとされた。神は光と闇を分けられた。
 Holy-Bible---Japanese---Japanese-Freedom-Bible	12373	さ	3055	Hiragana 	14957	GEN	001	004	神は光を見て、良しとされた。神は光と闇を分けられた。
 Holy-Bible---Japanese---Japanese-Freedom-Bible	20998	分	5206	CJK Unified Ideographs 	4231	GEN	001	004	神は光を見て、良しとされた。神は光と闇を分けられた。
 Holy-Bible---Japanese---Japanese-Freedom-Bible	12369	け	3051	Hiragana 	6254	GEN	001	004	神は光を見て、良しとされた。神は光と闇を分けられた。
-Holy-Bible---Japanese---Japanese-Freedom-Bible	12425	ら	3089	Hiragana 	32745	GEN	001	004	神は光を見て、良しとされた。神は光と闇を分けられた。
+Holy-Bible---Japanese---Japanese-Freedom-Bible	12425	ら	3089	Hiragana 	32746	GEN	001	004	神は光を見て、良しとされた。神は光と闇を分けられた。
 Holy-Bible---Japanese---Japanese-Freedom-Bible	26172	昼	663c	CJK Unified Ideographs 	135	GEN	001	005	神は光を「昼」、闇を「夜」と呼ばれた。夕があり、朝があった。第一日。
 Holy-Bible---Japanese---Japanese-Freedom-Bible	22812	夜	591c	CJK Unified Ideographs 	379	GEN	001	005	神は光を「昼」、闇を「夜」と呼ばれた。夕があり、朝があった。第一日。
 Holy-Bible---Japanese---Japanese-Freedom-Bible	21628	呼	547c	CJK Unified Ideographs 	806	GEN	001	005	神は光を「昼」、闇を「夜」と呼ばれた。夕があり、朝があった。第一日。
@@ -49556,15 +49556,15 @@ Holy-Bible---Japanese---Japanese-Freedom-Bible	31532	第	7b2c	CJK Unified Ideogr
 Holy-Bible---Japanese---Japanese-Freedom-Bible	19968	一	4e00	CJK Unified Ideographs 	3675	GEN	001	005	神は光を「昼」、闇を「夜」と呼ばれた。夕があり、朝があった。第一日。
 Holy-Bible---Japanese---Japanese-Freedom-Bible	26085	日	65e5	CJK Unified Ideographs 	2665	GEN	001	005	神は光を「昼」、闇を「夜」と呼ばれた。夕があり、朝があった。第一日。
 Holy-Bible---Japanese---Japanese-Freedom-Bible	38291	間	9593	CJK Unified Ideographs 	1432	GEN	001	006	神は言われた。「水の間に大空があれ。水と水を分けよ。」
-Holy-Bible---Japanese---Japanese-Freedom-Bible	12395	に	306b	Hiragana 	51243	GEN	001	006	神は言われた。「水の間に大空があれ。水と水を分けよ。」
+Holy-Bible---Japanese---Japanese-Freedom-Bible	12395	に	306b	Hiragana 	51244	GEN	001	006	神は言われた。「水の間に大空があれ。水と水を分けよ。」
 Holy-Bible---Japanese---Japanese-Freedom-Bible	22823	大	5927	CJK Unified Ideographs 	1575	GEN	001	006	神は言われた。「水の間に大空があれ。水と水を分けよ。」
 Holy-Bible---Japanese---Japanese-Freedom-Bible	31354	空	7a7a	CJK Unified Ideographs 	264	GEN	001	006	神は言われた。「水の間に大空があれ。水と水を分けよ。」
 Holy-Bible---Japanese---Japanese-Freedom-Bible	12424	よ	3088	Hiragana 	12715	GEN	001	006	神は言われた。「水の間に大空があれ。水と水を分けよ。」
 Holy-Bible---Japanese---Japanese-Freedom-Bible	36896	造	9020	CJK Unified Ideographs 	751	GEN	001	007	神は大空を造り、大空の下の水と、大空の上の水とを分けられた。そのようになった。
 Holy-Bible---Japanese---Japanese-Freedom-Bible	19979	下	4e0b	CJK Unified Ideographs 	1034	GEN	001	007	神は大空を造り、大空の下の水と、大空の上の水とを分けられた。そのようになった。
 Holy-Bible---Japanese---Japanese-Freedom-Bible	19978	上	4e0a	CJK Unified Ideographs 	3602	GEN	001	007	神は大空を造り、大空の下の水と、大空の上の水とを分けられた。そのようになった。
-Holy-Bible---Japanese---Japanese-Freedom-Bible	12381	そ	305d	Hiragana 	18023	GEN	001	007	神は大空を造り、大空の下の水と、大空の上の水とを分けられた。そのようになった。
-Holy-Bible---Japanese---Japanese-Freedom-Bible	12358	う	3046	Hiragana 	15595	GEN	001	007	神は大空を造り、大空の下の水と、大空の上の水とを分けられた。そのようになった。
+Holy-Bible---Japanese---Japanese-Freedom-Bible	12381	そ	305d	Hiragana 	18022	GEN	001	007	神は大空を造り、大空の下の水と、大空の上の水とを分けられた。そのようになった。
+Holy-Bible---Japanese---Japanese-Freedom-Bible	12358	う	3046	Hiragana 	15594	GEN	001	007	神は大空を造り、大空の下の水と、大空の上の水とを分けられた。そのようになった。
 Holy-Bible---Japanese---Japanese-Freedom-Bible	22825	天	5929	CJK Unified Ideographs 	1064	GEN	001	008	神は大空を「天」と呼ばれた。夕があり、朝があった。第二日。
 Holy-Bible---Japanese---Japanese-Freedom-Bible	20108	二	4e8c	CJK Unified Ideographs 	1887	GEN	001	008	神は大空を「天」と呼ばれた。夕があり、朝があった。第二日。
 Holy-Bible---Japanese---Japanese-Freedom-Bible	12388	つ	3064	Hiragana 	4591	GEN	001	009	神は言われた。「天の下の水は一つの場所に集まれ。乾いた地が現れよ。」すると、そのようになった。
@@ -49595,7 +49595,7 @@ Holy-Bible---Japanese---Japanese-Freedom-Bible	23395	季	5b63	CJK Unified Ideogr
 Holy-Bible---Japanese---Japanese-Freedom-Bible	31680	節	7bc0	CJK Unified Ideographs 	60	GEN	001	014	神は言われた。「天の大空に光るものがあれ。昼と夜を分け、それらは、しるし、季節、日、年のためのものとなれ。
 Holy-Bible---Japanese---Japanese-Freedom-Bible	24180	年	5e74	CJK Unified Ideographs 	876	GEN	001	014	神は言われた。「天の大空に光るものがあれ。昼と夜を分け、それらは、しるし、季節、日、年のためのものとなれ。
 Holy-Bible---Japanese---Japanese-Freedom-Bible	12417	め	3081	Hiragana 	9454	GEN	001	014	神は言われた。「天の大空に光るものがあれ。昼と夜を分け、それらは、しるし、季節、日、年のためのものとなれ。
-Holy-Bible---Japanese---Japanese-Freedom-Bible	12391	で	3067	Hiragana 	24256	GEN	001	015	また、それらは天の大空で光るものとなり、地の上を照らせ。」すると、そのようになった。
+Holy-Bible---Japanese---Japanese-Freedom-Bible	12391	で	3067	Hiragana 	24257	GEN	001	015	また、それらは天の大空で光るものとなり、地の上を照らせ。」すると、そのようになった。
 Holy-Bible---Japanese---Japanese-Freedom-Bible	29031	照	7167	CJK Unified Ideographs 	47	GEN	001	015	また、それらは天の大空で光るものとなり、地の上を照らせ。」すると、そのようになった。
 Holy-Bible---Japanese---Japanese-Freedom-Bible	12365	き	304d	Hiragana 	9850	GEN	001	016	神は二つの大きな光るものを造られた。大きい方の光るものに昼を治めさせ、小さい方の光るものに夜を治めさせた。また、星々も造られた。
 Holy-Bible---Japanese---Japanese-Freedom-Bible	26041	方	65b9	CJK Unified Ideographs 	1515	GEN	001	016	神は二つの大きな光るものを造られた。大きい方の光るものに昼を治めさせ、小さい方の光るものに夜を治めさせた。また、星々も造られた。
@@ -49609,7 +49609,7 @@ Holy-Bible---Japanese---Japanese-Freedom-Bible	22235	四	56db	CJK Unified Ideogr
 Holy-Bible---Japanese---Japanese-Freedom-Bible	29289	物	7269	CJK Unified Ideographs 	2465	GEN	001	020	神は言われた。「水は生き物の群れで満ちあふれよ。また、鳥は地の上、天の大空を飛べ。」
 Holy-Bible---Japanese---Japanese-Freedom-Bible	32676	群	7fa4	CJK Unified Ideographs 	501	GEN	001	020	神は言われた。「水は生き物の群れで満ちあふれよ。また、鳥は地の上、天の大空を飛べ。」
 Holy-Bible---Japanese---Japanese-Freedom-Bible	28288	満	6e80	CJK Unified Ideographs 	576	GEN	001	020	神は言われた。「水は生き物の群れで満ちあふれよ。また、鳥は地の上、天の大空を飛べ。」
-Holy-Bible---Japanese---Japanese-Freedom-Bible	12385	ち	3061	Hiragana 	14822	GEN	001	020	神は言われた。「水は生き物の群れで満ちあふれよ。また、鳥は地の上、天の大空を飛べ。」
+Holy-Bible---Japanese---Japanese-Freedom-Bible	12385	ち	3061	Hiragana 	14821	GEN	001	020	神は言われた。「水は生き物の群れで満ちあふれよ。また、鳥は地の上、天の大空を飛べ。」
 Holy-Bible---Japanese---Japanese-Freedom-Bible	12405	ふ	3075	Hiragana 	299	GEN	001	020	神は言われた。「水は生き物の群れで満ちあふれよ。また、鳥は地の上、天の大空を飛べ。」
 Holy-Bible---Japanese---Japanese-Freedom-Bible	40165	鳥	9ce5	CJK Unified Ideographs 	144	GEN	001	020	神は言われた。「水は生き物の群れで満ちあふれよ。また、鳥は地の上、天の大空を飛べ。」
 Holy-Bible---Japanese---Japanese-Freedom-Bible	39131	飛	98db	CJK Unified Ideographs 	78	GEN	001	020	神は言われた。「水は生き物の群れで満ちあふれよ。また、鳥は地の上、天の大空を飛べ。」
@@ -49634,7 +49634,7 @@ Holy-Bible---Japanese---Japanese-Freedom-Bible	20154	人	4eba	CJK Unified Ideogr
 Holy-Bible---Japanese---Japanese-Freedom-Bible	12429	ろ	308d	Hiragana 	2752	GEN	001	026	神は言われた。「われわれのかたちに、われわれに似せて人を造ろう。海の魚、空の鳥、家畜、全地、地を這うすべてのものを、彼らに治めさせよう。」
 Holy-Bible---Japanese---Japanese-Freedom-Bible	39770	魚	9b5a	CJK Unified Ideographs 	65	GEN	001	026	神は言われた。「われわれのかたちに、われわれに似せて人を造ろう。海の魚、空の鳥、家畜、全地、地を這うすべてのものを、彼らに治めさせよう。」
 Holy-Bible---Japanese---Japanese-Freedom-Bible	20840	全	5168	CJK Unified Ideographs 	1538	GEN	001	026	神は言われた。「われわれのかたちに、われわれに似せて人を造ろう。海の魚、空の鳥、家畜、全地、地を這うすべてのものを、彼らに治めさせよう。」
-Holy-Bible---Japanese---Japanese-Freedom-Bible	24444	彼	5f7c	CJK Unified Ideographs 	15126	GEN	001	026	神は言われた。「われわれのかたちに、われわれに似せて人を造ろう。海の魚、空の鳥、家畜、全地、地を這うすべてのものを、彼らに治めさせよう。」
+Holy-Bible---Japanese---Japanese-Freedom-Bible	24444	彼	5f7c	CJK Unified Ideographs 	15127	GEN	001	026	神は言われた。「われわれのかたちに、われわれに似せて人を造ろう。海の魚、空の鳥、家畜、全地、地を這うすべてのものを、彼らに治めさせよう。」
 Holy-Bible---Japanese---Japanese-Freedom-Bible	12372	ご	3054	Hiragana 	1234	GEN	001	027	神はご自身のかたちに人を創造された。神のかたちにこれを創造し、男と女に彼らを創造された。
 Holy-Bible---Japanese---Japanese-Freedom-Bible	33258	自	81ea	CJK Unified Ideographs 	3941	GEN	001	027	神はご自身のかたちに人を創造された。神のかたちにこれを創造し、男と女に彼らを創造された。
 Holy-Bible---Japanese---Japanese-Freedom-Bible	36523	身	8eab	CJK Unified Ideographs 	1052	GEN	001	027	神はご自身のかたちに人を創造された。神のかたちにこれを創造し、男と女に彼らを創造された。
@@ -49680,7 +49680,7 @@ Holy-Bible---Japanese---Japanese-Freedom-Bible	40763	鼻	9f3b	CJK Unified Ideogr
 Holy-Bible---Japanese---Japanese-Freedom-Bible	24687	息	606f	CJK Unified Ideographs 	1476	GEN	002	007	主なる神は、地面のちりで人を形造り、その鼻に命の息を吹き込まれた。こうして人は生きる者となった。
 Holy-Bible---Japanese---Japanese-Freedom-Bible	21561	吹	5439	CJK Unified Ideographs 	159	GEN	002	007	主なる神は、地面のちりで人を形造り、その鼻に命の息を吹き込まれた。こうして人は生きる者となった。
 Holy-Bible---Japanese---Japanese-Freedom-Bible	36796	込	8fbc	CJK Unified Ideographs 	339	GEN	002	007	主なる神は、地面のちりで人を形造り、その鼻に命の息を吹き込まれた。こうして人は生きる者となった。
-Holy-Bible---Japanese---Japanese-Freedom-Bible	32773	者	8005	CJK Unified Ideographs 	8578	GEN	002	007	主なる神は、地面のちりで人を形造り、その鼻に命の息を吹き込まれた。こうして人は生きる者となった。
+Holy-Bible---Japanese---Japanese-Freedom-Bible	32773	者	8005	CJK Unified Ideographs 	8579	GEN	002	007	主なる神は、地面のちりで人を形造り、その鼻に命の息を吹き込まれた。こうして人は生きる者となった。
 Holy-Bible---Japanese---Japanese-Freedom-Bible	26481	東	6771	CJK Unified Ideographs 	207	GEN	002	008	主なる神は東の方のエデンに園を植え、ご自分が形造った人をそこに置かれた。
 Holy-Bible---Japanese---Japanese-Freedom-Bible	12456	エ	30a8	Katakana 	9828	GEN	002	008	主なる神は東の方のエデンに園を植え、ご自分が形造った人をそこに置かれた。
 Holy-Bible---Japanese---Japanese-Freedom-Bible	12487	デ	30c7	Katakana 	2381	GEN	002	008	主なる神は東の方のエデンに園を植え、ご自分が形造った人をそこに置かれた。
@@ -49721,7 +49721,7 @@ Holy-Bible---Japanese---Japanese-Freedom-Bible	12465	ケ	30b1	Katakana 	724	GEN	
 Holy-Bible---Japanese---Japanese-Freedom-Bible	12523	ル	30eb	Katakana 	9460	GEN	002	014	第三の川の名はヒデケルである。これはアッシリアの前を流れる川である。第四の川はユーフラテスである。
 Holy-Bible---Japanese---Japanese-Freedom-Bible	12450	ア	30a2	Katakana 	6947	GEN	002	014	第三の川の名はヒデケルである。これはアッシリアの前を流れる川である。第四の川はユーフラテスである。
 Holy-Bible---Japanese---Japanese-Freedom-Bible	12483	ッ	30c3	Katakana 	383	GEN	002	014	第三の川の名はヒデケルである。これはアッシリアの前を流れる川である。第四の川はユーフラテスである。
-Holy-Bible---Japanese---Japanese-Freedom-Bible	21069	前	524d	CJK Unified Ideographs 	2128	GEN	002	014	第三の川の名はヒデケルである。これはアッシリアの前を流れる川である。第四の川はユーフラテスである。
+Holy-Bible---Japanese---Japanese-Freedom-Bible	21069	前	524d	CJK Unified Ideographs 	2129	GEN	002	014	第三の川の名はヒデケルである。これはアッシリアの前を流れる川である。第四の川はユーフラテスである。
 Holy-Bible---Japanese---Japanese-Freedom-Bible	12518	ユ	30e6	Katakana 	1289	GEN	002	014	第三の川の名はヒデケルである。これはアッシリアの前を流れる川である。第四の川はユーフラテスである。
 Holy-Bible---Japanese---Japanese-Freedom-Bible	12540	ー	30fc	Katakana 	1179	GEN	002	014	第三の川の名はヒデケルである。これはアッシリアの前を流れる川である。第四の川はユーフラテスである。
 Holy-Bible---Japanese---Japanese-Freedom-Bible	12501	フ	30d5	Katakana 	2045	GEN	002	014	第三の川の名はヒデケルである。これはアッシリアの前を流れる川である。第四の川はユーフラテスである。
@@ -49730,7 +49730,7 @@ Holy-Bible---Japanese---Japanese-Freedom-Bible	12473	ス	30b9	Katakana 	6194	GEN
 Holy-Bible---Japanese---Japanese-Freedom-Bible	21462	取	53d6	CJK Unified Ideographs 	1611	GEN	002	015	主なる神は人を取り、エデンの園に置いて、そこを耕し、守らせた。
 Holy-Bible---Japanese---Japanese-Freedom-Bible	23432	守	5b88	CJK Unified Ideographs 	594	GEN	002	015	主なる神は人を取り、エデンの園に置いて、そこを耕し、守らせた。
 Holy-Bible---Japanese---Japanese-Freedom-Bible	12376	じ	3058	Hiragana 	2412	GEN	002	016	主なる神は人に命じて言われた。「あなたは園のどの木からでも、思いのままに食べてもよい。
-Holy-Bible---Japanese---Japanese-Freedom-Bible	12393	ど	3069	Hiragana 	3097	GEN	002	016	主なる神は人に命じて言われた。「あなたは園のどの木からでも、思いのままに食べてもよい。
+Holy-Bible---Japanese---Japanese-Freedom-Bible	12393	ど	3069	Hiragana 	3096	GEN	002	016	主なる神は人に命じて言われた。「あなたは園のどの木からでも、思いのままに食べてもよい。
 Holy-Bible---Japanese---Japanese-Freedom-Bible	24605	思	601d	CJK Unified Ideographs 	773	GEN	002	016	主なる神は人に命じて言われた。「あなたは園のどの木からでも、思いのままに食べてもよい。
 Holy-Bible---Japanese---Japanese-Freedom-Bible	24517	必	5fc5	CJK Unified Ideographs 	327	GEN	002	017	しかし、善悪の知識の木からは食べてはならない。それを食べる日に、あなたは必ず死ぬ。」
 Holy-Bible---Japanese---Japanese-Freedom-Bible	27515	死	6b7b	CJK Unified Ideographs 	1353	GEN	002	017	しかし、善悪の知識の木からは食べてはならない。それを食べる日に、あなたは必ず死ぬ。」
@@ -49793,7 +49793,7 @@ Holy-Bible---Japanese---Japanese-Freedom-Bible	24656	恐	6050	CJK Unified Ideogr
 Holy-Bible---Japanese---Japanese-Freedom-Bible	35504	誰	8ab0	CJK Unified Ideographs 	225	GEN	003	011	神は言われた。「あなたが裸であることを、誰があなたに告げたのか。食べてはならないとわたしが命じたあの木から、あなたは食べたのか。」
 Holy-Bible---Japanese---Japanese-Freedom-Bible	21578	告	544a	CJK Unified Ideographs 	922	GEN	003	011	神は言われた。「あなたが裸であることを、誰があなたに告げたのか。食べてはならないとわたしが命じたあの木から、あなたは食べたのか。」
 Holy-Bible---Japanese---Japanese-Freedom-Bible	12370	げ	3052	Hiragana 	4063	GEN	003	011	神は言われた。「あなたが裸であることを、誰があなたに告げたのか。食べてはならないとわたしが命じたあの木から、あなたは食べたのか。」
-Holy-Bible---Japanese---Japanese-Freedom-Bible	32	 	20	Basic Latin 	14437	GEN	003	013	主なる神は女に言われた。「あなたは何ということをしたのか。」 女は言った。「蛇が私を欺いたので、私は食べました。」
+Holy-Bible---Japanese---Japanese-Freedom-Bible	32	 	20	Basic Latin 	14438	GEN	003	013	主なる神は女に言われた。「あなたは何ということをしたのか。」 女は言った。「蛇が私を欺いたので、私は食べました。」
 Holy-Bible---Japanese---Japanese-Freedom-Bible	27450	欺	6b3a	CJK Unified Ideographs 	130	GEN	003	013	主なる神は女に言われた。「あなたは何ということをしたのか。」 女は言った。「蛇が私を欺いたので、私は食べました。」
 Holy-Bible---Japanese---Japanese-Freedom-Bible	21610	呪	546a	CJK Unified Ideographs 	195	GEN	003	014	主なる神は蛇に言われた。 「このことをしたゆえに、 あなたはすべての家畜、 すべての野の動物の中で呪われる。 あなたは腹ばいで進み、 一生の日々、ちりを食べる。
 Holy-Bible---Japanese---Japanese-Freedom-Bible	33145	腹	8179	CJK Unified Ideographs 	115	GEN	003	014	主なる神は蛇に言われた。 「このことをしたゆえに、 あなたはすべての家畜、 すべての野の動物の中で呪われる。 あなたは腹ばいで進み、 一生の日々、ちりを食べる。
@@ -49842,7 +49842,7 @@ Holy-Bible---Japanese---Japanese-Freedom-Bible	24351	弟	5f1f	CJK Unified Ideogr
 Holy-Bible---Japanese---Japanese-Freedom-Bible	12505	ベ	30d9	Katakana 	1375	GEN	004	002	彼女はまた、カインの弟アベルを産んだ。アベルは羊を飼う者となり、カインは土を耕す者となった。
 Holy-Bible---Japanese---Japanese-Freedom-Bible	32650	羊	7f8a	CJK Unified Ideographs 	891	GEN	004	002	彼女はまた、カインの弟アベルを産んだ。アベルは羊を飼う者となり、カインは土を耕す者となった。
 Holy-Bible---Japanese---Japanese-Freedom-Bible	39164	飼	98fc	CJK Unified Ideographs 	117	GEN	004	002	彼女はまた、カインの弟アベルを産んだ。アベルは羊を飼う者となり、カインは土を耕す者となった。
-Holy-Bible---Japanese---Japanese-Freedom-Bible	26178	時	6642	CJK Unified Ideographs 	1453	GEN	004	003	時が経って、カインは地の産物から主へのささげ物を持って来た。
+Holy-Bible---Japanese---Japanese-Freedom-Bible	26178	時	6642	CJK Unified Ideographs 	1452	GEN	004	003	時が経って、カインは地の産物から主へのささげ物を持って来た。
 Holy-Bible---Japanese---Japanese-Freedom-Bible	32076	経	7d4c	CJK Unified Ideographs 	44	GEN	004	003	時が経って、カインは地の産物から主へのささげ物を持って来た。
 Holy-Bible---Japanese---Japanese-Freedom-Bible	25345	持	6301	CJK Unified Ideographs 	1002	GEN	004	003	時が経って、カインは地の産物から主へのささげ物を持って来た。
 Holy-Bible---Japanese---Japanese-Freedom-Bible	21021	初	521d	CJK Unified Ideographs 	336	GEN	004	004	アベルもまた、自分の羊の初子の中から、その肥えたものを持って来た。主はアベルとそのささげ物に目を留められたが、
@@ -49859,7 +49859,7 @@ Holy-Bible---Japanese---Japanese-Freedom-Bible	24453	待	5f85	CJK Unified Ideogr
 Holy-Bible---Japanese---Japanese-Freedom-Bible	34892	行	884c	CJK Unified Ideographs 	4544	GEN	004	008	カインは弟アベルに言った。「野に行こう。」彼らが野にいたとき、カインは弟アベルに立ち向かい、彼を殺した。
 Holy-Bible---Japanese---Japanese-Freedom-Bible	27578	殺	6bba	CJK Unified Ideographs 	723	GEN	004	008	カインは弟アベルに言った。「野に行こう。」彼らが野にいたとき、カインは弟アベルに立ち向かい、彼を殺した。
 Holy-Bible---Japanese---Japanese-Freedom-Bible	30058	番	756a	CJK Unified Ideographs 	96	GEN	004	009	主はカインに言われた。「あなたの弟アベルはどこにいるのか。」 彼は言った。「知りません。私は弟の番人でしょうか。」
-Holy-Bible---Japanese---Japanese-Freedom-Bible	12423	ょ	3087	Hiragana 	661	GEN	004	009	主はカインに言われた。「あなたの弟アベルはどこにいるのか。」 彼は言った。「知りません。私は弟の番人でしょうか。」
+Holy-Bible---Japanese---Japanese-Freedom-Bible	12423	ょ	3087	Hiragana 	660	GEN	004	009	主はカインに言われた。「あなたの弟アベルはどこにいるのか。」 彼は言った。「知りません。私は弟の番人でしょうか。」
 Holy-Bible---Japanese---Japanese-Freedom-Bible	34880	血	8840	CJK Unified Ideographs 	476	GEN	004	010	主は言われた。「あなたは何をしたのか。聞け。あなたの弟の血が、地からわたしに叫んでいる。
 Holy-Bible---Japanese---Japanese-Freedom-Bible	21483	叫	53eb	CJK Unified Ideographs 	481	GEN	004	010	主は言われた。「あなたは何をしたのか。聞け。あなたの弟の血が、地からわたしに叫んでいる。
 Holy-Bible---Japanese---Japanese-Freedom-Bible	21463	受	53d7	CJK Unified Ideographs 	1097	GEN	004	011	今、あなたは地から呪われる。地はその口を開けて、あなたの手から弟の血を受けた。
@@ -74436,24 +74436,24 @@ Holy-Bible---Romani-Vlax---Servi-Bible	1031	Ї	407	Cyrillic 	2	RUT	001	021	Ка�
 Holy-Bible---Romani-Vlax---Servi-Bible	8211	–	2013	General Punctuation 	1	RUT	003	013	Ачпэ пы рят катэ. Дэнзор, кала вов скамэла тэ вытинэ тут, када мишто – мэк кади и тэ авэл. Нэ сар на закамэла, чячимаґа, сар кода, со джюдо РАЙ, када тирава мэ. Сов катэ ды дэнзор.
 Holy-Bible---Romanian---Bayash-Luke	78	N	4e	Basic Latin 	123	LUK	001	002	Nja zăs eja kare lja văzăt dăn početk š kare a urbit orba alu Dimizov.
 Holy-Bible---Romanian---Bayash-Luke	106	j	6a	Basic Latin 	3809	LUK	001	002	Nja zăs eja kare lja văzăt dăn početk š kare a urbit orba alu Dimizov.
-Holy-Bible---Romanian---Bayash-Luke	97	a	61	Basic Latin 	8890	LUK	001	002	Nja zăs eja kare lja văzăt dăn početk š kare a urbit orba alu Dimizov.
+Holy-Bible---Romanian---Bayash-Luke	97	a	61	Basic Latin 	8896	LUK	001	002	Nja zăs eja kare lja văzăt dăn početk š kare a urbit orba alu Dimizov.
 Holy-Bible---Romanian---Bayash-Luke	32	 	20	Basic Latin 	21754	LUK	001	002	Nja zăs eja kare lja văzăt dăn početk š kare a urbit orba alu Dimizov.
 Holy-Bible---Romanian---Bayash-Luke	122	z	7a	Basic Latin 	1242	LUK	001	002	Nja zăs eja kare lja văzăt dăn početk š kare a urbit orba alu Dimizov.
-Holy-Bible---Romanian---Bayash-Luke	259	ă	103	Latin Extended-A 	8350	LUK	001	002	Nja zăs eja kare lja văzăt dăn početk š kare a urbit orba alu Dimizov.
+Holy-Bible---Romanian---Bayash-Luke	259	ă	103	Latin Extended-A 	8329	LUK	001	002	Nja zăs eja kare lja văzăt dăn početk š kare a urbit orba alu Dimizov.
 Holy-Bible---Romanian---Bayash-Luke	115	s	73	Basic Latin 	4467	LUK	001	002	Nja zăs eja kare lja văzăt dăn početk š kare a urbit orba alu Dimizov.
 Holy-Bible---Romanian---Bayash-Luke	101	e	65	Basic Latin 	4134	LUK	001	002	Nja zăs eja kare lja văzăt dăn početk š kare a urbit orba alu Dimizov.
-Holy-Bible---Romanian---Bayash-Luke	107	k	6b	Basic Latin 	3130	LUK	001	002	Nja zăs eja kare lja văzăt dăn početk š kare a urbit orba alu Dimizov.
-Holy-Bible---Romanian---Bayash-Luke	114	r	72	Basic Latin 	4378	LUK	001	002	Nja zăs eja kare lja văzăt dăn početk š kare a urbit orba alu Dimizov.
+Holy-Bible---Romanian---Bayash-Luke	107	k	6b	Basic Latin 	3132	LUK	001	002	Nja zăs eja kare lja văzăt dăn početk š kare a urbit orba alu Dimizov.
+Holy-Bible---Romanian---Bayash-Luke	114	r	72	Basic Latin 	4380	LUK	001	002	Nja zăs eja kare lja văzăt dăn početk š kare a urbit orba alu Dimizov.
 Holy-Bible---Romanian---Bayash-Luke	108	l	6c	Basic Latin 	4143	LUK	001	002	Nja zăs eja kare lja văzăt dăn početk š kare a urbit orba alu Dimizov.
 Holy-Bible---Romanian---Bayash-Luke	118	v	76	Basic Latin 	1870	LUK	001	002	Nja zăs eja kare lja văzăt dăn početk š kare a urbit orba alu Dimizov.
 Holy-Bible---Romanian---Bayash-Luke	116	t	74	Basic Latin 	4553	LUK	001	002	Nja zăs eja kare lja văzăt dăn početk š kare a urbit orba alu Dimizov.
-Holy-Bible---Romanian---Bayash-Luke	100	d	64	Basic Latin 	2478	LUK	001	002	Nja zăs eja kare lja văzăt dăn početk š kare a urbit orba alu Dimizov.
+Holy-Bible---Romanian---Bayash-Luke	100	d	64	Basic Latin 	2480	LUK	001	002	Nja zăs eja kare lja văzăt dăn početk š kare a urbit orba alu Dimizov.
 Holy-Bible---Romanian---Bayash-Luke	110	n	6e	Basic Latin 	4128	LUK	001	002	Nja zăs eja kare lja văzăt dăn početk š kare a urbit orba alu Dimizov.
-Holy-Bible---Romanian---Bayash-Luke	112	p	70	Basic Latin 	2412	LUK	001	002	Nja zăs eja kare lja văzăt dăn početk š kare a urbit orba alu Dimizov.
+Holy-Bible---Romanian---Bayash-Luke	112	p	70	Basic Latin 	2410	LUK	001	002	Nja zăs eja kare lja văzăt dăn početk š kare a urbit orba alu Dimizov.
 Holy-Bible---Romanian---Bayash-Luke	111	o	6f	Basic Latin 	3895	LUK	001	002	Nja zăs eja kare lja văzăt dăn početk š kare a urbit orba alu Dimizov.
 Holy-Bible---Romanian---Bayash-Luke	269	č	10d	Latin Extended-A 	1051	LUK	001	002	Nja zăs eja kare lja văzăt dăn početk š kare a urbit orba alu Dimizov.
-Holy-Bible---Romanian---Bayash-Luke	353	š	161	Latin Extended-A 	2283	LUK	001	002	Nja zăs eja kare lja văzăt dăn početk š kare a urbit orba alu Dimizov.
-Holy-Bible---Romanian---Bayash-Luke	117	u	75	Basic Latin 	6069	LUK	001	002	Nja zăs eja kare lja văzăt dăn početk š kare a urbit orba alu Dimizov.
+Holy-Bible---Romanian---Bayash-Luke	353	š	161	Latin Extended-A 	2281	LUK	001	002	Nja zăs eja kare lja văzăt dăn početk š kare a urbit orba alu Dimizov.
+Holy-Bible---Romanian---Bayash-Luke	117	u	75	Basic Latin 	6068	LUK	001	002	Nja zăs eja kare lja văzăt dăn početk š kare a urbit orba alu Dimizov.
 Holy-Bible---Romanian---Bayash-Luke	98	b	62	Basic Latin 	658	LUK	001	002	Nja zăs eja kare lja văzăt dăn početk š kare a urbit orba alu Dimizov.
 Holy-Bible---Romanian---Bayash-Luke	105	i	69	Basic Latin 	4755	LUK	001	002	Nja zăs eja kare lja văzăt dăn početk š kare a urbit orba alu Dimizov.
 Holy-Bible---Romanian---Bayash-Luke	68	D	44	Basic Latin 	542	LUK	001	002	Nja zăs eja kare lja văzăt dăn početk š kare a urbit orba alu Dimizov.
@@ -74463,7 +74463,7 @@ Holy-Bible---Romanian---Bayash-Luke	352	Š	160	Latin Extended-A 	122	LUK	001	003
 Holy-Bible---Romanian---Bayash-Luke	99	c	63	Basic Latin 	844	LUK	001	003	Š jo bine am ănvăcat tot dăn početk š am găndit kă ar fi maj bine aja će sa dugudit să skriv zarăndu kum sa dugudit.
 Holy-Bible---Romanian---Bayash-Luke	103	g	67	Basic Latin 	700	LUK	001	003	Š jo bine am ănvăcat tot dăn početk š am găndit kă ar fi maj bine aja će sa dugudit să skriv zarăndu kum sa dugudit.
 Holy-Bible---Romanian---Bayash-Luke	102	f	66	Basic Latin 	756	LUK	001	003	Š jo bine am ănvăcat tot dăn početk š am găndit kă ar fi maj bine aja će sa dugudit să skriv zarăndu kum sa dugudit.
-Holy-Bible---Romanian---Bayash-Luke	263	ć	107	Latin Extended-A 	98	LUK	001	003	Š jo bine am ănvăcat tot dăn početk š am găndit kă ar fi maj bine aja će sa dugudit să skriv zarăndu kum sa dugudit.
+Holy-Bible---Romanian---Bayash-Luke	263	ć	107	Latin Extended-A 	100	LUK	001	003	Š jo bine am ănvăcat tot dăn početk š am găndit kă ar fi maj bine aja će sa dugudit să skriv zarăndu kum sa dugudit.
 Holy-Bible---Romanian---Bayash-Luke	65	A	41	Basic Latin 	346	LUK	001	004	Ašaka să tă uvirešt ăn istiniti ănvăc kare aj primit.
 Holy-Bible---Romanian---Bayash-Luke	258	Ă	102	Latin Extended-A 	65	LUK	001	005	Ăn vrjame kănd ij car Herod a vladit păn Judeje, a fost unu popă kare sa timat Zaharija. Jel a pripadit ăn Abijin rănd. Mujara luj a fost dăn familije alu Aron š sa timat Elizabeta.
 Holy-Bible---Romanian---Bayash-Luke	72	H	48	Basic Latin 	48	LUK	001	005	Ăn vrjame kănd ij car Herod a vladit păn Judeje, a fost unu popă kare sa timat Zaharija. Jel a pripadit ăn Abijin rănd. Mujara luj a fost dăn familije alu Aron š sa timat Elizabeta.
@@ -74486,16 +74486,16 @@ Holy-Bible---Romanian---Bayash-Luke	8220	“	201c	General Punctuation 	350	LUK	0
 Holy-Bible---Romanian---Bayash-Luke	63	?	3f	Basic Latin 	155	LUK	001	018	P aja Zaharija a zăs alu anđeo: “Kum ištija kăj aja istina? Jo mesk bătărn, da š mujara mja ij bătărnă.”
 Holy-Bible---Romanian---Bayash-Luke	8221	”	201d	General Punctuation 	332	LUK	001	018	P aja Zaharija a zăs alu anđeo: “Kum ištija kăj aja istina? Jo mesk bătărn, da š mujara mja ij bătărnă.”
 Holy-Bible---Romanian---Bayash-Luke	71	G	47	Basic Latin 	90	LUK	001	019	Anđeo ja zăs: “Jo mesk Gabriel, ăla kare stă la intja Dimizovuluj. Mesk trimes să urbesk ku tine š săc zăk asta fălosă orbă.
-Holy-Bible---Romanian---Bayash-Luke	268	Č	10c	Latin Extended-A 	25	LUK	001	024	Da majpurmă dă zăli lešta, mujara luj Elizabeta a fost ăn altu rănd: Činč lune na išăt dăn kasă. Ja a zăs:
+Holy-Bible---Romanian---Bayash-Luke	268	Č	10c	Latin Extended-A 	24	LUK	001	024	Da majpurmă dă zăli lešta, mujara luj Elizabeta a fost ăn altu rănd: Činč lune na išăt dăn kasă. Ja a zăs:
 Holy-Bible---Romanian---Bayash-Luke	70	F	46	Basic Latin 	70	LUK	001	027	la fată kare sa timat Marija. Ja a fost zaručită dăpă om kare sa timat Josip, dăn kasă alu David. Fata sa timat Marija.
 Holy-Bible---Romanian---Bayash-Luke	82	R	52	Basic Latin 	23	LUK	001	028	Gabriel ja zăs: “Radujaštite, tu alu karej rătată milostu! Domnu ij ku tine.”
 Holy-Bible---Romanian---Bayash-Luke	84	T	54	Basic Latin 	89	LUK	001	042	P forte glas azbirat: “Tu ješt maj blagosătă dăn tote mujer! Š kupilu kare ij vja bagosăt ij!
 Holy-Bible---Romanian---Bayash-Luke	66	B	42	Basic Latin 	36	LUK	001	045	Blagusătă ješt kăj ănkrizut kă su ispuni aja će Domnu zăče.
-Holy-Bible---Romanian---Bayash-Luke	262	Ć	106	Latin Extended-A 	11	LUK	001	066	Toc kare asta a uzăt, a găndit dă aja š săn tribat: “Će u fi ku kupil ăsta?” K măna alu Domnuluj a fost ku jel.
+Holy-Bible---Romanian---Bayash-Luke	262	Ć	106	Latin Extended-A 	12	LUK	001	066	Toc kare asta a uzăt, a găndit dă aja š săn tribat: “Će u fi ku kupil ăsta?” K măna alu Domnuluj a fost ku jel.
 Holy-Bible---Romanian---Bayash-Luke	76	L	4c	Basic Latin 	72	LUK	001	068	Lasă fije blagusăt Domnu, Dimizovu alu Izrael, k avinit să skotă p lumja luj.
 Holy-Bible---Romanian---Bayash-Luke	79	O	4f	Basic Latin 	80	LUK	002	001	Ăm aja vrăme, čisaru Avgust o dus zakon. O zăs alu aluj lume să umără p toc kare kustă p pămănt ăm kare jăl vladăšče.
 Holy-Bible---Romanian---Bayash-Luke	86	V	56	Basic Latin 	56	LUK	002	004	Aša š Josip dăm grad Nazaret ăm Galileja o mers ăm Judeja, ăm alu David grad Vitlejem, k jăl arăsă dăm alu David kasă š vijă,
-Holy-Bible---Romanian---Bayash-Luke	59	;	3b	Basic Latin 	86	LUK	003	017	Jel u kurăca šupa aluj; Grvu u sprimi ăn aluj šupă, da pljava ăncăca ăn fok kare nu pote să s stingă.”
+Holy-Bible---Romanian---Bayash-Luke	59	;	3b	Basic Latin 	86	LUK	003	017	Jel u kurăca čardaku aluj; Grvu u sprimi ăn aluj čardak, da pljava ăncăca ăn fok kare nu pote să s stingă.”
 Holy-Bible---Romanian---Bayash-Luke	8216	‘	2018	General Punctuation 	112	LUK	004	004	Isus jo zăs: “Skris ij: ‘Omu nu kustă numa dăm păne.’”
 Holy-Bible---Romanian---Bayash-Luke	8217	’	2019	General Punctuation 	112	LUK	004	004	Isus jo zăs: “Skris ij: ‘Omu nu kustă numa dăm păne.’”
 Holy-Bible---Romanian---Bayash-Luke	67	C	43	Basic Latin 	2	LUK	004	006	Jo zăs: “Coj da tot vlastu p eščă čăsărij š totă alor slavă, k aja mija mi dat š jo ăl dau la šine jo vru.

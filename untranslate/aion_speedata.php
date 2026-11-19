@@ -207,7 +207,7 @@ function AION_LOOP_PDF_POD($source, $destiny) {
 		'q_epubc'	=> TRUE,	// TRUE = do ePub and covers
 		//'include'	=> "/Holy-Bible---.*(Arabic|Syriac-Peshitta|Persian|Sorani-Bible|Urdu-Free-Contemporary|Hebrew).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Uyghur-Bible-Arabic|Arabic-Van-Dyck-Bible|Hebrew-Westminster-Leningrad).*---Aionian-Edition\.noia$/",
-		//'include'	=> "/Holy-Bible---.*(Zinza).*---Aionian-Edition\.noia$/",
+		//'include'	=> "/Holy-Bible---.*(English---Aionian-Bible|Arabic---New-Arabic-Bible|Arabic---Arabic-Van-Dyck-Bible|Persian---Old-Persian-Version-Bible).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---Abureni---Abureni-Bible---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---Spanish---Free-for-the-World---Aionian-Edition\.noia$/",
 		'include'	=> "/---Aionian-Edition\.noia$/",
@@ -2162,7 +2162,7 @@ $fonts
 			<Text fontfamily="FF-Bibl" textformat="bible">
 				<Paragraph $langspeed $bidi_bible>
 					<Switch>
-						<Case test="$rtlinit"><Span $langchap><Fontface fontfamily="FF-Init"><Value select="@CHAP"/><Value>&#xa0;&#xa0;</Value></Fontface></Span></Case>
+						<Case test="$rtlinit"><Initial fontfamily="FF-Init" padding-left="2pt" role="H2" actualtext="Chapter {@CHAP}"><Value select="@CHAP"/></Initial></Case>
 						<Otherwise><Initial fontfamily="FF-Init" padding-right="2pt" role="H2" actualtext="Chapter {@CHAP}"><Value select="@CHAP"/></Initial></Otherwise>
 					</Switch>
 					<ForAll select="*">
