@@ -198,17 +198,16 @@ function AION_LOOP_PDF_POD($source, $destiny) {
 		'q_rtlhuh'	=> 'ALL',	// 'RTL' = RTL only,  'RTLNO' = Skip RTL, 'ALL' = all
 		'q_allall'	=> TRUE,	// TRUE = do all bibles not marked FALSE -OR- FALSE = do all bibles marked TRUE
 		'q_pdfall'	=> TRUE,	// TRUE = do ALL PDFs
-		'q_pdfpo'	=> FALSE,	// TRUE = do KDP PDFs
-		'q_pdfnt'	=> FALSE,	// TRUE = do KDP NT PDFs
-		'q_pdflu'	=> FALSE,	// TRUE = do LULU PDFs
-		'q_pdfon'	=> FALSE,	// TRUE = do Online PDFs
-		'q_pdfoo'	=> FALSE,	// TRUE = do One Online PDFs
-		'q_pdfjo'	=> FALSE,	// TRUE = do John PDFs
+		'q_pdfpo'	=> TRUE,	// TRUE = do KDP PDFs
+		'q_pdfnt'	=> TRUE,	// TRUE = do KDP NT PDFs
+		'q_pdflu'	=> TRUE,	// TRUE = do LULU PDFs
+		'q_pdfon'	=> TRUE,	// TRUE = do Online PDFs
+		'q_pdfoo'	=> TRUE,	// TRUE = do One Online PDFs
+		'q_pdfjo'	=> TRUE,	// TRUE = do John PDFs
 		'q_epubc'	=> TRUE,	// TRUE = do ePub and covers
 		//'include'	=> "/Holy-Bible---.*(Arabic|Syriac-Peshitta|Persian|Sorani-Bible|Urdu-Free-Contemporary|Hebrew).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Uyghur-Bible-Arabic|Arabic-Van-Dyck-Bible|Hebrew-Westminster-Leningrad).*---Aionian-Edition\.noia$/",
-		//'include'	=> "/Holy-Bible---.*(English---Aionian-Bible|Arabic---New-Arabic-Bible|Arabic---Arabic-Van-Dyck-Bible|Persian---Old-Persian-Version-Bible).*---Aionian-Edition\.noia$/",
-		//'include'	=> "/Holy-Bible---Abureni---Abureni-Bible---Aionian-Edition\.noia$/",
+		//'include'	=> "/Holy-Bible---.*(English---Aionian-Bible|Old-Persian-Version-Bible|Arabic-Van-Dyck-Bible).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---Spanish---Free-for-the-World---Aionian-Edition\.noia$/",
 		'include'	=> "/---Aionian-Edition\.noia$/",
 		'database'	=> $database,
@@ -936,6 +935,8 @@ $tsize		= trim(!empty($forprint['TSIZE'])		? $forprint['TSIZE']		: $default['TSI
 $tleading	= trim(!empty($forprint['TLEADING'])	? $forprint['TLEADING']		: $default['TLEADING']		);
 $rsize		= trim(!empty($forprint['RSIZE'])		? $forprint['RSIZE']		: $default['RSIZE']			);
 $rleading	= trim(!empty($forprint['RLEADING'])	? $forprint['RLEADING']		: $default['RLEADING']		);
+$intext		= trim($forprint['ISIZE']);
+$inlead		= trim($forprint['ILEADING']);
 
 /* FONT / LEADING 
 
@@ -1285,7 +1286,7 @@ if ($v_font=='FOREIGN' && (!($mar10_45=preg_replace("/([\-0-9:%, ]{3,})/","</Val
 if ($v_font=='FOREIGN' && (!($rom1_1=preg_replace("/([\-0-9:%, ]{3,})/","</Value><Span language='English (USA)'><Fontface fontfamily='FF-Pixt'><Value> </Value><Value>$1</Value><Value> </Value></Fontface></Span><Value>",$rom1_1,-1,$count)) || $count>1)) {			AION_ECHO("JEFF NOTICE! preg_replace(numbers)"); }
 if ($v_font=='FOREIGN' && (!($mat28_19=preg_replace("/([\-0-9:%, ]{3,})/","</Value><Span language='English (USA)'><Fontface fontfamily='FF-Pixt'><Value> </Value><Value>$1</Value><Value> </Value></Fontface></Span><Value>",$mat28_19,-1,$count)) || $count>1)) {		AION_ECHO("JEFF NOTICE! preg_replace(numbers)"); }
 // fonts
-$fonts = AION_LOOP_PDF_POD_FONTS($font,$bsize,$bleading,$tsize,$tleading,$rsize,$rleading,$size,$leading,$numarialfont,$footsize,$backvl,$backtl,$backal,$backll,$headfont,$pixtext,$pixlead);
+$fonts = AION_LOOP_PDF_POD_FONTS($font,$bsize,$bleading,$tsize,$tleading,$rsize,$rleading,$size,$leading,$numarialfont,$footsize,$backvl,$backtl,$backal,$backll,$headfont,$pixtext,$pixlead,$intext,$inlead);
 $versenumberlanguage = ($numarialfont ? "language='English (USA)'" : "" );
 // options
 $versionsMETA = "Holy Bible Aionian Edition, $versionE";
@@ -2162,8 +2163,8 @@ $fonts
 			<Text fontfamily="FF-Bibl" textformat="bible">
 				<Paragraph $langspeed $bidi_bible>
 					<Switch>
-						<Case test="$rtlinit"><Initial fontfamily="FF-Init" padding-left="2pt" role="H2" actualtext="Chapter {@CHAP}"><Value select="@CHAP"/></Initial></Case>
-						<Otherwise><Initial fontfamily="FF-Init" padding-right="2pt" role="H2" actualtext="Chapter {@CHAP}"><Value select="@CHAP"/></Initial></Otherwise>
+						<Case test="$rtlinit"><Initial fontfamily="FF-Init" padding-left="5pt" role="H2" actualtext="Chapter {@CHAP}"><Value select="@CHAP"/></Initial></Case>
+						<Otherwise><Initial fontfamily="FF-Init" padding-right="5pt" role="H2" actualtext="Chapter {@CHAP}"><Value select="@CHAP"/></Initial></Otherwise>
 					</Switch>
 					<ForAll select="*">
 						<Switch>
@@ -2298,6 +2299,8 @@ $tsize		= trim(!empty($forprint['TSIZE'])		? $forprint['TSIZE']		: $default['TSI
 $tleading	= trim(!empty($forprint['TLEADING'])	? $forprint['TLEADING']		: $default['TLEADING']		);
 $rsize		= trim(!empty($forprint['RSIZE'])		? $forprint['RSIZE']		: $default['RSIZE']			);
 $rleading	= trim(!empty($forprint['RLEADING'])	? $forprint['RLEADING']		: $default['RLEADING']		);
+$intext		= trim($forprint['ISIZE']);
+$inlead		= trim($forprint['ILEADING']);
 $size		= trim(!empty($forprint['SIZE'])		? $forprint['SIZE']			: $default['SIZE']			);
 $leading	= trim(!empty($forprint['LEADING'])		? $forprint['LEADING']		: $default['LEADING']		);
 $footsize	= trim(!empty($forprint['FOOTSIZE'])	? $forprint['FOOTSIZE']		: $default['FOOTSIZE']		);
@@ -2361,7 +2364,7 @@ $PIX_COVER = 'COVER-web.jpg';
 //$PIX_COVER = 'COVER.jpg';
 $MARGIN_ONLINE_BLURB_NUDGE	= 115 - (empty($w_nudge) ? 0 : $w_nudge);
 // fonts
-$fonts = AION_LOOP_PDF_POD_FONTS($font,$bsize,$bleading,$tsize,$tleading,$rsize,$rleading,$size,$leading,$numarialfont,$footsize,$backvl,$backtl,$backal,$backll,$headfont,$pixtext,$pixlead);
+$fonts = AION_LOOP_PDF_POD_FONTS($font,$bsize,$bleading,$tsize,$tleading,$rsize,$rleading,$size,$leading,$numarialfont,$footsize,$backvl,$backtl,$backal,$backll,$headfont,$pixtext,$pixlead,$intext,$inlead);
 // title page
 $versionFO_TI = "<Span $langspeed><Fontface fontfamily='$versionff'><Value>$version</Value></Fontface></Span>";
 $versionEN_TI = ($version == $versionE ? "" : "<Br /><Span language='English (USA)'><Fontface fontfamily='FF-VerE'><Value>$versionE</Value></Fontface></Span>" );
@@ -2428,6 +2431,8 @@ $tsize		= trim(!empty($forprint['TSIZE'])		? $forprint['TSIZE']		: $default['TSI
 $tleading	= trim(!empty($forprint['TLEADING'])	? $forprint['TLEADING']		: $default['TLEADING']		);
 $rsize		= trim(!empty($forprint['RSIZE'])		? $forprint['RSIZE']		: $default['RSIZE']			);
 $rleading	= trim(!empty($forprint['RLEADING'])	? $forprint['RLEADING']		: $default['RLEADING']		);
+$intext		= trim($forprint['ISIZE']);
+$inlead		= trim($forprint['ILEADING']);
 $size		= trim(!empty($forprint['SIZE'])		? $forprint['SIZE']			: $default['SIZE']			);
 $leading	= trim(!empty($forprint['LEADING'])		? $forprint['LEADING']		: $default['LEADING']		);
 $footsize	= trim(!empty($forprint['FOOTSIZE'])	? $forprint['FOOTSIZE']		: $default['FOOTSIZE']		);
@@ -2449,7 +2454,7 @@ $extension	= trim(!empty($forprint['EXTENSION'])	? "true()"					: "false()"					
 $bidi_center= ($rtl=="TRUE" ? 'bidi="yes" direction="rtl"' : '' );
 $bidi_title	= ($rtl=="TRUE" ? 'bidi="yes"' : '' );
 // fonts
-$fonts = AION_LOOP_PDF_POD_FONTS($font,$bsize,$bleading,$tsize,$tleading,$rsize,$rleading,$size,$leading,$numarialfont,$footsize,$backvl,$backtl,$backal,$backll,$headfont,$pixtext,$pixlead);
+$fonts = AION_LOOP_PDF_POD_FONTS($font,$bsize,$bleading,$tsize,$tleading,$rsize,$rleading,$size,$leading,$numarialfont,$footsize,$backvl,$backtl,$backal,$backll,$headfont,$pixtext,$pixlead,$intext,$inlead);
 // options
 $versionsMETA = "Holy Bible Aionian Edition, $versionE";
 $keywordsMETA = (empty($language) ? "English" : $language) . ", Holy Bible, Christian, Scriptures, Aionian, Aion, Aionios, eleese, Hades, Gehenna, Tartarus, Abyss, Lake of Fire, Aiōn, Aiōnios, eleēsē, Aïdios, Sheol, Hadēs, Geenna, Tartaroō, Abyssos, Limnē Pyr, Purple Bible, Untranslation";
@@ -2582,6 +2587,8 @@ $tsize		= trim(!empty($forprint['TSIZE'])		? $forprint['TSIZE']		: $default['TSI
 $tleading	= trim(!empty($forprint['TLEADING'])	? $forprint['TLEADING']		: $default['TLEADING']		);
 $rsize		= trim(!empty($forprint['RSIZE'])		? $forprint['RSIZE']		: $default['RSIZE']			);
 $rleading	= trim(!empty($forprint['RLEADING'])	? $forprint['RLEADING']		: $default['RLEADING']		);
+$intext		= trim($forprint['ISIZE']);
+$inlead		= trim($forprint['ILEADING']);
 $size		= trim(!empty($forprint['SIZE'])		? $forprint['SIZE']			: $default['SIZE']			);
 $leading	= trim(!empty($forprint['LEADING'])		? $forprint['LEADING']		: $default['LEADING']		);
 $footsize	= trim(!empty($forprint['FOOTSIZE'])	? $forprint['FOOTSIZE']		: $default['FOOTSIZE']		);
@@ -2695,7 +2702,7 @@ $w_purp	=
 // arial font for numbers, percents, hyphen, space
 if ($w_font=='FOREIGN' && (!($w_free=preg_replace("/([\-0-9:% ]{3,})/","</Value><Span language='English (USA)'><Fontface fontfamily='FF-Btex'><Value> $1 </Value></Fontface></Span><Value>",$w_free,-1,$count)) || $count>1)) { AION_ECHO("JEFF NOTICE! preg_replace(numbers)"); }
 // fonts
-$fonts = AION_LOOP_PDF_POD_FONTS($font,$bsize,$bleading,$tsize,$tleading,$rsize,$rleading,$size,$leading,$numarialfont,$footsize,$backvl,$backtl,$backal,$backll,$headfont,$pixtext,$pixlead);
+$fonts = AION_LOOP_PDF_POD_FONTS($font,$bsize,$bleading,$tsize,$tleading,$rsize,$rleading,$size,$leading,$numarialfont,$footsize,$backvl,$backtl,$backal,$backll,$headfont,$pixtext,$pixlead,$intext,$inlead);
 // options
 $versionsMETA = "Holy Bible Aionian Edition, $versionE";
 $keywordsMETA = (empty($language) ? "English" : $language) . ", Holy Bible, Christian, Scriptures, Aionian, Aion, Aionios, eleese, Hades, Gehenna, Tartarus, Abyss, Lake of Fire, Aiōn, Aiōnios, eleēsē, Aïdios, Sheol, Hadēs, Geenna, Tartaroō, Abyssos, Limnē Pyr, Purple Bible, Untranslation";
@@ -3191,7 +3198,7 @@ EOT;
 
 
 /*** LAYOUT POD */
-function AION_LOOP_PDF_POD_FONTS($font,$bsize,$bleading,$tsize,$tleading,$rsize,$rleading,$size,$leading,$numarialfont,$fsize,$backvl,$backtl,$backal,$backll,$headfont,$pixtext,$pixlead) {
+function AION_LOOP_PDF_POD_FONTS($font,$bsize,$bleading,$tsize,$tleading,$rsize,$rleading,$size,$leading,$numarialfont,$fsize,$backvl,$backtl,$backal,$backll,$headfont,$pixtext,$pixlead,$intext,$inlead) {
 
 $loadfontfile = (
 // Arabic
@@ -3479,6 +3486,11 @@ $pixtext2	= (empty($pixtext) ? "9" : $pixtext);
 $pixlead2	= (empty($pixlead) ? "13" : $pixlead);
 $maptext	= (empty($pixtext) ? "9" : $pixtext);
 $maplead	= (empty($pixlead) ? "12" : $pixlead);
+
+// calculate <Initial> font size from the body text leading, per Claude
+$intext = floor(1.45 * (float)$leading * 2) / 2;	// round down to nearest 0.5
+$intext = max(14.0, min(18.0, $intext));			// max 18, min 14
+$inlead = ($inlead ? $leading : '1');
 	
 return <<<EOT
 <!-- LOAD FONT -->
@@ -3524,7 +3536,7 @@ $loadfontfile
 <DefineFontfamily name="FF-TOCS" fontsize="$tsize"	leading="$tleading"	><Regular fontface="FB-REGU"/><Bold fontface="FB-BOLD"/><Italic fontface="FB-ITAL"/><BoldItalic fontface="FB-BOIT"/></DefineFontfamily>
 <DefineFontfamily name="FF-TNUM" fontsize="$tsize"	leading="$tleading"	><Regular fontface="FT-REGU"/><Bold fontface="FT-BOLD"/><Italic fontface="FT-ITAL"/><BoldItalic fontface="FT-BOIT"/></DefineFontfamily>
 <DefineFontfamily name="FF-Book" fontsize="$bsize"	leading="$bleading"	><Regular fontface="FB-BOLD"/><Bold fontface="FB-BOLD"/><Italic fontface="FB-BOIT"/><BoldItalic fontface="FB-BOIT"/></DefineFontfamily>
-<DefineFontfamily name="FF-Init" fontsize="18"		leading="18"		>$initfont</DefineFontfamily>
+<DefineFontfamily name="FF-Init" fontsize="$intext"	leading="$inlead"	>$initfont</DefineFontfamily>
 <DefineFontfamily name="FF-Bibl" fontsize="$size"	leading="$leading"	><Regular fontface="FB-REGU"/><Bold fontface="FB-BOLD"/><Italic fontface="FB-ITAL"/><BoldItalic fontface="FB-BOIT"/></DefineFontfamily>
 <DefineFontfamily name="FF-Bnot" fontsize="$nsize"	leading="$leading"	><Regular fontface="FT-REGU"/><Bold fontface="FT-BOLD"/><Italic fontface="FT-ITAL"/><BoldItalic fontface="FT-BOIT"/></DefineFontfamily>
 <DefineFontfamily name="FF-Bnum" fontsize="$nsize"	leading="$leading"	>$numbfont</DefineFontfamily>
