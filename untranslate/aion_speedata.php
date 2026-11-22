@@ -205,7 +205,7 @@ function AION_LOOP_PDF_POD($source, $destiny) {
 		'q_pdfoo'	=> TRUE,	// TRUE = do One Online PDFs
 		'q_pdfjo'	=> TRUE,	// TRUE = do John PDFs
 		'q_epubc'	=> TRUE,	// TRUE = do ePub and covers
-		//'include'	=> "/Holy-Bible---.*(Arabic|Syriac-Peshitta|Persian|Sorani-Bible|Urdu-Free-Contemporary|Hebrew).*---Aionian-Edition\.noia$/",
+		//'include'	=> "/Holy-Bible---.*(Tamil).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Uyghur-Bible-Arabic|Arabic-Van-Dyck-Bible|Hebrew-Westminster-Leningrad).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(English---Aionian-Bible|Old-Persian-Version-Bible|Arabic-Van-Dyck-Bible).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---Spanish---Free-for-the-World---Aionian-Edition\.noia$/",
