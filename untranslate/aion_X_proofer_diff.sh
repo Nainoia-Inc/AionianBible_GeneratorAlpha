@@ -32,6 +32,7 @@ foreach($files as $file) {
 $files = array_diff(scandir('../www-stageresources'), array('.', '..'));
 foreach($files as $file) {
 	if (!preg_match("#---Aionian-Edition\.pdf$#",$file)) { continue; }
+	//if (!preg_match("#(Aionian-Bible|Berean|Arabic|Persian)#",$file)) { continue; }
 	//if (preg_match("#^(Holy-Bible---[A-R]+.+)#",$file)) { continue; } // skip some if needed
 	//if (preg_match("#^(Holy-Bible---[A-D].+|Holy-Bible---English---[A-R].+)#",$file)) { continue; } // skip some if needed
 	//if (!preg_match("#^Holy-Bible---(Bul|Bwi|[C-Z]+)#",$file)) { continue; }
