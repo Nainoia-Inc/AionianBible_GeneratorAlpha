@@ -22,7 +22,7 @@ $files = glob('./Holy-Bible---*---Aionian-Edition.pdf');
 if (empty($files)) { exit("No PDF files found.\n"); }
 foreach($files as $file) {
 	//setup
-	$numb = "11";
+	$numb = "5";
 	$filesize += filesize($file);
 	// build queue
 	$savet = $tag;

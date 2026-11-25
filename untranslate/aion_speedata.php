@@ -198,14 +198,14 @@ function AION_LOOP_PDF_POD($source, $destiny) {
 		'q_rtlhuh'	=> 'ALL',	// 'RTL' = RTL only,  'RTLNO' = Skip RTL, 'ALL' = all
 		'q_allall'	=> TRUE,	// TRUE = do all bibles not marked FALSE -OR- FALSE = do all bibles marked TRUE
 		'q_pdfall'	=> TRUE,	// TRUE = do ALL PDFs
-		'q_pdfpo'	=> TRUE,	// TRUE = do KDP PDFs
-		'q_pdfnt'	=> TRUE,	// TRUE = do KDP NT PDFs
-		'q_pdflu'	=> TRUE,	// TRUE = do LULU PDFs
-		'q_pdfon'	=> TRUE,	// TRUE = do Online PDFs
-		'q_pdfoo'	=> TRUE,	// TRUE = do One Online PDFs
-		'q_pdfjo'	=> TRUE,	// TRUE = do John PDFs
+		'q_pdfpo'	=> FALSE,	// TRUE = do KDP PDFs
+		'q_pdfnt'	=> FALSE,	// TRUE = do KDP NT PDFs
+		'q_pdflu'	=> FALSE,	// TRUE = do LULU PDFs
+		'q_pdfon'	=> FALSE,	// TRUE = do Online PDFs
+		'q_pdfoo'	=> FALSE,	// TRUE = do One Online PDFs
+		'q_pdfjo'	=> FALSE,	// TRUE = do John PDFs
 		'q_epubc'	=> TRUE,	// TRUE = do ePub and covers
-		//'include'	=> "/Holy-Bible---.*(Tamil).*---Aionian-Edition\.noia$/",
+		//'include'	=> "/Holy-Bible---.*(Hausa).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Uyghur-Bible-Arabic|Arabic-Van-Dyck-Bible|Hebrew-Westminster-Leningrad).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(English---Aionian-Bible|Old-Persian-Version-Bible|Arabic-Van-Dyck-Bible).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---Spanish---Free-for-the-World---Aionian-Edition\.noia$/",
@@ -240,7 +240,7 @@ function AION_LOOP_PDF_POD_DOIT($args) {
 	if ($versions['DOWNLOAD']=='N') { AION_ECHO("WARN! $bible DOWNLOAD=N"); return; }
 	$forprint = $args['database']['T_FORPRINT'][$bible];
 	if ($forprint['NOPDO']=="TRUE") {
-		if ($args['q_allall']) { $args['q_pdfon'] = TRUE; }
+		if ($args['q_pdfall']) { $args['q_pdfon'] = TRUE; }
 		$args['q_pdfall'] = $args['q_pdfpo'] = $args['q_pdfnt'] = $args['q_pdflu'] = FALSE;
 	}
 	//if ($forprint['YESJOHN']!="TRUE") { return; }
