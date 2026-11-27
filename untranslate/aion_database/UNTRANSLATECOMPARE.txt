@@ -1,6 +1,6 @@
 # File Name: UNTRANSLATECOMPARE.txt
 # File Size: 41222081    
-# File Date: 11/23/2026 23:21:36
+# File Date: 11/27/2026 15:28:15
 # File Purpose: Supporting resource for the Aionian Bible project
 # File Location: https://resources.AionianBible.org
 # File Copyright: Creative Commons Attribution 4.0 International, 2018-2026

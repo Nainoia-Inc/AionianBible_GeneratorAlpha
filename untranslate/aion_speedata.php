@@ -197,19 +197,19 @@ function AION_LOOP_PDF_POD($source, $destiny) {
 		'q_onebook'	=> FALSE,	// TRUE = only do first bible book, otherwise all
 		'q_rtlhuh'	=> 'ALL',	// 'RTL' = RTL only,  'RTLNO' = Skip RTL, 'ALL' = all
 		'q_allall'	=> TRUE,	// TRUE = do all bibles not marked FALSE -OR- FALSE = do all bibles marked TRUE
-		'q_pdfall'	=> FALSE,	// TRUE = do ALL PDFs
+		'q_pdfall'	=> TRUE,	// TRUE = do ALL PDFs
 		'q_pdfpo'	=> FALSE,	// TRUE = do KDP PDFs
 		'q_pdfnt'	=> FALSE,	// TRUE = do KDP NT PDFs
 		'q_pdflu'	=> FALSE,	// TRUE = do LULU PDFs
-		'q_pdfon'	=> TRUE,	// TRUE = do Online PDFs
+		'q_pdfon'	=> FALSE,	// TRUE = do Online PDFs
 		'q_pdfoo'	=> FALSE,	// TRUE = do One Online PDFs
 		'q_pdfjo'	=> FALSE,	// TRUE = do John PDFs
 		'q_epubc'	=> TRUE,	// TRUE = do ePub and covers
-		'include'	=> "/Holy-Bible---.*(Sanskrit---Tamil-Script).*---Aionian-Edition\.noia$/",
+		//'include'	=> "/Holy-Bible---.*(Sanskrit---Tamil-Script).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Uyghur-Bible-Arabic|Arabic-Van-Dyck-Bible|Hebrew-Westminster-Leningrad).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(English---Aionian-Bible|Old-Persian-Version-Bible|Arabic-Van-Dyck-Bible).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---Spanish---Free-for-the-World---Aionian-Edition\.noia$/",
-		//'include'	=> "/---Aionian-Edition\.noia$/",
+		'include'	=> "/---Aionian-Edition\.noia$/",
 		'database'	=> $database,
 		'destiny'	=> $destiny,
 		'verses66'	=> $verses66,
