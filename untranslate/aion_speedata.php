@@ -197,19 +197,19 @@ function AION_LOOP_PDF_POD($source, $destiny) {
 		'q_onebook'	=> FALSE,	// TRUE = only do first bible book, otherwise all
 		'q_rtlhuh'	=> 'ALL',	// 'RTL' = RTL only,  'RTLNO' = Skip RTL, 'ALL' = all
 		'q_allall'	=> TRUE,	// TRUE = do all bibles not marked FALSE -OR- FALSE = do all bibles marked TRUE
-		'q_pdfall'	=> TRUE,	// TRUE = do ALL PDFs
+		'q_pdfall'	=> FALSE,	// TRUE = do ALL PDFs
 		'q_pdfpo'	=> FALSE,	// TRUE = do KDP PDFs
 		'q_pdfnt'	=> FALSE,	// TRUE = do KDP NT PDFs
 		'q_pdflu'	=> FALSE,	// TRUE = do LULU PDFs
-		'q_pdfon'	=> FALSE,	// TRUE = do Online PDFs
+		'q_pdfon'	=> TRUE,	// TRUE = do Online PDFs
 		'q_pdfoo'	=> FALSE,	// TRUE = do One Online PDFs
 		'q_pdfjo'	=> FALSE,	// TRUE = do John PDFs
 		'q_epubc'	=> TRUE,	// TRUE = do ePub and covers
-		//'include'	=> "/Holy-Bible---.*(Hausa).*---Aionian-Edition\.noia$/",
+		'include'	=> "/Holy-Bible---.*(Sanskrit---Tamil-Script).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(Uyghur-Bible-Arabic|Arabic-Van-Dyck-Bible|Hebrew-Westminster-Leningrad).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---.*(English---Aionian-Bible|Old-Persian-Version-Bible|Arabic-Van-Dyck-Bible).*---Aionian-Edition\.noia$/",
 		//'include'	=> "/Holy-Bible---Spanish---Free-for-the-World---Aionian-Edition\.noia$/",
-		'include'	=> "/---Aionian-Edition\.noia$/",
+		//'include'	=> "/---Aionian-Edition\.noia$/",
 		'database'	=> $database,
 		'destiny'	=> $destiny,
 		'verses66'	=> $verses66,
@@ -876,39 +876,39 @@ return $text;
 }
 function hyperlink(&$text, $notedlink="") {
 	$text = preg_replace("#<U><Value>eBible.or</Value></U><Value>g</Value>#",
-		"<A href='https://ebible.org'><U><Value>eBible.or</Value></U><Value>g</Value></A>", $text);
+		"<A href='https://ebible.org' description='eBible.org'><U><Value>eBible.or</Value></U><Value>g</Value></A>", $text);
 	$text = preg_replace("#<U><Value>unbound.Biola.edu</Value></U>#",
-		"<A href='https://unbound.biola.edu'><U><Value>unbound.Biola.edu</Value></U></A>", $text);
+		"<A href='https://unbound.biola.edu' description='unbound.biola.edu'><U><Value>unbound.Biola.edu</Value></U></A>", $text);
 	$text = preg_replace("#<U><Value>Crosswire.or</Value></U><Value>g</Value>#",
-		"<A href='https://crosswire.org'><U><Value>Crosswire.or</Value></U><Value>g</Value></A>", $text);
+		"<A href='https://crosswire.org' description='crosswire.org'><U><Value>Crosswire.or</Value></U><Value>g</Value></A>", $text);
 	$text = preg_replace("#<U><Value>NHEB.net</Value></U>#",
-		"<A href='https://nheb.net/'><U><Value>NHEB.net</Value></U></A>", $text);
+		"<A href='https://nheb.net/' description='new heart english bible .net'><U><Value>NHEB.net</Value></U></A>", $text);
 	$text = preg_replace("#<U><Value>Bible4u.net</Value></U>#",
-		"<A href='https://bible4u.net/'><U><Value>Bible4u.net</Value></U></A>", $text);
+		"<A href='https://bible4u.net/' description='bible for you .net'><U><Value>Bible4u.net</Value></U></A>", $text);
 	$text = preg_replace("#<U><Value>CoolCup.or</Value></U><Value>g</Value>#",
-		"<A href='https://CoolCup.org/'><U><Value>CoolCup.or</Value></U><Value>g</Value></A>", $text);
+		"<A href='https://CoolCup.org/' description='Cool Cup .org'><U><Value>CoolCup.or</Value></U><Value>g</Value></A>", $text);
 	$text = preg_replace("#<U><Value>creativecommons.or</Value></U><Value>g</Value><U><Value>/licenses/b</Value></U><Value>y</Value><U><Value>/4.0</Value></U>#",
-		"<A href='https://creativecommons.org/licenses/by/4.0/'><U><Value>creativecommons.or</Value></U><Value>g</Value><U><Value>/licenses/b</Value></U><Value>y</Value><U><Value>/4.0</Value></U></A>", $text);
+		"<A href='https://creativecommons.org/licenses/by/4.0/' description='Creative Commons Attribution license 4.0'><U><Value>creativecommons.or</Value></U><Value>g</Value><U><Value>/licenses/b</Value></U><Value>y</Value><U><Value>/4.0</Value></U></A>", $text);
 	// extra space added BELOW to prevent overlap replace
 	$text = preg_replace("#<U><Value>AionianBible.or</Value></U><Value>g</Value><U><Value>/History</Value></U>#",
-		"<A href='https://www.AionianBible.org/History'><U> <Value>AionianBible.or</Value></U><Value>g</Value><U><Value>/History</Value></U></A>", $text);
+		"<A href='https://www.AionianBible.org/History' description='History'><U> <Value>AionianBible.or</Value></U><Value>g</Value><U><Value>/History</Value></U></A>", $text);
 	$text = preg_replace("#<U><Value>AionianBible.or</Value></U><Value>g</Value><U><Value>/Preface</Value></U>#",
-		"<A href='https://www.AionianBible.org/Preface'><U> <Value>AionianBible.or</Value></U><Value>g</Value><U><Value>/Preface</Value></U></A>", $text);
+		"<A href='https://www.AionianBible.org/Preface' description='Preface'><U> <Value>AionianBible.or</Value></U><Value>g</Value><U><Value>/Preface</Value></U></A>", $text);
 	$text = preg_replace("#<U><Value>AionianBible.or</Value></U><Value>g</Value><U><Value>/Aionios-and-Aidios</Value></U>#",
-		"<A href='https://www.AionianBible.org/Aionios-and-Aidios'><U> <Value>AionianBible.or</Value></U><Value>g</Value><U><Value>/Aionios-and-Aidios</Value></U></A>", $text);
+		"<A href='https://www.AionianBible.org/Aionios-and-Aidios' description='Aiōnios and Aïdios'><U> <Value>AionianBible.or</Value></U><Value>g</Value><U><Value>/Aionios-and-Aidios</Value></U></A>", $text);
 	$text = preg_replace("#<U><Value>AionianBible.or</Value></U><Value>g</Value><U><Value>/Readers-Guide</Value></U>#",
-		"<A href='https://www.aionianbible.org/Readers-Guide'><U> <Value>AionianBible.or</Value></U><Value>g</Value><U><Value>/Readers-Guide</Value></U></A>", $text);
+		"<A href='https://www.aionianbible.org/Readers-Guide' description='Readers Guide'><U> <Value>AionianBible.or</Value></U><Value>g</Value><U><Value>/Readers-Guide</Value></U></A>", $text);
 	$text = preg_replace("#<U><Value>AionianBible.or</Value></U><Value>g</Value><U><Value>/Glossar</Value></U><Value>y</Value>#",
-		"<A href='https://www.aionianbible.org/Glossary'><U> <Value>AionianBible.or</Value></U><Value>g</Value><U><Value>/Glossar</Value></U><Value>y</Value></A>", $text);
+		"<A href='https://www.aionianbible.org/Glossary' description='Glossary'><U> <Value>AionianBible.or</Value></U><Value>g</Value><U><Value>/Glossar</Value></U><Value>y</Value></A>", $text);
 	if (!empty($notedlink)) {
 		$text = preg_replace("#<U><Value>AionianBible.or</Value></U><Value>g</Value><U><Value>/Bibles/English---Aionian-Bible/Noted</Value></U>#",
-			"<A href='$notedlink'><U ><Value>AionianBible.or</Value></U><Value>g</Value><U><Value>/Bibles/English---Aionian-Bible/Noted</Value></U></A>", $text);
+			"<A href='$notedlink' description='Annotated Verses'><U ><Value>AionianBible.or</Value></U><Value>g</Value><U><Value>/Bibles/English---Aionian-Bible/Noted</Value></U></A>", $text);
 	}
 	$text = preg_replace("#<U><Value>AionianBible.or</Value></U><Value>g</Value><U><Value>/Destiny</Value></U>#",
-		"<A href='https://www.AionianBible.org/Destiny'><U> <Value>AionianBible.or</Value></U><Value>g</Value><U><Value>/Destiny</Value></U></A>", $text);
+		"<A href='https://www.AionianBible.org/Destiny' description='Destiny'><U> <Value>AionianBible.or</Value></U><Value>g</Value><U><Value>/Destiny</Value></U></A>", $text);
 	// extra space added in all the ABOVE to prevent overlap replace following
 	$text = preg_replace("#<U><Value>AionianBible.or</Value></U><Value>g</Value>#",
-		"<A href='https://www.AionianBible.org'><U><Value>AionianBible.or</Value></U><Value>g</Value></A>", $text);
+		"<A href='https://www.AionianBible.org' description='Aionian Bible .org'><U><Value>AionianBible.or</Value></U><Value>g</Value></A>", $text);
 }
 
 
@@ -1029,6 +1029,7 @@ $w_free		= trim(!empty($forprint['W_FREE'])		? $forprint['W_FREE']		: $default['
 $w_aka		= trim(!empty($forprint['W_AKA'])		? $forprint['W_AKA']		: $default['W_AKA']			);
 $w_purp		= trim(!empty($forprint['W_PURP'])		? $forprint['W_PURP']		: $default['W_PURP']		);
 $w_nudge	= trim(!empty($forprint['W_NUDGE'])		? $forprint['W_NUDGE']		: $default['W_NUDGE']		);
+$w_budge	= trim(!empty($forprint['W_BUDGE'])		? $forprint['W_BUDGE']		: $default['W_BUDGE']		);
 // RTL EXTRAS
 $bidi_plain	= ($rtl=="TRUE" ? 'bidi="yes"' : '' );
 $bidi_center= ($rtl=="TRUE" ? 'bidi="yes" direction="rtl"' : '' );
@@ -1119,7 +1120,7 @@ $w_purp	=
 	: (!empty($w_purp)
 	? "<Span language='English (USA)'><Value> “ </Value></Span><Span $langspeed><Value>$w_purp</Value></Span><Span language='English (USA)'><Value> ”</Value></Span>"
 	: "<Span language='English (USA)'><Value> “ The Purple Bible ”</Value></Span>"))));
-$w_akapurp = (empty($w_purp) ? $w_aka : "$w_aka<Value> </Value>$w_purp");
+$w_akapurp = (empty($w_purp) ? $w_aka : "$w_aka".($w_budge ? "<Br />" : "<Value> </Value>")."$w_purp");
 // arial font for numbers, percents, hyphen, space
 if ($w_font=='FOREIGN' && (!($w_free=preg_replace("/([\-0-9:% ]{3,})/","</Value><Span language='English (USA)'><Fontface fontfamily='FF-Btex'><Value> $1 </Value></Fontface></Span><Value>",$w_free,-1,$count)) || $count>1)) { AION_ECHO("JEFF NOTICE! preg_replace(numbers)"); }
 // fix the preface and other headers
@@ -1145,11 +1146,11 @@ if (($format=="READ" || $format=="STUDY")) {
 	hyperlink($glos1);
 	hyperlink($glos3,"https://www.AionianBible.org/Bibles/$bibleurl/Noted");
 	hyperlink($loff);
-	$link_tor = "<A href='https://www.AionianBible.org/TOR'><U><Value>TOR Anonymousl</Value></U><Value>y</Value></A><Value> and </Value>";
-	$link_ab = "<A href='https://www.AionianBible.org'><U><Value>https://AionianBible.or</Value></U><Value>g</Value></A>";
-	$link_na = "<A href='https://Nainoia-Inc.signedon.net'><U><Value>https://Nainoia-Inc.si</Value></U><Value>g</Value><U><Value>nedon.net</Value></U></A>";
-	$link_cc = "<A href='https://CoolCup.org'><U><Value>https://CoolCup.or</Value></U><Value>g</Value></A>";
-	$link_tr = "<A href='https://www.AionianBible.org/Third-Party-Publisher-Resources'><U><Value>https://AionianBible.or</Value></U><Value>g</Value><U><Value>/Third-Part</Value></U><Value>y</Value><U><Value>-Publisher-Resources</Value></U></A>";
+	$link_tor = "<A href='https://www.AionianBible.org/TOR' description='The Onion Router link'><U><Value>TOR Anonymousl</Value></U><Value>y</Value></A><Value> and </Value>";
+	$link_ab = "<A href='https://www.AionianBible.org' description='Aionian Bible .org'><U><Value>https://AionianBible.or</Value></U><Value>g</Value></A>";
+	$link_na = "<A href='https://Nainoia-Inc.signedon.net' description='Nainoia-Inc.signedon.net'><U><Value>https://Nainoia-Inc.si</Value></U><Value>g</Value><U><Value>nedon.net</Value></U></A>";
+	$link_cc = "<A href='https://CoolCup.org' description='Cool Cup .org'><U><Value>https://CoolCup.or</Value></U><Value>g</Value></A>";
+	$link_tr = "<A href='https://www.AionianBible.org/Third-Party-Publisher-Resources' description='Third Party Publisher Resources'><U><Value>https://AionianBible.or</Value></U><Value>g</Value><U><Value>/Third-Part</Value></U><Value>y</Value><U><Value>-Publisher-Resources</Value></U></A>";
 }
 // adjust the Glossary Noted url
 if (!($glos3=preg_replace("#<Value>/Bibles/English---Aionian-Bible/Noted#","<Value>/Bibles/$bibleurl/Noted",$glos3,-1,$count)) || $count!=1) { AION_ECHO("ERROR! $bible: Glossary + preg_replace()"); }
@@ -2323,6 +2324,7 @@ $w_free		= trim(!empty($forprint['W_FREE'])		? $forprint['W_FREE']		: $default['
 $w_aka		= trim(!empty($forprint['W_AKA'])		? $forprint['W_AKA']		: $default['W_AKA']			);
 $w_purp		= trim(!empty($forprint['W_PURP'])		? $forprint['W_PURP']		: $default['W_PURP']		);
 $w_nudge	= trim(!empty($forprint['W_NUDGE'])		? $forprint['W_NUDGE']		: $default['W_NUDGE']		);
+$w_budge	= trim(!empty($forprint['W_BUDGE'])		? $forprint['W_BUDGE']		: $default['W_BUDGE']		);
 // RTL EXTRAS
 $bidi_right	= ($rtl=="TRUE" && !empty($w_free.$w_aka) ? 'bidi="yes" direction="rtl"' : '' ); // very kludgey thing to do, but RTL bibles with default English free and aka must set this to ''
 $bidi_title	= ($rtl=="TRUE" ? 'bidi="yes"' : '' );
@@ -2356,7 +2358,7 @@ $w_purp	=
 	: (!empty($w_purp)
 	? "<Span language='English (USA)'><Value> “ </Value></Span><Span $langspeed><Value>$w_purp</Value></Span><Span language='English (USA)'><Value> ”</Value></Span>"
 	: "<Span language='English (USA)'><Value> “ The Purple Bible ”</Value></Span>"))));
-$w_akapurp = (empty($w_purp) ? $w_aka : "$w_aka<Value> </Value>$w_purp");
+$w_akapurp = (empty($w_purp) ? $w_aka : "$w_aka".($w_budge ? "<Br />" : "<Value> </Value>")."$w_purp");
 // arial font for numbers, percents, hyphen, space
 if ($w_font=='FOREIGN' && (!($w_free=preg_replace("/([\-0-9:% ]{3,})/","</Value><Span language='English (USA)'><Fontface fontfamily='FF-Btex'><Value> $1 </Value></Fontface></Span><Value>",$w_free,-1,$count)) || $count>1)) { AION_ECHO("JEFF NOTICE! preg_replace(numbers)"); }
 // stuff
@@ -3527,7 +3529,7 @@ $loadfontfile
 <DefineFontfamily name="FF-Btex" fontsize="13"		leading="17"		><Regular fontface="FT-BOLD"/></DefineFontfamily>
 <DefineFontfamily name="FF-AioL" fontsize="50"		leading="$backll"	><Regular fontface="FT-IMPA"/></DefineFontfamily>
 <DefineFontfamily name="FF-AioX" fontsize="100"		leading="60"		><Regular fontface="FT-ALEX"/></DefineFontfamily>
-<DefineFontfamily name="FF-Tiny" fontsize="5"	leading="5"				><Regular fontface="FT-REGU"/><Bold fontface="FT-BOLD"/><Italic fontface="FT-ITAL"/><BoldItalic fontface="FT-BOIT"/></DefineFontfamily>
+<DefineFontfamily name="FF-Tiny" fontsize="5"		leading="5"			><Regular fontface="FT-REGU"/><Bold fontface="FT-BOLD"/><Italic fontface="FT-ITAL"/><BoldItalic fontface="FT-BOIT"/></DefineFontfamily>
 
 <!-- DEFINE FONT FOREIGN -->
 <DefineFontfamily name="FF-Vers" fontsize="20"		leading="30"		><Regular fontface="FB-BOLD"/><Bold fontface="FB-BOLD"/><Italic fontface="FB-BOIT"/><BoldItalic fontface="FB-BOIT"/></DefineFontfamily>
